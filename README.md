@@ -2,7 +2,7 @@
 
 | Student's name | SCIPER |
 | -------------- | ------ |
-| | |
+| Davit Martirosyan | 309563 |
 | | |
 | | |
 
