@@ -58,6 +58,14 @@ Radial histogram (https://datavizproject.com/data-type/radical-histogram/) to vi
 Graph (like this one: https://s3.amazonaws.com/dev.assets.neo4j.com/wp-content/uploads/example-viz.png) to visualize relationships between courses
 
 
+<div class="row">
+  <div class="column">
+    <img src="project_scheme_images/MainScreen.jpg" alt="Main Screen" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="project_scheme_images/ClassSelection.jpg" alt="Class Selection" style="width:100%">
+  </div>
+</div>
 
 
 ## Milestone 2 (Friday 1st May, 5pm)
