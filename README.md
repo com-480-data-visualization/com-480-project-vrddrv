@@ -54,8 +54,8 @@ Each student should complete a semester project
 No work has been done previously with this dataset, and our approach is original for two reasons – 1. EPFL doesn’t have the described platform for its students, and 2. we saw a few histograms, time series graphs of various student performance metrics, but we haven’t come across to a visualization like ours.
 
 Possible visualization techniques:
-Radial histogram (https://datavizproject.com/data-type/radical-histogram/) to visualize grades fro completed courses (interactive, of course ;))
-Graph (like this one: https://s3.amazonaws.com/dev.assets.neo4j.com/wp-content/uploads/example-viz.png) to visualize relationships between courses
+[Radial histogram](https://datavizproject.com/data-type/radical-histogram/) to visualize grades fro completed courses (interactive, of course ;))
+Graph (like [this one](https://s3.amazonaws.com/dev.assets.neo4j.com/wp-content/uploads/example-viz.png)) to visualize relationships between courses
 
 **2.5 Additional: Preliminary design sketch** 
 
