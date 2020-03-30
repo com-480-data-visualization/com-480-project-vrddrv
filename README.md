@@ -11,11 +11,13 @@
 ## Milestone 1 (Friday 3rd April, 5pm)
 
 **2.1 Dataset**  
+
 After careful consideration of possible data visualization projects that we could do based on standard datasets, we decided to take a different route by collecting our own data and building a website that shows a breakdown of selected EPFL courses for each semester for a student.
 Where do we get the data - a student uploads their grade transcript available on IS-Academia to our website, which we then parse to get the relevant data, e.g. grades for each course. In addition, we parse PDFs describing the courses to extract information about teacher, course description, and prerequisites.
 The only true challenge with this dataset is the pdf parsing otherwise the data is clean and ready to be used for visualization.
 
 **2.2 Problematic**  
+
 The motivation for this project came from our own experience of finding it difficult to quickly see the useful information within our grade transcripts:
 1. There is no way to compute the GPA other than manually, and each student does that when updating their CV
 2. Grade distribution at EPFL is very different compared to other universities and thus it is much better to put percentiles in CV (top 5% of students sounds much better than 5.5/6 GPA)
@@ -37,6 +39,7 @@ We plan to put all these components together into beautiful interactive visualiz
 We also realize that we should be careful providing class statistics to not violate anyone’s privacy. For this purpose, a student will always be asked if they want to include their information in course statistics and only then overall trends/distributions will be shown. 
 
 **2.3 Exploratory Data Analysis**  
+
 Due to specificity of task, we can’t provide explanatory statistics, because every user will see different visualizations. Instead of it, we state some general information about task that we going to include into our visualizations. Information for CS&DS master students:
 
 Each student should complete 30 core credits
