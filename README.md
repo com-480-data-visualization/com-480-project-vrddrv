@@ -19,9 +19,9 @@ The only true challenge with this dataset is the pdf parsing otherwise the data 
 **2.2 Problematic**  
 
 The motivation for this project came from our own experience of finding it difficult to quickly see the useful information within our grade transcripts:
-1. There is no way to compute the GPA other than manually, and each student does that when updating their CV
-2. Grade distribution at EPFL is very different compared to other universities and thus it is much better to put percentiles in CV (top 5% of students sounds much better than 5.5/6 GPA)
-3. It is not easy to track all the requirements of your program
+1. There is no way to compute the GPA other than manually, and each student does that when updating their CV.
+2. Grade distribution at EPFL is very different compared to other universities and thus it is much better to put percentiles in CV (top 5% of students sounds much better than 5.5/6 GPA). This information is not available at all.
+3. It is not easy to track all the requirements of your program.
 4. Because there isn’t any readily available course statistics over the years, it is very hard to get a sense of how easy/difficult the course is and where a student ranks based on their grade, etc.
 
 We want to provide a visual analytics platform for us and other EPFL students where they could see all information about their studies in one place. This could also be beneficial for the university lecturers to compare courses, see class dependencies, etc.
@@ -59,10 +59,15 @@ Graph (like this one: https://s3.amazonaws.com/dev.assets.neo4j.com/wp-content/u
 
 **2.5 Additional: Preliminary design sketch** 
 
+
 Main Screen          |  Class Selection Screen
 :-------------------------:|:-------------------------:
 ![](project_scheme_images/MainScreen.jpg)  |  ![](project_scheme_images/ClassSelection.jpg)
-
+ Circualr diagramm of your currently completed classes. |  General information about the class
+ GPA and number of taken creadits in the center         |  Distribution of grades
+ Columns represent classes, obtained grades and credits |  Graph of prerequisites
+ On the top rigth corner table of reqirements of the program (those which are met are colored in green) | Information about students who takes this class (which program, average GPA, year)
+ 
 
 
 
