@@ -66,7 +66,7 @@ Main Screen          |  Class Selection Screen
  Circualr diagramm of your currently completed classes. |  General information about the class
  GPA and number of taken creadits in the center         |  Distribution of grades
  Columns represent classes, obtained grades and credits |  Graph of prerequisites
- On the top rigth corner table of reqirements of the program (those which are met are colored in green) | Information about students who takes this class (which program, average GPA, year)
+ Table of requirements of the program on the top right corner  (those which are met are colored in green) | Information about students who takes this class (which program, average GPA, year)
  
 
 
