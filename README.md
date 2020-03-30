@@ -57,8 +57,10 @@ Possible visualization techniques:
 Radial histogram (https://datavizproject.com/data-type/radical-histogram/) to visualize grades fro completed courses (interactive, of course ;))
 Graph (like this one: https://s3.amazonaws.com/dev.assets.neo4j.com/wp-content/uploads/example-viz.png) to visualize relationships between courses
 
-<img src="project_scheme_images/MainScreen.jpg" alt="Main Screen" style="width:100%">
-<img src="project_scheme_images/ClassSelection.jpg" alt="Class Selection" style="width:100%">
+Main Screen          |  Class Selection Screen
+:-------------------------:|:-------------------------:
+![](project_scheme_images/MainScreen.jpg)  |  ![](project_scheme_images/ClassSelection.jpg)
+
 
 
 
