@@ -57,6 +57,29 @@ Possible visualization techniques:
 Radial histogram (https://datavizproject.com/data-type/radical-histogram/) to visualize grades fro completed courses (interactive, of course ;))
 Graph (like this one: https://s3.amazonaws.com/dev.assets.neo4j.com/wp-content/uploads/example-viz.png) to visualize relationships between courses
 
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+</head>
+<body>
 
 <div class="row">
   <div class="column">
@@ -66,6 +89,12 @@ Graph (like this one: https://s3.amazonaws.com/dev.assets.neo4j.com/wp-content/u
     <img src="project_scheme_images/ClassSelection.jpg" alt="Class Selection" style="width:100%">
   </div>
 </div>
+
+</body>
+</html>
+
+
+
 
 
 ## Milestone 2 (Friday 1st May, 5pm)
