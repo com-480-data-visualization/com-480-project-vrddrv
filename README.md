@@ -63,8 +63,8 @@ Graph (like [this one](https://s3.amazonaws.com/dev.assets.neo4j.com/wp-content/
 Main Screen          |  Class Selection Screen
 :-------------------------:|:-------------------------:
 ![](project_scheme_images/MainScreen.jpg)  |  ![](project_scheme_images/ClassSelection.jpg)
- Circualr diagramm of your currently completed classes. |  General information about the class
- GPA and number of taken creadits in the center         |  Distribution of grades
+ Circular diagram of currently completed classes. |  General information about the class
+ GPA and number of taken credits in the center         |  Distribution of grades
  Columns represent classes, obtained grades and credits |  Graph of prerequisites
  Table of requirements of the program on the top right corner  (those which are met are colored in green) | Information about students who takes this class (which program, average GPA, year)
  
