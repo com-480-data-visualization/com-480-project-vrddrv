@@ -154,9 +154,9 @@ class CircularPlot {
                           .innerRadius(CIRC_PLOT_RADIUS)
                           .cornerRadius(2)
                           .outerRadius((d) => d.grade * OUTER_PLOT_RADIUS / 6)
-                          .startAngle((d) => - d.creditsBefore * Math.PI / MAX_NUMBER_CREDITS)
+                          .startAngle((d) => - d.creditsBefore * 2 * Math.PI / MAX_NUMBER_CREDITS)
                           .endAngle((d) => - (d.creditsBefore + d.credits) 
-                                            * Math.PI / MAX_NUMBER_CREDITS);
+                                            * 2 * Math.PI / MAX_NUMBER_CREDITS);
 
     // Delete Everything from the plot
     d3.select('svg#plot > *').remove();
