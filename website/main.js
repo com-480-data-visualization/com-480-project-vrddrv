@@ -44,6 +44,7 @@ function extractDataFromPDF(pdfData) {
     pdfInstance.getPage(1).then( (pdfPage) => {
       pdfPage.getTextContent().then(function (textContent) {
 
+        // console.log(textContent.items);
         var parsedData = itemsPDFToDataInstance(textContent.items);
         
         console.log("Parsed data: ", parsedData)
@@ -138,7 +139,7 @@ class DropZone {
 
 class CircularPlot {
   constructor(data) {
-
+    console.log(data);
     // To make the plot more interesting
     // shuffleArray(data);
 
@@ -194,12 +195,27 @@ class CircularPlot {
             .attr('d', this.arcGenerator)
             .attr('transform', `translate(${CANVAS_WIDTH / 2}, ${CANVAS_HEIGHT / 2})`)
             .attr("class", (d) => "petal " + d.block)
-            .on('mouseover', function(d, i) {
+            .attr("id", function(d, i) { return "block_"+i; }) //Unique id for each slice
+            .on("click", function(d) {alert("You clicked on " +  d.name)})
+            .on('mouseover', function() {
               d3.select(this).attr('opacity', '0.8');
             })
-            .on('mouseout', function(d, i) {
+            .on('mouseout', function() {
               d3.select(this).attr('opacity', '1.0');
             });
+
+    // parseInt(d3.select(this).node().getBoundingClientRect().height)
+    // parseInt(d3.select(this).node().getBoundingClientRect().width)
+
+    circPlot.selectAll("text")
+        .data(data)
+        .enter().append('text')
+        .style("font-size", "3px")
+        .attr("dx", "35")
+        .attr("dy", "-5")
+        .append("textPath")
+        .attr("xlink:href",function(d,i) {return "#block_"+(i).toString();})
+        .text((d) => {return 'Course'});
     
     circPlot.attr('transform', `matrix(0,0,0,0,${CANVAS_WIDTH / 2},${CANVAS_HEIGHT / 2})`)
             .transition()
