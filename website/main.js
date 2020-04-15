@@ -62,7 +62,7 @@ function itemsPDFToDataInstance(itemsArray) {
   let classesData = [];
   let currentBlock;
 
-  for (let idx=0; idx < itemsArray.length; idx++) {
+  for (let idx = 0; idx < itemsArray.length; idx++) {
 
     // Keep track of current block
     if ( Object.keys(VALID_BLOCK_NAMES).includes(itemsArray[idx].str) ) {
@@ -122,7 +122,7 @@ class DropZone {
     dropZone.append('text')
             .attr('x', CANVAS_WIDTH / 2)
             .attr('y', CANVAS_HEIGHT / 2)
-            .text('Drop your Trancript here');
+            .text('Drop your Transcript here');
 
     dropZone.attr('ondrop', 'dropHandler(event)')
             .attr('ondragover', 'dragOverHandler(event)')
