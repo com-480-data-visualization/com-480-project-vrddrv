@@ -1,36 +1,37 @@
 * {
-	box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 /*
 Make the document fill the whole viewport, this overrides any weird defaults that browsers might have.
 */
-html, body, figure {
-	width: 100%;
-	padding: 0;
-	margin: 0;
-	border: 0;
+html,
+body,
+figure {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  border: 0;
 }
 
 /* Default font and size */
 body {
+  width: 100vw;
+  height: 100vh;
 
-	width: 100vw;
-	height: 100vh;
+  /* center vertically */
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-content: center;
 
-	/* center vertically */
-	display: flex;
-	flex-flow: row nowrap;
-	justify-content: center;
-	align-content: center;
+  /* background behind the plot */
+  background: rgb(40, 40, 40);
 
-	/* background behind the plot */
-	background: rgb(40, 40, 40);
-
-	/* default text */
-	font-family: sans-serif;
+  /* default text */
+  font-family: sans-serif;
   font-size: 0.3rem;
-  
+
   /* svg */
   text-anchor: middle;
   dominant-baseline: central;
@@ -39,7 +40,7 @@ body {
 #drop_zone rect {
   fill: gray;
   opacity: 0.5;
-  stroke-width:2;
+  stroke-width: 2;
   stroke: white;
 }
 
@@ -47,23 +48,30 @@ body {
   fill: white;
 }
 
-
 #circular_plot circle {
-  fill: burlywood;
+  fill: #b2a198;
 }
 
 #circular_plot text {
   fill: white;
 }
 
-#circular_plot .class_core {
+#circular_plot .class_core path {
   fill: green;
 }
 
-#circular_plot .class_optional {
+#circular_plot .class_optional path {
   fill: blue;
 }
 
-#circular_plot .class_shs {
+#circular_plot .class_shs path {
   fill: red;
+}
+
+.petals {
+  font-size: 6px;
+}
+
+#GPA {
+  font-size: 20px;
 }
