@@ -2,7 +2,7 @@
 
 const CANVAS_WIDTH = 200;
 const CANVAS_HEIGHT = 200;
-const TRANSITION_TIME_SCALE = 900;
+const TRANSITION_TIME_SCALE = 2000;
 
 const CIRC_PLOT_RADIUS = 40;
 const PETALS_LENGTH = 40;
@@ -153,11 +153,8 @@ class CircularPlot {
       .innerRadius(CIRC_PLOT_RADIUS)
       .cornerRadius(2)
       .outerRadius((d) => (d.grade / 6) * PETALS_LENGTH + CIRC_PLOT_RADIUS)
-      .startAngle((d) => (-d.creditsBefore * 2 * Math.PI) / MAX_NUMBER_CREDITS)
-      .endAngle(
-        (d) =>
-          (-(d.creditsBefore + d.credits) * 2 * Math.PI) / MAX_NUMBER_CREDITS
-      );
+      .startAngle(0)
+      .endAngle((d) => -((2 * Math.PI * d.credits) / MAX_NUMBER_CREDITS));
 
     // Delete Everything from the plot
     d3.select("svg#plot > *").remove();
@@ -165,33 +162,29 @@ class CircularPlot {
     let circPlot = d3
       .select("svg#plot")
       .append("g")
-      .attr("id", "circular_plot");
+      .attr("id", "circular_plot")
+      .attr(
+        "transform",
+        `translate(${CANVAS_WIDTH / 2}, ${CANVAS_HEIGHT / 2})`
+      );
 
     let сircPlotcore = circPlot.append("g").attr("id", "circular_plot_core");
 
-    сircPlotcore
-      .append("circle")
-      .attr("cx", CANVAS_WIDTH / 2)
-      .attr("cy", CANVAS_HEIGHT / 2)
-      .attr("r", CIRC_PLOT_RADIUS);
+    сircPlotcore.append("circle").attr("r", CIRC_PLOT_RADIUS);
 
     сircPlotcore
       .append("text")
-      .attr("x", CANVAS_WIDTH / 2)
-      .attr("y", CANVAS_HEIGHT / 2 - 15)
+      .attr("y", -15)
       .text("GPA");
 
     сircPlotcore
       .append("text")
       .attr("id", "GPA")
-      .attr("x", CANVAS_WIDTH / 2)
-      .attr("y", CANVAS_HEIGHT / 2)
       .text(this.gpa.toPrecision(3).toString());
 
     сircPlotcore
       .append("text")
-      .attr("x", CANVAS_WIDTH / 2)
-      .attr("y", CANVAS_HEIGHT / 2 + CIRC_PLOT_RADIUS / 2)
+      .attr("y", CIRC_PLOT_RADIUS / 2)
       .text(`Credits: ${this.total_credits.toString()} / ${MAX_NUMBER_CREDITS}`)
       .attr("style", "font-size: 5px");
 
@@ -219,11 +212,7 @@ class CircularPlot {
       .attr("id", function (d, i) {
         return "block_" + i;
       })
-      .attr("d", this.arcGenerator)
-      .attr(
-        "transform",
-        `translate(${CANVAS_WIDTH / 2}, ${CANVAS_HEIGHT / 2})`
-      );
+      .attr("d", this.arcGenerator);
 
     // TODO: create a class or smth to compute all these shifts
     petalsEnter
@@ -237,25 +226,29 @@ class CircularPlot {
       )
       .attr(
         "x",
-        (d) =>
-          CANVAS_WIDTH / 2 -
-          (((d.grade / 6) * PETALS_LENGTH) / 2 + CIRC_PLOT_RADIUS)
+        (d) => -(((d.grade / 6) * PETALS_LENGTH) / 2 + CIRC_PLOT_RADIUS)
       )
-      .attr("y", CANVAS_HEIGHT / 2)
       .attr(
         "transform",
         (d) =>
           `rotate(${
-            (90 -
-              360 *
-                (d.creditsBefore + d.credits / 2 - MAX_NUMBER_CREDITS / 4)) /
+            (90 - 360 * (d.credits / 2 - MAX_NUMBER_CREDITS / 4)) /
             MAX_NUMBER_CREDITS
-          }, 
-                  ${CANVAS_WIDTH / 2}, ${CANVAS_HEIGHT / 2})`
+          })`
       );
 
     // parseInt(d3.select(this).node().getBoundingClientRect().height)
     // parseInt(d3.select(this).node().getBoundingClientRect().width)
+
+    // Open Animations
+    petalsEnter
+      .attr("transform", `rotate(0)`)
+      .transition()
+      .duration(TRANSITION_TIME_SCALE)
+      .attr(
+        "transform",
+        (d) => `rotate(${(-360 * d.creditsBefore) / MAX_NUMBER_CREDITS})`
+      );
 
     circPlot
       .attr(
@@ -263,8 +256,11 @@ class CircularPlot {
         `matrix(0,0,0,0,${CANVAS_WIDTH / 2},${CANVAS_HEIGHT / 2})`
       )
       .transition()
-      .duration(TRANSITION_TIME_SCALE)
-      .attr("transform", "matrix(1,0,0,1,0,0)");
+      .duration(0.8 * TRANSITION_TIME_SCALE)
+      .attr(
+        "transform",
+        `matrix(1,0,0,1,${CANVAS_WIDTH / 2},${CANVAS_HEIGHT / 2})`
+      );
   }
 }
 
