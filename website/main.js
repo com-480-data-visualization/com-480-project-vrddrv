@@ -152,7 +152,7 @@ class CircularPlot {
       .arc()
       .innerRadius(CIRC_PLOT_RADIUS)
       .cornerRadius(2)
-      .outerRadius((d) => (d.grade / 6) * PETALS_LENGTH + CIRC_PLOT_RADIUS)
+      .outerRadius((d) => ((d.grade - 3) / 3) * PETALS_LENGTH + CIRC_PLOT_RADIUS)
       .startAngle(0)
       .endAngle((d) => -((2 * Math.PI * d.credits) / MAX_NUMBER_CREDITS));
 
@@ -226,7 +226,7 @@ class CircularPlot {
       )
       .attr(
         "x",
-        (d) => -(((d.grade / 6) * PETALS_LENGTH) / 2 + CIRC_PLOT_RADIUS)
+        (d) => -((( (d.grade - 3) / 3) * PETALS_LENGTH) / 2 + CIRC_PLOT_RADIUS)
       )
       .attr(
         "transform",
