@@ -134,10 +134,19 @@ class DropZone {
   }
 }
 
+function tweenNumbersTo(to, from = 0.1, process = d3.format(".3s")) {
+  return function (d) {
+    const i = d3.interpolate(from, to);
+    return function (t) {
+      return process((this._current = i(t)));
+    };
+  };
+}
+
 class CircularPlot {
   constructor(data) {
     // To make the plot more interesting
-    // shuffleArray(data);
+    shuffleArray(data);
 
     this.total_credits = 0; //data.reduce((v, t) => v + t.credits, 0);
     for (let idx = 0; idx < data.length; idx++) {
@@ -179,13 +188,14 @@ class CircularPlot {
     сircPlotcore
       .append("text")
       .attr("id", "GPA")
-      .text(this.gpa.toPrecision(3).toString());
+      .transition()
+      .duration(TRANSITION_TIME_SCALE)
+      .textTween(tweenNumbersTo(this.gpa));
 
     сircPlotcore
       .append("text")
       .attr("y", CIRC_PLOT_RADIUS / 2)
-      .text(`Credits: ${this.total_credits.toString()} / ${MAX_NUMBER_CREDITS}`)
-      .attr("style", "font-size: 5px");
+      .text(`Credits: ${this.total_credits} / ${MAX_NUMBER_CREDITS}`);
 
     // Create Petals
     let petalsEnter = circPlot
@@ -205,7 +215,13 @@ class CircularPlot {
           .transition()
           .duration(TRANSITION_TIME_SCALE / 20)
           .ease(d3.easeLinear)
-          .attr('transform', (d) => `scale(1.2, 1.2) rotate(${(-360 * d.creditsBefore) / MAX_NUMBER_CREDITS})`);
+          .attr(
+            "transform",
+            (d) =>
+              `scale(1.2, 1.2) rotate(${
+                (-360 * d.creditsBefore) / MAX_NUMBER_CREDITS
+              })`
+          );
       })
       .on("mouseout", function () {
         d3.select(this)
@@ -213,7 +229,10 @@ class CircularPlot {
           .transition()
           .duration(TRANSITION_TIME_SCALE / 20)
           .ease(d3.easeLinear)
-          .attr('transform', (d) => `rotate(${(-360 * d.creditsBefore) / MAX_NUMBER_CREDITS})`);
+          .attr(
+            "transform",
+            (d) => `rotate(${(-360 * d.creditsBefore) / MAX_NUMBER_CREDITS})`
+          );
       });
 
     petalsEnter
