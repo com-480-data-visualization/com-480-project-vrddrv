@@ -152,7 +152,9 @@ class CircularPlot {
       .arc()
       .innerRadius(CIRC_PLOT_RADIUS)
       .cornerRadius(2)
-      .outerRadius((d) => ((d.grade - 3) / 3) * PETALS_LENGTH + CIRC_PLOT_RADIUS)
+      .outerRadius(
+        (d) => ((d.grade - 3) / 3) * PETALS_LENGTH + CIRC_PLOT_RADIUS
+      )
       .startAngle(0)
       .endAngle((d) => -((2 * Math.PI * d.credits) / MAX_NUMBER_CREDITS));
 
@@ -172,10 +174,7 @@ class CircularPlot {
 
     сircPlotcore.append("circle").attr("r", CIRC_PLOT_RADIUS);
 
-    сircPlotcore
-      .append("text")
-      .attr("y", -15)
-      .text("GPA");
+    сircPlotcore.append("text").attr("y", -15).text("GPA");
 
     сircPlotcore
       .append("text")
@@ -200,11 +199,21 @@ class CircularPlot {
       .on("click", function (d) {
         alert("You clicked on " + d.name);
       })
-      .on("mouseover", function () {
-        d3.select(this).attr("opacity", "0.8");
+      .on("mouseover", function (d) {
+        d3.select(this)
+          .attr("opacity", "0.8")
+          .transition()
+          .duration(TRANSITION_TIME_SCALE / 20)
+          .ease(d3.easeLinear)
+          .attr('transform', (d) => `scale(1.2, 1.2) rotate(${(-360 * d.creditsBefore) / MAX_NUMBER_CREDITS})`);
       })
       .on("mouseout", function () {
-        d3.select(this).attr("opacity", "1.0");
+        d3.select(this)
+          .attr("opacity", "1.0")
+          .transition()
+          .duration(TRANSITION_TIME_SCALE / 20)
+          .ease(d3.easeLinear)
+          .attr('transform', (d) => `rotate(${(-360 * d.creditsBefore) / MAX_NUMBER_CREDITS})`);
       });
 
     petalsEnter
@@ -226,7 +235,7 @@ class CircularPlot {
       )
       .attr(
         "x",
-        (d) => -((( (d.grade - 3) / 3) * PETALS_LENGTH) / 2 + CIRC_PLOT_RADIUS)
+        (d) => -((((d.grade - 3) / 3) * PETALS_LENGTH) / 2 + CIRC_PLOT_RADIUS)
       )
       .attr(
         "transform",
