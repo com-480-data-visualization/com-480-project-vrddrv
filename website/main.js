@@ -208,6 +208,15 @@ class CircularPlot {
     petalsEnter
       .on("click", function (d) {
         alert("You clicked on " + d.name);
+        // var queryString = "?para1=" + d.name + "&para2=" + d.grade;
+        // window.location.href = "class_selection.html" + queryString;
+
+      d3.select('circle')
+          .transition()
+          .duration(TRANSITION_TIME_SCALE)
+          .attr("cx", 120)
+          .attr("cy", 60);
+
       })
       .on("mouseover", function (d) {
         d3.select(this)

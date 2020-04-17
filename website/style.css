@@ -49,7 +49,7 @@ body {
 }
 
 #circular_plot circle {
-  fill: #b2a198;
+  fill: orange;
 }
 
 #circular_plot text {
