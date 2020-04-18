@@ -1,4 +1,11 @@
-"use strict";
+'use strict';
+
+
+import * as d3 from 'd3';
+
+
+import '../styles/index.scss';
+
 
 const CANVAS_WIDTH = 200;
 const CANVAS_HEIGHT = 200;
@@ -16,22 +23,22 @@ const VALID_BLOCK_NAMES = {
 };
 const VALID_SESSION_DATES = ["02.2020", "02.2019"];
 
-function dragOverHandler(ev) {
-  ev.preventDefault(); // Prevents file from being opened on drop
+function dragOverHandler() {
+  d3.event.preventDefault(); // Prevents file from being opened on drop
 }
 
 function dropHandler(ev) {
-  ev.preventDefault();
+  d3.event.preventDefault();
 
-  if (ev.dataTransfer.items && ev.dataTransfer.items[0].kind === "file") {
-    var file = ev.dataTransfer.items[0].getAsFile();
+  if (d3.event.dataTransfer.items && d3.event.dataTransfer.items[0].kind === "file") {
+    var file = d3.event.dataTransfer.items[0].getAsFile();
     file.text().then(extractDataFromPDF);
   }
 }
 
 function extractDataFromPDF(pdfData) {
-  var pdfjsLib = window["pdfjs-dist/build/pdf"];
-  pdfjsLib.GlobalWorkerOptions.workerSrc = "lib/pdf.worker.js";
+  var pdfjsLib = window['pdfjs-dist/build/pdf'];
+  pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.4.456/pdf.worker.js';
 
   // Load binary data from the obtained file
   var loadingTask = pdfjsLib.getDocument({ data: pdfData });
@@ -123,8 +130,8 @@ class DropZone {
       .text("Drop your Transcript here");
 
     dropZone
-      .attr("ondrop", "dropHandler(event)")
-      .attr("ondragover", "dragOverHandler(event)")
+      .on("drop", dropHandler)
+      .on("dragover", dragOverHandler)
       .on("mouseover", function (d, i) {
         d3.select(this).attr("opacity", "0.8");
       })
