@@ -9,10 +9,10 @@ import "../styles/index.scss";
 
 const CANVAS_WIDTH = 200;
 const CANVAS_HEIGHT = 200;
-const TRANSITION_TIME_SCALE = 2000;
+const TRANSITION_TIME_SCALE = 1000;
 
-const CIRC_PLOT_RADIUS = 40;
-const PETALS_LENGTH = 40;
+const CIRC_PLOT_RADIUS = 30;
+const PETALS_LENGTH = 60;
 
 //TODO: 120 should be parsed
 const MAX_NUMBER_CREDITS = 120;

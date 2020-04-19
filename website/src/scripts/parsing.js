@@ -6,7 +6,7 @@ pdfjsLib.GlobalWorkerOptions.workerSrc =
 
 const VALID_BLOCK_NAMES = {
   "Group 1": "class_core",
-  Options: "class_optional",
+  "Options": "class_optional",
   'SHS"': "class_shs",
 };
 const VALID_SESSION_DATES = ["02.2020", "02.2019"];

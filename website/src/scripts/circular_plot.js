@@ -1,6 +1,7 @@
 "use strict";
 
 import * as d3 from "d3";
+import { schemeSet3 } from "d3";
 
 export class CircularPlot {
   constructor(
@@ -21,38 +22,42 @@ export class CircularPlot {
     this.maxNumberCredits = maxNumberCredits;
     // To make the plot more interesting
     shuffleArray(this.data);
+    this.startAngle = 0;
+    this.centerX = canvasWidth / 2;
+    this.centerY = canvasHeight / 2;
+    this.mouseEventsEnabled = true;
 
-    this.draw();
+    this.calcStats();
+    this.initializePlot();
   }
 
-  draw() {
-    let data = this.data;
-    let canvasWidth = this.canvasWidth;
-    let canvasHeight = this.canvasHeight;
-    let transitionTimeScale = this.transitionTimeScale;
-    let circPlotRadius = this.circPlotRadius;
-    let petalsLength = this.petalsLength;
-    let maxNumberCredits = this.maxNumberCredits;
-
+  calcStats() {
     this.total_credits = 0; //data.reduce((v, t) => v + t.credits, 0);
-    for (let idx = 0; idx < data.length; idx++) {
-      data[idx].creditsBefore = this.total_credits;
-      this.total_credits += data[idx].credits;
+    for (let idx = 0; idx < this.data.length; idx++) {
+      this.data[idx].creditsBefore = this.total_credits;
+      this.total_credits += this.data[idx].credits;
     }
 
     this.gpa =
-      data.reduce((t, v) => t + v.credits * v.grade, 0) /
+      this.data.reduce((t, v) => t + v.credits * v.grade, 0) /
       this.total_credits;
+  }
 
-    this.arcGenerator = d3
+  initializePlot() {
+    let _this = this;
+
+    let arcGenerator = d3
       .arc()
-      .innerRadius(circPlotRadius)
+      .innerRadius(_this.circPlotRadius)
       .cornerRadius(2)
       .outerRadius(
-        (d) => ((d.grade - 3) / 3) * petalsLength + circPlotRadius
+        (d) => ((d.grade - 3) / 3) * _this.petalsLength + _this.circPlotRadius
       )
-      .startAngle(0)
-      .endAngle((d) => -((2 * Math.PI * d.credits) / maxNumberCredits));
+      .startAngle(_this.startAngle)
+      .endAngle(
+        (d) =>
+          _this.startAngle - (2 * Math.PI * d.credits) / _this.maxNumberCredits
+      );
 
     // Delete Everything from the plot
     d3.select("svg#plot > *").remove();
@@ -61,14 +66,11 @@ export class CircularPlot {
       .select("svg#plot")
       .append("g")
       .attr("id", "circular_plot")
-      .attr(
-        "transform",
-        `translate(${canvasWidth / 2}, ${canvasHeight / 2})`
-      );
+      .attr("transform", `translate(${_this.centerX}, ${_this.centerY})`);
 
     let сircPlotcore = circPlot.append("g").attr("id", "circular_plot_core");
 
-    сircPlotcore.append("circle").attr("r", circPlotRadius);
+    сircPlotcore.append("circle").attr("r", _this.circPlotRadius);
 
     сircPlotcore.append("text").attr("y", -15).text("GPA");
 
@@ -76,68 +78,31 @@ export class CircularPlot {
       .append("text")
       .attr("id", "GPA")
       .transition()
-      .duration(transitionTimeScale)
-      .textTween(tweenNumbersTo(this.gpa));
+      .duration(_this.transitionTimeScale)
+      .textTween(tweenNumbersTo(_this.gpa));
 
     сircPlotcore
       .append("text")
-      .attr("y", circPlotRadius / 2)
-      .text(`Credits: ${this.total_credits} / ${maxNumberCredits}`);
+      .attr("y", _this.circPlotRadius / 2)
+      .text(`Credits: ${_this.total_credits} / ${_this.maxNumberCredits}`);
 
     // Create Petals
     let petalsEnter = circPlot
       .selectAll(".petal")
-      .data(data)
+      .data(_this.data)
       .enter()
       .append("g")
       .attr("class", (d) => "petal " + d.block);
 
-    petalsEnter
-      .on("click", function (d) {
-        alert("You clicked on " + d.name);
-        // var queryString = "?para1=" + d.name + "&para2=" + d.grade;
-        // window.location.href = "class_selection.html" + queryString;
-
-        d3.select("circle")
-          .transition()
-          .duration(transitionTimeScale)
-          .attr("cx", 120)
-          .attr("cy", 60);
-      })
-      .on("mouseover", function (d) {
-        d3.select(this)
-          .attr("opacity", "0.8")
-          .transition()
-          .duration(transitionTimeScale / 20)
-          .ease(d3.easeLinear)
-          .attr(
-            "transform",
-            (d) =>
-              `scale(1.2, 1.2) rotate(${
-                (-360 * d.creditsBefore) / maxNumberCredits
-              })`
-          );
-      })
-      .on("mouseout", function () {
-        d3.select(this)
-          .attr("opacity", "1.0")
-          .transition()
-          .duration(transitionTimeScale / 20)
-          .ease(d3.easeLinear)
-          .attr(
-            "transform",
-            (d) => `rotate(${(-360 * d.creditsBefore) / maxNumberCredits})`
-          );
-      });
+    this.setPetalCallbacks();
 
     petalsEnter
       .append("path")
       .attr("id", function (d, i) {
         return "block_" + i;
       })
-      .attr("d", this.arcGenerator);
+      .attr("d", arcGenerator);
 
-    // TODO: create a class or smth to compute all these shifts
     petalsEnter
       .append("text")
       .text((d) =>
@@ -150,14 +115,18 @@ export class CircularPlot {
       .attr(
         "x",
         (d) =>
-          -((((d.grade - 3) / 3) * petalsLength) / 2 + circPlotRadius)
+          -(
+            (((d.grade - 3) / 3) * _this.petalsLength) / 2 +
+            _this.circPlotRadius
+          )
       )
       .attr(
         "transform",
         (d) =>
           `rotate(${
-            (90 - 360 * (d.credits / 2 - maxNumberCredits / 4)) /
-            maxNumberCredits
+            (_this.startAngle * 180) / Math.PI +
+            (90 - 360 * (d.credits / 2 - _this.maxNumberCredits / 4)) /
+              _this.maxNumberCredits
           })`
       );
 
@@ -168,23 +137,108 @@ export class CircularPlot {
     petalsEnter
       .attr("transform", `rotate(0)`)
       .transition()
-      .duration(transitionTimeScale)
+      .duration(_this.transitionTimeScale)
       .attr(
         "transform",
-        (d) => `rotate(${(-360 * d.creditsBefore) / maxNumberCredits})`
+        (d) =>
+          `rotate(${
+            (_this.startAngle * 180) / Math.PI +
+            (-360 * d.creditsBefore) / _this.maxNumberCredits
+          })`
       );
 
     circPlot
-      .attr(
-        "transform",
-        `matrix(0,0,0,0,${canvasWidth / 2},${canvasHeight / 2})`
-      )
+      .attr("transform", `matrix(0,0,0,0,${_this.centerX},${_this.centerY})`)
       .transition()
-      .duration(0.8 * transitionTimeScale)
+      .duration(0.8 * _this.transitionTimeScale)
+      .attr("transform", `matrix(1,0,0,1,${_this.centerX},${_this.centerY})`);
+  }
+
+  onPetalClick(d) {
+    this.startAngle =
+      ((d.creditsBefore + d.credits / 2) / this.maxNumberCredits) *
+        2 *
+        Math.PI -
+      Math.PI / 2;
+    this.move(2 * this.canvasWidth, -10);
+  }
+
+  onPetalMouseOver(petal) {
+    console.log(this);
+    if (this.mouseEventsEnabled) {
+      d3.select(petal)
+        .attr("opacity", "0.8")
+        .transition()
+        .duration(this.transitionTimeScale / 20)
+        .ease(d3.easeLinear)
+        .attr(
+          "transform",
+          (d) =>
+            `scale(1.2, 1.2) rotate(${
+              (this.startAngle * 180) / Math.PI +
+              (-360 * d.creditsBefore) / this.maxNumberCredits
+            })`
+        );
+    }
+  }
+
+  onPetalMouseOut(petal) {
+    if (this.mouseEventsEnabled) {
+      d3.select(petal)
+        .attr("opacity", "1.0")
+        .transition()
+        .duration(this.transitionTimeScale / 20)
+        .ease(d3.easeLinear)
+        .attr(
+          "transform",
+          (d) =>
+            `rotate(${
+              (this.startAngle * 180) / Math.PI +
+              (-360 * d.creditsBefore) / this.maxNumberCredits
+            })`
+        );
+    }
+  }
+
+  setPetalCallbacks() {
+    let _this = this;
+    d3.selectAll(".petal")
+      .on("click", function (d) {
+        _this.onPetalClick(d);
+      })
+      .on("mouseover", function () {
+        let petal = this;
+        _this.onPetalMouseOver(petal);
+      })
+      .on("mouseout", function () {
+        let petal = this;
+        _this.onPetalMouseOut(petal);
+      });
+  }
+
+  move(x, y) {
+    let _this = this;
+    d3.select("svg#plot")
+      .transition()
+      .duration(_this.transitionTimeScale)
+      .attr("transform", `translate(${x}, ${y})`);
+    d3.selectAll(".petal")
+      .transition()
+      .duration(_this.transitionTimeScale)
       .attr(
         "transform",
-        `matrix(1,0,0,1,${canvasWidth / 2},${canvasHeight / 2})`
-      );
+        (d) =>
+          `rotate(${
+            (_this.startAngle * 180) / Math.PI +
+            (-360 * d.creditsBefore) / _this.maxNumberCredits
+          })`
+      )
+      .on("start", function () {
+        _this.mouseEventsEnabled = false;
+      })
+      .on("end", function () {
+        _this.mouseEventsEnabled = true;
+      });
   }
 }
 
