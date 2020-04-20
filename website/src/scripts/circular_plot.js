@@ -161,10 +161,16 @@ export class CircularPlot {
         Math.PI -
       Math.PI / 2;
     this.move(2 * this.canvasWidth, -10);
+
+    d3.select("iframe#course")
+      .attr("left", "-1000px")
+      .transition()
+      .duration(this.transitionTimeScale)
+      .attr("width", "100%")
+      .attr("src", "https://edu.epfl.ch/coursebook/en/machine-learning-CS-433");
   }
 
   onPetalMouseOver(petal) {
-    console.log(this);
     if (this.mouseEventsEnabled) {
       d3.select(petal)
         .attr("opacity", "0.8")
@@ -179,6 +185,9 @@ export class CircularPlot {
               (-360 * d.creditsBefore) / this.maxNumberCredits
             })`
         );
+    } else {
+      d3.select(petal)
+        .attr("opacity", "0.8");
     }
   }
 
@@ -197,6 +206,9 @@ export class CircularPlot {
               (-360 * d.creditsBefore) / this.maxNumberCredits
             })`
         );
+    } else {
+      d3.select(petal)
+        .attr("opacity", "1.0");
     }
   }
 
@@ -218,10 +230,10 @@ export class CircularPlot {
 
   move(x, y) {
     let _this = this;
-    d3.select("svg#plot")
+    /*d3.select("svg#plot")
       .transition()
       .duration(_this.transitionTimeScale)
-      .attr("transform", `translate(${x}, ${y})`);
+      .attr("transform", `translate(${x}, ${y})`);*/
     d3.selectAll(".petal")
       .transition()
       .duration(_this.transitionTimeScale)
