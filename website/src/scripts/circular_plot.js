@@ -1,7 +1,6 @@
 "use strict";
 
 import * as d3 from "d3";
-import { schemeSet3 } from "d3";
 
 export class CircularPlot {
   constructor(
@@ -186,8 +185,7 @@ export class CircularPlot {
             })`
         );
     } else {
-      d3.select(petal)
-        .attr("opacity", "0.8");
+      d3.select(petal).attr("opacity", "0.8");
     }
   }
 
@@ -207,8 +205,7 @@ export class CircularPlot {
             })`
         );
     } else {
-      d3.select(petal)
-        .attr("opacity", "1.0");
+      d3.select(petal).attr("opacity", "1.0");
     }
   }
 
