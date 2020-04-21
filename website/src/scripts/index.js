@@ -17,18 +17,15 @@ const PETALS_LENGTH = 60;
 //TODO: 120 should be parsed
 const MAX_NUMBER_CREDITS = 120;
 
-function dropHandler(ev) {
+function dropHandler() {
   d3.event.preventDefault();
 
-  if (
-    d3.event.dataTransfer.items &&
-    d3.event.dataTransfer.items[0].kind === "file"
-  ) {
-    var file = d3.event.dataTransfer.items[0].getAsFile();
-    file
-      .text()
-      .then(extractDataFromPDF)
-      .then((parsedData) => {
+  var file = d3.event.dataTransfer.files[0];
+  if (file) {
+    var reader = new FileReader();
+    reader.readAsText(file, "UTF-8");
+    reader.onload = function (evt) {
+      extractDataFromPDF(evt.target.result).then((parsedData) => {
         let circularPlot = new CircularPlot(
           parsedData,
           CANVAS_WIDTH,
@@ -38,11 +35,11 @@ function dropHandler(ev) {
           PETALS_LENGTH,
           MAX_NUMBER_CREDITS
         );
-      })
-      .catch(function (reason) {
-        // PDF loading error
-        console.error(reason);
       });
+    };
+    reader.onerror = function (evt) {
+      console.error(evt);
+    };
   }
 }
 
