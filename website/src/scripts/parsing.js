@@ -1,23 +1,24 @@
 "use strict";
 
+import { Transcript } from "./transcript.js";
+
 var pdfjsLib = window["pdfjs-dist/build/pdf"];
 pdfjsLib.GlobalWorkerOptions.workerSrc =
   "https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.4.456/pdf.worker.js";
 
 const VALID_BLOCK_NAMES = {
   "Group 1": "class_core",
-  "Options": "class_optional",
+  Options: "class_optional",
   'SHS"': "class_shs",
 };
 const VALID_SESSION_DATES = ["02.2020", "02.2019"];
 
-export function extractDataFromPDF(pdfData) {
+export function parseTranscriptFromPDF(pdfData) {
   // Load binary data from the obtained file
   var loadingTask = pdfjsLib.getDocument({ data: pdfData });
   return loadingTask.promise
     .then(function (pdfInstance) {
       console.log("PDF loaded");
-
       // TODO: Now we work only with the first page!
       return pdfInstance.getPage(1);
     })
@@ -25,16 +26,33 @@ export function extractDataFromPDF(pdfData) {
       return pdfPage.getTextContent();
     })
     .then(function (textContent) {
-      // console.log(textContent.items);
-      var parsedData = itemsPDFToDataInstance(textContent.items);
-
-      console.log("Parsed data: ", parsedData);
-
-      return parsedData;
+      return new Transcript(
+        getClassesInfoFromTextContent(textContent.items),
+        getProgramFromTextContent(textContent.items)
+      );
     });
 }
 
-function itemsPDFToDataInstance(itemsArray) {
+function getProgramFromTextContent(itemsArray) {
+  // Looking for the first word 'credits' -> next word is program name
+
+  let idx = 0;
+  while (itemsArray[idx].str !== "credits" && idx < itemsArray.length) {
+    idx++;
+  }
+
+  if (idx < itemsArray.length) {
+    // TODO: make a system of alerts for the user in case if the transcript was not recognized!
+  }
+
+  return {
+    name: itemsArray[idx + 1].str,
+    credits: Number.parseInt(itemsArray[idx + 2].str),
+    obtainedCredits: Number.parseInt(itemsArray[idx + 3].str),
+  };
+}
+
+function getClassesInfoFromTextContent(itemsArray) {
   let classesData = [];
   let currentBlock;
 
