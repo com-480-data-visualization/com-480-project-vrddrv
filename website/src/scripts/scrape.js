@@ -96,7 +96,7 @@ function scrapeCourseDescription(courseName, courseCode, cbSection) {
 
             let url = 'https://edu.epfl.ch/coursebook/en/';
             const splitCourse = courseName.split(" ").map((i) => {return i.toLowerCase()});
-            for(each of splitCourse) {
+            for(const each of splitCourse) {
                 url = url + each + '-';
             }
             url = url + courseCode + '?cb_cycle=bama_cyclemaster&cb_section=' + cbSection;
@@ -134,7 +134,7 @@ async function saveAllMasterCourses(url) {
         fs.mkdirSync('../scraped_data');
     }
 
-    for(each of masterPrograms) {
+    for(const each of masterPrograms) {
         let program = each['program'].split(/ - |- |, | & | /).map((i) => {return i.toLowerCase()});
         let programURL = url + '/' + program.join('-');
 
