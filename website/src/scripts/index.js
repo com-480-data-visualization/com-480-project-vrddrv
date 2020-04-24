@@ -3,20 +3,13 @@
 import * as d3 from "d3";
 import { parseTranscriptFromPDF } from "./parsing.js";
 import { DropZone } from "./dropzone.js";
-import { CircularPlot } from "./circular_plot.js";
+import { TranscriptScreen } from "./transcript_screen.js";
 
 import "../styles/index.scss";
 
 const CANVAS_WIDTH = 200;
 const CANVAS_HEIGHT = 200;
 const TRANSITION_TIME_SCALE = 1000;
-
-const CIRC_PLOT_RADIUS = 30;
-const PETALS_LENGTH = 60;
-
-function clearWorkspace() {
-  d3.select("svg#plot > *").remove();
-}
 
 function dropHandler() {
   d3.event.preventDefault();
@@ -27,14 +20,12 @@ function dropHandler() {
     reader.readAsText(file, "UTF-8");
     reader.onload = function (evt) {
       parseTranscriptFromPDF(evt.target.result).then(function (transcript) {
-        clearWorkspace();
-        let circularPlot = new CircularPlot(
+        new TranscriptScreen(
           transcript,
+          d3.select("svg#plot"),
           CANVAS_WIDTH,
           CANVAS_HEIGHT,
-          TRANSITION_TIME_SCALE,
-          CIRC_PLOT_RADIUS,
-          PETALS_LENGTH
+          TRANSITION_TIME_SCALE
         );
       });
     };

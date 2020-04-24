@@ -2,29 +2,33 @@
 
 import * as d3 from "d3";
 
+const CIRC_PLOT_RADIUS = 30;
+const PETALS_LENGTH = 60;
+
 export class CircularPlot {
   constructor(
     transcript,
+    context,
     canvasWidth,
     canvasHeight,
-    transitionTimeScale,
-    circPlotRadius,
-    petalsLength,
-    maxNumberCredits
+    shiftX,
+    shiftY,
+    transitionTimeScale
   ) {
     this.transcript = transcript;
+    this.context = context;
     this.data = transcript.classes;
     this.canvasWidth = canvasWidth;
     this.canvasHeight = canvasHeight;
     this.transitionTimeScale = transitionTimeScale;
-    this.circPlotRadius = circPlotRadius;
-    this.petalsLength = petalsLength;
+    this.circPlotRadius = CIRC_PLOT_RADIUS;
+    this.petalsLength = PETALS_LENGTH;
     this.maxNumberCredits = transcript.program.credits;
     // To make the plot more interesting
     shuffleArray(this.data);
     this.startAngle = 0;
-    this.centerX = canvasWidth / 2;
-    this.centerY = canvasHeight / 2;
+    this.centerX = canvasWidth / 2 + shiftX;
+    this.centerY = canvasHeight / 2 + shiftY;
     this.mouseEventsEnabled = true;
 
     this.calcStats();
@@ -59,8 +63,7 @@ export class CircularPlot {
           _this.startAngle - (2 * Math.PI * d.credits) / _this.maxNumberCredits
       );
 
-    let circPlot = d3
-      .select("svg#plot")
+    let circPlot = this.context
       .append("g")
       .attr("id", "circular_plot")
       .attr("transform", `translate(${_this.centerX}, ${_this.centerY})`);
