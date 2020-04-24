@@ -1,8 +1,8 @@
 "use strict";
 
 export class Transcript {
-  constructor(classes, programName) {
+  constructor(classes, program) {
     this.classes = classes;
-    this.program = programName;    
+    this.program = program;    
   }
 }
