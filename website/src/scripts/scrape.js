@@ -1,4 +1,47 @@
+"use strict";
+
 const puppeteer = require("puppeteer");
+const fs = require('fs');
+
+const MASTER_CYCLE_URL = 'https://edu.epfl.ch/studyplan/en/master';
+
+const MASTER_CYCLE_CB_SECTION = ['ing_math','ing_phys','ar','sv_b','cgc_ing','gc','sc_epfl',
+                                'ma_co','in','in_cs','sc_ds','dh','el','el_ener','sie','if',
+                                'shs','sv_stv','sv','mtee','mx','math','gm','mnis','mt',
+                                'cgc_chim','ph_ne','phys','mt_ro'];
+
+function scrapeMasterCycle() {
+
+    return new Promise(async (resolve, reject) => {
+        try {
+            const browser = await puppeteer.launch();
+            const page = await browser.newPage();
+
+            await page.goto(MASTER_CYCLE_URL);
+
+            let res = await page.evaluate(() => {
+                let mCycles = [];
+                let items = document.querySelectorAll("div.content_one_col > ul > li");
+
+                items.forEach((item) => {
+                    mCycles.push({
+                        program: item.innerText
+                    });
+                });
+                return mCycles;
+            });
+
+            await browser.close();
+            return resolve(res);
+
+        } catch (e) {
+            return reject(e);
+        }
+    })
+}
+
+// EPFL master programs
+// scrapeMasterCycle().then(console.log).catch(console.error);
 
 function scrapeCourses(url) {
 
@@ -42,11 +85,11 @@ function scrapeCourses(url) {
 }
 
 // Data Science 2019-20
-scrapeCourses('https://edu.epfl.ch/studyplan/en/master/data-science').then(console.log).catch(console.error);
+// scrapeCourses('https://edu.epfl.ch/studyplan/en/master/data-science').then(console.log).catch(console.error);
 
 
 // Data Science 2019-20 course descriptions
-function scrapeCourseDescription(courseName, courseCode) {
+function scrapeCourseDescription(courseName, courseCode, cbSection) {
 
     return new Promise(async (resolve, reject) => {
         try {
@@ -56,7 +99,7 @@ function scrapeCourseDescription(courseName, courseCode) {
             for(each of splitCourse) {
                 url = url + each + '-';
             }
-            url = url + courseCode + '?cb_cycle=bama_cyclemaster&cb_section=sc_ds';
+            url = url + courseCode + '?cb_cycle=bama_cyclemaster&cb_section=' + cbSection;
 
             console.log(url);
             const browser = await puppeteer.launch();
@@ -81,4 +124,32 @@ function scrapeCourseDescription(courseName, courseCode) {
     })
 }
 
-// scrapeCourseDescription('Applied data analysis','CS-401').then(console.log).catch(console.error);
+// scrapeCourseDescription('Applied data analysis','CS-401','sc_ds').then(console.log).catch(console.error);
+
+
+async function saveAllMasterCourses(url) {
+    const masterPrograms = await scrapeMasterCycle(url);
+
+    if (!fs.existsSync('../scraped_data')){
+        fs.mkdirSync('../scraped_data');
+    }
+
+    for(each of masterPrograms) {
+        let program = each['program'].split(/ - |- |, | & | /).map((i) => {return i.toLowerCase()});
+        let programURL = url + '/' + program.join('-');
+
+        let courses = await scrapeCourses(programURL);
+        let jsonData = await JSON.stringify(courses,null,1);
+
+        let fileName = await (program.join('_') + '.json');
+        await fs.writeFile("../scraped_data/" + fileName, jsonData, 'utf-8', (err) => {
+            if(err) {
+                return console.log(err);
+            }
+            console.log(fileName + " file successfully written!");
+        });
+    }
+}
+
+// TODO: integrate scrapeCourseDescription()
+saveAllMasterCourses(MASTER_CYCLE_URL);

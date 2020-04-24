@@ -4,7 +4,7 @@ import * as d3 from "d3";
 
 export class CircularPlot {
   constructor(
-    data,
+    transcript,
     canvasWidth,
     canvasHeight,
     transitionTimeScale,
@@ -12,13 +12,14 @@ export class CircularPlot {
     petalsLength,
     maxNumberCredits
   ) {
-    this.data = data;
+    this.transcript = transcript;
+    this.data = transcript.classes;
     this.canvasWidth = canvasWidth;
     this.canvasHeight = canvasHeight;
     this.transitionTimeScale = transitionTimeScale;
     this.circPlotRadius = circPlotRadius;
     this.petalsLength = petalsLength;
-    this.maxNumberCredits = maxNumberCredits;
+    this.maxNumberCredits = transcript.program.credits;
     // To make the plot more interesting
     shuffleArray(this.data);
     this.startAngle = 0;
@@ -57,9 +58,6 @@ export class CircularPlot {
         (d) =>
           _this.startAngle - (2 * Math.PI * d.credits) / _this.maxNumberCredits
       );
-
-    // Delete Everything from the plot
-    d3.select("svg#plot > *").remove();
 
     let circPlot = d3
       .select("svg#plot")
