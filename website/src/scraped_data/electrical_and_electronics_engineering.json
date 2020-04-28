@@ -1,0 +1,1195 @@
+[
+ {
+  "courseName": "Engineering internship credited with master project (master in Electrical and Electronical engineering)",
+  "courseCode": "EE-597",
+  "courseSection": "EL",
+  "profName": [
+   "Gautsch",
+   "Gay-Balmaz"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Master project in Electrical and Electronic Engineering",
+  "courseCode": "EE-599",
+  "courseSection": "EL",
+  "profName": [
+   "Profs divers"
+  ]
+ },
+ {
+  "courseName": "A Network Tour of Data Science",
+  "courseCode": "EE-558",
+  "courseSection": "EL",
+  "profName": [
+   "Frossard",
+   "Vandergheynst"
+  ],
+  "courseDesc": "A Network Tour of Data Science\nEE-558    Lecturer(s) : Frossard PascalVandergheynst PierreLanguage:English"
+ },
+ {
+  "courseName": "Convex optimization",
+  "courseCode": "MGT-418",
+  "courseSection": "MTE",
+  "profName": [
+   "Kuhn"
+  ],
+  "courseDesc": "This course introduces the theory and application of modern convex optimization from an engineering perspective."
+ },
+ {
+  "courseName": "Low power electronics: analog mixed signal design",
+  "courseCode": "EE-423",
+  "courseSection": "EL",
+  "profName": [
+   "Koukab"
+  ],
+  "courseDesc": "This course deals with the analyze, design and optimization of  CMOS analog circuits, emphasizing low-power solutions required in a broad range of applications (e.g. IoT, wearables, Biosensors ...). Some examples of mixed-signal design are also addressed."
+ },
+ {
+  "courseName": "Semiconductor devices I",
+  "courseCode": "EE-557",
+  "courseSection": "EL",
+  "profName": [
+   "Matioli"
+  ],
+  "courseDesc": "This course aims to give a solid introduction to semiconductors, from Silicon to compound semiconductors, making the connection between the physics and their application in real life. We will explore several experimental techniques related to current semiconductor research and development."
+ },
+ {
+  "courseName": "Smart grids technologies",
+  "courseCode": "EE-472",
+  "courseSection": "EL",
+  "profName": [
+   "Le Boudec",
+   "Paolone"
+  ],
+  "courseDesc": "Learn the technologies and methodologies used in the context smart electrical grids and be able to deploy/implement/test them in a lab environment."
+ },
+ {
+  "courseName": "Wireless receivers: algorithms and architectures",
+  "courseCode": "EE-442",
+  "courseSection": "EL",
+  "profName": [
+   "Burg"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Adaptation and Learning",
+  "courseCode": "EE-566",
+  "courseSection": "EL",
+  "profName": [
+   "Sayed"
+  ],
+  "courseDesc": "In this course, students learn to design and master algorithms and core concepts related to inference and learning from data and the foundations of adaptation and learning theories with applications."
+ },
+ {
+  "courseName": "Advanced computer architecture",
+  "courseCode": "CS-470",
+  "courseSection": "IN",
+  "profName": [
+   "Ienne"
+  ],
+  "courseDesc": "The course studies the most important techniques to exploit Instruction-Level Parallelism and discusses the relation with the critical phases of compilation. It also analyses emerging classes of processors for complex single-chip systems."
+ },
+ {
+  "courseName": "Advanced lab in electrical energy systems",
+  "courseCode": "EE-588",
+  "courseSection": "EL",
+  "profName": [
+   "Hodder"
+  ],
+  "courseDesc": "The purpose of this teaching lab is to put together all the concepts learned during the course into electrical energy by the implementation of an islanded production unit. The number of places is limited, therefore the student must contact the teacher before the beginning of the course."
+ },
+ {
+  "courseName": "Advanced lab in electrical engineering",
+  "courseCode": "EE-598",
+  "courseSection": "EL",
+  "profName": [
+   "Profs divers"
+  ]
+ },
+ {
+  "courseName": "Advanced multiprocessor architecture",
+  "courseCode": "CS-471",
+  "courseSection": "IN",
+  "profName": [
+   "Falsafi"
+  ],
+  "courseDesc": "Multiprocessors are now the defacto building blocks for all computer systems. This course will build upon the basic concepts offered in Computer Architecture I to cover the architecture and organization of modern multiprocessors from mobile and embedded platforms to servers, data centers and cloud computing platforms."
+ },
+ {
+  "courseName": "Advanced VLSI design",
+  "courseCode": "EE-431",
+  "courseSection": "EL",
+  "profName": [
+   "Burg"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Advanced wireless receivers",
+  "courseCode": "EE-543",
+  "courseSection": "EL",
+  "profName": [
+   "Burg"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Analog circuits for biochip",
+  "courseCode": "EE-518",
+  "courseSection": "EL",
+  "profName": [
+   "Carrara",
+   "Dehollain",
+   "Skrivervik Favre"
+  ],
+  "courseDesc": "Introduction to analog CMOS design for Remote Biosensors on Chip. Understanding and designing of active and remotely powered biosensing systems. Basic understanding of eh wireless transmission of teh obtained signals"
+ },
+ {
+  "courseName": "Applied data analysis",
+  "courseCode": "CS-401",
+  "courseSection": "SC",
+  "profName": [
+   "West"
+  ],
+  "courseDesc": "This course teaches the basic techniques and practical skills required to make sense out of a variety of data, with the help of the most acclaimed software tools in the data science world: pandas, scikit-learn, Spark, etc."
+ },
+ {
+  "courseName": "Applied machine learning",
+  "courseCode": "MICRO-455",
+  "courseSection": "MT",
+  "profName": [
+   "Billard",
+   "Polydoros"
+  ],
+  "courseDesc": "Real-world engineering applications must cope with a large dataset of dynamic variables, which cannot be well approximated by classical or deterministic models. This course gives an overview of methods from Machine Learning for the analysis of non-linear, highly noisy and multi dimensional data"
+ },
+ {
+  "courseName": "Audio engineering",
+  "courseCode": "EE-548",
+  "courseSection": "EL",
+  "profName": [
+   "Lissek"
+  ],
+  "courseDesc": "This lecture is oriented towards the study of audio engineering, with a special focus on room acoustics applications. The learning outcomes will be the techniques for microphones and loudspeaker design, as well as room acoustics knowledge."
+ },
+ {
+  "courseName": "Automatic speech processing",
+  "courseCode": "EE-554",
+  "courseSection": "EL",
+  "profName": [
+   "Bourlard"
+  ],
+  "courseDesc": "The goal of this course is to provide the students with the main formalisms, models and algorithms required for the implementation of advanced speech processing applications (involving, among others, speech coding, speech analysis/synthesis, and speech recognition)."
+ },
+ {
+  "courseName": "Bioelectronics and biomedical microelectronics",
+  "courseCode": "EE-519",
+  "courseSection": "EL",
+  "profName": [
+   "Schmid"
+  ],
+  "courseDesc": "The course covers the fundaments of bioelectronics and integrated microelectronics for biomedical and implantable systems. Issues and trade-offs at the circuit and systems levels of invasive microelectronic systems as well as their eluding designs, methods and classical implementations are discussed"
+ },
+ {
+  "courseName": "Biological modeling of neural networks",
+  "courseCode": "BIO-465",
+  "courseSection": "IN",
+  "profName": [
+   "Gerstner"
+  ],
+  "courseDesc": "In this course we study mathematical models of neurons and neuronal networks in the context of biology and establish links to models of cognition."
+ },
+ {
+  "courseName": "Biomedical signal processing",
+  "courseCode": "EE-512",
+  "courseSection": "EL",
+  "profName": [
+   "Vesin"
+  ],
+  "courseDesc": "The goal of this course is to introduce the techniques most commonly used for the analysis of biomedical signals, and to present concrete examples of their application for diagnosis purposes."
+ },
+ {
+  "courseName": "BioMEMS",
+  "courseCode": "MICRO-560",
+  "courseSection": "MT",
+  "profName": [
+   "Renaud"
+  ],
+  "courseDesc": "This course covers the main applications of micro devices for life science and biomedical applications. The course is organized by application topic. It is also covering the basic physical, biological, chemical, technological concepts, which are presented as transversal introductory section"
+ },
+ {
+  "courseName": "Biomicroscopy I",
+  "courseCode": "MICRO-561",
+  "courseSection": "SV",
+  "profName": [
+   "Altug"
+  ],
+  "courseDesc": "Introduction to geometrical and wave optics for understanding the principles of optical microscopes, their advantages and limitations. Describing the basic microscopy components and the commonly used biomicrocopy methods such as widefield and fluorescence."
+ },
+ {
+  "courseName": "Biomicroscopy II",
+  "courseCode": "MICRO-562",
+  "courseSection": "SV",
+  "profName": [
+   "Altug",
+   "Seitz"
+  ],
+  "courseDesc": "Introduction to the different contrast enhancing methods in optical microscopy. Basic hands-on experience with optical microscopes at EPFL's BioImaging and Optics Facility. How to investigate biological samples? How to obtain high quality images?"
+ },
+ {
+  "courseName": "Bio-nano-chip design",
+  "courseCode": "EE-517",
+  "courseSection": "EL",
+  "profName": [
+   "Carrara"
+  ],
+  "courseDesc": "Introduction to heterogeneous integration for Nano-Bio-CMOS sensors on Chip. \nUnderstanding and designing of active Bio/CMOS interfaces powered by nanostructures."
+ },
+ {
+  "courseName": "Cellular and molecular biology I",
+  "courseCode": "BIO-205",
+  "courseSection": "SV",
+  "profName": [
+   "Oricchio",
+   "Suter"
+  ],
+  "courseDesc": "The course covers the regulation of gene expression, which translates the information contained in the genome into function, by adjusting the levels and activities of mRNAs and proteins to the needs of specific cells, tissues and environments. A particular emphasis is given on experimental methods."
+ },
+ {
+  "courseName": "Computational photography",
+  "courseCode": "CS-413",
+  "courseSection": "SC",
+  "profName": [
+   "Süsstrunk"
+  ],
+  "courseDesc": "The students will gain the theoretical knowledge in computational photography, which allows recording and processing a richer visual experience than traditional digital imaging. They will also execute practical group projects to develop their own computational photography application."
+ },
+ {
+  "courseName": "Computer architecture",
+  "courseCode": "CS-208",
+  "courseSection": "IN",
+  "profName": [
+   "Stojilovic"
+  ],
+  "courseDesc": "The course introduces the students to the basic notions\nof computer architecture and, in particular, to the\nchoices of the Instruction Set Architecture and to the\nmemory hierarchy of modern systems."
+ },
+ {
+  "courseName": "Data visualization",
+  "courseCode": "COM-480",
+  "courseSection": "SC",
+  "profName": [
+   "Vuillon"
+  ],
+  "courseDesc": "Understanding why and how to present complex data interactively in an effective manner has become a crucial skill for any data scientist. In this course, you will learn how to design, judge, build and present your own interactive data visualizations."
+ },
+ {
+  "courseName": "Deep learning",
+  "courseCode": "EE-559",
+  "courseSection": "EL",
+  "profName": [
+   "Fleuret"
+  ],
+  "courseDesc": "The objective of this course is to provide a complete introduction to deep machine learning. How to design a neural network, how to train it, and what are the modern techniques that specifically handle very large networks."
+ },
+ {
+  "courseName": "Deep Learning for Optical Imaging",
+  "courseCode": "MICRO-723",
+  "courseSection": "EDPO",
+  "profName": [
+   "Borhani",
+   "Psaltis"
+  ],
+  "courseDesc": "This course will focus on the practical implementation of artificial neural networks (ANN) using the open-source TensorFlow machine learning library developed by Google for Python."
+ },
+ {
+  "courseName": "Design technologies for integrated systems",
+  "courseCode": "CS-472",
+  "courseSection": "IN",
+  "profName": [
+   "De Micheli"
+  ],
+  "courseDesc": "Hardware compilation is the process of transforming specialized hardware description languages into circuit descriptions, which are iteratively refined, detailed and optimized.  The course  presents algorithms, tools and methods for hardware compilation and logic synthesis."
+ },
+ {
+  "courseName": "Discrete optimization",
+  "courseCode": "MATH-261",
+  "courseSection": "MA",
+  "profName": [
+   "Marcus"
+  ],
+  "courseDesc": "This course is an introduction to linear and discrete optimization. We will discuss linear programming and combinatorial optimization problems like bipartite matchings, shortest paths and flows. \n\nWarning: This course is for mathematicians! Strong emphasis is put on formal mathematical proofs."
+ },
+ {
+  "courseName": "Distributed information systems",
+  "courseCode": "CS-423",
+  "courseSection": "SC",
+  "profName": [
+   "Aberer"
+  ],
+  "courseDesc": "This course introduces the key concepts and algorithms from the areas of information retrieval, data mining and knowledge bases, which constitute the foundations of today's Web-based distributed information systems."
+ },
+ {
+  "courseName": "Distributed intelligent systems",
+  "courseCode": "ENG-466",
+  "courseSection": "SIE",
+  "profName": [
+   "Martinoli"
+  ],
+  "courseDesc": "The goal of this course is to provide methods and tools for modeling distributed intelligent systems as well as designing and optimizing coordination strategies. The course is a well-balanced mixture of theory and practical activities using simulation and real hardware platforms."
+ },
+ {
+  "courseName": "Electric filters",
+  "courseCode": "EE-539",
+  "courseSection": "EL",
+  "profName": [
+   "Dehollain"
+  ],
+  "courseDesc": "Introduction to approximation and synthesis methods for analog filters. Modern realization technologies are described including their limitations"
+ },
+ {
+  "courseName": "Electromagnetic compatibility",
+  "courseCode": "EE-576",
+  "courseSection": "EL",
+  "profName": [
+   "Rachidi-Haeri"
+  ],
+  "courseDesc": "In this lecture, students will get the basic knowledge on electromagnetic compatibility."
+ },
+ {
+  "courseName": "Embedded systems",
+  "courseCode": "CS-473",
+  "courseSection": "IN",
+  "profName": [
+   "Beuchat"
+  ],
+  "courseDesc": "The main topics of this course are understanding and designing embedded system on a programmable circuit (FPGA). Students will be able to design a camera or a LCD controller on an FPGA in VHDL and will use their controller through a softcore processor."
+ },
+ {
+  "courseName": "Energy conversion and renewable energy",
+  "courseCode": "ME-409",
+  "courseSection": "GM",
+  "profName": [
+   "Maréchal",
+   "Nguyen"
+  ],
+  "courseDesc": "The goal of the lecture is to present the principles of the energy conversion for conventional and renewable energy resources and to explain the most important parameters that define the energy conversion efficiency, resources implications and economics of the energy conversion technologies."
+ },
+ {
+  "courseName": "Energy storage in power systems: technologies, applications and future needs",
+  "courseCode": "EE-466",
+  "courseSection": "EL",
+  "profName": [
+   "Torregrossa"
+  ],
+  "courseDesc": "The course will bring the major elements on energy storage, principles and physical means"
+ },
+ {
+  "courseName": "Flexible bioelectronics",
+  "courseCode": "MICRO-514",
+  "courseSection": "MT",
+  "profName": [
+   "Lacour"
+  ],
+  "courseDesc": "The course is an introduction to the emerging field of flexible (bio)electronics. It provides an overview of the materials and processes used to design and manufacture flexible circuits and sensors.  Applications encompass flexible sensors, biointerfaces, human-machine interfaces and neuroprosthetic"
+ },
+ {
+  "courseName": "Fundamentals & processes for photovoltaic devices",
+  "courseCode": "MICRO-565",
+  "courseSection": "MT",
+  "profName": [
+   "Ballif",
+   "Haug"
+  ],
+  "courseDesc": "The objective of this lecture is to give an in-depth understanding of the physics and manufacturing processes of photovoltaic solar cells and related devices (photodetectors, photoconductors). The principle and techniques addressed in this lecture will be useful in a wide range of related fields."
+ },
+ {
+  "courseName": "Fundamentals of biomedical imaging",
+  "courseCode": "PHYS-438",
+  "courseSection": "PH",
+  "profName": [
+   "Gruetter"
+  ],
+  "courseDesc": "The goal of this course is to illustrate how modern principles of basic science approaches are integrated into the major  biomedical imaging modalities of importance to biology and medicine, with an emphasis on those of interest to in vivo."
+ },
+ {
+  "courseName": "Fundamentals of biosensors and electronic biochips",
+  "courseCode": "EE-515",
+  "courseSection": "EL",
+  "profName": [
+   "Guiducci"
+  ],
+  "courseDesc": "The labels \"biosensor\" and \"eBiochip\" have been employed to refer to the most diverse systems and in several fields of application. The course is meant not only to provide means to dig into this sea but also a thoughtful understanding of the detection principles and a design perspective."
+ },
+ {
+  "courseName": "Fundamentals of neuroengineering",
+  "courseCode": "BIOENG-448",
+  "courseSection": "SV",
+  "profName": [
+   ""
+  ],
+  "courseDesc": "Neuroengineering is at the frontier between neuroscience and engineering: understanding how the brain works allows developing engineering applications and therapies of high impact, while design of new measurement and data analysis techniques contributes to advance our knowledge about the brain."
+ },
+ {
+  "courseName": "Fundamentals of VLSI design",
+  "courseCode": "EE-429",
+  "courseSection": "EL",
+  "profName": [
+   "Burg"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Hardware systems modeling I",
+  "courseCode": "EE-432",
+  "courseSection": "EL",
+  "profName": [
+   "Vachoux"
+  ],
+  "courseDesc": "Application of VHDL modeling to RTL design and functional verification. Practical applications with industrial EDA tools."
+ },
+ {
+  "courseName": "Hardware systems modeling II",
+  "courseCode": "EE-433",
+  "courseSection": "EL",
+  "profName": [
+   "Vachoux"
+  ],
+  "courseDesc": "Creation and use of models of analog and mixed-signal hardware systems at various levels of abstraction. Use of the VHDL-AMS hardware description language."
+ },
+ {
+  "courseName": "HF and VHF circuits and techniques I",
+  "courseCode": "EE-425",
+  "courseSection": "EL",
+  "profName": [
+   "Dehollain"
+  ],
+  "courseDesc": "Master the design of circuits and systems at high frequency (HF) and very high frequency (VHF) (1 MHz-6GHz). This lecture is particularly oriented towards circuit aspects of modern communications systems."
+ },
+ {
+  "courseName": "HF and VHF circuits and techniques II",
+  "courseCode": "EE-525",
+  "courseSection": "EL",
+  "profName": [
+   "Dehollain"
+  ],
+  "courseDesc": "Master the design of circuits and systems at high frequency (HF) and very high frequency (VHF) (1 MHz-6GHz). This lecture is particularly oriented towards circuit aspects of modern communications systems"
+ },
+ {
+  "courseName": "Hydropower plants: generating and pumping units",
+  "courseCode": "EE-456",
+  "courseSection": "EL",
+  "profName": [
+   "Avellan",
+   "Vagnoni"
+  ],
+  "courseDesc": "Master Lecture on the general layout of a hydropower plant. Detailing the specification of Pelton, Francis, Kaplan and Bulb turbines, Storage pumps and Reversible pump-turbines."
+ },
+ {
+  "courseName": "Image analysis and pattern recognition",
+  "courseCode": "EE-451",
+  "courseSection": "EL",
+  "profName": [
+   "Thiran"
+  ],
+  "courseDesc": "This course gives an introduction to the main methods of image analysis and pattern recognition."
+ },
+ {
+  "courseName": "Image and video processing",
+  "courseCode": "EE-550",
+  "courseSection": "EL",
+  "profName": [
+   "Ebrahimi"
+  ],
+  "courseDesc": "This course covers fundamental notions in image and video processing, as well as covers most popular tools used, such as edge detection, motion estimation, segmentation, and compression. It is composed of lectures, laboratory sessions, and mini-projects."
+ },
+ {
+  "courseName": "Imaging optics",
+  "courseCode": "MICRO-421",
+  "courseSection": "MT",
+  "profName": [
+   "Psaltis"
+  ],
+  "courseDesc": "Introduction to optical imaging systems such as camera objectives and microscopes. Discussion of imaging formation. Principles of design of imaging optics with geometrical optics and analysis with raytracing. Presentation of different applications in photography and microscopy."
+ },
+ {
+  "courseName": "Industrial automation",
+  "courseCode": "CS-487",
+  "courseSection": "SC",
+  "profName": [
+   "Pignolet-Oswald",
+   "Tournier"
+  ],
+  "courseDesc": "This course consists of two parts:\n1) architecture of automation systems, hands-on lab\n2) handling of faults and failures in real-time systems, including fault-tolerant computing"
+ },
+ {
+  "courseName": "Industrial electronics I",
+  "courseCode": "EE-465",
+  "courseSection": "EL",
+  "profName": [
+   "Dujic"
+  ],
+  "courseDesc": "The course deals with the control of grid connected power electronic converters for renewable applications, covering: converter topologies, pulse width modulation, modelling, control algorithms and controllers (PID and PR), coordinate frame transformations, grid monitoring and synchronisation (PLL)."
+ },
+ {
+  "courseName": "Industrial electronics II",
+  "courseCode": "EE-565",
+  "courseSection": "EL",
+  "profName": [
+   "Dujic"
+  ],
+  "courseDesc": "The course is dealing with high performance drives and methods to control various electrical machines by means of power electronic converter and advanced control methods."
+ },
+ {
+  "courseName": "Information theory and coding",
+  "courseCode": "COM-404",
+  "courseSection": "SC",
+  "profName": [
+   "Telatar"
+  ],
+  "courseDesc": "The mathematical principles of communication that govern the compression and transmission of data and the design of efficient methods of doing so."
+ },
+ {
+  "courseName": "Integrated circuits technology",
+  "courseCode": "EE-532",
+  "courseSection": "EL",
+  "profName": [
+   ""
+  ],
+  "courseDesc": "This course will give an overview of some of the most relevant aspects of CMOS technology used to design and fabricate integrated circuits.\nCurrent research and challenges brought about by shrinking Field Effect Transistors down to the nm scale will also be tackled."
+ },
+ {
+  "courseName": "Introduction to computer graphics",
+  "courseCode": "CS-341",
+  "courseSection": "IN",
+  "profName": [
+   "Pauly"
+  ],
+  "courseDesc": "The students study and apply fundamental concepts and algorithms of computer graphics for rendering, geometry synthesis, and animation. They design and implement their own interactive graphics programs."
+ },
+ {
+  "courseName": "Introduction to planetary sciences",
+  "courseCode": "EE-586",
+  "courseSection": "EL",
+  "profName": [
+   ""
+  ],
+  "courseDesc": "Not given in 19-20"
+ },
+ {
+  "courseName": "Introduction to the design of mechanical space hardware",
+  "courseCode": "EE-580",
+  "courseSection": "EL",
+  "profName": [
+   "Mäusli"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Lasers: theory and modern applications",
+  "courseCode": "MICRO-422",
+  "courseSection": "MT",
+  "profName": [
+   "Kippenberg",
+   "Moser"
+  ],
+  "courseDesc": "This course gives an introduction to Lasers by both considering fundamental principles and applications. Topics that are covered include the theory of lasers, laser resonators and laser dynamics. \nIn addition to the basic concepts, a variety of interesting laser systems and applications are covered"
+ },
+ {
+  "courseName": "Low-power analog IC design",
+  "courseCode": "EE-520",
+  "courseSection": "MT",
+  "profName": [
+   ""
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Low-power radio design for IoT",
+  "courseCode": "MICRO-461",
+  "courseSection": "MT",
+  "profName": [
+   ""
+  ],
+  "courseDesc": "The basic function of an IoT node is to collect data and send it through a wireless channel to the cloud. Since the power consumption of an IoT node is largely dominated by the wireless communication, it is therefore key to understand the trade-offs faced when designing the radio."
+ },
+ {
+  "courseName": "Machine learning",
+  "courseCode": "CS-433",
+  "courseSection": "IN",
+  "profName": [
+   "Jaggi",
+   "Urbanke"
+  ],
+  "courseDesc": "Machine learning and data analysis are becoming increasingly central in many sciences and applications. In this course, fundamental principles and methods of machine learning will be introduced, analyzed and practically implemented."
+ },
+ {
+  "courseName": "Mathematics of data: from theory to computation",
+  "courseCode": "EE-556",
+  "courseSection": "EL",
+  "profName": [
+   "Cevher"
+  ],
+  "courseDesc": "This course reviews recent advances in convex optimization and statistical analysis in the wake of Big Data. We provide an overview of the emerging convex formulations and their guarantees, describe scalable solution techniques, and illustrate the role of parallel and distributed computation."
+ },
+ {
+  "courseName": "Media security",
+  "courseCode": "EE-552",
+  "courseSection": "EL",
+  "profName": [
+   "Ebrahimi"
+  ],
+  "courseDesc": "This course provides attendees with theoretical and practical issues in media security. In addition to lectures by the professor, the course includes laboratory sessions, a mini-project, and a mid-term exam."
+ },
+ {
+  "courseName": "Microwaves",
+  "courseCode": "EE-445",
+  "courseSection": "EL",
+  "profName": [
+   "Skrivervik Favre"
+  ],
+  "courseDesc": "This course is n introduction to microwaves and microwave passive circuits. A special attention is given to the introduction of the notion of distributed circuits and to the scattering matrix"
+ },
+ {
+  "courseName": "Mobile networks",
+  "courseCode": "COM-405",
+  "courseSection": "SC",
+  "profName": [
+   "Hubaux"
+  ],
+  "courseDesc": "This course provides a detailed description of the organization and operating principles of mobile communication networks."
+ },
+ {
+  "courseName": "Model predictive control",
+  "courseCode": "ME-425",
+  "courseSection": "GM",
+  "profName": [
+   "Jones"
+  ],
+  "courseDesc": "Provide an introduction to the theory and practice of Model Predictive Control (MPC). Main benefits of MPC: flexible specification of time-domain objectives, performance optimization of highly complex multivariable systems and ability to explicitly enforce constraints on system behavior."
+ },
+ {
+  "courseName": "Multivariable control and coordination systems",
+  "courseCode": "EE-477",
+  "courseSection": "EL",
+  "profName": [
+   "Gillet"
+  ],
+  "courseDesc": "The objective is to enable students to design advanced digital solutions for the control and the coordination of distributed dynamic systems, such as production or distribution energy systems, as well as intelligent transportation systems."
+ },
+ {
+  "courseName": "Nanoelectronics",
+  "courseCode": "EE-535",
+  "courseSection": "EL",
+  "profName": [
+   "Ionescu"
+  ],
+  "courseDesc": "This lecture overviews and discusses the last trends in the technology and principles of nanoelectronic devices for more aggressive scaling, better performances, added functionalities and lower energy per function. The opportunities of these advances compared to industrial roadmaps are analized."
+ },
+ {
+  "courseName": "Networked control systems",
+  "courseCode": "ME-427",
+  "courseSection": "GM",
+  "profName": [
+   "Ferrari Trecate"
+  ],
+  "courseDesc": "This course offers an introduction to control systems using communication networks for interfacing sensors, actuators, controllers, and processes. Challenges due to network non-idealities and opportunities offered by communication will be analyzed."
+ },
+ {
+  "courseName": "Optical communications",
+  "courseCode": "EE-540",
+  "courseSection": "EL",
+  "profName": [
+   "Gaumier"
+  ],
+  "courseDesc": "Situate and evaluate the potentialities, limits and perspectives of optical communication systems and networks.\nDesign and dimension of photonic communication systems and networks"
+ },
+ {
+  "courseName": "Optical detectors",
+  "courseCode": "MICRO-523",
+  "courseSection": "MT",
+  "profName": [
+   "Besse"
+  ],
+  "courseDesc": "Students analyse the fundamental characteristics of optical detectors. Thermal and photoemissive devices as well as photodiodes and infrared sensors are studied. CCD and CMOS cameras are analysed in detail. Single photon detection is explained."
+ },
+ {
+  "courseName": "Optics III",
+  "courseCode": "PHYS-449",
+  "courseSection": "PH",
+  "profName": [
+   "Portella Oberli"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Optics laboratories I",
+  "courseCode": "MICRO-423",
+  "courseSection": "MT",
+  "profName": [
+   "Psaltis",
+   "Pu"
+  ],
+  "courseDesc": "This laboratory work allows students to deepen their understanding of optical instruments, optoelectronic devices and diagnostic methods. Students will be introduced in state of the art optical instruments and measurement principles."
+ },
+ {
+  "courseName": "Optimal decision making",
+  "courseCode": "MGT-483",
+  "courseSection": "MTE",
+  "profName": [
+   "Kuhn"
+  ],
+  "courseDesc": "This course introduces the theory and applications of optimization. We develop tools and concepts of optimization and decision analysis that enable managers in manufacturing, service operations, marketing, transportation and finance to transform data into insights for making better decisions."
+ },
+ {
+  "courseName": "Photonic micro- and nanosystems",
+  "courseCode": "MICRO-504",
+  "courseSection": "MT",
+  "profName": [
+   "Quack"
+  ],
+  "courseDesc": "C"
+ },
+ {
+  "courseName": "Photonic systems and technology",
+  "courseCode": "EE-440",
+  "courseSection": "EL",
+  "profName": [
+   "Brès"
+  ],
+  "courseDesc": "The physics of optical communication components and their applications to communication systems will be covered. The course is intended to present the operation principles of contemporary optical communication systems employing optical fibers and modern optoelectronic devices."
+ },
+ {
+  "courseName": "Physical models for micro and nanosystems",
+  "courseCode": "EE-536",
+  "courseSection": "EL",
+  "profName": [
+   "Kis"
+  ],
+  "courseDesc": "Students will learn simple theoretical models, the theoretical background of finite element modeling as well as its application to modeling charge, mass and heat transport in electronic, fluidic and electromechanical micro and nanosystem."
+ },
+ {
+  "courseName": "Physics of photonic semiconductor devices",
+  "courseCode": "PHYS-434",
+  "courseSection": "PH",
+  "profName": [
+   "Butté"
+  ],
+  "courseDesc": "Series of lectures covering the physics of quantum heterostructures, dielectric microcavities and photonic crystal cavities as well as the properties of the main light emitting devices that are light-emitting diodes (LEDs) and laser diodes (LDs)."
+ },
+ {
+  "courseName": "Physiology by systems I",
+  "courseCode": "BIO-376",
+  "courseSection": "SV",
+  "profName": [
+   "Lemaitre",
+   "Schneggenburger"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Power system restructuring and deregulation",
+  "courseCode": "EE-570",
+  "courseSection": "EL",
+  "profName": [
+   "Cherkaoui"
+  ],
+  "courseDesc": "This course presents different types and mechanisms of electricity markets. It addresses in particular their impacts on power/distribution systems operation and consequently the appropriate strategies capable to ensure a secure and reliable functioning."
+ },
+ {
+  "courseName": "Power systems dynamics",
+  "courseCode": "EE-470",
+  "courseSection": "EL",
+  "profName": [
+   "Cherkaoui"
+  ],
+  "courseDesc": "This course focuses on the dynamic behavior of a power system. It presents the basic definitions, concepts and models for angular stability analysis with reference to transient stability, steady state stability and long term stability.Fundamentals related to voltage stability are introduced as well."
+ },
+ {
+  "courseName": "Project in electrical engineering",
+  "courseCode": "EE-491",
+  "courseSection": "EL",
+  "profName": [
+   "Profs divers"
+  ]
+ },
+ {
+  "courseName": "Project in space technology",
+  "courseCode": "EE-589",
+  "courseSection": "EL",
+  "profName": [
+   "Profs divers"
+  ]
+ },
+ {
+  "courseName": "Quantum electrodynamics and quantum optics",
+  "courseCode": "PHYS-453",
+  "courseSection": "PH",
+  "profName": [
+   "Kippenberg"
+  ],
+  "courseDesc": "This course on one hand develops the quantum theory of electromagnetic radiation from the principles of quantum electrodynamics. It will cover basis historic developments (coherent states, squeezed states, quantum theory of spontaneous emission) and moreover modern developments, e.g. quantum noise."
+ },
+ {
+  "courseName": "Quantum optics and quantum information",
+  "courseCode": "PHYS-454",
+  "courseSection": "PH",
+  "profName": [
+   "Brantut"
+  ],
+  "courseDesc": "This lecture describes advanced developments applications of quantum optics. It emphasizes the connection with ongoing research, and with the fast growing field quantum technologies. The topics with cover some aspects of quantum information processing, quantum sensing and quantum simulation."
+ },
+ {
+  "courseName": "Real-time embedded systems",
+  "courseCode": "CS-476",
+  "courseSection": "IN",
+  "profName": [
+   "Beuchat"
+  ],
+  "courseDesc": "A real time system is subject to important temporal constraints. This course is about understanding where processing time is spent and what a designer can do in order to achieve real-time processing systems. Some solutions are Multiprocessors, accelerators, custom instructions, specialized hardware."
+ },
+ {
+  "courseName": "Scaling laws & simulations in micro & nanosystems",
+  "courseCode": "MICRO-470",
+  "courseSection": "MT",
+  "profName": [
+   "Quack",
+   "Renaud",
+   "Shea"
+  ],
+  "courseDesc": "This class combines an analytical and finite elements modeling (FEM) simulations approach to scaling laws in MEMS/NEMS. The dominant physical effects and scaling effects when downsizing sensors and actuators in microsystems are discussed, across a broad range of actuation principles."
+ },
+ {
+  "courseName": "Selected topics in advanced optics",
+  "courseCode": "MICRO-420",
+  "courseSection": "MT",
+  "profName": [
+   "Martin"
+  ],
+  "courseDesc": "This course explores different facets of modern optics and photonics."
+ },
+ {
+  "courseName": "Semiconductor devices II",
+  "courseCode": "EE-567",
+  "courseSection": "EL",
+  "profName": [
+   "Ionescu",
+   "Kis"
+  ],
+  "courseDesc": "Students will learn about understanding the fundamentals and applications of emerging nanoscale devices, materials and concepts.\n\n\nRemark: at least 5 students should be enrolled for the course to be given"
+ },
+ {
+  "courseName": "Semiconductor physics and light-matter interaction",
+  "courseCode": "PHYS-433",
+  "courseSection": "PH",
+  "profName": [
+   "Butté"
+  ],
+  "courseDesc": "Lectures on the fundamental aspects of semiconductor physics and the main properties of the p-n junction that is at the heart of devices like LEDs & laser diodes. The last part deals with light-matter interaction phenomena in bulk semiconductors such as absorption, spontaneous & stimulated emission."
+ },
+ {
+  "courseName": "Seminar in physiology and instrumentation",
+  "courseCode": "MICRO-568",
+  "courseSection": "MT",
+  "profName": [
+   "Aminian",
+   "Renaud"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Sensors in medical instrumentation",
+  "courseCode": "EE-511",
+  "courseSection": "EL",
+  "profName": [
+   "Aminian"
+  ],
+  "courseDesc": "Fundamental principles and methods used for physiological signal conditioning. Resistive, capacitive, inductive, piezoelectric and optical techniques used to detect and convert physiological information's to electrical signals. Laboratory and ambulatory devices for monitoring and therapy."
+ },
+ {
+  "courseName": "Signal processing for functional brain imaging",
+  "courseCode": "MICRO-513",
+  "courseSection": "MT",
+  "profName": [
+   "Van De Ville"
+  ],
+  "courseDesc": "Computational methods for the analysis of human brain imaging data"
+ },
+ {
+  "courseName": "Smart sensors for IoT",
+  "courseCode": "EE-594",
+  "courseSection": "EL",
+  "profName": [
+   "Enz",
+   "Ionescu"
+  ],
+  "courseDesc": "Caution, these contents corresponds to the coursebooks of last yearSmart sensors for IoT\nEE-594    Lecturer(s) : Enz ChristianIonescu Mihai AdrianLanguage:English\nRemarque    \npas donné en 2018-19"
+ },
+ {
+  "courseName": "Social media",
+  "courseCode": "EE-593",
+  "courseSection": "EL",
+  "profName": [
+   "Gillet"
+  ],
+  "courseDesc": "The objective is to enable students to critically apprehend the Human Computer Interaction (HCI) challenges associated with the design and the exploitation of social media platforms."
+ },
+ {
+  "courseName": "Spacecraft avionics architectures",
+  "courseCode": "EE-583",
+  "courseSection": "EL",
+  "profName": [
+   "Storni"
+  ],
+  "courseDesc": "The course presents and analyses the different systems, architectures and components of spacecraft avionics (on board data handling and processing systems) controlling and commanding spacecraft and payloads (instruments). It will study typical bus structures (standard) used for S/C avionics."
+ },
+ {
+  "courseName": "Spacecraft design and system engineering",
+  "courseCode": "EE-584",
+  "courseSection": "EL",
+  "profName": [
+   "Richard"
+  ],
+  "courseDesc": "The main objective of the course is to introduce the concept of space system design and engineering. The course will describe the various\nsubsystems involved in the design of a satellite. It will also describe the techniques of systems engineering that are used to obtain a coherent\nsatellite design."
+ },
+ {
+  "courseName": "Space mission design and operations",
+  "courseCode": "EE-585",
+  "courseSection": "EL",
+  "profName": [
+   "Nicollier"
+  ],
+  "courseDesc": "This course is a \"concepts\" course. It introduces a variety of concepts in use in the design of a space mission, manned or unmanned, and in space operations. it is at least partly based on the practical space experience of the lecturer"
+ },
+ {
+  "courseName": "Statistics for data science",
+  "courseCode": "MATH-413",
+  "courseSection": "MA",
+  "profName": [
+   "Olhede"
+  ],
+  "courseDesc": "Statistics lies at the foundation of data science, providing a unifying theoretical and methodological backbone for the diverse tasks enountered in this emerging field. This course rigorously develops the key notions and methods of statistics, with an emphasis on concepts rather than techniques."
+ },
+ {
+  "courseName": "Summer workshop",
+  "courseCode": "PENS-491",
+  "courseSection": "GC",
+  "profName": [
+   "Profs divers"
+  ]
+ },
+ {
+  "courseName": "Systems and architectures for signal processing",
+  "courseCode": "EE-555",
+  "courseSection": "EL",
+  "profName": [
+   "Mattavelli"
+  ],
+  "courseDesc": "Study of the essential components and implementation technologies of digital signal processing and communication systems from the theoretical, algorithmic and system implementation point of view."
+ },
+ {
+  "courseName": "Systems-on-Chip architecture",
+  "courseCode": "CS-209",
+  "courseSection": "IN",
+  "profName": [
+   "Ienne"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "TCP/IP networking",
+  "courseCode": "COM-407",
+  "courseSection": "SC",
+  "profName": [
+   "Le Boudec"
+  ],
+  "courseDesc": "C"
+ },
+ {
+  "courseName": "Test of VLSI systems",
+  "courseCode": "EE-530",
+  "courseSection": "EL",
+  "profName": [
+   "Schmid"
+  ],
+  "courseDesc": "Test of VLSI Systems covers theoretical knowledge related to the major algorithms used in VLSI test, and design for test techniques. Basic knowledge related to computer-aided design for test techniques, and their integration into a design-flow are presented."
+ },
+ {
+  "courseName": "Transdisciplinary project",
+  "courseCode": "EE-493",
+  "courseSection": "EL",
+  "profName": [
+   "Profs divers"
+  ]
+ },
+ {
+  "courseName": "Wave propagation along transmission lines",
+  "courseCode": "EE-575",
+  "courseSection": "EL",
+  "profName": [
+   "Rachidi-Haeri"
+  ],
+  "courseDesc": "In this lecture, we will describe the theoretical models and computational methods for the analysis of wave propagation along transmission lines."
+ },
+ {
+  "courseName": "Engineering internship (master in Electrical and Electronical engineering)",
+  "courseCode": "EE-596(a)",
+  "courseSection": "EL",
+  "profName": [
+   "Gautsch",
+   "Gay-Balmaz"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Lab in acoustics",
+  "courseCode": "EE-490(a)",
+  "courseSection": "EL",
+  "profName": [
+   "Lissek"
+  ],
+  "courseDesc": "Apply the knowledge acquired in Electroacoustics, Audio Engineering and Propagation of Acoustic Waves lectures."
+ },
+ {
+  "courseName": "Lab in data science",
+  "courseCode": "EE-490(h)",
+  "courseSection": "SC",
+  "profName": [
+   "Bouillet",
+   "Choirat",
+   "Obozinski",
+   "Roskar",
+   "Sarni",
+   "Verscheure"
+  ],
+  "courseDesc": "This hands-on course teaches the tools & methods used by data scientists, from researching solutions to scaling up prototypes to Spark clusters. It exposes the students to the entire data science pipeline, from data acquisition to extracting valuable insights applied to real-world problems."
+ },
+ {
+  "courseName": "Lab in EDA based design",
+  "courseCode": "EE-490(b)",
+  "courseSection": "EL",
+  "profName": [
+   "Koukab",
+   "Vachoux"
+  ],
+  "courseDesc": "The goal of this lab is to get a working knowledge on the use of industrial state-of-the-art EDA (Electronic Design Automation) tools and design kits for the design of analog and digital integrated circuits."
+ },
+ {
+  "courseName": "Lab in electrical energy systems",
+  "courseCode": "EE-490(c)",
+  "courseSection": "EL",
+  "profName": [
+   "Hodder"
+  ],
+  "courseDesc": "This teaching lab provides the theory and experimental experience associated to the advanced behavior of electrical machine such as the dq models, islanded induction machine generator, induction machine supplied by a frequency converter, synchronous machine 3 phase short circuit, ..."
+ },
+ {
+  "courseName": "Lab in microwaves",
+  "courseCode": "EE-490(e)",
+  "courseSection": "EL",
+  "profName": [
+   "Skrivervik Favre"
+  ],
+  "courseDesc": "This lab teaches the major measurement techniques used in microwaves"
+ },
+ {
+  "courseName": "Lab in signal and image processing",
+  "courseCode": "EE-490(f)",
+  "courseSection": "EL",
+  "profName": [
+   "Bozorgtabar",
+   "Thiran"
+  ],
+  "courseDesc": "These lab sessions are designed as a practical companion to the course \"Image Analysis and Pattern Recognition\" by Prof. Thiran. The main objective is to learn how to use some important image processing libraries, namely OpenCV, for performing image analysis tasks."
+ },
+ {
+  "courseName": "Lab on app development for tablets and smartphones",
+  "courseCode": "EE-490(g)",
+  "courseSection": "EL",
+  "profName": [
+   "Atienza Alonso"
+  ],
+  "courseDesc": "This course introduces mobile application programming and system-level power management for Android OS. The  students learn to develop low-power Apps on mobile platforms (in tablets, smartphones and smartwatches). Students receive a tablet and a smartwatch, and can use their smartphones if desired."
+ },
+ {
+  "courseName": "Project in bioelectronics",
+  "courseCode": "EE-492(c)",
+  "courseSection": "EL",
+  "profName": [
+   "Profs divers"
+  ]
+ },
+ {
+  "courseName": "Project in data science and systems",
+  "courseCode": "EE-492(e)",
+  "courseSection": "EL",
+  "profName": [
+   "Profs divers"
+  ]
+ },
+ {
+  "courseName": "Project in electronic devices",
+  "courseCode": "EE-492(b)",
+  "courseSection": "EL",
+  "profName": [
+   "Profs divers"
+  ]
+ },
+ {
+  "courseName": "Project in internet of things (IoT)",
+  "courseCode": "EE-492(d)",
+  "courseSection": "EL",
+  "profName": [
+   "Profs divers"
+  ]
+ },
+ {
+  "courseName": "Project in microelectronics",
+  "courseCode": "EE-492(a)",
+  "courseSection": "EL",
+  "profName": [
+   "Profs divers"
+  ]
+ },
+ {
+  "courseName": "Project in signal, image, video and communication",
+  "courseCode": "EE-492(f)",
+  "courseSection": "EL",
+  "profName": [
+   "Profs divers"
+  ]
+ },
+ {
+  "courseName": "Project in smart grids technologies",
+  "courseCode": "EE-492(h)",
+  "courseSection": "EL",
+  "profName": [
+   "Profs divers"
+  ]
+ },
+ {
+  "courseName": "Project in wireless and photonics C&S",
+  "courseCode": "EE-492(g)",
+  "courseSection": "EL",
+  "profName": [
+   "Profs divers"
+  ]
+ },
+ {
+  "courseName": "HSS : Introduction to project",
+  "courseCode": "",
+  "courseSection": "SHS",
+  "profName": [
+   "Divers enseignants"
+  ]
+ },
+ {
+  "courseName": "HSS : Project",
+  "courseCode": "",
+  "courseSection": "SHS",
+  "profName": [
+   "Divers enseignants"
+  ]
+ }
+]

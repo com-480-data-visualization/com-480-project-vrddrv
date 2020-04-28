@@ -1,0 +1,463 @@
+[
+ {
+  "courseName": "Master project in Physics Engineering",
+  "courseCode": "PHYS-599(a)",
+  "courseSection": "PH",
+  "profName": [
+   "Profs divers"
+  ]
+ },
+ {
+  "courseName": "Physics lab IVa",
+  "courseCode": "PHYS-421",
+  "courseSection": "PH",
+  "profName": [
+   "Profs divers"
+  ]
+ },
+ {
+  "courseName": "Physics lab IVb",
+  "courseCode": "PHYS-422",
+  "courseSection": "PH",
+  "profName": [
+   "Profs divers"
+  ]
+ },
+ {
+  "courseName": "HSS : Introduction to project",
+  "courseCode": "",
+  "courseSection": "SHS",
+  "profName": [
+   "Divers enseignants"
+  ]
+ },
+ {
+  "courseName": "HSS : Project",
+  "courseCode": "",
+  "courseSection": "SHS",
+  "profName": [
+   "Divers enseignants"
+  ]
+ },
+ {
+  "courseName": "Astrophysics III : stellar and galactic dynamics",
+  "courseCode": "PHYS-401",
+  "courseSection": "PH",
+  "profName": [
+   "Revaz"
+  ],
+  "courseDesc": "The aim of this course is to acquire the basic knowledge on specific dynamical phenomena related to the origin, equilibrium, and evolution of star\nclusters, galaxies, and galaxy clusters."
+ },
+ {
+  "courseName": "Astrophysics IV : observational cosmology",
+  "courseCode": "PHYS-402",
+  "courseSection": "PH",
+  "profName": [
+   "Kneib"
+  ],
+  "courseDesc": "Cosmology is the study of the structure and evolution of the universe as a whole. This course describes the principal themes of cosmology, as seen\nfrom the point of view of observations."
+ },
+ {
+  "courseName": "Atoms and radiation",
+  "courseCode": "CH-360",
+  "courseSection": "CGC",
+  "profName": [
+   "Marroux",
+   "Puppin"
+  ],
+  "courseDesc": "This course discusses the interaction between atoms and visible electro-magnetic radiation and introduces the main instrumentation for light detection and spectroscopy. The principles of LASER light sources are described, providing notions of nonlinear and ultrafast optics."
+ },
+ {
+  "courseName": "Biophysics : physics of biological systems",
+  "courseCode": "PHYS-302",
+  "courseSection": "PH",
+  "profName": [
+   "Rahi"
+  ],
+  "courseDesc": "Understand and use population genetics, population dynamics, network theory, and reaction network dynamics to analyze and predict the behavior of living systems"
+ },
+ {
+  "courseName": "Introduction to astroparticle physics",
+  "courseCode": "PHYS-439",
+  "courseSection": "PH",
+  "profName": [
+   "Bay",
+   "Neronov"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Optics III",
+  "courseCode": "PHYS-449",
+  "courseSection": "PH",
+  "profName": [
+   "Portella Oberli"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Particle physics I",
+  "courseCode": "PHYS-415",
+  "courseSection": "PH",
+  "profName": [
+   "Shchutska"
+  ],
+  "courseDesc": "Presentation of particle properties, their symmetries and  interactions.\nIntroduction to quantum electrodynamics and to the Feynman rules."
+ },
+ {
+  "courseName": "Particle physics II",
+  "courseCode": "PHYS-416",
+  "courseSection": "PH",
+  "profName": [
+   "Shchutska"
+  ],
+  "courseDesc": "Presentation of the electro-weak and strong interaction theories that constitute the Standard Model of particles. The course also discusses the new theories proposed to solve the problems of the Standard Model."
+ },
+ {
+  "courseName": "Physics of atoms, nuclei and elementary particles",
+  "courseCode": "PHYS-411",
+  "courseSection": "PH",
+  "profName": [
+   "Nakada"
+  ],
+  "courseDesc": "In this lecture, symmetry and conservation law are applied to derive wave functions for elementary particles. Relativistic wave functions are analysed and applied for massive and massless particles. Different ideas on antiparticles are explored."
+ },
+ {
+  "courseName": "Physics of nuclear reactors",
+  "courseCode": "PHYS-443",
+  "courseSection": "PH",
+  "profName": [
+   "Hursin",
+   "Laureau",
+   "Pautz"
+  ],
+  "courseDesc": "In this course, one acquires an understanding of the basic neutronics interactions occurring in a nuclear fission reactor as well as the conditions for establishing and controlling a nuclear chain reaction."
+ },
+ {
+  "courseName": "Plasma physics II",
+  "courseCode": "PHYS-423",
+  "courseSection": "PH",
+  "profName": [
+   "Theiler"
+  ],
+  "courseDesc": "Following an introduction of the main plasma properties, the fundamental concepts of the fluid and kinetic theory of plasmas are introduced. Applications concerning laboratory, space, and astrophysical plasmas are discussed throughout the course."
+ },
+ {
+  "courseName": "Quantum electrodynamics and quantum optics",
+  "courseCode": "PHYS-453",
+  "courseSection": "PH",
+  "profName": [
+   "Kippenberg"
+  ],
+  "courseDesc": "This course on one hand develops the quantum theory of electromagnetic radiation from the principles of quantum electrodynamics. It will cover basis historic developments (coherent states, squeezed states, quantum theory of spontaneous emission) and moreover modern developments, e.g. quantum noise."
+ },
+ {
+  "courseName": "Quantum field theory I",
+  "courseCode": "PHYS-431",
+  "courseSection": "PH",
+  "profName": [
+   "Rattazzi"
+  ],
+  "courseDesc": "The goal of the course is to introduce relativistic quantum field theory as the conceptual and mathematical framework describing fundamental interactions."
+ },
+ {
+  "courseName": "Quantum field theory II",
+  "courseCode": "PHYS-432",
+  "courseSection": "PH",
+  "profName": [
+   "Rattazzi"
+  ],
+  "courseDesc": "The goal of the course is to introduce relativistic quantum field theory as the conceptual and mathematical framework describing fundamental interactions."
+ },
+ {
+  "courseName": "Quantum optics and quantum information",
+  "courseCode": "PHYS-454",
+  "courseSection": "PH",
+  "profName": [
+   "Brantut"
+  ],
+  "courseDesc": "This lecture describes advanced developments applications of quantum optics. It emphasizes the connection with ongoing research, and with the fast growing field quantum technologies. The topics with cover some aspects of quantum information processing, quantum sensing and quantum simulation."
+ },
+ {
+  "courseName": "Quantum physics III",
+  "courseCode": "PHYS-425",
+  "courseSection": "PH",
+  "profName": [
+   "Chapochnikov"
+  ],
+  "courseDesc": "To introduce several advanced topics in quantum physics, including\nsemiclassical approximation, path integral, scattering theory, and\nrelativistic quantum mechanics"
+ },
+ {
+  "courseName": "Quantum physics IV",
+  "courseCode": "PHYS-426",
+  "courseSection": "PH",
+  "profName": [
+   "Augusto Penedones Fernandes",
+   "Rattazzi",
+   "Savona"
+  ],
+  "courseDesc": "Introduction to the path integral formulation of quantum mechanics. Derivation of the perturbation expansion of Green's functions in terms of Feynman diagrams. Several applications will be presented, including non-perturbative effects, such as tunneling and instantons."
+ },
+ {
+  "courseName": "Relativity and cosmology I",
+  "courseCode": "PHYS-427",
+  "courseSection": "PH",
+  "profName": [
+   "Sibiryakov"
+  ],
+  "courseDesc": "Introduce the students to general relativity and its classical tests."
+ },
+ {
+  "courseName": "Relativity and cosmology II",
+  "courseCode": "PHYS-428",
+  "courseSection": "PH",
+  "profName": [
+   "Chapochnikov"
+  ],
+  "courseDesc": "This course is the basic introduction to modern cosmology. It introduces students to the main concepts and formalism of cosmology, the observational status of Hot Big Bang theory \nand discusses major physical processes in the early Universe."
+ },
+ {
+  "courseName": "Selected topics in nuclear and particle physics",
+  "courseCode": "PHYS-400",
+  "courseSection": "PH",
+  "profName": [
+   "Blanc"
+  ],
+  "courseDesc": "This course presents the physical principles and the recent research developments on three topics of particle and nuclear physics: the physics of neutrinos, dark matter, and plasma of quarks and gluons. An emphasis is given on experimental aspects in these three fields."
+ },
+ {
+  "courseName": "Solid state physics III",
+  "courseCode": "PHYS-419",
+  "courseSection": "PH",
+  "profName": [
+   "Mila"
+  ],
+  "courseDesc": "The aim of this course is to provide an introduction to the theory of a few remarkable phenomena of condensed matter physics ranging from the Quantum Hall effects to superconductivity."
+ },
+ {
+  "courseName": "Solid state physics IV",
+  "courseCode": "PHYS-420",
+  "courseSection": "PH",
+  "profName": [
+   "Carbone"
+  ],
+  "courseDesc": "Solid State Physics IV provides a materials and experimental technique oriented introduction to the electronic and magnetic\nproperties of strongly correlated electron systems. Established knowledge is complemented by current research trends,\naiming to prepare the students for independent research."
+ },
+ {
+  "courseName": "Statistical physics III",
+  "courseCode": "PHYS-435",
+  "courseSection": "PH",
+  "profName": [
+   "Wyart"
+  ],
+  "courseDesc": "This course introduces statistical field theory, and uses concepts related to phase transitions to discuss a variety of complex systems (random walks and polymers,  disordered systems, combinatorial optimisation, information theory and error correcting codes)."
+ },
+ {
+  "courseName": "Statistical physics IV",
+  "courseCode": "PHYS-436",
+  "courseSection": "PH",
+  "profName": [
+   "Kippenberg"
+  ],
+  "courseDesc": "This first part of the course covers non-equilibrium statistical processes and the treatment of fluctuation dissipation relations by Einstein, Boltzmann and Kubo. Moreover, the fundamentals of Markov processes, stochastic differential and Fokker Planck equations, mesoscopic master equation, noise s"
+ },
+ {
+  "courseName": "Statistical physics of biomacromolecules",
+  "courseCode": "PHYS-441",
+  "courseSection": "PH",
+  "profName": [
+   "De Los Rios"
+  ],
+  "courseDesc": "Introduction to the application of the notions and methods of theoretical physics to problems in biology."
+ },
+ {
+  "courseName": "Computer simulation of physical systems I",
+  "courseCode": "PHYS-403",
+  "courseSection": "PH",
+  "profName": [
+   "Pasquarello"
+  ],
+  "courseDesc": "The two main topics covered by this course are classical molecular dynamics and the Monte Carlo method."
+ },
+ {
+  "courseName": "Design of experiments",
+  "courseCode": "PHYS-442",
+  "courseSection": "PH",
+  "profName": [
+   "Fuerbringer"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Electron microscopy: advanced methods",
+  "courseCode": "MSE-450",
+  "courseSection": "MX",
+  "profName": [
+   "Alexander",
+   "Hébert"
+  ],
+  "courseDesc": "With this course, the student will learn advanced methods in transmission electron microscopy, especially what is the electron optical setup involved in the acquisition, and how to interpret the data. After the course, students will be able to understand and assess TEM encountered in papers."
+ },
+ {
+  "courseName": "Experimental methods in physics",
+  "courseCode": "PHYS-405",
+  "courseSection": "PH",
+  "profName": [
+   "Cantoni",
+   "Dwir"
+  ],
+  "courseDesc": "The course's objectivs are: Learning several advenced methods in experimental physics, and critical reading of experimental papers."
+ },
+ {
+  "courseName": "Frontiers in nanosciences",
+  "courseCode": "PHYS-407",
+  "courseSection": "PH",
+  "profName": [
+   "Kern",
+   "Lingenfelder",
+   "Rusponi"
+  ],
+  "courseDesc": "The students understand the relevant experimental and theoretical concepts of the nanoscale science. The course move from basic concepts like quantum size effects to hot fields such as spin transport for data storage applications (spintronics), carbon electronics, or nanocatalysis."
+ },
+ {
+  "courseName": "Fundamentals of biomedical imaging",
+  "courseCode": "PHYS-438",
+  "courseSection": "PH",
+  "profName": [
+   "Gruetter"
+  ],
+  "courseDesc": "The goal of this course is to illustrate how modern principles of basic science approaches are integrated into the major  biomedical imaging modalities of importance to biology and medicine, with an emphasis on those of interest to in vivo."
+ },
+ {
+  "courseName": "Introduction to particle accelerators",
+  "courseCode": "PHYS-448",
+  "courseSection": "PH",
+  "profName": [
+   "Pieloni"
+  ],
+  "courseDesc": "The course presents basic physics ideas underlying the workings of modern accelerators. We will examine key features and limitations of these machines as used in accelerator driven sciences like high energy physics, materials and life sciences."
+ },
+ {
+  "courseName": "Lasers: theory and modern applications",
+  "courseCode": "MICRO-422",
+  "courseSection": "MT",
+  "profName": [
+   "Kippenberg",
+   "Moser"
+  ],
+  "courseDesc": "This course gives an introduction to Lasers by both considering fundamental principles and applications. Topics that are covered include the theory of lasers, laser resonators and laser dynamics. \nIn addition to the basic concepts, a variety of interesting laser systems and applications are covered"
+ },
+ {
+  "courseName": "Nonlinear dynamics, chaos and complex systems",
+  "courseCode": "PHYS-460",
+  "courseSection": "PH",
+  "profName": [
+   "Ricci"
+  ],
+  "courseDesc": "The course provides students with the tools to approach the study of nonlinear systems and chaotic dynamics. Emphasis is given to concrete examples and numerical applications are carried out during the exercise sessions."
+ },
+ {
+  "courseName": "Nuclear fusion and plasma physics",
+  "courseCode": "PHYS-445",
+  "courseSection": "PH",
+  "profName": [
+   "Fasoli"
+  ],
+  "courseDesc": "The goal of the course is to provide the physics and technology basis  for controlled fusion research, from the main elements of plasma physics to the reactor concepts."
+ },
+ {
+  "courseName": "Particle detection",
+  "courseCode": "PHYS-440",
+  "courseSection": "PH",
+  "profName": [
+   "Haefeli"
+  ],
+  "courseDesc": "The course will cover the physics of particle detectors. It will introduce the experimental techniques used in nuclear and particle physics. The lecture includes the interaction of particles with matter, scintillators, gas chambers, silicon, and detectors for particle ID."
+ },
+ {
+  "courseName": "Physics of materials",
+  "courseCode": "PHYS-307",
+  "courseSection": "PH",
+  "profName": [
+   "Mari"
+  ],
+  "courseDesc": "This course illustrates some selected chapters of materials physics needed to understand the mechanical and structural properties of solids. This course deals in particular with the physics of dislocation. The diffusion and phase transformations are complementary bases."
+ },
+ {
+  "courseName": "Physics of novel electronic materials",
+  "courseCode": "PHYS-328",
+  "courseSection": "PH",
+  "profName": [
+   "Forró",
+   "Magrez"
+  ],
+  "courseDesc": "Physics of novel electronic materials\nPHYS-328    Lecturer(s) : Forró LászlóMagrez ArnaudLanguage:English\nSummary"
+ },
+ {
+  "courseName": "Physics of photonic semiconductor devices",
+  "courseCode": "PHYS-434",
+  "courseSection": "PH",
+  "profName": [
+   "Butté"
+  ],
+  "courseDesc": "Series of lectures covering the physics of quantum heterostructures, dielectric microcavities and photonic crystal cavities as well as the properties of the main light emitting devices that are light-emitting diodes (LEDs) and laser diodes (LDs)."
+ },
+ {
+  "courseName": "Plasma physics III",
+  "courseCode": "PHYS-424",
+  "courseSection": "PH",
+  "profName": [
+   "Furno",
+   "Reimerdes"
+  ],
+  "courseDesc": "This course completes the knowledge in plasma physics that students have acquired in the previous two courses, with a discussion of different applications, in the fields of controlled fusion and magnetic confinement, astrophysical and space plasmas, and societal and industrial applications."
+ },
+ {
+  "courseName": "Radiation biology, protection and applications",
+  "courseCode": "PHYS-450",
+  "courseSection": "PH",
+  "profName": [
+   "Damet",
+   "Frajtag",
+   "Pitzschke"
+  ],
+  "courseDesc": "An introductory course in the basic concepts of radiation detection and interactions and energy deposition by ionizing radiation in matter, radioisotope production and its applications in medicine, industry and research. The course includes presentations, lecture notes, problem sets and seminars."
+ },
+ {
+  "courseName": "Radiation detection",
+  "courseCode": "PHYS-452",
+  "courseSection": "PH",
+  "profName": [
+   "Lamirand"
+  ],
+  "courseDesc": "The course presents the detection of ionizing radiation in the keV and MeV energy ranges. Physical processes of radiation/matter interaction are introduced. All steps of detection are covered, as well as detectors, instrumentations and measurements methods commonly used in the nuclear field."
+ },
+ {
+  "courseName": "Reactor technology",
+  "courseCode": "PHYS-447",
+  "courseSection": "PH",
+  "profName": [
+   "Prasser"
+  ],
+  "courseDesc": "Reactor core cooling, power limits and technological consequences due to fuel, cladding and coolant properties, main principles of reactor and power plant design including auxiliary systems are explained. System technology of most important thermal and fast reactor types is introduced."
+ },
+ {
+  "courseName": "Semiconductor physics and light-matter interaction",
+  "courseCode": "PHYS-433",
+  "courseSection": "PH",
+  "profName": [
+   "Butté"
+  ],
+  "courseDesc": "Lectures on the fundamental aspects of semiconductor physics and the main properties of the p-n junction that is at the heart of devices like LEDs & laser diodes. The last part deals with light-matter interaction phenomena in bulk semiconductors such as absorption, spontaneous & stimulated emission."
+ },
+ {
+  "courseName": "Engineering internship (master in Physics Engineering)",
+  "courseCode": "PHYS-596",
+  "courseSection": "PH",
+  "profName": [
+   "Mari",
+   "Marselli Pasquier"
+  ],
+  "courseDesc": ""
+ }
+]

@@ -1,0 +1,772 @@
+[
+ {
+  "courseName": "Master project in Architecture",
+  "courseCode": "AR-599",
+  "courseSection": "AR",
+  "profName": [
+   "Profs divers"
+  ]
+ },
+ {
+  "courseName": "A history of abstraction in architecture",
+  "courseCode": "AR-437",
+  "courseSection": "AR",
+  "profName": [
+   "Aureli"
+  ],
+  "courseDesc": "A history of abstraction from the birth of geometry to algorithmic governance."
+ },
+ {
+  "courseName": "Autonomous architecture",
+  "courseCode": "AR-526",
+  "courseSection": "AR",
+  "profName": [
+   ""
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Difficult Double: Trouble with Classicists",
+  "courseCode": "AR-522",
+  "courseSection": "AR",
+  "profName": [
+   "Geers"
+  ],
+  "courseDesc": "This course is envisaged as a lecture series where each lecturer is invited to present his/her work through the framework of the five themes from the O.M. Ungers' book. Our aim, after two iterations of ¿Trouble with Classicists¿ remains the possibility of a design theory, beyond naiveté."
+ },
+ {
+  "courseName": "Magma and principles",
+  "courseCode": "AR-430",
+  "courseSection": "AR",
+  "profName": [
+   "Bakker",
+   "Blanc"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Metaphoric projects: from Archizoom to Koolhaas",
+  "courseCode": "AR-423(a)",
+  "courseSection": "AR",
+  "profName": [
+   "Gargiani"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Michelangelo and the experience of space",
+  "courseCode": "AR-477",
+  "courseSection": "AR",
+  "profName": [
+   "Mussolin"
+  ],
+  "courseDesc": "The course is devoted to the analysis of Michelangeloâs three-dimensional works and it aims at critically rethinking the relationship between his architecture and sculpture."
+ },
+ {
+  "courseName": "Political Economy of Design",
+  "courseCode": "AR-485",
+  "courseSection": "AR",
+  "profName": [
+   "Tombesi"
+  ],
+  "courseDesc": "Political Economy of Design seeks to position and discuss architecture in relation to the world of production, economic interests and community benefits, at a local and global scale."
+ },
+ {
+  "courseName": "The new international architecture in Switzerland",
+  "courseCode": "AR-498",
+  "courseSection": "AR",
+  "profName": [
+   "Aprea"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Theory of architecture VII",
+  "courseCode": "AR-421",
+  "courseSection": "AR",
+  "profName": [
+   "Marchand"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "From structure to ornament: a cultural history of construction",
+  "courseCode": "AR-521",
+  "courseSection": "AR",
+  "profName": [
+   "Picon"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Superstudio",
+  "courseCode": "AR-597",
+  "courseSection": "AR",
+  "profName": [
+   "Tombesi"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Theoretical statement (linked to Master Project, only 9th semester)",
+  "courseCode": "AR-598",
+  "courseSection": "AR",
+  "profName": [
+   "Profs divers"
+  ]
+ },
+ {
+  "courseName": "HSS : Introduction to project",
+  "courseCode": "",
+  "courseSection": "SHS",
+  "profName": [
+   "Divers enseignants"
+  ]
+ },
+ {
+  "courseName": "HSS : Project",
+  "courseCode": "",
+  "courseSection": "SHS",
+  "profName": [
+   "Divers enseignants"
+  ]
+ },
+ {
+  "courseName": "Studio MA1 (Capaul and Blumenthal)",
+  "courseCode": "AR-401(h)",
+  "courseSection": "AR",
+  "profName": [
+   "Blumenthal",
+   "Capaul"
+  ],
+  "courseDesc": "For centuries, the limited local availability of building materials determined the construction methods in the alpine mountain village. Today, vernacular architecture is no longer imperative, but has the potential to enhance the local context and provide answers to current architectural questions."
+ },
+ {
+  "courseName": "Studio MA1 (Conen and Sigl)",
+  "courseCode": "AR-401(j)",
+  "courseSection": "AR",
+  "profName": [
+   "Conen",
+   "Sigl"
+  ],
+  "courseDesc": "The studio is interested in designing spaces that not only have an architectural quality through their form and spatial design, but also a social vision on how we live today. Our focus is on designing interior and exterior spaces, working with references from built spaces that we know from history."
+ },
+ {
+  "courseName": "Studio MA1 (FAR)",
+  "courseCode": "AR-401(f)",
+  "courseSection": "AR",
+  "profName": [
+   "Caravatti",
+   "Vannucci"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Studio MA1 (Floris)",
+  "courseCode": "AR-401(g)",
+  "courseSection": "AR",
+  "profName": [
+   "Floris"
+  ],
+  "courseDesc": "This studio will work on housing and on the monumental vocabulary, revaluating both classical language and its contemporary interpretations. Vienna in the first semester and London in second semester will be subject of study, offering examples of a balance between imported and local traditions."
+ },
+ {
+  "courseName": "Studio MA1 (Födinger)",
+  "courseCode": "AR-401(i)",
+  "courseSection": "AR",
+  "profName": [
+   "Födinger"
+  ],
+  "courseDesc": "C"
+ },
+ {
+  "courseName": "Studio MA1 (Geers)",
+  "courseCode": "AR-401(c)",
+  "courseSection": "AR",
+  "profName": [
+   "Geers"
+  ],
+  "courseDesc": "This is the last semester of Architecture Without"
+ },
+ {
+  "courseName": "Studio MA1 (Gugger)",
+  "courseCode": "AR-401(b)",
+  "courseSection": "AR",
+  "profName": [
+   "Gugger"
+  ],
+  "courseDesc": "laba's focal theme is Urban Nature. Due to the scale and character of today's territorial expansion, the definition of the urban becomes more diffuse and complex. laba's didactic method takes students through design scales ranging from the territorial to the architectural in a year long course."
+ },
+ {
+  "courseName": "Studio MA1 (Huang)",
+  "courseCode": "AR-401(y)",
+  "courseSection": "AR",
+  "profName": [
+   "Huang"
+  ],
+  "courseDesc": "The studio examines the effects of artificial intelligence and automation on architecture and cities. We explore meaningful form generating processes by the use of algorithmic and parametric tools and introduce the notion of growth typologies in architectural and urban design thinking."
+ },
+ {
+  "courseName": "Studio MA1 (Vigano)",
+  "courseCode": "AR-401(a)",
+  "courseSection": "AR",
+  "profName": [
+   "Viganò"
+  ],
+  "courseDesc": "The Atelier explores the possibility of designing the city, the urban and territorial space, as a renewable resource; its scope is to plunge the last year master students into an intense confrontation among themes, scales, theoretical and design positions."
+ },
+ {
+  "courseName": "Studio MA1 (Weinand)",
+  "courseCode": "AR-401(e)",
+  "courseSection": "AR",
+  "profName": [
+   "Weinand"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Studio MA2 (Capaul and Blumenthal)",
+  "courseCode": "AR-402(h)",
+  "courseSection": "AR",
+  "profName": [
+   "Blumenthal",
+   "Capaul"
+  ],
+  "courseDesc": "Scientific exploration of the Alps and glorification of the natural environment by Rousseau were the factors in the 18th century that ultimately led to the following century's surge of tourism in the alpine region. The topic of the semester is to focus on its architectural heritage and its future."
+ },
+ {
+  "courseName": "Studio MA2 (Conen and Sigl)",
+  "courseCode": "AR-402(j)",
+  "courseSection": "AR",
+  "profName": [
+   "Conen",
+   "Sigl"
+  ],
+  "courseDesc": "The studio is interested in designing spaces that not only have an architectural quality through their form and spatial design, but also a social vision on how we live today. Our focus is on designing interior and exterior spaces, working with references from built spaces that we know from history."
+ },
+ {
+  "courseName": "Studio MA2 (FAR)",
+  "courseCode": "AR-402(f)",
+  "courseSection": "AR",
+  "profName": [
+   "Tombesi"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Studio MA2 (Floris)",
+  "courseCode": "AR-402(g)",
+  "courseSection": "AR",
+  "profName": [
+   "Floris"
+  ],
+  "courseDesc": "This studio will work on housing and on the monumental vocabulary, revaluating both classical language and its contemporary interpretations. Vienna in the first semester and London in second semester will be subject of study, offering examples of a balance between imported and local traditions."
+ },
+ {
+  "courseName": "Studio MA2 (Geers)",
+  "courseCode": "AR-402(c)",
+  "courseSection": "AR",
+  "profName": [
+   "Geers"
+  ],
+  "courseDesc": "Through the notion of classicism, we want to investigate the possibility of architecture to reinstate the common cultural identity."
+ },
+ {
+  "courseName": "Studio MA2 (Gugger)",
+  "courseCode": "AR-402(b)",
+  "courseSection": "AR",
+  "profName": [
+   "Gugger"
+  ],
+  "courseDesc": "laba's focal theme is Urban Nature. Due to the scale and character of today's territorial expansion, the definition of the urban becomes more diffuse and complex. laba's didactic method takes students through design scales ranging from the territorial to the architectural in a year long course."
+ },
+ {
+  "courseName": "Studio MA2 (Huang)",
+  "courseCode": "AR-402(y)",
+  "courseSection": "AR",
+  "profName": [
+   "Huang"
+  ],
+  "courseDesc": "This studio explores meaningful form generating processes by the use of parametric tools and introduces the notion of the digital vernacular in architectural and urban design thinking."
+ },
+ {
+  "courseName": "Studio MA2 (Vigano)",
+  "courseCode": "AR-402(a)",
+  "courseSection": "AR",
+  "profName": [
+   "Viganò"
+  ],
+  "courseDesc": "The Atelier explores the possibility of designing the city, the urban and territorial space, as a renewable resource; its scope is to plunge the last year master students into an intense confrontation among themes, scales, theoretical and design positions."
+ },
+ {
+  "courseName": "Studio MA2 (Weinand)",
+  "courseCode": "AR-402(e)",
+  "courseSection": "AR",
+  "profName": [
+   "Weinand"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "African cities : introduction to urban planning",
+  "courseCode": "AR-462",
+  "courseSection": "AR",
+  "profName": [
+   "Chenal"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Apparent realities - Constructing the view",
+  "courseCode": "AR-495",
+  "courseSection": "AR",
+  "profName": [
+   "Schaerer"
+  ],
+  "courseDesc": "Key competences for every architect are the ability to represent ideas coherently and communicate a projectâs aims effectively. Design, painting, photography, modelling and graphics are essential to the architectural project and become didactic instruments for the development of individual talent."
+ },
+ {
+  "courseName": "Architecture and cities design of Islam",
+  "courseCode": "AR-457",
+  "courseSection": "AR",
+  "profName": [
+   "Gachet"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Architecture and construction of the city I",
+  "courseCode": "AR-451",
+  "courseSection": "AR",
+  "profName": [
+   "Gilot"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Architecture and construction of the city II",
+  "courseCode": "AR-452",
+  "courseSection": "AR",
+  "profName": [
+   "Gilot"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Architecture and Solar energy",
+  "courseCode": "AR-449",
+  "courseSection": "AR",
+  "profName": [
+   "Munari Probst"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Art and history of gardens",
+  "courseCode": "AR-453",
+  "courseSection": "AR",
+  "profName": [
+   "Méjean",
+   "Schwok"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Behind/Beyond future cities",
+  "courseCode": "AR-496",
+  "courseSection": "AR",
+  "profName": [
+   "Coccolo",
+   "Mauree",
+   "Scartezzini"
+  ],
+  "courseDesc": "C"
+ },
+ {
+  "courseName": "Building design in the circular economy",
+  "courseCode": "AR-497",
+  "courseSection": "AR",
+  "profName": [
+   "Fivet"
+  ],
+  "courseDesc": "The class introduces the concept of circular economy and its applications to building design, with a focus on design for disassembly, reuse, and life-cycle assessment (LCA). The class develops a critical mindset and provides ready-to-use techniques."
+ },
+ {
+  "courseName": "City and mobility",
+  "courseCode": "AR-458",
+  "courseSection": "AR",
+  "profName": [
+   "Drevon",
+   "Kaufmann",
+   "Ravalet"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Comfort and architecture: sustainable strategies",
+  "courseCode": "AR-442",
+  "courseSection": "AR",
+  "profName": [
+   "Karmann",
+   "Wienold"
+  ],
+  "courseDesc": "This class offers an overview about comfort evaluations in architectural design and suggests passive and low-energy strategies suited to ensure the highest possible indoor environment quality for buildings."
+ },
+ {
+  "courseName": "Complex structures",
+  "courseCode": "AR-535",
+  "courseSection": "AR",
+  "profName": [
+   "De Castro San Roman Fest",
+   "Keller"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Confort by design in the 20th century architecture",
+  "courseCode": "AR-428",
+  "courseSection": "AR",
+  "profName": [
+   "Marino"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Critique du projet urbain contemporain",
+  "courseCode": "AR-493",
+  "courseSection": "AR",
+  "profName": [
+   "Marot"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "ENAC project",
+  "courseCode": "PENS-490",
+  "courseSection": "GC",
+  "profName": [
+   "Profs divers"
+  ]
+ },
+ {
+  "courseName": "History of concrete",
+  "courseCode": "AR-425",
+  "courseSection": "AR",
+  "profName": [
+   "Gargiani"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "History of housing",
+  "courseCode": "AR-427",
+  "courseSection": "AR",
+  "profName": [
+   "Ortelli"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Interactive conceptual design of structural forms",
+  "courseCode": "AR-483",
+  "courseSection": "AR",
+  "profName": [
+   ""
+  ],
+  "courseDesc": "The class exposes students to the geometric design of material efficient architectural structures. The focus is placed on the conceptual exploration of a rich, diverse solution set. Hand-controlled methods and parametric tools are used, as well as strategies to rapidly take key decisions."
+ },
+ {
+  "courseName": "Introduction to BIM (Building Information Modeling)",
+  "courseCode": "AR-484",
+  "courseSection": "AR",
+  "profName": [
+   "Hautecoeur"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Land, properties, housing",
+  "courseCode": "AR-491",
+  "courseSection": "AR",
+  "profName": [
+   "Thalmann"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Land use planning",
+  "courseCode": "AR-454",
+  "courseSection": "AR",
+  "profName": [
+   "Chenal"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Spatial and Regional Economy",
+  "courseCode": "AR-492",
+  "courseSection": "AR",
+  "profName": [
+   "Dessemontet"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Structure and architecture",
+  "courseCode": "CIVIL-434",
+  "courseSection": "GC",
+  "profName": [
+   "Muttoni",
+   "Wahlen"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Summer workshop",
+  "courseCode": "PENS-491",
+  "courseSection": "GC",
+  "profName": [
+   "Profs divers"
+  ]
+ },
+ {
+  "courseName": "Technological Innovation",
+  "courseCode": "AR-487",
+  "courseSection": "AR",
+  "profName": [
+   "Tombesi"
+  ],
+  "courseDesc": "Technological Innovation has three aims. \nIt seeks to: a) examine how new products and processes are developed specifically in or for the building sector, b) discuss the elements constraining their dissemination, and c) lay out a theory of how success can be determined."
+ },
+ {
+  "courseName": "The law of architecture: construction process",
+  "courseCode": "ENG-484",
+  "courseSection": "AR",
+  "profName": [
+   "Dubey",
+   "Werro"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "The preservation project: theories and techniques",
+  "courseCode": "AR-434",
+  "courseSection": "AR",
+  "profName": [
+   "Graf",
+   "Marino"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "UE A : Art and architecture",
+  "courseCode": "AR-404",
+  "courseSection": "AR",
+  "profName": [
+   "Weber"
+  ],
+  "courseDesc": "The agency of concrete: this course enables students to individually develop projects (sculptures, interventions, performances) with and about the assemblage concrete, employing a critical approach based on reading about New Materialism and the anthropocene."
+ },
+ {
+  "courseName": "UE B : Architectural critique",
+  "courseCode": "AR-432",
+  "courseSection": "AR",
+  "profName": [
+   "Beaudoin",
+   "Marchand",
+   "Zurbuchen"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "UE D : Territory and society",
+  "courseCode": "AR-466",
+  "courseSection": "AR",
+  "profName": [
+   "Kaufmann",
+   "Pedrazzini",
+   "Tirone Chabert"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "UE F : Architecture and rehabilitation",
+  "courseCode": "AR-439",
+  "courseSection": "AR",
+  "profName": [
+   "Arlaud",
+   "Brühwiler",
+   "Ortelli",
+   "Wall Gago",
+   "Zurbrügg"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "UE H : Graphy ",
+  "courseCode": "AR-433",
+  "courseSection": "AR",
+  "profName": [
+   "Métraux",
+   "Paternault",
+   "Soubeyrand"
+  ],
+  "courseDesc": "C"
+ },
+ {
+  "courseName": "UE J : Territory and landscape",
+  "courseCode": "AR-471",
+  "courseSection": "AR",
+  "profName": [
+   "Brault-Fulop",
+   "Cogato Lanza",
+   "Pattaroni",
+   "Villaret"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "UE K : Architecture and Sustainability : performance studies ",
+  "courseCode": "AR-440",
+  "courseSection": "AR",
+  "profName": [
+   "Fivet",
+   "Fumeaux",
+   "Karmann",
+   "Rey"
+  ],
+  "courseDesc": "C"
+ },
+ {
+  "courseName": "UE L : Art and architecture: constructing the view I",
+  "courseCode": "AR-415",
+  "courseSection": "AR",
+  "profName": [
+   "Schaerer"
+  ],
+  "courseDesc": "Key competences for every architect are the ability to represent ideas coherently and communicate a project's aims effectively. Design, painting, photography, modelling and graphics are essential to the architectural project and become didactic instruments for the development of individual talent."
+ },
+ {
+  "courseName": "UE N : Art et architecture: constructing the view II",
+  "courseCode": "AR-416",
+  "courseSection": "AR",
+  "profName": [
+   "Schaerer"
+  ],
+  "courseDesc": "Key competences for every architect are the ability to represent ideas coherently and communicate a projectâs aims effectively. Design, painting, photography, modelling and graphics are essential to the architectural project and become didactic instruments for the development of individual talent."
+ },
+ {
+  "courseName": "UE P: Concrete. Construction and prefabrication",
+  "courseCode": "AR-448",
+  "courseSection": "AR",
+  "profName": [
+   "Amstein",
+   "Voellinger"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "UE R: Introduction to BIM (Building Information Modeling)",
+  "courseCode": "AR-435",
+  "courseSection": "AR",
+  "profName": [
+   "Hautecoeur"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "UE U : Cartography",
+  "courseCode": "AR-476",
+  "courseSection": "AR",
+  "profName": [
+   "Maçães E Costa"
+  ],
+  "courseDesc": "This teaching unit aims to experiment with the medium of cartography as a means of spatial representation, and as a tool for reading, understanding and changing the territory."
+ },
+ {
+  "courseName": "UE X : Experience design",
+  "courseCode": "AR-480",
+  "courseSection": "AR",
+  "profName": [
+   "Huang"
+  ],
+  "courseDesc": "Experience Design examines the effects of digitalization on architectural typologies in the contemporary city. The course questions traditional typologies by focusing on an understanding and re-design of social, geographic, temporal and emotional experiences."
+ },
+ {
+  "courseName": "UE Y : Territory and description",
+  "courseCode": "AR-468",
+  "courseSection": "AR",
+  "profName": [
+   ""
+  ],
+  "courseDesc": "The aim of the course will be the one of understanding the use of different tools of description, where the combination of different technics, scales, and \"gazes\" can produce innovative representations, and ultimately envision unexpected paths towards the construction of a territorial project."
+ },
+ {
+  "courseName": "Urban habitat and developement",
+  "courseCode": "AR-465",
+  "courseSection": "AR",
+  "profName": [
+   ""
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Urbanism and Territories",
+  "courseCode": "AR-455",
+  "courseSection": "AR",
+  "profName": [
+   "Drevon",
+   "Kaufmann",
+   "Messer"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Urbanism in Asia",
+  "courseCode": "AR-456",
+  "courseSection": "AR",
+  "profName": [
+   "Ferrari",
+   "Graezer Bideau"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Urban sociology",
+  "courseCode": "AR-489",
+  "courseSection": "AR",
+  "profName": [
+   "Clément",
+   "Drevon",
+   "Pattaroni"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Visionnaires éclectiques. Architectures, 2000-2018",
+  "courseCode": "AR-499",
+  "courseSection": "AR",
+  "profName": [
+   "Gargiani"
+  ],
+  "courseDesc": "C"
+ },
+ {
+  "courseName": "Visions and Utopias",
+  "courseCode": "AR-407",
+  "courseSection": "AR",
+  "profName": [
+   "Braghieri"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Write / Build. Round trip",
+  "courseCode": "AR-417",
+  "courseSection": "AR",
+  "profName": [
+   "Maillard"
+  ],
+  "courseDesc": "C"
+ }
+]

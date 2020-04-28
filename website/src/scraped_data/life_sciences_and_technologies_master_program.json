@@ -1,0 +1,695 @@
+[
+ {
+  "courseName": "Master project in Life Sciences and Technology",
+  "courseCode": "BIO-598",
+  "courseSection": "SV",
+  "profName": [
+   "Profs divers"
+  ]
+ },
+ {
+  "courseName": "Cancer biology I",
+  "courseCode": "BIO-471",
+  "courseSection": "SV",
+  "profName": [
+   "Lingner",
+   "Oricchio",
+   "Simanis"
+  ],
+  "courseDesc": "The course covers in detail molecular mechanisms of cancer development with emphasis on cell cycle control, genome stability, oncogenes and tumor suppressor genes."
+ },
+ {
+  "courseName": "Cancer biology II",
+  "courseCode": "BIO-472",
+  "courseSection": "SV",
+  "profName": [
+   "Hanahan",
+   "Hülsken",
+   "Meylan"
+  ],
+  "courseDesc": "The course covers in detail the interactions of cancer cells with their environment with an emphasis on tumor-angiogenesis, inflammation, adaptive and innate immunity and cancer-induced immune suppression. Additional topics are cancer metabolism, cancer stem cells and metastasis."
+ },
+ {
+  "courseName": "Immunology",
+  "courseCode": "BIO-479",
+  "courseSection": "SV",
+  "profName": [
+   "Ablasser"
+  ],
+  "courseDesc": "The students acquire knowledge regarding the functioning of the vertebrate immune system. A strong focus is placed on the molecular mechanisms underlying innate and adaptive immune responses and their implications for medicine. Students apply this knowledge during oral presentations."
+ },
+ {
+  "courseName": "Infection biology",
+  "courseCode": "BIO-477",
+  "courseSection": "SV",
+  "profName": [
+   "Blokesch"
+  ],
+  "courseDesc": "Infectious diseases (ID) are still a major problem to human health. But how do pathogens make us sick? How do they evolve and spread? The discovery and use of antibiotics and vaccination has changed the outcome of some IDs. But resistance mechanisms have evolved and are of major concern."
+ },
+ {
+  "courseName": "Neuroscience: behavior and cognition",
+  "courseCode": "BIO-483",
+  "courseSection": "SV",
+  "profName": [
+   "Blanke",
+   "Herzog",
+   "Sandi Perez"
+  ],
+  "courseDesc": "The goal is to guide students into the essential topics of Behavioral and Cognitive Neuroscience. The challenge for the student in this course is to integrate the diverse knowledge acquired from those levels of analysis into a more or less coherent understanding of brain structure and function."
+ },
+ {
+  "courseName": "Neuroscience: cellular and circuit mechanisms",
+  "courseCode": "BIO-482",
+  "courseSection": "SV",
+  "profName": [
+   "Petersen",
+   "Schneggenburger"
+  ],
+  "courseDesc": "This lecture course focuses on the cellular mechanisms of mammalian brain function. We will describe how neurons communicate through synaptic transmission in order to process sensory information ultimately leading to motor behavior."
+ },
+ {
+  "courseName": "Neuroscience: from molecular mechanisms to disease",
+  "courseCode": "BIO-480",
+  "courseSection": "SV",
+  "profName": [
+   "Gräff",
+   "Lashuel",
+   "Schneider"
+  ],
+  "courseDesc": "The goal of the course is to guide students through the essential aspects of molecular neuroscience and neurodegenerative diseases. The student will gain the ability to dissect the molecular basis of disease in the nervous system in order to begin to understand and identify therapeutic strategies."
+ },
+ {
+  "courseName": "Biomicroscopy I",
+  "courseCode": "MICRO-561",
+  "courseSection": "SV",
+  "profName": [
+   "Altug"
+  ],
+  "courseDesc": "Introduction to geometrical and wave optics for understanding the principles of optical microscopes, their advantages and limitations. Describing the basic microscopy components and the commonly used biomicrocopy methods such as widefield and fluorescence."
+ },
+ {
+  "courseName": "Fundamentals of biomedical imaging",
+  "courseCode": "PHYS-438",
+  "courseSection": "PH",
+  "profName": [
+   "Gruetter"
+  ],
+  "courseDesc": "The goal of this course is to illustrate how modern principles of basic science approaches are integrated into the major  biomedical imaging modalities of importance to biology and medicine, with an emphasis on those of interest to in vivo."
+ },
+ {
+  "courseName": "Image processing I",
+  "courseCode": "MICRO-511",
+  "courseSection": "MT",
+  "profName": [
+   "Unser",
+   "Van De Ville"
+  ],
+  "courseDesc": "Introduction to the basic techniques of image processing. Introduction to the development of image-processing software and to prototyping in JAVA. Application to real-world examples in industrial vision and biomedical imaging."
+ },
+ {
+  "courseName": "Analog circuits for biochip",
+  "courseCode": "EE-518",
+  "courseSection": "EL",
+  "profName": [
+   "Carrara",
+   "Dehollain",
+   "Skrivervik Favre"
+  ],
+  "courseDesc": "Introduction to analog CMOS design for Remote Biosensors on Chip. Understanding and designing of active and remotely powered biosensing systems. Basic understanding of eh wireless transmission of teh obtained signals"
+ },
+ {
+  "courseName": "Applied biostatistics",
+  "courseCode": "MATH-493",
+  "courseSection": "MA",
+  "profName": [
+   "Goldstein"
+  ],
+  "courseDesc": "This course covers topics in applied biostatistics, with an emphasis on practical aspects of data analysis using R statistical software. Topics include types of studies and their design and analysis, high dimensional data analysis (genetic/genomic) and other topics as time and interest permit."
+ },
+ {
+  "courseName": "Artificial neural networks",
+  "courseCode": "CS-456",
+  "courseSection": "IN",
+  "profName": [
+   "Gerstner"
+  ],
+  "courseDesc": "Since 2010 approaches in deep learning have revolutionized fields as diverse as computer vision, machine learning, or artificial intelligence. This course gives a systematic introduction into the main  models of deep artificial neural networks: Supervised Learning and Reinforcement Learning."
+ },
+ {
+  "courseName": "Bioimage informatics",
+  "courseCode": "BIO-410",
+  "courseSection": "SV",
+  "profName": [
+   "Sage",
+   "Seitz"
+  ],
+  "courseDesc": "The course provides a comprehensive overview of methods, algorithms, and computer tools used in in computational bioimaging and bioimage analysis. It exposes the fundamental concepts and the practical computer solutions to extract quantitative information from multidimensional images."
+ },
+ {
+  "courseName": "Biological modeling of neural networks",
+  "courseCode": "BIO-465",
+  "courseSection": "IN",
+  "profName": [
+   "Gerstner"
+  ],
+  "courseDesc": "In this course we study mathematical models of neurons and neuronal networks in the context of biology and establish links to models of cognition."
+ },
+ {
+  "courseName": "BioMEMS",
+  "courseCode": "MICRO-560",
+  "courseSection": "MT",
+  "profName": [
+   "Renaud"
+  ],
+  "courseDesc": "This course covers the main applications of micro devices for life science and biomedical applications. The course is organized by application topic. It is also covering the basic physical, biological, chemical, technological concepts, which are presented as transversal introductory section"
+ },
+ {
+  "courseName": "Biomicroscopy II",
+  "courseCode": "MICRO-562",
+  "courseSection": "SV",
+  "profName": [
+   "Altug",
+   "Seitz"
+  ],
+  "courseDesc": "Introduction to the different contrast enhancing methods in optical microscopy. Basic hands-on experience with optical microscopes at EPFL's BioImaging and Optics Facility. How to investigate biological samples? How to obtain high quality images?"
+ },
+ {
+  "courseName": "Biomolecular structure and mechanics",
+  "courseCode": "BIO-315",
+  "courseSection": "SV",
+  "profName": [
+   "Dal Peraro"
+  ],
+  "courseDesc": "Main focus of this course is on the description and design of molecular interactions defining the structure, dynamics and function of biological systems. The principal experimental and computational techniques used in structural biology, molecular modeling and design will be introduced and practiced"
+ },
+ {
+  "courseName": "Computational cell biology",
+  "courseCode": "BIOENG-455",
+  "courseSection": "SV",
+  "profName": [
+   "Shillcock"
+  ],
+  "courseDesc": "Computer modelling is increasingly used to study dynamic phenomena in cell biology. This course shows how to identify common mathematical features in cell biological mechanisms, and become proficient in selecting numerical algorithms to model them and predict their behaviour."
+ },
+ {
+  "courseName": "Computational motor control",
+  "courseCode": "CS-432",
+  "courseSection": "SV",
+  "profName": [
+   "Ijspeert"
+  ],
+  "courseDesc": "The course gives (1) a review of different types of numerical models of control of locomotion and movement in animals, (2) a presentation of different techniques for designing models, and (3) an analysis of the use and testing of those models in robotics and neuroprosthetics."
+ },
+ {
+  "courseName": "Controlling behavior in animals and robots",
+  "courseCode": "BIOENG-456",
+  "courseSection": "SV",
+  "profName": [
+   "Ramdya"
+  ],
+  "courseDesc": "Students will acquire an integrative view on biological and artificial algorithms for controlling autonomous behaviors in animals and robots. Students will synthesize and apply this knowledge in oral presentations and exercises."
+ },
+ {
+  "courseName": "Dynamical system theory for engineers",
+  "courseCode": "COM-502",
+  "courseSection": "SC",
+  "profName": [
+   "Thiran"
+  ],
+  "courseDesc": "Linear and nonlinear dynamical systems are found in all fields of science and engineering. After a short review of linear system theory, the class will explain and develop the main tools for the qualitative analysis of nonlinear systems, both in discrete-time and continuous-time."
+ },
+ {
+  "courseName": "Economics of innovation in the biomedical industry",
+  "courseCode": "MGT-403",
+  "courseSection": "MTE",
+  "profName": [
+   ""
+  ],
+  "courseDesc": "This course uses the basics of microeconomic theory to address and develop the main economic issues about innovation in the biomedical sector (competition, monopoly and price formation, productivity crisis, knowledge access, neglected diseases, geography of innovation)"
+ },
+ {
+  "courseName": "Frontiers in chemical biology",
+  "courseCode": "CH-412",
+  "courseSection": "CGC",
+  "profName": [
+   "Aye",
+   "Ferreira De Sousa Correia"
+  ],
+  "courseDesc": "Chemical biology is a key discipline in biomedical research for drug discovery, synthetic biology and protein functional annotation. We will give a broad perspective of the field ranging from seminal classical experiments to state-of-the-art approaches to dissect and perturb biological systems."
+ },
+ {
+  "courseName": "Fundamentals of biosensors and electronic biochips",
+  "courseCode": "EE-515",
+  "courseSection": "EL",
+  "profName": [
+   "Guiducci"
+  ],
+  "courseDesc": "The labels \"biosensor\" and \"eBiochip\" have been employed to refer to the most diverse systems and in several fields of application. The course is meant not only to provide means to dig into this sea but also a thoughtful understanding of the detection principles and a design perspective."
+ },
+ {
+  "courseName": "Fundamentals of neuroengineering",
+  "courseCode": "BIOENG-448",
+  "courseSection": "SV",
+  "profName": [
+   ""
+  ],
+  "courseDesc": "Neuroengineering is at the frontier between neuroscience and engineering: understanding how the brain works allows developing engineering applications and therapies of high impact, while design of new measurement and data analysis techniques contributes to advance our knowledge about the brain."
+ },
+ {
+  "courseName": "Genomics and bioinformatics",
+  "courseCode": "BIO-463",
+  "courseSection": "SV",
+  "profName": [
+   "Rougemont"
+  ],
+  "courseDesc": "This course reviews the different techniques of DNA sequence analysis and the associated bioinformatics tools in the context of applications to current research in molecular biology."
+ },
+ {
+  "courseName": "Image processing II",
+  "courseCode": "MICRO-512",
+  "courseSection": "MT",
+  "profName": [
+   "Liebling",
+   "Sage",
+   "Unser",
+   "Van De Ville"
+  ],
+  "courseDesc": "Study of advanced image processing; mathematical imaging. Development of image-processing software and prototyping in JAVA; application to real-world examples in industrial vision and biomedical imaging."
+ },
+ {
+  "courseName": "Immunoengineering",
+  "courseCode": "BIOENG-399",
+  "courseSection": "SV",
+  "profName": [
+   "Tang"
+  ],
+  "courseDesc": "Immunoengineering is an emerging field where engineering principles are grounded in immunology. This course provides students a broad overview of how engineering approaches can be utilized to study immunology, model immune systems, modulate immune response, and develop novel immunotherapies."
+ },
+ {
+  "courseName": "In silico neuroscience",
+  "courseCode": "BIOENG-450",
+  "courseSection": "SV",
+  "profName": [
+   "Romani",
+   "Schürmann"
+  ],
+  "courseDesc": "\"In silico Neuroscience\" introduces students to a synthesis of modern neuroscience and state-of-the-art data management, modelling and computing technologies."
+ },
+ {
+  "courseName": "Introduction to law and ethics",
+  "courseCode": "BIO-455",
+  "courseSection": "SV",
+  "profName": [
+   "Barazzetti",
+   "Marks Sultan"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Introduction to visual computing",
+  "courseCode": "CS-211",
+  "courseSection": "IN",
+  "profName": [
+   "Dillenbourg",
+   "Salzmann"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Lab immersion academic (outside EPFL)",
+  "courseCode": "BIO-504",
+  "courseSection": "SV",
+  "profName": [
+   "Profs divers"
+  ]
+ },
+ {
+  "courseName": "Lab immersion I",
+  "courseCode": "BIO-501",
+  "courseSection": "SV",
+  "profName": [
+   "Profs divers"
+  ]
+ },
+ {
+  "courseName": "Lab immersion II",
+  "courseCode": "BIO-502",
+  "courseSection": "SV",
+  "profName": [
+   "Profs divers"
+  ]
+ },
+ {
+  "courseName": "Lab immersion III",
+  "courseCode": "BIO-503",
+  "courseSection": "SV",
+  "profName": [
+   "Profs divers"
+  ]
+ },
+ {
+  "courseName": "Lab immersion in industry",
+  "courseCode": "BIO-506",
+  "courseSection": "SV",
+  "profName": [
+   "Profs divers"
+  ]
+ },
+ {
+  "courseName": "Lab methods : animal experimentation",
+  "courseCode": "BIOENG-511",
+  "courseSection": "SV",
+  "profName": [
+   "Doenlen",
+   "Warot"
+  ],
+  "courseDesc": "Theoretical introduction to the ethics and principles of animal experimentation in the context of the animal models (laboratory mouse, laboratory, rat, zebrafish) used at EPFL."
+ },
+ {
+  "courseName": "Lab methods : bioactive compounds screening",
+  "courseCode": "BIOENG-512",
+  "courseSection": "SV",
+  "profName": [
+   "Chambon",
+   "Turcatti"
+  ],
+  "courseDesc": "Introduction to the key principles and concepts underlying the screening activity to identify and to characterize bioactive compounds (chemicals, compounds, siRNAs and natural products) acting on a given biological target or a signalling pathway."
+ },
+ {
+  "courseName": "Lab methods : biosafety",
+  "courseCode": "BIOENG-513",
+  "courseSection": "SV",
+  "profName": [
+   "Profs divers"
+  ]
+ },
+ {
+  "courseName": "Lab methods : flow cytometry",
+  "courseCode": "BIOENG-514",
+  "courseSection": "SV",
+  "profName": [
+   "Garcia"
+  ],
+  "courseDesc": "This module covers the fundamentals of Flow Cytometry, both practical and theoretical. Students will work in small groups, from sample preparation to data analysis, giving them hands-on time and allowing them to put the theory into practice inside a laboratory environment"
+ },
+ {
+  "courseName": "Lab methods : histology",
+  "courseCode": "BIOENG-516",
+  "courseSection": "SV",
+  "profName": [
+   "Sordet-Dessimoz"
+  ],
+  "courseDesc": "Presentation of the diverse techniques to prepare samples for bright field microscopy, as well as procedures for standard histology stains and proteins detection with observation of tissues under microscope."
+ },
+ {
+  "courseName": "Lab methods : proteomics",
+  "courseCode": "BIOENG-517",
+  "courseSection": "SV",
+  "profName": [
+   "Chiappe",
+   "Paz Montoya",
+   "Schmid"
+  ],
+  "courseDesc": "Introduction to several mass spectrometry techniques and their application to the proteomics field. Description of bioinformatics tools used to analyze proteomics data. The goal of the course is to provide an overview of main proteomics strategies and their applications in the Life Science context"
+ },
+ {
+  "courseName": "Machine learning",
+  "courseCode": "CS-433",
+  "courseSection": "IN",
+  "profName": [
+   "Jaggi",
+   "Urbanke"
+  ],
+  "courseDesc": "Machine learning and data analysis are becoming increasingly central in many sciences and applications. In this course, fundamental principles and methods of machine learning will be introduced, analyzed and practically implemented."
+ },
+ {
+  "courseName": "Molecular endocrinology",
+  "courseCode": "BIO-450",
+  "courseSection": "SV",
+  "profName": [
+   "Brisken"
+  ],
+  "courseDesc": "We will define the concept of homeostasis and principles of hormone action and the molecular mechanisms underlying them. Interactions with the environment and pertinent public health issues will be analyzed."
+ },
+ {
+  "courseName": "Nanobiotechnology and biophysics",
+  "courseCode": "CH-413",
+  "courseSection": "CGC",
+  "profName": [
+   "Fierz"
+  ],
+  "courseDesc": "This course concerns modern bioanalytical techniques to investigate biomolecules both in vitro and in vivo, including recent methods to image, track and manipulate single molecules. We cover the basic principles of the respective methods and discuss examples from the current scientific literature."
+ },
+ {
+  "courseName": "Neuroengineering of vision",
+  "courseCode": "BIOENG-457",
+  "courseSection": "SV",
+  "profName": [
+   "Ghezzi"
+  ],
+  "courseDesc": "This course aims at providing the key knowledge and skills needed by professional bioengineers working in the field of vision restoration with neuroprostheses. During the course the students will work on a project related to the development of a visual prosthesis."
+ },
+ {
+  "courseName": "New tools & research strategies in personalized health",
+  "courseCode": "BIO-491",
+  "courseSection": "SV",
+  "profName": [
+   "Fellay",
+   "Trono"
+  ],
+  "courseDesc": "We will define the concept of personalized health, describe the underlying technologies, the technological, legal and ethical challenges that the field faces today, and how they are being met."
+ },
+ {
+  "courseName": "Nutrition: from molecules to health",
+  "courseCode": "BIO-441",
+  "courseSection": "SV",
+  "profName": [
+   "Descombes",
+   "Hager",
+   "Lê Bur",
+   "Rezzi",
+   "Springer",
+   "Wiederkehr"
+  ],
+  "courseDesc": "The course will address how nutrition affects human health and disease. We will describe how nutrients are absorbed and metabolized. We will introduce the concept of the integrated systems approach to better define human health based on holistic phenotyping of human individuals"
+ },
+ {
+  "courseName": "Pharmacology and pharmacokinetics",
+  "courseCode": "BIO-478",
+  "courseSection": "SV",
+  "profName": [
+   "Firsov",
+   "Kellenberger",
+   "Zufferey"
+  ],
+  "courseDesc": "This course introduces the student to the fudamentals in pharmacology, pharmacokinétics, drug-receptor interactions. Pharmacogenetics and chronopharmacology are presented in a practical contexte in order to examplify the current issues in the domain to develop personalized medicine"
+ },
+ {
+  "courseName": "Principles and applications of systems biology",
+  "courseCode": "ChE-411",
+  "courseSection": "CGC",
+  "profName": [
+   "Hatzimanikatis"
+  ],
+  "courseDesc": "C"
+ },
+ {
+  "courseName": "Sensorimotor neuroprosthetics",
+  "courseCode": "BIOENG-486",
+  "courseSection": "SV",
+  "profName": [
+   "Courtine",
+   "Micera"
+  ],
+  "courseDesc": "Teaching objectives: history, neural control of movement, computational motor control, neurorehabilitation after CNS disorders, upper limb and hand neuroprostheses, lower limp neuroprostheses, student project."
+ },
+ {
+  "courseName": "Sensors in medical instrumentation",
+  "courseCode": "EE-511",
+  "courseSection": "EL",
+  "profName": [
+   "Aminian"
+  ],
+  "courseDesc": "Fundamental principles and methods used for physiological signal conditioning. Resistive, capacitive, inductive, piezoelectric and optical techniques used to detect and convert physiological information's to electrical signals. Laboratory and ambulatory devices for monitoring and therapy."
+ },
+ {
+  "courseName": "Signal processing for functional brain imaging",
+  "courseCode": "MICRO-513",
+  "courseSection": "MT",
+  "profName": [
+   "Van De Ville"
+  ],
+  "courseDesc": "Computational methods for the analysis of human brain imaging data"
+ },
+ {
+  "courseName": "Single cell biology",
+  "courseCode": "BIOENG-420",
+  "courseSection": "SV",
+  "profName": [
+   "Deplancke",
+   "Suter"
+  ],
+  "courseDesc": "The students are exposed to experimental and analytical approaches specific to single cell biology, with an emphasis on quantitative aspects."
+ },
+ {
+  "courseName": "Statistical physics of biomacromolecules",
+  "courseCode": "PHYS-441",
+  "courseSection": "PH",
+  "profName": [
+   "De Los Rios"
+  ],
+  "courseDesc": "Introduction to the application of the notions and methods of theoretical physics to problems in biology."
+ },
+ {
+  "courseName": "Stem cell biology and technology",
+  "courseCode": "BIO-447",
+  "courseSection": "SV",
+  "profName": [
+   "Lütolf",
+   "Radtke",
+   "Suter"
+  ],
+  "courseDesc": "This course introduces the fundamentals of stem cell biology, with a particular focus on the role of stem cells during development, tissue homeostasis/regeneration and disease."
+ },
+ {
+  "courseName": "Stochastic models in communication",
+  "courseCode": "COM-300",
+  "courseSection": "SC",
+  "profName": [
+   "Thiran"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Understanding statistics and experimental design",
+  "courseCode": "BIO-449",
+  "courseSection": "SV",
+  "profName": [
+   ""
+  ],
+  "courseDesc": "This course is neither an introduction to the mathematics of statistics nor an introduction to a statistics program such as R. The aim of the course is to understand statistics from its experimental design and to avoid common pitfalls of statistical reasoning. There is space to discuss ongoing work."
+ },
+ {
+  "courseName": "Unsupervised & reinforcement learning in neural networks",
+  "courseCode": "CS-434",
+  "courseSection": "SV",
+  "profName": [
+   ""
+  ],
+  "courseDesc": "Learning is observable in  animal and human behavior, but learning is also a topic of computer science. This course links algorithms from machine learning with biological phenomena of synaptic plasticity. The course covers unsupervised and reinforcement learning, but not supervised learning."
+ },
+ {
+  "courseName": "Industry internship in Life Sciences and Technology",
+  "courseCode": "BIOENG-596(b)",
+  "courseSection": "SV",
+  "profName": [
+   "Profs divers"
+  ]
+ },
+ {
+  "courseName": "Scientific literature analysis in bioengineering",
+  "courseCode": "BIO-467",
+  "courseSection": "SV",
+  "profName": [
+   "Altug",
+   "Barth",
+   "Tang"
+  ],
+  "courseDesc": "Students are given the means to dig effectively into modern scientific literature in the multidisciplinary field of bioengineering. \nThe method relies on granting sufficient time to become familiar with the background and hypotheses, on effective support during the analysis and on oral assessment."
+ },
+ {
+  "courseName": "Scientific literature analysis in computational molecular biology",
+  "courseCode": "BIO-468",
+  "courseSection": "SV",
+  "profName": [
+   "Bucher"
+  ],
+  "courseDesc": "The goal is to learn to analyze a paper critically, asking whether the data presented support the conclusions that are drawn. The analysis is presented in the form of a summary abstract and critical, constructive referee's report."
+ },
+ {
+  "courseName": "Scientific literature analysis in neuroscience",
+  "courseCode": "BIOENG-451",
+  "courseSection": "SV",
+  "profName": [
+   "McCabe",
+   "Sandi Perez"
+  ],
+  "courseDesc": "The goal of this course is to learn how to discover, digest, analyze and a criticize scientific papers encompassing a defined topic within neuroscience."
+ },
+ {
+  "courseName": "Scientific project design in cell and developmental biology",
+  "courseCode": "BIO-464",
+  "courseSection": "SV",
+  "profName": [
+   "Gönczy",
+   "Oates"
+  ],
+  "courseDesc": "Students are lead to understand selected concepts in cell and developmental biology, primarily through the analysis of scientific literature, and then to apply these concepts to the design and execution of a group project in the Gönczy or Oates laboratory."
+ },
+ {
+  "courseName": "Scientific project design in drug discovery",
+  "courseCode": "BIO-494",
+  "courseSection": "SV",
+  "profName": [
+   "Auwerx"
+  ],
+  "courseDesc": "The goal of this course is to instruct the student how fundamental scientific knowledge can be applied for drug discovery and development. We will demonstrate these principles with examples, including obesity, diabetes, and atherosclerosis."
+ },
+ {
+  "courseName": "Scientific project design in integrative neurosciences",
+  "courseCode": "BIO-493",
+  "courseSection": "SV",
+  "profName": [
+   "Petersen",
+   "Schürmann"
+  ],
+  "courseDesc": "This course will provide a forum in which students engage themselves in learning how to design a scientific project that bridges scales and allows following the causal chain from one scale to the next."
+ },
+ {
+  "courseName": "Scientific project design in synthetic biology (iGEM)",
+  "courseCode": "BIO-318",
+  "courseSection": "SV",
+  "profName": [
+   "Maerkl"
+  ],
+  "courseDesc": "An interdisciplinary EPFL student team will design and build genetic circuits with novel functionalities. Students learn to develop a project and carry it out to completion in a concrete manner. Their creativity and critical thinking are highly encouraged."
+ },
+ {
+  "courseName": "Scientific project design in translational neurosciences",
+  "courseCode": "BIO-487",
+  "courseSection": "SV",
+  "profName": [
+   "Gräff",
+   "Le Coutre"
+  ],
+  "courseDesc": "The goal of this course is to instruct the student how fundamental scientific knowledge, acquired through the study of fundamental disciplines, including biochemistry, genetics, pharmacology, physiology, genomics, cell and molecular biology can be applied for drug discovery and development."
+ },
+ {
+  "courseName": "Scientific project design in translational oncology",
+  "courseCode": "BIO-488",
+  "courseSection": "SV",
+  "profName": [
+   "De Palma",
+   "Hanahan",
+   "Radtke"
+  ],
+  "courseDesc": "The theme of the course is the role of inflammation in cancer. It focuses on the regulation and multifaceted functions of tumor-associated inflammatory cells, and how they promote or oppose cancer."
+ },
+ {
+  "courseName": "HSS : Introduction to project",
+  "courseCode": "",
+  "courseSection": "SHS",
+  "profName": [
+   "Divers enseignants"
+  ]
+ },
+ {
+  "courseName": "HSS : Project",
+  "courseCode": "",
+  "courseSection": "SHS",
+  "profName": [
+   "Divers enseignants"
+  ]
+ }
+]

@@ -1,0 +1,513 @@
+[
+ {
+  "courseName": "Engineering internship credited with master project (master in Environmental sciences and engineering)",
+  "courseCode": "ENV-598",
+  "courseSection": "SIE",
+  "profName": [
+   "Profs divers"
+  ]
+ },
+ {
+  "courseName": "Master project in Environmental Sciences and Engineering",
+  "courseCode": "ENV-599",
+  "courseSection": "SIE",
+  "profName": [
+   "Profs divers"
+  ]
+ },
+ {
+  "courseName": "Design project",
+  "courseCode": "ENV-596",
+  "courseSection": "SIE",
+  "profName": [
+   "Profs divers"
+  ]
+ },
+ {
+  "courseName": "ENAC project",
+  "courseCode": "PENS-490",
+  "courseSection": "GC",
+  "profName": [
+   "Profs divers"
+  ]
+ },
+ {
+  "courseName": "SIE project",
+  "courseCode": "ENV-597",
+  "courseSection": "SIE",
+  "profName": [
+   "Profs divers"
+  ]
+ },
+ {
+  "courseName": "Summer workshop",
+  "courseCode": "PENS-491",
+  "courseSection": "GC",
+  "profName": [
+   "Profs divers"
+  ]
+ },
+ {
+  "courseName": "HSS : Introduction to project",
+  "courseCode": "",
+  "courseSection": "SHS",
+  "profName": [
+   "Divers enseignants"
+  ]
+ },
+ {
+  "courseName": "HSS : Project",
+  "courseCode": "",
+  "courseSection": "SHS",
+  "profName": [
+   "Divers enseignants"
+  ]
+ },
+ {
+  "courseName": "Air pollution and climate change",
+  "courseCode": "ENV-400",
+  "courseSection": "SIE",
+  "profName": [
+   "Reimann Bhend",
+   "Takahama"
+  ],
+  "courseDesc": "A survey course describing the origins of air pollution and climate change"
+ },
+ {
+  "courseName": "Environmental transport phenomena",
+  "courseCode": "ENG-420",
+  "courseSection": "SIE",
+  "profName": [
+   "Crouzy",
+   "Porté Agel"
+  ],
+  "courseDesc": "The course aims at introducing basic physical aspects of molecular and turbulent diffusion, as well as of dispersion processes, their mathematical modeling, solutions and related environmental applications"
+ },
+ {
+  "courseName": "Geomonitoring",
+  "courseCode": "ENV-445",
+  "courseSection": "SIE",
+  "profName": [
+   "Gervaix",
+   "Merminod"
+  ],
+  "courseDesc": "The students learn several techniques for spatial mesurements, such as geodesy, aerial photogrammetry and laser scanning. They will be able to collaborate with geologists and civil engineers to master natural risks (landslides, avalanches) and to maintain infrastructures."
+ },
+ {
+  "courseName": "Spatial statistics and analysis",
+  "courseCode": "ENG-440",
+  "courseSection": "SIE",
+  "profName": [
+   "Berne",
+   "Golay"
+  ],
+  "courseDesc": "The main objective is to make the students understand the importance of the spatial issues in environmental sciences and engineering, for example for mapping and interpolation. Presentation of different concepts and techniques devoted to spatial data."
+ },
+ {
+  "courseName": "Water and wastewater treatment",
+  "courseCode": "ENV-405",
+  "courseSection": "SIE",
+  "profName": [
+   "Holliger",
+   "von Gunten"
+  ],
+  "courseDesc": "This course on water and wastewater treatment shows how to implement and design different methods and techniques to eliminate organic matter, nitrogen and phosporous from wastewater, and how to apply physical and chemical methods and techniques to produce drinking water."
+ },
+ {
+  "courseName": "Water resources engineering",
+  "courseCode": "ENV-424",
+  "courseSection": "SIE",
+  "profName": [
+   "Rinaldo"
+  ],
+  "courseDesc": "Water resources engineering designs systems to control the quantity, quality, timing, and distribution of water to support human demands and the needs of the environment."
+ },
+ {
+  "courseName": "Advanced satellite positioning",
+  "courseCode": "ENV-542",
+  "courseSection": "SIE",
+  "profName": [
+   "Botteron",
+   "Skaloud"
+  ],
+  "courseDesc": "All  fundamental principles behind modern satellite positioning to acquire,  track and evaluate direct and indirect satellite signals and process them in relation to example applications: Earth monitoring (landslides,...), high precision positioning (automated driving, robots,...) and time transfer."
+ },
+ {
+  "courseName": "Analysis and management of industrial risks",
+  "courseCode": "ENV-508",
+  "courseSection": "SIE",
+  "profName": [
+   "Berriot"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Applied wastewater engineering",
+  "courseCode": "ENV-509",
+  "courseSection": "SIE",
+  "profName": [
+   "Mattle"
+  ],
+  "courseDesc": "This course on applied wastewater treatment focuses on engineering and scientific aspects to achieve high effluent water quality and to handle wastes and air emissions generated in wastewater treatment plants."
+ },
+ {
+  "courseName": "Bio-engineering for rivers and natural systems",
+  "courseCode": "ENV-420",
+  "courseSection": "SIE",
+  "profName": [
+   "Adam"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Biomineralization: from nature to application",
+  "courseCode": "ENV-406",
+  "courseSection": "SIE",
+  "profName": [
+   "Meibom"
+  ],
+  "courseDesc": "Understanding process and role of biomineralization (minerals formed by living organisms) in context of Earth's evolution,global chemical cycles, climatic changes and remediation."
+ },
+ {
+  "courseName": "Contracts and professional responsability",
+  "courseCode": "ENV-466",
+  "courseSection": "SIE",
+  "profName": [
+   "Dubey"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Design of SIG",
+  "courseCode": "ENV-547",
+  "courseSection": "SIE",
+  "profName": [
+   "Soutter"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Development engineering",
+  "courseCode": "ENV-470",
+  "courseSection": "SIE",
+  "profName": [
+   "Hostettler",
+   "Schönenberger"
+  ],
+  "courseDesc": "This course teaches the fundamentals of technologies for development (Development Engineering) to design, pilot, and evaluate appropriate, affordable and robust technologies to address sustainable development challenges (e.g. poverty, environmental degradation) in emerging and developing countries."
+ },
+ {
+  "courseName": "Distributed information systems",
+  "courseCode": "CS-423",
+  "courseSection": "SC",
+  "profName": [
+   "Aberer"
+  ],
+  "courseDesc": "This course introduces the key concepts and algorithms from the areas of information retrieval, data mining and knowledge bases, which constitute the foundations of today's Web-based distributed information systems."
+ },
+ {
+  "courseName": "Distributed intelligent systems",
+  "courseCode": "ENG-466",
+  "courseSection": "SIE",
+  "profName": [
+   "Martinoli"
+  ],
+  "courseDesc": "The goal of this course is to provide methods and tools for modeling distributed intelligent systems as well as designing and optimizing coordination strategies. The course is a well-balanced mixture of theory and practical activities using simulation and real hardware platforms."
+ },
+ {
+  "courseName": "Energy conversion and renewable energy",
+  "courseCode": "ME-409",
+  "courseSection": "GM",
+  "profName": [
+   "Maréchal",
+   "Nguyen"
+  ],
+  "courseDesc": "The goal of the lecture is to present the principles of the energy conversion for conventional and renewable energy resources and to explain the most important parameters that define the energy conversion efficiency, resources implications and economics of the energy conversion technologies."
+ },
+ {
+  "courseName": "Environmental bioprocesses: practical lab",
+  "courseCode": "ENV-506",
+  "courseSection": "SIE",
+  "profName": [
+   "Deront"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Experimental design and data analysis with R",
+  "courseCode": "ENG-467",
+  "courseSection": "SIE",
+  "profName": [
+   ""
+  ],
+  "courseDesc": "Linking together the elements of a research project. Basic principles of designing experiments and observational studies. Statistical model of Multiple regressions and Analysis of variance, as special cases of the general linear model, Data analysis with the statistical software R."
+ },
+ {
+  "courseName": "Exploratory data analysis and geovisualization",
+  "courseCode": "ENV-444",
+  "courseSection": "SIE",
+  "profName": [
+   "Joost"
+  ],
+  "courseDesc": "This course teaches how to apply spatial exploratory approaches and processing methods and to apply them to georeferenced datasets relevant to the fields of environmental engineering, urban planning and spatial epidemiology."
+ },
+ {
+  "courseName": "Fate and behaviour of environmental contaminants",
+  "courseCode": "ENV-507",
+  "courseSection": "SIE",
+  "profName": [
+   "Kohn"
+  ],
+  "courseDesc": "The student will learn the important processes that control the transport and transformation of organic chemicals in the environment, as well as the formulation and solution of quantitative models to describe these processes."
+ },
+ {
+  "courseName": "Fluvial biogeosciences",
+  "courseCode": "ENV-426",
+  "courseSection": "SIE",
+  "profName": [
+   "Battin",
+   "Gómez Gener",
+   "Peter"
+  ],
+  "courseDesc": "Stream and river ecosystems are increasingly deteriorated owing to global change and climate change. Students will understand basic physical, chemical and biological processes in streams and rivers, and how they relate to ecosystem health and integrity ."
+ },
+ {
+  "courseName": "Fluvial hydraulics and river training works",
+  "courseCode": "CIVIL-410",
+  "courseSection": "GC",
+  "profName": [
+   "André",
+   "Arborino",
+   "De Cesare"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Groundwater and soil remediation",
+  "courseCode": "ENV-504",
+  "courseSection": "SIE",
+  "profName": [
+   "Bernier-Latmani"
+  ],
+  "courseDesc": "This course covers the essential knowledge of contaminant partitioning and techniques to monitor chemical species, physical extent of contamination and biological processes. In the second part, remediation approaches are tackled. This course represents the fundamentals of remediation."
+ },
+ {
+  "courseName": "Hydrogeophysics",
+  "courseCode": "ENV-523",
+  "courseSection": "SIE",
+  "profName": [
+   "Holliger"
+  ],
+  "courseDesc": "This course aims at providing a solid methodological foundation for understanding the principles and the applicability of geophysical techniques relevant for addressing hydrogeological and related environmental problems. The goal is to provide students with pertinent decision making capabilities."
+ },
+ {
+  "courseName": "Hydrological risks and structures",
+  "courseCode": "ENV-524",
+  "courseSection": "SIE",
+  "profName": [
+   "Ancey"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Image processing for Earth observation",
+  "courseCode": "ENV-540",
+  "courseSection": "SIE",
+  "profName": [
+   "de Morsier"
+  ],
+  "courseDesc": "This course covers optical remote sensing from satellites and airborne platforms. The different systems are presented. The students will acquire skills in image processing and machine learning to extract end-products, such as land cover or risk maps, from the images."
+ },
+ {
+  "courseName": "Image processing I",
+  "courseCode": "MICRO-511",
+  "courseSection": "MT",
+  "profName": [
+   "Unser",
+   "Van De Ville"
+  ],
+  "courseDesc": "Introduction to the basic techniques of image processing. Introduction to the development of image-processing software and to prototyping in JAVA. Application to real-world examples in industrial vision and biomedical imaging."
+ },
+ {
+  "courseName": "Impact studies",
+  "courseCode": "ENG-474",
+  "courseSection": "GC",
+  "profName": [
+   "Devanthéry",
+   "Helfer",
+   "Schmidt"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Introduction to database systems",
+  "courseCode": "CS-322",
+  "courseSection": "IN",
+  "profName": [
+   "Ailamaki",
+   "Koch"
+  ],
+  "courseDesc": "This course provides a deep understanding of the concepts behind data management systems. It covers fundamental data management topics such as system architecture, data models, query processing and optimization, database design, storage organization, and transaction management."
+ },
+ {
+  "courseName": "Land management and ground law ",
+  "courseCode": "ENV-460",
+  "courseSection": "SIE",
+  "profName": [
+   ""
+  ],
+  "courseDesc": "C"
+ },
+ {
+  "courseName": "Limnology",
+  "courseCode": "ENV-425",
+  "courseSection": "SIE",
+  "profName": [
+   "Wüest"
+  ],
+  "courseDesc": "Focus is on lakes, rivers and reservoirs as aquatic systems. Specific is the quantitative analyse (incl. exercises) of physical, biogeochemical and sedimentological processes / interactions. The goal is to understand the relevant processes (focus on water quality) from an engineering perspective."
+ },
+ {
+  "courseName": "Material and energy flow analysis",
+  "courseCode": "ENV-501",
+  "courseSection": "SIE",
+  "profName": [
+   "Binder Signer",
+   "Massard",
+   "Moreau"
+  ],
+  "courseDesc": "This course provides the bases to understand material and energy production and consumption processes. Students learn how to develop a material flow analysis and apply it to cases of resource management. They analyze the implications of their models on resource use, economic activities and policy."
+ },
+ {
+  "courseName": "Multivariate statistics with R in environment",
+  "courseCode": "ENV-521",
+  "courseSection": "SIE",
+  "profName": [
+   "Buttler",
+   "Quezada Rivera"
+  ],
+  "courseDesc": "Introduction to multivariate data analysis and modelling. The course helps for a critical choice of methods and their integration in a research planning. It prepares for complexe data analysis in various fields of environemental sciences. Use of dedicated R libraries"
+ },
+ {
+  "courseName": "Physics and hydrology of snow",
+  "courseCode": "ENV-525",
+  "courseSection": "SIE",
+  "profName": [
+   "Gaume",
+   "Huwald",
+   "Lehning"
+  ],
+  "courseDesc": "This course covers principles of snow physics, snow hydrology, snow-atmosphere interaction and snow modeling. It transmits sound understanding of physical processes within the snow and at its interfaces with the atmosphere and the ground, including field, laboratory, and modeling techniques."
+ },
+ {
+  "courseName": "Recycling of materials",
+  "courseCode": "MSE-463",
+  "courseSection": "MX",
+  "profName": [
+   "Leterrier"
+  ],
+  "courseDesc": "Students understand the issues and key factors of a waste recycling process. They know the sorting and recycling technologies of various materials and are able to compare the environmental impact of recycling with that of using raw material resources."
+ },
+ {
+  "courseName": "River eco-morphology",
+  "courseCode": "ENV-418",
+  "courseSection": "GC",
+  "profName": [
+   "De Cesare",
+   "Gostner"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Sanitary engineering in developing countries",
+  "courseCode": "ENV-402",
+  "courseSection": "SIE",
+  "profName": [
+   "Marks"
+  ],
+  "courseDesc": "This MSc course deals with the water, sanitation and solid waste challenges in developing countries. You will learn about the current dialogue in these topics, identify key players, know existing options of water & sanitation technologies, and be able to design and evaluate a technical project."
+ },
+ {
+  "courseName": "Sensor orientation",
+  "courseCode": "ENV-548",
+  "courseSection": "SIE",
+  "profName": [
+   "Skaloud"
+  ],
+  "courseDesc": "Determination of spatial orientation (i.e. position, velocity, attitude) via integration of inertial sensors with satellite positioning. Prerequisite for many applications related to remote sensing, environmental monitoring, mobile mapping, robotics, space exploration, smart-phone navigation, etc."
+ },
+ {
+  "courseName": "Solid waste engineering",
+  "courseCode": "ENV-500",
+  "courseSection": "SIE",
+  "profName": [
+   "Ludwig"
+  ],
+  "courseDesc": "The book \"Solid Waste Engineering - A Global Perspective\" is the basis for this course. This textbook is an excellent introduction to the field of Solid Waste Engineering and gives insight into relevant solid waste treatment technologies and practices."
+ },
+ {
+  "courseName": "Spatial decision support systems",
+  "courseCode": "ENV-443",
+  "courseSection": "SIE",
+  "profName": [
+   "Golay"
+  ],
+  "courseDesc": "The course deals with the methods and instruments supporting decision processes in the geographical space. The focus is on multi-criteria decision analysis, with the special requirements carried by space-related scenarios and solutions, and by the participatory processes among numerous stakeholders."
+ },
+ {
+  "courseName": "Sustainability assessment of urban systems",
+  "courseCode": "ENV-461",
+  "courseSection": "SIE",
+  "profName": [
+   "Binder Signer",
+   "Merino"
+  ],
+  "courseDesc": "This course provides students with the ability to critically reflect on sustainability and perform a sustainability assessment based of problems in urban areas. At the end of the course students are able to develop a own sustainability assessment with the Sustainability Solution Space methodology."
+ },
+ {
+  "courseName": "Systems of environmental management",
+  "courseCode": "ENV-469",
+  "courseSection": "SIE",
+  "profName": [
+   "Baracchini"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Urban hydrology",
+  "courseCode": "ENV-417",
+  "courseSection": "SIE",
+  "profName": [
+   "Rossi"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Water quality modeling",
+  "courseCode": "ENG-400",
+  "courseSection": "SIE",
+  "profName": [
+   ""
+  ],
+  "courseDesc": "This course builds on environmental chemistry and microbiology taken in previous courses. The emphasis is on quantification using the public domain package, PHREEQC, which is an excellent computation tool. Numerous applications are investigated during the course."
+ },
+ {
+  "courseName": "Water ressources management",
+  "courseCode": "CIVIL-441",
+  "courseSection": "GC",
+  "profName": [
+   "Davalle",
+   "Droz"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Workplace environments & occupational risks",
+  "courseCode": "ENV-468",
+  "courseSection": "SIE",
+  "profName": [
+   "Vernez"
+  ],
+  "courseDesc": ""
+ }
+]

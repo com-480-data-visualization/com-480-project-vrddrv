@@ -1,0 +1,575 @@
+[
+ {
+  "courseName": "Engineering internship credited with master project (master in Mathematical Sciences)",
+  "courseCode": "MATH-597",
+  "courseSection": "MA",
+  "profName": [
+   "Profs divers"
+  ]
+ },
+ {
+  "courseName": "Master project in Mathematics",
+  "courseCode": "MATH-599",
+  "courseSection": "MA",
+  "profName": [
+   "Profs divers"
+  ]
+ },
+ {
+  "courseName": "Mathematics projects (master)",
+  "courseCode": "MATH-498",
+  "courseSection": "MA",
+  "profName": [
+   "Profs divers"
+  ]
+ },
+ {
+  "courseName": "HSS : Introduction to project",
+  "courseCode": "",
+  "courseSection": "SHS",
+  "profName": [
+   "Divers enseignants"
+  ]
+ },
+ {
+  "courseName": "HSS : Project",
+  "courseCode": "",
+  "courseSection": "SHS",
+  "profName": [
+   "Divers enseignants"
+  ]
+ },
+ {
+  "courseName": "Algebraic curves and cryptography",
+  "courseCode": "MATH-409",
+  "courseSection": "MA",
+  "profName": [
+   ""
+  ],
+  "courseDesc": "The goal of this course is to introduce basic notions from public-key cryptography based on algebraic curves over finite fields. We will introduce basic cryptographic schemes as well as discuss in-depth the discrete logarithm problem for elliptic and Jacobians of higher genus curves."
+ },
+ {
+  "courseName": "Algebraic K-theory",
+  "courseCode": "MATH-488",
+  "courseSection": "MA",
+  "profName": [
+   "Hess Bellwald"
+  ],
+  "courseDesc": "Algebraic K-theory, which to any ring R associates a sequence of groups, can be viewed as a theory of linear algebra over an arbitrary ring. We will study in detail the first two of these groups and applications of algebraic K-theory to number theory, algebraic topology, and representation theory."
+ },
+ {
+  "courseName": "Analysis on groups",
+  "courseCode": "MATH-416",
+  "courseSection": "MA",
+  "profName": [
+   "Monod"
+  ],
+  "courseDesc": "We study analytic phenomena on groups, notably paradoxical decompositions and fixed point properties."
+ },
+ {
+  "courseName": "Applied biostatistics",
+  "courseCode": "MATH-493",
+  "courseSection": "MA",
+  "profName": [
+   "Goldstein"
+  ],
+  "courseDesc": "This course covers topics in applied biostatistics, with an emphasis on practical aspects of data analysis using R statistical software. Topics include types of studies and their design and analysis, high dimensional data analysis (genetic/genomic) and other topics as time and interest permit."
+ },
+ {
+  "courseName": "Bayesian Computation",
+  "courseCode": "MATH-435",
+  "courseSection": "MA",
+  "profName": [
+   "Dehaene"
+  ],
+  "courseDesc": "This course aims at giving a broad overview of Bayesian inference, highlighting how the basic Bayesian paradigm proceeds, and the various methods that can be used to deal with the computational issues that plague it. This course represents a 70-30 split of practice versus theory."
+ },
+ {
+  "courseName": "Biostatistics",
+  "courseCode": "MATH-449",
+  "courseSection": "MA",
+  "profName": [
+   ""
+  ],
+  "courseDesc": "Biostatistics is about the application of statistics to medicine and the life sciences. The course covers various methods and problems that are typical for these areas of application. Despite the applied context, the course treats the topic at a fairly abstract level."
+ },
+ {
+  "courseName": "Calculus of variations",
+  "courseCode": "MATH-437",
+  "courseSection": "MA",
+  "profName": [
+   "Stra"
+  ],
+  "courseDesc": "Introduction to classical Calculus of Variations and a selection of modern techniques."
+ },
+ {
+  "courseName": "Combinatorial geometry",
+  "courseCode": "MATH-402",
+  "courseSection": "MA",
+  "profName": [
+   ""
+  ],
+  "courseDesc": "Can we plant n trees in an orchard, not all along the same line, so that every line determined by two trees will pass through a third? This was raised by Sylvester and has generated interest among  mathematicians. It led to the birth of combinatorial geometry with ties to convexity and graph theory."
+ },
+ {
+  "courseName": "Combinatorial optimization",
+  "courseCode": "MATH-460",
+  "courseSection": "MA",
+  "profName": [
+   ""
+  ],
+  "courseDesc": "The guiding question of Combinatorial Optimization is: How do I efficiently select an optimal solution among a finite but very large set of alternatives? We will address the solution of this question in the context of classical discrete optimization problems."
+ },
+ {
+  "courseName": "Combinatorial statistics",
+  "courseCode": "MATH-455",
+  "courseSection": "MA",
+  "profName": [
+   "Abbé"
+  ],
+  "courseDesc": "The class will cover statistical models and statistical learning problems involving discrete structures. It starts with an overview of basic random graphs and discrete probability results. It then covers topics such as reconstruction on trees, stochastic block models, and spectral graph theory."
+ },
+ {
+  "courseName": "Complex manifolds",
+  "courseCode": "MATH-473",
+  "courseSection": "MA",
+  "profName": [
+   "Svaldi"
+  ],
+  "courseDesc": "The goal of this course is to help students learn the basic theory of complex manifolds and Hodge theory."
+ },
+ {
+  "courseName": "Computational finance",
+  "courseCode": "FIN-472",
+  "courseSection": "IF",
+  "profName": [
+   "Glau",
+   "Pulido Nino",
+   "Statti"
+  ],
+  "courseDesc": "Participants of this course will master computational techniques frequently used in mathematical finance applications. Emphasis will be put on the implementation and practical aspects."
+ },
+ {
+  "courseName": "Computational linear algebra",
+  "courseCode": "MATH-453",
+  "courseSection": "MA",
+  "profName": [
+   "Kressner"
+  ],
+  "courseDesc": "This course provides an overview of state-of-the-art techniques for solving large-scale linear algebra problems, as they typically arise in applications. A central goal of this course is to give the ability to choose a suitable solver for a given application."
+ },
+ {
+  "courseName": "Convexity",
+  "courseCode": "MATH-461",
+  "courseSection": "MA",
+  "profName": [
+   ""
+  ],
+  "courseDesc": "Convexity is fundamental concept in mathematics.  This course is an introduction to convexity and its ramifications in high-dimensional Geometry."
+ },
+ {
+  "courseName": "Differential geometry of framed curves",
+  "courseCode": "MATH-423",
+  "courseSection": "MA",
+  "profName": [
+   "Maddocks"
+  ],
+  "courseDesc": "The Differential Geometry of curves, tubes & ribbons"
+ },
+ {
+  "courseName": "Dispersive PDEs",
+  "courseCode": "MATH-478",
+  "courseSection": "MA",
+  "profName": [
+   "Widmayer"
+  ],
+  "courseDesc": "This course will give an introduction to some aspects of nonlinear dispersive partial differential equations. These are time evolution problems that arise in many contexts in physics, such as quantum mechanics, electrodynamics, fluid motion and relativity."
+ },
+ {
+  "courseName": "Evolutional partial differential equations",
+  "courseCode": "MATH-421",
+  "courseSection": "MA",
+  "profName": [
+   "Buffoni"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Functional analysis II",
+  "courseCode": "MATH-404",
+  "courseSection": "MA",
+  "profName": [
+   ""
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Gaussian processes",
+  "courseCode": "MATH-426",
+  "courseSection": "MA",
+  "profName": [
+   "Aru"
+  ],
+  "courseDesc": "This is an introductory course on Gaussian processes. By discussing both the general theory and concrete examples, we will try to understand where and how Gaussian processes appear, and how to study them."
+ },
+ {
+  "courseName": "Gödel and recursivity",
+  "courseCode": "MATH-483",
+  "courseSection": "MA",
+  "profName": [
+   ""
+  ],
+  "courseDesc": "C"
+ },
+ {
+  "courseName": "Harmonic analysis",
+  "courseCode": "MATH-405",
+  "courseSection": "MA",
+  "profName": [
+   "Krieger"
+  ],
+  "courseDesc": "An introduction to methods of harmonic analysis.\nCovers convergence of Fourier series, Hilbert transform, Calderon-Zygmund theory, Fourier restriction, and applications to PDE."
+ },
+ {
+  "courseName": "Homotopical algebra",
+  "courseCode": "MATH-436",
+  "courseSection": "MA",
+  "profName": [
+   ""
+  ],
+  "courseDesc": "This course will provide an introduction to model category theory, which is an abstract framework for generalizing homotopy theory beyond topological spaces and continuous maps. We will study numerous examples of model categories and their applications in algebra and topology."
+ },
+ {
+  "courseName": "Introduction to Algebraic geometry",
+  "courseCode": "MATH-428",
+  "courseSection": "MA",
+  "profName": [
+   "Patakfalvi"
+  ],
+  "courseDesc": "Algebraic geometry is a central subject of modern\nmathematics, lying between differential geometry and number theory. The course will give an introduction to algebraic geometry, arriving at the end to the Riemann-Roch theorem for curves and to Bézout's theorem."
+ },
+ {
+  "courseName": "Introduction to riemannian geometry",
+  "courseCode": "MATH-422",
+  "courseSection": "MA",
+  "profName": [
+   "Troyanov"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Lattice models",
+  "courseCode": "MATH-434",
+  "courseSection": "MA",
+  "profName": [
+   "Hongler"
+  ],
+  "courseDesc": "Lattice models consist of (typically random) objects living on a periodic graph. We will study some models that are mathematically interesting and representative of physical phenomena seen in the real world."
+ },
+ {
+  "courseName": "Lie groups",
+  "courseCode": "MATH-429",
+  "courseSection": "MA",
+  "profName": [
+   "Urech"
+  ],
+  "courseDesc": "Lie groups are manifolds with a group structure. The interaction between the geometric and the algebraic structure of these objects gives rise to a rich and beautiful subject with various applications in physics and other branches of mathematics."
+ },
+ {
+  "courseName": "Linear algebraic groups",
+  "courseCode": "MATH-479",
+  "courseSection": "MA",
+  "profName": [
+   ""
+  ],
+  "courseDesc": "The aim of the course is to establish the main results on the structure of reductive linear algebraic groups defined over an algebraically closed field."
+ },
+ {
+  "courseName": "Low-rank approximation techniques",
+  "courseCode": "MATH-403",
+  "courseSection": "MA",
+  "profName": [
+   ""
+  ],
+  "courseDesc": "Low-rank approximation techniques have become a key tool in scientific computing to deal with large-scale problems and high-dimensional data. This course covers state-of-the-art algorithms and current research in this area."
+ },
+ {
+  "courseName": "Martingales in financial mathematics",
+  "courseCode": "MATH-470",
+  "courseSection": "MA",
+  "profName": [
+   "Schmutz"
+  ],
+  "courseDesc": "The aim of the course is to apply the theory of martingales in the context of mathematical finance. The course provides a detailed study of the mathematical ideas that are used in modern financial mathematics. Moreover, the concepts of complete and incomplete markets are discussed."
+ },
+ {
+  "courseName": "Mathematical modelling of behavior",
+  "courseCode": "MATH-463",
+  "courseSection": "MA",
+  "profName": [
+   "Bierlaire"
+  ],
+  "courseDesc": "Discrete choice models allow for the analysis and prediction of individuals' choice behavior. The objective of the course is to introduce both methodological and applied aspects, in the field of marketing, transportation, and finance."
+ },
+ {
+  "courseName": "Mathematical modelling of DNA",
+  "courseCode": "MATH-481",
+  "courseSection": "MA",
+  "profName": [
+   "Maddocks"
+  ],
+  "courseDesc": "Mathematical modelling of DNA"
+ },
+ {
+  "courseName": "Mathematical physiology",
+  "courseCode": "MATH-475",
+  "courseSection": "MA",
+  "profName": [
+   ""
+  ],
+  "courseDesc": "The aim of the course is two fold: to bring students within reach of current research topics in physiology and to showcase methods allowing to analyse non-linear systems of differential equations."
+ },
+ {
+  "courseName": "Modern regression methods",
+  "courseCode": "MATH-408",
+  "courseSection": "MA",
+  "profName": [
+   "Davison"
+  ],
+  "courseDesc": "A second course on regression modelling, dealing with nonlinear effects of explanatory variables, and non-normal and dependent response variables."
+ },
+ {
+  "courseName": "Multivariate statistics",
+  "courseCode": "MATH-444",
+  "courseSection": "MA",
+  "profName": [
+   "Koch"
+  ],
+  "courseDesc": "Multivariate statistics refers to data in vector form. The main objective is to uncover the associations between the components of the vectors. The course introduces the major types of statistical methodology for this purpose as well as some applications to quantitative risk management."
+ },
+ {
+  "courseName": "Number theory in cryptography",
+  "courseCode": "MATH-489",
+  "courseSection": "MA",
+  "profName": [
+   "Serban"
+  ],
+  "courseDesc": "The goal of the course is to introduce basic notions from public key cryptography (PKC) as well as basic number-theoretic methods and algorithms for cryptanalysis of protocols and schemes based on PKC."
+ },
+ {
+  "courseName": "Numerical integration of stochastic differential equations",
+  "courseCode": "MATH-450",
+  "courseSection": "MA",
+  "profName": [
+   "Blumenthal"
+  ],
+  "courseDesc": "In this course we will introduce and study numerical integrators for stochastic differential equations. These numerical methods are important for many applications."
+ },
+ {
+  "courseName": "Numerical methods for conservation laws",
+  "courseCode": "MATH-459",
+  "courseSection": "MA",
+  "profName": [
+   "Hesthaven"
+  ],
+  "courseDesc": "Introduction to the development, analysis, and application of computational methods for solving conservation laws with an emphasis on finite volume, limiter based schemes, high-order essentially non-oscillatory schemes, and discontinuous Galerkin methods."
+ },
+ {
+  "courseName": "Optimal transport",
+  "courseCode": "MATH-476",
+  "courseSection": "MA",
+  "profName": [
+   ""
+  ],
+  "courseDesc": "The first part is devoted to Monge and Kantorovitch problems, discussing the existence and the properties of the optimal plan. The second part introduces the Wasserstein distance on measures and develops applications of optimal transport to PDEs, functional/geometric inequalities, traffic models."
+ },
+ {
+  "courseName": "Packing and covering",
+  "courseCode": "MATH-465",
+  "courseSection": "MA",
+  "profName": [
+   ""
+  ],
+  "courseDesc": "How many objects of a given shape and size can be packed into a large box of fixed volume? We give a systematic introduction into the rich theory that has grown out of the above questions. Connections to number theory, coding theory, potential theory, and robotics will also be presented."
+ },
+ {
+  "courseName": "Parabolic and hyperbolic PDE's",
+  "courseCode": "MATH-469",
+  "courseSection": "MA",
+  "profName": [
+   ""
+  ],
+  "courseDesc": "1. PARABOLIC EQUATIONS: Existence and uniqueness of weak-solutions, Maximum principle.\nFundamental solutions. Infinite speed of propagation.\n\n2. HYPERBOLIC EQUATIONS:  Existence and uniqueness of weak solutions. Fundamental solutions.\nFinite speed of propagation."
+ },
+ {
+  "courseName": "Probabilistic methods",
+  "courseCode": "MATH-467",
+  "courseSection": "MA",
+  "profName": [
+   ""
+  ],
+  "courseDesc": "We systematically explore the exciting fact that randomness (i.e., coin flipping) can be used profitably to construct various mathematical structures with unexpected and often paradoxical properties, and to efficiently solve otherwise hopelessly difficult computational tasks."
+ },
+ {
+  "courseName": "Probability theory",
+  "courseCode": "MATH-432",
+  "courseSection": "MA",
+  "profName": [
+   "Chong"
+  ],
+  "courseDesc": "The course provides a measure-theoretic introduction to probability theory."
+ },
+ {
+  "courseName": "Representation theory of semisimple lie algebras",
+  "courseCode": "MATH-492",
+  "courseSection": "MA",
+  "profName": [
+   ""
+  ],
+  "courseDesc": "We will establish the major results in the representation theory of semisimple Lie algebras over the field of complex numbers, and that of the related algebraic groups."
+ },
+ {
+  "courseName": "Riemann surfaces",
+  "courseCode": "MATH-410",
+  "courseSection": "MA",
+  "profName": [
+   "Viazovska"
+  ],
+  "courseDesc": "This course is an introduction to the theory of Riemann surfaces. Riemann surfaces naturally appear is mathematics in many different ways: as a result of analytic continuation, as quotients of complex domains under discontinuous group actions, as algebraic curves. We will cover the following topics:"
+ },
+ {
+  "courseName": "Risk, rare events and extremes",
+  "courseCode": "MATH-447",
+  "courseSection": "MA",
+  "profName": [
+   "Davison"
+  ],
+  "courseDesc": "Modelling of rare events, such as stock market crashes, storms and catastrophic structural failures, is important. This course will describe the special models and methods that are relevant to such modelling, including the mathematical bases, statistical tools and applications."
+ },
+ {
+  "courseName": "Robust and nonparametric statistics",
+  "courseCode": "MATH-441",
+  "courseSection": "MA",
+  "profName": [
+   "Morgenthaler"
+  ],
+  "courseDesc": "In the decades from 1930 to 1950, many rank-based statistics were introduced. These methods were received with much interest, because they worked under weak conditions. Starting in the late 1950, a theory of robustness was added. The course gives an overview of these two approaches to data analysis."
+ },
+ {
+  "courseName": "Set theory",
+  "courseCode": "MATH-318",
+  "courseSection": "MA",
+  "profName": [
+   "Duparc"
+  ],
+  "courseDesc": "Set Theory as a foundational system for mathematics.\nRelative consistency of the Axiom of Choice and the Continuum Hypothesis."
+ },
+ {
+  "courseName": "Spatial statistics",
+  "courseCode": "MATH-425",
+  "courseSection": "MA",
+  "profName": [
+   "Ginsbourger"
+  ],
+  "courseDesc": "In this course we will focus on stochastic approaches for modelling phenomena taking place in multivariate spaces. Our main focus will be on random field models and on statistical methods for model-based spatial statistics."
+ },
+ {
+  "courseName": "Statistical analysis of network data",
+  "courseCode": "MATH-448",
+  "courseSection": "MA",
+  "profName": [
+   "Olhede"
+  ],
+  "courseDesc": "A first course in statistical network analysis and applications."
+ },
+ {
+  "courseName": "Statistical genetics",
+  "courseCode": "MATH-438",
+  "courseSection": "MA",
+  "profName": [
+   "Goldstein"
+  ],
+  "courseDesc": "This course will cover the major topics in statistical genetics."
+ },
+ {
+  "courseName": "Statistical machine learning",
+  "courseCode": "MATH-412",
+  "courseSection": "MA",
+  "profName": [
+   "Dehaene",
+   "Obozinski"
+  ],
+  "courseDesc": "A course on statistical methods for supervised and unsupervised learning."
+ },
+ {
+  "courseName": "Statistical mechanics and Gibbs measures",
+  "courseCode": "MATH-486",
+  "courseSection": "MA",
+  "profName": [
+   "Friedli"
+  ],
+  "courseDesc": "This course provides a rigorous introduction to the ideas, methods and results of classical statistical mechanics, with an emphasis on presenting the central tools for the probabilistic description of infinite lattice systems."
+ },
+ {
+  "courseName": "Statistical theory",
+  "courseCode": "MATH-442",
+  "courseSection": "MA",
+  "profName": [
+   "Koch"
+  ],
+  "courseDesc": "The course aims at developing certain key aspects of the theory of statistics, providing a common general framework for statistical methodology. While the main emphasis will be on the mathematical aspects of statistics, an effort will be made to balance rigor and intuition."
+ },
+ {
+  "courseName": "Statistics for genomic data analysis",
+  "courseCode": "MATH-474",
+  "courseSection": "MA",
+  "profName": [
+   ""
+  ],
+  "courseDesc": "After a short introduction to basic molecular biology and genomic technologies, this course covers the most useful statistical concepts and methods for the analysis of genomic data."
+ },
+ {
+  "courseName": "Stochastic simulation",
+  "courseCode": "MATH-414",
+  "courseSection": "MA",
+  "profName": [
+   "Nobile"
+  ],
+  "courseDesc": "The student who follows this course will get acquainted with computational tools used to analyze systems with uncertainty arising in engineering, physics, chemistry, and economics. Focus will be on  sampling methods as Monte Carlo, quasi Monte Carlo,  Markov Chain Monte Carlo."
+ },
+ {
+  "courseName": "Theory of stochastics calculus",
+  "courseCode": "MATH-431",
+  "courseSection": "MA",
+  "profName": [
+   "Dalang"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "TNT: Automorphic forms and L-functions",
+  "courseCode": "MATH-464",
+  "courseSection": "MA",
+  "profName": [
+   ""
+  ],
+  "courseDesc": "Modular forms have a central place in number theory and occur also in many other branches of mathematics. Starting from the theta series associated to quadratic forms we will introduce the basic concepts associated to modular or automorphic forms and provide some applications of the theory."
+ },
+ {
+  "courseName": "Topics in number theory",
+  "courseCode": "MATH-417",
+  "courseSection": "MA",
+  "profName": [
+   "Michel"
+  ],
+  "courseDesc": "This year's topic is \"Adelic Number Theory\" or how the language of adeles and ideles and harmonic analysis on the corresponding spaces can be used to revisit classical questions in algebraic number theory"
+ },
+ {
+  "courseName": "Engineering internship (master in Applied Mathematics)",
+  "courseCode": "MATH-596",
+  "courseSection": "MA",
+  "profName": [
+   "Profs divers"
+  ]
+ }
+]

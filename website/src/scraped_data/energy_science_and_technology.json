@@ -1,0 +1,635 @@
+[
+ {
+  "courseName": "Engineering internship credited with master project (master in Energy science and technology)",
+  "courseCode": "",
+  "courseSection": "EL",
+  "profName": [
+   "Gautsch",
+   "Gay-Balmaz",
+   "Profs divers"
+  ]
+ },
+ {
+  "courseName": "Convex optimization",
+  "courseCode": "MGT-418",
+  "courseSection": "MTE",
+  "profName": [
+   "Kuhn"
+  ],
+  "courseDesc": "This course introduces the theory and application of modern convex optimization from an engineering perspective."
+ },
+ {
+  "courseName": "Electrochemical engineering",
+  "courseCode": "ChE-407",
+  "courseSection": "CGC",
+  "profName": [
+   "Boghossian",
+   "Comninellis"
+  ],
+  "courseDesc": "C"
+ },
+ {
+  "courseName": "Energy conversion and renewable energy",
+  "courseCode": "ME-409",
+  "courseSection": "GM",
+  "profName": [
+   "Maréchal",
+   "Nguyen"
+  ],
+  "courseDesc": "The goal of the lecture is to present the principles of the energy conversion for conventional and renewable energy resources and to explain the most important parameters that define the energy conversion efficiency, resources implications and economics of the energy conversion technologies."
+ },
+ {
+  "courseName": "Energy supply, economics and transition",
+  "courseCode": "ENG-410",
+  "courseSection": "SIE",
+  "profName": [
+   "Ballif",
+   "Binder Signer",
+   "Thalmann"
+  ],
+  "courseDesc": "This course examines the supply of energy from various angles: available resources, how they can be combined or substituted, their private and social costs, whether they can meet the demand, and how the transition to a renewable energy system can be fostered."
+ },
+ {
+  "courseName": "Fundamentals & processes for photovoltaic devices",
+  "courseCode": "MICRO-565",
+  "courseSection": "MT",
+  "profName": [
+   "Ballif",
+   "Haug"
+  ],
+  "courseDesc": "The objective of this lecture is to give an in-depth understanding of the physics and manufacturing processes of photovoltaic solar cells and related devices (photodetectors, photoconductors). The principle and techniques addressed in this lecture will be useful in a wide range of related fields."
+ },
+ {
+  "courseName": "Hydraulic turbomachines",
+  "courseCode": "ME-453",
+  "courseSection": "GM",
+  "profName": [
+   "Avellan",
+   "Vagnoni"
+  ],
+  "courseDesc": "Master lecture on Hydraulic Turbomachines: impulse and reaction turbines,pumps and pump-turbines."
+ },
+ {
+  "courseName": "Thermal power cycles and heat pump systems",
+  "courseCode": "ME-459",
+  "courseSection": "GM",
+  "profName": [
+   ""
+  ],
+  "courseDesc": "This course aims at studying thermal power cycles, heat pumping technologies and equipment."
+ },
+ {
+  "courseName": "Thermodynamics and energetics II",
+  "courseCode": "ME-351",
+  "courseSection": "GM",
+  "profName": [
+   "Van Herle"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Acoustic Hydrodynamic",
+  "courseCode": "ME-443",
+  "courseSection": "GM",
+  "profName": [
+   "Nicolet"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Advanced heat transfer",
+  "courseCode": "ME-465",
+  "courseSection": "GM",
+  "profName": [
+   "Haussener"
+  ],
+  "courseDesc": "The course will deepen the fundamentals of heat transfer. Particular focus will be put on radiative and convective heat transfer, and computational approaches to solve complex, coupled heat transfer problems."
+ },
+ {
+  "courseName": "Air pollution and climate change",
+  "courseCode": "ENV-400",
+  "courseSection": "SIE",
+  "profName": [
+   "Reimann Bhend",
+   "Takahama"
+  ],
+  "courseDesc": "A survey course describing the origins of air pollution and climate change"
+ },
+ {
+  "courseName": "Applied machine learning",
+  "courseCode": "MICRO-455",
+  "courseSection": "MT",
+  "profName": [
+   "Billard",
+   "Polydoros"
+  ],
+  "courseDesc": "Real-world engineering applications must cope with a large dataset of dynamic variables, which cannot be well approximated by classical or deterministic models. This course gives an overview of methods from Machine Learning for the analysis of non-linear, highly noisy and multi dimensional data"
+ },
+ {
+  "courseName": "Discrete optimization",
+  "courseCode": "MATH-261",
+  "courseSection": "MA",
+  "profName": [
+   "Marcus"
+  ],
+  "courseDesc": "This course is an introduction to linear and discrete optimization. We will discuss linear programming and combinatorial optimization problems like bipartite matchings, shortest paths and flows. \n\nWarning: This course is for mathematicians! Strong emphasis is put on formal mathematical proofs."
+ },
+ {
+  "courseName": "Energy systems engineering",
+  "courseCode": "ChE-304",
+  "courseSection": "CGC",
+  "profName": [
+   "Luterbacher",
+   "Smit"
+  ],
+  "courseDesc": "C"
+ },
+ {
+  "courseName": "Fundamentals of electrical circuits and systems",
+  "courseCode": "EE-405",
+  "courseSection": "EL",
+  "profName": [
+   "Rachidi-Haeri",
+   "Thiran"
+  ],
+  "courseDesc": "This course provides an overview of fundamental concepts of signal processing and electric circuits."
+ },
+ {
+  "courseName": "Heat and mass transfer",
+  "courseCode": "ME-341",
+  "courseSection": "GM",
+  "profName": [
+   "Tagliabue"
+  ],
+  "courseDesc": "This course covers fundamentals of heat transfer and applications to practical problems. Emphasis will be on developing a physical and analytical understanding of conductive, convective, and radiative heat transfer."
+ },
+ {
+  "courseName": "Hydropower plants: generating and pumping units",
+  "courseCode": "EE-456",
+  "courseSection": "EL",
+  "profName": [
+   "Avellan",
+   "Vagnoni"
+  ],
+  "courseDesc": "Master Lecture on the general layout of a hydropower plant. Detailing the specification of Pelton, Francis, Kaplan and Bulb turbines, Storage pumps and Reversible pump-turbines."
+ },
+ {
+  "courseName": "Industrial electronics I",
+  "courseCode": "EE-465",
+  "courseSection": "EL",
+  "profName": [
+   "Dujic"
+  ],
+  "courseDesc": "The course deals with the control of grid connected power electronic converters for renewable applications, covering: converter topologies, pulse width modulation, modelling, control algorithms and controllers (PID and PR), coordinate frame transformations, grid monitoring and synchronisation (PLL)."
+ },
+ {
+  "courseName": "Industry dynamics, models & trends",
+  "courseCode": "MGT-453",
+  "courseSection": "MTE",
+  "profName": [
+   "Finger"
+  ],
+  "courseDesc": "The course introduces the participants to industry analysis. Participants will learn how to identify and analyze industries with a particular focus on how industries evolve thanks to technological developments, in particular digitalization, as well as regulation."
+ },
+ {
+  "courseName": "Introduction to nuclear engineering",
+  "courseCode": "ME-464",
+  "courseSection": "GM",
+  "profName": [
+   "Hursin",
+   "Pautz"
+  ],
+  "courseDesc": "This course is intended to understand the engineering design of nuclear power plants using the basic principles of reactor physics, fluid flow and heat transfer.\nThis course includes the following: Reactor designs, Thermal analysis of nuclear fuel,  Nuclear safety and Reactor dynamics"
+ },
+ {
+  "courseName": "Life cycle assessment in energy systems",
+  "courseCode": "ENV-510",
+  "courseSection": "SIE",
+  "profName": [
+   ""
+  ],
+  "courseDesc": "This course will introduce students to the Life Cycle Assessment (LCA) as a holistic approach to evaluate, among others, energy conversion technologies throughout their entire value chain, and across multiple environmental problems beyond climate change."
+ },
+ {
+  "courseName": "Lifecycle performance of product systems",
+  "courseCode": "ME-516",
+  "courseSection": "GM",
+  "profName": [
+   "Friot",
+   "Kyritsis"
+  ],
+  "courseDesc": "Provide the conceptual, scientific, technical and methodological understanding of measuring and evaluating the impact of engineering decisions on economic and environmental performance in the lifecycle of a product-system."
+ },
+ {
+  "courseName": "Negotiation techniques",
+  "courseCode": "MGT-466",
+  "courseSection": "MTE",
+  "profName": [
+   "Canning Wacker"
+  ],
+  "courseDesc": "The course presents the process of negotiation, two principle strategies and the tactics involved in successfully enacting them. It will also build both cultural and  self awareness skills and how they impact the process of negotiation."
+ },
+ {
+  "courseName": "Nuclear fusion and plasma physics",
+  "courseCode": "PHYS-445",
+  "courseSection": "PH",
+  "profName": [
+   "Fasoli"
+  ],
+  "courseDesc": "The goal of the course is to provide the physics and technology basis  for controlled fusion research, from the main elements of plasma physics to the reactor concepts."
+ },
+ {
+  "courseName": "Principles of finance",
+  "courseCode": "MGT-482",
+  "courseSection": "MTE",
+  "profName": [
+   "Morellec"
+  ],
+  "courseDesc": "This course provides a market-oriented framework for analyzing the valuation of securities, portfolio decisions, capital budgeting and financing decisions within firms, and derivatives"
+ },
+ {
+  "courseName": "Principles of microeconomics",
+  "courseCode": "MGT-454",
+  "courseSection": "MTE",
+  "profName": [
+   "Mack"
+  ],
+  "courseDesc": "The course allows students to get familiarized with the basic tools and concepts of modern microeconomic analysis. Based on graphical reasoning and analytical calculus, it constantly links to real economic issues."
+ },
+ {
+  "courseName": "Principles of power systems",
+  "courseCode": "EE-473",
+  "courseSection": "EL",
+  "profName": [
+   "Paolone"
+  ],
+  "courseDesc": "The course provides the fundamental concepts to model power systems and understand their operation."
+ },
+ {
+  "courseName": "Recycling of materials",
+  "courseCode": "MSE-463",
+  "courseSection": "MX",
+  "profName": [
+   "Leterrier"
+  ],
+  "courseDesc": "Students understand the issues and key factors of a waste recycling process. They know the sorting and recycling technologies of various materials and are able to compare the environmental impact of recycling with that of using raw material resources."
+ },
+ {
+  "courseName": "Semiconductor devices I",
+  "courseCode": "EE-557",
+  "courseSection": "EL",
+  "profName": [
+   "Matioli"
+  ],
+  "courseDesc": "This course aims to give a solid introduction to semiconductors, from Silicon to compound semiconductors, making the connection between the physics and their application in real life. We will explore several experimental techniques related to current semiconductor research and development."
+ },
+ {
+  "courseName": "Solid waste engineering",
+  "courseCode": "ENV-500",
+  "courseSection": "SIE",
+  "profName": [
+   "Ludwig"
+  ],
+  "courseDesc": "The book \"Solid Waste Engineering - A Global Perspective\" is the basis for this course. This textbook is an excellent introduction to the field of Solid Waste Engineering and gives insight into relevant solid waste treatment technologies and practices."
+ },
+ {
+  "courseName": "Technology policy and the energy transition",
+  "courseCode": "MGT-408",
+  "courseSection": "MTE",
+  "profName": [
+   "Foray"
+  ],
+  "courseDesc": "This course involves the theoretical and empirical analysis of technology Policy as applied to the issue of energy transition. To address this so-called \"Grand Challenge\", the combination of market-based instruments with technology policy seems to be of critical importance."
+ },
+ {
+  "courseName": "Thermodynamics of energy conversion and storage",
+  "courseCode": "ChE-414",
+  "courseSection": "CGC",
+  "profName": [
+   "Züttel"
+  ],
+  "courseDesc": "C"
+ },
+ {
+  "courseName": "Two-phase flows and heat transfer",
+  "courseCode": "ME-446",
+  "courseSection": "GM",
+  "profName": [
+   "Gallaire"
+  ],
+  "courseDesc": "This course covers the theoretical and practical analysis of two-phase flow and applications. Fundamental two-phase heat transfer in the form of condensation and boiling are studied in detail. Advanced topics such as microchannel two-phase flow, microfinned tubes and oil effects are also handled."
+ },
+ {
+  "courseName": "Water resources engineering",
+  "courseCode": "ENV-424",
+  "courseSection": "SIE",
+  "profName": [
+   "Rinaldo"
+  ],
+  "courseDesc": "Water resources engineering designs systems to control the quantity, quality, timing, and distribution of water to support human demands and the needs of the environment."
+ },
+ {
+  "courseName": "Advanced control systems",
+  "courseCode": "ME-524",
+  "courseSection": "GM",
+  "profName": [
+   "Karimi"
+  ],
+  "courseDesc": "This course covers some theoretical and practical aspects of robust and adaptive control. This includes H-2 and H-infinity control in model-based and data-driven framework by convex optimization, direct, indirect and switching adaptive control. The methods are implemented in a hands-on lab."
+ },
+ {
+  "courseName": "Advanced energetics",
+  "courseCode": "ME-451",
+  "courseSection": "GM",
+  "profName": [
+   "Maréchal"
+  ],
+  "courseDesc": "Methods for the rational use and conversion of energy in industrial processes : how to analyse the energy usage, calculate the heat recovery by pinch analysis, define heat exchanger network, integrate heat pumps and cogeneration units and realise exergy analysis of energy conversion systems."
+ },
+ {
+  "courseName": "Advanced lab in electrical energy systems",
+  "courseCode": "EE-588",
+  "courseSection": "EL",
+  "profName": [
+   "Hodder"
+  ],
+  "courseDesc": "The purpose of this teaching lab is to put together all the concepts learned during the course into electrical energy by the implementation of an islanded production unit. The number of places is limited, therefore the student must contact the teacher before the beginning of the course."
+ },
+ {
+  "courseName": "Applied data analysis",
+  "courseCode": "CS-401",
+  "courseSection": "SC",
+  "profName": [
+   "West"
+  ],
+  "courseDesc": "This course teaches the basic techniques and practical skills required to make sense out of a variety of data, with the help of the most acclaimed software tools in the data science world: pandas, scikit-learn, Spark, etc."
+ },
+ {
+  "courseName": "Bioclimatic buildings and districts",
+  "courseCode": "AR-403",
+  "courseSection": "AR",
+  "profName": [
+   ""
+  ],
+  "courseDesc": "The objective of this course is to identify, understand and design energy fluxes and energy systems from the building to the district scale."
+ },
+ {
+  "courseName": "Building energetics",
+  "courseCode": "ENG-445",
+  "courseSection": "GC",
+  "profName": [
+   "Khovalyg",
+   "Licina"
+  ],
+  "courseDesc": "The course presents the main methodological topics of energy management in the building by emphasizing on the thermal energy requirements for the the users' comfort. The technical installations are modelled as well. Finally the economic and environmental evaluation methods are presented."
+ },
+ {
+  "courseName": "Development engineering",
+  "courseCode": "ENV-470",
+  "courseSection": "SIE",
+  "profName": [
+   "Hostettler",
+   "Schönenberger"
+  ],
+  "courseDesc": "This course teaches the fundamentals of technologies for development (Development Engineering) to design, pilot, and evaluate appropriate, affordable and robust technologies to address sustainable development challenges (e.g. poverty, environmental degradation) in emerging and developing countries."
+ },
+ {
+  "courseName": "Distributed intelligent systems",
+  "courseCode": "ENG-466",
+  "courseSection": "SIE",
+  "profName": [
+   "Martinoli"
+  ],
+  "courseDesc": "The goal of this course is to provide methods and tools for modeling distributed intelligent systems as well as designing and optimizing coordination strategies. The course is a well-balanced mixture of theory and practical activities using simulation and real hardware platforms."
+ },
+ {
+  "courseName": "Electromagnetic compatibility",
+  "courseCode": "EE-576",
+  "courseSection": "EL",
+  "profName": [
+   "Rachidi-Haeri"
+  ],
+  "courseDesc": "In this lecture, students will get the basic knowledge on electromagnetic compatibility."
+ },
+ {
+  "courseName": "Energy storage in power systems: technologies, applications and future needs",
+  "courseCode": "EE-466",
+  "courseSection": "EL",
+  "profName": [
+   "Torregrossa"
+  ],
+  "courseDesc": "The course will bring the major elements on energy storage, principles and physical means"
+ },
+ {
+  "courseName": "Engines and fuel cells",
+  "courseCode": "ME-551",
+  "courseSection": "GM",
+  "profName": [
+   "Van Herle"
+  ],
+  "courseDesc": "The students describe and explain the thermodynamic and operating principles of internal combustion engines and all fuel cell types, identify the determining physical parameters for the operating regimes, the efficiencies and the polluting emissions, and compare the systems against each other."
+ },
+ {
+  "courseName": "Environmental transport phenomena",
+  "courseCode": "ENG-420",
+  "courseSection": "SIE",
+  "profName": [
+   "Crouzy",
+   "Porté Agel"
+  ],
+  "courseDesc": "The course aims at introducing basic physical aspects of molecular and turbulent diffusion, as well as of dispersion processes, their mathematical modeling, solutions and related environmental applications"
+ },
+ {
+  "courseName": "Hydraulic and hydroelectric structures and schemes",
+  "courseCode": "CIVIL-412",
+  "courseSection": "GC",
+  "profName": [
+   "De Almeida Manso",
+   "De Cesare"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Industrial automation",
+  "courseCode": "CS-487",
+  "courseSection": "SC",
+  "profName": [
+   "Pignolet-Oswald",
+   "Tournier"
+  ],
+  "courseDesc": "This course consists of two parts:\n1) architecture of automation systems, hands-on lab\n2) handling of faults and failures in real-time systems, including fault-tolerant computing"
+ },
+ {
+  "courseName": "Industrial electronics I",
+  "courseCode": "EE-465",
+  "courseSection": "EL",
+  "profName": [
+   "Dujic"
+  ],
+  "courseDesc": "The course deals with the control of grid connected power electronic converters for renewable applications, covering: converter topologies, pulse width modulation, modelling, control algorithms and controllers (PID and PR), coordinate frame transformations, grid monitoring and synchronisation (PLL)."
+ },
+ {
+  "courseName": "Industrial electronics II",
+  "courseCode": "EE-565",
+  "courseSection": "EL",
+  "profName": [
+   "Dujic"
+  ],
+  "courseDesc": "The course is dealing with high performance drives and methods to control various electrical machines by means of power electronic converter and advanced control methods."
+ },
+ {
+  "courseName": "Integrated planning of energy infrastructures",
+  "courseCode": "CIVIL-442",
+  "courseSection": "GC",
+  "profName": [
+   "Gnansounou"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Material and energy flow analysis",
+  "courseCode": "ENV-501",
+  "courseSection": "SIE",
+  "profName": [
+   "Binder Signer",
+   "Massard",
+   "Moreau"
+  ],
+  "courseDesc": "This course provides the bases to understand material and energy production and consumption processes. Students learn how to develop a material flow analysis and apply it to cases of resource management. They analyze the implications of their models on resource use, economic activities and policy."
+ },
+ {
+  "courseName": "Modelling and optimization of energy systems",
+  "courseCode": "ME-454",
+  "courseSection": "GM",
+  "profName": [
+   "Maréchal"
+  ],
+  "courseDesc": "The goal of the lecture is to present and apply techniques for the modelling and the thermo-economic optimisation of industrial process and energy systems. The lecture covers the problem statement, the solving methods for the simulation and the single and multi-objective optimisation problems."
+ },
+ {
+  "courseName": "Model predictive control",
+  "courseCode": "ME-425",
+  "courseSection": "GM",
+  "profName": [
+   "Jones"
+  ],
+  "courseDesc": "Provide an introduction to the theory and practice of Model Predictive Control (MPC). Main benefits of MPC: flexible specification of time-domain objectives, performance optimization of highly complex multivariable systems and ability to explicitly enforce constraints on system behavior."
+ },
+ {
+  "courseName": "Power system restructuring and deregulation",
+  "courseCode": "EE-570",
+  "courseSection": "EL",
+  "profName": [
+   "Cherkaoui"
+  ],
+  "courseDesc": "This course presents different types and mechanisms of electricity markets. It addresses in particular their impacts on power/distribution systems operation and consequently the appropriate strategies capable to ensure a secure and reliable functioning."
+ },
+ {
+  "courseName": "Power systems dynamics",
+  "courseCode": "EE-470",
+  "courseSection": "EL",
+  "profName": [
+   "Cherkaoui"
+  ],
+  "courseDesc": "This course focuses on the dynamic behavior of a power system. It presents the basic definitions, concepts and models for angular stability analysis with reference to transient stability, steady state stability and long term stability.Fundamentals related to voltage stability are introduced as well."
+ },
+ {
+  "courseName": "Renewable energy (for ME)",
+  "courseCode": "ME-460",
+  "courseSection": "GM",
+  "profName": [
+   "Haussener",
+   "Van Herle"
+  ],
+  "courseDesc": "The students assess and compare all renewable energy resources, their real potentials, their limitations and their best applications (energy services). Solar thermal, solar electric, wood, bioliquids, biogas, hydropower incl. tidal and wave power, wind, geothermal incl. heat pumps and buildings."
+ },
+ {
+  "courseName": "Sanitary engineering in developing countries",
+  "courseCode": "ENV-402",
+  "courseSection": "SIE",
+  "profName": [
+   "Marks"
+  ],
+  "courseDesc": "This MSc course deals with the water, sanitation and solid waste challenges in developing countries. You will learn about the current dialogue in these topics, identify key players, know existing options of water & sanitation technologies, and be able to design and evaluate a technical project."
+ },
+ {
+  "courseName": "Smart grids technologies",
+  "courseCode": "EE-472",
+  "courseSection": "EL",
+  "profName": [
+   "Le Boudec",
+   "Paolone"
+  ],
+  "courseDesc": "Learn the technologies and methodologies used in the context smart electrical grids and be able to deploy/implement/test them in a lab environment."
+ },
+ {
+  "courseName": "Solar energy conversion devices and plants",
+  "courseCode": "ME-468",
+  "courseSection": "GM",
+  "profName": [
+   "Haussener"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Sustainability assessment of urban systems",
+  "courseCode": "ENV-461",
+  "courseSection": "SIE",
+  "profName": [
+   "Binder Signer",
+   "Merino"
+  ],
+  "courseDesc": "This course provides students with the ability to critically reflect on sustainability and perform a sustainability assessment based of problems in urban areas. At the end of the course students are able to develop a own sustainability assessment with the Sustainability Solution Space methodology."
+ },
+ {
+  "courseName": "Thermal turbomachines",
+  "courseCode": "ME-455",
+  "courseSection": "GM",
+  "profName": [
+   "Ott"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Water and wastewater treatment",
+  "courseCode": "ENV-405",
+  "courseSection": "SIE",
+  "profName": [
+   "Holliger",
+   "von Gunten"
+  ],
+  "courseDesc": "This course on water and wastewater treatment shows how to implement and design different methods and techniques to eliminate organic matter, nitrogen and phosporous from wastewater, and how to apply physical and chemical methods and techniques to produce drinking water."
+ },
+ {
+  "courseName": "Project in energy II",
+  "courseCode": "ENG-413",
+  "courseSection": "EL",
+  "profName": [
+   "Profs divers"
+  ]
+ },
+ {
+  "courseName": "HSS : Introduction to project",
+  "courseCode": "",
+  "courseSection": "SHS",
+  "profName": [
+   "Divers enseignants"
+  ]
+ },
+ {
+  "courseName": "HSS : Project",
+  "courseCode": "",
+  "courseSection": "SHS",
+  "profName": [
+   "Divers enseignants"
+  ]
+ },
+ {
+  "courseName": "Project in energy I",
+  "courseCode": "ENG-412",
+  "courseSection": "EL",
+  "profName": [
+   "Profs divers"
+  ]
+ }
+]

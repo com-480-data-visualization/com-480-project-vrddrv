@@ -1,0 +1,335 @@
+[
+ {
+  "courseName": "Master project in Chemical Engineering & Biotechnology",
+  "courseCode": "ChE-599",
+  "courseSection": "CGC",
+  "profName": [
+   "Profs divers"
+  ]
+ },
+ {
+  "courseName": "Advanced diffusional processes",
+  "courseCode": "ChE-402",
+  "courseSection": "CGC",
+  "profName": [
+   "Agrawal"
+  ],
+  "courseDesc": "C"
+ },
+ {
+  "courseName": "Electrochemical engineering",
+  "courseCode": "ChE-407",
+  "courseSection": "CGC",
+  "profName": [
+   "Boghossian",
+   "Comninellis"
+  ],
+  "courseDesc": "C"
+ },
+ {
+  "courseName": "Heterogenous reaction engineering",
+  "courseCode": "ChE-403",
+  "courseSection": "CGC",
+  "profName": [
+   "Luterbacher"
+  ],
+  "courseDesc": "C"
+ },
+ {
+  "courseName": "Process development I",
+  "courseCode": "ChE-451",
+  "courseSection": "CGC",
+  "profName": [
+   "Zaza"
+  ],
+  "courseDesc": "C"
+ },
+ {
+  "courseName": "Process development II",
+  "courseCode": "ChE-452",
+  "courseSection": "CGC",
+  "profName": [
+   "Zaza"
+  ],
+  "courseDesc": "C"
+ },
+ {
+  "courseName": "Risk management",
+  "courseCode": "ENG-430",
+  "courseSection": "CGC",
+  "profName": [
+   "Meyer"
+  ],
+  "courseDesc": "This course aims to enable students to master the methodology and associated tools for modern risk management with an engineering perspective. It highlights the different actors, resources available and objectives to achieve while remaining economically and socially sustainable."
+ },
+ {
+  "courseName": "Safety of chemical processes",
+  "courseCode": "ENG-431",
+  "courseSection": "CGC",
+  "profName": [
+   "Nanchen"
+  ],
+  "courseDesc": "The focus of the lecture is on thermal process safety, but explosion protection, design of risk reducing measures, as well as their reliability analysis are considered. While being based on theory, the lecture is oriented towards industrial practice."
+ },
+ {
+  "courseName": "Advanced food chemistry",
+  "courseCode": "CH-428",
+  "courseSection": "CGC",
+  "profName": [
+   ""
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Advanced materials for photovoltaics and lighting",
+  "courseCode": "CH-447",
+  "courseSection": "CGC",
+  "profName": [
+   "Nazeeruddin"
+  ],
+  "courseDesc": "The course is made up of the understanding of the use of advanced materials for Dye-sensitized Solar Cells, Semiconductor Nanoparticles (Q-dots) and Organic Light Emitting Diodes (OLED)."
+ },
+ {
+  "courseName": "Biomaterials",
+  "courseCode": "BIOENG-442",
+  "courseSection": "SV",
+  "profName": [
+   "Ghezzi",
+   "Lütolf"
+  ],
+  "courseDesc": "This course covers the fundamental concepts behind the design, function and application of state-of-the-art biomaterials, that is, materials that are designed based on a molecular understanding of their interactions with biological systems."
+ },
+ {
+  "courseName": "Bioprocesses and downstream processing",
+  "courseCode": "ChE-437",
+  "courseSection": "CGC",
+  "profName": [
+   "Crelier",
+   "Eyer",
+   "Zinn"
+  ],
+  "courseDesc": "C"
+ },
+ {
+  "courseName": "Biotechnology lab (for CGC)",
+  "courseCode": "BIOENG-433",
+  "courseSection": "CGC",
+  "profName": [
+   "Pick"
+  ],
+  "courseDesc": "Students apply basic techniques in molecular biology to clone a cDNA of interest into an expression plasmid in order to produce its protein product in mammalian cells. They purify the recombinant protein and characterize it biochemically."
+ },
+ {
+  "courseName": "Catalysis for emission control and energy processes",
+  "courseCode": "ChE-410",
+  "courseSection": "CGC",
+  "profName": [
+   "Kröcher"
+  ],
+  "courseDesc": "C"
+ },
+ {
+  "courseName": "Catalysis for energy storage",
+  "courseCode": "CH-421",
+  "courseSection": "CGC",
+  "profName": [
+   "Hu"
+  ],
+  "courseDesc": "This course covers the fundamental and applied aspects of electrocatalysis related to renewable energy conversion and storage. The focus is on catalysis for hydrogen evolution, oxygen evolution, and CO2 reduction reactions. Both homogeneous and heterogeneous catalysts are discussed."
+ },
+ {
+  "courseName": "Chemistry of food processes",
+  "courseCode": "ENG-435",
+  "courseSection": "CGC",
+  "profName": [
+   "Blank"
+  ],
+  "courseDesc": "The course will deliver basic knowledge on the principles of food processing and chemical changes occurring during food manufacturing. Specific thermal processes related to transformation of food raw materials will be described along with benefits and challenges to consider."
+ },
+ {
+  "courseName": "Food biotechnology",
+  "courseCode": "ENG-436",
+  "courseSection": "CGC",
+  "profName": [
+   "Sybesma"
+  ],
+  "courseDesc": "The course will deliver basic knowledge on the  principles of food fermentation and enzyme technology. Specific processes related to food raw materials and food bioprocessing will be described. The course will describe benefits that food biotechnology can bring during food manufactuing."
+ },
+ {
+  "courseName": "Food chemistry",
+  "courseCode": "ENG-433",
+  "courseSection": "CGC",
+  "profName": [
+   "Richard"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Modelling and optimization of energy systems",
+  "courseCode": "ME-454",
+  "courseSection": "GM",
+  "profName": [
+   "Maréchal"
+  ],
+  "courseDesc": "The goal of the lecture is to present and apply techniques for the modelling and the thermo-economic optimisation of industrial process and energy systems. The lecture covers the problem statement, the solving methods for the simulation and the single and multi-objective optimisation problems."
+ },
+ {
+  "courseName": "Nanobiotechnology and biophysics",
+  "courseCode": "CH-413",
+  "courseSection": "CGC",
+  "profName": [
+   "Fierz"
+  ],
+  "courseDesc": "This course concerns modern bioanalytical techniques to investigate biomolecules both in vitro and in vivo, including recent methods to image, track and manipulate single molecules. We cover the basic principles of the respective methods and discuss examples from the current scientific literature."
+ },
+ {
+  "courseName": "Nanomaterials for chemical engineering application",
+  "courseCode": "ChE-430",
+  "courseSection": "CGC",
+  "profName": [
+   "Buonsanti"
+  ],
+  "courseDesc": "C"
+ },
+ {
+  "courseName": "Organic electronic materials - synthesis, applications, properties",
+  "courseCode": "MSE-486",
+  "courseSection": "MX",
+  "profName": [
+   "Frauenrath"
+  ],
+  "courseDesc": "This course will introduce students to the structural requirements of charge transport in organic materials as well as synthetic methods for their preparation."
+ },
+ {
+  "courseName": "Pharmaceutical biotechnology",
+  "courseCode": "BIOENG-437",
+  "courseSection": "SV",
+  "profName": [
+   "Pick"
+  ],
+  "courseDesc": "The course focuses on the development and application of biotechnology-based approaches to human diseases. It provides current information on the engineering and pharmaceutical production of highly specific therapeutic proteins, vaccines, and other important biologicals at an industrial scale."
+ },
+ {
+  "courseName": "Physical and chemical analyses of materials",
+  "courseCode": "CH-410",
+  "courseSection": "CGC",
+  "profName": [
+   "Roussel"
+  ],
+  "courseDesc": "The course relates on the use of electromagnetic (X-Ray) and corpuscular (electrons) radiations for physical and chemical analysis of solid materials."
+ },
+ {
+  "courseName": "Physical chemistry of polymeric materials",
+  "courseCode": "MSE-431",
+  "courseSection": "MX",
+  "profName": [
+   "Klok-Lermann"
+  ],
+  "courseDesc": "The student has a basic understanding of the physical and physicochemical principles which result from the chainlike structure of synthetic macromolecules. The student can predict major characteristics of a polymer from its chemical structure and molecular architecture."
+ },
+ {
+  "courseName": "Polymer chemistry and macromolecular engineering",
+  "courseCode": "MSE-437",
+  "courseSection": "MX",
+  "profName": [
+   "Klok"
+  ],
+  "courseDesc": "Know modern methods of polymer synthesis. Understand how parameters, which determine polymer structure and properties, such as molecular weight, molecular weight distribution, topology, microstructure can be controlled by proper choice of polymerization method and optimization of reaction condition"
+ },
+ {
+  "courseName": "Principles and applications of systems biology",
+  "courseCode": "ChE-411",
+  "courseSection": "CGC",
+  "profName": [
+   "Hatzimanikatis"
+  ],
+  "courseDesc": "C"
+ },
+ {
+  "courseName": "Process intensification and green chemistry",
+  "courseCode": "ChE-408",
+  "courseSection": "CGC",
+  "profName": [
+   "Randall"
+  ],
+  "courseDesc": "C"
+ },
+ {
+  "courseName": "Selected topics in life sciences",
+  "courseCode": "BIOENG-430",
+  "courseSection": "SV",
+  "profName": [
+   "Lashuel"
+  ],
+  "courseDesc": "The course presents an overview on how recent advances at the interfaces of biology, biotechnology, engineering, physical sciences, and medicine are 1) shaping the landscape of biomedical research; 2) contributing to improving our quality of life and; 3) addressing global health challenges today."
+ },
+ {
+  "courseName": "Solid state chemistry and energy applications",
+  "courseCode": "CH-450",
+  "courseSection": "CGC",
+  "profName": [
+   "Queen"
+  ],
+  "courseDesc": "Students will learn about the structure & properties of several classes of solid state materials and gain insight into their importance in energy relevant applications."
+ },
+ {
+  "courseName": "Thermodynamics of energy conversion and storage",
+  "courseCode": "ChE-414",
+  "courseSection": "CGC",
+  "profName": [
+   "Züttel"
+  ],
+  "courseDesc": "C"
+ },
+ {
+  "courseName": "Chemical engineering lab & project",
+  "courseCode": "ChE-409",
+  "courseSection": "CGC",
+  "profName": [
+   "Luterbacher"
+  ],
+  "courseDesc": "C"
+ },
+ {
+  "courseName": "Chemical engineering product design",
+  "courseCode": "ChE-413",
+  "courseSection": "CGC",
+  "profName": [
+   "Sivula"
+  ],
+  "courseDesc": "C"
+ },
+ {
+  "courseName": "Process development project",
+  "courseCode": "ChE-459",
+  "courseSection": "CGC",
+  "profName": [
+   "Zaza"
+  ],
+  "courseDesc": "C"
+ },
+ {
+  "courseName": "HSS : Introduction to project",
+  "courseCode": "",
+  "courseSection": "SHS",
+  "profName": [
+   "Divers enseignants"
+  ]
+ },
+ {
+  "courseName": "HSS : Project",
+  "courseCode": "",
+  "courseSection": "SHS",
+  "profName": [
+   "Divers enseignants"
+  ]
+ },
+ {
+  "courseName": "Engineering internship (Master in Chemical engineering and Biotechnology)",
+  "courseCode": "ChE-596",
+  "courseSection": "CGC",
+  "profName": [
+   "Profs divers"
+  ]
+ }
+]

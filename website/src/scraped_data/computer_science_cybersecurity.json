@@ -1,0 +1,793 @@
+[
+ {
+  "courseName": "Internship credited with Master Project (master in Cybersecurity)",
+  "courseCode": "CS-594",
+  "courseSection": "IN",
+  "profName": [
+   "Profs divers"
+  ]
+ },
+ {
+  "courseName": "Master project in Cybersecurity",
+  "courseCode": "CS-597",
+  "courseSection": "IN",
+  "profName": [
+   "Profs divers"
+  ]
+ },
+ {
+  "courseName": "Advanced algorithms",
+  "courseCode": "CS-450",
+  "courseSection": "IN",
+  "profName": [
+   "Kapralov"
+  ],
+  "courseDesc": "A first graduate course in algorithms, this course assumes minimal background, but moves rapidly. The objective is to learn the main techniques of algorithm analysis and design, while building a repertory of basic algorithmic solutions to problems in many domains."
+ },
+ {
+  "courseName": "Advanced computer architecture",
+  "courseCode": "CS-470",
+  "courseSection": "IN",
+  "profName": [
+   "Ienne"
+  ],
+  "courseDesc": "The course studies the most important techniques to exploit Instruction-Level Parallelism and discusses the relation with the critical phases of compilation. It also analyses emerging classes of processors for complex single-chip systems."
+ },
+ {
+  "courseName": "Cryptography and security",
+  "courseCode": "COM-401",
+  "courseSection": "SC",
+  "profName": [
+   "Vaudenay"
+  ],
+  "courseDesc": "This course introduces the basics of cryptography. We review several types of cryptographic primitives, when it is safe to use them and how to select the appropriate security parameters. We detail how they work and sketch how they can be implemented."
+ },
+ {
+  "courseName": "Database systems",
+  "courseCode": "CS-422",
+  "courseSection": "IN",
+  "profName": [
+   "Ailamaki"
+  ],
+  "courseDesc": "This course is intended for students who want to understand modern large-scale data analysis systems and database systems. It covers a wide range of topics and technologies, and will prepare students to be able to build such systems as well as read and understand recent research publications."
+ },
+ {
+  "courseName": "Decentralized systems engineering",
+  "courseCode": "CS-438",
+  "courseSection": "IN",
+  "profName": [
+   "Ford"
+  ],
+  "courseDesc": "A decentralized system is one that works when no single party is in charge or fully trusted. This course teaches decentralized systems principles while guiding students through the development and testing of their own decentralized system incorporating messaging, encryption, and blockchain concepts."
+ },
+ {
+  "courseName": "Distributed algorithms",
+  "courseCode": "CS-451",
+  "courseSection": "SC",
+  "profName": [
+   "Guerraoui"
+  ],
+  "courseDesc": "Computing is often distributed over several machines, in a local IP-like network, a cloud or in a P2P network.  Failures are common and computations need to proceed despite partial failures of machines or communication links. The foundations of reliable distributed computing will be studied."
+ },
+ {
+  "courseName": "Foundations of software",
+  "courseCode": "CS-452",
+  "courseSection": "IN",
+  "profName": [
+   "Odersky"
+  ],
+  "courseDesc": "The course introduces the foundations on which programs and programming languages are built. It introduces syntax, types and semantics as building blocks that together define the properties of a program part or a language. Students will learn how to apply these concepts in their reasoning."
+ },
+ {
+  "courseName": "Information security and privacy",
+  "courseCode": "COM-402",
+  "courseSection": "IN",
+  "profName": [
+   "González Troncoso",
+   "Hubaux",
+   "Oechslin"
+  ],
+  "courseDesc": "This course provides an overview of information security and privacy topics. It introduces students to the knowledge and tools they will need to deal with the security/privacy challenges they are likely to encounter in today's Big Data world. The tools are illustrated with relevant applications"
+ },
+ {
+  "courseName": "Machine learning",
+  "courseCode": "CS-433",
+  "courseSection": "IN",
+  "profName": [
+   "Jaggi",
+   "Urbanke"
+  ],
+  "courseDesc": "Machine learning and data analysis are becoming increasingly central in many sciences and applications. In this course, fundamental principles and methods of machine learning will be introduced, analyzed and practically implemented."
+ },
+ {
+  "courseName": "TCP/IP networking",
+  "courseCode": "COM-407",
+  "courseSection": "SC",
+  "profName": [
+   "Le Boudec"
+  ],
+  "courseDesc": "C"
+ },
+ {
+  "courseName": "Advanced compiler construction",
+  "courseCode": "CS-420",
+  "courseSection": "IN",
+  "profName": [
+   "Schinz"
+  ],
+  "courseDesc": "Students learn several implementation techniques for modern functional and object-oriented programming languages. They put some of them into practice by developing key parts of a compiler and run time system for a simple functional programming language."
+ },
+ {
+  "courseName": "Advanced computer graphics",
+  "courseCode": "CS-440",
+  "courseSection": "IN",
+  "profName": [
+   "Jakob"
+  ],
+  "courseDesc": "This course covers advanced 3D graphics techniques for realistic image synthesis. Students will learn how light interacts with objects in our world, and how to recreate these phenomena in a computer simulation to create synthetic images that are indistinguishable from photographs."
+ },
+ {
+  "courseName": "Advanced cryptography",
+  "courseCode": "COM-501",
+  "courseSection": "SC",
+  "profName": [
+   "Vaudenay"
+  ],
+  "courseDesc": "This course reviews some failure cases in public-key cryptography. It introduces some cryptanalysis techniques. It also presents fundamentals in cryptography such as interactive proofs. Finally, it presents some techniques to validate the security of cryptographic primitives."
+ },
+ {
+  "courseName": "Advanced multiprocessor architecture",
+  "courseCode": "CS-471",
+  "courseSection": "IN",
+  "profName": [
+   "Falsafi"
+  ],
+  "courseDesc": "Multiprocessors are now the defacto building blocks for all computer systems. This course will build upon the basic concepts offered in Computer Architecture I to cover the architecture and organization of modern multiprocessors from mobile and embedded platforms to servers, data centers and cloud computing platforms."
+ },
+ {
+  "courseName": "Advanced probability and applications",
+  "courseCode": "COM-417",
+  "courseSection": "SC",
+  "profName": [
+   "Lévêque"
+  ],
+  "courseDesc": "In this course, various aspects of probability theory are considered. The first part is devoted to the main theorems in the field (law of large numbers, central limit theorem, concentration inequalities), while the second part focuses on the theory of martingales in discrete time."
+ },
+ {
+  "courseName": "Advanced topics on privacy enhancing technologies",
+  "courseCode": "CS-523",
+  "courseSection": "IN",
+  "profName": [
+   "González Troncoso",
+   "Hubaux"
+  ],
+  "courseDesc": "This advanced course will provide students with the knowledge to tackle the design of privacy-preserving ICT systems.  Students will learn about existing technologies to protect privacy, and how to evaluate the protection they provide."
+ },
+ {
+  "courseName": "Advanced VLSI design",
+  "courseCode": "EE-431",
+  "courseSection": "EL",
+  "profName": [
+   "Burg"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Algebraic curves and cryptography",
+  "courseCode": "MATH-409",
+  "courseSection": "MA",
+  "profName": [
+   ""
+  ],
+  "courseDesc": "The goal of this course is to introduce basic notions from public-key cryptography based on algebraic curves over finite fields. We will introduce basic cryptographic schemes as well as discuss in-depth the discrete logarithm problem for elliptic and Jacobians of higher genus curves."
+ },
+ {
+  "courseName": "Applied biostatistics",
+  "courseCode": "MATH-493",
+  "courseSection": "MA",
+  "profName": [
+   "Goldstein"
+  ],
+  "courseDesc": "This course covers topics in applied biostatistics, with an emphasis on practical aspects of data analysis using R statistical software. Topics include types of studies and their design and analysis, high dimensional data analysis (genetic/genomic) and other topics as time and interest permit."
+ },
+ {
+  "courseName": "Applied data analysis",
+  "courseCode": "CS-401",
+  "courseSection": "SC",
+  "profName": [
+   "West"
+  ],
+  "courseDesc": "This course teaches the basic techniques and practical skills required to make sense out of a variety of data, with the help of the most acclaimed software tools in the data science world: pandas, scikit-learn, Spark, etc."
+ },
+ {
+  "courseName": "Artificial neural networks",
+  "courseCode": "CS-456",
+  "courseSection": "IN",
+  "profName": [
+   "Gerstner"
+  ],
+  "courseDesc": "Since 2010 approaches in deep learning have revolutionized fields as diverse as computer vision, machine learning, or artificial intelligence. This course gives a systematic introduction into the main  models of deep artificial neural networks: Supervised Learning and Reinforcement Learning."
+ },
+ {
+  "courseName": "Audio and acoustic signal processing",
+  "courseCode": "COM-415",
+  "courseSection": "SC",
+  "profName": [
+   "Faller",
+   "Kolundzija"
+  ],
+  "courseDesc": "The objective of the course is to introduce theory, methods, ans basic psychoacoustics that is needed to understand state-of-the-art techniques used in pro audio and consumer audio, including microphones, surround sound, mixing and audio coding."
+ },
+ {
+  "courseName": "Automatic speech processing",
+  "courseCode": "EE-554",
+  "courseSection": "EL",
+  "profName": [
+   "Bourlard"
+  ],
+  "courseDesc": "The goal of this course is to provide the students with the main formalisms, models and algorithms required for the implementation of advanced speech processing applications (involving, among others, speech coding, speech analysis/synthesis, and speech recognition)."
+ },
+ {
+  "courseName": "Biological modeling of neural networks",
+  "courseCode": "BIO-465",
+  "courseSection": "IN",
+  "profName": [
+   "Gerstner"
+  ],
+  "courseDesc": "In this course we study mathematical models of neurons and neuronal networks in the context of biology and establish links to models of cognition."
+ },
+ {
+  "courseName": "Biomedical signal processing",
+  "courseCode": "EE-512",
+  "courseSection": "EL",
+  "profName": [
+   "Vesin"
+  ],
+  "courseDesc": "The goal of this course is to introduce the techniques most commonly used for the analysis of biomedical signals, and to present concrete examples of their application for diagnosis purposes."
+ },
+ {
+  "courseName": "Business design for IT services",
+  "courseCode": "CS-490",
+  "courseSection": "SC",
+  "profName": [
+   "Wegmann"
+  ],
+  "courseDesc": "We teach how to \"design\" an IT supported business initiative. We use insights from philosophy and psychology to concretely understand business models and analysis tools. Students work in groups on a project of their choice. Concrete fieldwork outside class and substantial readings are required."
+ },
+ {
+  "courseName": "Cellular biology and biochemistry for engineers",
+  "courseCode": "BIO-105",
+  "courseSection": "SV",
+  "profName": [
+   "Zufferey"
+  ],
+  "courseDesc": "Basic course in biochemistry as well as cellular and molecular biology for non-life science students enrolling at the Master or PhD thesis level from various engineering disciplines. It reviews essential notions necessary for a training in biology-related engineering fields."
+ },
+ {
+  "courseName": "Computational complexity",
+  "courseCode": "CS-524",
+  "courseSection": "IN",
+  "profName": [
+   ""
+  ],
+  "courseDesc": "In computational complexity we study the computational resources needed to solve problems and understand the relation between different types of computation. \n\nThis course advances the students knowledge of computational complexity, and develop an understanding of fundamental open questions."
+ },
+ {
+  "courseName": "Computational photography",
+  "courseCode": "CS-413",
+  "courseSection": "SC",
+  "profName": [
+   "Süsstrunk"
+  ],
+  "courseDesc": "The students will gain the theoretical knowledge in computational photography, which allows recording and processing a richer visual experience than traditional digital imaging. They will also execute practical group projects to develop their own computational photography application."
+ },
+ {
+  "courseName": "Computer vision",
+  "courseCode": "CS-442",
+  "courseSection": "IN",
+  "profName": [
+   "Fua"
+  ],
+  "courseDesc": "Computer Vision aims at modeling the world from digital images acquired using video or infrared cameras, and other imaging sensors.\n\nWe will focus on images acquired using digital cameras. We will introduce basic processing techniques and discuss their field of applicability."
+ },
+ {
+  "courseName": "Concurrent algorithms",
+  "courseCode": "CS-453",
+  "courseSection": "SC",
+  "profName": [
+   "Guerraoui"
+  ],
+  "courseDesc": "With the advent of multiprocessors, it becomes crucial to master the underlying algorithmics of concurrency. The objective of this course is to study the foundations of concurrent algorithms and in particular the techniques that enable the construction of robust such algorithms."
+ },
+ {
+  "courseName": "Convex optimization and applications",
+  "courseCode": "CS-454",
+  "courseSection": "MTE",
+  "profName": [
+   ""
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Data visualization",
+  "courseCode": "COM-480",
+  "courseSection": "SC",
+  "profName": [
+   "Vuillon"
+  ],
+  "courseDesc": "Understanding why and how to present complex data interactively in an effective manner has become a crucial skill for any data scientist. In this course, you will learn how to design, judge, build and present your own interactive data visualizations."
+ },
+ {
+  "courseName": "Deep learning",
+  "courseCode": "EE-559",
+  "courseSection": "EL",
+  "profName": [
+   "Fleuret"
+  ],
+  "courseDesc": "The objective of this course is to provide a complete introduction to deep machine learning. How to design a neural network, how to train it, and what are the modern techniques that specifically handle very large networks."
+ },
+ {
+  "courseName": "Design technologies for integrated systems",
+  "courseCode": "CS-472",
+  "courseSection": "IN",
+  "profName": [
+   "De Micheli"
+  ],
+  "courseDesc": "Hardware compilation is the process of transforming specialized hardware description languages into circuit descriptions, which are iteratively refined, detailed and optimized.  The course  presents algorithms, tools and methods for hardware compilation and logic synthesis."
+ },
+ {
+  "courseName": "Digital 3D geometry processing",
+  "courseCode": "CS-446",
+  "courseSection": "IN",
+  "profName": [
+   "Pauly"
+  ],
+  "courseDesc": "Students study & apply core concepts and algorithms for digital geometry processing. They create their own digital and physical geometry that follows the digital 3D content creation pipeline from data acquisition, geometry processing, to physical fabrication."
+ },
+ {
+  "courseName": "Digital education & learning analytics",
+  "courseCode": "CS-411",
+  "courseSection": "IN",
+  "profName": [
+   "Dillenbourg",
+   "Jermann"
+  ],
+  "courseDesc": "This course addresses the relationship between specific technological features and the learners' cognitive processes. It also covers the methods and results of empirical studies on this topic: do student actually learn due to technologies?"
+ },
+ {
+  "courseName": "Distributed information systems",
+  "courseCode": "CS-423",
+  "courseSection": "SC",
+  "profName": [
+   "Aberer"
+  ],
+  "courseDesc": "This course introduces the key concepts and algorithms from the areas of information retrieval, data mining and knowledge bases, which constitute the foundations of today's Web-based distributed information systems."
+ },
+ {
+  "courseName": "Distributed intelligent systems",
+  "courseCode": "ENG-466",
+  "courseSection": "SIE",
+  "profName": [
+   "Martinoli"
+  ],
+  "courseDesc": "The goal of this course is to provide methods and tools for modeling distributed intelligent systems as well as designing and optimizing coordination strategies. The course is a well-balanced mixture of theory and practical activities using simulation and real hardware platforms."
+ },
+ {
+  "courseName": "Dynamical system theory for engineers",
+  "courseCode": "COM-502",
+  "courseSection": "SC",
+  "profName": [
+   "Thiran"
+  ],
+  "courseDesc": "Linear and nonlinear dynamical systems are found in all fields of science and engineering. After a short review of linear system theory, the class will explain and develop the main tools for the qualitative analysis of nonlinear systems, both in discrete-time and continuous-time."
+ },
+ {
+  "courseName": "Embedded systems",
+  "courseCode": "CS-473",
+  "courseSection": "IN",
+  "profName": [
+   "Beuchat"
+  ],
+  "courseDesc": "The main topics of this course are understanding and designing embedded system on a programmable circuit (FPGA). Students will be able to design a camera or a LCD controller on an FPGA in VHDL and will use their controller through a softcore processor."
+ },
+ {
+  "courseName": "Enterprise and service-oriented architecture",
+  "courseCode": "CS-491",
+  "courseSection": "SC",
+  "profName": [
+   "Wegmann"
+  ],
+  "courseDesc": "In this course, we teach how to define the requirements for an IT system that would best serve the needs of an organisation. The course is taught using a non-conventional style in which the students learn mostly through the stress of a series of concrete experiences that mimic real-life situations."
+ },
+ {
+  "courseName": "Experience design",
+  "courseCode": "CS-489",
+  "courseSection": "IN",
+  "profName": [
+   "Huang"
+  ],
+  "courseDesc": "As we move towards a design economy, the success of new products, systems and services depend increasingly on the excellence of personal experience.This course introduces students to the notion and practice of experience design (human and artificial design) following a hands-on,studio-based approach"
+ },
+ {
+  "courseName": "Formal verification",
+  "courseCode": "CS-550",
+  "courseSection": "IN",
+  "profName": [
+   "Kuncak"
+  ],
+  "courseDesc": "We introduce formal verification as an approach for developing highly reliable systems. Formal verification finds proofs that computer systems work under all relevant scenarios. We will learn how to use formal verification tools and explain the theory and the practice behind them."
+ },
+ {
+  "courseName": "Foundations and tools for processing tree structured data",
+  "courseCode": "CS-525",
+  "courseSection": "IN",
+  "profName": [
+   "Vanoirbeek"
+  ],
+  "courseDesc": "The course is about the foundations and tools for processing tree structured data, a prevalent model for\nrepresenting semi-structured data (SSD) over distributed information networks.\nIt aims at presenting approaches, programming languages and tools for modeling and manipulating tree-structured\ninfo"
+ },
+ {
+  "courseName": "Fundamentals of VLSI design",
+  "courseCode": "EE-429",
+  "courseSection": "EL",
+  "profName": [
+   "Burg"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Gödel and recursivity",
+  "courseCode": "MATH-483",
+  "courseSection": "MA",
+  "profName": [
+   ""
+  ],
+  "courseDesc": "C"
+ },
+ {
+  "courseName": "Human computer interaction",
+  "courseCode": "CS-486",
+  "courseSection": "IN",
+  "profName": [
+   "Pu Faltings"
+  ],
+  "courseDesc": "This course focuses on goal-directed design and interaction design, two subjects treated in depth in the Cooper book (see reference below). To practice these two methods, we propose a design challenge, which is to be carried out by a team of three students."
+ },
+ {
+  "courseName": "Image and video processing",
+  "courseCode": "EE-550",
+  "courseSection": "EL",
+  "profName": [
+   "Ebrahimi"
+  ],
+  "courseDesc": "This course covers fundamental notions in image and video processing, as well as covers most popular tools used, such as edge detection, motion estimation, segmentation, and compression. It is composed of lectures, laboratory sessions, and mini-projects."
+ },
+ {
+  "courseName": "Image processing I",
+  "courseCode": "MICRO-511",
+  "courseSection": "MT",
+  "profName": [
+   "Unser",
+   "Van De Ville"
+  ],
+  "courseDesc": "Introduction to the basic techniques of image processing. Introduction to the development of image-processing software and to prototyping in JAVA. Application to real-world examples in industrial vision and biomedical imaging."
+ },
+ {
+  "courseName": "Image processing II",
+  "courseCode": "MICRO-512",
+  "courseSection": "MT",
+  "profName": [
+   "Liebling",
+   "Sage",
+   "Unser",
+   "Van De Ville"
+  ],
+  "courseDesc": "Study of advanced image processing; mathematical imaging. Development of image-processing software and prototyping in JAVA; application to real-world examples in industrial vision and biomedical imaging."
+ },
+ {
+  "courseName": "Industrial automation",
+  "courseCode": "CS-487",
+  "courseSection": "SC",
+  "profName": [
+   "Pignolet-Oswald",
+   "Tournier"
+  ],
+  "courseDesc": "This course consists of two parts:\n1) architecture of automation systems, hands-on lab\n2) handling of faults and failures in real-time systems, including fault-tolerant computing"
+ },
+ {
+  "courseName": "Information theory and coding",
+  "courseCode": "COM-404",
+  "courseSection": "SC",
+  "profName": [
+   "Telatar"
+  ],
+  "courseDesc": "The mathematical principles of communication that govern the compression and transmission of data and the design of efficient methods of doing so."
+ },
+ {
+  "courseName": "Information theory and signal processing",
+  "courseCode": "COM-406",
+  "courseSection": "IN",
+  "profName": [
+   "Gastpar",
+   "Telatar",
+   "Urbanke"
+  ],
+  "courseDesc": "Information Theory and Signal Processing are key underpinnings of Data Science. They provide frameworks for signal representation and for fundamental performance bounds."
+ },
+ {
+  "courseName": "Intelligent agents",
+  "courseCode": "CS-430",
+  "courseSection": "IN",
+  "profName": [
+   "Faltings"
+  ],
+  "courseDesc": "Software agents are widely used to control physical, economic and financial processes. The course presents practical methods for implementing software agents and multi-agent systems, supported by programming exercises, and the theoretical underpinnings including computational game theory."
+ },
+ {
+  "courseName": "Introduction to natural language processing",
+  "courseCode": "CS-431",
+  "courseSection": "IN",
+  "profName": [
+   "Chappelier",
+   "Rajman"
+  ],
+  "courseDesc": "The objective of this course is to present the main models, formalisms and algorithms necessary for the development of applications in the field of natural language information processing. The concepts introduced during the lectures will be applied during practical sessions."
+ },
+ {
+  "courseName": "Learning theory",
+  "courseCode": "CS-526",
+  "courseSection": "IN",
+  "profName": [
+   "Macris",
+   "Urbanke"
+  ],
+  "courseDesc": "Machine learning and data analysis are becoming increasingly central in many sciences and applications. This course concentrates on the theoretical underpinnings of machine learning."
+ },
+ {
+  "courseName": "Markov chains and algorithmic applications",
+  "courseCode": "COM-516",
+  "courseSection": "SC",
+  "profName": [
+   "Lévêque",
+   "Macris"
+  ],
+  "courseDesc": "The study of random walks finds many applications in computer science and communications. The goal of the course is to get familiar with the theory of random walks, and to get an overview of some applications of this theory to problems of interest in communications, computer and network science."
+ },
+ {
+  "courseName": "Mathematical foundations of signal processing",
+  "courseCode": "COM-514",
+  "courseSection": "SC",
+  "profName": [
+   "Kolundzija",
+   "Parhizkar",
+   "Scholefield"
+  ],
+  "courseDesc": "Signal processing tools are presented from an intuitive geometric point of view which is at the heart of all modern signal processing techniques. Student will develop the mathematical depth and rigor needed for the study of advanced topics in signal processing."
+ },
+ {
+  "courseName": "Media security",
+  "courseCode": "EE-552",
+  "courseSection": "EL",
+  "profName": [
+   "Ebrahimi"
+  ],
+  "courseDesc": "This course provides attendees with theoretical and practical issues in media security. In addition to lectures by the professor, the course includes laboratory sessions, a mini-project, and a mid-term exam."
+ },
+ {
+  "courseName": "Mobile networks",
+  "courseCode": "COM-405",
+  "courseSection": "SC",
+  "profName": [
+   "Hubaux"
+  ],
+  "courseDesc": "This course provides a detailed description of the organization and operating principles of mobile communication networks."
+ },
+ {
+  "courseName": "Modern digital communications: a hands-on approach",
+  "courseCode": "COM-430",
+  "courseSection": "SC",
+  "profName": [
+   "Rimoldi"
+  ],
+  "courseDesc": "This course complements the theoretical knowledge learned in PDC with more advanced topics such as OFDM, MIMO, fading chancels, and GPS positioning. This knowledge is put into practice with hands-on exercises based on Matlab and on a software-defined radio platform."
+ },
+ {
+  "courseName": "Networks out of control",
+  "courseCode": "COM-512",
+  "courseSection": "SC",
+  "profName": [
+   "Grossglauser",
+   "Thiran"
+  ],
+  "courseDesc": "The goal of this class is to acquire mathematical tools and engineering insight about networks whose structure is random, as well as learning and control techniques applicable to such network data."
+ },
+ {
+  "courseName": "Number theory in cryptography",
+  "courseCode": "MATH-489",
+  "courseSection": "MA",
+  "profName": [
+   "Serban"
+  ],
+  "courseDesc": "The goal of the course is to introduce basic notions from public key cryptography (PKC) as well as basic number-theoretic methods and algorithms for cryptanalysis of protocols and schemes based on PKC."
+ },
+ {
+  "courseName": "Optimization for machine learning",
+  "courseCode": "CS-439",
+  "courseSection": "IN",
+  "profName": [
+   "Flammarion",
+   "Jaggi"
+  ],
+  "courseDesc": "This course teaches an overview of modern optimization methods, for applications in machine learning and data science. In particular, scalability of algorithms to large datasets will be discussed in theory and in implementation."
+ },
+ {
+  "courseName": "Optional project in computer science",
+  "courseCode": "CS-596",
+  "courseSection": "IN",
+  "profName": [
+   "Profs divers"
+  ]
+ },
+ {
+  "courseName": "Performance evaluation",
+  "courseCode": "COM-503",
+  "courseSection": "SC",
+  "profName": [
+   ""
+  ],
+  "courseDesc": "In this course you will learn the methods and techniques that are used to perform a good performance evaluation during a research or development project."
+ },
+ {
+  "courseName": "Principles of computer systems",
+  "courseCode": "CS-522",
+  "courseSection": "IN",
+  "profName": [
+   "Argyraki",
+   "Candea"
+  ],
+  "courseDesc": "This advanced graduate course focuses on key design principles underlying successful computer and communication\nsystems, and teaches how to solve real problems using ideas, techniques, and algorithms from operating systems, networks, databases, programming languages, and computer architecture."
+ },
+ {
+  "courseName": "Probabilistic methods",
+  "courseCode": "MATH-467",
+  "courseSection": "MA",
+  "profName": [
+   ""
+  ],
+  "courseDesc": "We systematically explore the exciting fact that randomness (i.e., coin flipping) can be used profitably to construct various mathematical structures with unexpected and often paradoxical properties, and to efficiently solve otherwise hopelessly difficult computational tasks."
+ },
+ {
+  "courseName": "Real-time embedded systems",
+  "courseCode": "CS-476",
+  "courseSection": "IN",
+  "profName": [
+   "Beuchat"
+  ],
+  "courseDesc": "A real time system is subject to important temporal constraints. This course is about understanding where processing time is spent and what a designer can do in order to achieve real-time processing systems. Some solutions are Multiprocessors, accelerators, custom instructions, specialized hardware."
+ },
+ {
+  "courseName": "Sensors in medical instrumentation",
+  "courseCode": "EE-511",
+  "courseSection": "EL",
+  "profName": [
+   "Aminian"
+  ],
+  "courseDesc": "Fundamental principles and methods used for physiological signal conditioning. Resistive, capacitive, inductive, piezoelectric and optical techniques used to detect and convert physiological information's to electrical signals. Laboratory and ambulatory devices for monitoring and therapy."
+ },
+ {
+  "courseName": "Set theory",
+  "courseCode": "MATH-318",
+  "courseSection": "MA",
+  "profName": [
+   "Duparc"
+  ],
+  "courseDesc": "Set Theory as a foundational system for mathematics.\nRelative consistency of the Axiom of Choice and the Continuum Hypothesis."
+ },
+ {
+  "courseName": "Smart grids technologies",
+  "courseCode": "EE-472",
+  "courseSection": "EL",
+  "profName": [
+   "Le Boudec",
+   "Paolone"
+  ],
+  "courseDesc": "Learn the technologies and methodologies used in the context smart electrical grids and be able to deploy/implement/test them in a lab environment."
+ },
+ {
+  "courseName": "Social media",
+  "courseCode": "EE-593",
+  "courseSection": "EL",
+  "profName": [
+   "Gillet"
+  ],
+  "courseDesc": "The objective is to enable students to critically apprehend the Human Computer Interaction (HCI) challenges associated with the design and the exploitation of social media platforms."
+ },
+ {
+  "courseName": "Software security",
+  "courseCode": "CS-412",
+  "courseSection": "IN",
+  "profName": [
+   "Payer"
+  ],
+  "courseDesc": "This course focuses on software security fundamentals, secure coding guidelines and principles, and advanced software security concepts. Students learn to assess and understand threats, learn how to design and implement secure software systems, and get hands-on experience with security pitfalls."
+ },
+ {
+  "courseName": "Statistical signal and data processing through applications",
+  "courseCode": "COM-500",
+  "courseSection": "SC",
+  "profName": [
+   "Ridolfi"
+  ],
+  "courseDesc": "Building up on the basic concepts of sampling, filtering and Fourier transforms, we address stochastic modeling, spectral analysis, estimation and prediction, classification, and adaptive filtering, with an application oriented approach and hands-on numerical exercises."
+ },
+ {
+  "courseName": "Student seminar: security protocols and applications",
+  "courseCode": "COM-506",
+  "courseSection": "SC",
+  "profName": [
+   "Oechslin",
+   "Vaudenay"
+  ],
+  "courseDesc": "This seminar introduces the participants to the current trends, problems, and methods in the area of communication security."
+ },
+ {
+  "courseName": "Sublinear algorithms for big data analysis",
+  "courseCode": "CS-448",
+  "courseSection": "IN",
+  "profName": [
+   ""
+  ],
+  "courseDesc": "In this course we will define rigorous mathematical models for computing on large datasets, cover main algorithmic techniques that have been developed for sublinear (e.g. faster than linear time) data processing. We will also discuss limitations inherent to computing with constrained resources."
+ },
+ {
+  "courseName": "Technology ventures in IC",
+  "courseCode": "CS-410",
+  "courseSection": "IN",
+  "profName": [
+   ""
+  ],
+  "courseDesc": "This hands-on class gives graduate students in IC interested in startups the opportunity to learn and put in practice the fundamental skills required to assess a technology concept in the context of a business opportunity.  This class is focused only on business opportunities where high-technology"
+ },
+ {
+  "courseName": "Topics in theoretical computer science",
+  "courseCode": "CS-455",
+  "courseSection": "IN",
+  "profName": [
+   "Kapralov"
+  ],
+  "courseDesc": "The students gain an in-depth knowledge of several current and emerging areas of theoretical computer science. The course familiarizes them with advanced techniques, and develops an understanding of fundamental questions that underlie some of the key problems of modern computer science."
+ },
+ {
+  "courseName": "Virtual reality",
+  "courseCode": "CS-444",
+  "courseSection": "IN",
+  "profName": [
+   "Boulic"
+  ],
+  "courseDesc": "The goal of VR is to embed the users in a potentially complex virtual environment while ensuring that they are able to react as if this environment were real. The course provides a human perception-action background and describes the key techniques for achieving efficient VR applications."
+ },
+ {
+  "courseName": "HSS : Introduction to project",
+  "courseCode": "",
+  "courseSection": "SHS",
+  "profName": [
+   "Divers enseignants"
+  ]
+ },
+ {
+  "courseName": "HSS : Project",
+  "courseCode": "",
+  "courseSection": "SHS",
+  "profName": [
+   "Divers enseignants"
+  ]
+ },
+ {
+  "courseName": "Project in Cybersecurity",
+  "courseCode": "CS-496",
+  "courseSection": "IN",
+  "profName": [
+   "Profs divers"
+  ]
+ }
+]

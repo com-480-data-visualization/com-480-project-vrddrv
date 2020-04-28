@@ -1,0 +1,367 @@
+[
+ {
+  "courseName": "Engineering internship credited with master project (master in Materials science and engineering)",
+  "courseCode": "MSE-597",
+  "courseSection": "MX",
+  "profName": [
+   "Gautsch",
+   "Sunderland"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Master project in Materials Science and Engineering",
+  "courseCode": "MSE-599",
+  "courseSection": "MX",
+  "profName": [
+   "Profs divers"
+  ]
+ },
+ {
+  "courseName": "Advanced metallurgy",
+  "courseCode": "MSE-422",
+  "courseSection": "MX",
+  "profName": [
+   "Weber"
+  ],
+  "courseDesc": "This course covers advanced metals and alloys both in terms of specific alloy classes (e.g. Ni-base, Ti-base, precious metals, High Entropy alloys, Metallic glasses) as well as general concepts (e.g. electrical and thermal properties, general characteristics of metallic melts and solids)."
+ },
+ {
+  "courseName": "Fracture of materials",
+  "courseCode": "MSE-424",
+  "courseSection": "MX",
+  "profName": [
+   "Plummer"
+  ],
+  "courseDesc": "This course covers elementary fracture mechanics and its application to the fracture of engineering materials."
+ },
+ {
+  "courseName": "Fundamentals of solid-state materials",
+  "courseCode": "MSE-423",
+  "courseSection": "MX",
+  "profName": [
+   "Marzari"
+  ],
+  "courseDesc": "Fundamentals of quantum mechanics as applied to atoms, molecules, and solids. Electronic, optical, and magnetic properties of solids."
+ },
+ {
+  "courseName": "Soft matter",
+  "courseCode": "MSE-425",
+  "courseSection": "MX",
+  "profName": [
+   "Stellacci"
+  ],
+  "courseDesc": "The first part of this course encompasses the assembly of molecules and polymers into micro- and macroscopic materials and the influence of the structure of the resulting materials on their properties. The second part focuses on the production of colloids and their assembly into superstructures."
+ },
+ {
+  "courseName": "Statistical mechanics",
+  "courseCode": "MSE-421",
+  "courseSection": "MX",
+  "profName": [
+   "Ceriotti"
+  ],
+  "courseDesc": "This course presents an introduction to statistical mechanics geared towards materials scientists. The concepts of macroscopic thermodynamics will be related to a microscopic picture and a statistical interpretation. Lectures and exercises will be complemented with hands-on simulation projects."
+ },
+ {
+  "courseName": "Assembly techniques",
+  "courseCode": "MSE-464",
+  "courseSection": "MX",
+  "profName": [
+   "Leinenbach",
+   "Plummer"
+  ],
+  "courseDesc": "Introduction to the assembly of materials by homogeneous or heterogeneous joints (welding, bonding, mechanical assembly). Mechanical and environmental resistance of joints."
+ },
+ {
+  "courseName": "Atomistic and quantum simulations of materials",
+  "courseCode": "MSE-468",
+  "courseSection": "MX",
+  "profName": [
+   "Marzari"
+  ],
+  "courseDesc": "Theory and application of quantum simulations to model, understand, and predict the properties of real materials."
+ },
+ {
+  "courseName": "Biomaterials (pour MX)",
+  "courseCode": "MSE-471",
+  "courseSection": "MX",
+  "profName": [
+   ""
+  ],
+  "courseDesc": "The course introduces the main classes of biomaterials used in the biomedical field. The interactions with biological environment are discussed and challenges highlighted. State of the art examples per type of material are discussed. Students will generate a biomaterial and study cell compatibility."
+ },
+ {
+  "courseName": "Cementitious materials (advanced)",
+  "courseCode": "MSE-420",
+  "courseSection": "MX",
+  "profName": [
+   "Scrivener"
+  ],
+  "courseDesc": "Discussion of topical subjects related to the current use of cementitious materials.  Through a guided literature survey prepare a presentation in a group on a topical issue"
+ },
+ {
+  "courseName": "Composites technology",
+  "courseCode": "MSE-440",
+  "courseSection": "MX",
+  "profName": [
+   "Bourban",
+   "Michaud"
+  ],
+  "courseDesc": "The latest developments in processing and the novel generations of organic composites are discussed. Nanocomposites, adaptive composites and biocomposites are presented. Product development, cost analysis and study of new markets are practiced in team work."
+ },
+ {
+  "courseName": "Dielectric properties of materials",
+  "courseCode": "MSE-480",
+  "courseSection": "MX",
+  "profName": [
+   "Damjanovic"
+  ],
+  "courseDesc": "Students learn about response of electrically insulating materials to electrical and mechanical fields. The emphasis is on effect of various types of defects on properties, on crystal structure/microstructure - property relations, and on ways how to engineer properties of materials for applications."
+ },
+ {
+  "courseName": "Electrochemistry for materials technology",
+  "courseCode": "MSE-441",
+  "courseSection": "MX",
+  "profName": [
+   "Philippe",
+   "Van Herle"
+  ],
+  "courseDesc": "This course aims at familiarizing the student with state of the art applications of electrochemistry in materials science and technology as well as material requirements for electrochemical engineering."
+ },
+ {
+  "courseName": "Electron microscopy: advanced methods",
+  "courseCode": "MSE-450",
+  "courseSection": "MX",
+  "profName": [
+   "Alexander",
+   "Hébert"
+  ],
+  "courseDesc": "With this course, the student will learn advanced methods in transmission electron microscopy, especially what is the electron optical setup involved in the acquisition, and how to interpret the data. After the course, students will be able to understand and assess TEM encountered in papers."
+ },
+ {
+  "courseName": "Introduction to crystal growth by epitaxy",
+  "courseCode": "MSE-442",
+  "courseSection": "MX",
+  "profName": [
+   ""
+  ],
+  "courseDesc": "This is an interactive course explaining: 1. The main\nphysical and chemical concepts to understand epitaxy\nof crystalline thin films. 2. What determines the\nmorphology, composition and structure of a material\ngrown per epitaxy."
+ },
+ {
+  "courseName": "Introduction to magnetic materials in modern technologies",
+  "courseCode": "MSE-432",
+  "courseSection": "MX",
+  "profName": [
+   "Grundler"
+  ],
+  "courseDesc": "Interactive course addressing bulk and thin-film magnetic materials that provide application-specific functionalities in different modern technologies such as e.g. wind energy harvesting, electric article surveillance, spintronics, sensing, and data storage."
+ },
+ {
+  "courseName": "Life cycle engineering of polymers",
+  "courseCode": "MSE-430",
+  "courseSection": "MX",
+  "profName": [
+   "Leterrier"
+  ],
+  "courseDesc": "Students understand what life cycle engineering is and apply this methodology to adapt and improve the durability of polymer-based products. They understand how to recycle these materials and are able to perform an environmental assessment, based on several practical case studies."
+ },
+ {
+  "courseName": "Materials selection",
+  "courseCode": "MSE-474",
+  "courseSection": "MX",
+  "profName": [
+   "Michler",
+   "Siegmann",
+   "Vaucher"
+  ],
+  "courseDesc": "Propose suitable materials, design, and production routes depending on different performance criteria using a computer based software approach. The course is based on Prof. Mike Ashby's well known \"Ashby plots\" comparing different material properties (mechanical, thermal, chemical, etc.)."
+ },
+ {
+  "courseName": "Modelling problem solving, computing and visualisation I",
+  "courseCode": "MSE-443(a)",
+  "courseSection": "MX",
+  "profName": [
+   ""
+  ],
+  "courseDesc": "The course will cover programming, numerical simulation, and visualization methods using Mathematica software.  Students will be able to apply these skills to their currrent coursework, and prepared for the companion course (MSE 443(b)) which covers advanced materials science modeling."
+ },
+ {
+  "courseName": "Modelling problem solving, computing and visualisation II",
+  "courseCode": "MSE-443(b)",
+  "courseSection": "MX",
+  "profName": [
+   ""
+  ],
+  "courseDesc": "Covers development and design of models for materials processes and structure-property relations. Emphasizes techniques for solving equations from models or simulating and visualizing behavior. Topics include symmetry, structure,  thermodynamics, solid state physics, mechanics, and data analysis."
+ },
+ {
+  "courseName": "Nanomaterials",
+  "courseCode": "MSE-477",
+  "courseSection": "MX",
+  "profName": [
+   "Tileli"
+  ],
+  "courseDesc": "This course is an introduction to the concepts and associated relevant physics and materials science principles of what makes nanomaterials outperform their bulk counterparts. It will cover their synthesis and characterization as well as the physical and chemical properties at the nanoscale."
+ },
+ {
+  "courseName": "Organic electronic materials - synthesis, applications, properties",
+  "courseCode": "MSE-486",
+  "courseSection": "MX",
+  "profName": [
+   "Frauenrath"
+  ],
+  "courseDesc": "This course will introduce students to the structural requirements of charge transport in organic materials as well as synthetic methods for their preparation."
+ },
+ {
+  "courseName": "Organic semiconductors",
+  "courseCode": "MSE-478",
+  "courseSection": "MX",
+  "profName": [
+   "Nüesch"
+  ],
+  "courseDesc": "This course provides an introduction to organic semiconducting materials starting from fundamental optical and electronic properties of small conjugated molecules and polymers. Electronic and optical solid sate properties and applications in organic and hybrid optoelectronic devices are studied."
+ },
+ {
+  "courseName": "Physical chemistry of polymeric materials",
+  "courseCode": "MSE-431",
+  "courseSection": "MX",
+  "profName": [
+   "Klok-Lermann"
+  ],
+  "courseDesc": "The student has a basic understanding of the physical and physicochemical principles which result from the chainlike structure of synthetic macromolecules. The student can predict major characteristics of a polymer from its chemical structure and molecular architecture."
+ },
+ {
+  "courseName": "Polymer chemistry and macromolecular engineering",
+  "courseCode": "MSE-437",
+  "courseSection": "MX",
+  "profName": [
+   "Klok"
+  ],
+  "courseDesc": "Know modern methods of polymer synthesis. Understand how parameters, which determine polymer structure and properties, such as molecular weight, molecular weight distribution, topology, microstructure can be controlled by proper choice of polymerization method and optimization of reaction condition"
+ },
+ {
+  "courseName": "Polymer morphological characterization techniques",
+  "courseCode": "MSE-451",
+  "courseSection": "MX",
+  "profName": [
+   "Plummer"
+  ],
+  "courseDesc": "Sample preparation and direct observation techniques (optical microscopy, AFM, electron microscopy) and their practical application to the study of morphology and microdeformation in polymers."
+ },
+ {
+  "courseName": "Powder technology",
+  "courseCode": "MSE-462",
+  "courseSection": "MX",
+  "profName": [
+   "Bowen"
+  ],
+  "courseDesc": "Most materials e.g. ceramics, metals, polymers or concrete pass during their processing one or more steps in powders. This course discusses and presents the science & technology of important powder processing steps like compaction, dispersion, sintering and novel densification technologies."
+ },
+ {
+  "courseName": "Properties of semiconductors and related nanostructures",
+  "courseCode": "MSE-484",
+  "courseSection": "MX",
+  "profName": [
+   "Fontcuberta i Morral"
+  ],
+  "courseDesc": "This course explains the origin of optical and electrical properties of semiconductors. The course elaborates how they change when the semiconductors are reduced to sizes of few nanometers. The course provides also the basis to use software to calculate the properties of hetero/nanostructures."
+ },
+ {
+  "courseName": "Recycling of materials",
+  "courseCode": "MSE-463",
+  "courseSection": "MX",
+  "profName": [
+   "Leterrier"
+  ],
+  "courseDesc": "Students understand the issues and key factors of a waste recycling process. They know the sorting and recycling technologies of various materials and are able to compare the environmental impact of recycling with that of using raw material resources."
+ },
+ {
+  "courseName": "Research project in materials III",
+  "courseCode": "MSE-492",
+  "courseSection": "MX",
+  "profName": [
+   "Profs divers"
+  ]
+ },
+ {
+  "courseName": "Seminar series on advances in materials (autumn)",
+  "courseCode": "MSE-470(a)",
+  "courseSection": "MX",
+  "profName": [
+   "Stellacci",
+   "Tileli"
+  ],
+  "courseDesc": "A series of seminars on selected current and emerging topics in Materials will be presented by experts."
+ },
+ {
+  "courseName": "Seminar series on advances in materials (spring)",
+  "courseCode": "MSE-470(b)",
+  "courseSection": "MX",
+  "profName": [
+   "Klok",
+   "Stellacci",
+   "Tileli"
+  ],
+  "courseDesc": "A series of seminars on selected current and emerging topics in Materials will be presented by experts."
+ },
+ {
+  "courseName": "Surface analysis",
+  "courseCode": "MSE-351",
+  "courseSection": "MX",
+  "profName": [
+   "Mischler",
+   "Stolichnov"
+  ],
+  "courseDesc": "The course treats the main surface analysis methods for the characterization of surfaces, interfaces and thin films. It discusses how these methods can be applied to gain specific knowledge about structural, chemical and functional properties of surfaces and thin films. Limitation to 18 students!"
+ },
+ {
+  "courseName": "Tribology",
+  "courseCode": "MSE-485",
+  "courseSection": "MX",
+  "profName": [
+   "Mischler"
+  ],
+  "courseDesc": "This introductory course in tribology (science of friction, lubrication and wear) has specific goals : to present the basic principles of tribology, to develop the attitude to analyse tribological and to illustrate correlations between materials and tribological properties."
+ },
+ {
+  "courseName": "Wood structures, properties and uses",
+  "courseCode": "MSE-466",
+  "courseSection": "MX",
+  "profName": [
+   "Zürcher"
+  ],
+  "courseDesc": "The presentation of tree growth and formation of wood anatomical structures, linked to the description of specific physical and mechanical properties, makes it possible to understand the different forms of utilisation of this material, including aspects of sustainable development"
+ },
+ {
+  "courseName": "Research project in materials I",
+  "courseCode": "MSE-490",
+  "courseSection": "MX",
+  "profName": [
+   "Profs divers"
+  ]
+ },
+ {
+  "courseName": "Research project in materials II",
+  "courseCode": "MSE-491",
+  "courseSection": "MX",
+  "profName": [
+   "Profs divers"
+  ]
+ },
+ {
+  "courseName": "HSS : Introduction to project",
+  "courseCode": "",
+  "courseSection": "SHS",
+  "profName": [
+   "Divers enseignants"
+  ]
+ },
+ {
+  "courseName": "HSS : Project",
+  "courseCode": "",
+  "courseSection": "SHS",
+  "profName": [
+   "Divers enseignants"
+  ]
+ }
+]

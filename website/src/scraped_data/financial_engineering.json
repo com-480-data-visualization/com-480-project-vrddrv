@@ -1,0 +1,420 @@
+[
+ {
+  "courseName": "Engineering internship credited with master project (master in Financial Engineering)",
+  "courseCode": "FIN-598",
+  "courseSection": "IF",
+  "profName": [
+   "Profs divers"
+  ]
+ },
+ {
+  "courseName": "Master project in Financial Engineering",
+  "courseCode": "FIN-599",
+  "courseSection": "IF",
+  "profName": [
+   "Profs divers"
+  ]
+ },
+ {
+  "courseName": "Accounting for finance",
+  "courseCode": "FIN-411",
+  "courseSection": "IF",
+  "profName": [
+   "Cauvin"
+  ],
+  "courseDesc": "The objective of the course is to provide participants with financial accounting mechanisms for understanding the financial statements of a company."
+ },
+ {
+  "courseName": "Econometrics",
+  "courseCode": "FIN-403",
+  "courseSection": "IF",
+  "profName": [
+   "Semadeni"
+  ],
+  "courseDesc": "The course covers basic econometric models and methods that are routinely applied to obtain inference results in economic and financial applications."
+ },
+ {
+  "courseName": "Introduction to finance",
+  "courseCode": "FIN-401",
+  "courseSection": "IF",
+  "profName": [
+   "Fahlenbrach"
+  ],
+  "courseDesc": "The course provides a market-oriented framework for analyzing the major types of financial decisions made by firms. It provides an introduction to present value techniques, capital budgeting, asset valuation, the operation and efficiency of financial markets, and other financial decisions of firms."
+ },
+ {
+  "courseName": "Macrofinance",
+  "courseCode": "FIN-406",
+  "courseSection": "IF",
+  "profName": [
+   "Lambertini"
+  ],
+  "courseDesc": "This course provides students with a working knowledge of macroeconomic models that explicitly incorporate financial markets. The goal is to develop a broad and analytical framework for analyzing the interaction of financial decisions, macroeconomic events and policy decisions."
+ },
+ {
+  "courseName": "Optimization methods",
+  "courseCode": "FIN-414",
+  "courseSection": "IF",
+  "profName": [
+   "Perazzi"
+  ],
+  "courseDesc": "This course presents the problem of static optimization, with and without (equality and inequality) constraints, both from the theoretical (optimality conditions) and methodological (algorithms) point of view. Economics and financial applications are provided. Dynamic optimization is also introduced"
+ },
+ {
+  "courseName": "Stochastic calculus",
+  "courseCode": "FIN-415",
+  "courseSection": "IF",
+  "profName": [
+   "Filipovic"
+  ],
+  "courseDesc": "This course gives an introduction to probability theory and stochastic calculus in discrete and continuous time. We study fundamental notions and techniques necessary for applications in finance such as option pricing and hedging."
+ },
+ {
+  "courseName": "HSS : Introduction to project",
+  "courseCode": "",
+  "courseSection": "SHS",
+  "profName": [
+   "Divers enseignants"
+  ]
+ },
+ {
+  "courseName": "HSS : Project",
+  "courseCode": "",
+  "courseSection": "SHS",
+  "profName": [
+   "Divers enseignants"
+  ]
+ },
+ {
+  "courseName": "Advanced derivatives",
+  "courseCode": "FIN-503",
+  "courseSection": "IF",
+  "profName": [
+   "Perazzi"
+  ],
+  "courseDesc": "The course covers a wide range of advanced topics in derivatives pricing"
+ },
+ {
+  "courseName": "Derivatives",
+  "courseCode": "FIN-404",
+  "courseSection": "IF",
+  "profName": [
+   "Hugonnier"
+  ],
+  "courseDesc": "The objective of this course is to provide a detailed coverage of the standard models for the valuation and hedging of derivatives products such as European options, American options, forward contracts, futures contract and exotic options."
+ },
+ {
+  "courseName": "Financial econometrics",
+  "courseCode": "FIN-407",
+  "courseSection": "IF",
+  "profName": [
+   "Monfort"
+  ],
+  "courseDesc": "The objective of this course is to present the main tools of financial econometrics and to show their relevance for prediction ,causality ,shock propagation , signal extraction , risk  measure and asset pricing ."
+ },
+ {
+  "courseName": "Interest rate and credit risk models",
+  "courseCode": "FIN-416",
+  "courseSection": "IF",
+  "profName": [
+   "Filipovic"
+  ],
+  "courseDesc": "This course gives an introduction to the valuation of interest rate securities with and without credit risk, the management and hedging of bond portfolios and the valuation and usage of interest rate and credit derivatives."
+ },
+ {
+  "courseName": "Investments",
+  "courseCode": "FIN-405",
+  "courseSection": "IF",
+  "profName": [
+   "Collin Dufresne"
+  ],
+  "courseDesc": "The course covers a wide range of topics in investment analysis"
+ },
+ {
+  "courseName": "Quantitative risk management",
+  "courseCode": "FIN-417",
+  "courseSection": "IF",
+  "profName": [
+   "Malamud"
+  ],
+  "courseDesc": "This course is an introduction to quantitative risk management that covers standard statistical methods, multivariate risk factor models, non-linear dependence structures (copula models), as well as portfolio allocation and diversification."
+ },
+ {
+  "courseName": "Advanced machine learning",
+  "courseCode": "MICRO-570",
+  "courseSection": "MT",
+  "profName": [
+   "Billard"
+  ],
+  "courseDesc": "This course will present some of the core advanced methods in the field for structure discovery, classification and non-linear regression. This is an advanced class in Machine Learning; hence, students are expected to have some background in the field."
+ },
+ {
+  "courseName": "Advanced numerical analysis",
+  "courseCode": "MATH-351",
+  "courseSection": "MA",
+  "profName": [
+   "Picasso"
+  ],
+  "courseDesc": "The student will learn state-of-the-art algorithms for solving ordinary differential equations, nonlinear systems, and optimization problems. The analysis and implementation of these algorithms will be discussed in some detail."
+ },
+ {
+  "courseName": "Applied data analysis",
+  "courseCode": "CS-401",
+  "courseSection": "SC",
+  "profName": [
+   "West"
+  ],
+  "courseDesc": "This course teaches the basic techniques and practical skills required to make sense out of a variety of data, with the help of the most acclaimed software tools in the data science world: pandas, scikit-learn, Spark, etc."
+ },
+ {
+  "courseName": "Applied machine learning",
+  "courseCode": "MICRO-455",
+  "courseSection": "MT",
+  "profName": [
+   "Billard",
+   "Polydoros"
+  ],
+  "courseDesc": "Real-world engineering applications must cope with a large dataset of dynamic variables, which cannot be well approximated by classical or deterministic models. This course gives an overview of methods from Machine Learning for the analysis of non-linear, highly noisy and multi dimensional data"
+ },
+ {
+  "courseName": "Computational finance",
+  "courseCode": "FIN-472",
+  "courseSection": "IF",
+  "profName": [
+   "Glau",
+   "Pulido Nino",
+   "Statti"
+  ],
+  "courseDesc": "Participants of this course will master computational techniques frequently used in mathematical finance applications. Emphasis will be put on the implementation and practical aspects."
+ },
+ {
+  "courseName": "Cryptography and security",
+  "courseCode": "COM-401",
+  "courseSection": "SC",
+  "profName": [
+   "Vaudenay"
+  ],
+  "courseDesc": "This course introduces the basics of cryptography. We review several types of cryptographic primitives, when it is safe to use them and how to select the appropriate security parameters. We detail how they work and sketch how they can be implemented."
+ },
+ {
+  "courseName": "Data science for business",
+  "courseCode": "MGT-432",
+  "courseSection": "MTE",
+  "profName": [
+   "Younge"
+  ],
+  "courseDesc": "The course introduces students to the methods and tools used by data scientists to model prediction problems for business. Students will also learn how to apply these concepts to real programming problems."
+ },
+ {
+  "courseName": "Data science in practice",
+  "courseCode": "MGT-415",
+  "courseSection": "MTE",
+  "profName": [
+   "Bruffaerts"
+  ],
+  "courseDesc": "The goal of the course is to introduce students to the main business areas where analytics is used in business. The course is based on use-cases from the financial industry and is meant to give a hands-on experience to students in various domains such as Marketing, Sales, HR, IT, or Compliance."
+ },
+ {
+  "courseName": "Financial applications of blockchains and distributed ledgers",
+  "courseCode": "FIN-413",
+  "courseSection": "IF",
+  "profName": [
+   "Xu"
+  ],
+  "courseDesc": "This course provides an introduction to distributed ledger technology, blockchains and cryptocurrencies, and their potential applications in finance and banking."
+ },
+ {
+  "courseName": "Financial big data",
+  "courseCode": "FIN-525",
+  "courseSection": "IF",
+  "profName": [
+   "Challet"
+  ],
+  "courseDesc": "The course's first part introduces modern methods to acquire, clean, and analyze large quantities of financial data efficiently. The second part expands on how to apply these techniques to financial analysis, in particular to investment strategy backtesting."
+ },
+ {
+  "courseName": "Fundamentals of machine learning",
+  "courseCode": "EE-311",
+  "courseSection": "EL",
+  "profName": [
+   "Fleuret",
+   "Liebling"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Global business environment",
+  "courseCode": "FIN-523",
+  "courseSection": "IF",
+  "profName": [
+   "Lambertini"
+  ],
+  "courseDesc": "This course gives the framework and tools for understanding economic events, taking financial decisions and evaluating investment opportunities in a global economy. It builds up an integrated model of exchange rate and output determination, and explains how monetary and fiscal policies work."
+ },
+ {
+  "courseName": "Information: strategy & economics",
+  "courseCode": "MGT-431",
+  "courseSection": "MTE",
+  "profName": [
+   ""
+  ],
+  "courseDesc": "The course is an introduction to information economics and its strategic ramifications. The main objectives are to use economic theory to understand strategic interactions in the presence of uncertainty, estimate the value of information, and analyze competitive strategy in an information economy."
+ },
+ {
+  "courseName": "Information security and privacy",
+  "courseCode": "COM-402",
+  "courseSection": "IN",
+  "profName": [
+   "González Troncoso",
+   "Hubaux",
+   "Oechslin"
+  ],
+  "courseDesc": "This course provides an overview of information security and privacy topics. It introduces students to the knowledge and tools they will need to deal with the security/privacy challenges they are likely to encounter in today's Big Data world. The tools are illustrated with relevant applications"
+ },
+ {
+  "courseName": "Intelligent agents",
+  "courseCode": "CS-430",
+  "courseSection": "IN",
+  "profName": [
+   "Faltings"
+  ],
+  "courseDesc": "Software agents are widely used to control physical, economic and financial processes. The course presents practical methods for implementing software agents and multi-agent systems, supported by programming exercises, and the theoretical underpinnings including computational game theory."
+ },
+ {
+  "courseName": "Machine learning",
+  "courseCode": "CS-433",
+  "courseSection": "IN",
+  "profName": [
+   "Jaggi",
+   "Urbanke"
+  ],
+  "courseDesc": "Machine learning and data analysis are becoming increasingly central in many sciences and applications. In this course, fundamental principles and methods of machine learning will be introduced, analyzed and practically implemented."
+ },
+ {
+  "courseName": "Machine learning for finance",
+  "courseCode": "FIN-418",
+  "courseSection": "IF",
+  "profName": [
+   "Ackerer"
+  ],
+  "courseDesc": "The objective of this course is to introduce machine learning techniques for financial applications such as derivatives pricing, model calibration, portfolio allocation and hedging, investment decision, and risk-management. The course focuses on neural network models with Tensorflow and Keras."
+ },
+ {
+  "courseName": "Machine learning programming",
+  "courseCode": "MICRO-401",
+  "courseSection": "MT",
+  "profName": [
+   "Billard"
+  ],
+  "courseDesc": "This is a practice-based course, where students program algorithms in machine learning and evaluate the performance of the algorithm thoroughly using real-world dataset."
+ },
+ {
+  "courseName": "Mathematical modelling of behavior",
+  "courseCode": "MATH-463",
+  "courseSection": "MA",
+  "profName": [
+   "Bierlaire"
+  ],
+  "courseDesc": "Discrete choice models allow for the analysis and prediction of individuals' choice behavior. The objective of the course is to introduce both methodological and applied aspects, in the field of marketing, transportation, and finance."
+ },
+ {
+  "courseName": "Modern regression methods",
+  "courseCode": "MATH-408",
+  "courseSection": "MA",
+  "profName": [
+   "Davison"
+  ],
+  "courseDesc": "A second course on regression modelling, dealing with nonlinear effects of explanatory variables, and non-normal and dependent response variables."
+ },
+ {
+  "courseName": "Network analytics",
+  "courseCode": "MGT-416",
+  "courseSection": "MTE",
+  "profName": [
+   "Kiyavash"
+  ],
+  "courseDesc": "Students will learn the core concepts and techniques of network analysis with emphasis on causal inference. Theory and application will be balanced, with students working directly with network data throughout the course."
+ },
+ {
+  "courseName": "Numerical analysis and computational mathematics",
+  "courseCode": "MATH-456",
+  "courseSection": "MA",
+  "profName": [
+   "Vazquez Hernandez"
+  ],
+  "courseDesc": "The course provides an introduction to scientific computing. Several numerical methods are presented for the computer solution of mathematical problems arising in different applications. The software MATLAB is used to solve the problems and verify the theoretical properties of the numerical methods."
+ },
+ {
+  "courseName": "Numerical approximation of PDEs",
+  "courseCode": "MATH-451",
+  "courseSection": "MA",
+  "profName": [
+   "Dubuis"
+  ],
+  "courseDesc": "The course pertains to the derivation, theoretical analysis and implementation of finite difference and finite element methods for the numerical approximation of partial differential equations in one or more dimensions."
+ },
+ {
+  "courseName": "Numerical integration of stochastic differential equations",
+  "courseCode": "MATH-450",
+  "courseSection": "MA",
+  "profName": [
+   "Blumenthal"
+  ],
+  "courseDesc": "In this course we will introduce and study numerical integrators for stochastic differential equations. These numerical methods are important for many applications."
+ },
+ {
+  "courseName": "Principles of microeconomics",
+  "courseCode": "MGT-454",
+  "courseSection": "MTE",
+  "profName": [
+   "Mack"
+  ],
+  "courseDesc": "The course allows students to get familiarized with the basic tools and concepts of modern microeconomic analysis. Based on graphical reasoning and analytical calculus, it constantly links to real economic issues."
+ },
+ {
+  "courseName": "Real options and financial structuring",
+  "courseCode": "FIN-410",
+  "courseSection": "IF",
+  "profName": [
+   "Arnold"
+  ],
+  "courseDesc": "The course covers advanced topics in corporate finance such as the design and valuation of corporate securities, the issuing process for theses securities, real options, and their implications for valuation, financial structuring, and business development. It also applies the theory to case studies."
+ },
+ {
+  "courseName": "Risk, rare events and extremes",
+  "courseCode": "MATH-447",
+  "courseSection": "MA",
+  "profName": [
+   "Davison"
+  ],
+  "courseDesc": "Modelling of rare events, such as stock market crashes, storms and catastrophic structural failures, is important. This course will describe the special models and methods that are relevant to such modelling, including the mathematical bases, statistical tools and applications."
+ },
+ {
+  "courseName": "Statistical machine learning",
+  "courseCode": "MATH-412",
+  "courseSection": "MA",
+  "profName": [
+   "Dehaene",
+   "Obozinski"
+  ],
+  "courseDesc": "A course on statistical methods for supervised and unsupervised learning."
+ },
+ {
+  "courseName": "Time series",
+  "courseCode": "MATH-342",
+  "courseSection": "MA",
+  "profName": [
+   "Olhede"
+  ],
+  "courseDesc": "A first course in statistical time series analysis and applications, including practical work."
+ },
+ {
+  "courseName": "Venture capital",
+  "courseCode": "FIN-522",
+  "courseSection": "IF",
+  "profName": [
+   "Fahlenbrach"
+  ],
+  "courseDesc": "The course applies finance tools and concepts to the world of venture capital and financing of projects in high-growth industries. Students are introduced to all institutional aspects of the venture capital industry. Students analyze various aspects of VC finance using an investors' perspective."
+ }
+]

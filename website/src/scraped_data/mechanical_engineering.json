@@ -1,0 +1,510 @@
+[
+ {
+  "courseName": "Engineering internship credited with master project(master in Mechanical engineering)",
+  "courseCode": "ME-597",
+  "courseSection": "GM",
+  "profName": [
+   "Gautsch",
+   "Prenleloup"
+  ],
+  "courseDesc": "C"
+ },
+ {
+  "courseName": "Master project in Mechanical Engineering",
+  "courseCode": "ME-599",
+  "courseSection": "GM",
+  "profName": [
+   "Profs divers"
+  ]
+ },
+ {
+  "courseName": "Mechanical engineering project I",
+  "courseCode": "ME-401",
+  "courseSection": "GM",
+  "profName": [
+   "Profs divers"
+  ]
+ },
+ {
+  "courseName": "HSS : Introduction to project",
+  "courseCode": "",
+  "courseSection": "SHS",
+  "profName": [
+   "Divers enseignants"
+  ]
+ },
+ {
+  "courseName": "HSS : Project",
+  "courseCode": "",
+  "courseSection": "SHS",
+  "profName": [
+   "Divers enseignants"
+  ]
+ },
+ {
+  "courseName": "Acoustic Hydrodynamic",
+  "courseCode": "ME-443",
+  "courseSection": "GM",
+  "profName": [
+   "Nicolet"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Advanced additive manufacturing technologies",
+  "courseCode": "MICRO-413",
+  "courseSection": "MT",
+  "profName": [
+   "Brugger",
+   "Moser"
+  ],
+  "courseDesc": "Advanced 3D forming techniques for high throughput and high resolution (nanometric) for large scale production. Digital manufacturing of functional layers, microsystems and smart systems."
+ },
+ {
+  "courseName": "Advanced control systems",
+  "courseCode": "ME-524",
+  "courseSection": "GM",
+  "profName": [
+   "Karimi"
+  ],
+  "courseDesc": "This course covers some theoretical and practical aspects of robust and adaptive control. This includes H-2 and H-infinity control in model-based and data-driven framework by convex optimization, direct, indirect and switching adaptive control. The methods are implemented in a hands-on lab."
+ },
+ {
+  "courseName": "Advanced energetics",
+  "courseCode": "ME-451",
+  "courseSection": "GM",
+  "profName": [
+   "Maréchal"
+  ],
+  "courseDesc": "Methods for the rational use and conversion of energy in industrial processes : how to analyse the energy usage, calculate the heat recovery by pinch analysis, define heat exchanger network, integrate heat pumps and cogeneration units and realise exergy analysis of energy conversion systems."
+ },
+ {
+  "courseName": "Advanced heat transfer",
+  "courseCode": "ME-465",
+  "courseSection": "GM",
+  "profName": [
+   "Haussener"
+  ],
+  "courseDesc": "The course will deepen the fundamentals of heat transfer. Particular focus will be put on radiative and convective heat transfer, and computational approaches to solve complex, coupled heat transfer problems."
+ },
+ {
+  "courseName": "Advanced solid mechanics",
+  "courseCode": "ME-437",
+  "courseSection": "GM",
+  "profName": [
+   "Curtin"
+  ],
+  "courseDesc": "This course will cover major topics of importance and value for the application and understanding of Solid Mechanics, aiming especially at the micromechanical analyses of problems that connect small scale phenomena to macroscopic engineering performance."
+ },
+ {
+  "courseName": "Aerodynamics",
+  "courseCode": "ME-445",
+  "courseSection": "GM",
+  "profName": [
+   "Mulleners"
+  ],
+  "courseDesc": "This course will provide the fluid dynamic background to understand how air flows around two- and three-dimensional wings and bodies and to understand the aerodynamics forces and moments acting on the objects as a result of the air flow."
+ },
+ {
+  "courseName": "Aeroelasticity and fluid-structure interaction",
+  "courseCode": "ME-435",
+  "courseSection": "GM",
+  "profName": [
+   "Farhat"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Applied mechanical design",
+  "courseCode": "ME-403",
+  "courseSection": "GM",
+  "profName": [
+   "Schiffmann"
+  ],
+  "courseDesc": "Students will be exposed to hands-on design problems throughout the term. They will acquire methodologies to (1) address open ended engineering problems, (2) cultivate creativity, (3) support decision making and (4) develop problem solving abilities."
+ },
+ {
+  "courseName": "Basics of robotics",
+  "courseCode": "MICRO-450",
+  "courseSection": "MT",
+  "profName": [
+   "Bouri"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Biomechanics of the cardiovascular system",
+  "courseCode": "ME-481",
+  "courseSection": "GM",
+  "profName": [
+   "Stergiopulos"
+  ],
+  "courseDesc": "This lecture will cover anatomy and physiology of the cardiovascular system, biophysics of the blood, cardiac mechanics, hemodynamics and biomechanics of the arterial system, microcirculation and biomechanics of the venous system."
+ },
+ {
+  "courseName": "Biomechanics of the musculoskeletal system",
+  "courseCode": "ME-482",
+  "courseSection": "GM",
+  "profName": [
+   "Pioletti"
+  ],
+  "courseDesc": "The basis for a mechanical description of the musculoskeletal system are presented. This description is based on the concepts of solid mechanics, physiology and anatomy of the musculoskeletal system. Concrete examples of the development of implants are also covered."
+ },
+ {
+  "courseName": "Cavitation and interface phenomena",
+  "courseCode": "ME-462",
+  "courseSection": "GM",
+  "profName": [
+   "Farhat"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Computational multi-scale modeling of solids",
+  "courseCode": "ME-414",
+  "courseSection": "GM",
+  "profName": [
+   "Derlet"
+  ],
+  "courseDesc": "This course considers the multi-scale computational modeling of hard-matter systems, with an emphasis on the physical phenomena of matter transport and emergent macroscopic mechanical properties, and how their microscopic origin is coarse grained to the engineering scale of a material component."
+ },
+ {
+  "courseName": "Computational Solid and Structural Dynamics",
+  "courseCode": "ME-473",
+  "courseSection": "GM",
+  "profName": [
+   ""
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Continuous improvement of manufacturing systems",
+  "courseCode": "ME-498",
+  "courseSection": "GM",
+  "profName": [
+   "Kaboli"
+  ],
+  "courseDesc": "Continuous improvement deals with ongoing and long-term initiatives to improve products and services. This course will arm students with practical skills to evaluate and improve manufacturing/service systems and lead change and drive transformation for people, processes, and technology."
+ },
+ {
+  "courseName": "Engines and fuel cells",
+  "courseCode": "ME-551",
+  "courseSection": "GM",
+  "profName": [
+   "Van Herle"
+  ],
+  "courseDesc": "The students describe and explain the thermodynamic and operating principles of internal combustion engines and all fuel cell types, identify the determining physical parameters for the operating regimes, the efficiencies and the polluting emissions, and compare the systems against each other."
+ },
+ {
+  "courseName": "Experimental methods in engineering mechanics",
+  "courseCode": "ME-412",
+  "courseSection": "GM",
+  "profName": [
+   "Kolinski"
+  ],
+  "courseDesc": "The Experimental Methods in Engineering Mechanics course is intended to give an advanced view of experimental methods used to study mechanics problems by way of example. Students will construct significant components of experimental apparatus and collect & interpret the resulting data."
+ },
+ {
+  "courseName": "Fracture mechanics",
+  "courseCode": "ME-432",
+  "courseSection": "GM",
+  "profName": [
+   ""
+  ],
+  "courseDesc": "The student acquires the notions of damage and fracture in different materials; the basis of energy release rate and stress intensity factor; fracture criteria; weight functions for crack opening displacements; J integral and non-linear fracture; fatigue crack propagation."
+ },
+ {
+  "courseName": "Fundamentals of computer aided manufacturing",
+  "courseCode": "ME-416",
+  "courseSection": "GM",
+  "profName": [
+   "Kyritsis"
+  ],
+  "courseDesc": "Students will be exposed to basic computer-aided manufacturing (CAM) modeling concepts, basic mathematical simulation, verification and optimization algorithms and methodologies and their applications. The students will practice their knowledge by doing projects with modern CAM software."
+ },
+ {
+  "courseName": "Hydraulic turbomachines",
+  "courseCode": "ME-453",
+  "courseSection": "GM",
+  "profName": [
+   "Avellan",
+   "Vagnoni"
+  ],
+  "courseDesc": "Master lecture on Hydraulic Turbomachines: impulse and reaction turbines,pumps and pump-turbines."
+ },
+ {
+  "courseName": "Hydrodynamics",
+  "courseCode": "ME-444",
+  "courseSection": "GM",
+  "profName": [
+   "Gallaire"
+  ],
+  "courseDesc": "Nondimensionalized Navier-Stokes equations result in a great variety of models (Stokes, Lubrification, Euler, Potential) depending on the Reynolds number. The concept of boundary layer enables us then to identify the different components of the hydrodynamic drag."
+ },
+ {
+  "courseName": "Industrial and applied robotics",
+  "courseCode": "MICRO-451",
+  "courseSection": "MT",
+  "profName": [
+   "Bouri"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Instability",
+  "courseCode": "ME-466",
+  "courseSection": "GM",
+  "profName": [
+   "Gallaire"
+  ],
+  "courseDesc": "This course focuses on the physical mechanisms at the origin of the transition of a flow from laminar to turbulent using the hydrodynamic instability theory."
+ },
+ {
+  "courseName": "Integrated mechanical design",
+  "courseCode": "ME-418",
+  "courseSection": "GM",
+  "profName": [
+   ""
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Introduction to additive manufacturing",
+  "courseCode": "ME-413",
+  "courseSection": "GM",
+  "profName": [
+   "Boillat",
+   "Brugger",
+   "Moser"
+  ],
+  "courseDesc": "The state of the art in the domain of additive production processes \n(the part is built by material addition without use of a shape tool) will be presented. \nThe main application/benefits/shortcomings of the common additive processes as well as \ntechnological and economical issues will be discussed."
+ },
+ {
+  "courseName": "Introduction to nuclear engineering",
+  "courseCode": "ME-464",
+  "courseSection": "GM",
+  "profName": [
+   "Hursin",
+   "Pautz"
+  ],
+  "courseDesc": "This course is intended to understand the engineering design of nuclear power plants using the basic principles of reactor physics, fluid flow and heat transfer.\nThis course includes the following: Reactor designs, Thermal analysis of nuclear fuel,  Nuclear safety and Reactor dynamics"
+ },
+ {
+  "courseName": "Lifecycle performance of product systems",
+  "courseCode": "ME-516",
+  "courseSection": "GM",
+  "profName": [
+   "Friot",
+   "Kyritsis"
+  ],
+  "courseDesc": "Provide the conceptual, scientific, technical and methodological understanding of measuring and evaluating the impact of engineering decisions on economic and environmental performance in the lifecycle of a product-system."
+ },
+ {
+  "courseName": "Mecatronics",
+  "courseCode": "ME-424",
+  "courseSection": "GM",
+  "profName": [
+   "Agbeviade"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Mechanical engineering project II",
+  "courseCode": "ME-402",
+  "courseSection": "GM",
+  "profName": [
+   "Profs divers"
+  ]
+ },
+ {
+  "courseName": "Mechanical product design and development",
+  "courseCode": "ME-410",
+  "courseSection": "GM",
+  "profName": [
+   ""
+  ],
+  "courseDesc": "Study and explore design principles of the different mechatronic components and systems. We will cover in-depth especially on meso-scale actuators, sensors and body construction methods."
+ },
+ {
+  "courseName": "Mechanics of slender structures",
+  "courseCode": "ME-411",
+  "courseSection": "GM",
+  "profName": [
+   "Nunes Pereira de Almeida Reis"
+  ],
+  "courseDesc": "Analysis of the mechanical response and deformation of slender structural elements"
+ },
+ {
+  "courseName": "Micro/Nanomechanical devices",
+  "courseCode": "ME-426",
+  "courseSection": "GM",
+  "profName": [
+   "Villanueva Torrijo"
+  ],
+  "courseDesc": "C"
+ },
+ {
+  "courseName": "Micro/Nano robotics",
+  "courseCode": "ME-436",
+  "courseSection": "GM",
+  "profName": [
+   "Sakar"
+  ],
+  "courseDesc": "C"
+ },
+ {
+  "courseName": "Modelling and optimization of energy systems",
+  "courseCode": "ME-454",
+  "courseSection": "GM",
+  "profName": [
+   "Maréchal"
+  ],
+  "courseDesc": "The goal of the lecture is to present and apply techniques for the modelling and the thermo-economic optimisation of industrial process and energy systems. The lecture covers the problem statement, the solving methods for the simulation and the single and multi-objective optimisation problems."
+ },
+ {
+  "courseName": "Model predictive control",
+  "courseCode": "ME-425",
+  "courseSection": "GM",
+  "profName": [
+   "Jones"
+  ],
+  "courseDesc": "Provide an introduction to the theory and practice of Model Predictive Control (MPC). Main benefits of MPC: flexible specification of time-domain objectives, performance optimization of highly complex multivariable systems and ability to explicitly enforce constraints on system behavior."
+ },
+ {
+  "courseName": "Multi-body simulation",
+  "courseCode": "ME-475",
+  "courseSection": "GM",
+  "profName": [
+   ""
+  ],
+  "courseDesc": "The objective of this course is to introduce to the student the basic concepts, models, algorithms and methods for the kinematic and dynamic analysis of multi-body systems, specifically designed for mobility."
+ },
+ {
+  "courseName": "Multivariable control",
+  "courseCode": "ME-422",
+  "courseSection": "GM",
+  "profName": [
+   "Ferrari Trecate"
+  ],
+  "courseDesc": "This course covers methods for the analysis and control of systems with multiple inputs and outputs, which are ubiquitous in modern technology and industry. Special emphasis will be given to discrete-time systems, due to their relevance for digital and embedded control architectures."
+ },
+ {
+  "courseName": "Networked control systems",
+  "courseCode": "ME-427",
+  "courseSection": "GM",
+  "profName": [
+   "Ferrari Trecate"
+  ],
+  "courseDesc": "This course offers an introduction to control systems using communication networks for interfacing sensors, actuators, controllers, and processes. Challenges due to network non-idealities and opportunities offered by communication will be analyzed."
+ },
+ {
+  "courseName": "Nonlinear Control Systems",
+  "courseCode": "ME-523",
+  "courseSection": "GM",
+  "profName": [
+   "Müllhaupt"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Numerical flow simulation",
+  "courseCode": "ME-474",
+  "courseSection": "GM",
+  "profName": [
+   "Sawley"
+  ],
+  "courseDesc": "This course provides practical experience in the numerical simulation of fluid flows, comprising the three fundamental phases of pre-processing (geometry and mesh creation), computation (choice of physical models & numerical methods), and post-processing (quantitative analysis and visualization)."
+ },
+ {
+  "courseName": "Numerical methods in biomechanics",
+  "courseCode": "ME-484",
+  "courseSection": "GM",
+  "profName": [
+   "Terrier"
+  ],
+  "courseDesc": "Students understand and apply numerical methods (FEM) to answer a research question in biomechanics. They know how to develop, verify and validate multi-physics and multi-scale numerical models. They can analyse and comment results in an oral presentation and a written report."
+ },
+ {
+  "courseName": "Particle-based methods",
+  "courseCode": "ME-476",
+  "courseSection": "GM",
+  "profName": [
+   "Sawley"
+  ],
+  "courseDesc": "This course provides an introduction to particle-based methods for the numerical resolution of partial differential equations describing continuum phenomena or for the simulation of particulate flows. Details are given for Smoothed Particle Hydrodynamics (SPH) and the Discrete Element Method (DEM)."
+ },
+ {
+  "courseName": "Polymer composites + Laboratory Work",
+  "courseCode": "MSE-340",
+  "courseSection": "MX",
+  "profName": [
+   "Bourban",
+   "Michaud"
+  ],
+  "courseDesc": "C"
+ },
+ {
+  "courseName": "Production management",
+  "courseCode": "ME-419",
+  "courseSection": "GM",
+  "profName": [
+   "Kaboli"
+  ],
+  "courseDesc": "Production management deals with producing goods/services at the right time, quantity, and quality with the minimum cost. This course will arm students with hands-on tools for demand management, supply management, and digital transformation in manufacturing companies."
+ },
+ {
+  "courseName": "Renewable energy (for ME)",
+  "courseCode": "ME-460",
+  "courseSection": "GM",
+  "profName": [
+   "Haussener",
+   "Van Herle"
+  ],
+  "courseDesc": "The students assess and compare all renewable energy resources, their real potentials, their limitations and their best applications (energy services). Solar thermal, solar electric, wood, bioliquids, biogas, hydropower incl. tidal and wave power, wind, geothermal incl. heat pumps and buildings."
+ },
+ {
+  "courseName": "System identification",
+  "courseCode": "ME-421",
+  "courseSection": "GM",
+  "profName": [
+   "Karimi"
+  ],
+  "courseDesc": "Identification of discrete-time linear models using experimental data is studied. The correlation method and spectral analysis are used to identify nonparametric models and the subspace and prediction error methods to estimate the plant and noise model parameters. Hands-on labs are included."
+ },
+ {
+  "courseName": "Thermal power cycles and heat pump systems",
+  "courseCode": "ME-459",
+  "courseSection": "GM",
+  "profName": [
+   ""
+  ],
+  "courseDesc": "This course aims at studying thermal power cycles, heat pumping technologies and equipment."
+ },
+ {
+  "courseName": "Thermal turbomachines",
+  "courseCode": "ME-455",
+  "courseSection": "GM",
+  "profName": [
+   "Ott"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Turbulence",
+  "courseCode": "ME-467",
+  "courseSection": "GM",
+  "profName": [
+   "Schneider"
+  ],
+  "courseDesc": "This course provides an introduction to the physical phenomenon of turbulence, its probabilistic description and modeling approaches including RANS and LES. Students are equipped with the basic knowledge to tackle complex flow problems in science and engineering practice."
+ },
+ {
+  "courseName": "Two-phase flows and heat transfer",
+  "courseCode": "ME-446",
+  "courseSection": "GM",
+  "profName": [
+   "Gallaire"
+  ],
+  "courseDesc": "This course covers the theoretical and practical analysis of two-phase flow and applications. Fundamental two-phase heat transfer in the form of condensation and boiling are studied in detail. Advanced topics such as microchannel two-phase flow, microfinned tubes and oil effects are also handled."
+ }
+]

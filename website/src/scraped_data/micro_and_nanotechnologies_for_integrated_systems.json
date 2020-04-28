@@ -1,0 +1,207 @@
+[
+ {
+  "courseName": "Engineering internship credited with master project (master in Electrical and Electronical engineering)",
+  "courseCode": "EE-597(a)",
+  "courseSection": "EL",
+  "profName": [
+   "Gautsch",
+   "Gay-Balmaz"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Master project in Electrical and Electronic Engineering",
+  "courseCode": "EE-599(a)",
+  "courseSection": "EL",
+  "profName": [
+   "Profs divers"
+  ]
+ },
+ {
+  "courseName": "MNIS Master project for students from Grenoble",
+  "courseCode": "EE-599(b)",
+  "courseSection": "EL",
+  "profName": [
+   "Profs divers"
+  ]
+ },
+ {
+  "courseName": "MNIS Master project for students from Torino",
+  "courseCode": "EE-599(c)",
+  "courseSection": "EL",
+  "profName": [
+   "Profs divers"
+  ]
+ },
+ {
+  "courseName": "INPG courses",
+  "courseCode": "",
+  "courseSection": "EL",
+  "profName": [
+   ""
+  ]
+ },
+ {
+  "courseName": "Politecnico di Torino courses",
+  "courseCode": "",
+  "courseSection": "EL",
+  "profName": [
+   ""
+  ]
+ },
+ {
+  "courseName": "Design technologies for integrated systems",
+  "courseCode": "CS-472",
+  "courseSection": "IN",
+  "profName": [
+   "De Micheli"
+  ],
+  "courseDesc": "Hardware compilation is the process of transforming specialized hardware description languages into circuit descriptions, which are iteratively refined, detailed and optimized.  The course  presents algorithms, tools and methods for hardware compilation and logic synthesis."
+ },
+ {
+  "courseName": "Fundamentals of VLSI design",
+  "courseCode": "EE-429",
+  "courseSection": "EL",
+  "profName": [
+   "Burg"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Hardware systems modeling",
+  "courseCode": "EE-434",
+  "courseSection": "EL",
+  "profName": [
+   "Vachoux"
+  ],
+  "courseDesc": "This course addresses the main aspects of the modeling of digital and mixed-signal hardware components and systems using the VHDL and the VHDL-AMS modeling languages."
+ },
+ {
+  "courseName": "Low power electronics: analog mixed signal design",
+  "courseCode": "EE-423",
+  "courseSection": "EL",
+  "profName": [
+   "Koukab"
+  ],
+  "courseDesc": "This course deals with the analyze, design and optimization of  CMOS analog circuits, emphasizing low-power solutions required in a broad range of applications (e.g. IoT, wearables, Biosensors ...). Some examples of mixed-signal design are also addressed."
+ },
+ {
+  "courseName": "Nanoelectronics",
+  "courseCode": "EE-535",
+  "courseSection": "EL",
+  "profName": [
+   "Ionescu"
+  ],
+  "courseDesc": "This lecture overviews and discusses the last trends in the technology and principles of nanoelectronic devices for more aggressive scaling, better performances, added functionalities and lower energy per function. The opportunities of these advances compared to industrial roadmaps are analized."
+ },
+ {
+  "courseName": "Physical models for micro and nanosystems",
+  "courseCode": "EE-536",
+  "courseSection": "EL",
+  "profName": [
+   "Kis"
+  ],
+  "courseDesc": "Students will learn simple theoretical models, the theoretical background of finite element modeling as well as its application to modeling charge, mass and heat transport in electronic, fluidic and electromechanical micro and nanosystem."
+ },
+ {
+  "courseName": "Test of VLSI systems",
+  "courseCode": "EE-530",
+  "courseSection": "EL",
+  "profName": [
+   "Schmid"
+  ],
+  "courseDesc": "Test of VLSI Systems covers theoretical knowledge related to the major algorithms used in VLSI test, and design for test techniques. Basic knowledge related to computer-aided design for test techniques, and their integration into a design-flow are presented."
+ },
+ {
+  "courseName": "Fundamentals of biosensors and electronic biochips",
+  "courseCode": "EE-515",
+  "courseSection": "EL",
+  "profName": [
+   "Guiducci"
+  ],
+  "courseDesc": "The labels \"biosensor\" and \"eBiochip\" have been employed to refer to the most diverse systems and in several fields of application. The course is meant not only to provide means to dig into this sea but also a thoughtful understanding of the detection principles and a design perspective."
+ },
+ {
+  "courseName": "HF and VHF circuits and techniques I",
+  "courseCode": "EE-425",
+  "courseSection": "EL",
+  "profName": [
+   "Dehollain"
+  ],
+  "courseDesc": "Master the design of circuits and systems at high frequency (HF) and very high frequency (VHF) (1 MHz-6GHz). This lecture is particularly oriented towards circuit aspects of modern communications systems."
+ },
+ {
+  "courseName": "Lab in EDA based design",
+  "courseCode": "EE-490(b)",
+  "courseSection": "EL",
+  "profName": [
+   "Koukab",
+   "Vachoux"
+  ],
+  "courseDesc": "The goal of this lab is to get a working knowledge on the use of industrial state-of-the-art EDA (Electronic Design Automation) tools and design kits for the design of analog and digital integrated circuits."
+ },
+ {
+  "courseName": "Low-power analog IC design",
+  "courseCode": "EE-520",
+  "courseSection": "MT",
+  "profName": [
+   ""
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Mathematics of data: from theory to computation",
+  "courseCode": "EE-556",
+  "courseSection": "EL",
+  "profName": [
+   "Cevher"
+  ],
+  "courseDesc": "This course reviews recent advances in convex optimization and statistical analysis in the wake of Big Data. We provide an overview of the emerging convex formulations and their guarantees, describe scalable solution techniques, and illustrate the role of parallel and distributed computation."
+ },
+ {
+  "courseName": "Optical communications",
+  "courseCode": "EE-540",
+  "courseSection": "EL",
+  "profName": [
+   "Gaumier"
+  ],
+  "courseDesc": "Situate and evaluate the potentialities, limits and perspectives of optical communication systems and networks.\nDesign and dimension of photonic communication systems and networks"
+ },
+ {
+  "courseName": "Optical detectors",
+  "courseCode": "MICRO-523",
+  "courseSection": "MT",
+  "profName": [
+   "Besse"
+  ],
+  "courseDesc": "Students analyse the fundamental characteristics of optical detectors. Thermal and photoemissive devices as well as photodiodes and infrared sensors are studied. CCD and CMOS cameras are analysed in detail. Single photon detection is explained."
+ },
+ {
+  "courseName": "Semiconductor devices I",
+  "courseCode": "EE-557",
+  "courseSection": "EL",
+  "profName": [
+   "Matioli"
+  ],
+  "courseDesc": "This course aims to give a solid introduction to semiconductors, from Silicon to compound semiconductors, making the connection between the physics and their application in real life. We will explore several experimental techniques related to current semiconductor research and development."
+ },
+ {
+  "courseName": "Seminar in physiology and instrumentation",
+  "courseCode": "MICRO-568",
+  "courseSection": "MT",
+  "profName": [
+   "Aminian",
+   "Renaud"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Wireless receivers: algorithms and architectures",
+  "courseCode": "EE-442",
+  "courseSection": "EL",
+  "profName": [
+   "Burg"
+  ],
+  "courseDesc": ""
+ }
+]

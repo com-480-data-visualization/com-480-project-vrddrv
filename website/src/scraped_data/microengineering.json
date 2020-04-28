@@ -1,0 +1,720 @@
+[
+ {
+  "courseName": "Engineering internship credited with master project (master in Microengineering)",
+  "courseCode": "MICRO-597",
+  "courseSection": "MT",
+  "profName": [
+   "Delacrétaz",
+   "Gautsch"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Master project in Microengineering",
+  "courseCode": "MICRO-599",
+  "courseSection": "MT",
+  "profName": [
+   "Profs divers"
+  ]
+ },
+ {
+  "courseName": "Microengineering project I",
+  "courseCode": "MICRO-498",
+  "courseSection": "MT",
+  "profName": [
+   "Profs divers"
+  ]
+ },
+ {
+  "courseName": "Products design & systems engineering",
+  "courseCode": "MICRO-406",
+  "courseSection": "MT",
+  "profName": [
+   "Bellouard",
+   "Charbon"
+  ],
+  "courseDesc": "This course will cover all the aspects of product design and system engineering from learning relevant methods to the actual implementation in a hands-on practice of product development."
+ },
+ {
+  "courseName": "HSS : Introduction to project",
+  "courseCode": "",
+  "courseSection": "SHS",
+  "profName": [
+   "Divers enseignants"
+  ]
+ },
+ {
+  "courseName": "HSS : Project",
+  "courseCode": "",
+  "courseSection": "SHS",
+  "profName": [
+   "Divers enseignants"
+  ]
+ },
+ {
+  "courseName": "Advanced MEMS & microsystems",
+  "courseCode": "MICRO-534",
+  "courseSection": "MT",
+  "profName": [
+   "Briand",
+   "Quack"
+  ],
+  "courseDesc": "In depth analysis of the operation principles and technology of advanced micro- and nanosystems. Familiarisation to their implementation into products and their applications."
+ },
+ {
+  "courseName": "Applied machine learning",
+  "courseCode": "MICRO-455",
+  "courseSection": "MT",
+  "profName": [
+   "Billard",
+   "Polydoros"
+  ],
+  "courseDesc": "Real-world engineering applications must cope with a large dataset of dynamic variables, which cannot be well approximated by classical or deterministic models. This course gives an overview of methods from Machine Learning for the analysis of non-linear, highly noisy and multi dimensional data"
+ },
+ {
+  "courseName": "Fundamentals of machine learning",
+  "courseCode": "EE-311",
+  "courseSection": "EL",
+  "profName": [
+   "Fleuret",
+   "Liebling"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Imaging optics",
+  "courseCode": "MICRO-421",
+  "courseSection": "MT",
+  "profName": [
+   "Psaltis"
+  ],
+  "courseDesc": "Introduction to optical imaging systems such as camera objectives and microscopes. Discussion of imaging formation. Principles of design of imaging optics with geometrical optics and analysis with raytracing. Presentation of different applications in photography and microscopy."
+ },
+ {
+  "courseName": "Industrial and applied robotics",
+  "courseCode": "MICRO-451",
+  "courseSection": "MT",
+  "profName": [
+   "Bouri"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Introduction to additive manufacturing",
+  "courseCode": "ME-413",
+  "courseSection": "GM",
+  "profName": [
+   "Boillat",
+   "Brugger",
+   "Moser"
+  ],
+  "courseDesc": "The state of the art in the domain of additive production processes \n(the part is built by material addition without use of a shape tool) will be presented. \nThe main application/benefits/shortcomings of the common additive processes as well as \ntechnological and economical issues will be discussed."
+ },
+ {
+  "courseName": "Laser fundamentals and applications for engineers",
+  "courseCode": "MICRO-426",
+  "courseSection": "MT",
+  "profName": [
+   "Moser"
+  ],
+  "courseDesc": "The course will cover the fundamentals of lasers and focus on selected practical applications using lasers in engineering.  The course is divided approximately as 1/3  theory and 2/3 covering selected applications."
+ },
+ {
+  "courseName": "Low-power radio design for IoT",
+  "courseCode": "MICRO-461",
+  "courseSection": "MT",
+  "profName": [
+   ""
+  ],
+  "courseDesc": "The basic function of an IoT node is to collect data and send it through a wireless channel to the cloud. Since the power consumption of an IoT node is largely dominated by the wireless communication, it is therefore key to understand the trade-offs faced when designing the radio."
+ },
+ {
+  "courseName": "Manufacturing systems and supply chain dynamics",
+  "courseCode": "MICRO-448",
+  "courseSection": "MT",
+  "profName": [
+   "Filliger",
+   "Gallay"
+  ],
+  "courseDesc": "This course discusses quantitatively some important and generic performance and reliability issues that affect the behaviour of supply chains, and in particular manufacturing systems."
+ },
+ {
+  "courseName": "Materials and technology of microfabrication",
+  "courseCode": "MICRO-431",
+  "courseSection": "MT",
+  "profName": [
+   "Gijs",
+   "Lehnert"
+  ],
+  "courseDesc": "The student will learn procedures and applications of modern microfabrication technologies, as practiced in a clean room environment, in particular modern techniques that go beyond the classical steps of deposition, lithography and etching, with a focus on materials and multidisciplinarity."
+ },
+ {
+  "courseName": "Metrology",
+  "courseCode": "MICRO-428",
+  "courseSection": "MT",
+  "profName": [
+   "Bruschini",
+   "Charbon",
+   "Fantner",
+   "Vardi"
+  ],
+  "courseDesc": "Course introduces the concept of measurement in electrical, optical, and microscale domains, dealing with accuracy, and resolution. Weâll introduce techniques to handle intrinsic and extrinsic limitations of the measurement in these domains. Course ends with a quantum perspective."
+ },
+ {
+  "courseName": "Nanotechnology",
+  "courseCode": "MICRO-530",
+  "courseSection": "MT",
+  "profName": [
+   "Boero",
+   "Brugger"
+  ],
+  "courseDesc": "This course gives the basics for understanding nanotechnology from an engineer's perspective: physical background, materials aspects and scaling laws, fabrication and imaging of nanoscale devices."
+ },
+ {
+  "courseName": "Optical detectors",
+  "courseCode": "MICRO-523",
+  "courseSection": "MT",
+  "profName": [
+   "Besse"
+  ],
+  "courseDesc": "Students analyse the fundamental characteristics of optical detectors. Thermal and photoemissive devices as well as photodiodes and infrared sensors are studied. CCD and CMOS cameras are analysed in detail. Single photon detection is explained."
+ },
+ {
+  "courseName": "Scaling laws & simulations in micro & nanosystems",
+  "courseCode": "MICRO-470",
+  "courseSection": "MT",
+  "profName": [
+   "Quack",
+   "Renaud",
+   "Shea"
+  ],
+  "courseDesc": "This class combines an analytical and finite elements modeling (FEM) simulations approach to scaling laws in MEMS/NEMS. The dominant physical effects and scaling effects when downsizing sensors and actuators in microsystems are discussed, across a broad range of actuation principles."
+ },
+ {
+  "courseName": "Selected topics in advanced optics",
+  "courseCode": "MICRO-420",
+  "courseSection": "MT",
+  "profName": [
+   "Martin"
+  ],
+  "courseDesc": "This course explores different facets of modern optics and photonics."
+ },
+ {
+  "courseName": "Smart sensors for IoT",
+  "courseCode": "EE-594",
+  "courseSection": "EL",
+  "profName": [
+   "Enz",
+   "Ionescu"
+  ],
+  "courseDesc": "Caution, these contents corresponds to the coursebooks of last yearSmart sensors for IoT\nEE-594    Lecturer(s) : Enz ChristianIonescu Mihai AdrianLanguage:English\nRemarque    \npas donné en 2018-19"
+ },
+ {
+  "courseName": "Advanced additive manufacturing technologies",
+  "courseCode": "MICRO-413",
+  "courseSection": "MT",
+  "profName": [
+   "Brugger",
+   "Moser"
+  ],
+  "courseDesc": "Advanced 3D forming techniques for high throughput and high resolution (nanometric) for large scale production. Digital manufacturing of functional layers, microsystems and smart systems."
+ },
+ {
+  "courseName": "Advanced control systems",
+  "courseCode": "ME-524",
+  "courseSection": "GM",
+  "profName": [
+   "Karimi"
+  ],
+  "courseDesc": "This course covers some theoretical and practical aspects of robust and adaptive control. This includes H-2 and H-infinity control in model-based and data-driven framework by convex optimization, direct, indirect and switching adaptive control. The methods are implemented in a hands-on lab."
+ },
+ {
+  "courseName": "Advanced machine learning",
+  "courseCode": "MICRO-570",
+  "courseSection": "MT",
+  "profName": [
+   "Billard"
+  ],
+  "courseDesc": "This course will present some of the core advanced methods in the field for structure discovery, classification and non-linear regression. This is an advanced class in Machine Learning; hence, students are expected to have some background in the field."
+ },
+ {
+  "courseName": "Advanced satellite positioning",
+  "courseCode": "ENV-542",
+  "courseSection": "SIE",
+  "profName": [
+   "Botteron",
+   "Skaloud"
+  ],
+  "courseDesc": "All  fundamental principles behind modern satellite positioning to acquire,  track and evaluate direct and indirect satellite signals and process them in relation to example applications: Earth monitoring (landslides,...), high precision positioning (automated driving, robots,...) and time transfer."
+ },
+ {
+  "courseName": "Aerial robotics",
+  "courseCode": "MICRO-502",
+  "courseSection": "MT",
+  "profName": [
+   "Floreano"
+  ],
+  "courseDesc": "Aerial robotics\nMICRO-502    Lecturer(s) : Floreano DarioLanguage:English\nWithdrawal    \nIt is not allowed to withdraw from this subject after the registration deadline.    \nSummary"
+ },
+ {
+  "courseName": "A Network Tour of Data Science",
+  "courseCode": "EE-558",
+  "courseSection": "EL",
+  "profName": [
+   "Frossard",
+   "Vandergheynst"
+  ],
+  "courseDesc": "A Network Tour of Data Science\nEE-558    Lecturer(s) : Frossard PascalVandergheynst PierreLanguage:English"
+ },
+ {
+  "courseName": "Assembly techniques",
+  "courseCode": "MICRO-440",
+  "courseSection": "MT",
+  "profName": [
+   "Chautems"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Audio engineering",
+  "courseCode": "EE-548",
+  "courseSection": "EL",
+  "profName": [
+   "Lissek"
+  ],
+  "courseDesc": "This lecture is oriented towards the study of audio engineering, with a special focus on room acoustics applications. The learning outcomes will be the techniques for microphones and loudspeaker design, as well as room acoustics knowledge."
+ },
+ {
+  "courseName": "Basics of mobile robotics",
+  "courseCode": "MICRO-452",
+  "courseSection": "MT",
+  "profName": [
+   "Mondada"
+  ],
+  "courseDesc": "The course teaches the basics of autonomous mobile robots. Both hardware (energy, locomotion, sensors) and software (signal processing, control, localization, trajectory planning, high-level control) will be tackled. The students will apply the knowledge to program and control a real mobile robot."
+ },
+ {
+  "courseName": "Biomedical optics",
+  "courseCode": "BIOENG-445",
+  "courseSection": "SV",
+  "profName": [
+   "Wagnières"
+  ],
+  "courseDesc": "This course addresses the principles governing the interactions between light and biological tissue, their optical properties and basic concepts of radiometry. Illustrative diagnostic and therapeutic applications of light in medicine and photobiology will also be described."
+ },
+ {
+  "courseName": "BioMEMS",
+  "courseCode": "MICRO-560",
+  "courseSection": "MT",
+  "profName": [
+   "Renaud"
+  ],
+  "courseDesc": "This course covers the main applications of micro devices for life science and biomedical applications. The course is organized by application topic. It is also covering the basic physical, biological, chemical, technological concepts, which are presented as transversal introductory section"
+ },
+ {
+  "courseName": "Biomicroscopy I",
+  "courseCode": "MICRO-561",
+  "courseSection": "SV",
+  "profName": [
+   "Altug"
+  ],
+  "courseDesc": "Introduction to geometrical and wave optics for understanding the principles of optical microscopes, their advantages and limitations. Describing the basic microscopy components and the commonly used biomicrocopy methods such as widefield and fluorescence."
+ },
+ {
+  "courseName": "Biomicroscopy II",
+  "courseCode": "MICRO-562",
+  "courseSection": "SV",
+  "profName": [
+   "Altug",
+   "Seitz"
+  ],
+  "courseDesc": "Introduction to the different contrast enhancing methods in optical microscopy. Basic hands-on experience with optical microscopes at EPFL's BioImaging and Optics Facility. How to investigate biological samples? How to obtain high quality images?"
+ },
+ {
+  "courseName": "Computational motor control",
+  "courseCode": "CS-432",
+  "courseSection": "SV",
+  "profName": [
+   "Ijspeert"
+  ],
+  "courseDesc": "The course gives (1) a review of different types of numerical models of control of locomotion and movement in animals, (2) a presentation of different techniques for designing models, and (3) an analysis of the use and testing of those models in robotics and neuroprosthetics."
+ },
+ {
+  "courseName": "Conceptual design of products and systems",
+  "courseCode": "MICRO-443",
+  "courseSection": "MT",
+  "profName": [
+   "Kejik"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Distributed intelligent systems",
+  "courseCode": "ENG-466",
+  "courseSection": "SIE",
+  "profName": [
+   "Martinoli"
+  ],
+  "courseDesc": "The goal of this course is to provide methods and tools for modeling distributed intelligent systems as well as designing and optimizing coordination strategies. The course is a well-balanced mixture of theory and practical activities using simulation and real hardware platforms."
+ },
+ {
+  "courseName": "Embedded motor control",
+  "courseCode": "MICRO-510",
+  "courseSection": "MT",
+  "profName": [
+   "Hodder",
+   "Köchli",
+   "Perriard"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Embedded systems",
+  "courseCode": "CS-473",
+  "courseSection": "IN",
+  "profName": [
+   "Beuchat"
+  ],
+  "courseDesc": "The main topics of this course are understanding and designing embedded system on a programmable circuit (FPGA). Students will be able to design a camera or a LCD controller on an FPGA in VHDL and will use their controller through a softcore processor."
+ },
+ {
+  "courseName": "Evolutionary robotics",
+  "courseCode": "MICRO-515",
+  "courseSection": "MT",
+  "profName": [
+   ""
+  ],
+  "courseDesc": "NOT OFFERED IN 2019-2020\nThe course describes theories, methods, and technologies for designing software and hardware systems that are inspired upon natural evolution. It also shows how artificial systems can help to understand biological systems."
+ },
+ {
+  "courseName": "Flexible bioelectronics",
+  "courseCode": "MICRO-514",
+  "courseSection": "MT",
+  "profName": [
+   "Lacour"
+  ],
+  "courseDesc": "The course is an introduction to the emerging field of flexible (bio)electronics. It provides an overview of the materials and processes used to design and manufacture flexible circuits and sensors.  Applications encompass flexible sensors, biointerfaces, human-machine interfaces and neuroprosthetic"
+ },
+ {
+  "courseName": "Fundamentals & processes for photovoltaic devices",
+  "courseCode": "MICRO-565",
+  "courseSection": "MT",
+  "profName": [
+   "Ballif",
+   "Haug"
+  ],
+  "courseDesc": "The objective of this lecture is to give an in-depth understanding of the physics and manufacturing processes of photovoltaic solar cells and related devices (photodetectors, photoconductors). The principle and techniques addressed in this lecture will be useful in a wide range of related fields."
+ },
+ {
+  "courseName": "Fundamentals of biophotonics",
+  "courseCode": "BIO-443",
+  "courseSection": "SV",
+  "profName": [
+   "Radenovic"
+  ],
+  "courseDesc": "This module serves as an introduction to the area of biophotonics. The approach is multidisciplinary .The course is mainly knowledge-based but students will benefit from the skills learned by carrying out problem  solving and by completing the assignment."
+ },
+ {
+  "courseName": "Fundamentals of computer aided manufacturing",
+  "courseCode": "ME-416",
+  "courseSection": "GM",
+  "profName": [
+   "Kyritsis"
+  ],
+  "courseDesc": "Students will be exposed to basic computer-aided manufacturing (CAM) modeling concepts, basic mathematical simulation, verification and optimization algorithms and methodologies and their applications. The students will practice their knowledge by doing projects with modern CAM software."
+ },
+ {
+  "courseName": "Haptic human robot interfaces",
+  "courseCode": "MICRO-553",
+  "courseSection": "MT",
+  "profName": [
+   "Bouri"
+  ],
+  "courseDesc": "This course teaches basic knowledge on haptic devices, force feedback and mechanical man-machine interfaces. Lectures are about 40 %, the rest is hands-on practical work with the \"haptic paddle\", a complete mechanical device with full laptop control interface. Realization of project in groups of 2."
+ },
+ {
+  "courseName": "IC design I",
+  "courseCode": "EE-320",
+  "courseSection": "EL",
+  "profName": [
+   "Carrara",
+   "Dehollain"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Image processing I",
+  "courseCode": "MICRO-511",
+  "courseSection": "MT",
+  "profName": [
+   "Unser",
+   "Van De Ville"
+  ],
+  "courseDesc": "Introduction to the basic techniques of image processing. Introduction to the development of image-processing software and to prototyping in JAVA. Application to real-world examples in industrial vision and biomedical imaging."
+ },
+ {
+  "courseName": "Image processing II",
+  "courseCode": "MICRO-512",
+  "courseSection": "MT",
+  "profName": [
+   "Liebling",
+   "Sage",
+   "Unser",
+   "Van De Ville"
+  ],
+  "courseDesc": "Study of advanced image processing; mathematical imaging. Development of image-processing software and prototyping in JAVA; application to real-world examples in industrial vision and biomedical imaging."
+ },
+ {
+  "courseName": "Integrated transducers and drives",
+  "courseCode": "EE-461",
+  "courseSection": "EL",
+  "profName": [
+   "Köchli",
+   "Perriard"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Lab on app development for tablets and smartphones",
+  "courseCode": "EE-490(g)",
+  "courseSection": "EL",
+  "profName": [
+   "Atienza Alonso"
+  ],
+  "courseDesc": "This course introduces mobile application programming and system-level power management for Android OS. The  students learn to develop low-power Apps on mobile platforms (in tablets, smartphones and smartwatches). Students receive a tablet and a smartwatch, and can use their smartphones if desired."
+ },
+ {
+  "courseName": "Large-area electronics: devices and materials",
+  "courseCode": "MICRO-566",
+  "courseSection": "MT",
+  "profName": [
+   "Ballif",
+   "Haug",
+   "Würsch"
+  ],
+  "courseDesc": "Introduction to the physical concepts involved in the description of optical and electronic transport properties of thin-film semiconductor materials found in many large-area applications (solar cells, displays, imagers, etc) and introduction to the physics of the related devices."
+ },
+ {
+  "courseName": "Laser microprocessing",
+  "courseCode": "MICRO-520",
+  "courseSection": "MT",
+  "profName": [
+   "Hoffmann"
+  ],
+  "courseDesc": "The physical principles of laser light materials interactions are introduced with a large number of industrial application examples. Materials processing lasers are developing further and further, the lecture presents the physical limitations of the processes."
+ },
+ {
+  "courseName": "Lasers: theory and modern applications",
+  "courseCode": "MICRO-422",
+  "courseSection": "MT",
+  "profName": [
+   "Kippenberg",
+   "Moser"
+  ],
+  "courseDesc": "This course gives an introduction to Lasers by both considering fundamental principles and applications. Topics that are covered include the theory of lasers, laser resonators and laser dynamics. \nIn addition to the basic concepts, a variety of interesting laser systems and applications are covered"
+ },
+ {
+  "courseName": "Legged robots",
+  "courseCode": "MICRO-507",
+  "courseSection": "MT",
+  "profName": [
+   "Ijspeert"
+  ],
+  "courseDesc": "The course presents the design, control, and applications of legged robots. It gives a review of different types of legged robots (including two-, four- and multi-legged robots), and an in-depth analysis of different control methods for legged locomotion."
+ },
+ {
+  "courseName": "Machine learning programming",
+  "courseCode": "MICRO-401",
+  "courseSection": "MT",
+  "profName": [
+   "Billard"
+  ],
+  "courseDesc": "This is a practice-based course, where students program algorithms in machine learning and evaluate the performance of the algorithm thoroughly using real-world dataset."
+ },
+ {
+  "courseName": "MEMS practicals I",
+  "courseCode": "MICRO-501",
+  "courseSection": "MT",
+  "profName": [
+   "Boero",
+   "Brugger",
+   "Renaud"
+  ],
+  "courseDesc": "Objective of this practical is to apply in specific experimental settings the knowledge acquired in various MEMS related class"
+ },
+ {
+  "courseName": "MEMS practicals II",
+  "courseCode": "MICRO-503",
+  "courseSection": "MT",
+  "profName": [
+   "Boero",
+   "Brugger",
+   "Renaud"
+  ],
+  "courseDesc": "Objective of this practical is to apply in specific experimental settings the knowledge acquired in various MEMS related class"
+ },
+ {
+  "courseName": "Micro/Nanomechanical devices",
+  "courseCode": "ME-426",
+  "courseSection": "GM",
+  "profName": [
+   "Villanueva Torrijo"
+  ],
+  "courseDesc": "C"
+ },
+ {
+  "courseName": "Microengineering project II",
+  "courseCode": "MICRO-499",
+  "courseSection": "MT",
+  "profName": [
+   "Profs divers"
+  ]
+ },
+ {
+  "courseName": "Model predictive control",
+  "courseCode": "ME-425",
+  "courseSection": "GM",
+  "profName": [
+   "Jones"
+  ],
+  "courseDesc": "Provide an introduction to the theory and practice of Model Predictive Control (MPC). Main benefits of MPC: flexible specification of time-domain objectives, performance optimization of highly complex multivariable systems and ability to explicitly enforce constraints on system behavior."
+ },
+ {
+  "courseName": "Nanobiotechnology and biophysics",
+  "courseCode": "CH-413",
+  "courseSection": "CGC",
+  "profName": [
+   "Fierz"
+  ],
+  "courseDesc": "This course concerns modern bioanalytical techniques to investigate biomolecules both in vitro and in vivo, including recent methods to image, track and manipulate single molecules. We cover the basic principles of the respective methods and discuss examples from the current scientific literature."
+ },
+ {
+  "courseName": "Nonlinear Control Systems",
+  "courseCode": "ME-523",
+  "courseSection": "GM",
+  "profName": [
+   "Müllhaupt"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Nonlinear Optics",
+  "courseCode": "PHYS-501",
+  "courseSection": "MT",
+  "profName": [
+   "Roke"
+  ],
+  "courseDesc": "Basic principles of optics"
+ },
+ {
+  "courseName": "Optical communications",
+  "courseCode": "EE-540",
+  "courseSection": "EL",
+  "profName": [
+   "Gaumier"
+  ],
+  "courseDesc": "Situate and evaluate the potentialities, limits and perspectives of optical communication systems and networks.\nDesign and dimension of photonic communication systems and networks"
+ },
+ {
+  "courseName": "Optics laboratories I",
+  "courseCode": "MICRO-423",
+  "courseSection": "MT",
+  "profName": [
+   "Psaltis",
+   "Pu"
+  ],
+  "courseDesc": "This laboratory work allows students to deepen their understanding of optical instruments, optoelectronic devices and diagnostic methods. Students will be introduced in state of the art optical instruments and measurement principles."
+ },
+ {
+  "courseName": "Optics laboratories II",
+  "courseCode": "MICRO-424",
+  "courseSection": "MT",
+  "profName": [
+   "Scharf"
+  ],
+  "courseDesc": "This laboratory work allows students to deepen their understanding of optical instruments, optoelectronic devices and diagnostic methods. Students will be introduced in state of the art optical instruments and measurement principles."
+ },
+ {
+  "courseName": "Organic and printed electronics",
+  "courseCode": "MICRO-505",
+  "courseSection": "MT",
+  "profName": [
+   "Briand",
+   "Marjanovic",
+   "Subramanian"
+  ],
+  "courseDesc": "This course addresses the implementation of organic and printed electronics technologies using large area manufacturing techniques. It will provide knowledge on materials, printing techniques, devices, systems, and applications: state of the art and current status on commercialization."
+ },
+ {
+  "courseName": "Photonic micro- and nanosystems",
+  "courseCode": "MICRO-504",
+  "courseSection": "MT",
+  "profName": [
+   "Quack"
+  ],
+  "courseDesc": "C"
+ },
+ {
+  "courseName": "Photonic systems and technology",
+  "courseCode": "EE-440",
+  "courseSection": "EL",
+  "profName": [
+   "Brès"
+  ],
+  "courseDesc": "The physics of optical communication components and their applications to communication systems will be covered. The course is intended to present the operation principles of contemporary optical communication systems employing optical fibers and modern optoelectronic devices."
+ },
+ {
+  "courseName": "Physics of photonic semiconductor devices",
+  "courseCode": "PHYS-434",
+  "courseSection": "PH",
+  "profName": [
+   "Butté"
+  ],
+  "courseDesc": "Series of lectures covering the physics of quantum heterostructures, dielectric microcavities and photonic crystal cavities as well as the properties of the main light emitting devices that are light-emitting diodes (LEDs) and laser diodes (LDs)."
+ },
+ {
+  "courseName": "Project management and risk analysis",
+  "courseCode": "MGT-427",
+  "courseSection": "MTE",
+  "profName": [
+   "Wieser"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Sensors in medical instrumentation",
+  "courseCode": "EE-511",
+  "courseSection": "EL",
+  "profName": [
+   "Aminian"
+  ],
+  "courseDesc": "Fundamental principles and methods used for physiological signal conditioning. Resistive, capacitive, inductive, piezoelectric and optical techniques used to detect and convert physiological information's to electrical signals. Laboratory and ambulatory devices for monitoring and therapy."
+ },
+ {
+  "courseName": "Signal processing for functional brain imaging",
+  "courseCode": "MICRO-513",
+  "courseSection": "MT",
+  "profName": [
+   "Van De Ville"
+  ],
+  "courseDesc": "Computational methods for the analysis of human brain imaging data"
+ },
+ {
+  "courseName": "Space mission design and operations",
+  "courseCode": "EE-585",
+  "courseSection": "EL",
+  "profName": [
+   "Nicollier"
+  ],
+  "courseDesc": "This course is a \"concepts\" course. It introduces a variety of concepts in use in the design of a space mission, manned or unmanned, and in space operations. it is at least partly based on the practical space experience of the lecturer"
+ },
+ {
+  "courseName": "System identification",
+  "courseCode": "ME-421",
+  "courseSection": "GM",
+  "profName": [
+   "Karimi"
+  ],
+  "courseDesc": "Identification of discrete-time linear models using experimental data is studied. The correlation method and spectral analysis are used to identify nonparametric models and the subspace and prediction error methods to estimate the plant and noise model parameters. Hands-on labs are included."
+ }
+]

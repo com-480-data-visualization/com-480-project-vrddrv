@@ -1,0 +1,350 @@
+[
+ {
+  "courseName": "Master project in Nuclear Engineering",
+  "courseCode": "PHYS-598",
+  "courseSection": "PH",
+  "profName": [
+   "Profs divers"
+  ]
+ },
+ {
+  "courseName": "Advanced topics in nuclear reactor materials",
+  "courseCode": "ETH-530",
+  "courseSection": "PH_NE",
+  "profName": [
+   "Pouchon",
+   "Spätig",
+   "Streit"
+  ],
+  "courseDesc": "To comprehend advanced aspects of materials science as applied to nuclear power (fission and fusion), to get acquainted with materials for advanced plants, advanced damage characterization and life-time assessments"
+ },
+ {
+  "courseName": "Beyond-design-basis safety",
+  "courseCode": "ETH-532",
+  "courseSection": "PH_NE",
+  "profName": [
+   "Profs divers"
+  ]
+ },
+ {
+  "courseName": "Decommissioning of nuclear power plants",
+  "courseCode": "ETH-533",
+  "courseSection": "PH_NE",
+  "profName": [
+   "Vacat"
+  ],
+  "courseDesc": "Characterization and survey prior to dismantling. Technologies for segmentation and dismantling. Decontamination and remediation. Materials and wast management. Site characterization and environmental monitoring."
+ },
+ {
+  "courseName": "Engineering internship (master in nuclear engineering)",
+  "courseCode": "PHYS-595",
+  "courseSection": "PH",
+  "profName": [
+   "Profs divers"
+  ]
+ },
+ {
+  "courseName": "Nuclear computations lab",
+  "courseCode": "ETH-531",
+  "courseSection": "PH_NE",
+  "profName": [
+   "Ferroukhi",
+   "Freixa Terradas",
+   "Pautz"
+  ],
+  "courseDesc": "To aquire hands-on experience with the running of large computer codes in relation to the static analysis of nuclear reactor cores and the multi-physics simulation of nuclear power plant (NPP) dynamic behaviour"
+ },
+ {
+  "courseName": "Nuclear energy systems",
+  "courseCode": "ETH-401",
+  "courseSection": "PH_NE",
+  "profName": [
+   "Profs divers"
+  ]
+ },
+ {
+  "courseName": "Nuclear fuels and materials",
+  "courseCode": "ETH-402",
+  "courseSection": "PH_NE",
+  "profName": [
+   "Profs divers"
+  ]
+ },
+ {
+  "courseName": "Physics of nuclear reactors",
+  "courseCode": "PHYS-443",
+  "courseSection": "PH",
+  "profName": [
+   "Hursin",
+   "Laureau",
+   "Pautz"
+  ],
+  "courseDesc": "In this course, one acquires an understanding of the basic neutronics interactions occurring in a nuclear fission reactor as well as the conditions for establishing and controlling a nuclear chain reaction."
+ },
+ {
+  "courseName": "Radiation and reactor experiments",
+  "courseCode": "PHYS-451",
+  "courseSection": "PH",
+  "profName": [
+   "Frajtag",
+   "Hursin",
+   "Lamirand"
+  ],
+  "courseDesc": "The reactor experiments course aims to introduce the students to radiation detection techniques and nuclear reactor experiments. The core of the course is the unique opportunity to conduct reactor experiments, as the control rod calibration, and approach to critical."
+ },
+ {
+  "courseName": "Radiation biology, protection and applications",
+  "courseCode": "PHYS-450",
+  "courseSection": "PH",
+  "profName": [
+   "Damet",
+   "Frajtag",
+   "Pitzschke"
+  ],
+  "courseDesc": "An introductory course in the basic concepts of radiation detection and interactions and energy deposition by ionizing radiation in matter, radioisotope production and its applications in medicine, industry and research. The course includes presentations, lecture notes, problem sets and seminars."
+ },
+ {
+  "courseName": "Reactor technology",
+  "courseCode": "PHYS-447",
+  "courseSection": "PH",
+  "profName": [
+   "Prasser"
+  ],
+  "courseDesc": "Reactor core cooling, power limits and technological consequences due to fuel, cladding and coolant properties, main principles of reactor and power plant design including auxiliary systems are explained. System technology of most important thermal and fast reactor types is introduced."
+ },
+ {
+  "courseName": "Safety of nuclear power plants",
+  "courseCode": "ETH-403",
+  "courseSection": "PH_NE",
+  "profName": [
+   "Profs divers"
+  ]
+ },
+ {
+  "courseName": "Semester project nuclear engineering",
+  "courseCode": "ETH-590",
+  "courseSection": "PH_NE",
+  "profName": [
+   "Profs divers"
+  ]
+ },
+ {
+  "courseName": "Advanced techniques for the risk analysis of technical systems",
+  "courseCode": "ETH-441",
+  "courseSection": "HPLANS",
+  "profName": [
+   "Profs divers"
+  ]
+ },
+ {
+  "courseName": "Biomedical imaging",
+  "courseCode": "ETH-427",
+  "courseSection": "PH_NE",
+  "profName": [
+   "Profs divers"
+  ]
+ },
+ {
+  "courseName": "Computational multiphase thermal fluid dynamics",
+  "courseCode": "ETH-433",
+  "courseSection": "PH_NE",
+  "profName": [
+   "Profs divers"
+  ]
+ },
+ {
+  "courseName": "Computational neuroimaging clinic",
+  "courseCode": "ETH-444",
+  "courseSection": "PH",
+  "profName": [
+   "Profs divers"
+  ]
+ },
+ {
+  "courseName": "Elective project",
+  "courseCode": "PHYS-490",
+  "courseSection": "PH_NE",
+  "profName": [
+   "Profs divers"
+  ]
+ },
+ {
+  "courseName": "Energy conversion and renewable energy",
+  "courseCode": "ME-409",
+  "courseSection": "GM",
+  "profName": [
+   "Maréchal",
+   "Nguyen"
+  ],
+  "courseDesc": "The goal of the lecture is to present the principles of the energy conversion for conventional and renewable energy resources and to explain the most important parameters that define the energy conversion efficiency, resources implications and economics of the energy conversion technologies."
+ },
+ {
+  "courseName": "Hydraulic turbomachines",
+  "courseCode": "ME-453",
+  "courseSection": "GM",
+  "profName": [
+   "Avellan",
+   "Vagnoni"
+  ],
+  "courseDesc": "Master lecture on Hydraulic Turbomachines: impulse and reaction turbines,pumps and pump-turbines."
+ },
+ {
+  "courseName": "Introduction to medical radiation physics",
+  "courseCode": "PHYS-455",
+  "courseSection": "PH_NE",
+  "profName": [
+   "Bochud",
+   "Verdun"
+  ],
+  "courseDesc": "This course covers the physical principles underlying medical diagnostic imaging (radiography, fluoroscopy, CT, SPECT, PET, MRI), radiation therapy and radiopharmacy.  The focus is not only on risk and dose to the patient and staff, but also on an objective description of the image quality."
+ },
+ {
+  "courseName": "Introduction to particle accelerators",
+  "courseCode": "PHYS-448",
+  "courseSection": "PH",
+  "profName": [
+   "Pieloni"
+  ],
+  "courseDesc": "The course presents basic physics ideas underlying the workings of modern accelerators. We will examine key features and limitations of these machines as used in accelerator driven sciences like high energy physics, materials and life sciences."
+ },
+ {
+  "courseName": "Introduction to quantum mechanics for engineers",
+  "courseCode": "ETH-445",
+  "courseSection": "PH",
+  "profName": [
+   "Profs divers"
+  ]
+ },
+ {
+  "courseName": "Magnetic resonance imaging in medicine",
+  "courseCode": "ETH-446",
+  "courseSection": "PH",
+  "profName": [
+   "Profs divers"
+  ]
+ },
+ {
+  "courseName": "Materials analysis by nuclear techniques",
+  "courseCode": "ETH-442",
+  "courseSection": "HPLANS",
+  "profName": [
+   "Profs divers"
+  ]
+ },
+ {
+  "courseName": "Medical physics II",
+  "courseCode": "ETH-452",
+  "courseSection": "PH_NE",
+  "profName": [
+   "Profs divers"
+  ]
+ },
+ {
+  "courseName": "Micro and nano-tomography of biological tissues",
+  "courseCode": "ETH-453",
+  "courseSection": "PH_NE",
+  "profName": [
+   "Profs divers"
+  ]
+ },
+ {
+  "courseName": "Monte Carlo in medical physics",
+  "courseCode": "ETH-447",
+  "courseSection": "PH",
+  "profName": [
+   "Profs divers"
+  ]
+ },
+ {
+  "courseName": "Multi-phase flow",
+  "courseCode": "ETH-434",
+  "courseSection": "PH_NE",
+  "profName": [
+   "Profs divers"
+  ]
+ },
+ {
+  "courseName": "Nuclear fusion and plasma physics",
+  "courseCode": "PHYS-445",
+  "courseSection": "PH",
+  "profName": [
+   "Fasoli"
+  ],
+  "courseDesc": "The goal of the course is to provide the physics and technology basis  for controlled fusion research, from the main elements of plasma physics to the reactor concepts."
+ },
+ {
+  "courseName": "Physics Against Cancer: The Physics of Imaging and Treating Cancer",
+  "courseCode": "ETH-443",
+  "courseSection": "HPLANS",
+  "profName": [
+   "Profs divers"
+  ]
+ },
+ {
+  "courseName": "Physics of atoms, nuclei and elementary particles",
+  "courseCode": "PHYS-411",
+  "courseSection": "PH",
+  "profName": [
+   "Nakada"
+  ],
+  "courseDesc": "In this lecture, symmetry and conservation law are applied to derive wave functions for elementary particles. Relativistic wave functions are analysed and applied for massive and massless particles. Different ideas on antiparticles are explored."
+ },
+ {
+  "courseName": "Physics of nuclear reactor II",
+  "courseCode": "ETH-404",
+  "courseSection": "PH_NE",
+  "profName": [
+   "Profs divers"
+  ]
+ },
+ {
+  "courseName": "Radiation detection",
+  "courseCode": "PHYS-452",
+  "courseSection": "PH",
+  "profName": [
+   "Lamirand"
+  ],
+  "courseDesc": "The course presents the detection of ionizing radiation in the keV and MeV energy ranges. Physical processes of radiation/matter interaction are introduced. All steps of detection are covered, as well as detectors, instrumentations and measurements methods commonly used in the nuclear field."
+ },
+ {
+  "courseName": "Radiation imaging for industrial applications",
+  "courseCode": "ETH-448",
+  "courseSection": "PH",
+  "profName": [
+   "Profs divers"
+  ]
+ },
+ {
+  "courseName": "Renewable energy technologies II, energy storage and conversion",
+  "courseCode": "ETH-431",
+  "courseSection": "PH_NE",
+  "profName": [
+   "Profs divers"
+  ]
+ },
+ {
+  "courseName": "Technology and policy of electrical energy storage",
+  "courseCode": "ETH-450",
+  "courseSection": "PH_NE",
+  "profName": [
+   "Profs divers"
+  ]
+ },
+ {
+  "courseName": "The energy challenge - the role of technology, business and society",
+  "courseCode": "ETH-451",
+  "courseSection": "PH_NE",
+  "profName": [
+   ""
+  ],
+  "courseDesc": "The energy challenge - the role of technology, business and society\nETH-451    Lecturer(s) : Language:English\nRemarque    \nCours donné par l'ETHZ"
+ },
+ {
+  "courseName": "Therapeutic Applications of Particle Physics: Principles and Practice of Particle Therapy",
+  "courseCode": "ETH-449",
+  "courseSection": "PH",
+  "profName": [
+   "Profs divers"
+  ]
+ }
+]

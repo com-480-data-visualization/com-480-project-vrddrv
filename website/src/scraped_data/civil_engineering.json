@@ -1,0 +1,647 @@
+[
+ {
+  "courseName": "Engineering internship (master in Civil engineering)",
+  "courseCode": "CIVIL-597",
+  "courseSection": "GC",
+  "profName": [
+   "Profs divers"
+  ]
+ },
+ {
+  "courseName": "Master project in Civil Engineering",
+  "courseCode": "CIVIL-599",
+  "courseSection": "GC",
+  "profName": [
+   "Profs divers"
+  ]
+ },
+ {
+  "courseName": "Building energetics",
+  "courseCode": "ENG-445",
+  "courseSection": "GC",
+  "profName": [
+   "Khovalyg",
+   "Licina"
+  ],
+  "courseDesc": "The course presents the main methodological topics of energy management in the building by emphasizing on the thermal energy requirements for the the users' comfort. The technical installations are modelled as well. Finally the economic and environmental evaluation methods are presented."
+ },
+ {
+  "courseName": "Dynamic analysis of structures",
+  "courseCode": "CIVIL-420",
+  "courseSection": "GC",
+  "profName": [
+   "Lestuzzi"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Fundamentals of traffic operations and control",
+  "courseCode": "CIVIL-457",
+  "courseSection": "GC",
+  "profName": [
+   "Geroliminis"
+  ],
+  "courseDesc": "The objectives of this course are to present the major elements of traffic operations and to develop basic skills in applying the fundamentals of traffic analysis and control. Students should be able to start applying these skills to model different aspects of congestion in urban systems."
+ },
+ {
+  "courseName": "Geomechanics",
+  "courseCode": "CIVIL-402",
+  "courseSection": "GC",
+  "profName": [
+   "Koliji",
+   "Laloui"
+  ],
+  "courseDesc": "The course aims at providing future civil engineers with the knowledge of geomechanics for professional practice. It addresses, among others, the main stress-strain constitutive models within the context of elasticity and elasto-plasticity and the estimation methods of the lateral earth pressure."
+ },
+ {
+  "courseName": "Hydraulic and hydroelectric structures and schemes",
+  "courseCode": "CIVIL-412",
+  "courseSection": "GC",
+  "profName": [
+   "De Almeida Manso",
+   "De Cesare"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Civil engineering teaching unit: Sustainable construction",
+  "courseCode": "CIVIL-474",
+  "courseSection": "GC",
+  "profName": [
+   "Gnansounou",
+   "Nussbaumer",
+   "Wienold"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Civil system project",
+  "courseCode": "CIVIL-491",
+  "courseSection": "GC",
+  "profName": [
+   "Profs divers"
+  ]
+ },
+ {
+  "courseName": "Construction project",
+  "courseCode": "CIVIL-490",
+  "courseSection": "GC",
+  "profName": [
+   "Profs divers"
+  ]
+ },
+ {
+  "courseName": "ENAC project",
+  "courseCode": "PENS-490",
+  "courseSection": "GC",
+  "profName": [
+   "Profs divers"
+  ]
+ },
+ {
+  "courseName": "Laboratory GC",
+  "courseCode": "CIVIL-492",
+  "courseSection": "GC",
+  "profName": [
+   "Profs divers"
+  ]
+ },
+ {
+  "courseName": "Summer workshop",
+  "courseCode": "PENS-491",
+  "courseSection": "GC",
+  "profName": [
+   "Profs divers"
+  ]
+ },
+ {
+  "courseName": "HSS : Introduction to project",
+  "courseCode": "",
+  "courseSection": "SHS",
+  "profName": [
+   "Divers enseignants"
+  ]
+ },
+ {
+  "courseName": "HSS : Project",
+  "courseCode": "",
+  "courseSection": "SHS",
+  "profName": [
+   "Divers enseignants"
+  ]
+ },
+ {
+  "courseName": "Pre-study master project (Only semester M3)",
+  "courseCode": "CIVIL-598",
+  "courseSection": "GC",
+  "profName": [
+   "Profs divers"
+  ]
+ },
+ {
+  "courseName": "Advanced composites in engineering structures",
+  "courseCode": "CIVIL-443",
+  "courseSection": "AR",
+  "profName": [
+   "Vassilopoulos"
+  ],
+  "courseDesc": "The objective of the course is to:\n1.\tIntroduce topics in properties, processing, mechanical behavior, characterization, analysis and structural design of Fiber Reinforced Composites\n2.\tHelp students develop their research skills through independent investigations on research topics."
+ },
+ {
+  "courseName": "Advanced continuum mechanics",
+  "courseCode": "CIVIL-422",
+  "courseSection": "GC",
+  "profName": [
+   "Molinari"
+  ],
+  "courseDesc": "Reading class of classic text book of Lawrence Malvern \"Introduction to the Mechanics of a Continuous Medium\". A special emphasis will be put on advanced topics, including finite kinematics, and non-linear material behavior. Applications will cover both solids and structures fluid mechanics."
+ },
+ {
+  "courseName": "Advanced design of concrete structures",
+  "courseCode": "CIVIL-414",
+  "courseSection": "GC",
+  "profName": [
+   "Fernandez-Ordoñez Hernandez",
+   "Muttoni"
+  ],
+  "courseDesc": "The course deals with the design of precast reinforced concrete structures, both for bridges and for buildings. The course is focused in learning by projects supplemented by some lectures by the teachers.The students will work in groups to design a precast structure."
+ },
+ {
+  "courseName": "Advanced steel design",
+  "courseCode": "CIVIL-435",
+  "courseSection": "GC",
+  "profName": [
+   "Lignos"
+  ],
+  "courseDesc": "Advanced topics in structural steel seismic design. frame stability; bolted and welded beam-to-column connections; beam-columns, steel braces, eccentrically braced frame links, capacity design of conventional steel-frame buildings; innovative lateral load resisting systems."
+ },
+ {
+  "courseName": "Aesthetics of civil structures",
+  "courseCode": "CIVIL-476",
+  "courseSection": "GC",
+  "profName": [
+   "Brühwiler"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Analysis and management of industrial risks",
+  "courseCode": "ENV-508",
+  "courseSection": "SIE",
+  "profName": [
+   "Berriot"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Complex structures",
+  "courseCode": "AR-535",
+  "courseSection": "AR",
+  "profName": [
+   "De Castro San Roman Fest",
+   "Keller"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Computational geomechanics",
+  "courseCode": "CIVIL-423",
+  "courseSection": "GC",
+  "profName": [
+   "Lecampion"
+  ],
+  "courseDesc": "The goal of this course is to introduce the student to modern numerical methods for the solution of coupled & non-linear problems arising in geo-mechanics / geotechnical engineering."
+ },
+ {
+  "courseName": "Concrete bridges",
+  "courseCode": "CIVIL-430",
+  "courseSection": "GC",
+  "profName": [
+   "Muttoni"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Concrete structures",
+  "courseCode": "CIVIL-525",
+  "courseSection": "GC",
+  "profName": [
+   "Fernández Ruiz"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Construction law for engineers I",
+  "courseCode": "ENG-470",
+  "courseSection": "GC",
+  "profName": [
+   "Mouvet",
+   "Müller",
+   "Zufferey"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Construction law for engineers II",
+  "courseCode": "ENG-471",
+  "courseSection": "GC",
+  "profName": [
+   "Müller",
+   "Zufferey"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Dams and appurtenant hydraulic structures",
+  "courseCode": "CIVIL-411",
+  "courseSection": "GC",
+  "profName": [
+   "De Almeida Manso",
+   "Mouvet"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Decision-aid methodologies in transportation",
+  "courseCode": "CIVIL-557",
+  "courseSection": "GC",
+  "profName": [
+   "Dougui",
+   "Hillel"
+  ],
+  "courseDesc": "Introduction to operations research, data mining and machine learning algorithms for decision support in transportation systems."
+ },
+ {
+  "courseName": "Deep Learning for autonomous vehicles",
+  "courseCode": "CIVIL-459",
+  "courseSection": "GC",
+  "profName": [
+   "Alahi",
+   "Kreiss"
+  ],
+  "courseDesc": "Self-driving cars, delivery robots, or self-moving segways. Most of these AI-driven transportation systems rely on four pillars: 1-Sensing, 2-Perceiving, 3-Predicting, and 4-Acting steps. Students will learn the fundamentals behind these four pillars, i.e., the technology behind autonomous vehicles."
+ },
+ {
+  "courseName": "Distributed intelligent systems",
+  "courseCode": "ENG-466",
+  "courseSection": "SIE",
+  "profName": [
+   "Martinoli"
+  ],
+  "courseDesc": "The goal of this course is to provide methods and tools for modeling distributed intelligent systems as well as designing and optimizing coordination strategies. The course is a well-balanced mixture of theory and practical activities using simulation and real hardware platforms."
+ },
+ {
+  "courseName": "Energy geostructures",
+  "courseCode": "CIVIL-444",
+  "courseSection": "GC",
+  "profName": [
+   "Laloui"
+  ],
+  "courseDesc": "Energy geostructures are an innovative technology that couple the structural role of foundations and the heatingcooling\nrole of geothermal heat exchangers. The goal of the course is to provide a comprehensive understanding\nof the structural, geotechnical and energy behaviour."
+ },
+ {
+  "courseName": "Engineering geology for geo-energy",
+  "courseCode": "CIVIL-428",
+  "courseSection": "GC",
+  "profName": [
+   "Nussbaum"
+  ],
+  "courseDesc": "Objective is to provide an understanding of the problems in geo-energy projects. Human induced fracturing has serious consequences in projects as conventional and unconventional hydrocarbon resources exploration, deep geothermal systems, CO2 storage and deep geological disposal of radioactive waste."
+ },
+ {
+  "courseName": "Existing structures : basis",
+  "courseCode": "CIVIL-436",
+  "courseSection": "GC",
+  "profName": [
+   "Brühwiler"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Existing structures : selected topics",
+  "courseCode": "CIVIL-437",
+  "courseSection": "GC",
+  "profName": [
+   "Brühwiler"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Flood and dam break waves",
+  "courseCode": "CIVIL-515",
+  "courseSection": "GC",
+  "profName": [
+   "Ancey"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Fluvial hydraulics and river training works",
+  "courseCode": "CIVIL-410",
+  "courseSection": "GC",
+  "profName": [
+   "André",
+   "Arborino",
+   "De Cesare"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Geology for construction and environment",
+  "courseCode": "CIVIL-403",
+  "courseSection": "GC",
+  "profName": [
+   "Tacher"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Geophysics for engineers",
+  "courseCode": "CIVIL-448",
+  "courseSection": "GC",
+  "profName": [
+   "Violay"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Impact studies",
+  "courseCode": "ENG-474",
+  "courseSection": "GC",
+  "profName": [
+   "Devanthéry",
+   "Helfer",
+   "Schmidt"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Indoor air quality and ventilation",
+  "courseCode": "CIVIL-460",
+  "courseSection": "GC",
+  "profName": [
+   "Licina"
+  ],
+  "courseDesc": "This course provides a fundamental knowledge of an emerging area - indoor air quality. This course also gives an overview of ventilation strategies and airflow distribution strategies tuned to ensure the highest level of air quality in buildings."
+ },
+ {
+  "courseName": "Innovation for construction and the environment",
+  "courseCode": "CIVIL-424",
+  "courseSection": "GC",
+  "profName": [
+   "Laloui",
+   "Terzis"
+  ],
+  "courseDesc": "The goal of the course is to seek to instill in its future graduates the skills necessary to be successful in the civil engineering industry. One skill that appears underserved and is expected to be strengthened through this course is the skill to innovate."
+ },
+ {
+  "courseName": "Integrated planning of energy infrastructures",
+  "courseCode": "CIVIL-442",
+  "courseSection": "GC",
+  "profName": [
+   "Gnansounou"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Materials and structures",
+  "courseCode": "CIVIL-532",
+  "courseSection": "GC",
+  "profName": [
+   "Denarié"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Modelling of energy systems",
+  "courseCode": "CIVIL-447",
+  "courseSection": "GC",
+  "profName": [
+   "Gnansounou"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Network analytics",
+  "courseCode": "MGT-416",
+  "courseSection": "MTE",
+  "profName": [
+   "Kiyavash"
+  ],
+  "courseDesc": "Students will learn the core concepts and techniques of network analysis with emphasis on causal inference. Theory and application will be balanced, with students working directly with network data throughout the course."
+ },
+ {
+  "courseName": "Nonlinear analysis of structures",
+  "courseCode": "CIVIL-449",
+  "courseSection": "GC",
+  "profName": [
+   "Beyer",
+   "Lignos"
+  ],
+  "courseDesc": "This course deals with the nonlinear modelling and analysis of structures when subjected to monotonic, cyclic, and dynamic loadings, focusing in particular on the seismic response of structures. It introduces solution methods for nonlinear static and dynamic problems."
+ },
+ {
+  "courseName": "Optional transdisciplinary project",
+  "courseCode": "CIVIL-493",
+  "courseSection": "GC",
+  "profName": [
+   "Profs divers"
+  ]
+ },
+ {
+  "courseName": "Programming concepts in scientific computing",
+  "courseCode": "MATH-458",
+  "courseSection": "GC",
+  "profName": [
+   "Anciaux"
+  ],
+  "courseDesc": "The aim of this course is to provide the background in scientific computing. The class includes a brief introduction to basic programming in c++, it then focus on object oriented programming and c++ specific programming techniques."
+ },
+ {
+  "courseName": "Project management and risk analysis",
+  "courseCode": "MGT-427",
+  "courseSection": "MTE",
+  "profName": [
+   "Wieser"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Public transportation systems",
+  "courseCode": "CIVIL-461",
+  "courseSection": "GC",
+  "profName": [
+   "Christofa"
+  ],
+  "courseDesc": "The objectives of this course are to develop analytical skills that students can apply in the planning and management of public transport systems. This optional course will be given only in spring 2019-20!"
+ },
+ {
+  "courseName": "Risk analysis and management",
+  "courseCode": "CIVIL-438",
+  "courseSection": "GC",
+  "profName": [
+   "Defert",
+   "Vulliet"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "River eco-morphology",
+  "courseCode": "ENV-418",
+  "courseSection": "GC",
+  "profName": [
+   "De Cesare",
+   "Gostner"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Seismic engineering",
+  "courseCode": "CIVIL-522",
+  "courseSection": "GC",
+  "profName": [
+   "Beyer"
+  ],
+  "courseDesc": "This course deals with the main aspects of seismic design of buildings and bridges. It covers different structural design and evaluation philosophies for new and existing reinforced concrete and masonry structures."
+ },
+ {
+  "courseName": "Selected topics in mechanics of solids and structures",
+  "courseCode": "CIVIL-527",
+  "courseSection": "GC",
+  "profName": [
+   "Molinari"
+  ],
+  "courseDesc": "The class covers the fundamentals of wave dynamics and fracture mechanics. The aim is to deepen their knowledge in advanced topis in mechanics of solids and structures and discuss current research topics. Case studies on catastrophic failure will be presented and discussed in class."
+ },
+ {
+  "courseName": "Slope stability",
+  "courseCode": "CIVIL-530",
+  "courseSection": "GC",
+  "profName": [
+   "Ferrari"
+  ],
+  "courseDesc": "The course aims at providing future civil engineers with a comprehensive view on soil slope stability. It addresses landslide types and mass movement classification; slope failure mechanisms and methods for slope stability analysis are discussed; remedial measures and risk analysis are presented."
+ },
+ {
+  "courseName": "Steel structures",
+  "courseCode": "CIVIL-526",
+  "courseSection": "GC",
+  "profName": [
+   "Nussbaumer"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Structural stability",
+  "courseCode": "CIVIL-369",
+  "courseSection": "GC",
+  "profName": [
+   "De Abreu E Presa De Castro E Sousa",
+   "Lignos"
+  ],
+  "courseDesc": "Advanced topics in structural stability; elastic & inelastic column buckling; beam-columns; lateral-torsional buckling of bridge girders; nonlinear geometric effects; frame stability; computational formulation of stability theory; stiffness & flexibility methods"
+ },
+ {
+  "courseName": "Structure and architecture",
+  "courseCode": "CIVIL-434",
+  "courseSection": "GC",
+  "profName": [
+   "Muttoni",
+   "Wahlen"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Sustainable logistics systems",
+  "courseCode": "CIVIL-462",
+  "courseSection": "GC",
+  "profName": [
+   "Gonzales"
+  ],
+  "courseDesc": "The cours objectives are for students to understand mathematical and analytical Tools for planning and operating sutainable freight systems that account for economic costs as well as enivornmental impacts. This optional course will be given only in spring 2019-20!"
+ },
+ {
+  "courseName": "Thermodynamics of comfort in buildings",
+  "courseCode": "CIVIL-450",
+  "courseSection": "GC",
+  "profName": [
+   "Khovalyg"
+  ],
+  "courseDesc": "This course provides an integrated approach to analyze indoor thermal comfort by examining thermodynamics of heat flows in buildings and correlation between indoor thermal environment, performance of the building envelope and thermal conditioning systems (HVAC)."
+ },
+ {
+  "courseName": "Timber construction",
+  "courseCode": "CIVIL-433",
+  "courseSection": "GC",
+  "profName": [
+   "Natterer"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Towns and Transports",
+  "courseCode": "CIVIL-451",
+  "courseSection": "GC",
+  "profName": [
+   "Tufo"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Transportation economics",
+  "courseCode": "CIVIL-455",
+  "courseSection": "GC",
+  "profName": [
+   "Geroliminis",
+   "de Palma"
+  ],
+  "courseDesc": "The scope of the lecture is to provide the basic concepts in transport economics and introduce new  ones for private and public transport and  environmental issues. Demand, supply, welfare analysis and regulation will be illustrated."
+ },
+ {
+  "courseName": "Transport facilities I",
+  "courseCode": "CIVIL-463",
+  "courseSection": "GC",
+  "profName": [
+   "Tille"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Transport facilities II",
+  "courseCode": "CIVIL-454",
+  "courseSection": "GC",
+  "profName": [
+   "Tille"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Underground construction technology",
+  "courseCode": "CIVIL-404",
+  "courseSection": "GC",
+  "profName": [
+   "Sandrone",
+   "Seingre"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Urban hydraulic systems",
+  "courseCode": "CIVIL-413",
+  "courseSection": "GC",
+  "profName": [
+   "Pfister"
+  ],
+  "courseDesc": "The basic features of fresh water and sewer nets are considered. For fresh water, the capture, the reservoir and the distribution net are discussed. For sewers, conduit and manhole hydraulics is in the focus. Besides, the legal background is provided and methods to derive the relevant discharges."
+ },
+ {
+  "courseName": "Water ressources management",
+  "courseCode": "CIVIL-441",
+  "courseSection": "GC",
+  "profName": [
+   "Davalle",
+   "Droz"
+  ],
+  "courseDesc": ""
+ }
+]

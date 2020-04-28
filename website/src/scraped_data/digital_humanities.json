@@ -1,0 +1,403 @@
+[
+ {
+  "courseName": "Master project in digital humanities",
+  "courseCode": "DH-499",
+  "courseSection": "DH",
+  "profName": [
+   "Profs divers"
+  ]
+ },
+ {
+  "courseName": "Engineering internship (master in digital humanities)",
+  "courseCode": "DH-490",
+  "courseSection": "DH",
+  "profName": [
+   ""
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Applied data analysis",
+  "courseCode": "CS-401",
+  "courseSection": "SC",
+  "profName": [
+   "West"
+  ],
+  "courseDesc": "This course teaches the basic techniques and practical skills required to make sense out of a variety of data, with the help of the most acclaimed software tools in the data science world: pandas, scikit-learn, Spark, etc."
+ },
+ {
+  "courseName": "Computational Social Media ",
+  "courseCode": "EE-727",
+  "courseSection": "EL",
+  "profName": [
+   "Gatica-Perez"
+  ],
+  "courseDesc": "C"
+ },
+ {
+  "courseName": "Foundation of digital humanities",
+  "courseCode": "DH-405",
+  "courseSection": "DH",
+  "profName": [
+   "Kaplan"
+  ],
+  "courseDesc": "This course gives an introduction to the fundamental concepts and methods of the Digital Humanities, both from a theoretical and applied point of view. The course introduces the Digital Humanities circle of processing and interpretation, from data acquisition to new understandings."
+ },
+ {
+  "courseName": "Machine learning for DH",
+  "courseCode": "DH-406",
+  "courseSection": "DH",
+  "profName": [
+   "Salzmann"
+  ],
+  "courseDesc": "This course aims to introduce the basic principles of machine learning in the context of the digital humanities. We will cover both supervised and unsupervised learning techniques, and study and implement methods to analyze diverse data types, such as images, music and social network data."
+ },
+ {
+  "courseName": "HSS : Introduction to project",
+  "courseCode": "",
+  "courseSection": "SHS",
+  "profName": [
+   "Divers enseignants"
+  ]
+ },
+ {
+  "courseName": "HSS : Project",
+  "courseCode": "",
+  "courseSection": "SHS",
+  "profName": [
+   "Divers enseignants"
+  ]
+ },
+ {
+  "courseName": "Cultural data sculpting",
+  "courseCode": "DH-404",
+  "courseSection": "DH",
+  "profName": [
+   "Kenderdine"
+  ],
+  "courseDesc": "This course will engage novel approaches for visualizing and interacting with cultural heritage archives in immersive virtual environments."
+ },
+ {
+  "courseName": "Design research for digital innovation",
+  "courseCode": "DH-411",
+  "courseSection": "DH",
+  "profName": [
+   "Henchoz"
+  ],
+  "courseDesc": "How can we turn digital technologies and data into meaningful user experiences? How can we face societal issues raised by this digital evolution? This course proposes an immersion in design research and UX/UI psychology. It will combine theory, case study, practice and creativity"
+ },
+ {
+  "courseName": "Digital musicology",
+  "courseCode": "DH-401",
+  "courseSection": "DH",
+  "profName": [
+   "Rohrmeier"
+  ],
+  "courseDesc": "This course will introduce students to the broad range of topics in digital musicology as well as essential theoretical approaches and methods. In the practical part, students will carry out a small course project on their own."
+ },
+ {
+  "courseName": "History and the digital",
+  "courseCode": "DH-412",
+  "courseSection": "DH",
+  "profName": [
+   "Baudry"
+  ],
+  "courseDesc": "The course will present a number of computational approaches and tools that can be used to study history. Drawing on case studies from the history of science and technology, the course will also offer students the opportunity to critically reflect on their own practices as digital humanists."
+ },
+ {
+  "courseName": "Advanced computer graphics",
+  "courseCode": "CS-440",
+  "courseSection": "IN",
+  "profName": [
+   "Jakob"
+  ],
+  "courseDesc": "This course covers advanced 3D graphics techniques for realistic image synthesis. Students will learn how light interacts with objects in our world, and how to recreate these phenomena in a computer simulation to create synthetic images that are indistinguishable from photographs."
+ },
+ {
+  "courseName": "Audio and acoustic signal processing",
+  "courseCode": "COM-415",
+  "courseSection": "SC",
+  "profName": [
+   "Faller",
+   "Kolundzija"
+  ],
+  "courseDesc": "The objective of the course is to introduce theory, methods, ans basic psychoacoustics that is needed to understand state-of-the-art techniques used in pro audio and consumer audio, including microphones, surround sound, mixing and audio coding."
+ },
+ {
+  "courseName": "Automatic speech processing",
+  "courseCode": "EE-554",
+  "courseSection": "EL",
+  "profName": [
+   "Bourlard"
+  ],
+  "courseDesc": "The goal of this course is to provide the students with the main formalisms, models and algorithms required for the implementation of advanced speech processing applications (involving, among others, speech coding, speech analysis/synthesis, and speech recognition)."
+ },
+ {
+  "courseName": "Computational photography",
+  "courseCode": "CS-413",
+  "courseSection": "SC",
+  "profName": [
+   "Süsstrunk"
+  ],
+  "courseDesc": "The students will gain the theoretical knowledge in computational photography, which allows recording and processing a richer visual experience than traditional digital imaging. They will also execute practical group projects to develop their own computational photography application."
+ },
+ {
+  "courseName": "Computer vision",
+  "courseCode": "CS-442",
+  "courseSection": "IN",
+  "profName": [
+   "Fua"
+  ],
+  "courseDesc": "Computer Vision aims at modeling the world from digital images acquired using video or infrared cameras, and other imaging sensors.\n\nWe will focus on images acquired using digital cameras. We will introduce basic processing techniques and discuss their field of applicability."
+ },
+ {
+  "courseName": "Database systems",
+  "courseCode": "CS-422",
+  "courseSection": "IN",
+  "profName": [
+   "Ailamaki"
+  ],
+  "courseDesc": "This course is intended for students who want to understand modern large-scale data analysis systems and database systems. It covers a wide range of topics and technologies, and will prepare students to be able to build such systems as well as read and understand recent research publications."
+ },
+ {
+  "courseName": "Data visualization",
+  "courseCode": "COM-480",
+  "courseSection": "SC",
+  "profName": [
+   "Vuillon"
+  ],
+  "courseDesc": "Understanding why and how to present complex data interactively in an effective manner has become a crucial skill for any data scientist. In this course, you will learn how to design, judge, build and present your own interactive data visualizations."
+ },
+ {
+  "courseName": "Decision-aid methodologies in transportation",
+  "courseCode": "CIVIL-557",
+  "courseSection": "GC",
+  "profName": [
+   "Dougui",
+   "Hillel"
+  ],
+  "courseDesc": "Introduction to operations research, data mining and machine learning algorithms for decision support in transportation systems."
+ },
+ {
+  "courseName": "Deep learning",
+  "courseCode": "EE-559",
+  "courseSection": "EL",
+  "profName": [
+   "Fleuret"
+  ],
+  "courseDesc": "The objective of this course is to provide a complete introduction to deep machine learning. How to design a neural network, how to train it, and what are the modern techniques that specifically handle very large networks."
+ },
+ {
+  "courseName": "Digital 3D geometry processing",
+  "courseCode": "CS-446",
+  "courseSection": "IN",
+  "profName": [
+   "Pauly"
+  ],
+  "courseDesc": "Students study & apply core concepts and algorithms for digital geometry processing. They create their own digital and physical geometry that follows the digital 3D content creation pipeline from data acquisition, geometry processing, to physical fabrication."
+ },
+ {
+  "courseName": "Digital education & learning analytics",
+  "courseCode": "CS-411",
+  "courseSection": "IN",
+  "profName": [
+   "Dillenbourg",
+   "Jermann"
+  ],
+  "courseDesc": "This course addresses the relationship between specific technological features and the learners' cognitive processes. It also covers the methods and results of empirical studies on this topic: do student actually learn due to technologies?"
+ },
+ {
+  "courseName": "Distributed information systems",
+  "courseCode": "CS-423",
+  "courseSection": "SC",
+  "profName": [
+   "Aberer"
+  ],
+  "courseDesc": "This course introduces the key concepts and algorithms from the areas of information retrieval, data mining and knowledge bases, which constitute the foundations of today's Web-based distributed information systems."
+ },
+ {
+  "courseName": "Exploratory data analysis and geovisualization",
+  "courseCode": "ENV-444",
+  "courseSection": "SIE",
+  "profName": [
+   "Joost"
+  ],
+  "courseDesc": "This course teaches how to apply spatial exploratory approaches and processing methods and to apply them to georeferenced datasets relevant to the fields of environmental engineering, urban planning and spatial epidemiology."
+ },
+ {
+  "courseName": "From structure to ornament: a cultural history of construction",
+  "courseCode": "AR-521",
+  "courseSection": "AR",
+  "profName": [
+   "Picon"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Human computer interaction",
+  "courseCode": "CS-486",
+  "courseSection": "IN",
+  "profName": [
+   "Pu Faltings"
+  ],
+  "courseDesc": "This course focuses on goal-directed design and interaction design, two subjects treated in depth in the Cooper book (see reference below). To practice these two methods, we propose a design challenge, which is to be carried out by a team of three students."
+ },
+ {
+  "courseName": "Image and video processing",
+  "courseCode": "EE-550",
+  "courseSection": "EL",
+  "profName": [
+   "Ebrahimi"
+  ],
+  "courseDesc": "This course covers fundamental notions in image and video processing, as well as covers most popular tools used, such as edge detection, motion estimation, segmentation, and compression. It is composed of lectures, laboratory sessions, and mini-projects."
+ },
+ {
+  "courseName": "Image processing I",
+  "courseCode": "MICRO-511",
+  "courseSection": "MT",
+  "profName": [
+   "Unser",
+   "Van De Ville"
+  ],
+  "courseDesc": "Introduction to the basic techniques of image processing. Introduction to the development of image-processing software and to prototyping in JAVA. Application to real-world examples in industrial vision and biomedical imaging."
+ },
+ {
+  "courseName": "Image processing II",
+  "courseCode": "MICRO-512",
+  "courseSection": "MT",
+  "profName": [
+   "Liebling",
+   "Sage",
+   "Unser",
+   "Van De Ville"
+  ],
+  "courseDesc": "Study of advanced image processing; mathematical imaging. Development of image-processing software and prototyping in JAVA; application to real-world examples in industrial vision and biomedical imaging."
+ },
+ {
+  "courseName": "Information theory and signal processing",
+  "courseCode": "COM-406",
+  "courseSection": "IN",
+  "profName": [
+   "Gastpar",
+   "Telatar",
+   "Urbanke"
+  ],
+  "courseDesc": "Information Theory and Signal Processing are key underpinnings of Data Science. They provide frameworks for signal representation and for fundamental performance bounds."
+ },
+ {
+  "courseName": "Introduction to BIM (Building Information Modeling)",
+  "courseCode": "AR-484",
+  "courseSection": "AR",
+  "profName": [
+   "Hautecoeur"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Introduction to natural language processing",
+  "courseCode": "CS-431",
+  "courseSection": "IN",
+  "profName": [
+   "Chappelier",
+   "Rajman"
+  ],
+  "courseDesc": "The objective of this course is to present the main models, formalisms and algorithms necessary for the development of applications in the field of natural language information processing. The concepts introduced during the lectures will be applied during practical sessions."
+ },
+ {
+  "courseName": "Linear models",
+  "courseCode": "MATH-341",
+  "courseSection": "MA",
+  "profName": [
+   "Panaretos"
+  ],
+  "courseDesc": "Regression modelling is a basic tool of statistics, because it describes how one variable may depend on another. The aim of this course is to familiarize students with the basis of regression modelling, and of some related topics."
+ },
+ {
+  "courseName": "Machine learning",
+  "courseCode": "CS-433",
+  "courseSection": "IN",
+  "profName": [
+   "Jaggi",
+   "Urbanke"
+  ],
+  "courseDesc": "Machine learning and data analysis are becoming increasingly central in many sciences and applications. In this course, fundamental principles and methods of machine learning will be introduced, analyzed and practically implemented."
+ },
+ {
+  "courseName": "Spatial statistics and analysis",
+  "courseCode": "ENG-440",
+  "courseSection": "SIE",
+  "profName": [
+   "Berne",
+   "Golay"
+  ],
+  "courseDesc": "The main objective is to make the students understand the importance of the spatial issues in environmental sciences and engineering, for example for mapping and interpolation. Presentation of different concepts and techniques devoted to spatial data."
+ },
+ {
+  "courseName": "Strategic marketing & technology commercialization",
+  "courseCode": "MGT-401",
+  "courseSection": "MTE",
+  "profName": [
+   "Eckardt"
+  ],
+  "courseDesc": "This course teaches students the power of building and implementing marketing strategies in order to help businesses to commercialize successfully their technological innovations.  \nIt offers a large overview of modern marketing and is not suited for students with advances market knowledge."
+ },
+ {
+  "courseName": "Technology & innovation strategy",
+  "courseCode": "MGT-414",
+  "courseSection": "MTE",
+  "profName": [
+   "Younge"
+  ],
+  "courseDesc": "Students will learn core concepts that can make innovation projects more successful and profitable, and to then apply those concepts to real business cases of known successes and failures with a focus on the economic and organizational conditions that advance technological innovation by firms"
+ },
+ {
+  "courseName": "UE H : Graphy ",
+  "courseCode": "AR-433",
+  "courseSection": "AR",
+  "profName": [
+   "Métraux",
+   "Paternault",
+   "Soubeyrand"
+  ],
+  "courseDesc": "C"
+ },
+ {
+  "courseName": "UE J : Territory and landscape",
+  "courseCode": "AR-471",
+  "courseSection": "AR",
+  "profName": [
+   "Brault-Fulop",
+   "Cogato Lanza",
+   "Pattaroni",
+   "Villaret"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "UE R: Introduction to BIM (Building Information Modeling)",
+  "courseCode": "AR-435",
+  "courseSection": "AR",
+  "profName": [
+   "Hautecoeur"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Virtual reality",
+  "courseCode": "CS-444",
+  "courseSection": "IN",
+  "profName": [
+   "Boulic"
+  ],
+  "courseDesc": "The goal of VR is to embed the users in a potentially complex virtual environment while ensuring that they are able to react as if this environment were real. The course provides a human perception-action background and describes the key techniques for achieving efficient VR applications."
+ },
+ {
+  "courseName": "Visions and Utopias",
+  "courseCode": "AR-407",
+  "courseSection": "AR",
+  "profName": [
+   "Braghieri"
+  ],
+  "courseDesc": ""
+ }
+]

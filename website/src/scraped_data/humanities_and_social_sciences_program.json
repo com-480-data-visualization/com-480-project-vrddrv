@@ -1,0 +1,598 @@
+[
+ {
+  "courseName": "Artistic practices I",
+  "courseCode": "HUM-401",
+  "courseSection": "SHS",
+  "profName": [
+   "Briones Amarelo",
+   "Nova",
+   "Savicic"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "China: the rebirth of a great power I",
+  "courseCode": "HUM-434",
+  "courseSection": "SHS",
+  "profName": [
+   "Kernen"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Collective creation: improv-arts & engineering I",
+  "courseCode": "HUM-441",
+  "courseSection": "SHS",
+  "profName": [
+   "Henein"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Contemporary Japan I",
+  "courseCode": "HUM-444",
+  "courseSection": "SHS",
+  "profName": [
+   "Vogel Chevroulet"
+  ],
+  "courseDesc": "This introductory course is an inquiry into the culture of Japan - its thought and way of life - that is designed to foster future study of the archipelago. It elucidates the specificities of a Japanese identity that is imbued with both tradition and openness to innovation."
+ },
+ {
+  "courseName": "Digital humanities I",
+  "courseCode": "HUM-439",
+  "courseSection": "SHS",
+  "profName": [
+   "Bott",
+   "Grandjean"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Economic growth and sustainability I",
+  "courseCode": "HUM-471",
+  "courseSection": "SHS",
+  "profName": [
+   "Thalmann"
+  ],
+  "courseDesc": "This course examines growth from various angles: population growth, economic growth, growth in the use of resources, growing inequality, need for growth, limits to growth, sustainable growth. Although grounded in economics, it takes up elements from many other disciplines."
+ },
+ {
+  "courseName": "Engineering ethics I",
+  "courseCode": "HUM-412",
+  "courseSection": "SHS",
+  "profName": [
+   "Poltier"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Experimental cognitive psychology I",
+  "courseCode": "HUM-403",
+  "courseSection": "SHS",
+  "profName": [
+   "Mohr"
+  ],
+  "courseDesc": "The media frequently report on trendy studies that have been conducted in experimental cognitive psychology, and which inform the public on \"human functioning\" and its causes. We teach students basic skills and requirements when performing, understanding and comprehending such studies."
+ },
+ {
+  "courseName": "Global perspectives, local realities I",
+  "courseCode": "HUM-440",
+  "courseSection": "SHS",
+  "profName": [
+   "Hoesli",
+   "Laperrouza",
+   "Lutzelschwab"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Governing global migration I",
+  "courseCode": "HUM-446",
+  "courseSection": "SHS",
+  "profName": [
+   "Dungy"
+  ],
+  "courseDesc": "This course examines key areas of contemporary migration politics in a historical perspective, such as refugee protection, labor mobility, and regional integration. It also trains students in methods of documentary research."
+ },
+ {
+  "courseName": "Graphic design V",
+  "courseCode": "HUM-407",
+  "courseSection": "SHS",
+  "profName": [
+   "Roueche"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Heritage and digitization: Montreux Jazz Memories I",
+  "courseCode": "HUM-468",
+  "courseSection": "SHS",
+  "profName": [
+   "Camus",
+   "Dufaux",
+   "Graezer Bideau"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "History of globalization I",
+  "courseCode": "HUM-427",
+  "courseSection": "SHS",
+  "profName": [
+   ""
+  ],
+  "courseDesc": "This course is intended to contribute to the students' knowledge of crucial issues related to the phenomenon known as globalization, namely: humanitarianism, global health and development.\nThe course critically examines a number of practices, the politics, interests and visions of actors."
+ },
+ {
+  "courseName": "How people learn I",
+  "courseCode": "HUM-432",
+  "courseSection": "SHS",
+  "profName": [
+   "Tormey"
+  ],
+  "courseDesc": "The students will understand the factors which affect the learning of professionals (such as engineers or teachers). They will understand differences between learning during (a) initial training, (b) induction into the workplace, and (c) the on-going development of experienced professionals."
+ },
+ {
+  "courseName": "Images of nature I",
+  "courseCode": "HUM-409",
+  "courseSection": "SHS",
+  "profName": [
+   "Mauron Layaz",
+   "Ourednik"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Industrial design V",
+  "courseCode": "HUM-408",
+  "courseSection": "SHS",
+  "profName": [
+   "Král"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Law and technology I",
+  "courseCode": "HUM-410",
+  "courseSection": "SHS",
+  "profName": [
+   "Favre",
+   "Neuenschwander",
+   "Stauber"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Managing organizations I",
+  "courseCode": "HUM-435",
+  "courseSection": "SHS",
+  "profName": [
+   "Bendahan"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Media culture I",
+  "courseCode": "HUM-404",
+  "courseSection": "SHS",
+  "profName": [
+   "Schoch"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Men/machines I",
+  "courseCode": "HUM-416",
+  "courseSection": "SHS",
+  "profName": [
+   "Kunz Westerhoff",
+   "Rosset"
+  ],
+  "courseDesc": "C"
+ },
+ {
+  "courseName": "Music, politics and society I",
+  "courseCode": "HUM-406",
+  "courseSection": "SHS",
+  "profName": [
+   "Frei",
+   "Rauber"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Myths of the ancient Mediterranean Sea I",
+  "courseCode": "HUM-419",
+  "courseSection": "SHS",
+  "profName": [
+   "Bouvier",
+   "Capponi",
+   "Römer"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Philosophical perspectives on the exact sciences I",
+  "courseCode": "HUM-417",
+  "courseSection": "SHS",
+  "profName": [
+   "Esfeld"
+  ],
+  "courseDesc": "The course considers central themes in the philosophy of science, such as scientific realism and the ontology of physics. Starting from the debate between Leibniz and Newton about space and time, we move on to the transition from classical to quantum physics and the explanatory role of mathematics."
+ },
+ {
+  "courseName": "Philosophy of life sciences I",
+  "courseCode": "HUM-429",
+  "courseSection": "SHS",
+  "profName": [
+   "Sachse"
+  ],
+  "courseDesc": "Understand and discuss central issues in the philosophy of life sciences, e.g. that of reductionism or why free will might be an illusion. Transpose problems and arguments from one debate to another. Evaluate the impact of the scientific worldview to the proper understanding of our human nature."
+ },
+ {
+  "courseName": "Picture history I",
+  "courseCode": "HUM-418",
+  "courseSection": "SHS",
+  "profName": [
+   "Lugon"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Science, technology and society I",
+  "courseCode": "HUM-428",
+  "courseSection": "SHS",
+  "profName": [
+   "Vinck"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Sciences and religions I",
+  "courseCode": "HUM-436",
+  "courseSection": "SHS",
+  "profName": [
+   "Bert"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Scientific research in all it forms I",
+  "courseCode": "HUM-437",
+  "courseSection": "SHS",
+  "profName": [
+   "Preissmann"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Social psychology I",
+  "courseCode": "HUM-420",
+  "courseSection": "SHS",
+  "profName": [
+   "Butera"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Sociopolitical stakes in the digital technology I",
+  "courseCode": "HUM-442",
+  "courseSection": "SHS",
+  "profName": [
+   ""
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Understanding modern Switzerland I",
+  "courseCode": "HUM-422",
+  "courseSection": "SHS",
+  "profName": [
+   "Ginalski",
+   "Mach"
+  ],
+  "courseDesc": "This course provides a general introduction to Swiss history, its culture, its economy and its political system since 1848 until today."
+ },
+ {
+  "courseName": "Artistic practices II",
+  "courseCode": "HUM-451",
+  "courseSection": "SHS",
+  "profName": [
+   "Briones Amarelo",
+   "Nova",
+   "Savicic"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "China: the rebirth of a great power II",
+  "courseCode": "HUM-438",
+  "courseSection": "SHS",
+  "profName": [
+   "Kernen"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Collective creation: improv-arts & engineering II",
+  "courseCode": "HUM-443",
+  "courseSection": "SHS",
+  "profName": [
+   "Henein"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Contemporary Japan II",
+  "courseCode": "HUM-445",
+  "courseSection": "SHS",
+  "profName": [
+   "Vogel Chevroulet"
+  ],
+  "courseDesc": "This introductory course is an inquiry into the culture of Japan - its thought and way of life -  that is designed to foster future study of the archipelago. It elucidates the specificities of a Japanese identity that is imbued with both tradition and openness to innovation."
+ },
+ {
+  "courseName": "Digital humanities II",
+  "courseCode": "HUM-456",
+  "courseSection": "SHS",
+  "profName": [
+   "Bott",
+   "Grandjean"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Economic growth and sustainability II",
+  "courseCode": "HUM-470",
+  "courseSection": "SHS",
+  "profName": [
+   "Thalmann"
+  ],
+  "courseDesc": "This course examines growth from various angles: population growth, economic growth, growth in the use of resources, growing inequality, need for growth, limits to growth, sustainable growth. Although grounded in economics, it takes up elements from many other disciplines."
+ },
+ {
+  "courseName": "Engineering ethics II",
+  "courseCode": "HUM-459",
+  "courseSection": "SHS",
+  "profName": [
+   "Poltier"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Experimental cognitive psychology II",
+  "courseCode": "HUM-457",
+  "courseSection": "SHS",
+  "profName": [
+   "Mohr"
+  ],
+  "courseDesc": "The media frequently report on trendy studies that have been conducted in experimental cognitive psychology, and which inform the public on \"human functioning\". This course aims at teaching students basic skills and requirements to perform, understand and comprehend such studies."
+ },
+ {
+  "courseName": "Global perspectives, local realities II",
+  "courseCode": "HUM-460",
+  "courseSection": "SHS",
+  "profName": [
+   "Hoesli",
+   "Laperrouza"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Governing global migration II",
+  "courseCode": "HUM-447",
+  "courseSection": "SHS",
+  "profName": [
+   "Dungy"
+  ],
+  "courseDesc": "This course examines key areas of contemporary migration politics in a historical perspective, such as refugee protection, labor mobility, and regional integration. It also trains students in methods of documentary research."
+ },
+ {
+  "courseName": "Graphic design VI",
+  "courseCode": "HUM-411",
+  "courseSection": "SHS",
+  "profName": [
+   "Roueche"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Heritage, digitization and collaborative project I",
+  "courseCode": "HUM-469",
+  "courseSection": "SHS",
+  "profName": [
+   "Camus",
+   "Dufaux",
+   "Graezer Bideau"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "History of globalization II",
+  "courseCode": "HUM-462",
+  "courseSection": "SHS",
+  "profName": [
+   ""
+  ],
+  "courseDesc": "This course is intended to contribute to the students' knowledge of crucial issues related to the phenomenon known as globalization, namely: humanitarianism, global health and development.\nThe course critically examines a number of practices, the politics, interests and visions of actors."
+ },
+ {
+  "courseName": "How people learn II",
+  "courseCode": "HUM-433",
+  "courseSection": "SHS",
+  "profName": [
+   "Tormey"
+  ],
+  "courseDesc": "The students will understand the factors which affect the learning of professionals (such as engineers or teachers). They will understand differences between learning during (a) initial training, (b) induction into the workplace, and (c) the on-going development of experienced professionals."
+ },
+ {
+  "courseName": "Images of nature II",
+  "courseCode": "HUM-464",
+  "courseSection": "SHS",
+  "profName": [
+   "Mauron Layaz",
+   "Ourednik"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Industrial design VI",
+  "courseCode": "HUM-413",
+  "courseSection": "SHS",
+  "profName": [
+   "Král"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Law and technology II",
+  "courseCode": "HUM-414",
+  "courseSection": "SHS",
+  "profName": [
+   "Favre",
+   "Neuenschwander",
+   "Stauber"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Managing organizations II",
+  "courseCode": "HUM-461",
+  "courseSection": "SHS",
+  "profName": [
+   "Bendahan"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Media culture II",
+  "courseCode": "HUM-405",
+  "courseSection": "SHS",
+  "profName": [
+   "Schoch"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Men/machines II",
+  "courseCode": "HUM-463",
+  "courseSection": "SHS",
+  "profName": [
+   "Kunz Westerhoff",
+   "Rosset"
+  ],
+  "courseDesc": "C"
+ },
+ {
+  "courseName": "Music, politics and society II",
+  "courseCode": "HUM-458",
+  "courseSection": "SHS",
+  "profName": [
+   "Frei",
+   "Rauber"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Musical studies II",
+  "courseCode": "HUM-415",
+  "courseSection": "SHS",
+  "profName": [
+   "Dahmouni Martin"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Myths of the ancient Mediterranean Sea II",
+  "courseCode": "HUM-452",
+  "courseSection": "SHS",
+  "profName": [
+   "Bouvier",
+   "Capponi",
+   "Römer"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Philosophical perspectives on the exact sciences II",
+  "courseCode": "HUM-453",
+  "courseSection": "SHS",
+  "profName": [
+   "Esfeld"
+  ],
+  "courseDesc": "The course considers central themes in the philosophy of science, such as scientific realism and the ontology of physics. Starting from the debate between Leibniz and Newton about space and time, we move on to the transition from classical to quantum physics and the explanatory role of mathematics."
+ },
+ {
+  "courseName": "Philosophy of life sciences II",
+  "courseCode": "HUM-430",
+  "courseSection": "SHS",
+  "profName": [
+   "Sachse"
+  ],
+  "courseDesc": "Evaluate the main positions in a chosen philosophical debate. Develop in your group a solid approach to one or more philosophical problems of that debate. Defend your analysis and conclusions."
+ },
+ {
+  "courseName": "Picture history II",
+  "courseCode": "HUM-467",
+  "courseSection": "SHS",
+  "profName": [
+   "Lugon"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Science, technology and society II",
+  "courseCode": "HUM-426",
+  "courseSection": "SHS",
+  "profName": [
+   "Vinck"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Sciences and religions II",
+  "courseCode": "HUM-448",
+  "courseSection": "SHS",
+  "profName": [
+   "Bert"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Scientific research in all it forms II",
+  "courseCode": "HUM-455",
+  "courseSection": "SHS",
+  "profName": [
+   "Preissmann"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Social psychology II",
+  "courseCode": "HUM-421",
+  "courseSection": "SHS",
+  "profName": [
+   "Butera"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Sociopolitical stakes in the digital technology II",
+  "courseCode": "HUM-449",
+  "courseSection": "SHS",
+  "profName": [
+   ""
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Understanding modern Switzerland II",
+  "courseCode": "HUM-465",
+  "courseSection": "SHS",
+  "profName": [
+   "Ginalski",
+   "Mach"
+  ],
+  "courseDesc": "Based on the knowledge acquired during the fall semester course (Understanding modern Switzerland I), students are asked to work by group of 3-4 students and prepare a paper on a topic previously discussed with the teachers."
+ }
+]

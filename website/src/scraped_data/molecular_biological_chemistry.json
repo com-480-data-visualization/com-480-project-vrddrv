@@ -1,0 +1,384 @@
+[
+ {
+  "courseName": "Master project in Molecular & Biological Chemistry",
+  "courseCode": "CH-599",
+  "courseSection": "CGC",
+  "profName": [
+   "Profs divers"
+  ]
+ },
+ {
+  "courseName": "Chemical biology of cell imaging",
+  "courseCode": "CH-416",
+  "courseSection": "CGC",
+  "profName": [
+   "Rivera Fuentes"
+  ],
+  "courseDesc": "This course will introduce basic concepts of fluorescence spectroscopy and microscopy applied to the observation of biological systems. The course will focus on the design, preparation and implementation of small-molecule and protein-based probes."
+ },
+ {
+  "courseName": "Physical and chemical analyses of materials",
+  "courseCode": "CH-410",
+  "courseSection": "CGC",
+  "profName": [
+   "Roussel"
+  ],
+  "courseDesc": "The course relates on the use of electromagnetic (X-Ray) and corpuscular (electrons) radiations for physical and chemical analysis of solid materials."
+ },
+ {
+  "courseName": "Protein mass spectrometry and proteomics",
+  "courseCode": "CH-419",
+  "courseSection": "CGC",
+  "profName": [
+   "Dayon"
+  ],
+  "courseDesc": "In systems biology, proteomics represents an essential pillar. The understanding of protein function and regulation provides key information to decipher the complexity of living systems. Proteomic technology now enables deep quantitative proteome mapping via mass spectrometry."
+ },
+ {
+  "courseName": "Cellular signalling",
+  "courseCode": "CH-411",
+  "courseSection": "CGC",
+  "profName": [
+   "Hovius"
+  ],
+  "courseDesc": "Presentation of selected signalling pathways with emphasis on both the mechanism of action of the molecules involved, molecular interactions and the role of their spatio-temporal organization within the cell, considering cellular dimensions and conditions."
+ },
+ {
+  "courseName": "Frontiers in chemical biology",
+  "courseCode": "CH-412",
+  "courseSection": "CGC",
+  "profName": [
+   "Aye",
+   "Ferreira De Sousa Correia"
+  ],
+  "courseDesc": "Chemical biology is a key discipline in biomedical research for drug discovery, synthetic biology and protein functional annotation. We will give a broad perspective of the field ranging from seminal classical experiments to state-of-the-art approaches to dissect and perturb biological systems."
+ },
+ {
+  "courseName": "Nanobiotechnology and biophysics",
+  "courseCode": "CH-413",
+  "courseSection": "CGC",
+  "profName": [
+   "Fierz"
+  ],
+  "courseDesc": "This course concerns modern bioanalytical techniques to investigate biomolecules both in vitro and in vivo, including recent methods to image, track and manipulate single molecules. We cover the basic principles of the respective methods and discuss examples from the current scientific literature."
+ },
+ {
+  "courseName": "Computational methods in molecular quantum mechanics",
+  "courseCode": "CH-452",
+  "courseSection": "CGC",
+  "profName": [
+   "Bonella"
+  ],
+  "courseDesc": "This course will discuss the main methods for the simulation of quantum time dependent properties for molecular systems. Basic notions of density functional theory and of its time dependent version will be covered in the context of adiabatic and non adiabatic dynamics."
+ },
+ {
+  "courseName": "Understanding advanced molecular simulation",
+  "courseCode": "CH-420",
+  "courseSection": "CGC",
+  "profName": [
+   "Smit"
+  ],
+  "courseDesc": "This course introduces advanced molecular simulation techniques such as Monte Carlo and Molecular dynamics in different ensembles, free energy calculations, rare events, Configurational-bias Monte Carlo etc."
+ },
+ {
+  "courseName": "Catalysis for energy storage",
+  "courseCode": "CH-421",
+  "courseSection": "CGC",
+  "profName": [
+   "Hu"
+  ],
+  "courseDesc": "This course covers the fundamental and applied aspects of electrocatalysis related to renewable energy conversion and storage. The focus is on catalysis for hydrogen evolution, oxygen evolution, and CO2 reduction reactions. Both homogeneous and heterogeneous catalysts are discussed."
+ },
+ {
+  "courseName": "Catalyst design for synthesis",
+  "courseCode": "CH-422",
+  "courseSection": "CGC",
+  "profName": [
+   ""
+  ],
+  "courseDesc": "This advanced course on homogeneous catalysis explain the important role of the field in modern chemistry and provide a detailed understanding of how these catalysts work at a mechanistic level and give examples of important applications (carbon dioxid hydrogenation, hydrogen storage and delivery)."
+ },
+ {
+  "courseName": "Chemistry of f elements",
+  "courseCode": "CH-427",
+  "courseSection": "CGC",
+  "profName": [
+   "Mazzanti"
+  ],
+  "courseDesc": "The course will provide a synopsis of the chemistry of f elements (lanthanides and actinides) covering structure, bonding, redox and spectroscopic properties and reactivity. The coordination and organometallic chemistry of these ions will be discussed with an overview of their main applications."
+ },
+ {
+  "courseName": "Solid state chemistry and energy applications",
+  "courseCode": "CH-450",
+  "courseSection": "CGC",
+  "profName": [
+   "Queen"
+  ],
+  "courseDesc": "Students will learn about the structure & properties of several classes of solid state materials and gain insight into their importance in energy relevant applications."
+ },
+ {
+  "courseName": "Physical and computational organic chemistry",
+  "courseCode": "CH-431",
+  "courseSection": "CGC",
+  "profName": [
+   "Corminboeuf"
+  ],
+  "courseDesc": "This course introduces modern computational electronic structure methods and their broad applications to organic chemistry. It also discusses physical organic concepts to illustrate the stability and reactivity of organic molecules."
+ },
+ {
+  "courseName": "Structure and reactivity",
+  "courseCode": "CH-432",
+  "courseSection": "CGC",
+  "profName": [
+   "Cramer"
+  ],
+  "courseDesc": "To develop a detailed knowledge of the key steps of advanced modern organic synthesis going beyond classical chemistry of olefins and carbonyls."
+ },
+ {
+  "courseName": "Total synthesis of natural products",
+  "courseCode": "CH-438",
+  "courseSection": "CGC",
+  "profName": [
+   "Zhu"
+  ],
+  "courseDesc": "Complex polycyclic natural products are chosen to illustrate the evolution of the state-of-the-art of the field, the interplay between strategy and new reactions as well as the importance of implementing multi-bond forming processes in a synthesis."
+ },
+ {
+  "courseName": "Molecular quantum dynamics",
+  "courseCode": "CH-453",
+  "courseSection": "CGC",
+  "profName": [
+   "Vanicek"
+  ],
+  "courseDesc": "The course covers several exact, approximate, and numerical methods to solve the time-dependent molecular Schrödinger equation, and applications including calculations of molecular electronic spectra. More advanced topics include introduction to the semiclassical methods and Feynman path integral."
+ },
+ {
+  "courseName": "Optical methods in chemistry",
+  "courseCode": "CH-417",
+  "courseSection": "CGC",
+  "profName": [
+   "Bostedt"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Photochemistry II",
+  "courseCode": "CH-443",
+  "courseSection": "CGC",
+  "profName": [
+   "Moser"
+  ],
+  "courseDesc": "Following \"Photochemistry I\", this course introduces the current theoretical models regarding the dynamics of electron transfer. It focuses then on photoredox processes at the surface of solids. Current technological applications, as well as the most recent advances in the field are presented."
+ },
+ {
+  "courseName": "Structural dynamics",
+  "courseCode": "CH-418",
+  "courseSection": "CGC",
+  "profName": [
+   ""
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Advanced food chemistry",
+  "courseCode": "CH-428",
+  "courseSection": "CGC",
+  "profName": [
+   ""
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Advanced materials for photovoltaics and lighting",
+  "courseCode": "CH-447",
+  "courseSection": "CGC",
+  "profName": [
+   "Nazeeruddin"
+  ],
+  "courseDesc": "The course is made up of the understanding of the use of advanced materials for Dye-sensitized Solar Cells, Semiconductor Nanoparticles (Q-dots) and Organic Light Emitting Diodes (OLED)."
+ },
+ {
+  "courseName": "Analysis of ancient materials and their degradation",
+  "courseCode": "CH-406",
+  "courseSection": "CGC",
+  "profName": [
+   "Gervais"
+  ],
+  "courseDesc": "This course aims at introducing ancient materials and their investigation by non-destructive synchrotron and imaging techniques. Case-studies on paintings, ceramics, stained glass, fossils will be presented and important concepts introduced and discussed (multiscale, heterogeneity, representativity)"
+ },
+ {
+  "courseName": "Artificial photosynthesis",
+  "courseCode": "CH-426",
+  "courseSection": "CGC",
+  "profName": [
+   "Zakeeruddin"
+  ],
+  "courseDesc": "This class is intended to make students familiar with dye sensitized solar cells. It presents the principle of design and rationalize the influence of various components on the power conversion efficiency of solar cells."
+ },
+ {
+  "courseName": "Catalytic asymmetric reactions in organic chemistry",
+  "courseCode": "CH-435",
+  "courseSection": "CGC",
+  "profName": [
+   "Waser"
+  ],
+  "courseDesc": "This lecture presents the development of catalytic asymmetric reactions in organic chemistry, including important current topics of research in the field."
+ },
+ {
+  "courseName": "Chemistry of food processes",
+  "courseCode": "ENG-435",
+  "courseSection": "CGC",
+  "profName": [
+   "Blank"
+  ],
+  "courseDesc": "The course will deliver basic knowledge on the principles of food processing and chemical changes occurring during food manufacturing. Specific thermal processes related to transformation of food raw materials will be described along with benefits and challenges to consider."
+ },
+ {
+  "courseName": "Chemistry of small biological molecules",
+  "courseCode": "CH-415",
+  "courseSection": "CGC",
+  "profName": [
+   "Goun"
+  ],
+  "courseDesc": "The main goal of the course is to provide students with relevant background on available chemical tools (predominantly small molecules) that are used to solve important problems in biology and medicine."
+ },
+ {
+  "courseName": "Electronic spectroscopy",
+  "courseCode": "CH-444",
+  "courseSection": "CGC",
+  "profName": [
+   "Ingle"
+  ],
+  "courseDesc": "This course focuses on the electronic structure of atoms, diatomic and polyatomic molecules in order to understand their ultraviolet-visible absorption and photoelectron spectra."
+ },
+ {
+  "courseName": "Food chemistry",
+  "courseCode": "ENG-433",
+  "courseSection": "CGC",
+  "profName": [
+   "Richard"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Fundamentals of biosensors and electronic biochips",
+  "courseCode": "EE-515",
+  "courseSection": "EL",
+  "profName": [
+   "Guiducci"
+  ],
+  "courseDesc": "The labels \"biosensor\" and \"eBiochip\" have been employed to refer to the most diverse systems and in several fields of application. The course is meant not only to provide means to dig into this sea but also a thoughtful understanding of the detection principles and a design perspective."
+ },
+ {
+  "courseName": "Nanomaterials",
+  "courseCode": "MSE-477",
+  "courseSection": "MX",
+  "profName": [
+   "Tileli"
+  ],
+  "courseDesc": "This course is an introduction to the concepts and associated relevant physics and materials science principles of what makes nanomaterials outperform their bulk counterparts. It will cover their synthesis and characterization as well as the physical and chemical properties at the nanoscale."
+ },
+ {
+  "courseName": "Organic electronic materials - synthesis, applications, properties",
+  "courseCode": "MSE-486",
+  "courseSection": "MX",
+  "profName": [
+   "Frauenrath"
+  ],
+  "courseDesc": "This course will introduce students to the structural requirements of charge transport in organic materials as well as synthetic methods for their preparation."
+ },
+ {
+  "courseName": "Pharmacological chemistry",
+  "courseCode": "CH-414",
+  "courseSection": "CGC",
+  "profName": [
+   ""
+  ],
+  "courseDesc": "The molecular and chemical basis of diseases and therapies are discussed."
+ },
+ {
+  "courseName": "Photomedicine",
+  "courseCode": "CH-448",
+  "courseSection": "CGC",
+  "profName": [
+   "Wagnières"
+  ],
+  "courseDesc": "The most important clinical diagnostic and therapeutic applications of light will be described. In addition, this course will address the principles governing the interactions between light and biological tissues, their optical properties and basic concepts in photobiology and photochemistry."
+ },
+ {
+  "courseName": "Physical chemistry of polymeric materials",
+  "courseCode": "MSE-431",
+  "courseSection": "MX",
+  "profName": [
+   "Klok-Lermann"
+  ],
+  "courseDesc": "The student has a basic understanding of the physical and physicochemical principles which result from the chainlike structure of synthetic macromolecules. The student can predict major characteristics of a polymer from its chemical structure and molecular architecture."
+ },
+ {
+  "courseName": "Polymer chemistry and macromolecular engineering",
+  "courseCode": "MSE-437",
+  "courseSection": "MX",
+  "profName": [
+   "Klok"
+  ],
+  "courseDesc": "Know modern methods of polymer synthesis. Understand how parameters, which determine polymer structure and properties, such as molecular weight, molecular weight distribution, topology, microstructure can be controlled by proper choice of polymerization method and optimization of reaction condition"
+ },
+ {
+  "courseName": "Risk management",
+  "courseCode": "ENG-430",
+  "courseSection": "CGC",
+  "profName": [
+   "Meyer"
+  ],
+  "courseDesc": "This course aims to enable students to master the methodology and associated tools for modern risk management with an engineering perspective. It highlights the different actors, resources available and objectives to achieve while remaining economically and socially sustainable."
+ },
+ {
+  "courseName": "Supramolecular chemistry",
+  "courseCode": "CH-424",
+  "courseSection": "CGC",
+  "profName": [
+   "Severin"
+  ],
+  "courseDesc": "The course provides an introduction to supramolecular chemistry. In addition, current trends are discussed using recent publications in this area."
+ },
+ {
+  "courseName": "Project in molecular sciences Ia",
+  "courseCode": "CH-492",
+  "courseSection": "CGC",
+  "profName": [
+   "Profs divers"
+  ]
+ },
+ {
+  "courseName": "Project in molecular sciences Ib",
+  "courseCode": "CH-491",
+  "courseSection": "CGC",
+  "profName": [
+   "Profs divers"
+  ]
+ },
+ {
+  "courseName": "HSS : Introduction to project",
+  "courseCode": "",
+  "courseSection": "SHS",
+  "profName": [
+   "Divers enseignants"
+  ]
+ },
+ {
+  "courseName": "HSS : Project",
+  "courseCode": "",
+  "courseSection": "SHS",
+  "profName": [
+   "Divers enseignants"
+  ]
+ },
+ {
+  "courseName": "Project in molecular sciences II",
+  "courseCode": "CH-590",
+  "courseSection": "CGC",
+  "profName": [
+   "Profs divers"
+  ]
+ }
+]

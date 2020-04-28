@@ -1,0 +1,471 @@
+[
+ {
+  "courseName": "Engineering internship credited with master project (master in Management of Technology and Entrepreneurship)",
+  "courseCode": "MGT-597",
+  "courseSection": "MTE",
+  "profName": [
+   "Profs divers"
+  ]
+ },
+ {
+  "courseName": "Master project in Management of Technology",
+  "courseCode": "MGT-599",
+  "courseSection": "MTE",
+  "profName": [
+   "Profs divers"
+  ]
+ },
+ {
+  "courseName": "Applied corporate & industry analysis",
+  "courseCode": "MGT-410",
+  "courseSection": "MTE",
+  "profName": [
+   "De Groot"
+  ],
+  "courseDesc": "The intent of this project is to encourage interchange between students and their mentors. Each student, in consultation with her or his mentor, will choose a company that the student will analyze in context of its primary industry. The company may be that of the mentor, but is not required to be."
+ },
+ {
+  "courseName": "Applied probability & stochastic processes",
+  "courseCode": "MGT-484",
+  "courseSection": "MTE",
+  "profName": [
+   "Sutter",
+   "Zhen"
+  ],
+  "courseDesc": "This course focuses on dynamic models of random phenomena, and in particular, the most popular classes of such models: Markov chains and Markov decision processes. We will also study applications in queuing theory, finance, project management, etc."
+ },
+ {
+  "courseName": "Financial & managerial accounting",
+  "courseCode": "MGT-481",
+  "courseSection": "MTE",
+  "profName": [
+   "Cauvin"
+  ],
+  "courseDesc": "The aims of the course are to explain how information helps investors to analyze the financial profile of a company, and to provide analytical tools for assisting managers in evaluating various decisions within economic organizations.\n\nSummary (fr)?"
+ },
+ {
+  "courseName": "Introduction to econometrics",
+  "courseCode": "MGT-581",
+  "courseSection": "MTE",
+  "profName": [
+   "de Rassenfosse"
+  ],
+  "courseDesc": "The course provides an introduction to econometrics. The objective is to learn how to make valid inference from economic data. It explains the main estimators and present methods to deal with endogeneity issues."
+ },
+ {
+  "courseName": "Principles of finance",
+  "courseCode": "MGT-482",
+  "courseSection": "MTE",
+  "profName": [
+   "Morellec"
+  ],
+  "courseDesc": "This course provides a market-oriented framework for analyzing the valuation of securities, portfolio decisions, capital budgeting and financing decisions within firms, and derivatives"
+ },
+ {
+  "courseName": "Principles of microeconomics",
+  "courseCode": "MGT-454",
+  "courseSection": "MTE",
+  "profName": [
+   "Mack"
+  ],
+  "courseDesc": "The course allows students to get familiarized with the basic tools and concepts of modern microeconomic analysis. Based on graphical reasoning and analytical calculus, it constantly links to real economic issues."
+ },
+ {
+  "courseName": "HSS : Introduction to project",
+  "courseCode": "",
+  "courseSection": "SHS",
+  "profName": [
+   "Divers enseignants"
+  ]
+ },
+ {
+  "courseName": "HSS : Project",
+  "courseCode": "",
+  "courseSection": "SHS",
+  "profName": [
+   "Divers enseignants"
+  ]
+ },
+ {
+  "courseName": "A Network Tour of Data Science",
+  "courseCode": "EE-558",
+  "courseSection": "EL",
+  "profName": [
+   "Frossard",
+   "Vandergheynst"
+  ],
+  "courseDesc": "A Network Tour of Data Science\nEE-558    Lecturer(s) : Frossard PascalVandergheynst PierreLanguage:English"
+ },
+ {
+  "courseName": "Applied data analysis",
+  "courseCode": "CS-401",
+  "courseSection": "SC",
+  "profName": [
+   "West"
+  ],
+  "courseDesc": "This course teaches the basic techniques and practical skills required to make sense out of a variety of data, with the help of the most acclaimed software tools in the data science world: pandas, scikit-learn, Spark, etc."
+ },
+ {
+  "courseName": "Continuous improvement of manufacturing systems",
+  "courseCode": "ME-498",
+  "courseSection": "GM",
+  "profName": [
+   "Kaboli"
+  ],
+  "courseDesc": "Continuous improvement deals with ongoing and long-term initiatives to improve products and services. This course will arm students with practical skills to evaluate and improve manufacturing/service systems and lead change and drive transformation for people, processes, and technology."
+ },
+ {
+  "courseName": "Convex optimization",
+  "courseCode": "MGT-418",
+  "courseSection": "MTE",
+  "profName": [
+   "Kuhn"
+  ],
+  "courseDesc": "This course introduces the theory and application of modern convex optimization from an engineering perspective."
+ },
+ {
+  "courseName": "Corporate strategy",
+  "courseCode": "MGT-400",
+  "courseSection": "MTE",
+  "profName": [
+   "Strecker"
+  ],
+  "courseDesc": "Why are some firms more successful than others? This is the fundamental question of strategy. A key concern of managers is the complex and uncertain relationship between the firm, its strategy, its performance and its environment. You study competition and strategy from the perspective of top manage"
+ },
+ {
+  "courseName": "D. Thinking: real problems, human-focused solutions",
+  "courseCode": "MGT-409",
+  "courseSection": "MTE",
+  "profName": [
+   "Tucci"
+  ],
+  "courseDesc": "This course aims to engage students into multidisciplinary collaboration to tackle real world problems with a human centered approach. It will also provide knowledge about the role of design in innovation."
+ },
+ {
+  "courseName": "Data science for business",
+  "courseCode": "MGT-432",
+  "courseSection": "MTE",
+  "profName": [
+   "Younge"
+  ],
+  "courseDesc": "The course introduces students to the methods and tools used by data scientists to model prediction problems for business. Students will also learn how to apply these concepts to real programming problems."
+ },
+ {
+  "courseName": "Data science in practice",
+  "courseCode": "MGT-415",
+  "courseSection": "MTE",
+  "profName": [
+   "Bruffaerts"
+  ],
+  "courseDesc": "The goal of the course is to introduce students to the main business areas where analytics is used in business. The course is based on use-cases from the financial industry and is meant to give a hands-on experience to students in various domains such as Marketing, Sales, HR, IT, or Compliance."
+ },
+ {
+  "courseName": "Economics of innovation and IP",
+  "courseCode": "MGT-404",
+  "courseSection": "MTE",
+  "profName": [
+   "de Rassenfosse"
+  ],
+  "courseDesc": "This class provides an introduction to the economics of innovation and intellectual property (IP). The first part explains intuitively key economic concepts related to innovation and innovation policy. The second part introduces elements of IP strategy through case studies, debates and speakers."
+ },
+ {
+  "courseName": "Entrepreneurship & new venture strategy",
+  "courseCode": "MGT-413",
+  "courseSection": "MTE",
+  "profName": [
+   "Bavato",
+   "Hertel"
+  ],
+  "courseDesc": "This class is the foundational course in entrepreneurial management. This course provides a practical and theoretical overview of the iterative and experimental entrepreneurial process: from opportunity recognition to developing a viable, desirable and feasible business concept."
+ },
+ {
+  "courseName": "Entrepreneurship laboratory (e-lab)",
+  "courseCode": "MGT-517",
+  "courseSection": "MTE",
+  "profName": [
+   ""
+  ],
+  "courseDesc": "High-tech entrepreneurship is a major topic of innovation thanks to the value creation of companies such as Microsoft, Intel, Genentech, Apple or Google. These companies did not exist fifty years ago. Such an exceptional phenomenon is studied with case studies & interaction with entrepreneurs."
+ },
+ {
+  "courseName": "Fundamentals of machine learning",
+  "courseCode": "EE-311",
+  "courseSection": "EL",
+  "profName": [
+   "Fleuret",
+   "Liebling"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Industry dynamics, models & trends",
+  "courseCode": "MGT-453",
+  "courseSection": "MTE",
+  "profName": [
+   "Finger"
+  ],
+  "courseDesc": "The course introduces the participants to industry analysis. Participants will learn how to identify and analyze industries with a particular focus on how industries evolve thanks to technological developments, in particular digitalization, as well as regulation."
+ },
+ {
+  "courseName": "Information: strategy & economics",
+  "courseCode": "MGT-431",
+  "courseSection": "MTE",
+  "profName": [
+   ""
+  ],
+  "courseDesc": "The course is an introduction to information economics and its strategic ramifications. The main objectives are to use economic theory to understand strategic interactions in the presence of uncertainty, estimate the value of information, and analyze competitive strategy in an information economy."
+ },
+ {
+  "courseName": "Innovation & entrepreneurship in engineering",
+  "courseCode": "MGT-555",
+  "courseSection": "MTE",
+  "profName": [
+   "Profs divers",
+   "Weber"
+  ]
+ },
+ {
+  "courseName": "Innovation management",
+  "courseCode": "MGT-411",
+  "courseSection": "MTE",
+  "profName": [
+   "Peters"
+  ],
+  "courseDesc": "This is a collection of lectures on \"structured innovation systems,\" codified approaches to stimulating and managing the process of innovation. Some of the systems to be covered may be Design Thinking, Open Innovation, Crowdsourcing, Lean Innovation, and other structured innovation systems."
+ },
+ {
+  "courseName": "Logistics and demand analysis",
+  "courseCode": "MGT-426",
+  "courseSection": "MTE",
+  "profName": [
+   "Wieser"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Machine learning",
+  "courseCode": "CS-433",
+  "courseSection": "IN",
+  "profName": [
+   "Jaggi",
+   "Urbanke"
+  ],
+  "courseDesc": "Machine learning and data analysis are becoming increasingly central in many sciences and applications. In this course, fundamental principles and methods of machine learning will be introduced, analyzed and practically implemented."
+ },
+ {
+  "courseName": "Mathematics of data: from theory to computation",
+  "courseCode": "EE-556",
+  "courseSection": "EL",
+  "profName": [
+   "Cevher"
+  ],
+  "courseDesc": "This course reviews recent advances in convex optimization and statistical analysis in the wake of Big Data. We provide an overview of the emerging convex formulations and their guarantees, describe scalable solution techniques, and illustrate the role of parallel and distributed computation."
+ },
+ {
+  "courseName": "Network analytics",
+  "courseCode": "MGT-416",
+  "courseSection": "MTE",
+  "profName": [
+   "Kiyavash"
+  ],
+  "courseDesc": "Students will learn the core concepts and techniques of network analysis with emphasis on causal inference. Theory and application will be balanced, with students working directly with network data throughout the course."
+ },
+ {
+  "courseName": "Operations: economics & strategy",
+  "courseCode": "MGT-528",
+  "courseSection": "MTE",
+  "profName": [
+   "Weber"
+  ],
+  "courseDesc": "Supply-chain management within a firm is concerned with the flow of goods and services from firms to consumers. This course provides an overview of the economic drivers and technological possibilities for designing a successful supply-chain strategy, especially in view of information flows."
+ },
+ {
+  "courseName": "Optimal decision making",
+  "courseCode": "MGT-483",
+  "courseSection": "MTE",
+  "profName": [
+   "Kuhn"
+  ],
+  "courseDesc": "This course introduces the theory and applications of optimization. We develop tools and concepts of optimization and decision analysis that enable managers in manufacturing, service operations, marketing, transportation and finance to transform data into insights for making better decisions."
+ },
+ {
+  "courseName": "Production management",
+  "courseCode": "ME-419",
+  "courseSection": "GM",
+  "profName": [
+   "Kaboli"
+  ],
+  "courseDesc": "Production management deals with producing goods/services at the right time, quantity, and quality with the minimum cost. This course will arm students with hands-on tools for demand management, supply management, and digital transformation in manufacturing companies."
+ },
+ {
+  "courseName": "Project management and risk analysis",
+  "courseCode": "MGT-427",
+  "courseSection": "MTE",
+  "profName": [
+   "Wieser"
+  ],
+  "courseDesc": ""
+ },
+ {
+  "courseName": "Quantitative systems modeling techniques",
+  "courseCode": "MGT-430",
+  "courseSection": "MTE",
+  "profName": [
+   "Zufferey"
+  ],
+  "courseDesc": "This course is dedicated to various modelling tools, optimization methods and decision analysis techniques, with a specific focus on logistics."
+ },
+ {
+  "courseName": "Statistics for data science",
+  "courseCode": "MATH-413",
+  "courseSection": "MA",
+  "profName": [
+   "Olhede"
+  ],
+  "courseDesc": "Statistics lies at the foundation of data science, providing a unifying theoretical and methodological backbone for the diverse tasks enountered in this emerging field. This course rigorously develops the key notions and methods of statistics, with an emphasis on concepts rather than techniques."
+ },
+ {
+  "courseName": "Strategic marketing & technology commercialization",
+  "courseCode": "MGT-401",
+  "courseSection": "MTE",
+  "profName": [
+   "Eckardt"
+  ],
+  "courseDesc": "This course teaches students the power of building and implementing marketing strategies in order to help businesses to commercialize successfully their technological innovations.  \nIt offers a large overview of modern marketing and is not suited for students with advances market knowledge."
+ },
+ {
+  "courseName": "Supply chain management",
+  "courseCode": "MGT-526",
+  "courseSection": "MTE",
+  "profName": [
+   "Seifert"
+  ],
+  "courseDesc": "This course introduces key concepts in supply chain management. It uses a combination of case studies, simulation exercises, formal lectures and group discussions to illustrate how the various concepts can be successfully implemented in practice."
+ },
+ {
+  "courseName": "Technology & innovation strategy",
+  "courseCode": "MGT-414",
+  "courseSection": "MTE",
+  "profName": [
+   "Younge"
+  ],
+  "courseDesc": "Students will learn core concepts that can make innovation projects more successful and profitable, and to then apply those concepts to real business cases of known successes and failures with a focus on the economic and organizational conditions that advance technological innovation by firms"
+ },
+ {
+  "courseName": "Value chain management in practice",
+  "courseCode": "MGT-417",
+  "courseSection": "MTE",
+  "profName": [
+   "Riboni"
+  ],
+  "courseDesc": "Learn through practice (using a Value Chain Management simulation) the key drivers of effective Value Chain Management. From Purchasing to Sales, through Operations and Supply Chain Management, understand the key drivers of corporate performance."
+ },
+ {
+  "courseName": "Venture capital",
+  "courseCode": "FIN-522",
+  "courseSection": "IF",
+  "profName": [
+   "Fahlenbrach"
+  ],
+  "courseDesc": "The course applies finance tools and concepts to the world of venture capital and financing of projects in high-growth industries. Students are introduced to all institutional aspects of the venture capital industry. Students analyze various aspects of VC finance using an investors' perspective."
+ },
+ {
+  "courseName": "Corporate governance",
+  "courseCode": "MGT-552",
+  "courseSection": "MTE",
+  "profName": [
+   ""
+  ],
+  "courseDesc": "This course will introduce the participants to the question of how firms are and should be governed. It will also highlight the evolution of such \"corporate governance\" over time."
+ },
+ {
+  "courseName": "Economics of innovation & management in energy",
+  "courseCode": "MGT-407",
+  "courseSection": "MTE",
+  "profName": [
+   "Jaag"
+  ],
+  "courseDesc": "This course explores the theoretical and empirical perspectives on individual and industrial demand, supply, public policies including (de)regulation and management, in the energy sectors (oil, natural gas and electricity)."
+ },
+ {
+  "courseName": "Global business environment",
+  "courseCode": "FIN-523",
+  "courseSection": "IF",
+  "profName": [
+   "Lambertini"
+  ],
+  "courseDesc": "This course gives the framework and tools for understanding economic events, taking financial decisions and evaluating investment opportunities in a global economy. It builds up an integrated model of exchange rate and output determination, and explains how monetary and fiscal policies work."
+ },
+ {
+  "courseName": "Information technology & digital strategy",
+  "courseCode": "MGT-439",
+  "courseSection": "MTE",
+  "profName": [
+   "Viscusi"
+  ],
+  "courseDesc": "In this course students should gain a broad-based knowledge of the ever-changing world of information technology and how it relates to corporate strategy, digital business innovation, and their impact on government, work, and society."
+ },
+ {
+  "courseName": "Intercultural presentation skills",
+  "courseCode": "MGT-469",
+  "courseSection": "MTE",
+  "profName": [
+   "Everett"
+  ],
+  "courseDesc": "In this course students learn how make an effective presentation, including how to make an appropriate introduction, organize information, assess and connect with diverse audiences, create effective visual support materials, close a presentation and survive and conquer a question and answer session."
+ },
+ {
+  "courseName": "Leading and managing in a global context",
+  "courseCode": "MGT-468",
+  "courseSection": "MTE",
+  "profName": [
+   "Winzenried"
+  ],
+  "courseDesc": "This course teaches management and leadership and provides tools to apply when working in global business contexts. Participants will discover their authenticity and how to use their personnal style to influence the way they work in, lead and mange teams in a multicultural context."
+ },
+ {
+  "courseName": "Negotiation techniques",
+  "courseCode": "MGT-466",
+  "courseSection": "MTE",
+  "profName": [
+   "Canning Wacker"
+  ],
+  "courseDesc": "The course presents the process of negotiation, two principle strategies and the tactics involved in successfully enacting them. It will also build both cultural and  self awareness skills and how they impact the process of negotiation."
+ },
+ {
+  "courseName": "Organizational behavior",
+  "courseCode": "MGT-412",
+  "courseSection": "MTE",
+  "profName": [
+   "Bubenzer"
+  ],
+  "courseDesc": "This course provides key concepts and tools to understand and influence behaviors of individuals and groups in organizations. Participants will acquire essential knowledge for developing their leadership potential in areas such as decision making, influence, motivation and team dynamics."
+ },
+ {
+  "courseName": "Practical business law",
+  "courseCode": "MGT-455",
+  "courseSection": "MTE",
+  "profName": [
+   "Cherpillod"
+  ],
+  "courseDesc": "The course covers the fundamental concepts of business law from a practical standpoint, including contracts and company law, intellectual property, competition law and data protection, with a special focus on issues specific to start-up companies."
+ },
+ {
+  "courseName": "Systemic & strategic problem solving",
+  "courseCode": "MGT-419",
+  "courseSection": "MTE",
+  "profName": [
+   "Delannoy"
+  ],
+  "courseDesc": "This course provides key concepts and tools to understand complex systemic interactions and implement effective change strategies within teams and organizations. Participants will acquire essential knowledge for developing their leadership potential in areas such as systemic thinking, problem solvin"
+ },
+ {
+  "courseName": "Technology policy and the energy transition",
+  "courseCode": "MGT-408",
+  "courseSection": "MTE",
+  "profName": [
+   "Foray"
+  ],
+  "courseDesc": "This course involves the theoretical and empirical analysis of technology Policy as applied to the issue of energy transition. To address this so-called \"Grand Challenge\", the combination of market-based instruments with technology policy seems to be of critical importance."
+ }
+]
