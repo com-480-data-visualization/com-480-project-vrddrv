@@ -95,11 +95,18 @@ function scrapeCourseDescription(courseName, courseCode, cbSection) {
         try {
 
             let url = 'https://edu.epfl.ch/coursebook/en/';
-            const splitCourse = courseName.split(" ").map((i) => {return i.toLowerCase()});
+            // const splitCourse = courseName.split(" ").map((i) => {return i.toLowerCase()});
+            const splitCourse = courseName.split(/'| : | - |: |, |\. | \& | /).map((i) => {return i.replace(/\)|\(/g,'').toLowerCase()});
             for(const each of splitCourse) {
                 url = url + each + '-';
             }
-            url = url + courseCode + '?cb_cycle=bama_cyclemaster&cb_section=' + cbSection;
+
+            if (courseCode.match(/\([a-z]\)/)) {
+                url = url + courseCode.slice(0,-3) + '-' + courseCode.slice(-2,-1).toUpperCase() + '?cb_cycle=bama_cyclemaster&cb_section=' + cbSection;
+            }
+            else {
+                url = url + courseCode + '?cb_cycle=bama_cyclemaster&cb_section=' + cbSection;
+            }
 
             console.log(url);
             const browser = await puppeteer.launch();
@@ -125,6 +132,7 @@ function scrapeCourseDescription(courseName, courseCode, cbSection) {
 }
 
 // scrapeCourseDescription('Applied data analysis','CS-401','sc_ds').then(console.log).catch(console.error);
+// scrapeCourseDescription('Renewable energy (for ME)','ME-460','dh').then(console.log).catch(console.error);
 
 
 async function saveAllMasterCourses(url) {
@@ -134,11 +142,22 @@ async function saveAllMasterCourses(url) {
         fs.mkdirSync('../scraped_data');
     }
 
+    let k = 0;
     for(const each of masterPrograms) {
         let program = each['program'].split(/ - |- |, | & | /).map((i) => {return i.toLowerCase()});
         let programURL = url + '/' + program.join('-');
 
         let courses = await scrapeCourses(programURL);
+
+        for(let indx=0;indx<courses.length;indx++) {
+            if (courses[indx]['courseCode']!=='' && courses[indx]['profName'][0]!=='Profs divers') {
+                courses[indx]['courseDesc'] = await scrapeCourseDescription(
+                    courses[indx]['courseName'],
+                    courses[indx]['courseCode'],
+                    MASTER_CYCLE_CB_SECTION[k]);
+            }
+        }
+
         let jsonData = await JSON.stringify(courses,null,1);
 
         let fileName = await (program.join('_') + '.json');
@@ -148,8 +167,12 @@ async function saveAllMasterCourses(url) {
             }
             console.log(fileName + " file successfully written!");
         });
+        k+=1
     }
 }
 
-// TODO: integrate scrapeCourseDescription()
 saveAllMasterCourses(MASTER_CYCLE_URL);
+
+// module.exports = {
+//     scrapeCourseDescription
+// };
