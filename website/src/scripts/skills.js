@@ -66,7 +66,7 @@ function showSkillsForPrograms(data, coursePrograms, programsToShow = 7) {
     margin: margin,
     levels: 5,
     roundStrokes: true,
-    color: d3.scaleOrdinal().range(["#26AF32", "#762712"]),
+    color: d3.scaleOrdinal().range(["#26AF32"]),
     format: ".0f",
   };
 
