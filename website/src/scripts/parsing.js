@@ -82,7 +82,7 @@ function getClassesInfoFromTextContent(itemsArray) {
       }
 
       var subject = {
-        name: name,
+        name: name.trim(),
         form: form,
         lang: itemsArray[idx - 1].str,
         sdate: itemsArray[idx].str,

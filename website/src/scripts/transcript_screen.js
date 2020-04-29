@@ -2,7 +2,7 @@
 
 import * as d3 from "d3";
 import { CircularPlot } from "./circular_plot.js";
-import { thresholdFreedmanDiaconis } from "d3";
+import { showSkills } from "./skills";
 
 class Header {
   constructor(name, context, posX, posY) {
@@ -99,26 +99,10 @@ class RequirementsTable {
         this.transcript.program.obtainedCredits,
         this.transcript.program.credits
       ),
-      new ContiniousRequirement(
-        "6 credits in SHS",
-        3,
-        6
-      ),
-      new ContiniousRequirement(
-        "Semestr Project",
-        12,
-        12
-      ),
-      new ContiniousRequirement(
-        "Internship",
-        0,
-        6
-      ),
-      new ContiniousRequirement(
-        "Master thesis",
-        0,
-        6
-      )
+      new ContiniousRequirement("6 credits in SHS", 3, 6),
+      new ContiniousRequirement("Semester Project", 12, 12),
+      new ContiniousRequirement("Internship", 0, 6),
+      new ContiniousRequirement("Master thesis", 0, 6),
     ];
   }
 
@@ -181,9 +165,22 @@ export class TranscriptScreen {
       this.canvasWidth - 20,
       40
     );
+
+    d3.select("button#skills_btn")
+      .on("click", () => showSkills(this.circularPlot.data))
+      .attr("style", "left: 0px; display: grid;");
+    d3.select("button#credits_btn")
+      .on("click", showCredits)
+      .attr("style", "right: 0px; display: grid;");
   }
 
   clearWorkspace() {
     this.context.select("*").remove();
   }
+}
+
+function showCredits() {
+  d3.select("#course").attr("width", "0");
+  d3.select("#plot").attr("width", "100%");
+  d3.select(".radarChart").html("");
 }
