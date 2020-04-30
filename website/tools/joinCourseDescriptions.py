@@ -18,8 +18,8 @@ if __name__ == "__main__":
             for course in json.load(json_data):
 
                 # Generate fake data:
-                course["gpa_histogram"] = [
-                    random.randint(0, 100) for i in range(8)]
+                course["grades_histogram"] = [
+                    random.randint(0, 100) for i in range(9)]
                 course["avg_gpa_year"] = [
                     random.random() * 2 + 4 for i in range(3)]
 
