@@ -184,6 +184,7 @@ export class TranscriptScreen {
 
 function showCredits() {
   document.getElementById("plot").style.display="inline";
+  document.getElementById("requirementsTable").style.display="inline";
   document.getElementById("radar_chart").style.display="none";
   // d3.select("#course").attr("width", "0");
   // d3.select("#plot").attr("width", "100%");

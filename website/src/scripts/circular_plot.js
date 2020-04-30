@@ -162,10 +162,10 @@ export class CircularPlot {
       Math.PI / 2;
     this.move(2 * this.canvasWidth, -10);
 
-
     document.getElementById("course_desc").innerHTML = d.name;
 
     document.getElementById("blockContainer").style.display="inline";
+    document.getElementById("requirementsTable").style.display="none";
 
     // ----------------------------------------------------------------------
 
