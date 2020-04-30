@@ -80,28 +80,28 @@ iframe {
   font-size: 20px;
 }
 
-#header text{
+#header text {
   font-size: 14px;
   fill: white;
-  font-family: 'Georgia';
+  font-family: "Georgia";
 }
 
-#requirementsTable text.header{
+#requirementsTable text.header {
   font-size: 8px;
   fill: white;
-  font-family: 'Palatino', 'serif';
+  font-family: "Palatino", "serif";
   text-anchor: start;
 }
 
-.Requirement text{
+.Requirement text {
   font-size: 5px;
   fill: white;
-  font-family: 'Palatino', 'serif';
+  font-family: "Palatino", "serif";
   text-anchor: start;
 }
 
 .legend {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   fill: white;
 }
 
@@ -142,7 +142,7 @@ div#container {
   width: 250px;
   height: 170px;
   margin: 20px;
-  background-color: #2F4A6D;
+  background-color: #2f4a6d;
 }
 
 div#layout {
@@ -170,14 +170,14 @@ line#limit {
    stroke: #FED966;
    stroke-width: 1;
    stroke-dasharray: 2;
- }
+}
 
 .grid path {
   stroke-width: 0;
 }
 
 .grid .tick line {
-  stroke: #9FAAAE;
+  stroke: #9faaae;
   stroke-opacity: 0.3;
 }
 
@@ -202,4 +202,24 @@ text.label {
 
 text.source {
   font-size: 10px;
+}
+
+#petalTooltip {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: left;
+  padding: 6px 6px;
+  border-radius: 6px;
+  font-size: 10px;
+
+  p {
+    padding: 0;
+    margin: 0;
+  }
+
+  p:empty {
+    margin: 10px;
+  }
 }
