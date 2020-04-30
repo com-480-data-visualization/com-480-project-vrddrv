@@ -3,8 +3,8 @@ import os
 import random
 from tqdm import tqdm
 
-INPUT_FOLDER = 'src/scraped_data'
-OUTPUT_PATH = 'src/processed_data/course_descriptions.json'
+INPUT_FOLDER = 'website/src/scraped_data'
+OUTPUT_PATH = 'website/src/processed_data/course_descriptions.json'
 
 if __name__ == "__main__":
     files = []
