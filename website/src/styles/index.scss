@@ -113,26 +113,30 @@ button {
   outline: 0;
 }
 
-.grid_form {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 10px 2em;
+//.grid_form {
+//  display: grid;
+//  grid-template-columns: 1fr 1fr 1fr;
+//  grid-gap: 10px 2em;
+//}
+
+#blockContainer {
+  width: 100%;
 }
 
-.block{
-  position: relative;
-  float:left;
-  width:35%;
-  height: auto;
-  top: 80px;
-  font-size: 10px;
-  color: azure;
-  border:1px solid #ccc;
-  padding:10px;
-  box-sizing:border-box;
+#blockContainer {
+  .block {
+    position: relative;
+    float:left;
+    width:100%;
+    height: auto;
+    top: 80px;
+    font-size: 10px;
+    color: azure;
+    border:1px solid #ccc;
+    padding:10px;
+    box-sizing:border-box;
+  }
 }
-
-
 
 div#container {
   width: 250px;
@@ -164,8 +168,8 @@ line {
 
 line#limit {
    stroke: #FED966;
-   stroke-width: 3;
-   stroke-dasharray: 3.6;
+   stroke-width: 1;
+   stroke-dasharray: 2;
  }
 
 .grid path {
@@ -178,7 +182,7 @@ line#limit {
 }
 
 text.divergence {
-  font-size: 3px;
+  font-size: 0px;
   fill: #2F4A6D;
 }
 

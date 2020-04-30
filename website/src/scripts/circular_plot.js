@@ -173,7 +173,7 @@ export class CircularPlot {
     // document.getElementById("course_prerequisites").innerHTML = course['profName'];s
     document.getElementById("section_name").innerHTML = course['courseSection'];
 
-    document.getElementById("blockContainer").style.display = "inline";
+    document.getElementById("blockContainer").style.display = "flex";
     document.getElementById("requirementsTable").style.display = "none";
 
     // ----------------------------------------------------------------------
@@ -199,58 +199,66 @@ export class CircularPlot {
 
     // ----------------------------------------------------------------------
 
-    const sample = [
-      {
-        language: "Rust",
-        value: 78.9,
-        color: "#000000",
-      },
-      {
-        language: "Kotlin",
-        value: 75.1,
-        color: "#00a2ee",
-      },
-      {
-        language: "Python",
-        value: 68.0,
-        color: "#fbcb39",
-      },
-      {
-        language: "TypeScript",
-        value: 67.0,
-        color: "#007bc8",
-      },
-      {
-        language: "Go",
-        value: 65.6,
-        color: "#65cedb",
-      },
-      {
-        language: "Swift",
-        value: 65.1,
-        color: "#ff6e52",
-      },
-      {
-        language: "JavaScript",
-        value: 61.9,
-        color: "#f9de3f",
-      },
-      {
-        language: "C#",
-        value: 60.4,
-        color: "#5d2f8e",
-      },
-      {
-        language: "F#",
-        value: 59.6,
-        color: "#008fc9",
-      },
-      {
-        language: "Clojure",
-        value: 59.6,
-        color: "#507dca",
-      },
-    ];
+    let sample = [];
+    let minGrade = 4;
+    for (let each of course['grades_histogram']) {
+      sample.push({grade:minGrade, value: each});
+      minGrade+=0.25;
+    }
+    console.log(sample);
+
+    // const sample = [
+    //   {
+    //     language: "Rust",
+    //     value: 78.9,
+    //     color: "#000000",
+    //   },
+    //   {
+    //     language: "Kotlin",
+    //     value: 75.1,
+    //     color: "#00a2ee",
+    //   },
+    //   {
+    //     language: "Python",
+    //     value: 68.0,
+    //     color: "#fbcb39",
+    //   },
+    //   {
+    //     language: "TypeScript",
+    //     value: 67.0,
+    //     color: "#007bc8",
+    //   },
+    //   {
+    //     language: "Go",
+    //     value: 65.6,
+    //     color: "#65cedb",
+    //   },
+    //   {
+    //     language: "Swift",
+    //     value: 65.1,
+    //     color: "#ff6e52",
+    //   },
+    //   {
+    //     language: "JavaScript",
+    //     value: 61.9,
+    //     color: "#f9de3f",
+    //   },
+    //   {
+    //     language: "C#",
+    //     value: 60.4,
+    //     color: "#5d2f8e",
+    //   },
+    //   {
+    //     language: "F#",
+    //     value: 59.6,
+    //     color: "#008fc9",
+    //   },
+    //   {
+    //     language: "Clojure",
+    //     value: 59.6,
+    //     color: "#507dca",
+    //   },
+    // ];
 
     const svg = d3.select("svg");
     const svgContainer = d3.select("#container");
@@ -266,7 +274,7 @@ export class CircularPlot {
     const xScale = d3
       .scaleBand()
       .range([0, width])
-      .domain(sample.map((s) => s.language))
+      .domain(sample.map((s) => s.grade))
       .padding(0.4);
 
     const yScale = d3.scaleLinear().range([height, 0]).domain([0, 100]);
@@ -291,7 +299,7 @@ export class CircularPlot {
     barGroups
       .append("rect")
       .attr("class", "bar")
-      .attr("x", (g) => xScale(g.language))
+      .attr("x", (g) => xScale(g.grade))
       .attr("y", (g) => yScale(g.value))
       .attr("height", (g) => height - yScale(g.value))
       .attr("width", xScale.bandwidth())
@@ -301,9 +309,9 @@ export class CircularPlot {
         d3.select(this)
           .transition()
           .duration(300)
-          .attr("opacity", 0.6)
-          .attr("x", (a) => xScale(a.language) - 5)
-          .attr("width", xScale.bandwidth() + 10);
+          .attr("opacity", 0.6);
+          // .attr("x", (a) => xScale(a.grade) - 5)
+          // .attr("width", xScale.bandwidth() + 10);
 
         const y = yScale(actual.value);
 
@@ -318,7 +326,7 @@ export class CircularPlot {
         barGroups
           .append("text")
           .attr("class", "divergence")
-          .attr("x", (a) => xScale(a.language) + xScale.bandwidth() / 2)
+          .attr("x", (a) => xScale(a.grade) + xScale.bandwidth() / 2)
           .attr("y", (a) => yScale(a.value) + 30)
           .attr("fill", "white")
           .attr("text-anchor", "middle")
@@ -339,30 +347,30 @@ export class CircularPlot {
           .transition()
           .duration(300)
           .attr("opacity", 1)
-          .attr("x", (a) => xScale(a.language))
+          .attr("x", (a) => xScale(a.grade))
           .attr("width", xScale.bandwidth());
 
         chart.selectAll("#limit").remove();
         chart.selectAll(".divergence").remove();
       });
 
-    barGroups
-      .append("text")
-      .attr("class", "value")
-      .attr("x", (a) => xScale(a.language) + xScale.bandwidth() / 2)
-      .attr("y", (a) => yScale(a.value) + 30)
-      .attr("text-anchor", "middle")
-      .text((a) => `${a.value}%`);
+    // barGroups
+    //   .append("text")
+    //   .attr("class", "value")
+    //   .attr("x", (a) => xScale(a.grade) + xScale.bandwidth() / 2)
+    //   .attr("y", (a) => yScale(a.value) + 30)
+    //   .attr("text-anchor", "middle")
+    //   .text((a) => `${a.value}%`);
 
     svg
       .append("text")
       .style("font-size", "5px")
       .attr("class", "label")
       .attr("x", -(height / 2) - margin)
-      .attr("y", margin / 2.4 - 5)
+      .attr("y", margin / 2.4 - 6)
       .attr("transform", "rotate(-90)")
       .attr("text-anchor", "middle")
-      .text("Love meter (%)");
+      .text("Number of students");
 
     svg
       .append("text")
@@ -371,7 +379,7 @@ export class CircularPlot {
       .attr("x", width / 2 + margin)
       .attr("y", height + margin * 1.9)
       .attr("text-anchor", "middle")
-      .text("Languages");
+      .text("Grades");
 
     svg
       .append("text")
@@ -379,7 +387,7 @@ export class CircularPlot {
       .attr("x", width / 2 + margin)
       .attr("y", 10)
       .attr("text-anchor", "middle")
-      .text("Most loved programming languages in 2018");
+      .text("Grade Distribution");
 
     // d3.select("iframe#course")
     //   .attr("left", "-1000px")
