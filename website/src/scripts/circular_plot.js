@@ -28,7 +28,7 @@ export class CircularPlot {
     this.petalsLength = PETALS_LENGTH;
     this.maxNumberCredits = transcript.program.credits;
     // To make the plot more interesting
-    shuffleArray(this.data);
+    // shuffleArray(this.data);
     this.startAngle = 0;
     this.centerX = canvasWidth / 2 + shiftX;
     this.centerY = canvasHeight / 2 + shiftY;
@@ -65,6 +65,13 @@ export class CircularPlot {
         (d) =>
           _this.startAngle - (2 * Math.PI * d.credits) / _this.maxNumberCredits
       );
+
+    this.tooltip = d3
+      .select("body")
+      .append("div")
+      .attr("id", "petalTooltip")
+      .style("position", "absolute")
+      .style("visibility", "hidden");
 
     let circPlot = this.context
       .append("g")
@@ -165,13 +172,12 @@ export class CircularPlot {
       Math.PI / 2;
     this.move(this.canvasWidth, -10);
 
-
     const course = COURSE_DESCRIPTIONS[d.name.toLowerCase()];
     document.getElementById("course_name").innerHTML = d.name;
-    document.getElementById("profs_name").innerHTML = course['profName'];
-    document.getElementById("course_desc").innerHTML = course['courseDesc'];
-    // document.getElementById("course_prerequisites").innerHTML = course['profName'];s
-    document.getElementById("section_name").innerHTML = course['courseSection'];
+    document.getElementById("profs_name").innerHTML = course["profName"];
+    document.getElementById("course_desc").innerHTML = course["courseDesc"];
+    // document.getElementById("course_prerequisites").innerHTML = course['profName'];
+    document.getElementById("section_name").innerHTML = course["profName"];
 
     document.getElementById("blockContainer").style.display = "inline";
     document.getElementById("requirementsTable").style.display = "none";
@@ -387,10 +393,9 @@ export class CircularPlot {
     //   .duration(this.transitionTimeScale)
     //   .attr("width", "100%")
     //   .attr("src", "https://edu.epfl.ch/coursebook/en/machine-learning-CS-433");
-
   }
 
-  onPetalMouseOver(petal) {
+  onPetalMouseOver(d, petal) {
     if (this.mouseEventsEnabled) {
       d3.select(petal)
         .attr("opacity", "0.8")
@@ -405,6 +410,17 @@ export class CircularPlot {
               (-360 * d.creditsBefore) / this.maxNumberCredits
             })`
         );
+
+      this.tooltip.selectAll("p").remove();
+      this.tooltip.selectAll("h3").remove();
+      const textLines = d.getTooltipText().split("\n");
+      for (const idx in textLines)
+        if (idx == 0) {
+          this.tooltip.append("h3").text(textLines[idx]);
+        } else {
+          this.tooltip.append("p").text(textLines[idx]);
+        }
+      this.tooltip.style("visibility", "visible");
     } else {
       d3.select(petal).attr("opacity", "0.8");
     }
@@ -425,6 +441,7 @@ export class CircularPlot {
               (-360 * d.creditsBefore) / this.maxNumberCredits
             })`
         );
+      this.tooltip.style("visibility", "hidden");
     } else {
       d3.select(petal).attr("opacity", "1.0");
     }
@@ -436,13 +453,18 @@ export class CircularPlot {
       .on("click", function (d) {
         _this.onPetalClick(d);
       })
-      .on("mouseover", function () {
+      .on("mouseover", function (d) {
         let petal = this;
-        _this.onPetalMouseOver(petal);
+        _this.onPetalMouseOver(d, petal);
       })
       .on("mouseout", function () {
         let petal = this;
         _this.onPetalMouseOut(petal);
+      })
+      .on("mousemove", function () {
+        _this.tooltip
+          .style("top", event.pageY + 15 + "px")
+          .style("left", event.pageX + 15 + "px");
       });
   }
 

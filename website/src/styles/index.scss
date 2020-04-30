@@ -80,28 +80,28 @@ iframe {
   font-size: 20px;
 }
 
-#header text{
+#header text {
   font-size: 14px;
   fill: white;
-  font-family: 'Georgia';
+  font-family: "Georgia";
 }
 
-#requirementsTable text.header{
+#requirementsTable text.header {
   font-size: 8px;
   fill: white;
-  font-family: 'Palatino', 'serif';
+  font-family: "Palatino", "serif";
   text-anchor: start;
 }
 
-.Requirement text{
+.Requirement text {
   font-size: 5px;
   fill: white;
-  font-family: 'Palatino', 'serif';
+  font-family: "Palatino", "serif";
   text-anchor: start;
 }
 
 .legend {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   fill: white;
 }
 
@@ -119,26 +119,24 @@ button {
   grid-gap: 10px 2em;
 }
 
-.block{
+.block {
   position: relative;
-  float:left;
-  width:35%;
+  float: left;
+  width: 35%;
   height: auto;
   top: 80px;
   font-size: 10px;
   color: azure;
-  border:1px solid #ccc;
-  padding:10px;
-  box-sizing:border-box;
+  border: 1px solid #ccc;
+  padding: 10px;
+  box-sizing: border-box;
 }
-
-
 
 div#container {
   width: 250px;
   height: 170px;
   margin: 20px;
-  background-color: #2F4A6D;
+  background-color: #2f4a6d;
 }
 
 div#layout {
@@ -163,23 +161,23 @@ line {
 }
 
 line#limit {
-   stroke: #FED966;
-   stroke-width: 3;
-   stroke-dasharray: 3.6;
- }
+  stroke: #fed966;
+  stroke-width: 3;
+  stroke-dasharray: 3.6;
+}
 
 .grid path {
   stroke-width: 0;
 }
 
 .grid .tick line {
-  stroke: #9FAAAE;
+  stroke: #9faaae;
   stroke-opacity: 0.3;
 }
 
 text.divergence {
   font-size: 3px;
-  fill: #2F4A6D;
+  fill: #2f4a6d;
 }
 
 text.value {
@@ -198,4 +196,24 @@ text.label {
 
 text.source {
   font-size: 10px;
+}
+
+#petalTooltip {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: left;
+  padding: 6px 6px;
+  border-radius: 6px;
+  font-size: 10px;
+
+  p {
+    padding: 0;
+    margin: 0;
+  }
+
+  p:empty {
+    margin: 10px;
+  }
 }
