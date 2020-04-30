@@ -1,0 +1,75 @@
+{
+  "program": {
+    "name": "Master SC_DS",
+    "credits": 120,
+    "obtainedCredits": 38
+  },
+  "classes": [
+    {
+      "block": "class_core",
+      "credits": 7,
+      "creditsBefore": 0,
+      "creditsOf": 7,
+      "form": "E",
+      "grade": 5.75,
+      "lang": "EN",
+      "name": "Machine learning",
+      "sdate": "02.2020"
+    },
+    {
+      "block": "class_shs",
+      "credits": 3,
+      "creditsBefore": 7,
+      "creditsOf": 3,
+      "form": "PS",
+      "grade": 5.5,
+      "lang": "FR_EN",
+      "name": "Artistic practices I",
+      "sdate": "02.2020"
+    },
+    {
+      "block": "class_optional",
+      "credits": 4,
+      "creditsBefore": 10,
+      "creditsOf": 4,
+      "form": "E",
+      "grade": 6,
+      "lang": "EN",
+      "name": "Markov chains and algorithmic applications",
+      "sdate": "02.2020"
+    },
+    {
+      "block": "class_core",
+      "credits": 6,
+      "creditsBefore": 14,
+      "creditsOf": 6,
+      "form": "E",
+      "grade": 5.5,
+      "lang": "EN",
+      "name": "Applied data analysis",
+      "sdate": "02.2020"
+    },
+    {
+      "block": "class_shs",
+      "credits": 12,
+      "creditsBefore": 20,
+      "creditsOf": 12,
+      "form": "PS",
+      "grade": 6,
+      "lang": "FR",
+      "name": "Projet de semestre en data science",
+      "sdate": "02.2020"
+    },
+    {
+      "block": "class_core",
+      "credits": 6,
+      "creditsBefore": 32,
+      "creditsOf": 6,
+      "form": "E",
+      "grade": 5.25,
+      "lang": "EN",
+      "name": "Information security and privacy",
+      "sdate": "02.2020"
+    }
+  ]
+}

@@ -166,6 +166,9 @@ export class TranscriptScreen {
       40
     );
 
+    d3.select("button#mock_btn")
+      .on("click", () => 0)
+      .attr("style", "display: none;");
     d3.select("button#skills_btn")
       .on("click", () => showSkills(this.circularPlot.data))
       .attr("style", "left: 0px; display: grid;");
