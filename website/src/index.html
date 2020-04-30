@@ -12,11 +12,57 @@
 <body>
 	<iframe id="course"  width="0" frameborder="0"></iframe>
 	<button type="button" id="skills_btn" style="display: none;">Show skills</button>
+
+	<div id="blockContainer" class = "grid_form" style="display: none">
+		<div class="block">
+			<h3>Course Name</h3>
+			<p id="course_desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+			</p>
+		</div>
+		<div class="block">
+			<h3>Professor Names</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+			</p>
+		</div>
+		<div class="block">
+			<h3>Histogram</h3>
+<!--			<div id="plotting"></div>-->
+
+			<div id='layout'>
+				<div id='container'>
+					<svg />
+				</div>
+			</div>
+		</div>
+
+		<div class="block">
+			<h3>Course description</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+			</p>
+		</div>
+		<div class="block">
+			<h3>Course Prerequisites</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+			</p>
+		</div>
+		<div class="block">
+			<h3>Section Name</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+			</p>
+		</div>
+	</div>
+
+
   <svg id="plot" viewBox="-10 -10 220 220" width="100%" length="auto"> 
 	</svg>
-	<div class="radarChart" style="display: inline-flex;"></div>
+	<div class="radarChart" id="radar_chart"></div>
 	<button type="button" id="credits_btn" style="display: none;">Show credits</button>
-	
+
   <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.4.456/pdf.js" integrity="sha256-NWP9mKA5l+ktFq3icYKWJYX6D/I3mRe7qjfu86y/vqQ=" crossorigin="anonymous"></script>
 </body>
 </html>
