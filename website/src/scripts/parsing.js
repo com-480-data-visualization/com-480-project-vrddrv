@@ -66,7 +66,6 @@ function getClassesInfoFromTextContent(itemsArray) {
   let classesData = [];
   let currentBlock;
 
-  console.log(itemsArray);
   for (let idx = 0; idx < itemsArray.length; idx++) {
     // Keep track of current block
     if (Object.keys(VALID_BLOCK_NAMES).includes(itemsArray[idx].str)) {

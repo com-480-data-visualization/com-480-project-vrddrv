@@ -127,7 +127,6 @@ export class TranscriptScreen {
     canvasHeight,
     transitionTimeScale
   ) {
-    console.log(transcript);
     this.transcript = transcript;
     this.context = context;
     this.canvasWidth = canvasWidth;
