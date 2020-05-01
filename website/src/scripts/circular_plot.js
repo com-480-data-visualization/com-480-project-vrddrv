@@ -28,7 +28,7 @@ export class CircularPlot {
     this.petalsLength = PETALS_LENGTH;
     this.maxNumberCredits = transcript.program.credits;
     // To make the plot more interesting
-    // shuffleArray(this.data);
+    shuffleArray(this.data);
     this.startAngle = 0;
     this.centerX = canvasWidth / 2 + shiftX;
     this.centerY = canvasHeight / 2 + shiftY;
@@ -118,7 +118,22 @@ export class CircularPlot {
       .text((d) =>
         d.name
           .split(" ")
-          .map((d) => (d == "and" ? "&" : d[0]))
+          .map(function (d) {
+            switch (d.toLowerCase()) {
+              case "and":
+                return "&";
+              case "a":
+                return "";
+              case "of":
+                return "";
+              case "for":
+                return "";
+              case "in":
+                return "";
+              default:
+                return d[0];
+            }
+          })
           .join("")
           .toUpperCase()
       )
@@ -207,9 +222,9 @@ export class CircularPlot {
 
     let sample = [];
     let minGrade = 4;
-    for (let each of course['grades_histogram']) {
-      sample.push({grade:minGrade, value: each});
-      minGrade+=0.25;
+    for (let each of course["grades_histogram"]) {
+      sample.push({ grade: minGrade, value: each });
+      minGrade += 0.25;
     }
     console.log(sample);
 
@@ -312,12 +327,9 @@ export class CircularPlot {
       .on("mouseenter", function (actual, i) {
         d3.selectAll(".value").attr("opacity", 0);
 
-        d3.select(this)
-          .transition()
-          .duration(300)
-          .attr("opacity", 0.6);
-          // .attr("x", (a) => xScale(a.grade) - 5)
-          // .attr("width", xScale.bandwidth() + 10);
+        d3.select(this).transition().duration(300).attr("opacity", 0.6);
+        // .attr("x", (a) => xScale(a.grade) - 5)
+        // .attr("width", xScale.bandwidth() + 10);
 
         const y = yScale(actual.value);
 

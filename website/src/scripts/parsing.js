@@ -11,24 +11,34 @@ const VALID_BLOCK_NAMES = {
   Options: "class_optional",
   'SHS"': "class_shs",
 };
-const VALID_SESSION_DATES = ["02.2020", "02.2019"];
+const VALID_SESSION_DATE = /^\d\d\.\d\d\d\d$/;
+const NAME_TRANSFORM_COORDINATE = 120.47;
 
 export function parseTranscriptFromPDF(pdfData) {
   // Load binary data from the obtained file
   var loadingTask = pdfjsLib.getDocument({ data: pdfData });
   return loadingTask.promise
     .then(function (pdfInstance) {
-      console.log("PDF loaded");
-      // TODO: Now we work only with the first page!
-      return pdfInstance.getPage(1);
+      // Read all pages content
+      var maxPages = pdfInstance.numPages;
+      console.log(`Processing ${maxPages} paged PDF`);
+
+      var countPromises = [];
+      for (var j = 1; j <= maxPages; j++) {
+        var page = pdfInstance.getPage(j);
+        countPromises.push(
+          page.then(function (page) {
+            return page.getTextContent().then((text) => text.items);
+          })
+        );
+      }
+      return Promise.all(countPromises);
     })
-    .then((pdfPage) => {
-      return pdfPage.getTextContent();
-    })
-    .then(function (textContent) {
+    .then(function (pageContents) {
+      const textContent = pageContents.flat();
       return new Transcript(
-        getClassesInfoFromTextContent(textContent.items),
-        getProgramFromTextContent(textContent.items)
+        getClassesInfoFromTextContent(textContent),
+        getProgramFromTextContent(textContent)
       );
     });
 }
@@ -56,16 +66,18 @@ function getClassesInfoFromTextContent(itemsArray) {
   let classesData = [];
   let currentBlock;
 
+  console.log(itemsArray);
   for (let idx = 0; idx < itemsArray.length; idx++) {
     // Keep track of current block
     if (Object.keys(VALID_BLOCK_NAMES).includes(itemsArray[idx].str)) {
       currentBlock = VALID_BLOCK_NAMES[itemsArray[idx].str];
     }
 
-    // Detect subject line by session date
-    if (VALID_SESSION_DATES.includes(itemsArray[idx].str)) {
+    // Detect subject line by session date (looking for exact match with any dat mm.yyyy)
+    if (VALID_SESSION_DATE.test(itemsArray[idx].str)) {
       let name = "",
         form = itemsArray[idx - 2].str;
+
       // TODO: now name is extracted in a very unrobust way:
       // 1. Check if it was attached to the form item
       let split = form.split(" ");
@@ -74,11 +86,27 @@ function getClassesInfoFromTextContent(itemsArray) {
         form = split[split.length - 1];
       }
 
-      // 2. Take next left item while name has small letter first
-      let nameIdx = idx - 1;
-      while ((name === "" || name[0] == name[0].toLowerCase()) && nameIdx > 2) {
-        name = itemsArray[nameIdx - 2].str + " " + name;
+      // 2. Take next left item while the next field
+      //  is in position 120.47 - magic coordinate of the names in transcript
+      //  or is in LowerCase
+      let nameIdx = idx - 3;
+      while (
+        (name === "" ||
+          name[0] == name[0].toLowerCase() ||
+          itemsArray[nameIdx].transform[4] == NAME_TRANSFORM_COORDINATE) &&
+        nameIdx > 0
+      ) {
+        name = itemsArray[nameIdx].str + " " + name;
         nameIdx -= 1;
+      }
+
+      // 3. Sanitize the name - sometimes it may be repeted.
+      let nameCenterIdx = name.length / 2;
+      if (
+        name.substring(0, nameCenterIdx).toLowerCase() ==
+        name.substring(nameCenterIdx).toLowerCase()
+      ) {
+        name = name.substring(nameCenterIdx);
       }
 
       var subject = {
@@ -96,5 +124,6 @@ function getClassesInfoFromTextContent(itemsArray) {
     }
   }
 
-  return classesData;
+  // TODO: Now we delete classes with no grade
+  return classesData.filter((d) => d.grade);
 }
