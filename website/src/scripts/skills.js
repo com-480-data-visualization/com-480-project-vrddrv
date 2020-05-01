@@ -5,9 +5,9 @@ import { DefaultDict } from "./helpers";
 const coursePrograms = require("../processed_data/course_programs.json");
 
 export function showSkills(data) {
-  document.getElementById("blockContainer").style.display="none";
-  document.getElementById("plot").style.display="none";
-  document.getElementById("radar_chart").style.display="inline";
+  document.getElementById("blockContainer").style.display = "none";
+  document.getElementById("plot").style.display = "none";
+  document.getElementById("radar_chart").style.display = "grid";
   // d3.select("#course").attr("width", "0");
   // d3.select("#plot").attr("width", "0");
 

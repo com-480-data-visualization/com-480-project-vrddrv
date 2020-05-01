@@ -188,11 +188,12 @@ export class CircularPlot {
     this.move(this.canvasWidth, -10);
 
     const course = COURSE_DESCRIPTIONS[d.name.toLowerCase()];
+    console.log(course);
     document.getElementById("course_name").innerHTML = d.name;
     document.getElementById("profs_name").innerHTML = course["profName"];
     document.getElementById("course_desc").innerHTML = course["courseDesc"];
     // document.getElementById("course_prerequisites").innerHTML = course['profName'];
-    document.getElementById("section_name").innerHTML = course["profName"];
+    document.getElementById("section_name").innerHTML = course["courseSection"];
 
     document.getElementById("blockContainer").style.display = "flex";
     document.getElementById("requirementsTable").style.display = "none";
@@ -229,8 +230,7 @@ export class CircularPlot {
 
     const svg = d3.select("svg#gradePlot");
     const svgContainer = d3.select("#container");
-    svg.selectAll('*').remove();
-
+    svg.selectAll("*").remove();
 
     const margin = 20;
     const width = 240 - 2 * margin;

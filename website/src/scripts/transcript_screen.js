@@ -186,6 +186,7 @@ function showCredits() {
   document.getElementById("plot").style.display="inline";
   document.getElementById("requirementsTable").style.display="inline";
   document.getElementById("radar_chart").style.display="none";
+  document.getElementById("blockContainer").style.display="none";
   // d3.select("#course").attr("width", "0");
   // d3.select("#plot").attr("width", "100%");
   // d3.select(".radarChart").html("");
