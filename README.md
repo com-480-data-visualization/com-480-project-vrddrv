@@ -73,11 +73,7 @@ Main Screen          |  Class Selection Screen
 
 
 ## Milestone 2 (Friday 1st May, 5pm)
-
-**10% of the final grade**
-
-
-
+You can see our report for Milestone 2 in the [Milestone2.pdf](Milestone2.pdf) file.
 
 ## Milestone 3 (Thursday 28th May, 5pm)
 
