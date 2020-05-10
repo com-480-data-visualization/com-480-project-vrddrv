@@ -1,8 +1,10 @@
 "use strict";
 
+import ReactDOM from "react-dom";
 import * as d3 from "d3";
+
 import { parseTranscriptFromPDF } from "./parsing.js";
-import { DropZone } from "./dropzone.js";
+import { DropZone } from "./components/dropzone.js";
 import { TranscriptScreen } from "./transcript_screen.js";
 import { Transcript } from "./transcript.js";
 
@@ -62,7 +64,11 @@ function whenDocumentLoaded(action) {
   }
 }
 
+ReactDOM.render(
+  <DropZone callback={dropHandler} />,
+  document.getElementById("root")
+);
+
 whenDocumentLoaded(() => {
-  new DropZone(CANVAS_WIDTH, CANVAS_HEIGHT, dropHandler);
   d3.select("button#mock_btn").on("click", () => mockTranscript());
 });
