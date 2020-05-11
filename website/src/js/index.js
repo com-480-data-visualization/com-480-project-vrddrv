@@ -1,5 +1,6 @@
 "use strict";
 
+import React from "react";
 import ReactDOM from "react-dom";
 import * as d3 from "d3";
 
@@ -16,10 +17,8 @@ const CANVAS_WIDTH = 200;
 const CANVAS_HEIGHT = 200;
 const TRANSITION_TIME_SCALE = 1000;
 
-function dropHandler() {
-  d3.event.preventDefault();
-
-  var file = d3.event.dataTransfer.files[0];
+function dropHandler(event) {
+  var file = event.dataTransfer.files[0];
   if (file) {
     var reader = new FileReader();
     reader.readAsText(file, "UTF-8");

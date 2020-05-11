@@ -1,18 +1,42 @@
 "use strict";
 
-import React from 'react';
+import React from "react";
 
-export class DropZone extends React.Component {
-  render() {
-    return (
-      <div className="DropZone">
-        <text>
-          Drag and drop your transcript here!
-        </text>
-      </div>
-    )
-  }
-}
+export function DropZone(props) {
+  const [showBox, setShowBox] = React.useState(true);
+
+  const handleDragEnter = (e) => {
+    e.preventDefault();
+    e.stopPropagation();
+  };
+  const handleDragLeave = (e) => {
+    e.preventDefault();
+    e.stopPropagation();
+  };
+  const handleDragOver = (e) => {
+    e.preventDefault();
+    e.stopPropagation();
+  };
+  const handleDrop = (e) => {
+    e.preventDefault();
+    e.stopPropagation();
+    props.callback(e);
+    setShowBox(false);
+  };
+
+  return (
+    <div
+      className="DropZone"
+      onDrop={handleDrop}
+      onDragOver={handleDragOver}
+      onDragEnter={handleDragEnter}
+      onDragLeave={handleDragLeave}
+      style={{ display: showBox ? "block" : "none" }}
+    >
+      <h1>Drag and drop your transcript here!</h1>
+    </div>
+  );
+};
 
 // export class DropZone {
 //   constructor(canvasWidth, canvasHeight, dropHandler) {
