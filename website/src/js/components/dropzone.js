@@ -1,32 +1,29 @@
 "use strict";
 
 import React from "react";
+import { Button, Grid } from "@material-ui/core";
+import { DropzoneArea } from "material-ui-dropzone";
 
 export function DropZone(props) {
-  const [showBox, setShowBox] = React.useState(true);
-  const [opacity, setOpacity] = React.useState(1.0);
-
-  const handleDragOver = (e) => {
-    e.preventDefault();
-    e.stopPropagation();
-  };
-  const handleDrop = (e) => {
-    e.preventDefault();
-    e.stopPropagation();
-    props.callback(e);
-    setShowBox(false);
-  };
-
   return (
-    <div
-      className="DropZone"
-      onDrop={handleDrop}
-      onDragOver={handleDragOver}
-      onMouseOver={() => setOpacity(0.8)}
-      onMouseLeave={() => setOpacity(1.0)}
-      style={{ display: showBox ? "block" : "none", opacity: opacity }}
+    <Grid
+      container
+      direction="column"
+      justify="center"
+      alignItems="center"
+      spacing={3}
     >
-      <h1>Drag and drop your transcript here!</h1>
-    </div>
+      <Grid item xs>
+        <DropzoneArea
+          dropzoneText={"Drag and drop an image here or click"}
+          onChange={(files) => console.log("Files:", files)}
+        />
+      </Grid>
+      <Grid item xs>
+        <Button variant="contained" onClick={() => props.showMockTranscript()}>
+          Use Mock transcript
+        </Button>
+      </Grid>
+    </Grid>
   );
 }

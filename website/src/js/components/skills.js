@@ -1,20 +1,27 @@
 import * as d3 from "d3";
-import { RadarChart } from "./radar_chart";
-import { DefaultDict } from "./helpers";
+import React, { useRef, useEffect } from "react";
+import { RadarChart } from "../radar_chart";
+import { DefaultDict } from "../helpers";
 
-const coursePrograms = require("../processed_data/course_programs.json");
+const coursePrograms = require("../../processed_data/course_programs.json");
 
-export function showSkills(data) {
-  document.getElementById("blockContainer").style.display = "none";
-  document.getElementById("plot").style.display = "none";
-  document.getElementById("radar_chart").style.display = "grid";
-  // d3.select("#course").attr("width", "0");
-  // d3.select("#plot").attr("width", "0");
+export function Skills(props) {
+  const node = useRef();
+  useEffect(() => {
+    if (node.current) {
+      showSkillsForPrograms(node.current, props.data, coursePrograms);
+    }
+  }, [node]);
 
-  showSkillsForPrograms(data, coursePrograms);
+  return <div className="radarChart" id="radar_chart" ref={node}></div>;
 }
 
-function showSkillsForPrograms(data, coursePrograms, programsToShow = 7) {
+function showSkillsForPrograms(
+  parent_selector,
+  data,
+  coursePrograms,
+  programsToShow = 7
+) {
   let programs = new DefaultDict(0);
 
   data.forEach((course) => {
@@ -31,11 +38,11 @@ function showSkillsForPrograms(data, coursePrograms, programsToShow = 7) {
   programs = Object.entries(programs);
   programs.sort((a, b) => (a[1] < b[1] ? 1 : -1));
   programs = programs.slice(0, programsToShow);
-  console.log(programs);
 
   var margin = { top: 50, right: 80, bottom: 50, left: 80 },
-    width = Math.min(700, window.innerWidth / 4) - margin.left - margin.right,
-    height = Math.min(width, window.innerHeight - margin.top - margin.bottom);
+    //width = Math.min(700, window.innerWidth / 4) - margin.left - margin.right,
+    width = window.innerWidth - margin.left - margin.right;
+    //height = Math.min(width, window.innerHeight - margin.top - margin.bottom);
 
   var radarData = [
     {
@@ -73,7 +80,7 @@ function showSkillsForPrograms(data, coursePrograms, programsToShow = 7) {
     format: ".0f",
   };
 
-  RadarChart(".radarChart", radarData, radarChartOptions);
+  RadarChart(parent_selector, radarData, radarChartOptions);
 }
 
 function prettifyProgramName(program) {

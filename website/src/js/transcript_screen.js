@@ -1,8 +1,6 @@
 "use strict";
 
-import * as d3 from "d3";
 import { CircularPlot } from "./circular_plot.js";
-import { showSkills } from "./skills";
 
 class Header {
   constructor(name, context, posX, posY) {
@@ -125,20 +123,20 @@ export class TranscriptScreen {
     context,
     canvasWidth,
     canvasHeight,
-    transitionTimeScale
+    transitionTimeScale,
+    setCourse,
   ) {
     this.transcript = transcript;
     this.context = context;
     this.canvasWidth = canvasWidth;
     this.canvasHeight = canvasHeight;
     this.transitionTimeScale = transitionTimeScale;
+    this.setCourse = setCourse;
 
     this.initializePlot();
   }
 
   initializePlot() {
-    this.clearWorkspace();
-
     this.screen = this.context.append("g");
     this.screen.attr("id", "transcript_screen");
 
@@ -148,8 +146,9 @@ export class TranscriptScreen {
       this.canvasWidth,
       this.canvasHeight,
       -10,
-      20,
-      this.transitionTimeScale
+      0,
+      this.transitionTimeScale,
+      this.setCourse
     );
 
     this.header = new Header(
@@ -162,32 +161,8 @@ export class TranscriptScreen {
     this.requirements = new RequirementsTable(
       this.transcript,
       this.screen,
-      this.canvasWidth - 20,
+      this.canvasWidth - 60,
       40
     );
-
-    d3.select("button#mock_btn")
-      .on("click", () => 0)
-      .attr("style", "display: none;");
-    d3.select("button#skills_btn")
-      .on("click", () => showSkills(this.circularPlot.data))
-      .attr("style", "left: 0px; display: grid;");
-    d3.select("button#credits_btn")
-      .on("click", showCredits)
-      .attr("style", "right: 0px; display: grid;");
   }
-
-  clearWorkspace() {
-    this.context.select("*").remove();
-  }
-}
-
-function showCredits() {
-  document.getElementById("plot").style.display="inline";
-  document.getElementById("requirementsTable").style.display="inline";
-  document.getElementById("radar_chart").style.display="none";
-  document.getElementById("blockContainer").style.display="none";
-  // d3.select("#course").attr("width", "0");
-  // d3.select("#plot").attr("width", "100%");
-  // d3.select(".radarChart").html("");
 }

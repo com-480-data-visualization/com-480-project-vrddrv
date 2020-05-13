@@ -3,7 +3,7 @@
 import * as d3 from "d3";
 
 const CIRC_PLOT_RADIUS = 30;
-const PETALS_LENGTH = 60;
+const PETALS_LENGTH = 50;
 
 // TODO: move it from here
 const COURSE_DESCRIPTIONS = require("../processed_data/course_descriptions.json");
@@ -16,7 +16,8 @@ export class CircularPlot {
     canvasHeight,
     shiftX,
     shiftY,
-    transitionTimeScale
+    transitionTimeScale,
+    setCourse
   ) {
     this.transcript = transcript;
     this.context = context;
@@ -33,6 +34,7 @@ export class CircularPlot {
     this.centerX = canvasWidth / 2 + shiftX;
     this.centerY = canvasHeight / 2 + shiftY;
     this.mouseEventsEnabled = true;
+    this.setCourse = setCourse;
 
     this.calcStats();
     this.initializePlot();
@@ -188,179 +190,7 @@ export class CircularPlot {
     this.move(this.canvasWidth, -10);
 
     const course = COURSE_DESCRIPTIONS[d.name.toLowerCase()];
-    console.log(course);
-    document.getElementById("course_name").innerHTML = d.name;
-    document.getElementById("profs_name").innerHTML = course["profName"];
-    document.getElementById("course_desc").innerHTML = course["courseDesc"];
-    // document.getElementById("course_prerequisites").innerHTML = course['profName'];
-    document.getElementById("section_name").innerHTML = course["courseSection"];
-
-    document.getElementById("blockContainer").style.display = "flex";
-    document.getElementById("requirementsTable").style.display = "none";
-
-    // ----------------------------------------------------------------------
-
-    // const data = [ { "x": 10, "y": 15}, { "x": 13, "y": 20},
-    //   { "x": 30, "y": 30}, { "x": 35, "y": 40},
-    //   { "x": 40, "y": 20}, { "x": 80, "y": 70}];
-    //
-    // const lineGenerator = d3.line()
-    //     .x(d => d.x)
-    //     .y(d => d.y);
-    //
-    // const svgContainer = d3.select("div#plotting")
-    //     .append("svg")
-    //     .attr("width", 200)
-    //     .attr("height", 200);
-    //
-    // const lineChart = svgContainer.append("path")
-    //     .attr("d", lineGenerator(data))
-    //     .attr("stroke", "blue")
-    //     .attr("stroke-width", 2)
-    //     .attr("fill", "none");
-
-    // ----------------------------------------------------------------------
-
-    let sample = [];
-    let minGrade = 4;
-    for (let each of course["grades_histogram"]) {
-      sample.push({ grade: minGrade, value: each });
-      minGrade += 0.25;
-    }
-
-    const svg = d3.select("svg#gradePlot");
-    const svgContainer = d3.select("#container");
-    svg.selectAll("*").remove();
-
-    const margin = 20;
-    const width = 240 - 2 * margin;
-    const height = 150 - 2 * margin;
-
-    const chart = svg
-      .append("g")
-      .attr("transform", `translate(${margin}, ${margin})`);
-
-    const xScale = d3
-      .scaleBand()
-      .range([0, width])
-      .domain(sample.map((s) => s.grade))
-      .padding(0.4);
-
-    const yScale = d3.scaleLinear().range([height, 0]).domain([0, 100]);
-
-    const makeYLines = () => d3.axisLeft().scale(yScale);
-
-    chart
-      .append("g")
-      .attr("transform", `translate(0, ${height})`)
-      .call(d3.axisBottom(xScale))
-      .style("font-size", "5px");
-
-    chart.append("g").call(d3.axisLeft(yScale)).style("font-size", "5px");
-
-    chart
-      .append("g")
-      .attr("class", "grid")
-      .call(makeYLines().tickSize(-width, 0, 0).tickFormat(""));
-
-    const barGroups = chart.selectAll().data(sample).enter().append("g");
-
-    barGroups
-      .append("rect")
-      .attr("class", "bar")
-      .attr("x", (g) => xScale(g.grade))
-      .attr("y", (g) => yScale(g.value))
-      .attr("height", (g) => height - yScale(g.value))
-      .attr("width", xScale.bandwidth())
-      .on("mouseenter", function (actual, i) {
-        d3.selectAll(".value").attr("opacity", 0);
-
-        d3.select(this).transition().duration(300).attr("opacity", 0.6);
-        // .attr("x", (a) => xScale(a.grade) - 5)
-        // .attr("width", xScale.bandwidth() + 10);
-
-        const y = yScale(actual.value);
-
-        const line = chart
-          .append("line")
-          .attr("id", "limit")
-          .attr("x1", 0)
-          .attr("y1", y)
-          .attr("x2", width)
-          .attr("y2", y);
-
-        barGroups
-          .append("text")
-          .attr("class", "divergence")
-          .attr("x", (a) => xScale(a.grade) + xScale.bandwidth() / 2)
-          .attr("y", (a) => yScale(a.value) + 30)
-          .attr("fill", "white")
-          .attr("text-anchor", "middle")
-          .text((a, idx) => {
-            const divergence = (a.value - actual.value).toFixed(1);
-
-            let text = "";
-            if (divergence > 0) text += "+";
-            text += `${divergence}%`;
-
-            return idx !== i ? text : "";
-          });
-      })
-      .on("mouseleave", function () {
-        d3.selectAll(".value").attr("opacity", 1);
-
-        d3.select(this)
-          .transition()
-          .duration(300)
-          .attr("opacity", 1)
-          .attr("x", (a) => xScale(a.grade))
-          .attr("width", xScale.bandwidth());
-
-        chart.selectAll("#limit").remove();
-        chart.selectAll(".divergence").remove();
-      });
-
-    // barGroups
-    //   .append("text")
-    //   .attr("class", "value")
-    //   .attr("x", (a) => xScale(a.grade) + xScale.bandwidth() / 2)
-    //   .attr("y", (a) => yScale(a.value) + 30)
-    //   .attr("text-anchor", "middle")
-    //   .text((a) => `${a.value}%`);
-
-    svg
-      .append("text")
-      .style("font-size", "5px")
-      .attr("class", "label")
-      .attr("x", -(height / 2) - margin)
-      .attr("y", margin / 2.4 - 6)
-      .attr("transform", "rotate(-90)")
-      .attr("text-anchor", "middle")
-      .text("Number of students");
-
-    svg
-      .append("text")
-      .style("font-size", "5px")
-      .attr("class", "label")
-      .attr("x", width / 2 + margin)
-      .attr("y", height + margin * 1.9)
-      .attr("text-anchor", "middle")
-      .text("Grades");
-
-    svg
-      .append("text")
-      .attr("class", "title")
-      .attr("x", width / 2 + margin)
-      .attr("y", 10)
-      .attr("text-anchor", "middle")
-      .text("Grade Distribution");
-
-    // d3.select("iframe#course")
-    //   .attr("left", "-1000px")
-    //   .transition()
-    //   .duration(this.transitionTimeScale)
-    //   .attr("width", "100%")
-    //   .attr("src", "https://edu.epfl.ch/coursebook/en/machine-learning-CS-433");
+    this.setCourse(course);
   }
 
   onPetalMouseOver(d, petal) {
