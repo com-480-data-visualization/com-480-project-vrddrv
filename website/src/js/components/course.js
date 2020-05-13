@@ -11,7 +11,6 @@ const useStyles = makeStyles((theme) => ({
 
 export function Course(props) {
   const classes = useStyles();
-  console.log(props.course["profName"].join("\n"));
 
   return (
     <div className={classes.root}>
@@ -22,7 +21,7 @@ export function Course(props) {
         <Grid item xs={4}>
           <TextCard
             title="Professor names"
-            text={props.course["profName"].join(" ")}
+            text={props.course["profName"].join("\n")}
           />
         </Grid>
         <Grid item xs={4}>
