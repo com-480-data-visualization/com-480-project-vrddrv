@@ -10,55 +10,9 @@
 	<meta name="author" content="Artem Lukoianov, Davit Martirosyan, Fedor Moiseev">
 </head>
 <body>
-	<iframe id="course"  width="0" frameborder="0"></iframe>
-	<button type="button" id="skills_btn" style="display: none;">Show skills</button>
+	<div id="root"></div>
 
-  <button type="button" id="mock_btn", style="center:0px">Use Mock transcript</button>
-
-	<div id="blockContainer" class = "grid_form" style="display: none">
-		<div class="left-content">
-			<div class="block">
-				<h3>Course Name</h3>
-				<p id="course_name"></p>
-			</div>
-			<div class="block">
-				<h3>Grades distribution</h3>
-				<!--<div id="plotting"></div>-->
-				<div id='layout'>
-					<div id='container'>
-						<svg id='gradePlot'> </svg>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="right-content">
-			<div class="block">
-				<h3>Professor Names</h3>
-				<p id="profs_name"></p>
-			</div>
-
-			<div class="block">
-				<h3>Course description</h3>
-				<p id="course_desc"></p>
-			</div>
-			<div class="block">
-				<h3>Course Prerequisites</h3>
-				<p id="course_prerequisites"></p>
-			</div>
-			<div class="block">
-				<h3>Section Name</h3>
-				<p id="section_name"></p>
-			</div>
-		</div>
-	</div>
-
-
-  <svg id="plot" viewBox="-10 -10 220 220" width="100%" length="auto"> 
-	</svg>
-	<div class="radarChart" id="radar_chart"></div>
-	<button type="button" id="credits_btn" style="display: none;">Show credits</button>
-
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.4.456/pdf.js" 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.4.456/pdf.js" 
           integrity="sha256-NWP9mKA5l+ktFq3icYKWJYX6D/I3mRe7qjfu86y/vqQ=" 
           crossorigin="anonymous">
   </script>
