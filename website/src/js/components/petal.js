@@ -3,15 +3,17 @@
 import React from "react";
 
 export function Petal(props) {
-  console.log(props);
-  console.log(
-    -(
-      (((props.data.grade - 3) / 3) * props.petalsLength) / 2 +
-      props.circPlotRadius
-    )
-  );
   return (
-    <g className={"petal " + props.data.block}>
+    <g
+      className={"petal " + props.data.block}
+      transform={`rotate(${
+        (props.startAngle * 180) / Math.PI +
+        (-360 * props.data.creditsBefore) / props.maxNumberCredits
+      })`}
+      onClick={() => {
+        props.onPetalClick(props.data);
+      }}
+    >
       <path id={"block_" + props.i} d={props.arcGenerator(props.data)} />
       <text
         x={
@@ -21,7 +23,6 @@ export function Petal(props) {
           )
         }
         transform={`rotate(${
-          (props.startAngle * 180) / Math.PI +
           (90 - 360 * (props.data.credits / 2 - props.maxNumberCredits / 4)) /
             props.maxNumberCredits
         })`}

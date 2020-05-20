@@ -28,7 +28,6 @@ ReactDOM.render(
     gpa={5.72}
     totalCredits={38}
     maxNumberCredits={120}
-    startAngle={90}
   />,
   document.getElementById("root")
 );
