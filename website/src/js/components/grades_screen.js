@@ -7,19 +7,23 @@ import { Course } from "./course";
 
 export function GradesScreen(props) {
   const [course, setCourse] = useState(null);
-
   let activeTag = (
     <Grid container alignItems="center">
       {course && (
         <Grid item xs={6}>
-          <Course course={course}/>
+          <Course course={course} />
         </Grid>
       )}
       <Grid item xs={course ? 6 : 12}>
         <Grid container direction="column" alignItems="center">
           <Grid item>
             <ButtonGroup variant="contained" color="primary">
-              <Button onClick={() => props.setActiveScreen("transcript")}>
+              <Button
+                onClick={() => {
+                  props.setActiveScreen("transcript");
+                  setCourse(null);
+                }}
+              >
                 Show credits
               </Button>
               <Button onClick={() => props.setActiveScreen("skills")}>
@@ -33,6 +37,8 @@ export function GradesScreen(props) {
               canvasWidth={props.canvasWidth}
               canvasHeight={props.canvasHeight}
               transitionTimeScale={props.transitionTimeScale}
+              circPlotRadius={props.circPlotRadius}
+              petalsLength={props.petalsLength}
               course={course}
               setCourse={setCourse}
             />

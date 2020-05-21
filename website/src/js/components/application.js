@@ -38,6 +38,8 @@ export function Application(props) {
           canvasWidth={props.canvasWidth}
           canvasHeight={props.canvasHeight}
           transitionTimeScale={props.transitionTimeScale}
+          circPlotRadius={props.circPlotRadius}
+          petalsLength={props.petalsLength}
         />
       );
       break;

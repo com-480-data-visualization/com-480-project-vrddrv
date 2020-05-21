@@ -1,15 +1,21 @@
 "use strict";
 
 import React, { useState } from "react";
+import { useSpring, animated } from "react-spring";
 import * as d3 from "d3";
 import { CenterCircle } from "./center_circle";
 import { Petal } from "./petal";
+import { Tooltip } from "./tooltip";
 
 // TODO: move it from here
 const COURSE_DESCRIPTIONS = require("../../processed_data/course_descriptions.json");
 
+const AnimatedPetal = animated(Petal);
+
 export function CircularPlot(props) {
-  const [startAngle, setStartAngle] = useState(0);
+  const [tooltipPos, setTooltipPos] = useState(null);
+  const [tooltipData, setTooltipData] = useState(null);
+
   let arcGenerator = d3
     .arc()
     .innerRadius(props.circPlotRadius)
@@ -18,60 +24,64 @@ export function CircularPlot(props) {
       (d) => ((d.grade - 3) / 3) * props.petalsLength + props.circPlotRadius
     )
     .startAngle(0)
-    .endAngle(
-      (d) => - (2 * Math.PI * d.credits) / props.maxNumberCredits
-    );
+    .endAngle((d) => -(2 * Math.PI * d.credits) / props.maxNumberCredits);
+
+  let totalCredits = 0; //data.reduce((v, t) => v + t.credits, 0);
+  for (let idx = 0; idx < props.data.length; idx++) {
+    props.data[idx].creditsBefore = totalCredits;
+    totalCredits += props.data[idx].credits;
+  }
+  let gpa = d3.format(".3s")(
+    props.data.reduce((t, v) => t + v.credits * v.grade, 0) / totalCredits
+  );
+
+  const [animatedProps, setAnimatedProps, _] = useSpring(() => ({
+    startAngle: 0,
+    config: { duration: props.transitionTimeScale },
+  }));
+
   const onPetalClick = (d) => {
-    setStartAngle(
-      ((d.creditsBefore + d.credits / 2) / props.maxNumberCredits) *
-        2 *
-        Math.PI -
-        Math.PI / 2
-    );
+    setAnimatedProps({
+      startAngle:
+        ((d.creditsBefore + d.credits / 2) / props.maxNumberCredits) *
+          2 *
+          Math.PI -
+        Math.PI / 2,
+    });
     const course = COURSE_DESCRIPTIONS[d.name.toLowerCase()];
+    props.setCourse(course);
   };
 
-  // let data = [
-  //   {
-  //     grade: 6.0,
-  //     credits: 6,
-  //     creditsBefore: 0,
-  //     block: "class_core",
-  //     name: "Applied data analysis",
-  //   },
-  //   {
-  //     grade: 6.0,
-  //     credits: 6,
-  //     creditsBefore: 6,
-  //     block: "class_shs",
-  //     name: "Machine learning",
-  //   },
-  // ];
   return (
-    <svg id="plot" viewBox="-10 -10 220 220" width="100%" length="auto">
-      <g id="circular_plot" transform="translate(90, 100) scale(1, 1)">
-        <CenterCircle
-          radius={props.circPlotRadius}
-          gpa={props.gpa}
-          totalCredits={props.totalCredits}
-          maxNumberCredits={props.maxNumberCredits}
-        />
-        {props.data.map((d) => {
-          return (
-            <Petal
-              key={d.name}
-              data={d}
-              i={0}
-              arcGenerator={arcGenerator}
-              petalsLength={props.petalsLength}
-              circPlotRadius={props.circPlotRadius}
-              maxNumberCredits={props.maxNumberCredits}
-              startAngle={startAngle}
-              onPetalClick={onPetalClick}
-            />
-          );
-        })}
-      </g>
-    </svg>
+    <div>
+      {tooltipData && <Tooltip pos={tooltipPos} data={tooltipData} />}
+      <svg id="plot" viewBox="-10 -10 220 220" width="100%" length="auto">
+        <g id="circular_plot" transform="translate(90, 100) scale(1, 1)">
+          <CenterCircle
+            radius={props.circPlotRadius}
+            gpa={gpa}
+            totalCredits={totalCredits}
+            maxNumberCredits={props.maxNumberCredits}
+          />
+          {props.data.map((d) => {
+            return (
+              <AnimatedPetal
+                key={d.name}
+                data={d}
+                arcGenerator={arcGenerator}
+                petalsLength={props.petalsLength}
+                circPlotRadius={props.circPlotRadius}
+                maxNumberCredits={props.maxNumberCredits}
+                transitionTimeScale={props.transitionTimeScale}
+                startAngle={animatedProps.startAngle}
+                onPetalClick={onPetalClick}
+                setTooltipPos={setTooltipPos}
+                setTooltipData={setTooltipData}
+              />
+            );
+          })}
+        </g>
+      </svg>
+    </div>
   );
 }

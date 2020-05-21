@@ -6,27 +6,14 @@ import { TranscriptScreen } from "../transcript_screen";
 import { CircularPlot } from "./circular_plot";
 
 export function Grades(props) {
-  const node = useRef();
-  useEffect(() => {
-    if (node.current) {
-      new TranscriptScreen(
-        props.transcript,
-        d3.select(node.current),
-        props.canvasWidth,
-        props.canvasHeight,
-        props.transitionTimeScale,
-        props.setCourse
-      );
-    }
-  }, [node]);
-
   return (
-    <svg
-      id="plot"
-      viewBox="-10 -10 220 220"
-      width="100%"
-      length="auto"
-      ref={node}
-    ></svg>
+    <CircularPlot
+      data={props.transcript.classes}
+      circPlotRadius={props.circPlotRadius}
+      petalsLength={props.petalsLength}
+      transitionTimeScale={props.transitionTimeScale}
+      maxNumberCredits={120}
+      setCourse={props.setCourse}
+    />
   );
 }
