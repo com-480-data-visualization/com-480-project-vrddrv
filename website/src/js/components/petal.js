@@ -4,6 +4,13 @@ import React from "react";
 import { useSpring, animated } from "react-spring";
 
 export function Petal(props) {
+  const startAnimatedProps = useSpring({
+    creditsBefore: props.data.creditsBefore,
+    from: {
+      creditsBefore: 0,
+    },
+    config: { duration: props.transitionTimeScale },
+  });
   const [animatedProps, setAnimatedProps, _] = useSpring(() => ({
     scale: 1.0,
     opacity: 1.0,
@@ -22,6 +29,7 @@ export function Petal(props) {
         scale={animatedProps.scale}
         arcGenerator={props.arcGenerator}
         onPetalClick={props.onPetalClick}
+        creditsBefore={startAnimatedProps.creditsBefore}
       />
       <g
         transform={`rotate(${
@@ -32,7 +40,6 @@ export function Petal(props) {
           props.onPetalClick(props.data);
         }}
         onMouseOver={() => {
-          console.log("Kek");
           setAnimatedProps({ scale: 1.2, opacity: 0.8 });
         }}
         onMouseOut={() => {
@@ -60,7 +67,7 @@ function InnerPetal(props) {
       className={"petal " + props.data.block}
       transform={`scale(${props.scale}, ${props.scale}) rotate(${
         (props.startAngle * 180) / Math.PI +
-        (-360 * props.data.creditsBefore) / props.maxNumberCredits
+        (-360 * props.creditsBefore) / props.maxNumberCredits
       })`}
       opacity={props.opacity}
     >
