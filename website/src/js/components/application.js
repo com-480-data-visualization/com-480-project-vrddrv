@@ -53,7 +53,7 @@ export function Application(props) {
       break;
   }
 
-  return <Container style={{ height: "100%" }}>{activeTag}</Container>;
+  return activeTag;
 }
 
 function dropHandler(event) {

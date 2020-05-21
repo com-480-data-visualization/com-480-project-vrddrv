@@ -7,45 +7,41 @@ import { Course } from "./course";
 
 export function GradesScreen(props) {
   const [course, setCourse] = useState(null);
-  let activeTag = (
-    <Grid container alignItems="center">
-      {course && (
-        <Grid item xs={6}>
-          <Course course={course} />
-        </Grid>
-      )}
-      <Grid item xs={course ? 6 : 12}>
-        <Grid container direction="column" alignItems="center">
-          <Grid item>
-            <ButtonGroup variant="contained" color="primary">
-              <Button
-                onClick={() => {
-                  props.setActiveScreen("transcript");
-                  setCourse(null);
-                }}
-              >
-                Show credits
-              </Button>
-              <Button onClick={() => props.setActiveScreen("skills")}>
-                Show skills
-              </Button>
-            </ButtonGroup>
-          </Grid>
-          <Grid item style={{ width: "60%" }}>
-            <Grades
-              transcript={props.transcript}
-              canvasWidth={props.canvasWidth}
-              canvasHeight={props.canvasHeight}
-              transitionTimeScale={props.transitionTimeScale}
-              circPlotRadius={props.circPlotRadius}
-              petalsLength={props.petalsLength}
-              course={course}
-              setCourse={setCourse}
-            />
-          </Grid>
-        </Grid>
-      </Grid>
-    </Grid>
+  return (
+    <>
+      <ButtonGroup
+        variant="contained"
+        color="primary"
+        style={{
+          position: "absolute",
+          left: "50%",
+          transform: "translate(-50%, 0)",
+        }}
+      >
+        <Button
+          onClick={() => {
+            props.setActiveScreen("transcript");
+            setCourse(null);
+          }}
+        >
+          Show credits
+        </Button>
+        <Button onClick={() => props.setActiveScreen("skills")}>
+          Show skills
+        </Button>
+      </ButtonGroup>
+      <Course course={course} transitionTimeScale={props.transitionTimeScale} />
+      <Grades
+        transcript={props.transcript}
+        canvasWidth={props.canvasWidth}
+        canvasHeight={props.canvasHeight}
+        transitionTimeScale={props.transitionTimeScale}
+        circPlotRadius={props.circPlotRadius}
+        petalsLength={props.petalsLength}
+        course={course}
+        setCourse={setCourse}
+        course={course}
+      />
+    </>
   );
-  return activeTag;
 }

@@ -16,6 +16,7 @@ export function Grades(props) {
       transitionTimeScale={props.transitionTimeScale}
       maxNumberCredits={120}
       setCourse={props.setCourse}
+      course={props.course}
     />
   );
 }

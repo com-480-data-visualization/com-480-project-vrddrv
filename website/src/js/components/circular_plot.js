@@ -10,24 +10,26 @@ import { Tooltip } from "./tooltip";
 // TODO: move it from here
 const COURSE_DESCRIPTIONS = require("../../processed_data/course_descriptions.json");
 
-function PlotContainer(props) {
-  return (
-    <g
-      id="circular_plot"
-      transform={`matrix(${props.scale}, 0, 0, ${props.scale}, ${props.centerX}, ${props.centerY})`}
-    >
-      {props.children}
-    </g>
-  );
-}
-
 const AnimatedPetal = animated(Petal);
 const AnimatedCenterCircle = animated(CenterCircle);
-const AnimatedPlotContainer = animated(PlotContainer);
 
 export function CircularPlot(props) {
+  const centerX = props.canvasWidth / 2;
+  const centerY = props.canvasHeight / 2;
+
   const [tooltipPos, setTooltipPos] = useState(null);
   const [tooltipData, setTooltipData] = useState(null);
+  const plot = useSpring({
+    transform: props.course
+      ? `matrix(0.45, 0, 0, 0.45, ${centerX + 50}, ${centerY - 50})`
+      : `matrix(0.45, 0, 0, 0.45, ${centerX}, ${centerY - 50})`,
+    from: {
+      transform: `matrix(0, 0, 0, 0, ${centerX}, ${centerY - 50})`,
+    },
+    config: {
+      duration: props.transitionTimeScale,
+    },
+  });
 
   let arcGenerator = d3
     .arc()
@@ -71,46 +73,36 @@ export function CircularPlot(props) {
     const course = COURSE_DESCRIPTIONS[d.name.toLowerCase()];
     props.setCourse(course);
   };
-  const centerX = props.canvasWidth / 2;
-  const centerY = props.canvasHeight / 2;
-  const content = (
-    <g>
-      <AnimatedCenterCircle
-        radius={props.circPlotRadius}
-        gpa={animatedProps.gpa}
-        totalCredits={totalCredits}
-        maxNumberCredits={props.maxNumberCredits}
-      />
-      {props.data.map((d) => {
-        return (
-          <AnimatedPetal
-            key={d.name}
-            data={d}
-            arcGenerator={arcGenerator}
-            petalsLength={props.petalsLength}
-            circPlotRadius={props.circPlotRadius}
-            maxNumberCredits={props.maxNumberCredits}
-            transitionTimeScale={props.transitionTimeScale}
-            startAngle={animatedProps.startAngle}
-            onPetalClick={onPetalClick}
-            setTooltipPos={setTooltipPos}
-            setTooltipData={setTooltipData}
-          />
-        );
-      })}
-    </g>
-  );
 
   return (
-    <div>
+    <div style={{ textAlign: "center" }}>
       {tooltipData && <Tooltip pos={tooltipPos} data={tooltipData} />}
-      <svg id="plot" viewBox="-10 -10 220 220" width="100%" length="auto">
-        <AnimatedPlotContainer
-          scale={animatedProps.scale}
-          centerX={centerX}
-          centerY={centerY}
-          children={content}
-        />
+      <svg id="plot" viewBox="-10 -10 220 220">
+        <animated.g id="circular_plot" transform={plot.transform}>
+          <AnimatedCenterCircle
+            radius={props.circPlotRadius}
+            gpa={animatedProps.gpa}
+            totalCredits={totalCredits}
+            maxNumberCredits={props.maxNumberCredits}
+          />
+          {props.data.map((d) => {
+            return (
+              <AnimatedPetal
+                key={d.name}
+                data={d}
+                arcGenerator={arcGenerator}
+                petalsLength={props.petalsLength}
+                circPlotRadius={props.circPlotRadius}
+                maxNumberCredits={props.maxNumberCredits}
+                transitionTimeScale={props.transitionTimeScale}
+                startAngle={animatedProps.startAngle}
+                onPetalClick={onPetalClick}
+                setTooltipPos={setTooltipPos}
+                setTooltipData={setTooltipData}
+              />
+            );
+          })}
+        </animated.g>
       </svg>
     </div>
   );
