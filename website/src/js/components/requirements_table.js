@@ -78,7 +78,7 @@ function getProgramRequirementsList(program) {
     "Core Credits",
     (classes) =>
       classes.reduce((t, v) => {
-        return t + v.credits;
+        return (v.block == "class_core" ) ? t + v.credits : t;
       }, 0),
     0,
     30,
@@ -153,7 +153,7 @@ export function RequirementTable(props) {
   console.log(props.transcript);
   return (
     <Card
-      style={{ top: "40px", left: "20px", width: "25%", position: "absolute", "max-width": "300px"}}
+      style={{ top: "40px", left: "20px", width: "25%", position: "absolute", maxWidth: "300px"}}
       id="requirementsTable"
     >
       <CardContent>
