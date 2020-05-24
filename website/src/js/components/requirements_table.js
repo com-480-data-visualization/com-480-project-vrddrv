@@ -2,7 +2,7 @@
 
 import React from "react";
 import { Grid, Typography, LinearProgress } from "@material-ui/core";
-import { Card, CardContent } from "@material-ui/core";
+import { Card, CardContent, Tooltip} from "@material-ui/core";
 import { green } from "@material-ui/core/colors";
 import { lighten, makeStyles, withStyles } from "@material-ui/core/styles";
 import { max } from "d3";
@@ -24,11 +24,12 @@ const BorderLinearProgressCompleted = withStyles({
 })(LinearProgress);
 
 class Requirement {
-  constructor(name, compute_val, min_val, max_val) {
+  constructor(name, compute_val, min_val, max_val, tip) {
     this.name = name;
     this.compute_val = compute_val;
     this.min_val = min_val;
     this.max_val = max_val;
+    this.tip = tip;
   }
 
   render(classes) {
@@ -37,25 +38,29 @@ class Requirement {
 
     this.classes = classes;
 
-    this.progress = normilise(this.compute_val(classes));
+    this.value = this.compute_val(classes);
+    this.progress = normilise(this.value);
     this.completed = this.progress >= 100;
 
     return (
-      <Grid container spacing={1} justify="center" alignItems="center">
-        <Grid item xs={4}>
-          {this.completed ? (
-            <BorderLinearProgressCompleted variant="determinate" value={100} />
-          ) : (
-            <BorderLinearProgress variant="determinate" value={this.progress} />
-          )}
+        <Grid container spacing={1} justify="center" alignItems="center">
+          <Grid item xs={4}>
+            <Tooltip title={`Progress : ${this.value } / ${this.max_val}`} placement="bottom">
+              {this.completed ? (
+                <BorderLinearProgressCompleted variant="determinate" value={100} />
+              ) : (
+                <BorderLinearProgress variant="determinate" value={this.progress} />
+              )}
+            </Tooltip>
+          </Grid>
+            <Grid item xs={8}>
+              <Tooltip title={this.tip} placement="bottom">
+                <Typography variant="body2" gutterBottom>
+                  {this.name}
+                </Typography>
+              </Tooltip>
+          </Grid>
         </Grid>
-        <Grid item xs={8}>
-          <Typography variant="body2" gutterBottom>
-            {" "}
-            {this.name}{" "}
-          </Typography>
-        </Grid>
-      </Grid>
     );
   }
 }
@@ -65,7 +70,19 @@ function getProgramRequirementsList(program) {
     "Total Credits",
     (classes) => classes.reduce((t, v) => t + v.credits, 0),
     0,
-    120
+    120,
+    "You must obtain at least 120 credits for successfull completion of the program."
+  );
+
+  const coreCredits = new Requirement(
+    "Core Credits",
+    (classes) =>
+      classes.reduce((t, v) => {
+        return t + v.credits;
+      }, 0),
+    0,
+    30,
+    "To succesfully finish your program you will need to get at least 30 credits in core section."
   );
 
   // TODO: the problem here is that semester project and SHS has the same block
@@ -81,7 +98,8 @@ function getProgramRequirementsList(program) {
         return t + v.credits;
       }, 0),
     0,
-    6
+    6,
+    "Through your studies you need to take one year-long SHS class and get 6 credits for it."
   );
 
   const semesterProject = new Requirement(
@@ -92,7 +110,8 @@ function getProgramRequirementsList(program) {
         return t + v.credits;
       }, 0),
     0,
-    6
+    12,
+    "Semester Project is a mandatory part of the program and grant 12 credits."
   );
 
   // TODO: currently we don't parse any information about Internship or Master Thesis
@@ -100,23 +119,29 @@ function getProgramRequirementsList(program) {
     "Internship",
     (classes) => 0,
     0,
-    1
+    1,
+    "To get a diploma you will need to complete an inductriall internship. \
+     It may be done either duting 10 weeks in summer internship, \
+     during 6 month instead one of the semesters or jointly with your Master Thesis."
   );
 
   const masterThesis = new Requirement(
     "Master Thesis",
     (classes) => 0,
     0,
-    30
+    30,
+    "In the last semester of your program you will need to do a Master Thesis.\
+     You may do it in one of the laboratories or in industry.\
+     In the last case it may be joined with the mandatory Internship."
   );
 
   switch (program.name) {
     case "Master SC_DS":
-      return [totalCredits, SHS, semesterProject, internship, masterThesis];
+      return [totalCredits, coreCredits, SHS, semesterProject, internship, masterThesis];
   }
 
   // Default return;
-  return [totalCredits, SHS, semesterProject, internship, masterThesis];
+  return [totalCredits, coreCredits, SHS, semesterProject, internship, masterThesis];
 }
 
 export function RequirementTable(props) {
