@@ -6,6 +6,8 @@ import { Grades } from "./grades";
 import { Course } from "./course";
 import '../../styles/grade_screen.scss';
 
+import { RequirementTable } from "./requirements_table";
+
 export function GradesScreen(props) {
   const [course, setCourse] = useState(null);
   return (
@@ -31,6 +33,7 @@ export function GradesScreen(props) {
           Show skills
         </Button>
       </ButtonGroup>
+      <RequirementTable transcript={props.transcript} />
       <Course course={course} transitionTimeScale={props.transitionTimeScale} />
       <Grades
         transcript={props.transcript}

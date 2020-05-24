@@ -25,8 +25,9 @@ export function DropZone(props) {
         </div>
         <Grid item xs>
           <DropzoneArea
+              acceptedFiles={[".pdf"]}
               dropzoneText="Drop your Transcript here"
-              onChange={(files) => console.log("Files:", files)}
+              onDrop={(files) => props.callback(files[0])}
           />
         </Grid>
         <Grid item xs>

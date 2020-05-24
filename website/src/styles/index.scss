@@ -30,7 +30,7 @@ body {
 
   /* default text */
   font-family: sans-serif;
-  font-size: 0.3rem;
+  font-size: 6px;
 }
 
 svg {
@@ -83,18 +83,12 @@ svg {
   font-family: "Georgia";
 }
 
-#requirementsTable text.header {
+#requirementsTable {
   font-size: 8px;
   fill: white;
   font-family: "Palatino", "serif";
   text-anchor: start;
-}
-
-.Requirement text {
-  font-size: 5px;
-  fill: white;
-  font-family: "Palatino", "serif";
-  text-anchor: start;
+  
 }
 
 .legend {
@@ -138,6 +132,16 @@ text.divergence {
 text.value {
   font-size: 5px;
 }
+
+.LoadingElement{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -50px;
+  width: 100px;
+  height: 100px;
+}​
 
 .DropZone {
   position: absolute;
@@ -207,6 +211,15 @@ text.source {
   p:empty {
     margin: 10px;
   }
+}
+
+.MuiLinearProgress-bar {
+  border-radius: 30px;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
 }
 
 #root {
