@@ -102,6 +102,10 @@ svg {
   fill: white;
 }
 
+body {
+  overflow-x: hidden;
+  overflow-y: auto;
+}
 
 text {
   fill: #fff;

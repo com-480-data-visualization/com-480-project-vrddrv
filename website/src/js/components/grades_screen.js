@@ -4,6 +4,7 @@ import React, { useState } from "react";
 import { Grid, Button, ButtonGroup } from "@material-ui/core";
 import { Grades } from "./grades";
 import { Course } from "./course";
+import '../../styles/grade_screen.scss';
 
 export function GradesScreen(props) {
   const [course, setCourse] = useState(null);
@@ -40,7 +41,6 @@ export function GradesScreen(props) {
         petalsLength={props.petalsLength}
         course={course}
         setCourse={setCourse}
-        course={course}
       />
     </>
   );
