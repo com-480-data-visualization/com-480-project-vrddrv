@@ -15,8 +15,10 @@ export function DropZone(props) {
     >
       <Grid item xs>
         <DropzoneArea
-          dropzoneText={"Drag and drop an image here or click"}
-          onChange={(files) => console.log("Files:", files)}
+          acceptedFiles={[".pdf"]}
+          dropzoneText="Drag and drop your transcript here or click"
+          onDrop={(files) => props.callback(files[0])}
+          clearOnUnmount={true}
         />
       </Grid>
       <Grid item xs>

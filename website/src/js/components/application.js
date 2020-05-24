@@ -6,6 +6,7 @@ import { DropZone } from "./dropzone";
 import { GradesScreen } from "./grades_screen";
 import { SkillsScreen } from "./skills_screen";
 import { Transcript } from "../transcript";
+import { LoadingScreen } from "./loading_screen";
 import { parseTranscriptFromPDF } from "../parsing.js";
 
 const MOCK_TRANSCRIPT = require("../../processed_data/mock_transcript.json");
@@ -14,14 +15,30 @@ export function Application(props) {
   const [activeScreen, setActiveScreen] = useState("dropzone");
   const [transcript, setTranscript] = useState(mockTranscript());
 
+  function readTranscript(file) {
+    if (file) {
+      var reader = new FileReader();
+      reader.readAsText(file, "UTF-8");
+      reader.onload = function (evt) {
+        parseTranscriptFromPDF(evt.target.result).then((transcript) => {
+          setTranscript(transcript);
+          setActiveScreen("transcript");
+        });
+      };
+      reader.onerror = function (evt) {
+        console.error(evt);
+      };
+    }
+  }
+
   let activeTag;
   switch (activeScreen) {
     case "dropzone":
       activeTag = (
         <DropZone
-          callback={(event) => {
-            dropHandler(event);
-            setActiveScreen("transcript");
+          callback={(file) => {
+            setActiveScreen("loading");
+            setTimeout(() => readTranscript(file), 1000);
           }}
           showMockTranscript={(transcript) => {
             setTranscript(mockTranscript());
@@ -51,33 +68,14 @@ export function Application(props) {
         />
       );
       break;
+    case "loading":
+      activeTag = (
+        <LoadingScreen/>
+      );
+      break;
   }
 
   return activeTag;
-}
-
-function dropHandler(event) {
-  var file = event.dataTransfer.files[0];
-  if (file) {
-    var reader = new FileReader();
-    reader.readAsText(file, "UTF-8");
-    reader.onload = function (evt) {
-      parseTranscriptFromPDF(evt.target.result).then(function (transcript) {
-        whenDocumentLoaded(() => {
-          new TranscriptScreen(
-            transcript,
-            d3.select("svg#plot"),
-            CANVAS_WIDTH,
-            CANVAS_HEIGHT,
-            TRANSITION_TIME_SCALE
-          );
-        });
-      });
-    };
-    reader.onerror = function (evt) {
-      console.error(evt);
-    };
-  }
 }
 
 function mockTranscript() {
