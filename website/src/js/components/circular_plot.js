@@ -6,6 +6,7 @@ import * as d3 from "d3";
 import { CenterCircle } from "./center_circle";
 import { Petal } from "./petal";
 import { Tooltip } from "./tooltip";
+import { AnimatedSemesterDelimiter } from "./semester_delimiter";
 
 // TODO: move it from here
 const COURSE_DESCRIPTIONS = require("../../processed_data/course_descriptions.json");
@@ -31,6 +32,26 @@ export function CircularPlot(props) {
     },
   });
 
+  let data = props.data;
+  function parseDate(d) {
+    return new Date(...d.split(".").reverse());
+  }
+  data.sort((a, b) => (parseDate(a.sdate) < parseDate(b.sdate) ? -1 : 1));
+  let semesters = [];
+  let currentSemester = 1;
+  let currentCredits = 0;
+  let currentDate = data[0].sdate;
+  data.forEach((d) => {
+    if (d.sdate !== currentDate) {
+      semesters.push([currentSemester, currentCredits]);
+      currentDate = d.sdate;
+      currentSemester += 1;
+      currentCredits = 0;
+    }
+    currentCredits += d.credits;
+  });
+  semesters.push([currentSemester, currentCredits]);
+
   let arcGenerator = d3
     .arc()
     .innerRadius(props.circPlotRadius)
@@ -42,13 +63,12 @@ export function CircularPlot(props) {
     .endAngle((d) => -(2 * Math.PI * d.credits) / props.maxNumberCredits);
 
   let totalCredits = 0; //data.reduce((v, t) => v + t.credits, 0);
-  for (let idx = 0; idx < props.data.length; idx++) {
-    props.data[idx].creditsBefore = totalCredits;
-    totalCredits += props.data[idx].credits;
+  for (let idx = 0; idx < data.length; idx++) {
+    data[idx].creditsBefore = totalCredits;
+    totalCredits += data[idx].credits;
   }
 
-  let gpa =
-    props.data.reduce((t, v) => t + v.credits * v.grade, 0) / totalCredits;
+  let gpa = data.reduce((t, v) => t + v.credits * v.grade, 0) / totalCredits;
 
   const [animatedProps, setAnimatedProps, _] = useSpring(() => ({
     startAngle: 0,
@@ -79,7 +99,7 @@ export function CircularPlot(props) {
       {tooltipData && <Tooltip pos={tooltipPos} data={tooltipData} />}
       <svg id="plot" viewBox="-10 -10 220 220">
         <animated.g id="circular_plot" transform={plot.transform}>
-          {props.data.map((d) => {
+          {data.map((d) => {
             return (
               <AnimatedPetal
                 key={d.name}
@@ -114,6 +134,18 @@ export function CircularPlot(props) {
               />
             );
           })}
+          <AnimatedSemesterDelimiter
+            startAngle={animatedProps.startAngle}
+            angle={0}
+            length={(props.circPlotRadius + props.petalsLength) * 1.2}
+          />
+          {semesters.map(s => <AnimatedSemesterDelimiter
+            key={s[0]}
+            startAngle={animatedProps.startAngle}
+            angle={s[1] / props.maxNumberCredits * 2 * Math.PI}
+            length={(props.circPlotRadius + props.petalsLength) * 1.2}
+            semester={s[0]}
+          />)}
           <AnimatedCenterCircle
             radius={props.circPlotRadius}
             gpa={animatedProps.gpa}

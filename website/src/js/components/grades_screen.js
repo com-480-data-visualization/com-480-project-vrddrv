@@ -9,17 +9,30 @@ import "../../styles/grade_screen.scss";
 
 import { RequirementTable } from "./requirements_table";
 
+const COURSE_PROGRAMS = require("../../processed_data/course_programs.json");
+const program = "data_science";
+
 export function GradesScreen(props) {
   const [course, setCourse] = useState(null);
   const [suggestions, setSuggestions] = useState([]);
   let totalCredits = props.transcript.classes.reduce((v, t) => v + t.credits, 0);
   const addCourse = (course) => {
+    let block = "class_not_in_plan_suggestion";
+    COURSE_PROGRAMS[course[0]].forEach( ([programName, type]) => {
+      if (programName === program) {
+        if (type === "core") {
+          block = "class_core_suggestion";
+        } else if (type === "opt") {
+          block = "class_optional_suggestion";
+        }
+      }
+    });
     setSuggestions(
       suggestions.concat([
         {
-          name: course[0],
-          block: "class_core_suggestion",
-          credits: 5,
+          name: course[1].courseName,
+          block: block,
+          credits: parseInt(course[1].courseCredit),
           creditsBefore:
             totalCredits +
             suggestions.reduce((acc, cur) => acc + cur.credits, 0),

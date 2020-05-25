@@ -77,15 +77,19 @@ svg {
   }
 
   .class_core_suggestion path {
-    fill: lightgreen;
+    fill: green;
   }
 
   .class_optional_suggestion path {
-    fill: lightblue;
+    fill: blue;
   }
 
   .class_shs_suggestion path {
-    fill: lightcoral;
+    fill: coral;
+  }
+
+  .class_not_in_plan_suggestion path {
+    fill: #AAAAAA;
   }
 
   .petals {
