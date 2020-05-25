@@ -18,6 +18,7 @@
    "Ijspeert"
   ],
   "courseCredit": "4",
+  "coreCourse": true,
   "courseDesc": "The lecture presents an overview of the state of the art in the analysis and modeling of human locomotion and the underlying motor circuits. Multiple aspects are considered including neurophysiology, gait characterization, biomechanics, numerical modeling, neuroprosthetics, and links to biped robots"
  },
  {
@@ -28,6 +29,7 @@
    "Altug"
   ],
   "courseCredit": "3",
+  "coreCourse": true,
   "courseDesc": "Introduction to geometrical and wave optics for understanding the principles of optical microscopes, their advantages and limitations. Describing the basic microscopy components and the commonly used biomicrocopy methods such as widefield and fluorescence."
  },
  {
@@ -38,6 +40,7 @@
    ""
   ],
   "courseCredit": "4",
+  "coreCourse": true,
   "courseDesc": "Neuroengineering is at the frontier between neuroscience and engineering: understanding how the brain works allows developing engineering applications and therapies of high impact, while design of new measurement and data analysis techniques contributes to advance our knowledge about the brain."
  },
  {
@@ -48,6 +51,7 @@
    "Hatzimanikatis"
   ],
   "courseCredit": "3",
+  "coreCourse": true,
   "courseDesc": "C"
  },
  {
@@ -60,6 +64,7 @@
    "Suter"
   ],
   "courseCredit": "3",
+  "coreCourse": true,
   "courseDesc": "This course introduces the fundamentals of stem cell biology, with a particular focus on the role of stem cells during development, tissue homeostasis/regeneration and disease."
  },
  {

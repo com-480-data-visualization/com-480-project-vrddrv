@@ -25,6 +25,7 @@
    "De Groot"
   ],
   "courseCredit": "2",
+  "coreCourse": true,
   "courseDesc": "The intent of this project is to encourage interchange between students and their mentors. Each student, in consultation with her or his mentor, will choose a company that the student will analyze in context of its primary industry. The company may be that of the mentor, but is not required to be."
  },
  {
@@ -36,6 +37,7 @@
    "Zhen"
   ],
   "courseCredit": "4",
+  "coreCourse": true,
   "courseDesc": "This course focuses on dynamic models of random phenomena, and in particular, the most popular classes of such models: Markov chains and Markov decision processes. We will also study applications in queuing theory, finance, project management, etc."
  },
  {
@@ -46,6 +48,7 @@
    "Cauvin"
   ],
   "courseCredit": "4",
+  "coreCourse": true,
   "courseDesc": "The aims of the course are to explain how information helps investors to analyze the financial profile of a company, and to provide analytical tools for assisting managers in evaluating various decisions within economic organizations.\n\nSummary (fr)?"
  },
  {
@@ -56,6 +59,7 @@
    "de Rassenfosse"
   ],
   "courseCredit": "4",
+  "coreCourse": true,
   "courseDesc": "The course provides an introduction to econometrics. The objective is to learn how to make valid inference from economic data. It explains the main estimators and present methods to deal with endogeneity issues."
  },
  {
@@ -66,6 +70,7 @@
    "Morellec"
   ],
   "courseCredit": "4",
+  "coreCourse": true,
   "courseDesc": "This course provides a market-oriented framework for analyzing the valuation of securities, portfolio decisions, capital budgeting and financing decisions within firms, and derivatives"
  },
  {
@@ -76,6 +81,7 @@
    "Mack"
   ],
   "courseCredit": "4",
+  "coreCourse": true,
   "courseDesc": "The course allows students to get familiarized with the basic tools and concepts of modern microeconomic analysis. Based on graphical reasoning and analytical calculus, it constantly links to real economic issues."
  },
  {

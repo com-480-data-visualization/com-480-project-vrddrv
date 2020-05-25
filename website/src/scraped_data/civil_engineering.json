@@ -26,6 +26,7 @@
    "Licina"
   ],
   "courseCredit": "3",
+  "coreCourse": true,
   "courseDesc": "The course presents the main methodological topics of energy management in the building by emphasizing on the thermal energy requirements for the the users' comfort. The technical installations are modelled as well. Finally the economic and environmental evaluation methods are presented."
  },
  {
@@ -36,6 +37,7 @@
    "Lestuzzi"
   ],
   "courseCredit": "3",
+  "coreCourse": true,
   "courseDesc": ""
  },
  {
@@ -46,6 +48,7 @@
    "Geroliminis"
   ],
   "courseCredit": "3",
+  "coreCourse": true,
   "courseDesc": "The objectives of this course are to present the major elements of traffic operations and to develop basic skills in applying the fundamentals of traffic analysis and control. Students should be able to start applying these skills to model different aspects of congestion in urban systems."
  },
  {
@@ -57,6 +60,7 @@
    "Laloui"
   ],
   "courseCredit": "3",
+  "coreCourse": true,
   "courseDesc": "The course aims at providing future civil engineers with the knowledge of geomechanics for professional practice. It addresses, among others, the main stress-strain constitutive models within the context of elasticity and elasto-plasticity and the estimation methods of the lateral earth pressure."
  },
  {
@@ -68,6 +72,7 @@
    "De Cesare"
   ],
   "courseCredit": "3",
+  "coreCourse": true,
   "courseDesc": ""
  },
  {

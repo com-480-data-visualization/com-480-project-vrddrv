@@ -18,6 +18,7 @@
    "Kuhn"
   ],
   "courseCredit": "4",
+  "coreCourse": true,
   "courseDesc": "This course introduces the theory and application of modern convex optimization from an engineering perspective."
  },
  {
@@ -29,6 +30,7 @@
    "Comninellis"
   ],
   "courseCredit": "3",
+  "coreCourse": true,
   "courseDesc": "C"
  },
  {
@@ -40,6 +42,7 @@
    "Nguyen"
   ],
   "courseCredit": "3",
+  "coreCourse": true,
   "courseDesc": "The goal of the lecture is to present the principles of the energy conversion for conventional and renewable energy resources and to explain the most important parameters that define the energy conversion efficiency, resources implications and economics of the energy conversion technologies."
  },
  {
@@ -52,6 +55,7 @@
    "Thalmann"
   ],
   "courseCredit": "2",
+  "coreCourse": true,
   "courseDesc": "This course examines the supply of energy from various angles: available resources, how they can be combined or substituted, their private and social costs, whether they can meet the demand, and how the transition to a renewable energy system can be fostered."
  },
  {
@@ -63,6 +67,7 @@
    "Haug"
   ],
   "courseCredit": "3",
+  "coreCourse": true,
   "courseDesc": "The objective of this lecture is to give an in-depth understanding of the physics and manufacturing processes of photovoltaic solar cells and related devices (photodetectors, photoconductors). The principle and techniques addressed in this lecture will be useful in a wide range of related fields."
  },
  {
@@ -74,6 +79,7 @@
    "Vagnoni"
   ],
   "courseCredit": "4",
+  "coreCourse": true,
   "courseDesc": "Master lecture on Hydraulic Turbomachines: impulse and reaction turbines,pumps and pump-turbines."
  },
  {
@@ -84,6 +90,7 @@
    ""
   ],
   "courseCredit": "3",
+  "coreCourse": true,
   "courseDesc": "This course aims at studying thermal power cycles, heat pumping technologies and equipment."
  },
  {

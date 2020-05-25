@@ -37,6 +37,7 @@
    "Charbon"
   ],
   "courseCredit": "10",
+  "coreCourse": true,
   "courseDesc": "This course will cover all the aspects of product design and system engineering from learning relevant methods to the actual implementation in a hands-on practice of product development."
  },
  {

@@ -16,6 +16,7 @@
    "Goldstein"
   ],
   "courseCredit": "5",
+  "coreCourse": true,
   "courseDesc": "This course covers topics in applied biostatistics, with an emphasis on practical aspects of data analysis using R statistical software. Topics include types of studies and their design and analysis, high dimensional data analysis (genetic/genomic) and other topics as time and interest permit."
  },
  {
@@ -26,6 +27,7 @@
    "West"
   ],
   "courseCredit": "6",
+  "coreCourse": true,
   "courseDesc": "This course teaches the basic techniques and practical skills required to make sense out of a variety of data, with the help of the most acclaimed software tools in the data science world: pandas, scikit-learn, Spark, etc."
  },
  {
@@ -37,6 +39,7 @@
    "Zhen"
   ],
   "courseCredit": "4",
+  "coreCourse": true,
   "courseDesc": "This course focuses on dynamic models of random phenomena, and in particular, the most popular classes of such models: Markov chains and Markov decision processes. We will also study applications in queuing theory, finance, project management, etc."
  },
  {
@@ -47,6 +50,7 @@
    "Vesin"
   ],
   "courseCredit": "6",
+  "coreCourse": true,
   "courseDesc": "The goal of this course is to introduce the techniques most commonly used for the analysis of biomedical signals, and to present concrete examples of their application for diagnosis purposes."
  },
  {
@@ -57,6 +61,7 @@
    "Altug"
   ],
   "courseCredit": "3",
+  "coreCourse": true,
   "courseDesc": "Introduction to geometrical and wave optics for understanding the principles of optical microscopes, their advantages and limitations. Describing the basic microscopy components and the commonly used biomicrocopy methods such as widefield and fluorescence."
  },
  {
@@ -68,6 +73,7 @@
    "Seitz"
   ],
   "courseCredit": "4",
+  "coreCourse": true,
   "courseDesc": "Introduction to the different contrast enhancing methods in optical microscopy. Basic hands-on experience with optical microscopes at EPFL's BioImaging and Optics Facility. How to investigate biological samples? How to obtain high quality images?"
  },
  {
@@ -78,6 +84,7 @@
    ""
   ],
   "courseCredit": "4",
+  "coreCourse": true,
   "courseDesc": "Pas donné en 19-20"
  },
  {
@@ -88,6 +95,7 @@
    "Thiran"
   ],
   "courseCredit": "4",
+  "coreCourse": true,
   "courseDesc": "Linear and nonlinear dynamical systems are found in all fields of science and engineering. After a short review of linear system theory, the class will explain and develop the main tools for the qualitative analysis of nonlinear systems, both in discrete-time and continuous-time."
  },
  {
@@ -98,6 +106,7 @@
    "Gruetter"
   ],
   "courseCredit": "4",
+  "coreCourse": true,
   "courseDesc": "The goal of this course is to illustrate how modern principles of basic science approaches are integrated into the major  biomedical imaging modalities of importance to biology and medicine, with an emphasis on those of interest to in vivo."
  },
  {
@@ -109,6 +118,7 @@
    "Van De Ville"
   ],
   "courseCredit": "3",
+  "coreCourse": true,
   "courseDesc": "Introduction to the basic techniques of image processing. Introduction to the development of image-processing software and to prototyping in JAVA. Application to real-world examples in industrial vision and biomedical imaging."
  },
  {
@@ -122,6 +132,7 @@
    "Van De Ville"
   ],
   "courseCredit": "3",
+  "coreCourse": true,
   "courseDesc": "Study of advanced image processing; mathematical imaging. Development of image-processing software and prototyping in JAVA; application to real-world examples in industrial vision and biomedical imaging."
  },
  {
@@ -133,6 +144,7 @@
    "Urbanke"
   ],
   "courseCredit": "7",
+  "coreCourse": true,
   "courseDesc": "Machine learning and data analysis are becoming increasingly central in many sciences and applications. In this course, fundamental principles and methods of machine learning will be introduced, analyzed and practically implemented."
  },
  {
@@ -143,6 +155,7 @@
    "Terrier"
   ],
   "courseCredit": "3",
+  "coreCourse": true,
   "courseDesc": "Students understand and apply numerical methods (FEM) to answer a research question in biomechanics. They know how to develop, verify and validate multi-physics and multi-scale numerical models. They can analyse and comment results in an oral presentation and a written report."
  },
  {
@@ -153,6 +166,7 @@
    ""
   ],
   "courseCredit": "4",
+  "coreCourse": true,
   "courseDesc": "This course is neither an introduction to the mathematics of statistics nor an introduction to a statistics program such as R. The aim of the course is to understand statistics from its experimental design and to avoid common pitfalls of statistical reasoning. There is space to discuss ongoing work."
  },
  {

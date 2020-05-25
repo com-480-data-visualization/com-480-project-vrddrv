@@ -27,6 +27,7 @@
    "Weber"
   ],
   "courseCredit": "4",
+  "coreCourse": true,
   "courseDesc": "This course covers advanced metals and alloys both in terms of specific alloy classes (e.g. Ni-base, Ti-base, precious metals, High Entropy alloys, Metallic glasses) as well as general concepts (e.g. electrical and thermal properties, general characteristics of metallic melts and solids)."
  },
  {
@@ -37,6 +38,7 @@
    "Plummer"
   ],
   "courseCredit": "4",
+  "coreCourse": true,
   "courseDesc": "This course covers elementary fracture mechanics and its application to the fracture of engineering materials."
  },
  {
@@ -47,6 +49,7 @@
    "Marzari"
   ],
   "courseCredit": "4",
+  "coreCourse": true,
   "courseDesc": "Fundamentals of quantum mechanics as applied to atoms, molecules, and solids. Electronic, optical, and magnetic properties of solids."
  },
  {
@@ -57,6 +60,7 @@
    "Stellacci"
   ],
   "courseCredit": "4",
+  "coreCourse": true,
   "courseDesc": "The first part of this course encompasses the assembly of molecules and polymers into micro- and macroscopic materials and the influence of the structure of the resulting materials on their properties. The second part focuses on the production of colloids and their assembly into superstructures."
  },
  {
@@ -67,6 +71,7 @@
    "Ceriotti"
   ],
   "courseCredit": "4",
+  "coreCourse": true,
   "courseDesc": "This course presents an introduction to statistical mechanics geared towards materials scientists. The concepts of macroscopic thermodynamics will be related to a microscopic picture and a statistical interpretation. Lectures and exercises will be complemented with hands-on simulation projects."
  },
  {

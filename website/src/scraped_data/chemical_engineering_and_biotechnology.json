@@ -16,6 +16,7 @@
    "Agrawal"
   ],
   "courseCredit": "3",
+  "coreCourse": true,
   "courseDesc": "C"
  },
  {
@@ -27,6 +28,7 @@
    "Comninellis"
   ],
   "courseCredit": "3",
+  "coreCourse": true,
   "courseDesc": "C"
  },
  {
@@ -37,6 +39,7 @@
    "Luterbacher"
   ],
   "courseCredit": "3",
+  "coreCourse": true,
   "courseDesc": "C"
  },
  {
@@ -47,6 +50,7 @@
    "Zaza"
   ],
   "courseCredit": "2",
+  "coreCourse": true,
   "courseDesc": "C"
  },
  {
@@ -57,6 +61,7 @@
    "Zaza"
   ],
   "courseCredit": "2",
+  "coreCourse": true,
   "courseDesc": "C"
  },
  {
@@ -67,6 +72,7 @@
    "Meyer"
   ],
   "courseCredit": "2",
+  "coreCourse": true,
   "courseDesc": "This course aims to enable students to master the methodology and associated tools for modern risk management with an engineering perspective. It highlights the different actors, resources available and objectives to achieve while remaining economically and socially sustainable."
  },
  {
@@ -77,6 +83,7 @@
    "Nanchen"
   ],
   "courseCredit": "2",
+  "coreCourse": true,
   "courseDesc": "The focus of the lecture is on thermal process safety, but explosion protection, design of risk reducing measures, as well as their reliability analysis are considered. While being based on theory, the lecture is oriented towards industrial practice."
  },
  {

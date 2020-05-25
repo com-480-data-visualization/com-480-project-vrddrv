@@ -18,6 +18,7 @@
    "Simanis"
   ],
   "courseCredit": "5",
+  "coreCourse": true,
   "courseDesc": "The course covers in detail molecular mechanisms of cancer development with emphasis on cell cycle control, genome stability, oncogenes and tumor suppressor genes."
  },
  {
@@ -30,6 +31,7 @@
    "Meylan"
   ],
   "courseCredit": "5",
+  "coreCourse": true,
   "courseDesc": "The course covers in detail the interactions of cancer cells with their environment with an emphasis on tumor-angiogenesis, inflammation, adaptive and innate immunity and cancer-induced immune suppression. Additional topics are cancer metabolism, cancer stem cells and metastasis."
  },
  {
@@ -40,6 +42,7 @@
    "Ablasser"
   ],
   "courseCredit": "5",
+  "coreCourse": true,
   "courseDesc": "The students acquire knowledge regarding the functioning of the vertebrate immune system. A strong focus is placed on the molecular mechanisms underlying innate and adaptive immune responses and their implications for medicine. Students apply this knowledge during oral presentations."
  },
  {
@@ -50,6 +53,7 @@
    "Blokesch"
   ],
   "courseCredit": "5",
+  "coreCourse": true,
   "courseDesc": "Infectious diseases (ID) are still a major problem to human health. But how do pathogens make us sick? How do they evolve and spread? The discovery and use of antibiotics and vaccination has changed the outcome of some IDs. But resistance mechanisms have evolved and are of major concern."
  },
  {
@@ -62,6 +66,7 @@
    "Sandi Perez"
   ],
   "courseCredit": "5",
+  "coreCourse": true,
   "courseDesc": "The goal is to guide students into the essential topics of Behavioral and Cognitive Neuroscience. The challenge for the student in this course is to integrate the diverse knowledge acquired from those levels of analysis into a more or less coherent understanding of brain structure and function."
  },
  {
@@ -73,6 +78,7 @@
    "Schneggenburger"
   ],
   "courseCredit": "5",
+  "coreCourse": true,
   "courseDesc": "This lecture course focuses on the cellular mechanisms of mammalian brain function. We will describe how neurons communicate through synaptic transmission in order to process sensory information ultimately leading to motor behavior."
  },
  {
@@ -85,6 +91,7 @@
    "Schneider"
   ],
   "courseCredit": "5",
+  "coreCourse": true,
   "courseDesc": "The goal of the course is to guide students through the essential aspects of molecular neuroscience and neurodegenerative diseases. The student will gain the ability to dissect the molecular basis of disease in the nervous system in order to begin to understand and identify therapeutic strategies."
  },
  {

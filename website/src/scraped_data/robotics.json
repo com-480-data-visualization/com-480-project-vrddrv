@@ -18,6 +18,7 @@
    "Billard"
   ],
   "courseCredit": "4",
+  "coreCourse": true,
   "courseDesc": "Real-world engineering applications must cope with a large dataset of dynamic variables, which cannot be well approximated by classical or deterministic models. This course gives an overview of methods from Machine Learning for the analysis of non-linear, highly noisy and multi dimensional data"
  },
  {
@@ -28,6 +29,7 @@
    "Mondada"
   ],
   "courseCredit": "4",
+  "coreCourse": true,
   "courseDesc": "The course teaches the basics of autonomous mobile robots. Both hardware (energy, locomotion, sensors) and software (signal processing, control, localization, trajectory planning, high-level control) will be tackled. The students will apply the knowledge to program and control a real mobile robot."
  },
  {
@@ -38,6 +40,7 @@
    "Jones"
   ],
   "courseCredit": "3",
+  "coreCourse": true,
   "courseDesc": "Provide an introduction to the theory and practice of Model Predictive Control (MPC). Main benefits of MPC: flexible specification of time-domain objectives, performance optimization of highly complex multivariable systems and ability to explicitly enforce constraints on system behavior."
  },
  {
