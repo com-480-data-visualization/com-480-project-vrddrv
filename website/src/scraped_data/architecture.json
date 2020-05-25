@@ -5,7 +5,8 @@
   "courseSection": "AR",
   "profName": [
    "Profs divers"
-  ]
+  ],
+  "courseCredit": "30"
  },
  {
   "courseName": "A history of abstraction in architecture",
@@ -14,6 +15,7 @@
   "profName": [
    "Aureli"
   ],
+  "courseCredit": "3",
   "courseDesc": "A history of abstraction from the birth of geometry to algorithmic governance."
  },
  {
@@ -23,6 +25,7 @@
   "profName": [
    ""
   ],
+  "courseCredit": "3",
   "courseDesc": ""
  },
  {
@@ -32,6 +35,7 @@
   "profName": [
    "Geers"
   ],
+  "courseCredit": "3",
   "courseDesc": "This course is envisaged as a lecture series where each lecturer is invited to present his/her work through the framework of the five themes from the O.M. Ungers' book. Our aim, after two iterations of ¿Trouble with Classicists¿ remains the possibility of a design theory, beyond naiveté."
  },
  {
@@ -42,6 +46,7 @@
    "Bakker",
    "Blanc"
   ],
+  "courseCredit": "3",
   "courseDesc": ""
  },
  {
@@ -51,6 +56,7 @@
   "profName": [
    "Gargiani"
   ],
+  "courseCredit": "3",
   "courseDesc": ""
  },
  {
@@ -60,6 +66,7 @@
   "profName": [
    "Mussolin"
   ],
+  "courseCredit": "3",
   "courseDesc": "The course is devoted to the analysis of Michelangeloâs three-dimensional works and it aims at critically rethinking the relationship between his architecture and sculpture."
  },
  {
@@ -69,6 +76,7 @@
   "profName": [
    "Tombesi"
   ],
+  "courseCredit": "3",
   "courseDesc": "Political Economy of Design seeks to position and discuss architecture in relation to the world of production, economic interests and community benefits, at a local and global scale."
  },
  {
@@ -78,6 +86,7 @@
   "profName": [
    "Aprea"
   ],
+  "courseCredit": "3",
   "courseDesc": ""
  },
  {
@@ -87,6 +96,7 @@
   "profName": [
    "Marchand"
   ],
+  "courseCredit": "3",
   "courseDesc": ""
  },
  {
@@ -96,6 +106,7 @@
   "profName": [
    "Picon"
   ],
+  "courseCredit": "3",
   "courseDesc": ""
  },
  {
@@ -105,6 +116,7 @@
   "profName": [
    "Tombesi"
   ],
+  "courseCredit": "13",
   "courseDesc": ""
  },
  {
@@ -113,7 +125,8 @@
   "courseSection": "AR",
   "profName": [
    "Profs divers"
-  ]
+  ],
+  "courseCredit": "8"
  },
  {
   "courseName": "HSS : Introduction to project",
@@ -121,7 +134,8 @@
   "courseSection": "SHS",
   "profName": [
    "Divers enseignants"
-  ]
+  ],
+  "courseCredit": "3"
  },
  {
   "courseName": "HSS : Project",
@@ -129,7 +143,8 @@
   "courseSection": "SHS",
   "profName": [
    "Divers enseignants"
-  ]
+  ],
+  "courseCredit": "3"
  },
  {
   "courseName": "Studio MA1 (Capaul and Blumenthal)",
@@ -139,6 +154,7 @@
    "Blumenthal",
    "Capaul"
   ],
+  "courseCredit": "13",
   "courseDesc": "For centuries, the limited local availability of building materials determined the construction methods in the alpine mountain village. Today, vernacular architecture is no longer imperative, but has the potential to enhance the local context and provide answers to current architectural questions."
  },
  {
@@ -149,6 +165,7 @@
    "Conen",
    "Sigl"
   ],
+  "courseCredit": "13",
   "courseDesc": "The studio is interested in designing spaces that not only have an architectural quality through their form and spatial design, but also a social vision on how we live today. Our focus is on designing interior and exterior spaces, working with references from built spaces that we know from history."
  },
  {
@@ -159,6 +176,7 @@
    "Caravatti",
    "Vannucci"
   ],
+  "courseCredit": "13",
   "courseDesc": ""
  },
  {
@@ -168,6 +186,7 @@
   "profName": [
    "Floris"
   ],
+  "courseCredit": "13",
   "courseDesc": "This studio will work on housing and on the monumental vocabulary, revaluating both classical language and its contemporary interpretations. Vienna in the first semester and London in second semester will be subject of study, offering examples of a balance between imported and local traditions."
  },
  {
@@ -177,6 +196,7 @@
   "profName": [
    "Födinger"
   ],
+  "courseCredit": "13",
   "courseDesc": "C"
  },
  {
@@ -186,6 +206,7 @@
   "profName": [
    "Geers"
   ],
+  "courseCredit": "13",
   "courseDesc": "This is the last semester of Architecture Without"
  },
  {
@@ -195,6 +216,7 @@
   "profName": [
    "Gugger"
   ],
+  "courseCredit": "13",
   "courseDesc": "laba's focal theme is Urban Nature. Due to the scale and character of today's territorial expansion, the definition of the urban becomes more diffuse and complex. laba's didactic method takes students through design scales ranging from the territorial to the architectural in a year long course."
  },
  {
@@ -204,6 +226,7 @@
   "profName": [
    "Huang"
   ],
+  "courseCredit": "13",
   "courseDesc": "The studio examines the effects of artificial intelligence and automation on architecture and cities. We explore meaningful form generating processes by the use of algorithmic and parametric tools and introduce the notion of growth typologies in architectural and urban design thinking."
  },
  {
@@ -213,6 +236,7 @@
   "profName": [
    "Viganò"
   ],
+  "courseCredit": "13",
   "courseDesc": "The Atelier explores the possibility of designing the city, the urban and territorial space, as a renewable resource; its scope is to plunge the last year master students into an intense confrontation among themes, scales, theoretical and design positions."
  },
  {
@@ -222,6 +246,7 @@
   "profName": [
    "Weinand"
   ],
+  "courseCredit": "13",
   "courseDesc": ""
  },
  {
@@ -232,6 +257,7 @@
    "Blumenthal",
    "Capaul"
   ],
+  "courseCredit": "13",
   "courseDesc": "Scientific exploration of the Alps and glorification of the natural environment by Rousseau were the factors in the 18th century that ultimately led to the following century's surge of tourism in the alpine region. The topic of the semester is to focus on its architectural heritage and its future."
  },
  {
@@ -242,6 +268,7 @@
    "Conen",
    "Sigl"
   ],
+  "courseCredit": "13",
   "courseDesc": "The studio is interested in designing spaces that not only have an architectural quality through their form and spatial design, but also a social vision on how we live today. Our focus is on designing interior and exterior spaces, working with references from built spaces that we know from history."
  },
  {
@@ -251,6 +278,7 @@
   "profName": [
    "Tombesi"
   ],
+  "courseCredit": "13",
   "courseDesc": ""
  },
  {
@@ -260,6 +288,7 @@
   "profName": [
    "Floris"
   ],
+  "courseCredit": "13",
   "courseDesc": "This studio will work on housing and on the monumental vocabulary, revaluating both classical language and its contemporary interpretations. Vienna in the first semester and London in second semester will be subject of study, offering examples of a balance between imported and local traditions."
  },
  {
@@ -269,6 +298,7 @@
   "profName": [
    "Geers"
   ],
+  "courseCredit": "13",
   "courseDesc": "Through the notion of classicism, we want to investigate the possibility of architecture to reinstate the common cultural identity."
  },
  {
@@ -278,6 +308,7 @@
   "profName": [
    "Gugger"
   ],
+  "courseCredit": "13",
   "courseDesc": "laba's focal theme is Urban Nature. Due to the scale and character of today's territorial expansion, the definition of the urban becomes more diffuse and complex. laba's didactic method takes students through design scales ranging from the territorial to the architectural in a year long course."
  },
  {
@@ -287,6 +318,7 @@
   "profName": [
    "Huang"
   ],
+  "courseCredit": "13",
   "courseDesc": "This studio explores meaningful form generating processes by the use of parametric tools and introduces the notion of the digital vernacular in architectural and urban design thinking."
  },
  {
@@ -296,6 +328,7 @@
   "profName": [
    "Viganò"
   ],
+  "courseCredit": "13",
   "courseDesc": "The Atelier explores the possibility of designing the city, the urban and territorial space, as a renewable resource; its scope is to plunge the last year master students into an intense confrontation among themes, scales, theoretical and design positions."
  },
  {
@@ -305,6 +338,7 @@
   "profName": [
    "Weinand"
   ],
+  "courseCredit": "13",
   "courseDesc": ""
  },
  {
@@ -314,6 +348,7 @@
   "profName": [
    "Chenal"
   ],
+  "courseCredit": "3",
   "courseDesc": ""
  },
  {
@@ -323,6 +358,7 @@
   "profName": [
    "Schaerer"
   ],
+  "courseCredit": "3",
   "courseDesc": "Key competences for every architect are the ability to represent ideas coherently and communicate a projectâs aims effectively. Design, painting, photography, modelling and graphics are essential to the architectural project and become didactic instruments for the development of individual talent."
  },
  {
@@ -332,6 +368,7 @@
   "profName": [
    "Gachet"
   ],
+  "courseCredit": "3",
   "courseDesc": ""
  },
  {
@@ -341,6 +378,7 @@
   "profName": [
    "Gilot"
   ],
+  "courseCredit": "3",
   "courseDesc": ""
  },
  {
@@ -350,6 +388,7 @@
   "profName": [
    "Gilot"
   ],
+  "courseCredit": "3",
   "courseDesc": ""
  },
  {
@@ -359,6 +398,7 @@
   "profName": [
    "Munari Probst"
   ],
+  "courseCredit": "3",
   "courseDesc": ""
  },
  {
@@ -369,6 +409,7 @@
    "Méjean",
    "Schwok"
   ],
+  "courseCredit": "3",
   "courseDesc": ""
  },
  {
@@ -380,6 +421,7 @@
    "Mauree",
    "Scartezzini"
   ],
+  "courseCredit": "3",
   "courseDesc": "C"
  },
  {
@@ -389,6 +431,7 @@
   "profName": [
    "Fivet"
   ],
+  "courseCredit": "3",
   "courseDesc": "The class introduces the concept of circular economy and its applications to building design, with a focus on design for disassembly, reuse, and life-cycle assessment (LCA). The class develops a critical mindset and provides ready-to-use techniques."
  },
  {
@@ -400,6 +443,7 @@
    "Kaufmann",
    "Ravalet"
   ],
+  "courseCredit": "3",
   "courseDesc": ""
  },
  {
@@ -410,6 +454,7 @@
    "Karmann",
    "Wienold"
   ],
+  "courseCredit": "3",
   "courseDesc": "This class offers an overview about comfort evaluations in architectural design and suggests passive and low-energy strategies suited to ensure the highest possible indoor environment quality for buildings."
  },
  {
@@ -420,6 +465,7 @@
    "De Castro San Roman Fest",
    "Keller"
   ],
+  "courseCredit": "3",
   "courseDesc": ""
  },
  {
@@ -429,6 +475,7 @@
   "profName": [
    "Marino"
   ],
+  "courseCredit": "3",
   "courseDesc": ""
  },
  {
@@ -438,6 +485,7 @@
   "profName": [
    "Marot"
   ],
+  "courseCredit": "3",
   "courseDesc": ""
  },
  {
@@ -446,7 +494,8 @@
   "courseSection": "GC",
   "profName": [
    "Profs divers"
-  ]
+  ],
+  "courseCredit": "4"
  },
  {
   "courseName": "History of concrete",
@@ -455,6 +504,7 @@
   "profName": [
    "Gargiani"
   ],
+  "courseCredit": "3",
   "courseDesc": ""
  },
  {
@@ -464,6 +514,7 @@
   "profName": [
    "Ortelli"
   ],
+  "courseCredit": "3",
   "courseDesc": ""
  },
  {
@@ -473,6 +524,7 @@
   "profName": [
    ""
   ],
+  "courseCredit": "3",
   "courseDesc": "The class exposes students to the geometric design of material efficient architectural structures. The focus is placed on the conceptual exploration of a rich, diverse solution set. Hand-controlled methods and parametric tools are used, as well as strategies to rapidly take key decisions."
  },
  {
@@ -482,6 +534,7 @@
   "profName": [
    "Hautecoeur"
   ],
+  "courseCredit": "3",
   "courseDesc": ""
  },
  {
@@ -491,6 +544,7 @@
   "profName": [
    "Thalmann"
   ],
+  "courseCredit": "3",
   "courseDesc": ""
  },
  {
@@ -500,6 +554,7 @@
   "profName": [
    "Chenal"
   ],
+  "courseCredit": "3",
   "courseDesc": ""
  },
  {
@@ -509,6 +564,7 @@
   "profName": [
    "Dessemontet"
   ],
+  "courseCredit": "3",
   "courseDesc": ""
  },
  {
@@ -519,6 +575,7 @@
    "Muttoni",
    "Wahlen"
   ],
+  "courseCredit": "3",
   "courseDesc": ""
  },
  {
@@ -527,7 +584,8 @@
   "courseSection": "GC",
   "profName": [
    "Profs divers"
-  ]
+  ],
+  "courseCredit": "4"
  },
  {
   "courseName": "Technological Innovation",
@@ -536,6 +594,7 @@
   "profName": [
    "Tombesi"
   ],
+  "courseCredit": "3",
   "courseDesc": "Technological Innovation has three aims. \nIt seeks to: a) examine how new products and processes are developed specifically in or for the building sector, b) discuss the elements constraining their dissemination, and c) lay out a theory of how success can be determined."
  },
  {
@@ -546,6 +605,7 @@
    "Dubey",
    "Werro"
   ],
+  "courseCredit": "3",
   "courseDesc": ""
  },
  {
@@ -556,6 +616,7 @@
    "Graf",
    "Marino"
   ],
+  "courseCredit": "3",
   "courseDesc": ""
  },
  {
@@ -565,6 +626,7 @@
   "profName": [
    "Weber"
   ],
+  "courseCredit": "4",
   "courseDesc": "The agency of concrete: this course enables students to individually develop projects (sculptures, interventions, performances) with and about the assemblage concrete, employing a critical approach based on reading about New Materialism and the anthropocene."
  },
  {
@@ -576,6 +638,7 @@
    "Marchand",
    "Zurbuchen"
   ],
+  "courseCredit": "4",
   "courseDesc": ""
  },
  {
@@ -587,6 +650,7 @@
    "Pedrazzini",
    "Tirone Chabert"
   ],
+  "courseCredit": "4",
   "courseDesc": ""
  },
  {
@@ -600,6 +664,7 @@
    "Wall Gago",
    "Zurbrügg"
   ],
+  "courseCredit": "4",
   "courseDesc": ""
  },
  {
@@ -611,6 +676,7 @@
    "Paternault",
    "Soubeyrand"
   ],
+  "courseCredit": "4",
   "courseDesc": "C"
  },
  {
@@ -623,6 +689,7 @@
    "Pattaroni",
    "Villaret"
   ],
+  "courseCredit": "4",
   "courseDesc": ""
  },
  {
@@ -635,6 +702,7 @@
    "Karmann",
    "Rey"
   ],
+  "courseCredit": "4",
   "courseDesc": "C"
  },
  {
@@ -644,6 +712,7 @@
   "profName": [
    "Schaerer"
   ],
+  "courseCredit": "4",
   "courseDesc": "Key competences for every architect are the ability to represent ideas coherently and communicate a project's aims effectively. Design, painting, photography, modelling and graphics are essential to the architectural project and become didactic instruments for the development of individual talent."
  },
  {
@@ -653,6 +722,7 @@
   "profName": [
    "Schaerer"
   ],
+  "courseCredit": "4",
   "courseDesc": "Key competences for every architect are the ability to represent ideas coherently and communicate a projectâs aims effectively. Design, painting, photography, modelling and graphics are essential to the architectural project and become didactic instruments for the development of individual talent."
  },
  {
@@ -663,6 +733,7 @@
    "Amstein",
    "Voellinger"
   ],
+  "courseCredit": "4",
   "courseDesc": ""
  },
  {
@@ -672,6 +743,7 @@
   "profName": [
    "Hautecoeur"
   ],
+  "courseCredit": "4",
   "courseDesc": ""
  },
  {
@@ -681,6 +753,7 @@
   "profName": [
    "Maçães E Costa"
   ],
+  "courseCredit": "4",
   "courseDesc": "This teaching unit aims to experiment with the medium of cartography as a means of spatial representation, and as a tool for reading, understanding and changing the territory."
  },
  {
@@ -690,6 +763,7 @@
   "profName": [
    "Huang"
   ],
+  "courseCredit": "4",
   "courseDesc": "Experience Design examines the effects of digitalization on architectural typologies in the contemporary city. The course questions traditional typologies by focusing on an understanding and re-design of social, geographic, temporal and emotional experiences."
  },
  {
@@ -699,6 +773,7 @@
   "profName": [
    ""
   ],
+  "courseCredit": "4",
   "courseDesc": "The aim of the course will be the one of understanding the use of different tools of description, where the combination of different technics, scales, and \"gazes\" can produce innovative representations, and ultimately envision unexpected paths towards the construction of a territorial project."
  },
  {
@@ -708,6 +783,7 @@
   "profName": [
    ""
   ],
+  "courseCredit": "3",
   "courseDesc": ""
  },
  {
@@ -719,6 +795,7 @@
    "Kaufmann",
    "Messer"
   ],
+  "courseCredit": "3",
   "courseDesc": ""
  },
  {
@@ -729,6 +806,7 @@
    "Ferrari",
    "Graezer Bideau"
   ],
+  "courseCredit": "3",
   "courseDesc": ""
  },
  {
@@ -740,6 +818,7 @@
    "Drevon",
    "Pattaroni"
   ],
+  "courseCredit": "3",
   "courseDesc": ""
  },
  {
@@ -749,6 +828,7 @@
   "profName": [
    "Gargiani"
   ],
+  "courseCredit": "3",
   "courseDesc": "C"
  },
  {
@@ -758,6 +838,7 @@
   "profName": [
    "Braghieri"
   ],
+  "courseCredit": "3",
   "courseDesc": ""
  },
  {
@@ -767,6 +848,7 @@
   "profName": [
    "Maillard"
   ],
+  "courseCredit": "3",
   "courseDesc": "C"
  }
 ]

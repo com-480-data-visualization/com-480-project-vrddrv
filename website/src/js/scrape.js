@@ -54,22 +54,24 @@ function scrapeCourses(url) {
 
             let res = await page.evaluate(() => {
                 let courses = [];
-                let items = document.querySelectorAll("div.cours");
+                let items = document.querySelectorAll("div.line");
 
                 items.forEach((item) => {
 
-                    const cName = item.querySelector('div.cours-name > a').innerText;
-                    const cCode = item.querySelector('div.cours-code').innerText.trim();
-                    const cSection = item.querySelector('div.section-name').innerText.trim();
-                    const cProf = item.querySelector('div.enseignement-name').innerText
+                    const cName = item.querySelector('div.cours > div.cours-name > a').innerText;
+                    const cCode = item.querySelector('div.cours > div.cours-code').innerText.trim();
+                    const cSection = item.querySelector('div.cours > div.section-name').innerText.trim();
+                    const cProf = item.querySelector('div.cours > div.enseignement-name').innerText
                         .split("\n")
                         .map((i) => {return i.trim()});
+                    const cCredit = item.querySelector('div.credit.red-color > div.credit-time').innerText;
 
                     courses.push({
                         courseName : cName,
                         courseCode: cCode,
                         courseSection: cSection,
                         profName: cProf,
+                        courseCredit: cCredit
                     });
                 });
                 return courses;

@@ -7,6 +7,7 @@
    "Gautsch",
    "Gay-Balmaz"
   ],
+  "courseCredit": "0",
   "courseDesc": ""
  },
  {
@@ -15,7 +16,8 @@
   "courseSection": "EL",
   "profName": [
    "Profs divers"
-  ]
+  ],
+  "courseCredit": "30"
  },
  {
   "courseName": "A Network Tour of Data Science",
@@ -25,6 +27,7 @@
    "Frossard",
    "Vandergheynst"
   ],
+  "courseCredit": "4",
   "courseDesc": "A Network Tour of Data Science\nEE-558    Lecturer(s) : Frossard PascalVandergheynst PierreLanguage:English"
  },
  {
@@ -34,6 +37,7 @@
   "profName": [
    "Kuhn"
   ],
+  "courseCredit": "4",
   "courseDesc": "This course introduces the theory and application of modern convex optimization from an engineering perspective."
  },
  {
@@ -43,6 +47,7 @@
   "profName": [
    "Koukab"
   ],
+  "courseCredit": "4",
   "courseDesc": "This course deals with the analyze, design and optimization of  CMOS analog circuits, emphasizing low-power solutions required in a broad range of applications (e.g. IoT, wearables, Biosensors ...). Some examples of mixed-signal design are also addressed."
  },
  {
@@ -52,6 +57,7 @@
   "profName": [
    "Matioli"
   ],
+  "courseCredit": "4",
   "courseDesc": "This course aims to give a solid introduction to semiconductors, from Silicon to compound semiconductors, making the connection between the physics and their application in real life. We will explore several experimental techniques related to current semiconductor research and development."
  },
  {
@@ -62,6 +68,7 @@
    "Le Boudec",
    "Paolone"
   ],
+  "courseCredit": "5",
   "courseDesc": "Learn the technologies and methodologies used in the context smart electrical grids and be able to deploy/implement/test them in a lab environment."
  },
  {
@@ -71,6 +78,7 @@
   "profName": [
    "Burg"
   ],
+  "courseCredit": "4",
   "courseDesc": ""
  },
  {
@@ -80,6 +88,7 @@
   "profName": [
    "Sayed"
   ],
+  "courseCredit": "4",
   "courseDesc": "In this course, students learn to design and master algorithms and core concepts related to inference and learning from data and the foundations of adaptation and learning theories with applications."
  },
  {
@@ -89,6 +98,7 @@
   "profName": [
    "Ienne"
   ],
+  "courseCredit": "4",
   "courseDesc": "The course studies the most important techniques to exploit Instruction-Level Parallelism and discusses the relation with the critical phases of compilation. It also analyses emerging classes of processors for complex single-chip systems."
  },
  {
@@ -98,6 +108,7 @@
   "profName": [
    "Hodder"
   ],
+  "courseCredit": "4",
   "courseDesc": "The purpose of this teaching lab is to put together all the concepts learned during the course into electrical energy by the implementation of an islanded production unit. The number of places is limited, therefore the student must contact the teacher before the beginning of the course."
  },
  {
@@ -106,7 +117,8 @@
   "courseSection": "EL",
   "profName": [
    "Profs divers"
-  ]
+  ],
+  "courseCredit": "4"
  },
  {
   "courseName": "Advanced multiprocessor architecture",
@@ -115,6 +127,7 @@
   "profName": [
    "Falsafi"
   ],
+  "courseCredit": "6",
   "courseDesc": "Multiprocessors are now the defacto building blocks for all computer systems. This course will build upon the basic concepts offered in Computer Architecture I to cover the architecture and organization of modern multiprocessors from mobile and embedded platforms to servers, data centers and cloud computing platforms."
  },
  {
@@ -124,6 +137,7 @@
   "profName": [
    "Burg"
   ],
+  "courseCredit": "4",
   "courseDesc": ""
  },
  {
@@ -133,6 +147,7 @@
   "profName": [
    "Burg"
   ],
+  "courseCredit": "3",
   "courseDesc": ""
  },
  {
@@ -144,6 +159,7 @@
    "Dehollain",
    "Skrivervik Favre"
   ],
+  "courseCredit": "3",
   "courseDesc": "Introduction to analog CMOS design for Remote Biosensors on Chip. Understanding and designing of active and remotely powered biosensing systems. Basic understanding of eh wireless transmission of teh obtained signals"
  },
  {
@@ -153,6 +169,7 @@
   "profName": [
    "West"
   ],
+  "courseCredit": "6",
   "courseDesc": "This course teaches the basic techniques and practical skills required to make sense out of a variety of data, with the help of the most acclaimed software tools in the data science world: pandas, scikit-learn, Spark, etc."
  },
  {
@@ -163,6 +180,7 @@
    "Billard",
    "Polydoros"
   ],
+  "courseCredit": "4",
   "courseDesc": "Real-world engineering applications must cope with a large dataset of dynamic variables, which cannot be well approximated by classical or deterministic models. This course gives an overview of methods from Machine Learning for the analysis of non-linear, highly noisy and multi dimensional data"
  },
  {
@@ -172,6 +190,7 @@
   "profName": [
    "Lissek"
   ],
+  "courseCredit": "3",
   "courseDesc": "This lecture is oriented towards the study of audio engineering, with a special focus on room acoustics applications. The learning outcomes will be the techniques for microphones and loudspeaker design, as well as room acoustics knowledge."
  },
  {
@@ -181,6 +200,7 @@
   "profName": [
    "Bourlard"
   ],
+  "courseCredit": "3",
   "courseDesc": "The goal of this course is to provide the students with the main formalisms, models and algorithms required for the implementation of advanced speech processing applications (involving, among others, speech coding, speech analysis/synthesis, and speech recognition)."
  },
  {
@@ -190,6 +210,7 @@
   "profName": [
    "Schmid"
   ],
+  "courseCredit": "3",
   "courseDesc": "The course covers the fundaments of bioelectronics and integrated microelectronics for biomedical and implantable systems. Issues and trade-offs at the circuit and systems levels of invasive microelectronic systems as well as their eluding designs, methods and classical implementations are discussed"
  },
  {
@@ -199,6 +220,7 @@
   "profName": [
    "Gerstner"
   ],
+  "courseCredit": "4",
   "courseDesc": "In this course we study mathematical models of neurons and neuronal networks in the context of biology and establish links to models of cognition."
  },
  {
@@ -208,6 +230,7 @@
   "profName": [
    "Vesin"
   ],
+  "courseCredit": "6",
   "courseDesc": "The goal of this course is to introduce the techniques most commonly used for the analysis of biomedical signals, and to present concrete examples of their application for diagnosis purposes."
  },
  {
@@ -217,6 +240,7 @@
   "profName": [
    "Renaud"
   ],
+  "courseCredit": "2",
   "courseDesc": "This course covers the main applications of micro devices for life science and biomedical applications. The course is organized by application topic. It is also covering the basic physical, biological, chemical, technological concepts, which are presented as transversal introductory section"
  },
  {
@@ -226,6 +250,7 @@
   "profName": [
    "Altug"
   ],
+  "courseCredit": "3",
   "courseDesc": "Introduction to geometrical and wave optics for understanding the principles of optical microscopes, their advantages and limitations. Describing the basic microscopy components and the commonly used biomicrocopy methods such as widefield and fluorescence."
  },
  {
@@ -236,6 +261,7 @@
    "Altug",
    "Seitz"
   ],
+  "courseCredit": "4",
   "courseDesc": "Introduction to the different contrast enhancing methods in optical microscopy. Basic hands-on experience with optical microscopes at EPFL's BioImaging and Optics Facility. How to investigate biological samples? How to obtain high quality images?"
  },
  {
@@ -245,6 +271,7 @@
   "profName": [
    "Carrara"
   ],
+  "courseCredit": "3",
   "courseDesc": "Introduction to heterogeneous integration for Nano-Bio-CMOS sensors on Chip. \nUnderstanding and designing of active Bio/CMOS interfaces powered by nanostructures."
  },
  {
@@ -255,6 +282,7 @@
    "Oricchio",
    "Suter"
   ],
+  "courseCredit": "3",
   "courseDesc": "The course covers the regulation of gene expression, which translates the information contained in the genome into function, by adjusting the levels and activities of mRNAs and proteins to the needs of specific cells, tissues and environments. A particular emphasis is given on experimental methods."
  },
  {
@@ -264,6 +292,7 @@
   "profName": [
    "Süsstrunk"
   ],
+  "courseCredit": "5",
   "courseDesc": "The students will gain the theoretical knowledge in computational photography, which allows recording and processing a richer visual experience than traditional digital imaging. They will also execute practical group projects to develop their own computational photography application."
  },
  {
@@ -273,6 +302,7 @@
   "profName": [
    "Stojilovic"
   ],
+  "courseCredit": "4",
   "courseDesc": "The course introduces the students to the basic notions\nof computer architecture and, in particular, to the\nchoices of the Instruction Set Architecture and to the\nmemory hierarchy of modern systems."
  },
  {
@@ -282,6 +312,7 @@
   "profName": [
    "Vuillon"
   ],
+  "courseCredit": "4",
   "courseDesc": "Understanding why and how to present complex data interactively in an effective manner has become a crucial skill for any data scientist. In this course, you will learn how to design, judge, build and present your own interactive data visualizations."
  },
  {
@@ -291,6 +322,7 @@
   "profName": [
    "Fleuret"
   ],
+  "courseCredit": "4",
   "courseDesc": "The objective of this course is to provide a complete introduction to deep machine learning. How to design a neural network, how to train it, and what are the modern techniques that specifically handle very large networks."
  },
  {
@@ -301,6 +333,7 @@
    "Borhani",
    "Psaltis"
   ],
+  "courseCredit": "2",
   "courseDesc": "This course will focus on the practical implementation of artificial neural networks (ANN) using the open-source TensorFlow machine learning library developed by Google for Python."
  },
  {
@@ -310,6 +343,7 @@
   "profName": [
    "De Micheli"
   ],
+  "courseCredit": "6",
   "courseDesc": "Hardware compilation is the process of transforming specialized hardware description languages into circuit descriptions, which are iteratively refined, detailed and optimized.  The course  presents algorithms, tools and methods for hardware compilation and logic synthesis."
  },
  {
@@ -319,6 +353,7 @@
   "profName": [
    "Marcus"
   ],
+  "courseCredit": "5",
   "courseDesc": "This course is an introduction to linear and discrete optimization. We will discuss linear programming and combinatorial optimization problems like bipartite matchings, shortest paths and flows. \n\nWarning: This course is for mathematicians! Strong emphasis is put on formal mathematical proofs."
  },
  {
@@ -328,6 +363,7 @@
   "profName": [
    "Aberer"
   ],
+  "courseCredit": "4",
   "courseDesc": "This course introduces the key concepts and algorithms from the areas of information retrieval, data mining and knowledge bases, which constitute the foundations of today's Web-based distributed information systems."
  },
  {
@@ -337,6 +373,7 @@
   "profName": [
    "Martinoli"
   ],
+  "courseCredit": "5",
   "courseDesc": "The goal of this course is to provide methods and tools for modeling distributed intelligent systems as well as designing and optimizing coordination strategies. The course is a well-balanced mixture of theory and practical activities using simulation and real hardware platforms."
  },
  {
@@ -346,6 +383,7 @@
   "profName": [
    "Dehollain"
   ],
+  "courseCredit": "3",
   "courseDesc": "Introduction to approximation and synthesis methods for analog filters. Modern realization technologies are described including their limitations"
  },
  {
@@ -355,6 +393,7 @@
   "profName": [
    "Rachidi-Haeri"
   ],
+  "courseCredit": "2",
   "courseDesc": "In this lecture, students will get the basic knowledge on electromagnetic compatibility."
  },
  {
@@ -364,6 +403,7 @@
   "profName": [
    "Beuchat"
   ],
+  "courseCredit": "4",
   "courseDesc": "The main topics of this course are understanding and designing embedded system on a programmable circuit (FPGA). Students will be able to design a camera or a LCD controller on an FPGA in VHDL and will use their controller through a softcore processor."
  },
  {
@@ -374,6 +414,7 @@
    "Maréchal",
    "Nguyen"
   ],
+  "courseCredit": "3",
   "courseDesc": "The goal of the lecture is to present the principles of the energy conversion for conventional and renewable energy resources and to explain the most important parameters that define the energy conversion efficiency, resources implications and economics of the energy conversion technologies."
  },
  {
@@ -383,6 +424,7 @@
   "profName": [
    "Torregrossa"
   ],
+  "courseCredit": "3",
   "courseDesc": "The course will bring the major elements on energy storage, principles and physical means"
  },
  {
@@ -392,6 +434,7 @@
   "profName": [
    "Lacour"
   ],
+  "courseCredit": "4",
   "courseDesc": "The course is an introduction to the emerging field of flexible (bio)electronics. It provides an overview of the materials and processes used to design and manufacture flexible circuits and sensors.  Applications encompass flexible sensors, biointerfaces, human-machine interfaces and neuroprosthetic"
  },
  {
@@ -402,6 +445,7 @@
    "Ballif",
    "Haug"
   ],
+  "courseCredit": "3",
   "courseDesc": "The objective of this lecture is to give an in-depth understanding of the physics and manufacturing processes of photovoltaic solar cells and related devices (photodetectors, photoconductors). The principle and techniques addressed in this lecture will be useful in a wide range of related fields."
  },
  {
@@ -411,6 +455,7 @@
   "profName": [
    "Gruetter"
   ],
+  "courseCredit": "4",
   "courseDesc": "The goal of this course is to illustrate how modern principles of basic science approaches are integrated into the major  biomedical imaging modalities of importance to biology and medicine, with an emphasis on those of interest to in vivo."
  },
  {
@@ -420,6 +465,7 @@
   "profName": [
    "Guiducci"
   ],
+  "courseCredit": "3",
   "courseDesc": "The labels \"biosensor\" and \"eBiochip\" have been employed to refer to the most diverse systems and in several fields of application. The course is meant not only to provide means to dig into this sea but also a thoughtful understanding of the detection principles and a design perspective."
  },
  {
@@ -429,6 +475,7 @@
   "profName": [
    ""
   ],
+  "courseCredit": "4",
   "courseDesc": "Neuroengineering is at the frontier between neuroscience and engineering: understanding how the brain works allows developing engineering applications and therapies of high impact, while design of new measurement and data analysis techniques contributes to advance our knowledge about the brain."
  },
  {
@@ -438,6 +485,7 @@
   "profName": [
    "Burg"
   ],
+  "courseCredit": "4",
   "courseDesc": ""
  },
  {
@@ -447,6 +495,7 @@
   "profName": [
    "Vachoux"
   ],
+  "courseCredit": "2",
   "courseDesc": "Application of VHDL modeling to RTL design and functional verification. Practical applications with industrial EDA tools."
  },
  {
@@ -456,6 +505,7 @@
   "profName": [
    "Vachoux"
   ],
+  "courseCredit": "2",
   "courseDesc": "Creation and use of models of analog and mixed-signal hardware systems at various levels of abstraction. Use of the VHDL-AMS hardware description language."
  },
  {
@@ -465,6 +515,7 @@
   "profName": [
    "Dehollain"
   ],
+  "courseCredit": "4",
   "courseDesc": "Master the design of circuits and systems at high frequency (HF) and very high frequency (VHF) (1 MHz-6GHz). This lecture is particularly oriented towards circuit aspects of modern communications systems."
  },
  {
@@ -474,6 +525,7 @@
   "profName": [
    "Dehollain"
   ],
+  "courseCredit": "2",
   "courseDesc": "Master the design of circuits and systems at high frequency (HF) and very high frequency (VHF) (1 MHz-6GHz). This lecture is particularly oriented towards circuit aspects of modern communications systems"
  },
  {
@@ -484,6 +536,7 @@
    "Avellan",
    "Vagnoni"
   ],
+  "courseCredit": "2",
   "courseDesc": "Master Lecture on the general layout of a hydropower plant. Detailing the specification of Pelton, Francis, Kaplan and Bulb turbines, Storage pumps and Reversible pump-turbines."
  },
  {
@@ -493,6 +546,7 @@
   "profName": [
    "Thiran"
   ],
+  "courseCredit": "4",
   "courseDesc": "This course gives an introduction to the main methods of image analysis and pattern recognition."
  },
  {
@@ -502,6 +556,7 @@
   "profName": [
    "Ebrahimi"
   ],
+  "courseCredit": "6",
   "courseDesc": "This course covers fundamental notions in image and video processing, as well as covers most popular tools used, such as edge detection, motion estimation, segmentation, and compression. It is composed of lectures, laboratory sessions, and mini-projects."
  },
  {
@@ -511,6 +566,7 @@
   "profName": [
    "Psaltis"
   ],
+  "courseCredit": "3",
   "courseDesc": "Introduction to optical imaging systems such as camera objectives and microscopes. Discussion of imaging formation. Principles of design of imaging optics with geometrical optics and analysis with raytracing. Presentation of different applications in photography and microscopy."
  },
  {
@@ -521,6 +577,7 @@
    "Pignolet-Oswald",
    "Tournier"
   ],
+  "courseCredit": "3",
   "courseDesc": "This course consists of two parts:\n1) architecture of automation systems, hands-on lab\n2) handling of faults and failures in real-time systems, including fault-tolerant computing"
  },
  {
@@ -530,6 +587,7 @@
   "profName": [
    "Dujic"
   ],
+  "courseCredit": "4",
   "courseDesc": "The course deals with the control of grid connected power electronic converters for renewable applications, covering: converter topologies, pulse width modulation, modelling, control algorithms and controllers (PID and PR), coordinate frame transformations, grid monitoring and synchronisation (PLL)."
  },
  {
@@ -539,6 +597,7 @@
   "profName": [
    "Dujic"
   ],
+  "courseCredit": "4",
   "courseDesc": "The course is dealing with high performance drives and methods to control various electrical machines by means of power electronic converter and advanced control methods."
  },
  {
@@ -548,6 +607,7 @@
   "profName": [
    "Telatar"
   ],
+  "courseCredit": "7",
   "courseDesc": "The mathematical principles of communication that govern the compression and transmission of data and the design of efficient methods of doing so."
  },
  {
@@ -557,6 +617,7 @@
   "profName": [
    ""
   ],
+  "courseCredit": "2",
   "courseDesc": "This course will give an overview of some of the most relevant aspects of CMOS technology used to design and fabricate integrated circuits.\nCurrent research and challenges brought about by shrinking Field Effect Transistors down to the nm scale will also be tackled."
  },
  {
@@ -566,6 +627,7 @@
   "profName": [
    "Pauly"
   ],
+  "courseCredit": "6",
   "courseDesc": "The students study and apply fundamental concepts and algorithms of computer graphics for rendering, geometry synthesis, and animation. They design and implement their own interactive graphics programs."
  },
  {
@@ -575,6 +637,7 @@
   "profName": [
    ""
   ],
+  "courseCredit": "2",
   "courseDesc": "Not given in 19-20"
  },
  {
@@ -584,6 +647,7 @@
   "profName": [
    "Mäusli"
   ],
+  "courseCredit": "2",
   "courseDesc": ""
  },
  {
@@ -594,6 +658,7 @@
    "Kippenberg",
    "Moser"
   ],
+  "courseCredit": "4",
   "courseDesc": "This course gives an introduction to Lasers by both considering fundamental principles and applications. Topics that are covered include the theory of lasers, laser resonators and laser dynamics. \nIn addition to the basic concepts, a variety of interesting laser systems and applications are covered"
  },
  {
@@ -603,6 +668,7 @@
   "profName": [
    ""
   ],
+  "courseCredit": "2",
   "courseDesc": ""
  },
  {
@@ -612,6 +678,7 @@
   "profName": [
    ""
   ],
+  "courseCredit": "3",
   "courseDesc": "The basic function of an IoT node is to collect data and send it through a wireless channel to the cloud. Since the power consumption of an IoT node is largely dominated by the wireless communication, it is therefore key to understand the trade-offs faced when designing the radio."
  },
  {
@@ -622,6 +689,7 @@
    "Jaggi",
    "Urbanke"
   ],
+  "courseCredit": "7",
   "courseDesc": "Machine learning and data analysis are becoming increasingly central in many sciences and applications. In this course, fundamental principles and methods of machine learning will be introduced, analyzed and practically implemented."
  },
  {
@@ -631,6 +699,7 @@
   "profName": [
    "Cevher"
   ],
+  "courseCredit": "4",
   "courseDesc": "This course reviews recent advances in convex optimization and statistical analysis in the wake of Big Data. We provide an overview of the emerging convex formulations and their guarantees, describe scalable solution techniques, and illustrate the role of parallel and distributed computation."
  },
  {
@@ -640,6 +709,7 @@
   "profName": [
    "Ebrahimi"
   ],
+  "courseCredit": "6",
   "courseDesc": "This course provides attendees with theoretical and practical issues in media security. In addition to lectures by the professor, the course includes laboratory sessions, a mini-project, and a mid-term exam."
  },
  {
@@ -649,6 +719,7 @@
   "profName": [
    "Skrivervik Favre"
   ],
+  "courseCredit": "4",
   "courseDesc": "This course is n introduction to microwaves and microwave passive circuits. A special attention is given to the introduction of the notion of distributed circuits and to the scattering matrix"
  },
  {
@@ -658,6 +729,7 @@
   "profName": [
    "Hubaux"
   ],
+  "courseCredit": "4",
   "courseDesc": "This course provides a detailed description of the organization and operating principles of mobile communication networks."
  },
  {
@@ -667,6 +739,7 @@
   "profName": [
    "Jones"
   ],
+  "courseCredit": "3",
   "courseDesc": "Provide an introduction to the theory and practice of Model Predictive Control (MPC). Main benefits of MPC: flexible specification of time-domain objectives, performance optimization of highly complex multivariable systems and ability to explicitly enforce constraints on system behavior."
  },
  {
@@ -676,6 +749,7 @@
   "profName": [
    "Gillet"
   ],
+  "courseCredit": "4",
   "courseDesc": "The objective is to enable students to design advanced digital solutions for the control and the coordination of distributed dynamic systems, such as production or distribution energy systems, as well as intelligent transportation systems."
  },
  {
@@ -685,6 +759,7 @@
   "profName": [
    "Ionescu"
   ],
+  "courseCredit": "2",
   "courseDesc": "This lecture overviews and discusses the last trends in the technology and principles of nanoelectronic devices for more aggressive scaling, better performances, added functionalities and lower energy per function. The opportunities of these advances compared to industrial roadmaps are analized."
  },
  {
@@ -694,6 +769,7 @@
   "profName": [
    "Ferrari Trecate"
   ],
+  "courseCredit": "3",
   "courseDesc": "This course offers an introduction to control systems using communication networks for interfacing sensors, actuators, controllers, and processes. Challenges due to network non-idealities and opportunities offered by communication will be analyzed."
  },
  {
@@ -703,6 +779,7 @@
   "profName": [
    "Gaumier"
   ],
+  "courseCredit": "3",
   "courseDesc": "Situate and evaluate the potentialities, limits and perspectives of optical communication systems and networks.\nDesign and dimension of photonic communication systems and networks"
  },
  {
@@ -712,6 +789,7 @@
   "profName": [
    "Besse"
   ],
+  "courseCredit": "3",
   "courseDesc": "Students analyse the fundamental characteristics of optical detectors. Thermal and photoemissive devices as well as photodiodes and infrared sensors are studied. CCD and CMOS cameras are analysed in detail. Single photon detection is explained."
  },
  {
@@ -721,6 +799,7 @@
   "profName": [
    "Portella Oberli"
   ],
+  "courseCredit": "4",
   "courseDesc": ""
  },
  {
@@ -731,6 +810,7 @@
    "Psaltis",
    "Pu"
   ],
+  "courseCredit": "3",
   "courseDesc": "This laboratory work allows students to deepen their understanding of optical instruments, optoelectronic devices and diagnostic methods. Students will be introduced in state of the art optical instruments and measurement principles."
  },
  {
@@ -740,6 +820,7 @@
   "profName": [
    "Kuhn"
   ],
+  "courseCredit": "4",
   "courseDesc": "This course introduces the theory and applications of optimization. We develop tools and concepts of optimization and decision analysis that enable managers in manufacturing, service operations, marketing, transportation and finance to transform data into insights for making better decisions."
  },
  {
@@ -749,6 +830,7 @@
   "profName": [
    "Quack"
   ],
+  "courseCredit": "2",
   "courseDesc": "C"
  },
  {
@@ -758,6 +840,7 @@
   "profName": [
    "Brès"
   ],
+  "courseCredit": "4",
   "courseDesc": "The physics of optical communication components and their applications to communication systems will be covered. The course is intended to present the operation principles of contemporary optical communication systems employing optical fibers and modern optoelectronic devices."
  },
  {
@@ -767,6 +850,7 @@
   "profName": [
    "Kis"
   ],
+  "courseCredit": "2",
   "courseDesc": "Students will learn simple theoretical models, the theoretical background of finite element modeling as well as its application to modeling charge, mass and heat transport in electronic, fluidic and electromechanical micro and nanosystem."
  },
  {
@@ -776,6 +860,7 @@
   "profName": [
    "Butté"
   ],
+  "courseCredit": "4",
   "courseDesc": "Series of lectures covering the physics of quantum heterostructures, dielectric microcavities and photonic crystal cavities as well as the properties of the main light emitting devices that are light-emitting diodes (LEDs) and laser diodes (LDs)."
  },
  {
@@ -786,6 +871,7 @@
    "Lemaitre",
    "Schneggenburger"
   ],
+  "courseCredit": "4",
   "courseDesc": ""
  },
  {
@@ -795,6 +881,7 @@
   "profName": [
    "Cherkaoui"
   ],
+  "courseCredit": "3",
   "courseDesc": "This course presents different types and mechanisms of electricity markets. It addresses in particular their impacts on power/distribution systems operation and consequently the appropriate strategies capable to ensure a secure and reliable functioning."
  },
  {
@@ -804,6 +891,7 @@
   "profName": [
    "Cherkaoui"
   ],
+  "courseCredit": "3",
   "courseDesc": "This course focuses on the dynamic behavior of a power system. It presents the basic definitions, concepts and models for angular stability analysis with reference to transient stability, steady state stability and long term stability.Fundamentals related to voltage stability are introduced as well."
  },
  {
@@ -812,7 +900,8 @@
   "courseSection": "EL",
   "profName": [
    "Profs divers"
-  ]
+  ],
+  "courseCredit": "10"
  },
  {
   "courseName": "Project in space technology",
@@ -820,7 +909,8 @@
   "courseSection": "EL",
   "profName": [
    "Profs divers"
-  ]
+  ],
+  "courseCredit": "12"
  },
  {
   "courseName": "Quantum electrodynamics and quantum optics",
@@ -829,6 +919,7 @@
   "profName": [
    "Kippenberg"
   ],
+  "courseCredit": "4",
   "courseDesc": "This course on one hand develops the quantum theory of electromagnetic radiation from the principles of quantum electrodynamics. It will cover basis historic developments (coherent states, squeezed states, quantum theory of spontaneous emission) and moreover modern developments, e.g. quantum noise."
  },
  {
@@ -838,6 +929,7 @@
   "profName": [
    "Brantut"
   ],
+  "courseCredit": "4",
   "courseDesc": "This lecture describes advanced developments applications of quantum optics. It emphasizes the connection with ongoing research, and with the fast growing field quantum technologies. The topics with cover some aspects of quantum information processing, quantum sensing and quantum simulation."
  },
  {
@@ -847,6 +939,7 @@
   "profName": [
    "Beuchat"
   ],
+  "courseCredit": "4",
   "courseDesc": "A real time system is subject to important temporal constraints. This course is about understanding where processing time is spent and what a designer can do in order to achieve real-time processing systems. Some solutions are Multiprocessors, accelerators, custom instructions, specialized hardware."
  },
  {
@@ -858,6 +951,7 @@
    "Renaud",
    "Shea"
   ],
+  "courseCredit": "4",
   "courseDesc": "This class combines an analytical and finite elements modeling (FEM) simulations approach to scaling laws in MEMS/NEMS. The dominant physical effects and scaling effects when downsizing sensors and actuators in microsystems are discussed, across a broad range of actuation principles."
  },
  {
@@ -867,6 +961,7 @@
   "profName": [
    "Martin"
   ],
+  "courseCredit": "3",
   "courseDesc": "This course explores different facets of modern optics and photonics."
  },
  {
@@ -877,6 +972,7 @@
    "Ionescu",
    "Kis"
   ],
+  "courseCredit": "4",
   "courseDesc": "Students will learn about understanding the fundamentals and applications of emerging nanoscale devices, materials and concepts.\n\n\nRemark: at least 5 students should be enrolled for the course to be given"
  },
  {
@@ -886,6 +982,7 @@
   "profName": [
    "Butté"
   ],
+  "courseCredit": "4",
   "courseDesc": "Lectures on the fundamental aspects of semiconductor physics and the main properties of the p-n junction that is at the heart of devices like LEDs & laser diodes. The last part deals with light-matter interaction phenomena in bulk semiconductors such as absorption, spontaneous & stimulated emission."
  },
  {
@@ -896,6 +993,7 @@
    "Aminian",
    "Renaud"
   ],
+  "courseCredit": "2",
   "courseDesc": ""
  },
  {
@@ -905,6 +1003,7 @@
   "profName": [
    "Aminian"
   ],
+  "courseCredit": "3",
   "courseDesc": "Fundamental principles and methods used for physiological signal conditioning. Resistive, capacitive, inductive, piezoelectric and optical techniques used to detect and convert physiological information's to electrical signals. Laboratory and ambulatory devices for monitoring and therapy."
  },
  {
@@ -914,6 +1013,7 @@
   "profName": [
    "Van De Ville"
   ],
+  "courseCredit": "3",
   "courseDesc": "Computational methods for the analysis of human brain imaging data"
  },
  {
@@ -924,6 +1024,7 @@
    "Enz",
    "Ionescu"
   ],
+  "courseCredit": "3",
   "courseDesc": "Caution, these contents corresponds to the coursebooks of last yearSmart sensors for IoT\nEE-594    Lecturer(s) : Enz ChristianIonescu Mihai AdrianLanguage:English\nRemarque    \npas donné en 2018-19"
  },
  {
@@ -933,6 +1034,7 @@
   "profName": [
    "Gillet"
   ],
+  "courseCredit": "2",
   "courseDesc": "The objective is to enable students to critically apprehend the Human Computer Interaction (HCI) challenges associated with the design and the exploitation of social media platforms."
  },
  {
@@ -942,6 +1044,7 @@
   "profName": [
    "Storni"
   ],
+  "courseCredit": "2",
   "courseDesc": "The course presents and analyses the different systems, architectures and components of spacecraft avionics (on board data handling and processing systems) controlling and commanding spacecraft and payloads (instruments). It will study typical bus structures (standard) used for S/C avionics."
  },
  {
@@ -951,6 +1054,7 @@
   "profName": [
    "Richard"
   ],
+  "courseCredit": "4",
   "courseDesc": "The main objective of the course is to introduce the concept of space system design and engineering. The course will describe the various\nsubsystems involved in the design of a satellite. It will also describe the techniques of systems engineering that are used to obtain a coherent\nsatellite design."
  },
  {
@@ -960,6 +1064,7 @@
   "profName": [
    "Nicollier"
   ],
+  "courseCredit": "2",
   "courseDesc": "This course is a \"concepts\" course. It introduces a variety of concepts in use in the design of a space mission, manned or unmanned, and in space operations. it is at least partly based on the practical space experience of the lecturer"
  },
  {
@@ -969,6 +1074,7 @@
   "profName": [
    "Olhede"
   ],
+  "courseCredit": "6",
   "courseDesc": "Statistics lies at the foundation of data science, providing a unifying theoretical and methodological backbone for the diverse tasks enountered in this emerging field. This course rigorously develops the key notions and methods of statistics, with an emphasis on concepts rather than techniques."
  },
  {
@@ -977,7 +1083,8 @@
   "courseSection": "GC",
   "profName": [
    "Profs divers"
-  ]
+  ],
+  "courseCredit": "4"
  },
  {
   "courseName": "Systems and architectures for signal processing",
@@ -986,6 +1093,7 @@
   "profName": [
    "Mattavelli"
   ],
+  "courseCredit": "2",
   "courseDesc": "Study of the essential components and implementation technologies of digital signal processing and communication systems from the theoretical, algorithmic and system implementation point of view."
  },
  {
@@ -995,6 +1103,7 @@
   "profName": [
    "Ienne"
   ],
+  "courseCredit": "4",
   "courseDesc": ""
  },
  {
@@ -1004,6 +1113,7 @@
   "profName": [
    "Le Boudec"
   ],
+  "courseCredit": "6",
   "courseDesc": "C"
  },
  {
@@ -1013,6 +1123,7 @@
   "profName": [
    "Schmid"
   ],
+  "courseCredit": "2",
   "courseDesc": "Test of VLSI Systems covers theoretical knowledge related to the major algorithms used in VLSI test, and design for test techniques. Basic knowledge related to computer-aided design for test techniques, and their integration into a design-flow are presented."
  },
  {
@@ -1021,7 +1132,8 @@
   "courseSection": "EL",
   "profName": [
    "Profs divers"
-  ]
+  ],
+  "courseCredit": "4"
  },
  {
   "courseName": "Wave propagation along transmission lines",
@@ -1030,6 +1142,7 @@
   "profName": [
    "Rachidi-Haeri"
   ],
+  "courseCredit": "2",
   "courseDesc": "In this lecture, we will describe the theoretical models and computational methods for the analysis of wave propagation along transmission lines."
  },
  {
@@ -1040,6 +1153,7 @@
    "Gautsch",
    "Gay-Balmaz"
   ],
+  "courseCredit": "30",
   "courseDesc": ""
  },
  {
@@ -1049,6 +1163,7 @@
   "profName": [
    "Lissek"
   ],
+  "courseCredit": "4",
   "courseDesc": "Apply the knowledge acquired in Electroacoustics, Audio Engineering and Propagation of Acoustic Waves lectures."
  },
  {
@@ -1063,6 +1178,7 @@
    "Sarni",
    "Verscheure"
   ],
+  "courseCredit": "4",
   "courseDesc": "This hands-on course teaches the tools & methods used by data scientists, from researching solutions to scaling up prototypes to Spark clusters. It exposes the students to the entire data science pipeline, from data acquisition to extracting valuable insights applied to real-world problems."
  },
  {
@@ -1073,6 +1189,7 @@
    "Koukab",
    "Vachoux"
   ],
+  "courseCredit": "4",
   "courseDesc": "The goal of this lab is to get a working knowledge on the use of industrial state-of-the-art EDA (Electronic Design Automation) tools and design kits for the design of analog and digital integrated circuits."
  },
  {
@@ -1082,6 +1199,7 @@
   "profName": [
    "Hodder"
   ],
+  "courseCredit": "4",
   "courseDesc": "This teaching lab provides the theory and experimental experience associated to the advanced behavior of electrical machine such as the dq models, islanded induction machine generator, induction machine supplied by a frequency converter, synchronous machine 3 phase short circuit, ..."
  },
  {
@@ -1091,6 +1209,7 @@
   "profName": [
    "Skrivervik Favre"
   ],
+  "courseCredit": "4",
   "courseDesc": "This lab teaches the major measurement techniques used in microwaves"
  },
  {
@@ -1101,6 +1220,7 @@
    "Bozorgtabar",
    "Thiran"
   ],
+  "courseCredit": "4",
   "courseDesc": "These lab sessions are designed as a practical companion to the course \"Image Analysis and Pattern Recognition\" by Prof. Thiran. The main objective is to learn how to use some important image processing libraries, namely OpenCV, for performing image analysis tasks."
  },
  {
@@ -1110,6 +1230,7 @@
   "profName": [
    "Atienza Alonso"
   ],
+  "courseCredit": "4",
   "courseDesc": "This course introduces mobile application programming and system-level power management for Android OS. The  students learn to develop low-power Apps on mobile platforms (in tablets, smartphones and smartwatches). Students receive a tablet and a smartwatch, and can use their smartphones if desired."
  },
  {
@@ -1118,7 +1239,8 @@
   "courseSection": "EL",
   "profName": [
    "Profs divers"
-  ]
+  ],
+  "courseCredit": "10"
  },
  {
   "courseName": "Project in data science and systems",
@@ -1126,7 +1248,8 @@
   "courseSection": "EL",
   "profName": [
    "Profs divers"
-  ]
+  ],
+  "courseCredit": "10"
  },
  {
   "courseName": "Project in electronic devices",
@@ -1134,7 +1257,8 @@
   "courseSection": "EL",
   "profName": [
    "Profs divers"
-  ]
+  ],
+  "courseCredit": "10"
  },
  {
   "courseName": "Project in internet of things (IoT)",
@@ -1142,7 +1266,8 @@
   "courseSection": "EL",
   "profName": [
    "Profs divers"
-  ]
+  ],
+  "courseCredit": "10"
  },
  {
   "courseName": "Project in microelectronics",
@@ -1150,7 +1275,8 @@
   "courseSection": "EL",
   "profName": [
    "Profs divers"
-  ]
+  ],
+  "courseCredit": "10"
  },
  {
   "courseName": "Project in signal, image, video and communication",
@@ -1158,7 +1284,8 @@
   "courseSection": "EL",
   "profName": [
    "Profs divers"
-  ]
+  ],
+  "courseCredit": "10"
  },
  {
   "courseName": "Project in smart grids technologies",
@@ -1166,7 +1293,8 @@
   "courseSection": "EL",
   "profName": [
    "Profs divers"
-  ]
+  ],
+  "courseCredit": "10"
  },
  {
   "courseName": "Project in wireless and photonics C&S",
@@ -1174,7 +1302,8 @@
   "courseSection": "EL",
   "profName": [
    "Profs divers"
-  ]
+  ],
+  "courseCredit": "10"
  },
  {
   "courseName": "HSS : Introduction to project",
@@ -1182,7 +1311,8 @@
   "courseSection": "SHS",
   "profName": [
    "Divers enseignants"
-  ]
+  ],
+  "courseCredit": "3"
  },
  {
   "courseName": "HSS : Project",
@@ -1190,6 +1320,7 @@
   "courseSection": "SHS",
   "profName": [
    "Divers enseignants"
-  ]
+  ],
+  "courseCredit": "3"
  }
 ]

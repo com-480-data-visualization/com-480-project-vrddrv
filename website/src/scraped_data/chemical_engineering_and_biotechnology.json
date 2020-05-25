@@ -5,7 +5,8 @@
   "courseSection": "CGC",
   "profName": [
    "Profs divers"
-  ]
+  ],
+  "courseCredit": "30"
  },
  {
   "courseName": "Advanced diffusional processes",
@@ -14,6 +15,7 @@
   "profName": [
    "Agrawal"
   ],
+  "courseCredit": "3",
   "courseDesc": "C"
  },
  {
@@ -24,6 +26,7 @@
    "Boghossian",
    "Comninellis"
   ],
+  "courseCredit": "3",
   "courseDesc": "C"
  },
  {
@@ -33,6 +36,7 @@
   "profName": [
    "Luterbacher"
   ],
+  "courseCredit": "3",
   "courseDesc": "C"
  },
  {
@@ -42,6 +46,7 @@
   "profName": [
    "Zaza"
   ],
+  "courseCredit": "2",
   "courseDesc": "C"
  },
  {
@@ -51,6 +56,7 @@
   "profName": [
    "Zaza"
   ],
+  "courseCredit": "2",
   "courseDesc": "C"
  },
  {
@@ -60,6 +66,7 @@
   "profName": [
    "Meyer"
   ],
+  "courseCredit": "2",
   "courseDesc": "This course aims to enable students to master the methodology and associated tools for modern risk management with an engineering perspective. It highlights the different actors, resources available and objectives to achieve while remaining economically and socially sustainable."
  },
  {
@@ -69,6 +76,7 @@
   "profName": [
    "Nanchen"
   ],
+  "courseCredit": "2",
   "courseDesc": "The focus of the lecture is on thermal process safety, but explosion protection, design of risk reducing measures, as well as their reliability analysis are considered. While being based on theory, the lecture is oriented towards industrial practice."
  },
  {
@@ -78,6 +86,7 @@
   "profName": [
    ""
   ],
+  "courseCredit": "2",
   "courseDesc": ""
  },
  {
@@ -87,6 +96,7 @@
   "profName": [
    "Nazeeruddin"
   ],
+  "courseCredit": "2",
   "courseDesc": "The course is made up of the understanding of the use of advanced materials for Dye-sensitized Solar Cells, Semiconductor Nanoparticles (Q-dots) and Organic Light Emitting Diodes (OLED)."
  },
  {
@@ -97,6 +107,7 @@
    "Ghezzi",
    "Lütolf"
   ],
+  "courseCredit": "4",
   "courseDesc": "This course covers the fundamental concepts behind the design, function and application of state-of-the-art biomaterials, that is, materials that are designed based on a molecular understanding of their interactions with biological systems."
  },
  {
@@ -108,16 +119,18 @@
    "Eyer",
    "Zinn"
   ],
+  "courseCredit": "4",
   "courseDesc": "C"
  },
  {
   "courseName": "Biotechnology lab (for CGC)",
-  "courseCode": "BIOENG-433",
+  "courseCode": "ChE-433",
   "courseSection": "CGC",
   "profName": [
    "Pick"
   ],
-  "courseDesc": "Students apply basic techniques in molecular biology to clone a cDNA of interest into an expression plasmid in order to produce its protein product in mammalian cells. They purify the recombinant protein and characterize it biochemically."
+  "courseCredit": "4",
+  "courseDesc": "C"
  },
  {
   "courseName": "Catalysis for emission control and energy processes",
@@ -126,6 +139,7 @@
   "profName": [
    "Kröcher"
   ],
+  "courseCredit": "3",
   "courseDesc": "C"
  },
  {
@@ -135,6 +149,7 @@
   "profName": [
    "Hu"
   ],
+  "courseCredit": "3",
   "courseDesc": "This course covers the fundamental and applied aspects of electrocatalysis related to renewable energy conversion and storage. The focus is on catalysis for hydrogen evolution, oxygen evolution, and CO2 reduction reactions. Both homogeneous and heterogeneous catalysts are discussed."
  },
  {
@@ -144,6 +159,7 @@
   "profName": [
    "Blank"
   ],
+  "courseCredit": "2",
   "courseDesc": "The course will deliver basic knowledge on the principles of food processing and chemical changes occurring during food manufacturing. Specific thermal processes related to transformation of food raw materials will be described along with benefits and challenges to consider."
  },
  {
@@ -153,6 +169,7 @@
   "profName": [
    "Sybesma"
   ],
+  "courseCredit": "2",
   "courseDesc": "The course will deliver basic knowledge on the  principles of food fermentation and enzyme technology. Specific processes related to food raw materials and food bioprocessing will be described. The course will describe benefits that food biotechnology can bring during food manufactuing."
  },
  {
@@ -162,6 +179,7 @@
   "profName": [
    "Richard"
   ],
+  "courseCredit": "2",
   "courseDesc": ""
  },
  {
@@ -171,6 +189,7 @@
   "profName": [
    "Maréchal"
   ],
+  "courseCredit": "4",
   "courseDesc": "The goal of the lecture is to present and apply techniques for the modelling and the thermo-economic optimisation of industrial process and energy systems. The lecture covers the problem statement, the solving methods for the simulation and the single and multi-objective optimisation problems."
  },
  {
@@ -180,6 +199,7 @@
   "profName": [
    "Fierz"
   ],
+  "courseCredit": "3",
   "courseDesc": "This course concerns modern bioanalytical techniques to investigate biomolecules both in vitro and in vivo, including recent methods to image, track and manipulate single molecules. We cover the basic principles of the respective methods and discuss examples from the current scientific literature."
  },
  {
@@ -189,6 +209,7 @@
   "profName": [
    "Buonsanti"
   ],
+  "courseCredit": "3",
   "courseDesc": "C"
  },
  {
@@ -198,16 +219,18 @@
   "profName": [
    "Frauenrath"
   ],
+  "courseCredit": "3",
   "courseDesc": "This course will introduce students to the structural requirements of charge transport in organic materials as well as synthetic methods for their preparation."
  },
  {
   "courseName": "Pharmaceutical biotechnology",
-  "courseCode": "BIOENG-437",
+  "courseCode": "ChE-436",
   "courseSection": "SV",
   "profName": [
    "Pick"
   ],
-  "courseDesc": "The course focuses on the development and application of biotechnology-based approaches to human diseases. It provides current information on the engineering and pharmaceutical production of highly specific therapeutic proteins, vaccines, and other important biologicals at an industrial scale."
+  "courseCredit": "3",
+  "courseDesc": "C"
  },
  {
   "courseName": "Physical and chemical analyses of materials",
@@ -216,6 +239,7 @@
   "profName": [
    "Roussel"
   ],
+  "courseCredit": "3",
   "courseDesc": "The course relates on the use of electromagnetic (X-Ray) and corpuscular (electrons) radiations for physical and chemical analysis of solid materials."
  },
  {
@@ -225,6 +249,7 @@
   "profName": [
    "Klok-Lermann"
   ],
+  "courseCredit": "3",
   "courseDesc": "The student has a basic understanding of the physical and physicochemical principles which result from the chainlike structure of synthetic macromolecules. The student can predict major characteristics of a polymer from its chemical structure and molecular architecture."
  },
  {
@@ -234,6 +259,7 @@
   "profName": [
    "Klok"
   ],
+  "courseCredit": "3",
   "courseDesc": "Know modern methods of polymer synthesis. Understand how parameters, which determine polymer structure and properties, such as molecular weight, molecular weight distribution, topology, microstructure can be controlled by proper choice of polymerization method and optimization of reaction condition"
  },
  {
@@ -243,6 +269,7 @@
   "profName": [
    "Hatzimanikatis"
   ],
+  "courseCredit": "3",
   "courseDesc": "C"
  },
  {
@@ -252,6 +279,7 @@
   "profName": [
    "Randall"
   ],
+  "courseCredit": "3",
   "courseDesc": "C"
  },
  {
@@ -261,6 +289,7 @@
   "profName": [
    "Lashuel"
   ],
+  "courseCredit": "3",
   "courseDesc": "The course presents an overview on how recent advances at the interfaces of biology, biotechnology, engineering, physical sciences, and medicine are 1) shaping the landscape of biomedical research; 2) contributing to improving our quality of life and; 3) addressing global health challenges today."
  },
  {
@@ -270,6 +299,7 @@
   "profName": [
    "Queen"
   ],
+  "courseCredit": "3",
   "courseDesc": "Students will learn about the structure & properties of several classes of solid state materials and gain insight into their importance in energy relevant applications."
  },
  {
@@ -279,6 +309,7 @@
   "profName": [
    "Züttel"
   ],
+  "courseCredit": "3",
   "courseDesc": "C"
  },
  {
@@ -288,6 +319,7 @@
   "profName": [
    "Luterbacher"
   ],
+  "courseCredit": "3",
   "courseDesc": "C"
  },
  {
@@ -297,6 +329,7 @@
   "profName": [
    "Sivula"
   ],
+  "courseCredit": "3",
   "courseDesc": "C"
  },
  {
@@ -306,6 +339,7 @@
   "profName": [
    "Zaza"
   ],
+  "courseCredit": "6",
   "courseDesc": "C"
  },
  {
@@ -314,7 +348,8 @@
   "courseSection": "SHS",
   "profName": [
    "Divers enseignants"
-  ]
+  ],
+  "courseCredit": "3"
  },
  {
   "courseName": "HSS : Project",
@@ -322,7 +357,8 @@
   "courseSection": "SHS",
   "profName": [
    "Divers enseignants"
-  ]
+  ],
+  "courseCredit": "3"
  },
  {
   "courseName": "Engineering internship (Master in Chemical engineering and Biotechnology)",
@@ -330,6 +366,7 @@
   "courseSection": "CGC",
   "profName": [
    "Profs divers"
-  ]
+  ],
+  "courseCredit": "30"
  }
 ]

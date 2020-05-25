@@ -5,7 +5,8 @@
   "courseSection": "PH",
   "profName": [
    "Profs divers"
-  ]
+  ],
+  "courseCredit": "30"
  },
  {
   "courseName": "Advanced topics in nuclear reactor materials",
@@ -16,6 +17,7 @@
    "Spätig",
    "Streit"
   ],
+  "courseCredit": "4",
   "courseDesc": "To comprehend advanced aspects of materials science as applied to nuclear power (fission and fusion), to get acquainted with materials for advanced plants, advanced damage characterization and life-time assessments"
  },
  {
@@ -24,7 +26,8 @@
   "courseSection": "PH_NE",
   "profName": [
    "Profs divers"
-  ]
+  ],
+  "courseCredit": "4"
  },
  {
   "courseName": "Decommissioning of nuclear power plants",
@@ -33,6 +36,7 @@
   "profName": [
    "Vacat"
   ],
+  "courseCredit": "4",
   "courseDesc": "Characterization and survey prior to dismantling. Technologies for segmentation and dismantling. Decontamination and remediation. Materials and wast management. Site characterization and environmental monitoring."
  },
  {
@@ -41,7 +45,8 @@
   "courseSection": "PH",
   "profName": [
    "Profs divers"
-  ]
+  ],
+  "courseCredit": "8"
  },
  {
   "courseName": "Nuclear computations lab",
@@ -52,6 +57,7 @@
    "Freixa Terradas",
    "Pautz"
   ],
+  "courseCredit": "4",
   "courseDesc": "To aquire hands-on experience with the running of large computer codes in relation to the static analysis of nuclear reactor cores and the multi-physics simulation of nuclear power plant (NPP) dynamic behaviour"
  },
  {
@@ -60,7 +66,8 @@
   "courseSection": "PH_NE",
   "profName": [
    "Profs divers"
-  ]
+  ],
+  "courseCredit": "4"
  },
  {
   "courseName": "Nuclear fuels and materials",
@@ -68,7 +75,8 @@
   "courseSection": "PH_NE",
   "profName": [
    "Profs divers"
-  ]
+  ],
+  "courseCredit": "4"
  },
  {
   "courseName": "Physics of nuclear reactors",
@@ -79,6 +87,7 @@
    "Laureau",
    "Pautz"
   ],
+  "courseCredit": "4",
   "courseDesc": "In this course, one acquires an understanding of the basic neutronics interactions occurring in a nuclear fission reactor as well as the conditions for establishing and controlling a nuclear chain reaction."
  },
  {
@@ -90,6 +99,7 @@
    "Hursin",
    "Lamirand"
   ],
+  "courseCredit": "4",
   "courseDesc": "The reactor experiments course aims to introduce the students to radiation detection techniques and nuclear reactor experiments. The core of the course is the unique opportunity to conduct reactor experiments, as the control rod calibration, and approach to critical."
  },
  {
@@ -101,6 +111,7 @@
    "Frajtag",
    "Pitzschke"
   ],
+  "courseCredit": "4",
   "courseDesc": "An introductory course in the basic concepts of radiation detection and interactions and energy deposition by ionizing radiation in matter, radioisotope production and its applications in medicine, industry and research. The course includes presentations, lecture notes, problem sets and seminars."
  },
  {
@@ -110,6 +121,7 @@
   "profName": [
    "Prasser"
   ],
+  "courseCredit": "4",
   "courseDesc": "Reactor core cooling, power limits and technological consequences due to fuel, cladding and coolant properties, main principles of reactor and power plant design including auxiliary systems are explained. System technology of most important thermal and fast reactor types is introduced."
  },
  {
@@ -118,7 +130,8 @@
   "courseSection": "PH_NE",
   "profName": [
    "Profs divers"
-  ]
+  ],
+  "courseCredit": "4"
  },
  {
   "courseName": "Semester project nuclear engineering",
@@ -126,7 +139,8 @@
   "courseSection": "PH_NE",
   "profName": [
    "Profs divers"
-  ]
+  ],
+  "courseCredit": "8"
  },
  {
   "courseName": "Advanced techniques for the risk analysis of technical systems",
@@ -134,7 +148,8 @@
   "courseSection": "HPLANS",
   "profName": [
    "Profs divers"
-  ]
+  ],
+  "courseCredit": "4"
  },
  {
   "courseName": "Biomedical imaging",
@@ -142,7 +157,8 @@
   "courseSection": "PH_NE",
   "profName": [
    "Profs divers"
-  ]
+  ],
+  "courseCredit": "6"
  },
  {
   "courseName": "Computational multiphase thermal fluid dynamics",
@@ -150,7 +166,8 @@
   "courseSection": "PH_NE",
   "profName": [
    "Profs divers"
-  ]
+  ],
+  "courseCredit": "4"
  },
  {
   "courseName": "Computational neuroimaging clinic",
@@ -158,7 +175,8 @@
   "courseSection": "PH",
   "profName": [
    "Profs divers"
-  ]
+  ],
+  "courseCredit": "3"
  },
  {
   "courseName": "Elective project",
@@ -166,7 +184,8 @@
   "courseSection": "PH_NE",
   "profName": [
    "Profs divers"
-  ]
+  ],
+  "courseCredit": "8"
  },
  {
   "courseName": "Energy conversion and renewable energy",
@@ -176,6 +195,7 @@
    "Maréchal",
    "Nguyen"
   ],
+  "courseCredit": "3",
   "courseDesc": "The goal of the lecture is to present the principles of the energy conversion for conventional and renewable energy resources and to explain the most important parameters that define the energy conversion efficiency, resources implications and economics of the energy conversion technologies."
  },
  {
@@ -186,6 +206,7 @@
    "Avellan",
    "Vagnoni"
   ],
+  "courseCredit": "4",
   "courseDesc": "Master lecture on Hydraulic Turbomachines: impulse and reaction turbines,pumps and pump-turbines."
  },
  {
@@ -196,6 +217,7 @@
    "Bochud",
    "Verdun"
   ],
+  "courseCredit": "4",
   "courseDesc": "This course covers the physical principles underlying medical diagnostic imaging (radiography, fluoroscopy, CT, SPECT, PET, MRI), radiation therapy and radiopharmacy.  The focus is not only on risk and dose to the patient and staff, but also on an objective description of the image quality."
  },
  {
@@ -205,6 +227,7 @@
   "profName": [
    "Pieloni"
   ],
+  "courseCredit": "4",
   "courseDesc": "The course presents basic physics ideas underlying the workings of modern accelerators. We will examine key features and limitations of these machines as used in accelerator driven sciences like high energy physics, materials and life sciences."
  },
  {
@@ -213,7 +236,8 @@
   "courseSection": "PH",
   "profName": [
    "Profs divers"
-  ]
+  ],
+  "courseCredit": "4"
  },
  {
   "courseName": "Magnetic resonance imaging in medicine",
@@ -221,7 +245,8 @@
   "courseSection": "PH",
   "profName": [
    "Profs divers"
-  ]
+  ],
+  "courseCredit": "4"
  },
  {
   "courseName": "Materials analysis by nuclear techniques",
@@ -229,7 +254,8 @@
   "courseSection": "HPLANS",
   "profName": [
    "Profs divers"
-  ]
+  ],
+  "courseCredit": "6"
  },
  {
   "courseName": "Medical physics II",
@@ -237,7 +263,8 @@
   "courseSection": "PH_NE",
   "profName": [
    "Profs divers"
-  ]
+  ],
+  "courseCredit": "6"
  },
  {
   "courseName": "Micro and nano-tomography of biological tissues",
@@ -245,7 +272,8 @@
   "courseSection": "PH_NE",
   "profName": [
    "Profs divers"
-  ]
+  ],
+  "courseCredit": "4"
  },
  {
   "courseName": "Monte Carlo in medical physics",
@@ -253,7 +281,8 @@
   "courseSection": "PH",
   "profName": [
    "Profs divers"
-  ]
+  ],
+  "courseCredit": "4"
  },
  {
   "courseName": "Multi-phase flow",
@@ -261,7 +290,8 @@
   "courseSection": "PH_NE",
   "profName": [
    "Profs divers"
-  ]
+  ],
+  "courseCredit": "4"
  },
  {
   "courseName": "Nuclear fusion and plasma physics",
@@ -270,6 +300,7 @@
   "profName": [
    "Fasoli"
   ],
+  "courseCredit": "4",
   "courseDesc": "The goal of the course is to provide the physics and technology basis  for controlled fusion research, from the main elements of plasma physics to the reactor concepts."
  },
  {
@@ -278,7 +309,8 @@
   "courseSection": "HPLANS",
   "profName": [
    "Profs divers"
-  ]
+  ],
+  "courseCredit": "6"
  },
  {
   "courseName": "Physics of atoms, nuclei and elementary particles",
@@ -287,6 +319,7 @@
   "profName": [
    "Nakada"
   ],
+  "courseCredit": "4",
   "courseDesc": "In this lecture, symmetry and conservation law are applied to derive wave functions for elementary particles. Relativistic wave functions are analysed and applied for massive and massless particles. Different ideas on antiparticles are explored."
  },
  {
@@ -295,7 +328,8 @@
   "courseSection": "PH_NE",
   "profName": [
    "Profs divers"
-  ]
+  ],
+  "courseCredit": "4"
  },
  {
   "courseName": "Radiation detection",
@@ -304,6 +338,7 @@
   "profName": [
    "Lamirand"
   ],
+  "courseCredit": "3",
   "courseDesc": "The course presents the detection of ionizing radiation in the keV and MeV energy ranges. Physical processes of radiation/matter interaction are introduced. All steps of detection are covered, as well as detectors, instrumentations and measurements methods commonly used in the nuclear field."
  },
  {
@@ -312,7 +347,8 @@
   "courseSection": "PH",
   "profName": [
    "Profs divers"
-  ]
+  ],
+  "courseCredit": "4"
  },
  {
   "courseName": "Renewable energy technologies II, energy storage and conversion",
@@ -320,7 +356,8 @@
   "courseSection": "PH_NE",
   "profName": [
    "Profs divers"
-  ]
+  ],
+  "courseCredit": "4"
  },
  {
   "courseName": "Technology and policy of electrical energy storage",
@@ -328,7 +365,8 @@
   "courseSection": "PH_NE",
   "profName": [
    "Profs divers"
-  ]
+  ],
+  "courseCredit": "4"
  },
  {
   "courseName": "The energy challenge - the role of technology, business and society",
@@ -337,6 +375,7 @@
   "profName": [
    ""
   ],
+  "courseCredit": "4",
   "courseDesc": "The energy challenge - the role of technology, business and society\nETH-451    Lecturer(s) : Language:English\nRemarque    \nCours donné par l'ETHZ"
  },
  {
@@ -345,6 +384,7 @@
   "courseSection": "PH",
   "profName": [
    "Profs divers"
-  ]
+  ],
+  "courseCredit": "6"
  }
 ]

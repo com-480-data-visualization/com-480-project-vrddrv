@@ -5,7 +5,8 @@
   "courseSection": "SV",
   "profName": [
    "Profs divers"
-  ]
+  ],
+  "courseCredit": "30"
  },
  {
   "courseName": "Cancer biology I",
@@ -16,6 +17,7 @@
    "Oricchio",
    "Simanis"
   ],
+  "courseCredit": "5",
   "courseDesc": "The course covers in detail molecular mechanisms of cancer development with emphasis on cell cycle control, genome stability, oncogenes and tumor suppressor genes."
  },
  {
@@ -27,6 +29,7 @@
    "Hülsken",
    "Meylan"
   ],
+  "courseCredit": "5",
   "courseDesc": "The course covers in detail the interactions of cancer cells with their environment with an emphasis on tumor-angiogenesis, inflammation, adaptive and innate immunity and cancer-induced immune suppression. Additional topics are cancer metabolism, cancer stem cells and metastasis."
  },
  {
@@ -36,6 +39,7 @@
   "profName": [
    "Ablasser"
   ],
+  "courseCredit": "5",
   "courseDesc": "The students acquire knowledge regarding the functioning of the vertebrate immune system. A strong focus is placed on the molecular mechanisms underlying innate and adaptive immune responses and their implications for medicine. Students apply this knowledge during oral presentations."
  },
  {
@@ -45,6 +49,7 @@
   "profName": [
    "Blokesch"
   ],
+  "courseCredit": "5",
   "courseDesc": "Infectious diseases (ID) are still a major problem to human health. But how do pathogens make us sick? How do they evolve and spread? The discovery and use of antibiotics and vaccination has changed the outcome of some IDs. But resistance mechanisms have evolved and are of major concern."
  },
  {
@@ -56,6 +61,7 @@
    "Herzog",
    "Sandi Perez"
   ],
+  "courseCredit": "5",
   "courseDesc": "The goal is to guide students into the essential topics of Behavioral and Cognitive Neuroscience. The challenge for the student in this course is to integrate the diverse knowledge acquired from those levels of analysis into a more or less coherent understanding of brain structure and function."
  },
  {
@@ -66,6 +72,7 @@
    "Petersen",
    "Schneggenburger"
   ],
+  "courseCredit": "5",
   "courseDesc": "This lecture course focuses on the cellular mechanisms of mammalian brain function. We will describe how neurons communicate through synaptic transmission in order to process sensory information ultimately leading to motor behavior."
  },
  {
@@ -77,6 +84,7 @@
    "Lashuel",
    "Schneider"
   ],
+  "courseCredit": "5",
   "courseDesc": "The goal of the course is to guide students through the essential aspects of molecular neuroscience and neurodegenerative diseases. The student will gain the ability to dissect the molecular basis of disease in the nervous system in order to begin to understand and identify therapeutic strategies."
  },
  {
@@ -86,6 +94,7 @@
   "profName": [
    "Altug"
   ],
+  "courseCredit": "3",
   "courseDesc": "Introduction to geometrical and wave optics for understanding the principles of optical microscopes, their advantages and limitations. Describing the basic microscopy components and the commonly used biomicrocopy methods such as widefield and fluorescence."
  },
  {
@@ -95,6 +104,7 @@
   "profName": [
    "Gruetter"
   ],
+  "courseCredit": "4",
   "courseDesc": "The goal of this course is to illustrate how modern principles of basic science approaches are integrated into the major  biomedical imaging modalities of importance to biology and medicine, with an emphasis on those of interest to in vivo."
  },
  {
@@ -105,6 +115,7 @@
    "Unser",
    "Van De Ville"
   ],
+  "courseCredit": "3",
   "courseDesc": "Introduction to the basic techniques of image processing. Introduction to the development of image-processing software and to prototyping in JAVA. Application to real-world examples in industrial vision and biomedical imaging."
  },
  {
@@ -116,6 +127,7 @@
    "Dehollain",
    "Skrivervik Favre"
   ],
+  "courseCredit": "3",
   "courseDesc": "Introduction to analog CMOS design for Remote Biosensors on Chip. Understanding and designing of active and remotely powered biosensing systems. Basic understanding of eh wireless transmission of teh obtained signals"
  },
  {
@@ -125,6 +137,7 @@
   "profName": [
    "Goldstein"
   ],
+  "courseCredit": "5",
   "courseDesc": "This course covers topics in applied biostatistics, with an emphasis on practical aspects of data analysis using R statistical software. Topics include types of studies and their design and analysis, high dimensional data analysis (genetic/genomic) and other topics as time and interest permit."
  },
  {
@@ -134,6 +147,7 @@
   "profName": [
    "Gerstner"
   ],
+  "courseCredit": "4",
   "courseDesc": "Since 2010 approaches in deep learning have revolutionized fields as diverse as computer vision, machine learning, or artificial intelligence. This course gives a systematic introduction into the main  models of deep artificial neural networks: Supervised Learning and Reinforcement Learning."
  },
  {
@@ -144,6 +158,7 @@
    "Sage",
    "Seitz"
   ],
+  "courseCredit": "4",
   "courseDesc": "The course provides a comprehensive overview of methods, algorithms, and computer tools used in in computational bioimaging and bioimage analysis. It exposes the fundamental concepts and the practical computer solutions to extract quantitative information from multidimensional images."
  },
  {
@@ -153,6 +168,7 @@
   "profName": [
    "Gerstner"
   ],
+  "courseCredit": "4",
   "courseDesc": "In this course we study mathematical models of neurons and neuronal networks in the context of biology and establish links to models of cognition."
  },
  {
@@ -162,6 +178,7 @@
   "profName": [
    "Renaud"
   ],
+  "courseCredit": "2",
   "courseDesc": "This course covers the main applications of micro devices for life science and biomedical applications. The course is organized by application topic. It is also covering the basic physical, biological, chemical, technological concepts, which are presented as transversal introductory section"
  },
  {
@@ -172,6 +189,7 @@
    "Altug",
    "Seitz"
   ],
+  "courseCredit": "4",
   "courseDesc": "Introduction to the different contrast enhancing methods in optical microscopy. Basic hands-on experience with optical microscopes at EPFL's BioImaging and Optics Facility. How to investigate biological samples? How to obtain high quality images?"
  },
  {
@@ -181,6 +199,7 @@
   "profName": [
    "Dal Peraro"
   ],
+  "courseCredit": "4",
   "courseDesc": "Main focus of this course is on the description and design of molecular interactions defining the structure, dynamics and function of biological systems. The principal experimental and computational techniques used in structural biology, molecular modeling and design will be introduced and practiced"
  },
  {
@@ -190,6 +209,7 @@
   "profName": [
    "Shillcock"
   ],
+  "courseCredit": "4",
   "courseDesc": "Computer modelling is increasingly used to study dynamic phenomena in cell biology. This course shows how to identify common mathematical features in cell biological mechanisms, and become proficient in selecting numerical algorithms to model them and predict their behaviour."
  },
  {
@@ -199,6 +219,7 @@
   "profName": [
    "Ijspeert"
   ],
+  "courseCredit": "4",
   "courseDesc": "The course gives (1) a review of different types of numerical models of control of locomotion and movement in animals, (2) a presentation of different techniques for designing models, and (3) an analysis of the use and testing of those models in robotics and neuroprosthetics."
  },
  {
@@ -208,6 +229,7 @@
   "profName": [
    "Ramdya"
   ],
+  "courseCredit": "4",
   "courseDesc": "Students will acquire an integrative view on biological and artificial algorithms for controlling autonomous behaviors in animals and robots. Students will synthesize and apply this knowledge in oral presentations and exercises."
  },
  {
@@ -217,6 +239,7 @@
   "profName": [
    "Thiran"
   ],
+  "courseCredit": "4",
   "courseDesc": "Linear and nonlinear dynamical systems are found in all fields of science and engineering. After a short review of linear system theory, the class will explain and develop the main tools for the qualitative analysis of nonlinear systems, both in discrete-time and continuous-time."
  },
  {
@@ -226,6 +249,7 @@
   "profName": [
    ""
   ],
+  "courseCredit": "3",
   "courseDesc": "This course uses the basics of microeconomic theory to address and develop the main economic issues about innovation in the biomedical sector (competition, monopoly and price formation, productivity crisis, knowledge access, neglected diseases, geography of innovation)"
  },
  {
@@ -236,6 +260,7 @@
    "Aye",
    "Ferreira De Sousa Correia"
   ],
+  "courseCredit": "3",
   "courseDesc": "Chemical biology is a key discipline in biomedical research for drug discovery, synthetic biology and protein functional annotation. We will give a broad perspective of the field ranging from seminal classical experiments to state-of-the-art approaches to dissect and perturb biological systems."
  },
  {
@@ -245,6 +270,7 @@
   "profName": [
    "Guiducci"
   ],
+  "courseCredit": "3",
   "courseDesc": "The labels \"biosensor\" and \"eBiochip\" have been employed to refer to the most diverse systems and in several fields of application. The course is meant not only to provide means to dig into this sea but also a thoughtful understanding of the detection principles and a design perspective."
  },
  {
@@ -254,6 +280,7 @@
   "profName": [
    ""
   ],
+  "courseCredit": "4",
   "courseDesc": "Neuroengineering is at the frontier between neuroscience and engineering: understanding how the brain works allows developing engineering applications and therapies of high impact, while design of new measurement and data analysis techniques contributes to advance our knowledge about the brain."
  },
  {
@@ -263,6 +290,7 @@
   "profName": [
    "Rougemont"
   ],
+  "courseCredit": "4",
   "courseDesc": "This course reviews the different techniques of DNA sequence analysis and the associated bioinformatics tools in the context of applications to current research in molecular biology."
  },
  {
@@ -275,6 +303,7 @@
    "Unser",
    "Van De Ville"
   ],
+  "courseCredit": "3",
   "courseDesc": "Study of advanced image processing; mathematical imaging. Development of image-processing software and prototyping in JAVA; application to real-world examples in industrial vision and biomedical imaging."
  },
  {
@@ -284,6 +313,7 @@
   "profName": [
    "Tang"
   ],
+  "courseCredit": "4",
   "courseDesc": "Immunoengineering is an emerging field where engineering principles are grounded in immunology. This course provides students a broad overview of how engineering approaches can be utilized to study immunology, model immune systems, modulate immune response, and develop novel immunotherapies."
  },
  {
@@ -294,6 +324,7 @@
    "Romani",
    "Schürmann"
   ],
+  "courseCredit": "4",
   "courseDesc": "\"In silico Neuroscience\" introduces students to a synthesis of modern neuroscience and state-of-the-art data management, modelling and computing technologies."
  },
  {
@@ -304,6 +335,7 @@
    "Barazzetti",
    "Marks Sultan"
   ],
+  "courseCredit": "3",
   "courseDesc": ""
  },
  {
@@ -314,6 +346,7 @@
    "Dillenbourg",
    "Salzmann"
   ],
+  "courseCredit": "4",
   "courseDesc": ""
  },
  {
@@ -322,7 +355,8 @@
   "courseSection": "SV",
   "profName": [
    "Profs divers"
-  ]
+  ],
+  "courseCredit": "22"
  },
  {
   "courseName": "Lab immersion I",
@@ -330,7 +364,8 @@
   "courseSection": "SV",
   "profName": [
    "Profs divers"
-  ]
+  ],
+  "courseCredit": "8"
  },
  {
   "courseName": "Lab immersion II",
@@ -338,7 +373,8 @@
   "courseSection": "SV",
   "profName": [
    "Profs divers"
-  ]
+  ],
+  "courseCredit": "8"
  },
  {
   "courseName": "Lab immersion III",
@@ -346,7 +382,8 @@
   "courseSection": "SV",
   "profName": [
    "Profs divers"
-  ]
+  ],
+  "courseCredit": "12"
  },
  {
   "courseName": "Lab immersion in industry",
@@ -354,7 +391,8 @@
   "courseSection": "SV",
   "profName": [
    "Profs divers"
-  ]
+  ],
+  "courseCredit": "22"
  },
  {
   "courseName": "Lab methods : animal experimentation",
@@ -364,6 +402,7 @@
    "Doenlen",
    "Warot"
   ],
+  "courseCredit": "2",
   "courseDesc": "Theoretical introduction to the ethics and principles of animal experimentation in the context of the animal models (laboratory mouse, laboratory, rat, zebrafish) used at EPFL."
  },
  {
@@ -374,6 +413,7 @@
    "Chambon",
    "Turcatti"
   ],
+  "courseCredit": "2",
   "courseDesc": "Introduction to the key principles and concepts underlying the screening activity to identify and to characterize bioactive compounds (chemicals, compounds, siRNAs and natural products) acting on a given biological target or a signalling pathway."
  },
  {
@@ -382,7 +422,8 @@
   "courseSection": "SV",
   "profName": [
    "Profs divers"
-  ]
+  ],
+  "courseCredit": "2"
  },
  {
   "courseName": "Lab methods : flow cytometry",
@@ -391,6 +432,7 @@
   "profName": [
    "Garcia"
   ],
+  "courseCredit": "2",
   "courseDesc": "This module covers the fundamentals of Flow Cytometry, both practical and theoretical. Students will work in small groups, from sample preparation to data analysis, giving them hands-on time and allowing them to put the theory into practice inside a laboratory environment"
  },
  {
@@ -400,6 +442,7 @@
   "profName": [
    "Sordet-Dessimoz"
   ],
+  "courseCredit": "2",
   "courseDesc": "Presentation of the diverse techniques to prepare samples for bright field microscopy, as well as procedures for standard histology stains and proteins detection with observation of tissues under microscope."
  },
  {
@@ -411,6 +454,7 @@
    "Paz Montoya",
    "Schmid"
   ],
+  "courseCredit": "2",
   "courseDesc": "Introduction to several mass spectrometry techniques and their application to the proteomics field. Description of bioinformatics tools used to analyze proteomics data. The goal of the course is to provide an overview of main proteomics strategies and their applications in the Life Science context"
  },
  {
@@ -421,6 +465,7 @@
    "Jaggi",
    "Urbanke"
   ],
+  "courseCredit": "7",
   "courseDesc": "Machine learning and data analysis are becoming increasingly central in many sciences and applications. In this course, fundamental principles and methods of machine learning will be introduced, analyzed and practically implemented."
  },
  {
@@ -430,6 +475,7 @@
   "profName": [
    "Brisken"
   ],
+  "courseCredit": "4",
   "courseDesc": "We will define the concept of homeostasis and principles of hormone action and the molecular mechanisms underlying them. Interactions with the environment and pertinent public health issues will be analyzed."
  },
  {
@@ -439,6 +485,7 @@
   "profName": [
    "Fierz"
   ],
+  "courseCredit": "3",
   "courseDesc": "This course concerns modern bioanalytical techniques to investigate biomolecules both in vitro and in vivo, including recent methods to image, track and manipulate single molecules. We cover the basic principles of the respective methods and discuss examples from the current scientific literature."
  },
  {
@@ -448,6 +495,7 @@
   "profName": [
    "Ghezzi"
   ],
+  "courseCredit": "4",
   "courseDesc": "This course aims at providing the key knowledge and skills needed by professional bioengineers working in the field of vision restoration with neuroprostheses. During the course the students will work on a project related to the development of a visual prosthesis."
  },
  {
@@ -458,6 +506,7 @@
    "Fellay",
    "Trono"
   ],
+  "courseCredit": "4",
   "courseDesc": "We will define the concept of personalized health, describe the underlying technologies, the technological, legal and ethical challenges that the field faces today, and how they are being met."
  },
  {
@@ -472,6 +521,7 @@
    "Springer",
    "Wiederkehr"
   ],
+  "courseCredit": "4",
   "courseDesc": "The course will address how nutrition affects human health and disease. We will describe how nutrients are absorbed and metabolized. We will introduce the concept of the integrated systems approach to better define human health based on holistic phenotyping of human individuals"
  },
  {
@@ -483,6 +533,7 @@
    "Kellenberger",
    "Zufferey"
   ],
+  "courseCredit": "4",
   "courseDesc": "This course introduces the student to the fudamentals in pharmacology, pharmacokinétics, drug-receptor interactions. Pharmacogenetics and chronopharmacology are presented in a practical contexte in order to examplify the current issues in the domain to develop personalized medicine"
  },
  {
@@ -492,6 +543,7 @@
   "profName": [
    "Hatzimanikatis"
   ],
+  "courseCredit": "3",
   "courseDesc": "C"
  },
  {
@@ -502,6 +554,7 @@
    "Courtine",
    "Micera"
   ],
+  "courseCredit": "4",
   "courseDesc": "Teaching objectives: history, neural control of movement, computational motor control, neurorehabilitation after CNS disorders, upper limb and hand neuroprostheses, lower limp neuroprostheses, student project."
  },
  {
@@ -511,6 +564,7 @@
   "profName": [
    "Aminian"
   ],
+  "courseCredit": "3",
   "courseDesc": "Fundamental principles and methods used for physiological signal conditioning. Resistive, capacitive, inductive, piezoelectric and optical techniques used to detect and convert physiological information's to electrical signals. Laboratory and ambulatory devices for monitoring and therapy."
  },
  {
@@ -520,6 +574,7 @@
   "profName": [
    "Van De Ville"
   ],
+  "courseCredit": "3",
   "courseDesc": "Computational methods for the analysis of human brain imaging data"
  },
  {
@@ -530,6 +585,7 @@
    "Deplancke",
    "Suter"
   ],
+  "courseCredit": "4",
   "courseDesc": "The students are exposed to experimental and analytical approaches specific to single cell biology, with an emphasis on quantitative aspects."
  },
  {
@@ -539,6 +595,7 @@
   "profName": [
    "De Los Rios"
   ],
+  "courseCredit": "4",
   "courseDesc": "Introduction to the application of the notions and methods of theoretical physics to problems in biology."
  },
  {
@@ -550,6 +607,7 @@
    "Radtke",
    "Suter"
   ],
+  "courseCredit": "3",
   "courseDesc": "This course introduces the fundamentals of stem cell biology, with a particular focus on the role of stem cells during development, tissue homeostasis/regeneration and disease."
  },
  {
@@ -559,6 +617,7 @@
   "profName": [
    "Thiran"
   ],
+  "courseCredit": "6",
   "courseDesc": ""
  },
  {
@@ -568,6 +627,7 @@
   "profName": [
    ""
   ],
+  "courseCredit": "4",
   "courseDesc": "This course is neither an introduction to the mathematics of statistics nor an introduction to a statistics program such as R. The aim of the course is to understand statistics from its experimental design and to avoid common pitfalls of statistical reasoning. There is space to discuss ongoing work."
  },
  {
@@ -577,6 +637,7 @@
   "profName": [
    ""
   ],
+  "courseCredit": "4",
   "courseDesc": "Learning is observable in  animal and human behavior, but learning is also a topic of computer science. This course links algorithms from machine learning with biological phenomena of synaptic plasticity. The course covers unsupervised and reinforcement learning, but not supervised learning."
  },
  {
@@ -585,7 +646,8 @@
   "courseSection": "SV",
   "profName": [
    "Profs divers"
-  ]
+  ],
+  "courseCredit": "8"
  },
  {
   "courseName": "Scientific literature analysis in bioengineering",
@@ -596,6 +658,7 @@
    "Barth",
    "Tang"
   ],
+  "courseCredit": "5",
   "courseDesc": "Students are given the means to dig effectively into modern scientific literature in the multidisciplinary field of bioengineering. \nThe method relies on granting sufficient time to become familiar with the background and hypotheses, on effective support during the analysis and on oral assessment."
  },
  {
@@ -605,6 +668,7 @@
   "profName": [
    "Bucher"
   ],
+  "courseCredit": "5",
   "courseDesc": "The goal is to learn to analyze a paper critically, asking whether the data presented support the conclusions that are drawn. The analysis is presented in the form of a summary abstract and critical, constructive referee's report."
  },
  {
@@ -615,6 +679,7 @@
    "McCabe",
    "Sandi Perez"
   ],
+  "courseCredit": "5",
   "courseDesc": "The goal of this course is to learn how to discover, digest, analyze and a criticize scientific papers encompassing a defined topic within neuroscience."
  },
  {
@@ -625,6 +690,7 @@
    "Gönczy",
    "Oates"
   ],
+  "courseCredit": "5",
   "courseDesc": "Students are lead to understand selected concepts in cell and developmental biology, primarily through the analysis of scientific literature, and then to apply these concepts to the design and execution of a group project in the Gönczy or Oates laboratory."
  },
  {
@@ -634,6 +700,7 @@
   "profName": [
    "Auwerx"
   ],
+  "courseCredit": "5",
   "courseDesc": "The goal of this course is to instruct the student how fundamental scientific knowledge can be applied for drug discovery and development. We will demonstrate these principles with examples, including obesity, diabetes, and atherosclerosis."
  },
  {
@@ -644,6 +711,7 @@
    "Petersen",
    "Schürmann"
   ],
+  "courseCredit": "5",
   "courseDesc": "This course will provide a forum in which students engage themselves in learning how to design a scientific project that bridges scales and allows following the causal chain from one scale to the next."
  },
  {
@@ -653,6 +721,7 @@
   "profName": [
    "Maerkl"
   ],
+  "courseCredit": "5",
   "courseDesc": "An interdisciplinary EPFL student team will design and build genetic circuits with novel functionalities. Students learn to develop a project and carry it out to completion in a concrete manner. Their creativity and critical thinking are highly encouraged."
  },
  {
@@ -663,6 +732,7 @@
    "Gräff",
    "Le Coutre"
   ],
+  "courseCredit": "5",
   "courseDesc": "The goal of this course is to instruct the student how fundamental scientific knowledge, acquired through the study of fundamental disciplines, including biochemistry, genetics, pharmacology, physiology, genomics, cell and molecular biology can be applied for drug discovery and development."
  },
  {
@@ -674,6 +744,7 @@
    "Hanahan",
    "Radtke"
   ],
+  "courseCredit": "5",
   "courseDesc": "The theme of the course is the role of inflammation in cancer. It focuses on the regulation and multifaceted functions of tumor-associated inflammatory cells, and how they promote or oppose cancer."
  },
  {
@@ -682,7 +753,8 @@
   "courseSection": "SHS",
   "profName": [
    "Divers enseignants"
-  ]
+  ],
+  "courseCredit": "3"
  },
  {
   "courseName": "HSS : Project",
@@ -690,6 +762,7 @@
   "courseSection": "SHS",
   "profName": [
    "Divers enseignants"
-  ]
+  ],
+  "courseCredit": "3"
  }
 ]

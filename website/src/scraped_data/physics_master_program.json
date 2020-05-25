@@ -5,7 +5,8 @@
   "courseSection": "PH",
   "profName": [
    "Profs divers"
-  ]
+  ],
+  "courseCredit": "30"
  },
  {
   "courseName": "Physics lab IVa",
@@ -13,7 +14,8 @@
   "courseSection": "PH",
   "profName": [
    "Profs divers"
-  ]
+  ],
+  "courseCredit": "8"
  },
  {
   "courseName": "Physics lab IVb",
@@ -21,7 +23,8 @@
   "courseSection": "PH",
   "profName": [
    "Profs divers"
-  ]
+  ],
+  "courseCredit": "8"
  },
  {
   "courseName": "HSS : Introduction to project",
@@ -29,7 +32,8 @@
   "courseSection": "SHS",
   "profName": [
    "Divers enseignants"
-  ]
+  ],
+  "courseCredit": "3"
  },
  {
   "courseName": "HSS : Project",
@@ -37,7 +41,8 @@
   "courseSection": "SHS",
   "profName": [
    "Divers enseignants"
-  ]
+  ],
+  "courseCredit": "3"
  },
  {
   "courseName": "Astrophysics III : stellar and galactic dynamics",
@@ -46,6 +51,7 @@
   "profName": [
    "Revaz"
   ],
+  "courseCredit": "4",
   "courseDesc": "The aim of this course is to acquire the basic knowledge on specific dynamical phenomena related to the origin, equilibrium, and evolution of star\nclusters, galaxies, and galaxy clusters."
  },
  {
@@ -55,6 +61,7 @@
   "profName": [
    "Kneib"
   ],
+  "courseCredit": "4",
   "courseDesc": "Cosmology is the study of the structure and evolution of the universe as a whole. This course describes the principal themes of cosmology, as seen\nfrom the point of view of observations."
  },
  {
@@ -65,6 +72,7 @@
    "Marroux",
    "Puppin"
   ],
+  "courseCredit": "4",
   "courseDesc": "This course discusses the interaction between atoms and visible electro-magnetic radiation and introduces the main instrumentation for light detection and spectroscopy. The principles of LASER light sources are described, providing notions of nonlinear and ultrafast optics."
  },
  {
@@ -74,6 +82,7 @@
   "profName": [
    "Rahi"
   ],
+  "courseCredit": "4",
   "courseDesc": "Understand and use population genetics, population dynamics, network theory, and reaction network dynamics to analyze and predict the behavior of living systems"
  },
  {
@@ -83,6 +92,7 @@
   "profName": [
    "Pasquarello"
   ],
+  "courseCredit": "4",
   "courseDesc": "The two main topics covered by this course are classical molecular dynamics and the Monte Carlo method."
  },
  {
@@ -92,6 +102,7 @@
   "profName": [
    "Fuerbringer"
   ],
+  "courseCredit": "4",
   "courseDesc": ""
  },
  {
@@ -102,6 +113,7 @@
    "Alexander",
    "Hébert"
   ],
+  "courseCredit": "3",
   "courseDesc": "With this course, the student will learn advanced methods in transmission electron microscopy, especially what is the electron optical setup involved in the acquisition, and how to interpret the data. After the course, students will be able to understand and assess TEM encountered in papers."
  },
  {
@@ -112,6 +124,7 @@
    "Cantoni",
    "Dwir"
   ],
+  "courseCredit": "3",
   "courseDesc": "The course's objectivs are: Learning several advenced methods in experimental physics, and critical reading of experimental papers."
  },
  {
@@ -123,6 +136,7 @@
    "Lingenfelder",
    "Rusponi"
   ],
+  "courseCredit": "4",
   "courseDesc": "The students understand the relevant experimental and theoretical concepts of the nanoscale science. The course move from basic concepts like quantum size effects to hot fields such as spin transport for data storage applications (spintronics), carbon electronics, or nanocatalysis."
  },
  {
@@ -132,6 +146,7 @@
   "profName": [
    "Gruetter"
   ],
+  "courseCredit": "4",
   "courseDesc": "The goal of this course is to illustrate how modern principles of basic science approaches are integrated into the major  biomedical imaging modalities of importance to biology and medicine, with an emphasis on those of interest to in vivo."
  },
  {
@@ -142,6 +157,7 @@
    "Bay",
    "Neronov"
   ],
+  "courseCredit": "4",
   "courseDesc": ""
  },
  {
@@ -151,6 +167,7 @@
   "profName": [
    "Pieloni"
   ],
+  "courseCredit": "4",
   "courseDesc": "The course presents basic physics ideas underlying the workings of modern accelerators. We will examine key features and limitations of these machines as used in accelerator driven sciences like high energy physics, materials and life sciences."
  },
  {
@@ -161,6 +178,7 @@
    "Kippenberg",
    "Moser"
   ],
+  "courseCredit": "4",
   "courseDesc": "This course gives an introduction to Lasers by both considering fundamental principles and applications. Topics that are covered include the theory of lasers, laser resonators and laser dynamics. \nIn addition to the basic concepts, a variety of interesting laser systems and applications are covered"
  },
  {
@@ -170,6 +188,7 @@
   "profName": [
    "Ricci"
   ],
+  "courseCredit": "4",
   "courseDesc": "The course provides students with the tools to approach the study of nonlinear systems and chaotic dynamics. Emphasis is given to concrete examples and numerical applications are carried out during the exercise sessions."
  },
  {
@@ -179,6 +198,7 @@
   "profName": [
    "Fasoli"
   ],
+  "courseCredit": "4",
   "courseDesc": "The goal of the course is to provide the physics and technology basis  for controlled fusion research, from the main elements of plasma physics to the reactor concepts."
  },
  {
@@ -188,6 +208,7 @@
   "profName": [
    "Portella Oberli"
   ],
+  "courseCredit": "4",
   "courseDesc": ""
  },
  {
@@ -197,6 +218,7 @@
   "profName": [
    "Haefeli"
   ],
+  "courseCredit": "4",
   "courseDesc": "The course will cover the physics of particle detectors. It will introduce the experimental techniques used in nuclear and particle physics. The lecture includes the interaction of particles with matter, scintillators, gas chambers, silicon, and detectors for particle ID."
  },
  {
@@ -206,6 +228,7 @@
   "profName": [
    "Shchutska"
   ],
+  "courseCredit": "4",
   "courseDesc": "Presentation of particle properties, their symmetries and  interactions.\nIntroduction to quantum electrodynamics and to the Feynman rules."
  },
  {
@@ -215,6 +238,7 @@
   "profName": [
    "Shchutska"
   ],
+  "courseCredit": "4",
   "courseDesc": "Presentation of the electro-weak and strong interaction theories that constitute the Standard Model of particles. The course also discusses the new theories proposed to solve the problems of the Standard Model."
  },
  {
@@ -224,6 +248,7 @@
   "profName": [
    "Nakada"
   ],
+  "courseCredit": "4",
   "courseDesc": "In this lecture, symmetry and conservation law are applied to derive wave functions for elementary particles. Relativistic wave functions are analysed and applied for massive and massless particles. Different ideas on antiparticles are explored."
  },
  {
@@ -233,6 +258,7 @@
   "profName": [
    "Mari"
   ],
+  "courseCredit": "4",
   "courseDesc": "This course illustrates some selected chapters of materials physics needed to understand the mechanical and structural properties of solids. This course deals in particular with the physics of dislocation. The diffusion and phase transformations are complementary bases."
  },
  {
@@ -243,6 +269,7 @@
    "Forró",
    "Magrez"
   ],
+  "courseCredit": "4",
   "courseDesc": "Physics of novel electronic materials\nPHYS-328    Lecturer(s) : Forró LászlóMagrez ArnaudLanguage:English\nSummary"
  },
  {
@@ -254,6 +281,7 @@
    "Laureau",
    "Pautz"
   ],
+  "courseCredit": "4",
   "courseDesc": "In this course, one acquires an understanding of the basic neutronics interactions occurring in a nuclear fission reactor as well as the conditions for establishing and controlling a nuclear chain reaction."
  },
  {
@@ -263,6 +291,7 @@
   "profName": [
    "Butté"
   ],
+  "courseCredit": "4",
   "courseDesc": "Series of lectures covering the physics of quantum heterostructures, dielectric microcavities and photonic crystal cavities as well as the properties of the main light emitting devices that are light-emitting diodes (LEDs) and laser diodes (LDs)."
  },
  {
@@ -272,6 +301,7 @@
   "profName": [
    "Theiler"
   ],
+  "courseCredit": "4",
   "courseDesc": "Following an introduction of the main plasma properties, the fundamental concepts of the fluid and kinetic theory of plasmas are introduced. Applications concerning laboratory, space, and astrophysical plasmas are discussed throughout the course."
  },
  {
@@ -282,6 +312,7 @@
    "Furno",
    "Reimerdes"
   ],
+  "courseCredit": "4",
   "courseDesc": "This course completes the knowledge in plasma physics that students have acquired in the previous two courses, with a discussion of different applications, in the fields of controlled fusion and magnetic confinement, astrophysical and space plasmas, and societal and industrial applications."
  },
  {
@@ -291,6 +322,7 @@
   "profName": [
    "Kippenberg"
   ],
+  "courseCredit": "4",
   "courseDesc": "This course on one hand develops the quantum theory of electromagnetic radiation from the principles of quantum electrodynamics. It will cover basis historic developments (coherent states, squeezed states, quantum theory of spontaneous emission) and moreover modern developments, e.g. quantum noise."
  },
  {
@@ -300,6 +332,7 @@
   "profName": [
    "Rattazzi"
   ],
+  "courseCredit": "5",
   "courseDesc": "The goal of the course is to introduce relativistic quantum field theory as the conceptual and mathematical framework describing fundamental interactions."
  },
  {
@@ -309,6 +342,7 @@
   "profName": [
    "Rattazzi"
   ],
+  "courseCredit": "5",
   "courseDesc": "The goal of the course is to introduce relativistic quantum field theory as the conceptual and mathematical framework describing fundamental interactions."
  },
  {
@@ -318,6 +352,7 @@
   "profName": [
    "Brantut"
   ],
+  "courseCredit": "4",
   "courseDesc": "This lecture describes advanced developments applications of quantum optics. It emphasizes the connection with ongoing research, and with the fast growing field quantum technologies. The topics with cover some aspects of quantum information processing, quantum sensing and quantum simulation."
  },
  {
@@ -327,6 +362,7 @@
   "profName": [
    "Chapochnikov"
   ],
+  "courseCredit": "5",
   "courseDesc": "To introduce several advanced topics in quantum physics, including\nsemiclassical approximation, path integral, scattering theory, and\nrelativistic quantum mechanics"
  },
  {
@@ -338,6 +374,7 @@
    "Rattazzi",
    "Savona"
   ],
+  "courseCredit": "5",
   "courseDesc": "Introduction to the path integral formulation of quantum mechanics. Derivation of the perturbation expansion of Green's functions in terms of Feynman diagrams. Several applications will be presented, including non-perturbative effects, such as tunneling and instantons."
  },
  {
@@ -349,6 +386,7 @@
    "Frajtag",
    "Pitzschke"
   ],
+  "courseCredit": "4",
   "courseDesc": "An introductory course in the basic concepts of radiation detection and interactions and energy deposition by ionizing radiation in matter, radioisotope production and its applications in medicine, industry and research. The course includes presentations, lecture notes, problem sets and seminars."
  },
  {
@@ -358,6 +396,7 @@
   "profName": [
    "Lamirand"
   ],
+  "courseCredit": "3",
   "courseDesc": "The course presents the detection of ionizing radiation in the keV and MeV energy ranges. Physical processes of radiation/matter interaction are introduced. All steps of detection are covered, as well as detectors, instrumentations and measurements methods commonly used in the nuclear field."
  },
  {
@@ -367,6 +406,7 @@
   "profName": [
    "Prasser"
   ],
+  "courseCredit": "4",
   "courseDesc": "Reactor core cooling, power limits and technological consequences due to fuel, cladding and coolant properties, main principles of reactor and power plant design including auxiliary systems are explained. System technology of most important thermal and fast reactor types is introduced."
  },
  {
@@ -376,6 +416,7 @@
   "profName": [
    "Sibiryakov"
   ],
+  "courseCredit": "5",
   "courseDesc": "Introduce the students to general relativity and its classical tests."
  },
  {
@@ -385,6 +426,7 @@
   "profName": [
    "Chapochnikov"
   ],
+  "courseCredit": "5",
   "courseDesc": "This course is the basic introduction to modern cosmology. It introduces students to the main concepts and formalism of cosmology, the observational status of Hot Big Bang theory \nand discusses major physical processes in the early Universe."
  },
  {
@@ -394,6 +436,7 @@
   "profName": [
    "Blanc"
   ],
+  "courseCredit": "4",
   "courseDesc": "This course presents the physical principles and the recent research developments on three topics of particle and nuclear physics: the physics of neutrinos, dark matter, and plasma of quarks and gluons. An emphasis is given on experimental aspects in these three fields."
  },
  {
@@ -403,6 +446,7 @@
   "profName": [
    "Butté"
   ],
+  "courseCredit": "4",
   "courseDesc": "Lectures on the fundamental aspects of semiconductor physics and the main properties of the p-n junction that is at the heart of devices like LEDs & laser diodes. The last part deals with light-matter interaction phenomena in bulk semiconductors such as absorption, spontaneous & stimulated emission."
  },
  {
@@ -412,6 +456,7 @@
   "profName": [
    "Mila"
   ],
+  "courseCredit": "4",
   "courseDesc": "The aim of this course is to provide an introduction to the theory of a few remarkable phenomena of condensed matter physics ranging from the Quantum Hall effects to superconductivity."
  },
  {
@@ -421,6 +466,7 @@
   "profName": [
    "Carbone"
   ],
+  "courseCredit": "4",
   "courseDesc": "Solid State Physics IV provides a materials and experimental technique oriented introduction to the electronic and magnetic\nproperties of strongly correlated electron systems. Established knowledge is complemented by current research trends,\naiming to prepare the students for independent research."
  },
  {
@@ -430,6 +476,7 @@
   "profName": [
    "Wyart"
   ],
+  "courseCredit": "4",
   "courseDesc": "This course introduces statistical field theory, and uses concepts related to phase transitions to discuss a variety of complex systems (random walks and polymers,  disordered systems, combinatorial optimisation, information theory and error correcting codes)."
  },
  {
@@ -439,6 +486,7 @@
   "profName": [
    "Kippenberg"
   ],
+  "courseCredit": "4",
   "courseDesc": "This first part of the course covers non-equilibrium statistical processes and the treatment of fluctuation dissipation relations by Einstein, Boltzmann and Kubo. Moreover, the fundamentals of Markov processes, stochastic differential and Fokker Planck equations, mesoscopic master equation, noise s"
  },
  {
@@ -448,6 +496,7 @@
   "profName": [
    "De Los Rios"
   ],
+  "courseCredit": "4",
   "courseDesc": "Introduction to the application of the notions and methods of theoretical physics to problems in biology."
  },
  {
@@ -456,6 +505,7 @@
   "courseSection": "PH",
   "profName": [
    "Profs divers"
-  ]
+  ],
+  "courseCredit": "30"
  }
 ]

@@ -7,6 +7,7 @@
    "Gautsch",
    "Prenleloup"
   ],
+  "courseCredit": "0",
   "courseDesc": "C"
  },
  {
@@ -15,7 +16,8 @@
   "courseSection": "GM",
   "profName": [
    "Profs divers"
-  ]
+  ],
+  "courseCredit": "30"
  },
  {
   "courseName": "Mechanical engineering project I",
@@ -23,7 +25,8 @@
   "courseSection": "GM",
   "profName": [
    "Profs divers"
-  ]
+  ],
+  "courseCredit": "10"
  },
  {
   "courseName": "HSS : Introduction to project",
@@ -31,7 +34,8 @@
   "courseSection": "SHS",
   "profName": [
    "Divers enseignants"
-  ]
+  ],
+  "courseCredit": "3"
  },
  {
   "courseName": "HSS : Project",
@@ -39,7 +43,8 @@
   "courseSection": "SHS",
   "profName": [
    "Divers enseignants"
-  ]
+  ],
+  "courseCredit": "3"
  },
  {
   "courseName": "Acoustic Hydrodynamic",
@@ -48,6 +53,7 @@
   "profName": [
    "Nicolet"
   ],
+  "courseCredit": "3",
   "courseDesc": ""
  },
  {
@@ -58,6 +64,7 @@
    "Brugger",
    "Moser"
   ],
+  "courseCredit": "3",
   "courseDesc": "Advanced 3D forming techniques for high throughput and high resolution (nanometric) for large scale production. Digital manufacturing of functional layers, microsystems and smart systems."
  },
  {
@@ -67,6 +74,7 @@
   "profName": [
    "Karimi"
   ],
+  "courseCredit": "3",
   "courseDesc": "This course covers some theoretical and practical aspects of robust and adaptive control. This includes H-2 and H-infinity control in model-based and data-driven framework by convex optimization, direct, indirect and switching adaptive control. The methods are implemented in a hands-on lab."
  },
  {
@@ -76,6 +84,7 @@
   "profName": [
    "Maréchal"
   ],
+  "courseCredit": "5",
   "courseDesc": "Methods for the rational use and conversion of energy in industrial processes : how to analyse the energy usage, calculate the heat recovery by pinch analysis, define heat exchanger network, integrate heat pumps and cogeneration units and realise exergy analysis of energy conversion systems."
  },
  {
@@ -85,6 +94,7 @@
   "profName": [
    "Haussener"
   ],
+  "courseCredit": "3",
   "courseDesc": "The course will deepen the fundamentals of heat transfer. Particular focus will be put on radiative and convective heat transfer, and computational approaches to solve complex, coupled heat transfer problems."
  },
  {
@@ -94,6 +104,7 @@
   "profName": [
    "Curtin"
   ],
+  "courseCredit": "5",
   "courseDesc": "This course will cover major topics of importance and value for the application and understanding of Solid Mechanics, aiming especially at the micromechanical analyses of problems that connect small scale phenomena to macroscopic engineering performance."
  },
  {
@@ -103,6 +114,7 @@
   "profName": [
    "Mulleners"
   ],
+  "courseCredit": "4",
   "courseDesc": "This course will provide the fluid dynamic background to understand how air flows around two- and three-dimensional wings and bodies and to understand the aerodynamics forces and moments acting on the objects as a result of the air flow."
  },
  {
@@ -112,6 +124,7 @@
   "profName": [
    "Farhat"
   ],
+  "courseCredit": "3",
   "courseDesc": ""
  },
  {
@@ -121,6 +134,7 @@
   "profName": [
    "Schiffmann"
   ],
+  "courseCredit": "4",
   "courseDesc": "Students will be exposed to hands-on design problems throughout the term. They will acquire methodologies to (1) address open ended engineering problems, (2) cultivate creativity, (3) support decision making and (4) develop problem solving abilities."
  },
  {
@@ -130,6 +144,7 @@
   "profName": [
    "Bouri"
   ],
+  "courseCredit": "3",
   "courseDesc": ""
  },
  {
@@ -139,6 +154,7 @@
   "profName": [
    "Stergiopulos"
   ],
+  "courseCredit": "3",
   "courseDesc": "This lecture will cover anatomy and physiology of the cardiovascular system, biophysics of the blood, cardiac mechanics, hemodynamics and biomechanics of the arterial system, microcirculation and biomechanics of the venous system."
  },
  {
@@ -148,6 +164,7 @@
   "profName": [
    "Pioletti"
   ],
+  "courseCredit": "5",
   "courseDesc": "The basis for a mechanical description of the musculoskeletal system are presented. This description is based on the concepts of solid mechanics, physiology and anatomy of the musculoskeletal system. Concrete examples of the development of implants are also covered."
  },
  {
@@ -157,6 +174,7 @@
   "profName": [
    "Farhat"
   ],
+  "courseCredit": "3",
   "courseDesc": ""
  },
  {
@@ -166,6 +184,7 @@
   "profName": [
    "Derlet"
   ],
+  "courseCredit": "5",
   "courseDesc": "This course considers the multi-scale computational modeling of hard-matter systems, with an emphasis on the physical phenomena of matter transport and emergent macroscopic mechanical properties, and how their microscopic origin is coarse grained to the engineering scale of a material component."
  },
  {
@@ -175,6 +194,7 @@
   "profName": [
    ""
   ],
+  "courseCredit": "5",
   "courseDesc": ""
  },
  {
@@ -184,6 +204,7 @@
   "profName": [
    "Kaboli"
   ],
+  "courseCredit": "4",
   "courseDesc": "Continuous improvement deals with ongoing and long-term initiatives to improve products and services. This course will arm students with practical skills to evaluate and improve manufacturing/service systems and lead change and drive transformation for people, processes, and technology."
  },
  {
@@ -193,6 +214,7 @@
   "profName": [
    "Van Herle"
   ],
+  "courseCredit": "4",
   "courseDesc": "The students describe and explain the thermodynamic and operating principles of internal combustion engines and all fuel cell types, identify the determining physical parameters for the operating regimes, the efficiencies and the polluting emissions, and compare the systems against each other."
  },
  {
@@ -202,6 +224,7 @@
   "profName": [
    "Kolinski"
   ],
+  "courseCredit": "4",
   "courseDesc": "The Experimental Methods in Engineering Mechanics course is intended to give an advanced view of experimental methods used to study mechanics problems by way of example. Students will construct significant components of experimental apparatus and collect & interpret the resulting data."
  },
  {
@@ -211,6 +234,7 @@
   "profName": [
    ""
   ],
+  "courseCredit": "3",
   "courseDesc": "The student acquires the notions of damage and fracture in different materials; the basis of energy release rate and stress intensity factor; fracture criteria; weight functions for crack opening displacements; J integral and non-linear fracture; fatigue crack propagation."
  },
  {
@@ -220,6 +244,7 @@
   "profName": [
    "Kyritsis"
   ],
+  "courseCredit": "5",
   "courseDesc": "Students will be exposed to basic computer-aided manufacturing (CAM) modeling concepts, basic mathematical simulation, verification and optimization algorithms and methodologies and their applications. The students will practice their knowledge by doing projects with modern CAM software."
  },
  {
@@ -230,6 +255,7 @@
    "Avellan",
    "Vagnoni"
   ],
+  "courseCredit": "4",
   "courseDesc": "Master lecture on Hydraulic Turbomachines: impulse and reaction turbines,pumps and pump-turbines."
  },
  {
@@ -239,6 +265,7 @@
   "profName": [
    "Gallaire"
   ],
+  "courseCredit": "5",
   "courseDesc": "Nondimensionalized Navier-Stokes equations result in a great variety of models (Stokes, Lubrification, Euler, Potential) depending on the Reynolds number. The concept of boundary layer enables us then to identify the different components of the hydrodynamic drag."
  },
  {
@@ -248,6 +275,7 @@
   "profName": [
    "Bouri"
   ],
+  "courseCredit": "2",
   "courseDesc": ""
  },
  {
@@ -257,6 +285,7 @@
   "profName": [
    "Gallaire"
   ],
+  "courseCredit": "3",
   "courseDesc": "This course focuses on the physical mechanisms at the origin of the transition of a flow from laminar to turbulent using the hydrodynamic instability theory."
  },
  {
@@ -266,6 +295,7 @@
   "profName": [
    ""
   ],
+  "courseCredit": "3",
   "courseDesc": ""
  },
  {
@@ -277,6 +307,7 @@
    "Brugger",
    "Moser"
   ],
+  "courseCredit": "3",
   "courseDesc": "The state of the art in the domain of additive production processes \n(the part is built by material addition without use of a shape tool) will be presented. \nThe main application/benefits/shortcomings of the common additive processes as well as \ntechnological and economical issues will be discussed."
  },
  {
@@ -287,6 +318,7 @@
    "Hursin",
    "Pautz"
   ],
+  "courseCredit": "2",
   "courseDesc": "This course is intended to understand the engineering design of nuclear power plants using the basic principles of reactor physics, fluid flow and heat transfer.\nThis course includes the following: Reactor designs, Thermal analysis of nuclear fuel,  Nuclear safety and Reactor dynamics"
  },
  {
@@ -297,6 +329,7 @@
    "Friot",
    "Kyritsis"
   ],
+  "courseCredit": "3",
   "courseDesc": "Provide the conceptual, scientific, technical and methodological understanding of measuring and evaluating the impact of engineering decisions on economic and environmental performance in the lifecycle of a product-system."
  },
  {
@@ -306,6 +339,7 @@
   "profName": [
    "Agbeviade"
   ],
+  "courseCredit": "5",
   "courseDesc": ""
  },
  {
@@ -314,7 +348,8 @@
   "courseSection": "GM",
   "profName": [
    "Profs divers"
-  ]
+  ],
+  "courseCredit": "10"
  },
  {
   "courseName": "Mechanical product design and development",
@@ -323,6 +358,7 @@
   "profName": [
    ""
   ],
+  "courseCredit": "5",
   "courseDesc": "Study and explore design principles of the different mechatronic components and systems. We will cover in-depth especially on meso-scale actuators, sensors and body construction methods."
  },
  {
@@ -332,6 +368,7 @@
   "profName": [
    "Nunes Pereira de Almeida Reis"
   ],
+  "courseCredit": "4",
   "courseDesc": "Analysis of the mechanical response and deformation of slender structural elements"
  },
  {
@@ -341,6 +378,7 @@
   "profName": [
    "Villanueva Torrijo"
   ],
+  "courseCredit": "4",
   "courseDesc": "C"
  },
  {
@@ -350,6 +388,7 @@
   "profName": [
    "Sakar"
   ],
+  "courseCredit": "3",
   "courseDesc": "C"
  },
  {
@@ -359,6 +398,7 @@
   "profName": [
    "Maréchal"
   ],
+  "courseCredit": "4",
   "courseDesc": "The goal of the lecture is to present and apply techniques for the modelling and the thermo-economic optimisation of industrial process and energy systems. The lecture covers the problem statement, the solving methods for the simulation and the single and multi-objective optimisation problems."
  },
  {
@@ -368,6 +408,7 @@
   "profName": [
    "Jones"
   ],
+  "courseCredit": "3",
   "courseDesc": "Provide an introduction to the theory and practice of Model Predictive Control (MPC). Main benefits of MPC: flexible specification of time-domain objectives, performance optimization of highly complex multivariable systems and ability to explicitly enforce constraints on system behavior."
  },
  {
@@ -377,6 +418,7 @@
   "profName": [
    ""
   ],
+  "courseCredit": "3",
   "courseDesc": "The objective of this course is to introduce to the student the basic concepts, models, algorithms and methods for the kinematic and dynamic analysis of multi-body systems, specifically designed for mobility."
  },
  {
@@ -386,6 +428,7 @@
   "profName": [
    "Ferrari Trecate"
   ],
+  "courseCredit": "3",
   "courseDesc": "This course covers methods for the analysis and control of systems with multiple inputs and outputs, which are ubiquitous in modern technology and industry. Special emphasis will be given to discrete-time systems, due to their relevance for digital and embedded control architectures."
  },
  {
@@ -395,6 +438,7 @@
   "profName": [
    "Ferrari Trecate"
   ],
+  "courseCredit": "3",
   "courseDesc": "This course offers an introduction to control systems using communication networks for interfacing sensors, actuators, controllers, and processes. Challenges due to network non-idealities and opportunities offered by communication will be analyzed."
  },
  {
@@ -404,6 +448,7 @@
   "profName": [
    "Müllhaupt"
   ],
+  "courseCredit": "3",
   "courseDesc": ""
  },
  {
@@ -413,6 +458,7 @@
   "profName": [
    "Sawley"
   ],
+  "courseCredit": "5",
   "courseDesc": "This course provides practical experience in the numerical simulation of fluid flows, comprising the three fundamental phases of pre-processing (geometry and mesh creation), computation (choice of physical models & numerical methods), and post-processing (quantitative analysis and visualization)."
  },
  {
@@ -422,6 +468,7 @@
   "profName": [
    "Terrier"
   ],
+  "courseCredit": "3",
   "courseDesc": "Students understand and apply numerical methods (FEM) to answer a research question in biomechanics. They know how to develop, verify and validate multi-physics and multi-scale numerical models. They can analyse and comment results in an oral presentation and a written report."
  },
  {
@@ -431,6 +478,7 @@
   "profName": [
    "Sawley"
   ],
+  "courseCredit": "4",
   "courseDesc": "This course provides an introduction to particle-based methods for the numerical resolution of partial differential equations describing continuum phenomena or for the simulation of particulate flows. Details are given for Smoothed Particle Hydrodynamics (SPH) and the Discrete Element Method (DEM)."
  },
  {
@@ -441,6 +489,7 @@
    "Bourban",
    "Michaud"
   ],
+  "courseCredit": "4",
   "courseDesc": "C"
  },
  {
@@ -450,6 +499,7 @@
   "profName": [
    "Kaboli"
   ],
+  "courseCredit": "5",
   "courseDesc": "Production management deals with producing goods/services at the right time, quantity, and quality with the minimum cost. This course will arm students with hands-on tools for demand management, supply management, and digital transformation in manufacturing companies."
  },
  {
@@ -460,6 +510,7 @@
    "Haussener",
    "Van Herle"
   ],
+  "courseCredit": "4",
   "courseDesc": "The students assess and compare all renewable energy resources, their real potentials, their limitations and their best applications (energy services). Solar thermal, solar electric, wood, bioliquids, biogas, hydropower incl. tidal and wave power, wind, geothermal incl. heat pumps and buildings."
  },
  {
@@ -469,6 +520,7 @@
   "profName": [
    "Karimi"
   ],
+  "courseCredit": "3",
   "courseDesc": "Identification of discrete-time linear models using experimental data is studied. The correlation method and spectral analysis are used to identify nonparametric models and the subspace and prediction error methods to estimate the plant and noise model parameters. Hands-on labs are included."
  },
  {
@@ -478,6 +530,7 @@
   "profName": [
    ""
   ],
+  "courseCredit": "3",
   "courseDesc": "This course aims at studying thermal power cycles, heat pumping technologies and equipment."
  },
  {
@@ -487,6 +540,7 @@
   "profName": [
    "Ott"
   ],
+  "courseCredit": "5",
   "courseDesc": ""
  },
  {
@@ -496,6 +550,7 @@
   "profName": [
    "Schneider"
   ],
+  "courseCredit": "4",
   "courseDesc": "This course provides an introduction to the physical phenomenon of turbulence, its probabilistic description and modeling approaches including RANS and LES. Students are equipped with the basic knowledge to tackle complex flow problems in science and engineering practice."
  },
  {
@@ -505,6 +560,7 @@
   "profName": [
    "Gallaire"
   ],
+  "courseCredit": "3",
   "courseDesc": "This course covers the theoretical and practical analysis of two-phase flow and applications. Fundamental two-phase heat transfer in the form of condensation and boiling are studied in detail. Advanced topics such as microchannel two-phase flow, microfinned tubes and oil effects are also handled."
  }
 ]

@@ -5,7 +5,8 @@
   "courseSection": "GC",
   "profName": [
    "Profs divers"
-  ]
+  ],
+  "courseCredit": "0"
  },
  {
   "courseName": "Master project in Civil Engineering",
@@ -13,7 +14,8 @@
   "courseSection": "GC",
   "profName": [
    "Profs divers"
-  ]
+  ],
+  "courseCredit": "30"
  },
  {
   "courseName": "Building energetics",
@@ -23,6 +25,7 @@
    "Khovalyg",
    "Licina"
   ],
+  "courseCredit": "3",
   "courseDesc": "The course presents the main methodological topics of energy management in the building by emphasizing on the thermal energy requirements for the the users' comfort. The technical installations are modelled as well. Finally the economic and environmental evaluation methods are presented."
  },
  {
@@ -32,6 +35,7 @@
   "profName": [
    "Lestuzzi"
   ],
+  "courseCredit": "3",
   "courseDesc": ""
  },
  {
@@ -41,6 +45,7 @@
   "profName": [
    "Geroliminis"
   ],
+  "courseCredit": "3",
   "courseDesc": "The objectives of this course are to present the major elements of traffic operations and to develop basic skills in applying the fundamentals of traffic analysis and control. Students should be able to start applying these skills to model different aspects of congestion in urban systems."
  },
  {
@@ -51,6 +56,7 @@
    "Koliji",
    "Laloui"
   ],
+  "courseCredit": "3",
   "courseDesc": "The course aims at providing future civil engineers with the knowledge of geomechanics for professional practice. It addresses, among others, the main stress-strain constitutive models within the context of elasticity and elasto-plasticity and the estimation methods of the lateral earth pressure."
  },
  {
@@ -61,6 +67,7 @@
    "De Almeida Manso",
    "De Cesare"
   ],
+  "courseCredit": "3",
   "courseDesc": ""
  },
  {
@@ -72,6 +79,7 @@
    "Nussbaumer",
    "Wienold"
   ],
+  "courseCredit": "4",
   "courseDesc": ""
  },
  {
@@ -80,7 +88,8 @@
   "courseSection": "GC",
   "profName": [
    "Profs divers"
-  ]
+  ],
+  "courseCredit": "4"
  },
  {
   "courseName": "Construction project",
@@ -88,7 +97,8 @@
   "courseSection": "GC",
   "profName": [
    "Profs divers"
-  ]
+  ],
+  "courseCredit": "4"
  },
  {
   "courseName": "ENAC project",
@@ -96,7 +106,8 @@
   "courseSection": "GC",
   "profName": [
    "Profs divers"
-  ]
+  ],
+  "courseCredit": "4"
  },
  {
   "courseName": "Laboratory GC",
@@ -104,7 +115,8 @@
   "courseSection": "GC",
   "profName": [
    "Profs divers"
-  ]
+  ],
+  "courseCredit": "4"
  },
  {
   "courseName": "Summer workshop",
@@ -112,7 +124,8 @@
   "courseSection": "GC",
   "profName": [
    "Profs divers"
-  ]
+  ],
+  "courseCredit": "4"
  },
  {
   "courseName": "HSS : Introduction to project",
@@ -120,7 +133,8 @@
   "courseSection": "SHS",
   "profName": [
    "Divers enseignants"
-  ]
+  ],
+  "courseCredit": "3"
  },
  {
   "courseName": "HSS : Project",
@@ -128,7 +142,8 @@
   "courseSection": "SHS",
   "profName": [
    "Divers enseignants"
-  ]
+  ],
+  "courseCredit": "3"
  },
  {
   "courseName": "Pre-study master project (Only semester M3)",
@@ -136,7 +151,8 @@
   "courseSection": "GC",
   "profName": [
    "Profs divers"
-  ]
+  ],
+  "courseCredit": "3"
  },
  {
   "courseName": "Advanced composites in engineering structures",
@@ -145,6 +161,7 @@
   "profName": [
    "Vassilopoulos"
   ],
+  "courseCredit": "3",
   "courseDesc": "The objective of the course is to:\n1.\tIntroduce topics in properties, processing, mechanical behavior, characterization, analysis and structural design of Fiber Reinforced Composites\n2.\tHelp students develop their research skills through independent investigations on research topics."
  },
  {
@@ -154,6 +171,7 @@
   "profName": [
    "Molinari"
   ],
+  "courseCredit": "3",
   "courseDesc": "Reading class of classic text book of Lawrence Malvern \"Introduction to the Mechanics of a Continuous Medium\". A special emphasis will be put on advanced topics, including finite kinematics, and non-linear material behavior. Applications will cover both solids and structures fluid mechanics."
  },
  {
@@ -164,6 +182,7 @@
    "Fernandez-Ordoñez Hernandez",
    "Muttoni"
   ],
+  "courseCredit": "3",
   "courseDesc": "The course deals with the design of precast reinforced concrete structures, both for bridges and for buildings. The course is focused in learning by projects supplemented by some lectures by the teachers.The students will work in groups to design a precast structure."
  },
  {
@@ -173,6 +192,7 @@
   "profName": [
    "Lignos"
   ],
+  "courseCredit": "3",
   "courseDesc": "Advanced topics in structural steel seismic design. frame stability; bolted and welded beam-to-column connections; beam-columns, steel braces, eccentrically braced frame links, capacity design of conventional steel-frame buildings; innovative lateral load resisting systems."
  },
  {
@@ -182,6 +202,7 @@
   "profName": [
    "Brühwiler"
   ],
+  "courseCredit": "2",
   "courseDesc": ""
  },
  {
@@ -191,6 +212,7 @@
   "profName": [
    "Berriot"
   ],
+  "courseCredit": "3",
   "courseDesc": ""
  },
  {
@@ -201,6 +223,7 @@
    "De Castro San Roman Fest",
    "Keller"
   ],
+  "courseCredit": "3",
   "courseDesc": ""
  },
  {
@@ -210,6 +233,7 @@
   "profName": [
    "Lecampion"
   ],
+  "courseCredit": "4",
   "courseDesc": "The goal of this course is to introduce the student to modern numerical methods for the solution of coupled & non-linear problems arising in geo-mechanics / geotechnical engineering."
  },
  {
@@ -219,6 +243,7 @@
   "profName": [
    "Muttoni"
   ],
+  "courseCredit": "3",
   "courseDesc": ""
  },
  {
@@ -228,6 +253,7 @@
   "profName": [
    "Fernández Ruiz"
   ],
+  "courseCredit": "3",
   "courseDesc": ""
  },
  {
@@ -239,6 +265,7 @@
    "Müller",
    "Zufferey"
   ],
+  "courseCredit": "2",
   "courseDesc": ""
  },
  {
@@ -249,6 +276,7 @@
    "Müller",
    "Zufferey"
   ],
+  "courseCredit": "2",
   "courseDesc": ""
  },
  {
@@ -259,6 +287,7 @@
    "De Almeida Manso",
    "Mouvet"
   ],
+  "courseCredit": "3",
   "courseDesc": ""
  },
  {
@@ -269,6 +298,7 @@
    "Dougui",
    "Hillel"
   ],
+  "courseCredit": "4",
   "courseDesc": "Introduction to operations research, data mining and machine learning algorithms for decision support in transportation systems."
  },
  {
@@ -279,6 +309,7 @@
    "Alahi",
    "Kreiss"
   ],
+  "courseCredit": "4",
   "courseDesc": "Self-driving cars, delivery robots, or self-moving segways. Most of these AI-driven transportation systems rely on four pillars: 1-Sensing, 2-Perceiving, 3-Predicting, and 4-Acting steps. Students will learn the fundamentals behind these four pillars, i.e., the technology behind autonomous vehicles."
  },
  {
@@ -288,6 +319,7 @@
   "profName": [
    "Martinoli"
   ],
+  "courseCredit": "5",
   "courseDesc": "The goal of this course is to provide methods and tools for modeling distributed intelligent systems as well as designing and optimizing coordination strategies. The course is a well-balanced mixture of theory and practical activities using simulation and real hardware platforms."
  },
  {
@@ -297,6 +329,7 @@
   "profName": [
    "Laloui"
   ],
+  "courseCredit": "4",
   "courseDesc": "Energy geostructures are an innovative technology that couple the structural role of foundations and the heatingcooling\nrole of geothermal heat exchangers. The goal of the course is to provide a comprehensive understanding\nof the structural, geotechnical and energy behaviour."
  },
  {
@@ -306,6 +339,7 @@
   "profName": [
    "Nussbaum"
   ],
+  "courseCredit": "3",
   "courseDesc": "Objective is to provide an understanding of the problems in geo-energy projects. Human induced fracturing has serious consequences in projects as conventional and unconventional hydrocarbon resources exploration, deep geothermal systems, CO2 storage and deep geological disposal of radioactive waste."
  },
  {
@@ -315,6 +349,7 @@
   "profName": [
    "Brühwiler"
   ],
+  "courseCredit": "3",
   "courseDesc": ""
  },
  {
@@ -324,6 +359,7 @@
   "profName": [
    "Brühwiler"
   ],
+  "courseCredit": "3",
   "courseDesc": ""
  },
  {
@@ -333,6 +369,7 @@
   "profName": [
    "Ancey"
   ],
+  "courseCredit": "3",
   "courseDesc": ""
  },
  {
@@ -344,6 +381,7 @@
    "Arborino",
    "De Cesare"
   ],
+  "courseCredit": "3",
   "courseDesc": ""
  },
  {
@@ -353,6 +391,7 @@
   "profName": [
    "Tacher"
   ],
+  "courseCredit": "3",
   "courseDesc": ""
  },
  {
@@ -362,6 +401,7 @@
   "profName": [
    "Violay"
   ],
+  "courseCredit": "3",
   "courseDesc": ""
  },
  {
@@ -373,6 +413,7 @@
    "Helfer",
    "Schmidt"
   ],
+  "courseCredit": "3",
   "courseDesc": ""
  },
  {
@@ -382,6 +423,7 @@
   "profName": [
    "Licina"
   ],
+  "courseCredit": "4",
   "courseDesc": "This course provides a fundamental knowledge of an emerging area - indoor air quality. This course also gives an overview of ventilation strategies and airflow distribution strategies tuned to ensure the highest level of air quality in buildings."
  },
  {
@@ -392,6 +434,7 @@
    "Laloui",
    "Terzis"
   ],
+  "courseCredit": "2",
   "courseDesc": "The goal of the course is to seek to instill in its future graduates the skills necessary to be successful in the civil engineering industry. One skill that appears underserved and is expected to be strengthened through this course is the skill to innovate."
  },
  {
@@ -401,6 +444,7 @@
   "profName": [
    "Gnansounou"
   ],
+  "courseCredit": "3",
   "courseDesc": ""
  },
  {
@@ -410,6 +454,7 @@
   "profName": [
    "Denarié"
   ],
+  "courseCredit": "3",
   "courseDesc": ""
  },
  {
@@ -419,6 +464,7 @@
   "profName": [
    "Gnansounou"
   ],
+  "courseCredit": "3",
   "courseDesc": ""
  },
  {
@@ -428,6 +474,7 @@
   "profName": [
    "Kiyavash"
   ],
+  "courseCredit": "3",
   "courseDesc": "Students will learn the core concepts and techniques of network analysis with emphasis on causal inference. Theory and application will be balanced, with students working directly with network data throughout the course."
  },
  {
@@ -438,6 +485,7 @@
    "Beyer",
    "Lignos"
   ],
+  "courseCredit": "3",
   "courseDesc": "This course deals with the nonlinear modelling and analysis of structures when subjected to monotonic, cyclic, and dynamic loadings, focusing in particular on the seismic response of structures. It introduces solution methods for nonlinear static and dynamic problems."
  },
  {
@@ -446,7 +494,8 @@
   "courseSection": "GC",
   "profName": [
    "Profs divers"
-  ]
+  ],
+  "courseCredit": "4"
  },
  {
   "courseName": "Programming concepts in scientific computing",
@@ -455,6 +504,7 @@
   "profName": [
    "Anciaux"
   ],
+  "courseCredit": "4",
   "courseDesc": "The aim of this course is to provide the background in scientific computing. The class includes a brief introduction to basic programming in c++, it then focus on object oriented programming and c++ specific programming techniques."
  },
  {
@@ -464,6 +514,7 @@
   "profName": [
    "Wieser"
   ],
+  "courseCredit": "4",
   "courseDesc": ""
  },
  {
@@ -473,6 +524,7 @@
   "profName": [
    "Christofa"
   ],
+  "courseCredit": "3",
   "courseDesc": "The objectives of this course are to develop analytical skills that students can apply in the planning and management of public transport systems. This optional course will be given only in spring 2019-20!"
  },
  {
@@ -483,6 +535,7 @@
    "Defert",
    "Vulliet"
   ],
+  "courseCredit": "3",
   "courseDesc": ""
  },
  {
@@ -493,6 +546,7 @@
    "De Cesare",
    "Gostner"
   ],
+  "courseCredit": "3",
   "courseDesc": ""
  },
  {
@@ -502,6 +556,7 @@
   "profName": [
    "Beyer"
   ],
+  "courseCredit": "3",
   "courseDesc": "This course deals with the main aspects of seismic design of buildings and bridges. It covers different structural design and evaluation philosophies for new and existing reinforced concrete and masonry structures."
  },
  {
@@ -511,6 +566,7 @@
   "profName": [
    "Molinari"
   ],
+  "courseCredit": "3",
   "courseDesc": "The class covers the fundamentals of wave dynamics and fracture mechanics. The aim is to deepen their knowledge in advanced topis in mechanics of solids and structures and discuss current research topics. Case studies on catastrophic failure will be presented and discussed in class."
  },
  {
@@ -520,6 +576,7 @@
   "profName": [
    "Ferrari"
   ],
+  "courseCredit": "3",
   "courseDesc": "The course aims at providing future civil engineers with a comprehensive view on soil slope stability. It addresses landslide types and mass movement classification; slope failure mechanisms and methods for slope stability analysis are discussed; remedial measures and risk analysis are presented."
  },
  {
@@ -529,6 +586,7 @@
   "profName": [
    "Nussbaumer"
   ],
+  "courseCredit": "3",
   "courseDesc": ""
  },
  {
@@ -539,6 +597,7 @@
    "De Abreu E Presa De Castro E Sousa",
    "Lignos"
   ],
+  "courseCredit": "4",
   "courseDesc": "Advanced topics in structural stability; elastic & inelastic column buckling; beam-columns; lateral-torsional buckling of bridge girders; nonlinear geometric effects; frame stability; computational formulation of stability theory; stiffness & flexibility methods"
  },
  {
@@ -549,6 +608,7 @@
    "Muttoni",
    "Wahlen"
   ],
+  "courseCredit": "3",
   "courseDesc": ""
  },
  {
@@ -558,6 +618,7 @@
   "profName": [
    "Gonzales"
   ],
+  "courseCredit": "3",
   "courseDesc": "The cours objectives are for students to understand mathematical and analytical Tools for planning and operating sutainable freight systems that account for economic costs as well as enivornmental impacts. This optional course will be given only in spring 2019-20!"
  },
  {
@@ -567,6 +628,7 @@
   "profName": [
    "Khovalyg"
   ],
+  "courseCredit": "3",
   "courseDesc": "This course provides an integrated approach to analyze indoor thermal comfort by examining thermodynamics of heat flows in buildings and correlation between indoor thermal environment, performance of the building envelope and thermal conditioning systems (HVAC)."
  },
  {
@@ -576,6 +638,7 @@
   "profName": [
    "Natterer"
   ],
+  "courseCredit": "3",
   "courseDesc": ""
  },
  {
@@ -585,6 +648,7 @@
   "profName": [
    "Tufo"
   ],
+  "courseCredit": "3",
   "courseDesc": ""
  },
  {
@@ -595,6 +659,7 @@
    "Geroliminis",
    "de Palma"
   ],
+  "courseCredit": "3",
   "courseDesc": "The scope of the lecture is to provide the basic concepts in transport economics and introduce new  ones for private and public transport and  environmental issues. Demand, supply, welfare analysis and regulation will be illustrated."
  },
  {
@@ -604,6 +669,7 @@
   "profName": [
    "Tille"
   ],
+  "courseCredit": "3",
   "courseDesc": ""
  },
  {
@@ -613,6 +679,7 @@
   "profName": [
    "Tille"
   ],
+  "courseCredit": "3",
   "courseDesc": ""
  },
  {
@@ -623,6 +690,7 @@
    "Sandrone",
    "Seingre"
   ],
+  "courseCredit": "3",
   "courseDesc": ""
  },
  {
@@ -632,6 +700,7 @@
   "profName": [
    "Pfister"
   ],
+  "courseCredit": "3",
   "courseDesc": "The basic features of fresh water and sewer nets are considered. For fresh water, the capture, the reservoir and the distribution net are discussed. For sewers, conduit and manhole hydraulics is in the focus. Besides, the legal background is provided and methods to derive the relevant discharges."
  },
  {
@@ -642,6 +711,7 @@
    "Davalle",
    "Droz"
   ],
+  "courseCredit": "2",
   "courseDesc": ""
  }
 ]

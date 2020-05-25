@@ -5,7 +5,8 @@
   "courseSection": "SC",
   "profName": [
    "Profs divers"
-  ]
+  ],
+  "courseCredit": "0"
  },
  {
   "courseName": "Master project in Communication Systems",
@@ -13,7 +14,8 @@
   "courseSection": "SC",
   "profName": [
    "Profs divers"
-  ]
+  ],
+  "courseCredit": "30"
  },
  {
   "courseName": "Advanced probability and applications",
@@ -22,6 +24,7 @@
   "profName": [
    "Lévêque"
   ],
+  "courseCredit": "6",
   "courseDesc": "In this course, various aspects of probability theory are considered. The first part is devoted to the main theorems in the field (law of large numbers, central limit theorem, concentration inequalities), while the second part focuses on the theory of martingales in discrete time."
  },
  {
@@ -31,6 +34,7 @@
   "profName": [
    "Vaudenay"
   ],
+  "courseCredit": "7",
   "courseDesc": "This course introduces the basics of cryptography. We review several types of cryptographic primitives, when it is safe to use them and how to select the appropriate security parameters. We detail how they work and sketch how they can be implemented."
  },
  {
@@ -40,6 +44,7 @@
   "profName": [
    "Guerraoui"
   ],
+  "courseCredit": "6",
   "courseDesc": "Computing is often distributed over several machines, in a local IP-like network, a cloud or in a P2P network.  Failures are common and computations need to proceed despite partial failures of machines or communication links. The foundations of reliable distributed computing will be studied."
  },
  {
@@ -49,6 +54,7 @@
   "profName": [
    "Aberer"
   ],
+  "courseCredit": "4",
   "courseDesc": "This course introduces the key concepts and algorithms from the areas of information retrieval, data mining and knowledge bases, which constitute the foundations of today's Web-based distributed information systems."
  },
  {
@@ -60,6 +66,7 @@
    "Hubaux",
    "Oechslin"
   ],
+  "courseCredit": "6",
   "courseDesc": "This course provides an overview of information security and privacy topics. It introduces students to the knowledge and tools they will need to deal with the security/privacy challenges they are likely to encounter in today's Big Data world. The tools are illustrated with relevant applications"
  },
  {
@@ -69,6 +76,7 @@
   "profName": [
    "Telatar"
   ],
+  "courseCredit": "7",
   "courseDesc": "The mathematical principles of communication that govern the compression and transmission of data and the design of efficient methods of doing so."
  },
  {
@@ -79,6 +87,7 @@
    "Jaggi",
    "Urbanke"
   ],
+  "courseCredit": "7",
   "courseDesc": "Machine learning and data analysis are becoming increasingly central in many sciences and applications. In this course, fundamental principles and methods of machine learning will be introduced, analyzed and practically implemented."
  },
  {
@@ -88,6 +97,7 @@
   "profName": [
    "Hubaux"
   ],
+  "courseCredit": "4",
   "courseDesc": "This course provides a detailed description of the organization and operating principles of mobile communication networks."
  },
  {
@@ -97,6 +107,7 @@
   "profName": [
    "Rimoldi"
   ],
+  "courseCredit": "6",
   "courseDesc": "This course complements the theoretical knowledge learned in PDC with more advanced topics such as OFDM, MIMO, fading chancels, and GPS positioning. This knowledge is put into practice with hands-on exercises based on Matlab and on a software-defined radio platform."
  },
  {
@@ -106,6 +117,7 @@
   "profName": [
    "Ridolfi"
   ],
+  "courseCredit": "6",
   "courseDesc": "Building up on the basic concepts of sampling, filtering and Fourier transforms, we address stochastic modeling, spectral analysis, estimation and prediction, classification, and adaptive filtering, with an application oriented approach and hands-on numerical exercises."
  },
  {
@@ -115,6 +127,7 @@
   "profName": [
    "Le Boudec"
   ],
+  "courseCredit": "6",
   "courseDesc": "C"
  },
  {
@@ -124,6 +137,7 @@
   "profName": [
    "Kapralov"
   ],
+  "courseCredit": "7",
   "courseDesc": "A first graduate course in algorithms, this course assumes minimal background, but moves rapidly. The objective is to learn the main techniques of algorithm analysis and design, while building a repertory of basic algorithmic solutions to problems in many domains."
  },
  {
@@ -133,6 +147,7 @@
   "profName": [
    "Ienne"
   ],
+  "courseCredit": "4",
   "courseDesc": "The course studies the most important techniques to exploit Instruction-Level Parallelism and discusses the relation with the critical phases of compilation. It also analyses emerging classes of processors for complex single-chip systems."
  },
  {
@@ -142,6 +157,7 @@
   "profName": [
    "Jakob"
   ],
+  "courseCredit": "6",
   "courseDesc": "This course covers advanced 3D graphics techniques for realistic image synthesis. Students will learn how light interacts with objects in our world, and how to recreate these phenomena in a computer simulation to create synthetic images that are indistinguishable from photographs."
  },
  {
@@ -151,6 +167,7 @@
   "profName": [
    "Vaudenay"
   ],
+  "courseCredit": "4",
   "courseDesc": "This course reviews some failure cases in public-key cryptography. It introduces some cryptanalysis techniques. It also presents fundamentals in cryptography such as interactive proofs. Finally, it presents some techniques to validate the security of cryptographic primitives."
  },
  {
@@ -160,6 +177,7 @@
   "profName": [
    "Falsafi"
   ],
+  "courseCredit": "6",
   "courseDesc": "Multiprocessors are now the defacto building blocks for all computer systems. This course will build upon the basic concepts offered in Computer Architecture I to cover the architecture and organization of modern multiprocessors from mobile and embedded platforms to servers, data centers and cloud computing platforms."
  },
  {
@@ -170,6 +188,7 @@
    "González Troncoso",
    "Hubaux"
   ],
+  "courseCredit": "7",
   "courseDesc": "This advanced course will provide students with the knowledge to tackle the design of privacy-preserving ICT systems.  Students will learn about existing technologies to protect privacy, and how to evaluate the protection they provide."
  },
  {
@@ -179,6 +198,7 @@
   "profName": [
    ""
   ],
+  "courseCredit": "5",
   "courseDesc": "The goal of this course is to introduce basic notions from public-key cryptography based on algebraic curves over finite fields. We will introduce basic cryptographic schemes as well as discuss in-depth the discrete logarithm problem for elliptic and Jacobians of higher genus curves."
  },
  {
@@ -188,6 +208,7 @@
   "profName": [
    "Goldstein"
   ],
+  "courseCredit": "5",
   "courseDesc": "This course covers topics in applied biostatistics, with an emphasis on practical aspects of data analysis using R statistical software. Topics include types of studies and their design and analysis, high dimensional data analysis (genetic/genomic) and other topics as time and interest permit."
  },
  {
@@ -197,6 +218,7 @@
   "profName": [
    "West"
   ],
+  "courseCredit": "6",
   "courseDesc": "This course teaches the basic techniques and practical skills required to make sense out of a variety of data, with the help of the most acclaimed software tools in the data science world: pandas, scikit-learn, Spark, etc."
  },
  {
@@ -206,6 +228,7 @@
   "profName": [
    "Gerstner"
   ],
+  "courseCredit": "4",
   "courseDesc": "Since 2010 approaches in deep learning have revolutionized fields as diverse as computer vision, machine learning, or artificial intelligence. This course gives a systematic introduction into the main  models of deep artificial neural networks: Supervised Learning and Reinforcement Learning."
  },
  {
@@ -216,6 +239,7 @@
    "Faller",
    "Kolundzija"
   ],
+  "courseCredit": "5",
   "courseDesc": "The objective of the course is to introduce theory, methods, ans basic psychoacoustics that is needed to understand state-of-the-art techniques used in pro audio and consumer audio, including microphones, surround sound, mixing and audio coding."
  },
  {
@@ -225,6 +249,7 @@
   "profName": [
    "Bourlard"
   ],
+  "courseCredit": "3",
   "courseDesc": "The goal of this course is to provide the students with the main formalisms, models and algorithms required for the implementation of advanced speech processing applications (involving, among others, speech coding, speech analysis/synthesis, and speech recognition)."
  },
  {
@@ -234,6 +259,7 @@
   "profName": [
    "Gerstner"
   ],
+  "courseCredit": "4",
   "courseDesc": "In this course we study mathematical models of neurons and neuronal networks in the context of biology and establish links to models of cognition."
  },
  {
@@ -243,6 +269,7 @@
   "profName": [
    "Vesin"
   ],
+  "courseCredit": "6",
   "courseDesc": "The goal of this course is to introduce the techniques most commonly used for the analysis of biomedical signals, and to present concrete examples of their application for diagnosis purposes."
  },
  {
@@ -252,6 +279,7 @@
   "profName": [
    "Wegmann"
   ],
+  "courseCredit": "3",
   "courseDesc": "We teach how to \"design\" an IT supported business initiative. We use insights from philosophy and psychology to concretely understand business models and analysis tools. Students work in groups on a project of their choice. Concrete fieldwork outside class and substantial readings are required."
  },
  {
@@ -261,6 +289,7 @@
   "profName": [
    "Zufferey"
   ],
+  "courseCredit": "4",
   "courseDesc": "Basic course in biochemistry as well as cellular and molecular biology for non-life science students enrolling at the Master or PhD thesis level from various engineering disciplines. It reviews essential notions necessary for a training in biology-related engineering fields."
  },
  {
@@ -270,6 +299,7 @@
   "profName": [
    ""
   ],
+  "courseCredit": "4",
   "courseDesc": "In computational complexity we study the computational resources needed to solve problems and understand the relation between different types of computation. \n\nThis course advances the students knowledge of computational complexity, and develop an understanding of fundamental open questions."
  },
  {
@@ -279,6 +309,7 @@
   "profName": [
    "Süsstrunk"
   ],
+  "courseCredit": "5",
   "courseDesc": "The students will gain the theoretical knowledge in computational photography, which allows recording and processing a richer visual experience than traditional digital imaging. They will also execute practical group projects to develop their own computational photography application."
  },
  {
@@ -288,6 +319,7 @@
   "profName": [
    "Fua"
   ],
+  "courseCredit": "4",
   "courseDesc": "Computer Vision aims at modeling the world from digital images acquired using video or infrared cameras, and other imaging sensors.\n\nWe will focus on images acquired using digital cameras. We will introduce basic processing techniques and discuss their field of applicability."
  },
  {
@@ -297,6 +329,7 @@
   "profName": [
    "Guerraoui"
   ],
+  "courseCredit": "5",
   "courseDesc": "With the advent of multiprocessors, it becomes crucial to master the underlying algorithmics of concurrency. The objective of this course is to study the foundations of concurrent algorithms and in particular the techniques that enable the construction of robust such algorithms."
  },
  {
@@ -306,6 +339,7 @@
   "profName": [
    ""
   ],
+  "courseCredit": "4",
   "courseDesc": ""
  },
  {
@@ -315,6 +349,7 @@
   "profName": [
    "Ailamaki"
   ],
+  "courseCredit": "7",
   "courseDesc": "This course is intended for students who want to understand modern large-scale data analysis systems and database systems. It covers a wide range of topics and technologies, and will prepare students to be able to build such systems as well as read and understand recent research publications."
  },
  {
@@ -324,6 +359,7 @@
   "profName": [
    "Vuillon"
   ],
+  "courseCredit": "4",
   "courseDesc": "Understanding why and how to present complex data interactively in an effective manner has become a crucial skill for any data scientist. In this course, you will learn how to design, judge, build and present your own interactive data visualizations."
  },
  {
@@ -333,6 +369,7 @@
   "profName": [
    "Ford"
   ],
+  "courseCredit": "6",
   "courseDesc": "A decentralized system is one that works when no single party is in charge or fully trusted. This course teaches decentralized systems principles while guiding students through the development and testing of their own decentralized system incorporating messaging, encryption, and blockchain concepts."
  },
  {
@@ -342,6 +379,7 @@
   "profName": [
    "Fleuret"
   ],
+  "courseCredit": "4",
   "courseDesc": "The objective of this course is to provide a complete introduction to deep machine learning. How to design a neural network, how to train it, and what are the modern techniques that specifically handle very large networks."
  },
  {
@@ -351,6 +389,7 @@
   "profName": [
    "De Micheli"
   ],
+  "courseCredit": "6",
   "courseDesc": "Hardware compilation is the process of transforming specialized hardware description languages into circuit descriptions, which are iteratively refined, detailed and optimized.  The course  presents algorithms, tools and methods for hardware compilation and logic synthesis."
  },
  {
@@ -360,6 +399,7 @@
   "profName": [
    "Pauly"
   ],
+  "courseCredit": "5",
   "courseDesc": "Students study & apply core concepts and algorithms for digital geometry processing. They create their own digital and physical geometry that follows the digital 3D content creation pipeline from data acquisition, geometry processing, to physical fabrication."
  },
  {
@@ -370,6 +410,7 @@
    "Dillenbourg",
    "Jermann"
   ],
+  "courseCredit": "4",
   "courseDesc": "This course addresses the relationship between specific technological features and the learners' cognitive processes. It also covers the methods and results of empirical studies on this topic: do student actually learn due to technologies?"
  },
  {
@@ -379,6 +420,7 @@
   "profName": [
    "Martinoli"
   ],
+  "courseCredit": "5",
   "courseDesc": "The goal of this course is to provide methods and tools for modeling distributed intelligent systems as well as designing and optimizing coordination strategies. The course is a well-balanced mixture of theory and practical activities using simulation and real hardware platforms."
  },
  {
@@ -388,6 +430,7 @@
   "profName": [
    "Thiran"
   ],
+  "courseCredit": "4",
   "courseDesc": "Linear and nonlinear dynamical systems are found in all fields of science and engineering. After a short review of linear system theory, the class will explain and develop the main tools for the qualitative analysis of nonlinear systems, both in discrete-time and continuous-time."
  },
  {
@@ -397,6 +440,7 @@
   "profName": [
    "Beuchat"
   ],
+  "courseCredit": "4",
   "courseDesc": "The main topics of this course are understanding and designing embedded system on a programmable circuit (FPGA). Students will be able to design a camera or a LCD controller on an FPGA in VHDL and will use their controller through a softcore processor."
  },
  {
@@ -406,6 +450,7 @@
   "profName": [
    "Wegmann"
   ],
+  "courseCredit": "6",
   "courseDesc": "In this course, we teach how to define the requirements for an IT system that would best serve the needs of an organisation. The course is taught using a non-conventional style in which the students learn mostly through the stress of a series of concrete experiences that mimic real-life situations."
  },
  {
@@ -415,6 +460,7 @@
   "profName": [
    "Huang"
   ],
+  "courseCredit": "6",
   "courseDesc": "As we move towards a design economy, the success of new products, systems and services depend increasingly on the excellence of personal experience.This course introduces students to the notion and practice of experience design (human and artificial design) following a hands-on,studio-based approach"
  },
  {
@@ -424,6 +470,7 @@
   "profName": [
    "Kuncak"
   ],
+  "courseCredit": "6",
   "courseDesc": "We introduce formal verification as an approach for developing highly reliable systems. Formal verification finds proofs that computer systems work under all relevant scenarios. We will learn how to use formal verification tools and explain the theory and the practice behind them."
  },
  {
@@ -433,6 +480,7 @@
   "profName": [
    ""
   ],
+  "courseCredit": "5",
   "courseDesc": "C"
  },
  {
@@ -442,6 +490,7 @@
   "profName": [
    "Pu Faltings"
   ],
+  "courseCredit": "4",
   "courseDesc": "This course focuses on goal-directed design and interaction design, two subjects treated in depth in the Cooper book (see reference below). To practice these two methods, we propose a design challenge, which is to be carried out by a team of three students."
  },
  {
@@ -451,6 +500,7 @@
   "profName": [
    "Ebrahimi"
   ],
+  "courseCredit": "6",
   "courseDesc": "This course covers fundamental notions in image and video processing, as well as covers most popular tools used, such as edge detection, motion estimation, segmentation, and compression. It is composed of lectures, laboratory sessions, and mini-projects."
  },
  {
@@ -461,6 +511,7 @@
    "Unser",
    "Van De Ville"
   ],
+  "courseCredit": "3",
   "courseDesc": "Introduction to the basic techniques of image processing. Introduction to the development of image-processing software and to prototyping in JAVA. Application to real-world examples in industrial vision and biomedical imaging."
  },
  {
@@ -473,6 +524,7 @@
    "Unser",
    "Van De Ville"
   ],
+  "courseCredit": "3",
   "courseDesc": "Study of advanced image processing; mathematical imaging. Development of image-processing software and prototyping in JAVA; application to real-world examples in industrial vision and biomedical imaging."
  },
  {
@@ -483,6 +535,7 @@
    "Pignolet-Oswald",
    "Tournier"
   ],
+  "courseCredit": "3",
   "courseDesc": "This course consists of two parts:\n1) architecture of automation systems, hands-on lab\n2) handling of faults and failures in real-time systems, including fault-tolerant computing"
  },
  {
@@ -492,6 +545,7 @@
   "profName": [
    "Faltings"
   ],
+  "courseCredit": "6",
   "courseDesc": "Software agents are widely used to control physical, economic and financial processes. The course presents practical methods for implementing software agents and multi-agent systems, supported by programming exercises, and the theoretical underpinnings including computational game theory."
  },
  {
@@ -502,6 +556,7 @@
    "Chappelier",
    "Rajman"
   ],
+  "courseCredit": "4",
   "courseDesc": "The objective of this course is to present the main models, formalisms and algorithms necessary for the development of applications in the field of natural language information processing. The concepts introduced during the lectures will be applied during practical sessions."
  },
  {
@@ -512,6 +567,7 @@
    "Macris",
    "Urbanke"
   ],
+  "courseCredit": "4",
   "courseDesc": "Machine learning and data analysis are becoming increasingly central in many sciences and applications. This course concentrates on the theoretical underpinnings of machine learning."
  },
  {
@@ -522,6 +578,7 @@
    "Lévêque",
    "Macris"
   ],
+  "courseCredit": "4",
   "courseDesc": "The study of random walks finds many applications in computer science and communications. The goal of the course is to get familiar with the theory of random walks, and to get an overview of some applications of this theory to problems of interest in communications, computer and network science."
  },
  {
@@ -533,6 +590,7 @@
    "Parhizkar",
    "Scholefield"
   ],
+  "courseCredit": "6",
   "courseDesc": "Signal processing tools are presented from an intuitive geometric point of view which is at the heart of all modern signal processing techniques. Student will develop the mathematical depth and rigor needed for the study of advanced topics in signal processing."
  },
  {
@@ -542,6 +600,7 @@
   "profName": [
    "Ebrahimi"
   ],
+  "courseCredit": "6",
   "courseDesc": "This course provides attendees with theoretical and practical issues in media security. In addition to lectures by the professor, the course includes laboratory sessions, a mini-project, and a mid-term exam."
  },
  {
@@ -551,6 +610,7 @@
   "profName": [
    "Skrivervik Favre"
   ],
+  "courseCredit": "4",
   "courseDesc": "This course is n introduction to microwaves and microwave passive circuits. A special attention is given to the introduction of the notion of distributed circuits and to the scattering matrix"
  },
  {
@@ -561,6 +621,7 @@
    "Grossglauser",
    "Thiran"
   ],
+  "courseCredit": "4",
   "courseDesc": "The goal of this class is to acquire mathematical tools and engineering insight about networks whose structure is random, as well as learning and control techniques applicable to such network data."
  },
  {
@@ -570,6 +631,7 @@
   "profName": [
    "Serban"
   ],
+  "courseCredit": "5",
   "courseDesc": "The goal of the course is to introduce basic notions from public key cryptography (PKC) as well as basic number-theoretic methods and algorithms for cryptanalysis of protocols and schemes based on PKC."
  },
  {
@@ -580,6 +642,7 @@
    "Flammarion",
    "Jaggi"
   ],
+  "courseCredit": "5",
   "courseDesc": "This course teaches an overview of modern optimization methods, for applications in machine learning and data science. In particular, scalability of algorithms to large datasets will be discussed in theory and in implementation."
  },
  {
@@ -588,7 +651,8 @@
   "courseSection": "SC",
   "profName": [
    "Profs divers"
-  ]
+  ],
+  "courseCredit": "8"
  },
  {
   "courseName": "Performance evaluation",
@@ -597,6 +661,7 @@
   "profName": [
    ""
   ],
+  "courseCredit": "7",
   "courseDesc": "In this course you will learn the methods and techniques that are used to perform a good performance evaluation during a research or development project."
  },
  {
@@ -607,6 +672,7 @@
    "Argyraki",
    "Candea"
   ],
+  "courseCredit": "7",
   "courseDesc": "This advanced graduate course focuses on key design principles underlying successful computer and communication\nsystems, and teaches how to solve real problems using ideas, techniques, and algorithms from operating systems, networks, databases, programming languages, and computer architecture."
  },
  {
@@ -616,6 +682,7 @@
   "profName": [
    ""
   ],
+  "courseCredit": "5",
   "courseDesc": "We systematically explore the exciting fact that randomness (i.e., coin flipping) can be used profitably to construct various mathematical structures with unexpected and often paradoxical properties, and to efficiently solve otherwise hopelessly difficult computational tasks."
  },
  {
@@ -625,6 +692,7 @@
   "profName": [
    "Beuchat"
   ],
+  "courseCredit": "4",
   "courseDesc": "A real time system is subject to important temporal constraints. This course is about understanding where processing time is spent and what a designer can do in order to achieve real-time processing systems. Some solutions are Multiprocessors, accelerators, custom instructions, specialized hardware."
  },
  {
@@ -634,6 +702,7 @@
   "profName": [
    "Aminian"
   ],
+  "courseCredit": "3",
   "courseDesc": "Fundamental principles and methods used for physiological signal conditioning. Resistive, capacitive, inductive, piezoelectric and optical techniques used to detect and convert physiological information's to electrical signals. Laboratory and ambulatory devices for monitoring and therapy."
  },
  {
@@ -643,6 +712,7 @@
   "profName": [
    "Duparc"
   ],
+  "courseCredit": "5",
   "courseDesc": "Set Theory as a foundational system for mathematics.\nRelative consistency of the Axiom of Choice and the Continuum Hypothesis."
  },
  {
@@ -653,6 +723,7 @@
    "Le Boudec",
    "Paolone"
   ],
+  "courseCredit": "5",
   "courseDesc": "Learn the technologies and methodologies used in the context smart electrical grids and be able to deploy/implement/test them in a lab environment."
  },
  {
@@ -662,6 +733,7 @@
   "profName": [
    "Gillet"
   ],
+  "courseCredit": "2",
   "courseDesc": "The objective is to enable students to critically apprehend the Human Computer Interaction (HCI) challenges associated with the design and the exploitation of social media platforms."
  },
  {
@@ -671,6 +743,7 @@
   "profName": [
    "Payer"
   ],
+  "courseCredit": "6",
   "courseDesc": "This course focuses on software security fundamentals, secure coding guidelines and principles, and advanced software security concepts. Students learn to assess and understand threats, learn how to design and implement secure software systems, and get hands-on experience with security pitfalls."
  },
  {
@@ -680,6 +753,7 @@
   "profName": [
    "Olhede"
   ],
+  "courseCredit": "6",
   "courseDesc": "Statistics lies at the foundation of data science, providing a unifying theoretical and methodological backbone for the diverse tasks enountered in this emerging field. This course rigorously develops the key notions and methods of statistics, with an emphasis on concepts rather than techniques."
  },
  {
@@ -690,6 +764,7 @@
    "Oechslin",
    "Vaudenay"
   ],
+  "courseCredit": "3",
   "courseDesc": "This seminar introduces the participants to the current trends, problems, and methods in the area of communication security."
  },
  {
@@ -699,6 +774,7 @@
   "profName": [
    ""
   ],
+  "courseCredit": "4",
   "courseDesc": "In this course we will define rigorous mathematical models for computing on large datasets, cover main algorithmic techniques that have been developed for sublinear (e.g. faster than linear time) data processing. We will also discuss limitations inherent to computing with constrained resources."
  },
  {
@@ -708,6 +784,7 @@
   "profName": [
    ""
   ],
+  "courseCredit": "4",
   "courseDesc": "This hands-on class gives graduate students in IC interested in startups the opportunity to learn and put in practice the fundamental skills required to assess a technology concept in the context of a business opportunity.  This class is focused only on business opportunities where high-technology"
  },
  {
@@ -717,6 +794,7 @@
   "profName": [
    "Kapralov"
   ],
+  "courseCredit": "4",
   "courseDesc": "The students gain an in-depth knowledge of several current and emerging areas of theoretical computer science. The course familiarizes them with advanced techniques, and develops an understanding of fundamental questions that underlie some of the key problems of modern computer science."
  },
  {
@@ -726,6 +804,7 @@
   "profName": [
    "Boulic"
   ],
+  "courseCredit": "4",
   "courseDesc": "The goal of VR is to embed the users in a potentially complex virtual environment while ensuring that they are able to react as if this environment were real. The course provides a human perception-action background and describes the key techniques for achieving efficient VR applications."
  },
  {
@@ -734,7 +813,8 @@
   "courseSection": "SC",
   "profName": [
    "Profs divers"
-  ]
+  ],
+  "courseCredit": "12"
  },
  {
   "courseName": "HSS : Introduction to project",
@@ -742,7 +822,8 @@
   "courseSection": "SHS",
   "profName": [
    "Divers enseignants"
-  ]
+  ],
+  "courseCredit": "3"
  },
  {
   "courseName": "HSS : Project",
@@ -750,6 +831,7 @@
   "courseSection": "SHS",
   "profName": [
    "Divers enseignants"
-  ]
+  ],
+  "courseCredit": "3"
  }
 ]

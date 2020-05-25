@@ -5,7 +5,8 @@
   "courseSection": "MA",
   "profName": [
    "Profs divers"
-  ]
+  ],
+  "courseCredit": "0"
  },
  {
   "courseName": "Master project in Mathematics",
@@ -13,7 +14,8 @@
   "courseSection": "MA",
   "profName": [
    "Profs divers"
-  ]
+  ],
+  "courseCredit": "30"
  },
  {
   "courseName": "Mathematics projects (master)",
@@ -21,7 +23,8 @@
   "courseSection": "MA",
   "profName": [
    "Profs divers"
-  ]
+  ],
+  "courseCredit": "10"
  },
  {
   "courseName": "HSS : Introduction to project",
@@ -29,7 +32,8 @@
   "courseSection": "SHS",
   "profName": [
    "Divers enseignants"
-  ]
+  ],
+  "courseCredit": "3"
  },
  {
   "courseName": "HSS : Project",
@@ -37,7 +41,8 @@
   "courseSection": "SHS",
   "profName": [
    "Divers enseignants"
-  ]
+  ],
+  "courseCredit": "3"
  },
  {
   "courseName": "Algebraic curves and cryptography",
@@ -46,6 +51,7 @@
   "profName": [
    ""
   ],
+  "courseCredit": "5",
   "courseDesc": "The goal of this course is to introduce basic notions from public-key cryptography based on algebraic curves over finite fields. We will introduce basic cryptographic schemes as well as discuss in-depth the discrete logarithm problem for elliptic and Jacobians of higher genus curves."
  },
  {
@@ -55,6 +61,7 @@
   "profName": [
    "Hess Bellwald"
   ],
+  "courseCredit": "5",
   "courseDesc": "Algebraic K-theory, which to any ring R associates a sequence of groups, can be viewed as a theory of linear algebra over an arbitrary ring. We will study in detail the first two of these groups and applications of algebraic K-theory to number theory, algebraic topology, and representation theory."
  },
  {
@@ -64,6 +71,7 @@
   "profName": [
    "Monod"
   ],
+  "courseCredit": "5",
   "courseDesc": "We study analytic phenomena on groups, notably paradoxical decompositions and fixed point properties."
  },
  {
@@ -73,6 +81,7 @@
   "profName": [
    "Goldstein"
   ],
+  "courseCredit": "5",
   "courseDesc": "This course covers topics in applied biostatistics, with an emphasis on practical aspects of data analysis using R statistical software. Topics include types of studies and their design and analysis, high dimensional data analysis (genetic/genomic) and other topics as time and interest permit."
  },
  {
@@ -82,6 +91,7 @@
   "profName": [
    "Dehaene"
   ],
+  "courseCredit": "5",
   "courseDesc": "This course aims at giving a broad overview of Bayesian inference, highlighting how the basic Bayesian paradigm proceeds, and the various methods that can be used to deal with the computational issues that plague it. This course represents a 70-30 split of practice versus theory."
  },
  {
@@ -91,6 +101,7 @@
   "profName": [
    ""
   ],
+  "courseCredit": "5",
   "courseDesc": "Biostatistics is about the application of statistics to medicine and the life sciences. The course covers various methods and problems that are typical for these areas of application. Despite the applied context, the course treats the topic at a fairly abstract level."
  },
  {
@@ -100,6 +111,7 @@
   "profName": [
    "Stra"
   ],
+  "courseCredit": "5",
   "courseDesc": "Introduction to classical Calculus of Variations and a selection of modern techniques."
  },
  {
@@ -109,6 +121,7 @@
   "profName": [
    ""
   ],
+  "courseCredit": "5",
   "courseDesc": "Can we plant n trees in an orchard, not all along the same line, so that every line determined by two trees will pass through a third? This was raised by Sylvester and has generated interest among  mathematicians. It led to the birth of combinatorial geometry with ties to convexity and graph theory."
  },
  {
@@ -118,6 +131,7 @@
   "profName": [
    ""
   ],
+  "courseCredit": "5",
   "courseDesc": "The guiding question of Combinatorial Optimization is: How do I efficiently select an optimal solution among a finite but very large set of alternatives? We will address the solution of this question in the context of classical discrete optimization problems."
  },
  {
@@ -127,6 +141,7 @@
   "profName": [
    "Abbé"
   ],
+  "courseCredit": "5",
   "courseDesc": "The class will cover statistical models and statistical learning problems involving discrete structures. It starts with an overview of basic random graphs and discrete probability results. It then covers topics such as reconstruction on trees, stochastic block models, and spectral graph theory."
  },
  {
@@ -136,6 +151,7 @@
   "profName": [
    "Svaldi"
   ],
+  "courseCredit": "5",
   "courseDesc": "The goal of this course is to help students learn the basic theory of complex manifolds and Hodge theory."
  },
  {
@@ -147,6 +163,7 @@
    "Pulido Nino",
    "Statti"
   ],
+  "courseCredit": "5",
   "courseDesc": "Participants of this course will master computational techniques frequently used in mathematical finance applications. Emphasis will be put on the implementation and practical aspects."
  },
  {
@@ -156,6 +173,7 @@
   "profName": [
    "Kressner"
   ],
+  "courseCredit": "5",
   "courseDesc": "This course provides an overview of state-of-the-art techniques for solving large-scale linear algebra problems, as they typically arise in applications. A central goal of this course is to give the ability to choose a suitable solver for a given application."
  },
  {
@@ -165,6 +183,7 @@
   "profName": [
    ""
   ],
+  "courseCredit": "5",
   "courseDesc": "Convexity is fundamental concept in mathematics.  This course is an introduction to convexity and its ramifications in high-dimensional Geometry."
  },
  {
@@ -174,6 +193,7 @@
   "profName": [
    "Maddocks"
   ],
+  "courseCredit": "5",
   "courseDesc": "The Differential Geometry of curves, tubes & ribbons"
  },
  {
@@ -183,6 +203,7 @@
   "profName": [
    "Widmayer"
   ],
+  "courseCredit": "5",
   "courseDesc": "This course will give an introduction to some aspects of nonlinear dispersive partial differential equations. These are time evolution problems that arise in many contexts in physics, such as quantum mechanics, electrodynamics, fluid motion and relativity."
  },
  {
@@ -192,6 +213,7 @@
   "profName": [
    "Buffoni"
   ],
+  "courseCredit": "5",
   "courseDesc": ""
  },
  {
@@ -201,6 +223,7 @@
   "profName": [
    ""
   ],
+  "courseCredit": "5",
   "courseDesc": ""
  },
  {
@@ -210,6 +233,7 @@
   "profName": [
    "Aru"
   ],
+  "courseCredit": "5",
   "courseDesc": "This is an introductory course on Gaussian processes. By discussing both the general theory and concrete examples, we will try to understand where and how Gaussian processes appear, and how to study them."
  },
  {
@@ -219,6 +243,7 @@
   "profName": [
    ""
   ],
+  "courseCredit": "5",
   "courseDesc": "C"
  },
  {
@@ -228,6 +253,7 @@
   "profName": [
    "Krieger"
   ],
+  "courseCredit": "5",
   "courseDesc": "An introduction to methods of harmonic analysis.\nCovers convergence of Fourier series, Hilbert transform, Calderon-Zygmund theory, Fourier restriction, and applications to PDE."
  },
  {
@@ -237,6 +263,7 @@
   "profName": [
    ""
   ],
+  "courseCredit": "5",
   "courseDesc": "This course will provide an introduction to model category theory, which is an abstract framework for generalizing homotopy theory beyond topological spaces and continuous maps. We will study numerous examples of model categories and their applications in algebra and topology."
  },
  {
@@ -246,6 +273,7 @@
   "profName": [
    "Patakfalvi"
   ],
+  "courseCredit": "5",
   "courseDesc": "Algebraic geometry is a central subject of modern\nmathematics, lying between differential geometry and number theory. The course will give an introduction to algebraic geometry, arriving at the end to the Riemann-Roch theorem for curves and to Bézout's theorem."
  },
  {
@@ -255,6 +283,7 @@
   "profName": [
    "Troyanov"
   ],
+  "courseCredit": "5",
   "courseDesc": ""
  },
  {
@@ -264,6 +293,7 @@
   "profName": [
    "Hongler"
   ],
+  "courseCredit": "5",
   "courseDesc": "Lattice models consist of (typically random) objects living on a periodic graph. We will study some models that are mathematically interesting and representative of physical phenomena seen in the real world."
  },
  {
@@ -273,6 +303,7 @@
   "profName": [
    "Urech"
   ],
+  "courseCredit": "5",
   "courseDesc": "Lie groups are manifolds with a group structure. The interaction between the geometric and the algebraic structure of these objects gives rise to a rich and beautiful subject with various applications in physics and other branches of mathematics."
  },
  {
@@ -282,6 +313,7 @@
   "profName": [
    ""
   ],
+  "courseCredit": "5",
   "courseDesc": "The aim of the course is to establish the main results on the structure of reductive linear algebraic groups defined over an algebraically closed field."
  },
  {
@@ -291,6 +323,7 @@
   "profName": [
    ""
   ],
+  "courseCredit": "5",
   "courseDesc": "Low-rank approximation techniques have become a key tool in scientific computing to deal with large-scale problems and high-dimensional data. This course covers state-of-the-art algorithms and current research in this area."
  },
  {
@@ -300,6 +333,7 @@
   "profName": [
    "Schmutz"
   ],
+  "courseCredit": "5",
   "courseDesc": "The aim of the course is to apply the theory of martingales in the context of mathematical finance. The course provides a detailed study of the mathematical ideas that are used in modern financial mathematics. Moreover, the concepts of complete and incomplete markets are discussed."
  },
  {
@@ -309,6 +343,7 @@
   "profName": [
    "Bierlaire"
   ],
+  "courseCredit": "5",
   "courseDesc": "Discrete choice models allow for the analysis and prediction of individuals' choice behavior. The objective of the course is to introduce both methodological and applied aspects, in the field of marketing, transportation, and finance."
  },
  {
@@ -318,6 +353,7 @@
   "profName": [
    "Maddocks"
   ],
+  "courseCredit": "5",
   "courseDesc": "Mathematical modelling of DNA"
  },
  {
@@ -327,6 +363,7 @@
   "profName": [
    ""
   ],
+  "courseCredit": "5",
   "courseDesc": "The aim of the course is two fold: to bring students within reach of current research topics in physiology and to showcase methods allowing to analyse non-linear systems of differential equations."
  },
  {
@@ -336,6 +373,7 @@
   "profName": [
    "Davison"
   ],
+  "courseCredit": "5",
   "courseDesc": "A second course on regression modelling, dealing with nonlinear effects of explanatory variables, and non-normal and dependent response variables."
  },
  {
@@ -345,6 +383,7 @@
   "profName": [
    "Koch"
   ],
+  "courseCredit": "5",
   "courseDesc": "Multivariate statistics refers to data in vector form. The main objective is to uncover the associations between the components of the vectors. The course introduces the major types of statistical methodology for this purpose as well as some applications to quantitative risk management."
  },
  {
@@ -354,6 +393,7 @@
   "profName": [
    "Serban"
   ],
+  "courseCredit": "5",
   "courseDesc": "The goal of the course is to introduce basic notions from public key cryptography (PKC) as well as basic number-theoretic methods and algorithms for cryptanalysis of protocols and schemes based on PKC."
  },
  {
@@ -363,6 +403,7 @@
   "profName": [
    "Blumenthal"
   ],
+  "courseCredit": "5",
   "courseDesc": "In this course we will introduce and study numerical integrators for stochastic differential equations. These numerical methods are important for many applications."
  },
  {
@@ -372,6 +413,7 @@
   "profName": [
    "Hesthaven"
   ],
+  "courseCredit": "5",
   "courseDesc": "Introduction to the development, analysis, and application of computational methods for solving conservation laws with an emphasis on finite volume, limiter based schemes, high-order essentially non-oscillatory schemes, and discontinuous Galerkin methods."
  },
  {
@@ -381,6 +423,7 @@
   "profName": [
    ""
   ],
+  "courseCredit": "5",
   "courseDesc": "The first part is devoted to Monge and Kantorovitch problems, discussing the existence and the properties of the optimal plan. The second part introduces the Wasserstein distance on measures and develops applications of optimal transport to PDEs, functional/geometric inequalities, traffic models."
  },
  {
@@ -390,6 +433,7 @@
   "profName": [
    ""
   ],
+  "courseCredit": "5",
   "courseDesc": "How many objects of a given shape and size can be packed into a large box of fixed volume? We give a systematic introduction into the rich theory that has grown out of the above questions. Connections to number theory, coding theory, potential theory, and robotics will also be presented."
  },
  {
@@ -399,6 +443,7 @@
   "profName": [
    ""
   ],
+  "courseCredit": "5",
   "courseDesc": "1. PARABOLIC EQUATIONS: Existence and uniqueness of weak-solutions, Maximum principle.\nFundamental solutions. Infinite speed of propagation.\n\n2. HYPERBOLIC EQUATIONS:  Existence and uniqueness of weak solutions. Fundamental solutions.\nFinite speed of propagation."
  },
  {
@@ -408,6 +453,7 @@
   "profName": [
    ""
   ],
+  "courseCredit": "5",
   "courseDesc": "We systematically explore the exciting fact that randomness (i.e., coin flipping) can be used profitably to construct various mathematical structures with unexpected and often paradoxical properties, and to efficiently solve otherwise hopelessly difficult computational tasks."
  },
  {
@@ -417,6 +463,7 @@
   "profName": [
    "Chong"
   ],
+  "courseCredit": "5",
   "courseDesc": "The course provides a measure-theoretic introduction to probability theory."
  },
  {
@@ -426,6 +473,7 @@
   "profName": [
    ""
   ],
+  "courseCredit": "5",
   "courseDesc": "We will establish the major results in the representation theory of semisimple Lie algebras over the field of complex numbers, and that of the related algebraic groups."
  },
  {
@@ -435,6 +483,7 @@
   "profName": [
    "Viazovska"
   ],
+  "courseCredit": "5",
   "courseDesc": "This course is an introduction to the theory of Riemann surfaces. Riemann surfaces naturally appear is mathematics in many different ways: as a result of analytic continuation, as quotients of complex domains under discontinuous group actions, as algebraic curves. We will cover the following topics:"
  },
  {
@@ -444,6 +493,7 @@
   "profName": [
    "Davison"
   ],
+  "courseCredit": "5",
   "courseDesc": "Modelling of rare events, such as stock market crashes, storms and catastrophic structural failures, is important. This course will describe the special models and methods that are relevant to such modelling, including the mathematical bases, statistical tools and applications."
  },
  {
@@ -453,6 +503,7 @@
   "profName": [
    "Morgenthaler"
   ],
+  "courseCredit": "5",
   "courseDesc": "In the decades from 1930 to 1950, many rank-based statistics were introduced. These methods were received with much interest, because they worked under weak conditions. Starting in the late 1950, a theory of robustness was added. The course gives an overview of these two approaches to data analysis."
  },
  {
@@ -462,6 +513,7 @@
   "profName": [
    "Duparc"
   ],
+  "courseCredit": "5",
   "courseDesc": "Set Theory as a foundational system for mathematics.\nRelative consistency of the Axiom of Choice and the Continuum Hypothesis."
  },
  {
@@ -471,6 +523,7 @@
   "profName": [
    "Ginsbourger"
   ],
+  "courseCredit": "5",
   "courseDesc": "In this course we will focus on stochastic approaches for modelling phenomena taking place in multivariate spaces. Our main focus will be on random field models and on statistical methods for model-based spatial statistics."
  },
  {
@@ -480,6 +533,7 @@
   "profName": [
    "Olhede"
   ],
+  "courseCredit": "5",
   "courseDesc": "A first course in statistical network analysis and applications."
  },
  {
@@ -489,6 +543,7 @@
   "profName": [
    "Goldstein"
   ],
+  "courseCredit": "5",
   "courseDesc": "This course will cover the major topics in statistical genetics."
  },
  {
@@ -499,6 +554,7 @@
    "Dehaene",
    "Obozinski"
   ],
+  "courseCredit": "5",
   "courseDesc": "A course on statistical methods for supervised and unsupervised learning."
  },
  {
@@ -508,6 +564,7 @@
   "profName": [
    "Friedli"
   ],
+  "courseCredit": "5",
   "courseDesc": "This course provides a rigorous introduction to the ideas, methods and results of classical statistical mechanics, with an emphasis on presenting the central tools for the probabilistic description of infinite lattice systems."
  },
  {
@@ -517,6 +574,7 @@
   "profName": [
    "Koch"
   ],
+  "courseCredit": "5",
   "courseDesc": "The course aims at developing certain key aspects of the theory of statistics, providing a common general framework for statistical methodology. While the main emphasis will be on the mathematical aspects of statistics, an effort will be made to balance rigor and intuition."
  },
  {
@@ -526,6 +584,7 @@
   "profName": [
    ""
   ],
+  "courseCredit": "5",
   "courseDesc": "After a short introduction to basic molecular biology and genomic technologies, this course covers the most useful statistical concepts and methods for the analysis of genomic data."
  },
  {
@@ -535,6 +594,7 @@
   "profName": [
    "Nobile"
   ],
+  "courseCredit": "5",
   "courseDesc": "The student who follows this course will get acquainted with computational tools used to analyze systems with uncertainty arising in engineering, physics, chemistry, and economics. Focus will be on  sampling methods as Monte Carlo, quasi Monte Carlo,  Markov Chain Monte Carlo."
  },
  {
@@ -544,6 +604,7 @@
   "profName": [
    "Dalang"
   ],
+  "courseCredit": "5",
   "courseDesc": ""
  },
  {
@@ -553,6 +614,7 @@
   "profName": [
    ""
   ],
+  "courseCredit": "5",
   "courseDesc": "Modular forms have a central place in number theory and occur also in many other branches of mathematics. Starting from the theta series associated to quadratic forms we will introduce the basic concepts associated to modular or automorphic forms and provide some applications of the theory."
  },
  {
@@ -562,6 +624,7 @@
   "profName": [
    "Michel"
   ],
+  "courseCredit": "5",
   "courseDesc": "This year's topic is \"Adelic Number Theory\" or how the language of adeles and ideles and harmonic analysis on the corresponding spaces can be used to revisit classical questions in algebraic number theory"
  },
  {
@@ -570,6 +633,7 @@
   "courseSection": "MA",
   "profName": [
    "Profs divers"
-  ]
+  ],
+  "courseCredit": "30"
  }
 ]

@@ -7,6 +7,7 @@
    "Gautsch",
    "Gay-Balmaz"
   ],
+  "courseCredit": "0",
   "courseDesc": ""
  },
  {
@@ -15,7 +16,8 @@
   "courseSection": "EL",
   "profName": [
    "Profs divers"
-  ]
+  ],
+  "courseCredit": "30"
  },
  {
   "courseName": "MNIS Master project for students from Grenoble",
@@ -23,7 +25,8 @@
   "courseSection": "EL",
   "profName": [
    "Profs divers"
-  ]
+  ],
+  "courseCredit": ""
  },
  {
   "courseName": "MNIS Master project for students from Torino",
@@ -31,7 +34,8 @@
   "courseSection": "EL",
   "profName": [
    "Profs divers"
-  ]
+  ],
+  "courseCredit": ""
  },
  {
   "courseName": "INPG courses",
@@ -39,7 +43,8 @@
   "courseSection": "EL",
   "profName": [
    ""
-  ]
+  ],
+  "courseCredit": "30"
  },
  {
   "courseName": "Politecnico di Torino courses",
@@ -47,7 +52,8 @@
   "courseSection": "EL",
   "profName": [
    ""
-  ]
+  ],
+  "courseCredit": "30"
  },
  {
   "courseName": "Design technologies for integrated systems",
@@ -56,6 +62,7 @@
   "profName": [
    "De Micheli"
   ],
+  "courseCredit": "6",
   "courseDesc": "Hardware compilation is the process of transforming specialized hardware description languages into circuit descriptions, which are iteratively refined, detailed and optimized.  The course  presents algorithms, tools and methods for hardware compilation and logic synthesis."
  },
  {
@@ -65,6 +72,7 @@
   "profName": [
    "Burg"
   ],
+  "courseCredit": "4",
   "courseDesc": ""
  },
  {
@@ -74,6 +82,7 @@
   "profName": [
    "Vachoux"
   ],
+  "courseCredit": "2",
   "courseDesc": "This course addresses the main aspects of the modeling of digital and mixed-signal hardware components and systems using the VHDL and the VHDL-AMS modeling languages."
  },
  {
@@ -83,6 +92,7 @@
   "profName": [
    "Koukab"
   ],
+  "courseCredit": "4",
   "courseDesc": "This course deals with the analyze, design and optimization of  CMOS analog circuits, emphasizing low-power solutions required in a broad range of applications (e.g. IoT, wearables, Biosensors ...). Some examples of mixed-signal design are also addressed."
  },
  {
@@ -92,6 +102,7 @@
   "profName": [
    "Ionescu"
   ],
+  "courseCredit": "2",
   "courseDesc": "This lecture overviews and discusses the last trends in the technology and principles of nanoelectronic devices for more aggressive scaling, better performances, added functionalities and lower energy per function. The opportunities of these advances compared to industrial roadmaps are analized."
  },
  {
@@ -101,6 +112,7 @@
   "profName": [
    "Kis"
   ],
+  "courseCredit": "2",
   "courseDesc": "Students will learn simple theoretical models, the theoretical background of finite element modeling as well as its application to modeling charge, mass and heat transport in electronic, fluidic and electromechanical micro and nanosystem."
  },
  {
@@ -110,6 +122,7 @@
   "profName": [
    "Schmid"
   ],
+  "courseCredit": "2",
   "courseDesc": "Test of VLSI Systems covers theoretical knowledge related to the major algorithms used in VLSI test, and design for test techniques. Basic knowledge related to computer-aided design for test techniques, and their integration into a design-flow are presented."
  },
  {
@@ -119,6 +132,7 @@
   "profName": [
    "Guiducci"
   ],
+  "courseCredit": "3",
   "courseDesc": "The labels \"biosensor\" and \"eBiochip\" have been employed to refer to the most diverse systems and in several fields of application. The course is meant not only to provide means to dig into this sea but also a thoughtful understanding of the detection principles and a design perspective."
  },
  {
@@ -128,6 +142,7 @@
   "profName": [
    "Dehollain"
   ],
+  "courseCredit": "4",
   "courseDesc": "Master the design of circuits and systems at high frequency (HF) and very high frequency (VHF) (1 MHz-6GHz). This lecture is particularly oriented towards circuit aspects of modern communications systems."
  },
  {
@@ -138,6 +153,7 @@
    "Koukab",
    "Vachoux"
   ],
+  "courseCredit": "4",
   "courseDesc": "The goal of this lab is to get a working knowledge on the use of industrial state-of-the-art EDA (Electronic Design Automation) tools and design kits for the design of analog and digital integrated circuits."
  },
  {
@@ -147,6 +163,7 @@
   "profName": [
    ""
   ],
+  "courseCredit": "2",
   "courseDesc": ""
  },
  {
@@ -156,6 +173,7 @@
   "profName": [
    "Cevher"
   ],
+  "courseCredit": "4",
   "courseDesc": "This course reviews recent advances in convex optimization and statistical analysis in the wake of Big Data. We provide an overview of the emerging convex formulations and their guarantees, describe scalable solution techniques, and illustrate the role of parallel and distributed computation."
  },
  {
@@ -165,6 +183,7 @@
   "profName": [
    "Gaumier"
   ],
+  "courseCredit": "3",
   "courseDesc": "Situate and evaluate the potentialities, limits and perspectives of optical communication systems and networks.\nDesign and dimension of photonic communication systems and networks"
  },
  {
@@ -174,6 +193,7 @@
   "profName": [
    "Besse"
   ],
+  "courseCredit": "3",
   "courseDesc": "Students analyse the fundamental characteristics of optical detectors. Thermal and photoemissive devices as well as photodiodes and infrared sensors are studied. CCD and CMOS cameras are analysed in detail. Single photon detection is explained."
  },
  {
@@ -183,6 +203,7 @@
   "profName": [
    "Matioli"
   ],
+  "courseCredit": "4",
   "courseDesc": "This course aims to give a solid introduction to semiconductors, from Silicon to compound semiconductors, making the connection between the physics and their application in real life. We will explore several experimental techniques related to current semiconductor research and development."
  },
  {
@@ -193,6 +214,7 @@
    "Aminian",
    "Renaud"
   ],
+  "courseCredit": "2",
   "courseDesc": ""
  },
  {
@@ -202,6 +224,7 @@
   "profName": [
    "Burg"
   ],
+  "courseCredit": "4",
   "courseDesc": ""
  }
 ]

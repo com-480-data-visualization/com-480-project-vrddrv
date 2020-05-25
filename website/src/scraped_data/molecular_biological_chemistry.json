@@ -5,7 +5,8 @@
   "courseSection": "CGC",
   "profName": [
    "Profs divers"
-  ]
+  ],
+  "courseCredit": "30"
  },
  {
   "courseName": "Chemical biology of cell imaging",
@@ -14,6 +15,7 @@
   "profName": [
    "Rivera Fuentes"
   ],
+  "courseCredit": "3",
   "courseDesc": "This course will introduce basic concepts of fluorescence spectroscopy and microscopy applied to the observation of biological systems. The course will focus on the design, preparation and implementation of small-molecule and protein-based probes."
  },
  {
@@ -23,6 +25,7 @@
   "profName": [
    "Roussel"
   ],
+  "courseCredit": "3",
   "courseDesc": "The course relates on the use of electromagnetic (X-Ray) and corpuscular (electrons) radiations for physical and chemical analysis of solid materials."
  },
  {
@@ -32,6 +35,7 @@
   "profName": [
    "Dayon"
   ],
+  "courseCredit": "2",
   "courseDesc": "In systems biology, proteomics represents an essential pillar. The understanding of protein function and regulation provides key information to decipher the complexity of living systems. Proteomic technology now enables deep quantitative proteome mapping via mass spectrometry."
  },
  {
@@ -41,6 +45,7 @@
   "profName": [
    "Hovius"
   ],
+  "courseCredit": "2",
   "courseDesc": "Presentation of selected signalling pathways with emphasis on both the mechanism of action of the molecules involved, molecular interactions and the role of their spatio-temporal organization within the cell, considering cellular dimensions and conditions."
  },
  {
@@ -51,6 +56,7 @@
    "Aye",
    "Ferreira De Sousa Correia"
   ],
+  "courseCredit": "3",
   "courseDesc": "Chemical biology is a key discipline in biomedical research for drug discovery, synthetic biology and protein functional annotation. We will give a broad perspective of the field ranging from seminal classical experiments to state-of-the-art approaches to dissect and perturb biological systems."
  },
  {
@@ -60,6 +66,7 @@
   "profName": [
    "Fierz"
   ],
+  "courseCredit": "3",
   "courseDesc": "This course concerns modern bioanalytical techniques to investigate biomolecules both in vitro and in vivo, including recent methods to image, track and manipulate single molecules. We cover the basic principles of the respective methods and discuss examples from the current scientific literature."
  },
  {
@@ -69,6 +76,7 @@
   "profName": [
    "Bonella"
   ],
+  "courseCredit": "4",
   "courseDesc": "This course will discuss the main methods for the simulation of quantum time dependent properties for molecular systems. Basic notions of density functional theory and of its time dependent version will be covered in the context of adiabatic and non adiabatic dynamics."
  },
  {
@@ -78,6 +86,7 @@
   "profName": [
    "Smit"
   ],
+  "courseCredit": "4",
   "courseDesc": "This course introduces advanced molecular simulation techniques such as Monte Carlo and Molecular dynamics in different ensembles, free energy calculations, rare events, Configurational-bias Monte Carlo etc."
  },
  {
@@ -87,6 +96,7 @@
   "profName": [
    "Hu"
   ],
+  "courseCredit": "3",
   "courseDesc": "This course covers the fundamental and applied aspects of electrocatalysis related to renewable energy conversion and storage. The focus is on catalysis for hydrogen evolution, oxygen evolution, and CO2 reduction reactions. Both homogeneous and heterogeneous catalysts are discussed."
  },
  {
@@ -96,6 +106,7 @@
   "profName": [
    ""
   ],
+  "courseCredit": "2",
   "courseDesc": "This advanced course on homogeneous catalysis explain the important role of the field in modern chemistry and provide a detailed understanding of how these catalysts work at a mechanistic level and give examples of important applications (carbon dioxid hydrogenation, hydrogen storage and delivery)."
  },
  {
@@ -105,6 +116,7 @@
   "profName": [
    "Mazzanti"
   ],
+  "courseCredit": "2",
   "courseDesc": "The course will provide a synopsis of the chemistry of f elements (lanthanides and actinides) covering structure, bonding, redox and spectroscopic properties and reactivity. The coordination and organometallic chemistry of these ions will be discussed with an overview of their main applications."
  },
  {
@@ -114,6 +126,7 @@
   "profName": [
    "Queen"
   ],
+  "courseCredit": "3",
   "courseDesc": "Students will learn about the structure & properties of several classes of solid state materials and gain insight into their importance in energy relevant applications."
  },
  {
@@ -123,6 +136,7 @@
   "profName": [
    "Corminboeuf"
   ],
+  "courseCredit": "2",
   "courseDesc": "This course introduces modern computational electronic structure methods and their broad applications to organic chemistry. It also discusses physical organic concepts to illustrate the stability and reactivity of organic molecules."
  },
  {
@@ -132,6 +146,7 @@
   "profName": [
    "Cramer"
   ],
+  "courseCredit": "3",
   "courseDesc": "To develop a detailed knowledge of the key steps of advanced modern organic synthesis going beyond classical chemistry of olefins and carbonyls."
  },
  {
@@ -141,6 +156,7 @@
   "profName": [
    "Zhu"
   ],
+  "courseCredit": "3",
   "courseDesc": "Complex polycyclic natural products are chosen to illustrate the evolution of the state-of-the-art of the field, the interplay between strategy and new reactions as well as the importance of implementing multi-bond forming processes in a synthesis."
  },
  {
@@ -150,6 +166,7 @@
   "profName": [
    "Vanicek"
   ],
+  "courseCredit": "3",
   "courseDesc": "The course covers several exact, approximate, and numerical methods to solve the time-dependent molecular Schrödinger equation, and applications including calculations of molecular electronic spectra. More advanced topics include introduction to the semiclassical methods and Feynman path integral."
  },
  {
@@ -159,6 +176,7 @@
   "profName": [
    "Bostedt"
   ],
+  "courseCredit": "3",
   "courseDesc": ""
  },
  {
@@ -168,6 +186,7 @@
   "profName": [
    "Moser"
   ],
+  "courseCredit": "2",
   "courseDesc": "Following \"Photochemistry I\", this course introduces the current theoretical models regarding the dynamics of electron transfer. It focuses then on photoredox processes at the surface of solids. Current technological applications, as well as the most recent advances in the field are presented."
  },
  {
@@ -177,6 +196,7 @@
   "profName": [
    ""
   ],
+  "courseCredit": "3",
   "courseDesc": ""
  },
  {
@@ -186,6 +206,7 @@
   "profName": [
    ""
   ],
+  "courseCredit": "2",
   "courseDesc": ""
  },
  {
@@ -195,6 +216,7 @@
   "profName": [
    "Nazeeruddin"
   ],
+  "courseCredit": "2",
   "courseDesc": "The course is made up of the understanding of the use of advanced materials for Dye-sensitized Solar Cells, Semiconductor Nanoparticles (Q-dots) and Organic Light Emitting Diodes (OLED)."
  },
  {
@@ -204,6 +226,7 @@
   "profName": [
    "Gervais"
   ],
+  "courseCredit": "2",
   "courseDesc": "This course aims at introducing ancient materials and their investigation by non-destructive synchrotron and imaging techniques. Case-studies on paintings, ceramics, stained glass, fossils will be presented and important concepts introduced and discussed (multiscale, heterogeneity, representativity)"
  },
  {
@@ -213,6 +236,7 @@
   "profName": [
    "Zakeeruddin"
   ],
+  "courseCredit": "2",
   "courseDesc": "This class is intended to make students familiar with dye sensitized solar cells. It presents the principle of design and rationalize the influence of various components on the power conversion efficiency of solar cells."
  },
  {
@@ -222,6 +246,7 @@
   "profName": [
    "Waser"
   ],
+  "courseCredit": "3",
   "courseDesc": "This lecture presents the development of catalytic asymmetric reactions in organic chemistry, including important current topics of research in the field."
  },
  {
@@ -231,6 +256,7 @@
   "profName": [
    "Blank"
   ],
+  "courseCredit": "2",
   "courseDesc": "The course will deliver basic knowledge on the principles of food processing and chemical changes occurring during food manufacturing. Specific thermal processes related to transformation of food raw materials will be described along with benefits and challenges to consider."
  },
  {
@@ -240,6 +266,7 @@
   "profName": [
    "Goun"
   ],
+  "courseCredit": "2",
   "courseDesc": "The main goal of the course is to provide students with relevant background on available chemical tools (predominantly small molecules) that are used to solve important problems in biology and medicine."
  },
  {
@@ -249,6 +276,7 @@
   "profName": [
    "Ingle"
   ],
+  "courseCredit": "3",
   "courseDesc": "This course focuses on the electronic structure of atoms, diatomic and polyatomic molecules in order to understand their ultraviolet-visible absorption and photoelectron spectra."
  },
  {
@@ -258,6 +286,7 @@
   "profName": [
    "Richard"
   ],
+  "courseCredit": "2",
   "courseDesc": ""
  },
  {
@@ -267,6 +296,7 @@
   "profName": [
    "Guiducci"
   ],
+  "courseCredit": "3",
   "courseDesc": "The labels \"biosensor\" and \"eBiochip\" have been employed to refer to the most diverse systems and in several fields of application. The course is meant not only to provide means to dig into this sea but also a thoughtful understanding of the detection principles and a design perspective."
  },
  {
@@ -276,6 +306,7 @@
   "profName": [
    "Tileli"
   ],
+  "courseCredit": "3",
   "courseDesc": "This course is an introduction to the concepts and associated relevant physics and materials science principles of what makes nanomaterials outperform their bulk counterparts. It will cover their synthesis and characterization as well as the physical and chemical properties at the nanoscale."
  },
  {
@@ -285,6 +316,7 @@
   "profName": [
    "Frauenrath"
   ],
+  "courseCredit": "3",
   "courseDesc": "This course will introduce students to the structural requirements of charge transport in organic materials as well as synthetic methods for their preparation."
  },
  {
@@ -294,6 +326,7 @@
   "profName": [
    ""
   ],
+  "courseCredit": "2",
   "courseDesc": "The molecular and chemical basis of diseases and therapies are discussed."
  },
  {
@@ -303,6 +336,7 @@
   "profName": [
    "Wagnières"
   ],
+  "courseCredit": "2",
   "courseDesc": "The most important clinical diagnostic and therapeutic applications of light will be described. In addition, this course will address the principles governing the interactions between light and biological tissues, their optical properties and basic concepts in photobiology and photochemistry."
  },
  {
@@ -312,6 +346,7 @@
   "profName": [
    "Klok-Lermann"
   ],
+  "courseCredit": "3",
   "courseDesc": "The student has a basic understanding of the physical and physicochemical principles which result from the chainlike structure of synthetic macromolecules. The student can predict major characteristics of a polymer from its chemical structure and molecular architecture."
  },
  {
@@ -321,6 +356,7 @@
   "profName": [
    "Klok"
   ],
+  "courseCredit": "3",
   "courseDesc": "Know modern methods of polymer synthesis. Understand how parameters, which determine polymer structure and properties, such as molecular weight, molecular weight distribution, topology, microstructure can be controlled by proper choice of polymerization method and optimization of reaction condition"
  },
  {
@@ -330,6 +366,7 @@
   "profName": [
    "Meyer"
   ],
+  "courseCredit": "2",
   "courseDesc": "This course aims to enable students to master the methodology and associated tools for modern risk management with an engineering perspective. It highlights the different actors, resources available and objectives to achieve while remaining economically and socially sustainable."
  },
  {
@@ -339,6 +376,7 @@
   "profName": [
    "Severin"
   ],
+  "courseCredit": "2",
   "courseDesc": "The course provides an introduction to supramolecular chemistry. In addition, current trends are discussed using recent publications in this area."
  },
  {
@@ -347,7 +385,8 @@
   "courseSection": "CGC",
   "profName": [
    "Profs divers"
-  ]
+  ],
+  "courseCredit": "6"
  },
  {
   "courseName": "Project in molecular sciences Ib",
@@ -355,7 +394,8 @@
   "courseSection": "CGC",
   "profName": [
    "Profs divers"
-  ]
+  ],
+  "courseCredit": "12"
  },
  {
   "courseName": "HSS : Introduction to project",
@@ -363,7 +403,8 @@
   "courseSection": "SHS",
   "profName": [
    "Divers enseignants"
-  ]
+  ],
+  "courseCredit": "3"
  },
  {
   "courseName": "HSS : Project",
@@ -371,7 +412,8 @@
   "courseSection": "SHS",
   "profName": [
    "Divers enseignants"
-  ]
+  ],
+  "courseCredit": "3"
  },
  {
   "courseName": "Project in molecular sciences II",
@@ -379,6 +421,7 @@
   "courseSection": "CGC",
   "profName": [
    "Profs divers"
-  ]
+  ],
+  "courseCredit": "30"
  }
 ]

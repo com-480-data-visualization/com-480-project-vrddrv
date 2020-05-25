@@ -5,7 +5,8 @@
   "courseSection": "DH",
   "profName": [
    "Profs divers"
-  ]
+  ],
+  "courseCredit": "30"
  },
  {
   "courseName": "Engineering internship (master in digital humanities)",
@@ -14,6 +15,7 @@
   "profName": [
    ""
   ],
+  "courseCredit": "30",
   "courseDesc": ""
  },
  {
@@ -23,6 +25,7 @@
   "profName": [
    "West"
   ],
+  "courseCredit": "6",
   "courseDesc": "This course teaches the basic techniques and practical skills required to make sense out of a variety of data, with the help of the most acclaimed software tools in the data science world: pandas, scikit-learn, Spark, etc."
  },
  {
@@ -32,6 +35,7 @@
   "profName": [
    "Gatica-Perez"
   ],
+  "courseCredit": "4",
   "courseDesc": "C"
  },
  {
@@ -41,6 +45,7 @@
   "profName": [
    "Kaplan"
   ],
+  "courseCredit": "6",
   "courseDesc": "This course gives an introduction to the fundamental concepts and methods of the Digital Humanities, both from a theoretical and applied point of view. The course introduces the Digital Humanities circle of processing and interpretation, from data acquisition to new understandings."
  },
  {
@@ -50,6 +55,7 @@
   "profName": [
    "Salzmann"
   ],
+  "courseCredit": "4",
   "courseDesc": "This course aims to introduce the basic principles of machine learning in the context of the digital humanities. We will cover both supervised and unsupervised learning techniques, and study and implement methods to analyze diverse data types, such as images, music and social network data."
  },
  {
@@ -58,7 +64,8 @@
   "courseSection": "SHS",
   "profName": [
    "Divers enseignants"
-  ]
+  ],
+  "courseCredit": "3"
  },
  {
   "courseName": "HSS : Project",
@@ -66,7 +73,8 @@
   "courseSection": "SHS",
   "profName": [
    "Divers enseignants"
-  ]
+  ],
+  "courseCredit": "3"
  },
  {
   "courseName": "Cultural data sculpting",
@@ -75,6 +83,7 @@
   "profName": [
    "Kenderdine"
   ],
+  "courseCredit": "5",
   "courseDesc": "This course will engage novel approaches for visualizing and interacting with cultural heritage archives in immersive virtual environments."
  },
  {
@@ -84,6 +93,7 @@
   "profName": [
    "Henchoz"
   ],
+  "courseCredit": "5",
   "courseDesc": "How can we turn digital technologies and data into meaningful user experiences? How can we face societal issues raised by this digital evolution? This course proposes an immersion in design research and UX/UI psychology. It will combine theory, case study, practice and creativity"
  },
  {
@@ -93,6 +103,7 @@
   "profName": [
    "Rohrmeier"
   ],
+  "courseCredit": "5",
   "courseDesc": "This course will introduce students to the broad range of topics in digital musicology as well as essential theoretical approaches and methods. In the practical part, students will carry out a small course project on their own."
  },
  {
@@ -102,6 +113,7 @@
   "profName": [
    "Baudry"
   ],
+  "courseCredit": "5",
   "courseDesc": "The course will present a number of computational approaches and tools that can be used to study history. Drawing on case studies from the history of science and technology, the course will also offer students the opportunity to critically reflect on their own practices as digital humanists."
  },
  {
@@ -111,6 +123,7 @@
   "profName": [
    "Jakob"
   ],
+  "courseCredit": "6",
   "courseDesc": "This course covers advanced 3D graphics techniques for realistic image synthesis. Students will learn how light interacts with objects in our world, and how to recreate these phenomena in a computer simulation to create synthetic images that are indistinguishable from photographs."
  },
  {
@@ -121,6 +134,7 @@
    "Faller",
    "Kolundzija"
   ],
+  "courseCredit": "5",
   "courseDesc": "The objective of the course is to introduce theory, methods, ans basic psychoacoustics that is needed to understand state-of-the-art techniques used in pro audio and consumer audio, including microphones, surround sound, mixing and audio coding."
  },
  {
@@ -130,6 +144,7 @@
   "profName": [
    "Bourlard"
   ],
+  "courseCredit": "3",
   "courseDesc": "The goal of this course is to provide the students with the main formalisms, models and algorithms required for the implementation of advanced speech processing applications (involving, among others, speech coding, speech analysis/synthesis, and speech recognition)."
  },
  {
@@ -139,6 +154,7 @@
   "profName": [
    "Süsstrunk"
   ],
+  "courseCredit": "5",
   "courseDesc": "The students will gain the theoretical knowledge in computational photography, which allows recording and processing a richer visual experience than traditional digital imaging. They will also execute practical group projects to develop their own computational photography application."
  },
  {
@@ -148,6 +164,7 @@
   "profName": [
    "Fua"
   ],
+  "courseCredit": "4",
   "courseDesc": "Computer Vision aims at modeling the world from digital images acquired using video or infrared cameras, and other imaging sensors.\n\nWe will focus on images acquired using digital cameras. We will introduce basic processing techniques and discuss their field of applicability."
  },
  {
@@ -157,6 +174,7 @@
   "profName": [
    "Ailamaki"
   ],
+  "courseCredit": "7",
   "courseDesc": "This course is intended for students who want to understand modern large-scale data analysis systems and database systems. It covers a wide range of topics and technologies, and will prepare students to be able to build such systems as well as read and understand recent research publications."
  },
  {
@@ -166,6 +184,7 @@
   "profName": [
    "Vuillon"
   ],
+  "courseCredit": "4",
   "courseDesc": "Understanding why and how to present complex data interactively in an effective manner has become a crucial skill for any data scientist. In this course, you will learn how to design, judge, build and present your own interactive data visualizations."
  },
  {
@@ -176,6 +195,7 @@
    "Dougui",
    "Hillel"
   ],
+  "courseCredit": "4",
   "courseDesc": "Introduction to operations research, data mining and machine learning algorithms for decision support in transportation systems."
  },
  {
@@ -185,6 +205,7 @@
   "profName": [
    "Fleuret"
   ],
+  "courseCredit": "4",
   "courseDesc": "The objective of this course is to provide a complete introduction to deep machine learning. How to design a neural network, how to train it, and what are the modern techniques that specifically handle very large networks."
  },
  {
@@ -194,6 +215,7 @@
   "profName": [
    "Pauly"
   ],
+  "courseCredit": "5",
   "courseDesc": "Students study & apply core concepts and algorithms for digital geometry processing. They create their own digital and physical geometry that follows the digital 3D content creation pipeline from data acquisition, geometry processing, to physical fabrication."
  },
  {
@@ -204,6 +226,7 @@
    "Dillenbourg",
    "Jermann"
   ],
+  "courseCredit": "4",
   "courseDesc": "This course addresses the relationship between specific technological features and the learners' cognitive processes. It also covers the methods and results of empirical studies on this topic: do student actually learn due to technologies?"
  },
  {
@@ -213,6 +236,7 @@
   "profName": [
    "Aberer"
   ],
+  "courseCredit": "4",
   "courseDesc": "This course introduces the key concepts and algorithms from the areas of information retrieval, data mining and knowledge bases, which constitute the foundations of today's Web-based distributed information systems."
  },
  {
@@ -222,6 +246,7 @@
   "profName": [
    "Joost"
   ],
+  "courseCredit": "4",
   "courseDesc": "This course teaches how to apply spatial exploratory approaches and processing methods and to apply them to georeferenced datasets relevant to the fields of environmental engineering, urban planning and spatial epidemiology."
  },
  {
@@ -231,6 +256,7 @@
   "profName": [
    "Picon"
   ],
+  "courseCredit": "3",
   "courseDesc": ""
  },
  {
@@ -240,6 +266,7 @@
   "profName": [
    "Pu Faltings"
   ],
+  "courseCredit": "4",
   "courseDesc": "This course focuses on goal-directed design and interaction design, two subjects treated in depth in the Cooper book (see reference below). To practice these two methods, we propose a design challenge, which is to be carried out by a team of three students."
  },
  {
@@ -249,6 +276,7 @@
   "profName": [
    "Ebrahimi"
   ],
+  "courseCredit": "6",
   "courseDesc": "This course covers fundamental notions in image and video processing, as well as covers most popular tools used, such as edge detection, motion estimation, segmentation, and compression. It is composed of lectures, laboratory sessions, and mini-projects."
  },
  {
@@ -259,6 +287,7 @@
    "Unser",
    "Van De Ville"
   ],
+  "courseCredit": "3",
   "courseDesc": "Introduction to the basic techniques of image processing. Introduction to the development of image-processing software and to prototyping in JAVA. Application to real-world examples in industrial vision and biomedical imaging."
  },
  {
@@ -271,6 +300,7 @@
    "Unser",
    "Van De Ville"
   ],
+  "courseCredit": "3",
   "courseDesc": "Study of advanced image processing; mathematical imaging. Development of image-processing software and prototyping in JAVA; application to real-world examples in industrial vision and biomedical imaging."
  },
  {
@@ -282,6 +312,7 @@
    "Telatar",
    "Urbanke"
   ],
+  "courseCredit": "6",
   "courseDesc": "Information Theory and Signal Processing are key underpinnings of Data Science. They provide frameworks for signal representation and for fundamental performance bounds."
  },
  {
@@ -291,6 +322,7 @@
   "profName": [
    "Hautecoeur"
   ],
+  "courseCredit": "3",
   "courseDesc": ""
  },
  {
@@ -301,6 +333,7 @@
    "Chappelier",
    "Rajman"
   ],
+  "courseCredit": "4",
   "courseDesc": "The objective of this course is to present the main models, formalisms and algorithms necessary for the development of applications in the field of natural language information processing. The concepts introduced during the lectures will be applied during practical sessions."
  },
  {
@@ -310,6 +343,7 @@
   "profName": [
    "Panaretos"
   ],
+  "courseCredit": "5",
   "courseDesc": "Regression modelling is a basic tool of statistics, because it describes how one variable may depend on another. The aim of this course is to familiarize students with the basis of regression modelling, and of some related topics."
  },
  {
@@ -320,6 +354,7 @@
    "Jaggi",
    "Urbanke"
   ],
+  "courseCredit": "7",
   "courseDesc": "Machine learning and data analysis are becoming increasingly central in many sciences and applications. In this course, fundamental principles and methods of machine learning will be introduced, analyzed and practically implemented."
  },
  {
@@ -330,6 +365,7 @@
    "Berne",
    "Golay"
   ],
+  "courseCredit": "5",
   "courseDesc": "The main objective is to make the students understand the importance of the spatial issues in environmental sciences and engineering, for example for mapping and interpolation. Presentation of different concepts and techniques devoted to spatial data."
  },
  {
@@ -339,6 +375,7 @@
   "profName": [
    "Eckardt"
   ],
+  "courseCredit": "4",
   "courseDesc": "This course teaches students the power of building and implementing marketing strategies in order to help businesses to commercialize successfully their technological innovations.  \nIt offers a large overview of modern marketing and is not suited for students with advances market knowledge."
  },
  {
@@ -348,6 +385,7 @@
   "profName": [
    "Younge"
   ],
+  "courseCredit": "4",
   "courseDesc": "Students will learn core concepts that can make innovation projects more successful and profitable, and to then apply those concepts to real business cases of known successes and failures with a focus on the economic and organizational conditions that advance technological innovation by firms"
  },
  {
@@ -359,6 +397,7 @@
    "Paternault",
    "Soubeyrand"
   ],
+  "courseCredit": "4",
   "courseDesc": "C"
  },
  {
@@ -371,6 +410,7 @@
    "Pattaroni",
    "Villaret"
   ],
+  "courseCredit": "4",
   "courseDesc": ""
  },
  {
@@ -380,6 +420,7 @@
   "profName": [
    "Hautecoeur"
   ],
+  "courseCredit": "4",
   "courseDesc": ""
  },
  {
@@ -389,6 +430,7 @@
   "profName": [
    "Boulic"
   ],
+  "courseCredit": "4",
   "courseDesc": "The goal of VR is to embed the users in a potentially complex virtual environment while ensuring that they are able to react as if this environment were real. The course provides a human perception-action background and describes the key techniques for achieving efficient VR applications."
  },
  {
@@ -398,6 +440,7 @@
   "profName": [
    "Braghieri"
   ],
+  "courseCredit": "3",
   "courseDesc": ""
  }
 ]

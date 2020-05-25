@@ -5,7 +5,8 @@
   "courseSection": "SIE",
   "profName": [
    "Profs divers"
-  ]
+  ],
+  "courseCredit": "0"
  },
  {
   "courseName": "Master project in Environmental Sciences and Engineering",
@@ -13,7 +14,8 @@
   "courseSection": "SIE",
   "profName": [
    "Profs divers"
-  ]
+  ],
+  "courseCredit": "30"
  },
  {
   "courseName": "Design project",
@@ -21,7 +23,8 @@
   "courseSection": "SIE",
   "profName": [
    "Profs divers"
-  ]
+  ],
+  "courseCredit": "10"
  },
  {
   "courseName": "ENAC project",
@@ -29,7 +32,8 @@
   "courseSection": "GC",
   "profName": [
    "Profs divers"
-  ]
+  ],
+  "courseCredit": "4"
  },
  {
   "courseName": "SIE project",
@@ -37,7 +41,8 @@
   "courseSection": "SIE",
   "profName": [
    "Profs divers"
-  ]
+  ],
+  "courseCredit": "4"
  },
  {
   "courseName": "Summer workshop",
@@ -45,7 +50,8 @@
   "courseSection": "GC",
   "profName": [
    "Profs divers"
-  ]
+  ],
+  "courseCredit": "4"
  },
  {
   "courseName": "HSS : Introduction to project",
@@ -53,7 +59,8 @@
   "courseSection": "SHS",
   "profName": [
    "Divers enseignants"
-  ]
+  ],
+  "courseCredit": "3"
  },
  {
   "courseName": "HSS : Project",
@@ -61,7 +68,8 @@
   "courseSection": "SHS",
   "profName": [
    "Divers enseignants"
-  ]
+  ],
+  "courseCredit": "3"
  },
  {
   "courseName": "Air pollution and climate change",
@@ -71,6 +79,7 @@
    "Reimann Bhend",
    "Takahama"
   ],
+  "courseCredit": "5",
   "courseDesc": "A survey course describing the origins of air pollution and climate change"
  },
  {
@@ -81,6 +90,7 @@
    "Crouzy",
    "Porté Agel"
   ],
+  "courseCredit": "5",
   "courseDesc": "The course aims at introducing basic physical aspects of molecular and turbulent diffusion, as well as of dispersion processes, their mathematical modeling, solutions and related environmental applications"
  },
  {
@@ -91,6 +101,7 @@
    "Gervaix",
    "Merminod"
   ],
+  "courseCredit": "5",
   "courseDesc": "The students learn several techniques for spatial mesurements, such as geodesy, aerial photogrammetry and laser scanning. They will be able to collaborate with geologists and civil engineers to master natural risks (landslides, avalanches) and to maintain infrastructures."
  },
  {
@@ -101,6 +112,7 @@
    "Berne",
    "Golay"
   ],
+  "courseCredit": "5",
   "courseDesc": "The main objective is to make the students understand the importance of the spatial issues in environmental sciences and engineering, for example for mapping and interpolation. Presentation of different concepts and techniques devoted to spatial data."
  },
  {
@@ -111,6 +123,7 @@
    "Holliger",
    "von Gunten"
   ],
+  "courseCredit": "5",
   "courseDesc": "This course on water and wastewater treatment shows how to implement and design different methods and techniques to eliminate organic matter, nitrogen and phosporous from wastewater, and how to apply physical and chemical methods and techniques to produce drinking water."
  },
  {
@@ -120,6 +133,7 @@
   "profName": [
    "Rinaldo"
   ],
+  "courseCredit": "5",
   "courseDesc": "Water resources engineering designs systems to control the quantity, quality, timing, and distribution of water to support human demands and the needs of the environment."
  },
  {
@@ -130,6 +144,7 @@
    "Botteron",
    "Skaloud"
   ],
+  "courseCredit": "4",
   "courseDesc": "All  fundamental principles behind modern satellite positioning to acquire,  track and evaluate direct and indirect satellite signals and process them in relation to example applications: Earth monitoring (landslides,...), high precision positioning (automated driving, robots,...) and time transfer."
  },
  {
@@ -139,6 +154,7 @@
   "profName": [
    "Berriot"
   ],
+  "courseCredit": "3",
   "courseDesc": ""
  },
  {
@@ -148,6 +164,7 @@
   "profName": [
    "Mattle"
   ],
+  "courseCredit": "3",
   "courseDesc": "This course on applied wastewater treatment focuses on engineering and scientific aspects to achieve high effluent water quality and to handle wastes and air emissions generated in wastewater treatment plants."
  },
  {
@@ -157,6 +174,7 @@
   "profName": [
    "Adam"
   ],
+  "courseCredit": "2",
   "courseDesc": ""
  },
  {
@@ -166,6 +184,7 @@
   "profName": [
    "Meibom"
   ],
+  "courseCredit": "4",
   "courseDesc": "Understanding process and role of biomineralization (minerals formed by living organisms) in context of Earth's evolution,global chemical cycles, climatic changes and remediation."
  },
  {
@@ -175,6 +194,7 @@
   "profName": [
    "Dubey"
   ],
+  "courseCredit": "3",
   "courseDesc": ""
  },
  {
@@ -184,6 +204,7 @@
   "profName": [
    "Soutter"
   ],
+  "courseCredit": "4",
   "courseDesc": ""
  },
  {
@@ -194,6 +215,7 @@
    "Hostettler",
    "Schönenberger"
   ],
+  "courseCredit": "4",
   "courseDesc": "This course teaches the fundamentals of technologies for development (Development Engineering) to design, pilot, and evaluate appropriate, affordable and robust technologies to address sustainable development challenges (e.g. poverty, environmental degradation) in emerging and developing countries."
  },
  {
@@ -203,6 +225,7 @@
   "profName": [
    "Aberer"
   ],
+  "courseCredit": "4",
   "courseDesc": "This course introduces the key concepts and algorithms from the areas of information retrieval, data mining and knowledge bases, which constitute the foundations of today's Web-based distributed information systems."
  },
  {
@@ -212,6 +235,7 @@
   "profName": [
    "Martinoli"
   ],
+  "courseCredit": "5",
   "courseDesc": "The goal of this course is to provide methods and tools for modeling distributed intelligent systems as well as designing and optimizing coordination strategies. The course is a well-balanced mixture of theory and practical activities using simulation and real hardware platforms."
  },
  {
@@ -222,6 +246,7 @@
    "Maréchal",
    "Nguyen"
   ],
+  "courseCredit": "3",
   "courseDesc": "The goal of the lecture is to present the principles of the energy conversion for conventional and renewable energy resources and to explain the most important parameters that define the energy conversion efficiency, resources implications and economics of the energy conversion technologies."
  },
  {
@@ -231,6 +256,7 @@
   "profName": [
    "Deront"
   ],
+  "courseCredit": "5",
   "courseDesc": ""
  },
  {
@@ -240,6 +266,7 @@
   "profName": [
    ""
   ],
+  "courseCredit": "2",
   "courseDesc": "Linking together the elements of a research project. Basic principles of designing experiments and observational studies. Statistical model of Multiple regressions and Analysis of variance, as special cases of the general linear model, Data analysis with the statistical software R."
  },
  {
@@ -249,6 +276,7 @@
   "profName": [
    "Joost"
   ],
+  "courseCredit": "4",
   "courseDesc": "This course teaches how to apply spatial exploratory approaches and processing methods and to apply them to georeferenced datasets relevant to the fields of environmental engineering, urban planning and spatial epidemiology."
  },
  {
@@ -258,6 +286,7 @@
   "profName": [
    "Kohn"
   ],
+  "courseCredit": "4",
   "courseDesc": "The student will learn the important processes that control the transport and transformation of organic chemicals in the environment, as well as the formulation and solution of quantitative models to describe these processes."
  },
  {
@@ -269,6 +298,7 @@
    "Gómez Gener",
    "Peter"
   ],
+  "courseCredit": "4",
   "courseDesc": "Stream and river ecosystems are increasingly deteriorated owing to global change and climate change. Students will understand basic physical, chemical and biological processes in streams and rivers, and how they relate to ecosystem health and integrity ."
  },
  {
@@ -280,6 +310,7 @@
    "Arborino",
    "De Cesare"
   ],
+  "courseCredit": "3",
   "courseDesc": ""
  },
  {
@@ -289,6 +320,7 @@
   "profName": [
    "Bernier-Latmani"
   ],
+  "courseCredit": "4",
   "courseDesc": "This course covers the essential knowledge of contaminant partitioning and techniques to monitor chemical species, physical extent of contamination and biological processes. In the second part, remediation approaches are tackled. This course represents the fundamentals of remediation."
  },
  {
@@ -298,6 +330,7 @@
   "profName": [
    "Holliger"
   ],
+  "courseCredit": "3",
   "courseDesc": "This course aims at providing a solid methodological foundation for understanding the principles and the applicability of geophysical techniques relevant for addressing hydrogeological and related environmental problems. The goal is to provide students with pertinent decision making capabilities."
  },
  {
@@ -307,6 +340,7 @@
   "profName": [
    "Ancey"
   ],
+  "courseCredit": "3",
   "courseDesc": ""
  },
  {
@@ -316,6 +350,7 @@
   "profName": [
    "de Morsier"
   ],
+  "courseCredit": "3",
   "courseDesc": "This course covers optical remote sensing from satellites and airborne platforms. The different systems are presented. The students will acquire skills in image processing and machine learning to extract end-products, such as land cover or risk maps, from the images."
  },
  {
@@ -326,6 +361,7 @@
    "Unser",
    "Van De Ville"
   ],
+  "courseCredit": "3",
   "courseDesc": "Introduction to the basic techniques of image processing. Introduction to the development of image-processing software and to prototyping in JAVA. Application to real-world examples in industrial vision and biomedical imaging."
  },
  {
@@ -337,6 +373,7 @@
    "Helfer",
    "Schmidt"
   ],
+  "courseCredit": "3",
   "courseDesc": ""
  },
  {
@@ -347,6 +384,7 @@
    "Ailamaki",
    "Koch"
   ],
+  "courseCredit": "4",
   "courseDesc": "This course provides a deep understanding of the concepts behind data management systems. It covers fundamental data management topics such as system architecture, data models, query processing and optimization, database design, storage organization, and transaction management."
  },
  {
@@ -354,8 +392,10 @@
   "courseCode": "ENV-460",
   "courseSection": "SIE",
   "profName": [
-   ""
+   "Leroy",
+   "Wermelinger"
   ],
+  "courseCredit": "3",
   "courseDesc": "C"
  },
  {
@@ -365,6 +405,7 @@
   "profName": [
    "Wüest"
   ],
+  "courseCredit": "5",
   "courseDesc": "Focus is on lakes, rivers and reservoirs as aquatic systems. Specific is the quantitative analyse (incl. exercises) of physical, biogeochemical and sedimentological processes / interactions. The goal is to understand the relevant processes (focus on water quality) from an engineering perspective."
  },
  {
@@ -376,6 +417,7 @@
    "Massard",
    "Moreau"
   ],
+  "courseCredit": "4",
   "courseDesc": "This course provides the bases to understand material and energy production and consumption processes. Students learn how to develop a material flow analysis and apply it to cases of resource management. They analyze the implications of their models on resource use, economic activities and policy."
  },
  {
@@ -386,6 +428,7 @@
    "Buttler",
    "Quezada Rivera"
   ],
+  "courseCredit": "4",
   "courseDesc": "Introduction to multivariate data analysis and modelling. The course helps for a critical choice of methods and their integration in a research planning. It prepares for complexe data analysis in various fields of environemental sciences. Use of dedicated R libraries"
  },
  {
@@ -397,6 +440,7 @@
    "Huwald",
    "Lehning"
   ],
+  "courseCredit": "4",
   "courseDesc": "This course covers principles of snow physics, snow hydrology, snow-atmosphere interaction and snow modeling. It transmits sound understanding of physical processes within the snow and at its interfaces with the atmosphere and the ground, including field, laboratory, and modeling techniques."
  },
  {
@@ -406,6 +450,7 @@
   "profName": [
    "Leterrier"
   ],
+  "courseCredit": "2",
   "courseDesc": "Students understand the issues and key factors of a waste recycling process. They know the sorting and recycling technologies of various materials and are able to compare the environmental impact of recycling with that of using raw material resources."
  },
  {
@@ -416,6 +461,7 @@
    "De Cesare",
    "Gostner"
   ],
+  "courseCredit": "3",
   "courseDesc": ""
  },
  {
@@ -425,6 +471,7 @@
   "profName": [
    "Marks"
   ],
+  "courseCredit": "2",
   "courseDesc": "This MSc course deals with the water, sanitation and solid waste challenges in developing countries. You will learn about the current dialogue in these topics, identify key players, know existing options of water & sanitation technologies, and be able to design and evaluate a technical project."
  },
  {
@@ -434,6 +481,7 @@
   "profName": [
    "Skaloud"
   ],
+  "courseCredit": "4",
   "courseDesc": "Determination of spatial orientation (i.e. position, velocity, attitude) via integration of inertial sensors with satellite positioning. Prerequisite for many applications related to remote sensing, environmental monitoring, mobile mapping, robotics, space exploration, smart-phone navigation, etc."
  },
  {
@@ -443,6 +491,7 @@
   "profName": [
    "Ludwig"
   ],
+  "courseCredit": "4",
   "courseDesc": "The book \"Solid Waste Engineering - A Global Perspective\" is the basis for this course. This textbook is an excellent introduction to the field of Solid Waste Engineering and gives insight into relevant solid waste treatment technologies and practices."
  },
  {
@@ -452,6 +501,7 @@
   "profName": [
    "Golay"
   ],
+  "courseCredit": "3",
   "courseDesc": "The course deals with the methods and instruments supporting decision processes in the geographical space. The focus is on multi-criteria decision analysis, with the special requirements carried by space-related scenarios and solutions, and by the participatory processes among numerous stakeholders."
  },
  {
@@ -462,6 +512,7 @@
    "Binder Signer",
    "Merino"
   ],
+  "courseCredit": "3",
   "courseDesc": "This course provides students with the ability to critically reflect on sustainability and perform a sustainability assessment based of problems in urban areas. At the end of the course students are able to develop a own sustainability assessment with the Sustainability Solution Space methodology."
  },
  {
@@ -471,6 +522,7 @@
   "profName": [
    "Baracchini"
   ],
+  "courseCredit": "2",
   "courseDesc": ""
  },
  {
@@ -480,6 +532,7 @@
   "profName": [
    "Rossi"
   ],
+  "courseCredit": "4",
   "courseDesc": ""
  },
  {
@@ -489,6 +542,7 @@
   "profName": [
    ""
   ],
+  "courseCredit": "4",
   "courseDesc": "This course builds on environmental chemistry and microbiology taken in previous courses. The emphasis is on quantification using the public domain package, PHREEQC, which is an excellent computation tool. Numerous applications are investigated during the course."
  },
  {
@@ -499,6 +553,7 @@
    "Davalle",
    "Droz"
   ],
+  "courseCredit": "2",
   "courseDesc": ""
  },
  {
@@ -508,6 +563,7 @@
   "profName": [
    "Vernez"
   ],
+  "courseCredit": "3",
   "courseDesc": ""
  }
 ]
