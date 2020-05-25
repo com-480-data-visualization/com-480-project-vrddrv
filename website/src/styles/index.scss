@@ -13,12 +13,11 @@ figure {
   padding: 0;
   margin: 0;
   border: 0;
-  overflow: hidden
+  overflow: hidden;
 }
 
 /* Default font and size */
 body {
-
   /* center vertically */
   //display: flex;
   //flex-flow: row nowrap;
@@ -37,58 +36,67 @@ svg {
   text-anchor: middle;
   dominant-baseline: central;
   overflow: hidden;
+
+  g {
+    -webkit-filter: drop-shadow(12px 12px 7px rgba(0,0,0,0.5));      
+    filter: drop-shadow(12px 12px 7px rgba(0,0,0,0.5));  
+
+  }
 }
 
-#drop_zone rect {
-  fill: gray;
-  opacity: 0.5;
-  stroke-width: 2;
-  stroke: white;
+#circular_plot {
+  circle {
+    fill: #FFC400;
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.5);
+  }
+
+  text {
+    fill: #fff;
+  }
+
+  #circular_plot_core {
+    text {
+      fill: #333333
+    }
+  }
+
+  font-family: Roboto;
+  font-style: normal;
+
+  .class_core path {
+    fill: #c90035;
+    border-radius: 10px;
+  }
+
+  .class_optional path {
+    fill: #96043e;
+  }
+
+  .class_shs path {
+    fill: #5b1546;
+  }
+
+  .class_core_suggestion path {
+    fill: lightgreen;
+  }
+
+  .class_optional_suggestion path {
+    fill: lightblue;
+  }
+
+  .class_shs_suggestion path {
+    fill: lightcoral;
+  }
+
+  .petals {
+    font-size: 6px;
+  }
+
+  #GPA {
+    font-size: 20px;
+  }
 }
 
-#drop_zone text {
-  fill: white;
-}
-
-#circular_plot circle {
-  fill: orange;
-}
-
-#circular_plot text {
-  fill: white;
-}
-
-#circular_plot .class_core path {
-  fill: green;
-}
-
-#circular_plot .class_optional path {
-  fill: blue;
-}
-
-#circular_plot .class_shs path {
-  fill: red;
-}
-
-#circular_plot .class_core_suggestion path {
-  fill: lightgreen;
-}
-
-#circular_plot .class_optional_suggestion path {
-  fill: lightblue;
-}
-
-#circular_plot .class_shs_suggestion path {
-  fill: lightcoral;
-}
-
-.petals {
-  font-size: 6px;
-}
-
-#GPA {
-  font-size: 20px;
-}
 
 #header text {
   font-size: 14px;
@@ -101,7 +109,6 @@ svg {
   fill: white;
   font-family: "Palatino", "serif";
   text-anchor: start;
-  
 }
 
 .legend {
@@ -111,7 +118,7 @@ svg {
 
 body {
   overflow-x: hidden;
-  overflow-y: auto;
+  overflow-y: hidden;
 }
 
 text {
@@ -123,9 +130,9 @@ line {
 }
 
 line#limit {
-   stroke: #FED966;
-   stroke-width: 1;
-   stroke-dasharray: 2;
+  stroke: #fed966;
+  stroke-width: 1;
+  stroke-dasharray: 2;
 }
 
 .grid path {
@@ -139,14 +146,14 @@ line#limit {
 
 text.divergence {
   font-size: 0px;
-  fill: #2F4A6D;
+  fill: #2f4a6d;
 }
 
 text.value {
   font-size: 5px;
 }
 
-.LoadingElement{
+.LoadingElement {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -154,46 +161,8 @@ text.value {
   margin-left: -50px;
   width: 100px;
   height: 100px;
-}​
-
-.DropZone {
-  position: absolute;
-  width: 1070px;
-  height: 333px;
-  left: 185px;
-  top: 454px;
-
-  /* MainGrey */
-  background: #F0F0F0;
-  /* GreyHeavy */
-  border: 2px dashed #8C8C8C;
-
-  box-sizing: border-box;
-  border-radius: 20px;
-
-  h1 {
-    position: absolute;
-    left: 26.67%;
-    right: 26.67%;
-    top: 21.62%;
-    bottom: 25.83%;
-
-    /* Common */
-
-    font-family: Apple SD Gothic Neo;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 29px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-
-    color: #000000;
-  }
 }
-
-text.title {
+​ text.title {
   font-size: 8px;
   font-weight: 500;
 }

@@ -34,7 +34,7 @@ export function CircularPlot(props) {
   let arcGenerator = d3
     .arc()
     .innerRadius(props.circPlotRadius)
-    .cornerRadius(2)
+    .cornerRadius(3)
     .outerRadius(
       (d) => ((d.grade - 3) / 3) * props.petalsLength + props.circPlotRadius
     )
@@ -73,23 +73,6 @@ export function CircularPlot(props) {
     const course = COURSE_DESCRIPTIONS[d.name.toLowerCase()];
     props.setCourse(course);
   };
-
-  // const suggestions = [
-  //   {
-  //     name: "Hueta",
-  //     block: "class_core_suggestion",
-  //     credits: 5,
-  //     creditsBefore: totalCredits,
-  //     grade: 6
-  //   },
-  //   {
-  //     name: "Govno",
-  //     block: "class_optional_suggestion",
-  //     credits: 5,
-  //     creditsBefore: totalCredits + 5,
-  //     grade: 6
-  //   }
-  // ];
 
   return (
     <div style={{ textAlign: "center" }}>
