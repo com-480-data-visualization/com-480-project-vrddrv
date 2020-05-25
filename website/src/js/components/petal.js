@@ -10,7 +10,7 @@ export function Petal(props) {
     from: {
       creditsBefore: 0,
     },
-    config: { duration: props.transitionTimeScale },
+    config: {duration: props.data.block.endsWith("suggestion") ? 0 : props.transitionTimeScale },
   });
   const [animatedProps, setAnimatedProps, _] = useSpring(() => ({
     scale: 1.0,

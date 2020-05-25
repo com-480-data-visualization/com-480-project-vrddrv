@@ -1,5 +1,5 @@
 import React from "react";
-import { Grid, Card, Paper, Container } from "@material-ui/core";
+import { Grid } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 import { TextCard } from "./text_card";
 import { useSpring, a } from "react-spring";

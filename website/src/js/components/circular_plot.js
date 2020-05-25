@@ -34,7 +34,7 @@ export function CircularPlot(props) {
   let arcGenerator = d3
     .arc()
     .innerRadius(props.circPlotRadius)
-    .cornerRadius(2)
+    .cornerRadius(3)
     .outerRadius(
       (d) => ((d.grade - 3) / 3) * props.petalsLength + props.circPlotRadius
     )
@@ -75,7 +75,7 @@ export function CircularPlot(props) {
   };
 
   return (
-    <div style={{ textAlign: "center"}}>
+    <div style={{ textAlign: "center" }}>
       {tooltipData && <Tooltip pos={tooltipPos} data={tooltipData} />}
       <svg id="plot" viewBox="-10 -10 220 220">
         <animated.g id="circular_plot" transform={plot.transform}>
@@ -86,6 +86,24 @@ export function CircularPlot(props) {
             maxNumberCredits={props.maxNumberCredits}
           />
           {props.data.map((d) => {
+            return (
+              <AnimatedPetal
+                key={d.name}
+                data={d}
+                arcGenerator={arcGenerator}
+                petalsLength={props.petalsLength}
+                circPlotRadius={props.circPlotRadius}
+                maxNumberCredits={props.maxNumberCredits}
+                transitionTimeScale={props.transitionTimeScale}
+                startAngle={animatedProps.startAngle}
+                onPetalClick={onPetalClick}
+                setTooltipPos={setTooltipPos}
+                setTooltipData={setTooltipData}
+              />
+            );
+          })}
+          />
+          {props.suggestions.map((d) => {
             return (
               <AnimatedPetal
                 key={d.name}

@@ -4,12 +4,30 @@ import React, { useState } from "react";
 import { Grid, Button, ButtonGroup } from "@material-ui/core";
 import { Grades } from "./grades";
 import { Course } from "./course";
-import '../../styles/grade_screen.scss';
+import { CourseSelection } from "./course_selection";
+import "../../styles/grade_screen.scss";
 
 import { RequirementTable } from "./requirements_table";
 
 export function GradesScreen(props) {
   const [course, setCourse] = useState(null);
+  const [suggestions, setSuggestions] = useState([]);
+  let totalCredits = props.transcript.classes.reduce((v, t) => v + t.credits, 0);
+  const addCourse = (course) => {
+    setSuggestions(
+      suggestions.concat([
+        {
+          name: course[0],
+          block: "class_core_suggestion",
+          credits: 5,
+          creditsBefore:
+            totalCredits +
+            suggestions.reduce((acc, cur) => acc + cur.credits, 0),
+          grade: 6,
+        },
+      ])
+    );
+  };
   return (
     <>
       <ButtonGroup
@@ -24,10 +42,11 @@ export function GradesScreen(props) {
         <Button
           onClick={() => {
             props.setActiveScreen("transcript");
+            setSuggestions([]);
             setCourse(null);
           }}
         >
-          Show credits
+          Reset
         </Button>
         <Button onClick={() => props.setActiveScreen("skills")}>
           Show skills
@@ -44,7 +63,9 @@ export function GradesScreen(props) {
         petalsLength={props.petalsLength}
         course={course}
         setCourse={setCourse}
+        suggestions={suggestions}
       />
+      <CourseSelection addCourse={addCourse} />
     </>
   );
 }
