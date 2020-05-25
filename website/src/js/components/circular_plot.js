@@ -37,7 +37,7 @@ export function CircularPlot(props) {
     return new Date(...d.split(".").reverse());
   }
   data.sort((a, b) => (parseDate(a.sdate) < parseDate(b.sdate) ? -1 : 1));
-  let semesters = [];
+  let semesters = [[null, 0]];
   let currentSemester = 1;
   let currentCredits = 0;
   let currentDate = data[0].sdate;
