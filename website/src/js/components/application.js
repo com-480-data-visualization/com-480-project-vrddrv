@@ -11,6 +11,8 @@ import { parseTranscriptFromPDF } from "../parsing.js";
 const MOCK_TRANSCRIPT = require("../../processed_data/mock_transcript.json");
 
 export function Application(props) {
+
+  // useState is a Hook which returns a pair: the current state value and a function that lets you update it.
   const [activeScreen, setActiveScreen] = useState("dropzone");
   const [transcript, setTranscript] = useState(mockTranscript());
 

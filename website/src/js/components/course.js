@@ -1,8 +1,9 @@
-import React from "react";
+import React, { useRef, useEffect } from "react";
 import { Grid } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 import { TextCard } from "./text_card";
 import { useSpring, a } from "react-spring";
+import {gradeHistogram} from "./grade_histogram";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -21,6 +22,13 @@ export function Course({ course, transitionTimeScale }) {
       duration: transitionTimeScale,
     },
   });
+
+  const plot = useRef();
+  useEffect(() => {
+    if (plot.current && course) {
+      gradeHistogram(plot.current, course.grades_histogram);
+    }
+  }, [plot, course]);
 
   return (
     <a.div className={classes.root} style={spring}>
@@ -42,6 +50,9 @@ export function Course({ course, transitionTimeScale }) {
             title="Course description"
             text={course && course.courseDesc}
           />
+        </Grid>
+        <Grid item xs={12}>
+            <svg id='gradePlot' ref={plot} />
         </Grid>
       </Grid>
     </a.div>
