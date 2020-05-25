@@ -79,12 +79,6 @@ export function CircularPlot(props) {
       {tooltipData && <Tooltip pos={tooltipPos} data={tooltipData} />}
       <svg id="plot" viewBox="-10 -10 220 220">
         <animated.g id="circular_plot" transform={plot.transform}>
-          <AnimatedCenterCircle
-            radius={props.circPlotRadius}
-            gpa={animatedProps.gpa}
-            totalCredits={totalCredits}
-            maxNumberCredits={props.maxNumberCredits}
-          />
           {props.data.map((d) => {
             return (
               <AnimatedPetal
@@ -120,6 +114,12 @@ export function CircularPlot(props) {
               />
             );
           })}
+          <AnimatedCenterCircle
+            radius={props.circPlotRadius}
+            gpa={animatedProps.gpa}
+            totalCredits={totalCredits}
+            maxNumberCredits={props.maxNumberCredits}
+          />
         </animated.g>
       </svg>
     </div>

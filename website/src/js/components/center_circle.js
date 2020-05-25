@@ -6,19 +6,14 @@ import { format } from "d3";
 export function CenterCircle(props) {
   return (
     <g id="circular_plot_core">
-      {/* <defs>
+      <defs>
         <filter id="drop-shadow" x="-100%" y="-100%" width="300%" height="300%">
-          <feGaussianBlur in="SourceAlpha" stdDeviation="2" />
-          <feOffset dx="5" dy="5" result="offsetblur" />
-          <feFlood flood-color="#000000" />
-          <feComposite in2="offsetblur" operator="in" />
-          <feMerge>
-            <feMergeNode />
-            <feMergeNode in="SourceGraphic" />
-          </feMerge>
+          <feOffset result="offOut" in="SourceAlpha" dx="0" dy="0" />
+          <feGaussianBlur result="blurOut" in="offOut" stdDeviation="10" />
+          <feBlend in="SourceGraphic" in2="blurOut" mode="normal" />
         </filter>
-      </defs> */}
-      <circle r={props.radius} />
+      </defs>
+      <circle r={props.radius} filter="url(#drop-shadow)" />
       <text y={-props.radius / 2}>GPA</text>
       <text id="GPA">{format(".3s")(props.gpa)}</text>
       <text y={props.radius / 2}>
