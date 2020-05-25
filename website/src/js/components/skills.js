@@ -23,16 +23,25 @@ function showSkillsForPrograms(
   programsToShow = 7
 ) {
   let programs = new Object();
+  let corePrograms = new Object();
 
   data.forEach((course) => {
     const courseName = course.name.toLowerCase();
     if (courseName in coursePrograms) {
-      coursePrograms[courseName].forEach((program) => {
+      coursePrograms[courseName].forEach(([program, type]) => {
         if (!(program in programs)) {
           programs[program] = [0, []];
         }
         programs[program][0] += course.credits;
         programs[program][1].push([courseName, course.credits]);
+
+        if (!(program in corePrograms)) {
+          corePrograms[program] = [0, []];
+        }
+        if (type === "core") {
+          corePrograms[program][0] += course.credits;
+          corePrograms[program][1].push([courseName, course.credits]);
+        }
       });
     } else {
       console.log(courseName);
@@ -43,8 +52,14 @@ function showSkillsForPrograms(
   programs.sort((a, b) => (a[1][0] < b[1][0] ? 1 : -1));
   programs = programs.slice(0, programsToShow);
 
+  let coreProgramsTmp = new Object();
+  programs.forEach((x) => {
+    coreProgramsTmp[x[0]] = corePrograms[x[0]];
+  });
+  corePrograms = Object.entries(coreProgramsTmp);
+
   var margin = { top: 50, right: 80, bottom: 50, left: 80 };
-    //width = Math.min(700, window.innerWidth / 4) - margin.left - margin.right,
+  //width = Math.min(700, window.innerWidth / 4) - margin.left - margin.right,
   //height = Math.min(width, window.innerHeight - margin.top - margin.bottom);
 
   var radarData = [
@@ -53,21 +68,22 @@ function showSkillsForPrograms(
       axes: [],
       color: "#26AF32",
     },
-    // {
-    //   name: "Core skills",
-    //   axes: [
-    //     { axis: "Data Science", value: 50 },
-    //     { axis: "Computer Science", value: 30 },
-    //     { axis: "Life Science", value: 20 },
-    //     { axis: "Mechanical Engineering", value: 10 },
-    //     { axis: "Cyber Security", value: 35 },
-    //   ],
-    //   color: "#762712",
-    // },
+    {
+      name: "Core skills",
+      axes: [],
+      color: "#762712",
+    },
   ];
 
   programs.forEach((program) => {
     radarData[0].axes.push({
+      axis: prettifyProgramName(program[0]),
+      value: program[1][0],
+      info: program[1][1].sort((a, b) => (a[1] > b[1] ? 1 : -1)),
+    });
+  });
+  corePrograms.forEach((program) => {
+    radarData[1].axes.push({
       axis: prettifyProgramName(program[0]),
       value: program[1][0],
       info: program[1][1].sort((a, b) => (a[1] > b[1] ? 1 : -1)),
@@ -80,7 +96,7 @@ function showSkillsForPrograms(
     margin: margin,
     levels: 5,
     roundStrokes: true,
-    color: d3.scaleOrdinal().range(["#26AF32"]),
+    color: d3.scaleOrdinal().range(["#26AF32", "#762712"]),
     format: ".0f",
   };
 

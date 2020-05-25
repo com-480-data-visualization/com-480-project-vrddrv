@@ -11,7 +11,8 @@ def extract_programs(source_dir):
       courses = json.load(f)
       program = file[:-5]
       for course_info in courses:
-        res[course_info["courseName"].lower()].append(program)
+        is_core = "coreCourse" in course_info and course_info["coreCourse"] == True
+        res[course_info["courseName"].lower()].append((program, "core" if is_core else "opt"))
 
   return res
 
