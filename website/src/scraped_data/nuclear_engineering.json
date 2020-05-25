@@ -67,7 +67,8 @@
   "profName": [
    "Profs divers"
   ],
-  "courseCredit": "4"
+  "courseCredit": "4",
+  "coreCourse": true
  },
  {
   "courseName": "Nuclear fuels and materials",
@@ -76,7 +77,8 @@
   "profName": [
    "Profs divers"
   ],
-  "courseCredit": "4"
+  "courseCredit": "4",
+  "coreCourse": true
  },
  {
   "courseName": "Physics of nuclear reactors",
@@ -88,6 +90,7 @@
    "Pautz"
   ],
   "courseCredit": "4",
+  "coreCourse": true,
   "courseDesc": "In this course, one acquires an understanding of the basic neutronics interactions occurring in a nuclear fission reactor as well as the conditions for establishing and controlling a nuclear chain reaction."
  },
  {
@@ -100,6 +103,7 @@
    "Lamirand"
   ],
   "courseCredit": "4",
+  "coreCourse": true,
   "courseDesc": "The reactor experiments course aims to introduce the students to radiation detection techniques and nuclear reactor experiments. The core of the course is the unique opportunity to conduct reactor experiments, as the control rod calibration, and approach to critical."
  },
  {
@@ -112,6 +116,7 @@
    "Pitzschke"
   ],
   "courseCredit": "4",
+  "coreCourse": true,
   "courseDesc": "An introductory course in the basic concepts of radiation detection and interactions and energy deposition by ionizing radiation in matter, radioisotope production and its applications in medicine, industry and research. The course includes presentations, lecture notes, problem sets and seminars."
  },
  {
@@ -122,6 +127,7 @@
    "Prasser"
   ],
   "courseCredit": "4",
+  "coreCourse": true,
   "courseDesc": "Reactor core cooling, power limits and technological consequences due to fuel, cladding and coolant properties, main principles of reactor and power plant design including auxiliary systems are explained. System technology of most important thermal and fast reactor types is introduced."
  },
  {
@@ -131,7 +137,8 @@
   "profName": [
    "Profs divers"
   ],
-  "courseCredit": "4"
+  "courseCredit": "4",
+  "coreCourse": true
  },
  {
   "courseName": "Semester project nuclear engineering",

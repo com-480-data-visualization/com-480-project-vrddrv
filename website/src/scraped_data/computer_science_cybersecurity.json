@@ -25,6 +25,7 @@
    "Kapralov"
   ],
   "courseCredit": "7",
+  "coreCourse": true,
   "courseDesc": "A first graduate course in algorithms, this course assumes minimal background, but moves rapidly. The objective is to learn the main techniques of algorithm analysis and design, while building a repertory of basic algorithmic solutions to problems in many domains."
  },
  {
@@ -35,6 +36,7 @@
    "Ienne"
   ],
   "courseCredit": "4",
+  "coreCourse": true,
   "courseDesc": "The course studies the most important techniques to exploit Instruction-Level Parallelism and discusses the relation with the critical phases of compilation. It also analyses emerging classes of processors for complex single-chip systems."
  },
  {
@@ -45,6 +47,7 @@
    "Vaudenay"
   ],
   "courseCredit": "7",
+  "coreCourse": true,
   "courseDesc": "This course introduces the basics of cryptography. We review several types of cryptographic primitives, when it is safe to use them and how to select the appropriate security parameters. We detail how they work and sketch how they can be implemented."
  },
  {
@@ -55,6 +58,7 @@
    "Ailamaki"
   ],
   "courseCredit": "7",
+  "coreCourse": true,
   "courseDesc": "This course is intended for students who want to understand modern large-scale data analysis systems and database systems. It covers a wide range of topics and technologies, and will prepare students to be able to build such systems as well as read and understand recent research publications."
  },
  {
@@ -65,6 +69,7 @@
    "Ford"
   ],
   "courseCredit": "6",
+  "coreCourse": true,
   "courseDesc": "A decentralized system is one that works when no single party is in charge or fully trusted. This course teaches decentralized systems principles while guiding students through the development and testing of their own decentralized system incorporating messaging, encryption, and blockchain concepts."
  },
  {
@@ -75,6 +80,7 @@
    "Guerraoui"
   ],
   "courseCredit": "6",
+  "coreCourse": true,
   "courseDesc": "Computing is often distributed over several machines, in a local IP-like network, a cloud or in a P2P network.  Failures are common and computations need to proceed despite partial failures of machines or communication links. The foundations of reliable distributed computing will be studied."
  },
  {
@@ -85,6 +91,7 @@
    "Odersky"
   ],
   "courseCredit": "4",
+  "coreCourse": true,
   "courseDesc": "The course introduces the foundations on which programs and programming languages are built. It introduces syntax, types and semantics as building blocks that together define the properties of a program part or a language. Students will learn how to apply these concepts in their reasoning."
  },
  {
@@ -97,6 +104,7 @@
    "Oechslin"
   ],
   "courseCredit": "6",
+  "coreCourse": true,
   "courseDesc": "This course provides an overview of information security and privacy topics. It introduces students to the knowledge and tools they will need to deal with the security/privacy challenges they are likely to encounter in today's Big Data world. The tools are illustrated with relevant applications"
  },
  {
@@ -108,6 +116,7 @@
    "Urbanke"
   ],
   "courseCredit": "7",
+  "coreCourse": true,
   "courseDesc": "Machine learning and data analysis are becoming increasingly central in many sciences and applications. In this course, fundamental principles and methods of machine learning will be introduced, analyzed and practically implemented."
  },
  {
@@ -118,6 +127,7 @@
    "Le Boudec"
   ],
   "courseCredit": "6",
+  "coreCourse": true,
   "courseDesc": "C"
  },
  {

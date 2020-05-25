@@ -28,6 +28,7 @@
    "Vandergheynst"
   ],
   "courseCredit": "4",
+  "coreCourse": true,
   "courseDesc": "A Network Tour of Data Science\nEE-558    Lecturer(s) : Frossard PascalVandergheynst PierreLanguage:English"
  },
  {
@@ -38,6 +39,7 @@
    "Kuhn"
   ],
   "courseCredit": "4",
+  "coreCourse": true,
   "courseDesc": "This course introduces the theory and application of modern convex optimization from an engineering perspective."
  },
  {
@@ -48,6 +50,7 @@
    "Koukab"
   ],
   "courseCredit": "4",
+  "coreCourse": true,
   "courseDesc": "This course deals with the analyze, design and optimization of  CMOS analog circuits, emphasizing low-power solutions required in a broad range of applications (e.g. IoT, wearables, Biosensors ...). Some examples of mixed-signal design are also addressed."
  },
  {
@@ -58,6 +61,7 @@
    "Matioli"
   ],
   "courseCredit": "4",
+  "coreCourse": true,
   "courseDesc": "This course aims to give a solid introduction to semiconductors, from Silicon to compound semiconductors, making the connection between the physics and their application in real life. We will explore several experimental techniques related to current semiconductor research and development."
  },
  {
@@ -69,6 +73,7 @@
    "Paolone"
   ],
   "courseCredit": "5",
+  "coreCourse": true,
   "courseDesc": "Learn the technologies and methodologies used in the context smart electrical grids and be able to deploy/implement/test them in a lab environment."
  },
  {
@@ -79,6 +84,7 @@
    "Burg"
   ],
   "courseCredit": "4",
+  "coreCourse": true,
   "courseDesc": ""
  },
  {

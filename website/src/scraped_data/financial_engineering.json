@@ -25,6 +25,7 @@
    "Cauvin"
   ],
   "courseCredit": "2",
+  "coreCourse": true,
   "courseDesc": "The objective of the course is to provide participants with financial accounting mechanisms for understanding the financial statements of a company."
  },
  {
@@ -35,6 +36,7 @@
    "Semadeni"
   ],
   "courseCredit": "4",
+  "coreCourse": true,
   "courseDesc": "The course covers basic econometric models and methods that are routinely applied to obtain inference results in economic and financial applications."
  },
  {
@@ -45,6 +47,7 @@
    "Fahlenbrach"
   ],
   "courseCredit": "6",
+  "coreCourse": true,
   "courseDesc": "The course provides a market-oriented framework for analyzing the major types of financial decisions made by firms. It provides an introduction to present value techniques, capital budgeting, asset valuation, the operation and efficiency of financial markets, and other financial decisions of firms."
  },
  {
@@ -55,6 +58,7 @@
    "Lambertini"
   ],
   "courseCredit": "4",
+  "coreCourse": true,
   "courseDesc": "This course provides students with a working knowledge of macroeconomic models that explicitly incorporate financial markets. The goal is to develop a broad and analytical framework for analyzing the interaction of financial decisions, macroeconomic events and policy decisions."
  },
  {
@@ -65,6 +69,7 @@
    "Perazzi"
   ],
   "courseCredit": "2",
+  "coreCourse": true,
   "courseDesc": "This course presents the problem of static optimization, with and without (equality and inequality) constraints, both from the theoretical (optimality conditions) and methodological (algorithms) point of view. Economics and financial applications are provided. Dynamic optimization is also introduced"
  },
  {
@@ -75,6 +80,7 @@
    "Filipovic"
   ],
   "courseCredit": "6",
+  "coreCourse": true,
   "courseDesc": "This course gives an introduction to probability theory and stochastic calculus in discrete and continuous time. We study fundamental notions and techniques necessary for applications in finance such as option pricing and hedging."
  },
  {

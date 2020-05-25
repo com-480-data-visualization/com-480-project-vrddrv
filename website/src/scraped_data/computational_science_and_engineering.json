@@ -61,6 +61,7 @@
    "Picasso"
   ],
   "courseCredit": "5",
+  "coreCourse": true,
   "courseDesc": "The student will learn state-of-the-art algorithms for solving ordinary differential equations, nonlinear systems, and optimization problems. The analysis and implementation of these algorithms will be discussed in some detail."
  },
  {
@@ -71,6 +72,7 @@
    "Kapralov"
   ],
   "courseCredit": "6",
+  "coreCourse": true,
   "courseDesc": "The students learn the theory and practice of basic concepts and techniques in algorithms. The course covers mathematical induction, techniques for analyzing algorithms, elementary data structures, major algorithmic paradigms such as dynamic programming, sorting and searching, and graph algorithms."
  },
  {
@@ -81,6 +83,7 @@
    "Yazyev"
   ],
   "courseCredit": "3",
+  "coreCourse": true,
   "courseDesc": "This course teaches the students practical skills needed for solving modern physics problems by means of computation. A number of examples illustrate the utility of numerical computations in various domains of physics."
  },
  {
@@ -91,6 +94,7 @@
    "Pasquarello"
   ],
   "courseCredit": "4",
+  "coreCourse": true,
   "courseDesc": "The two main topics covered by this course are classical molecular dynamics and the Monte Carlo method."
  },
  {
@@ -102,6 +106,7 @@
    "Van De Ville"
   ],
   "courseCredit": "3",
+  "coreCourse": true,
   "courseDesc": "Introduction to the basic techniques of image processing. Introduction to the development of image-processing software and to prototyping in JAVA. Application to real-world examples in industrial vision and biomedical imaging."
  },
  {
@@ -112,6 +117,7 @@
    "Röthlisberger"
   ],
   "courseCredit": "2",
+  "coreCourse": true,
   "courseDesc": ""
  },
  {
@@ -122,6 +128,7 @@
    "Vazquez Hernandez"
   ],
   "courseCredit": "4",
+  "coreCourse": true,
   "courseDesc": "The course provides an introduction to scientific computing. Several numerical methods are presented for the computer solution of mathematical problems arising in different applications. The software MATLAB is used to solve the problems and verify the theoretical properties of the numerical methods."
  },
  {
@@ -132,6 +139,7 @@
    ""
   ],
   "courseCredit": "5",
+  "coreCourse": true,
   "courseDesc": "In this course we will introduce and study numerical integrators for multi-scale (or stiff) differential equations and dynamical systems with special geometric structures (symplecticity, reversibility, first integrals, etc.). These numerical methods are important for many applications."
  },
  {
@@ -142,6 +150,7 @@
    "Richart"
   ],
   "courseCredit": "4",
+  "coreCourse": true,
   "courseDesc": "This course provides insight into a broad variety of High Performance Computing (HPC) concepts and the majority of modern HPC architectures. Moreover, the student will learn to have a feeling about what architectures are suited for several types of algorithms."
  },
  {
@@ -152,6 +161,7 @@
    "Anciaux"
   ],
   "courseCredit": "4",
+  "coreCourse": true,
   "courseDesc": "The aim of this course is to provide the background in scientific computing. The class includes a brief introduction to basic programming in c++, it then focus on object oriented programming and c++ specific programming techniques."
  },
  {
@@ -162,6 +172,7 @@
    "Candea"
   ],
   "courseCredit": "4",
+  "coreCourse": true,
   "courseDesc": "This course teaches the basics of modern software development, focusing on techniques and practices used to build computer software that meets high standards of quality, reliability, security, and maintainability."
  },
  {

@@ -25,6 +25,7 @@
    "Kapralov"
   ],
   "courseCredit": "7",
+  "coreCourse": true,
   "courseDesc": "A first graduate course in algorithms, this course assumes minimal background, but moves rapidly. The objective is to learn the main techniques of algorithm analysis and design, while building a repertory of basic algorithmic solutions to problems in many domains."
  },
  {
@@ -35,6 +36,7 @@
    "West"
   ],
   "courseCredit": "6",
+  "coreCourse": true,
   "courseDesc": "This course teaches the basic techniques and practical skills required to make sense out of a variety of data, with the help of the most acclaimed software tools in the data science world: pandas, scikit-learn, Spark, etc."
  },
  {
@@ -47,6 +49,7 @@
    "Oechslin"
   ],
   "courseCredit": "6",
+  "coreCourse": true,
   "courseDesc": "This course provides an overview of information security and privacy topics. It introduces students to the knowledge and tools they will need to deal with the security/privacy challenges they are likely to encounter in today's Big Data world. The tools are illustrated with relevant applications"
  },
  {
@@ -59,6 +62,7 @@
    "Urbanke"
   ],
   "courseCredit": "6",
+  "coreCourse": true,
   "courseDesc": "Information Theory and Signal Processing are key underpinnings of Data Science. They provide frameworks for signal representation and for fundamental performance bounds."
  },
  {
@@ -70,6 +74,7 @@
    "Urbanke"
   ],
   "courseCredit": "7",
+  "coreCourse": true,
   "courseDesc": "Machine learning and data analysis are becoming increasingly central in many sciences and applications. In this course, fundamental principles and methods of machine learning will be introduced, analyzed and practically implemented."
  },
  {
@@ -81,6 +86,7 @@
    "Jaggi"
   ],
   "courseCredit": "5",
+  "coreCourse": true,
   "courseDesc": "This course teaches an overview of modern optimization methods, for applications in machine learning and data science. In particular, scalability of algorithms to large datasets will be discussed in theory and in implementation."
  },
  {
@@ -91,6 +97,7 @@
    "Olhede"
   ],
   "courseCredit": "6",
+  "coreCourse": true,
   "courseDesc": "Statistics lies at the foundation of data science, providing a unifying theoretical and methodological backbone for the diverse tasks enountered in this emerging field. This course rigorously develops the key notions and methods of statistics, with an emphasis on concepts rather than techniques."
  },
  {
@@ -101,6 +108,7 @@
    "Koch"
   ],
   "courseCredit": "6",
+  "coreCourse": true,
   "courseDesc": "The course covers fundamental principles for understanding and building systems for managing and analyzing large amounts of data."
  },
  {

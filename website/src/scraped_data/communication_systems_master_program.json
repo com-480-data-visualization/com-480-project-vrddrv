@@ -25,6 +25,7 @@
    "Lévêque"
   ],
   "courseCredit": "6",
+  "coreCourse": true,
   "courseDesc": "In this course, various aspects of probability theory are considered. The first part is devoted to the main theorems in the field (law of large numbers, central limit theorem, concentration inequalities), while the second part focuses on the theory of martingales in discrete time."
  },
  {
@@ -35,6 +36,7 @@
    "Vaudenay"
   ],
   "courseCredit": "7",
+  "coreCourse": true,
   "courseDesc": "This course introduces the basics of cryptography. We review several types of cryptographic primitives, when it is safe to use them and how to select the appropriate security parameters. We detail how they work and sketch how they can be implemented."
  },
  {
@@ -45,6 +47,7 @@
    "Guerraoui"
   ],
   "courseCredit": "6",
+  "coreCourse": true,
   "courseDesc": "Computing is often distributed over several machines, in a local IP-like network, a cloud or in a P2P network.  Failures are common and computations need to proceed despite partial failures of machines or communication links. The foundations of reliable distributed computing will be studied."
  },
  {
@@ -55,6 +58,7 @@
    "Aberer"
   ],
   "courseCredit": "4",
+  "coreCourse": true,
   "courseDesc": "This course introduces the key concepts and algorithms from the areas of information retrieval, data mining and knowledge bases, which constitute the foundations of today's Web-based distributed information systems."
  },
  {
@@ -67,6 +71,7 @@
    "Oechslin"
   ],
   "courseCredit": "6",
+  "coreCourse": true,
   "courseDesc": "This course provides an overview of information security and privacy topics. It introduces students to the knowledge and tools they will need to deal with the security/privacy challenges they are likely to encounter in today's Big Data world. The tools are illustrated with relevant applications"
  },
  {
@@ -77,6 +82,7 @@
    "Telatar"
   ],
   "courseCredit": "7",
+  "coreCourse": true,
   "courseDesc": "The mathematical principles of communication that govern the compression and transmission of data and the design of efficient methods of doing so."
  },
  {
@@ -88,6 +94,7 @@
    "Urbanke"
   ],
   "courseCredit": "7",
+  "coreCourse": true,
   "courseDesc": "Machine learning and data analysis are becoming increasingly central in many sciences and applications. In this course, fundamental principles and methods of machine learning will be introduced, analyzed and practically implemented."
  },
  {
@@ -98,6 +105,7 @@
    "Hubaux"
   ],
   "courseCredit": "4",
+  "coreCourse": true,
   "courseDesc": "This course provides a detailed description of the organization and operating principles of mobile communication networks."
  },
  {
@@ -108,6 +116,7 @@
    "Rimoldi"
   ],
   "courseCredit": "6",
+  "coreCourse": true,
   "courseDesc": "This course complements the theoretical knowledge learned in PDC with more advanced topics such as OFDM, MIMO, fading chancels, and GPS positioning. This knowledge is put into practice with hands-on exercises based on Matlab and on a software-defined radio platform."
  },
  {
@@ -118,6 +127,7 @@
    "Ridolfi"
   ],
   "courseCredit": "6",
+  "coreCourse": true,
   "courseDesc": "Building up on the basic concepts of sampling, filtering and Fourier transforms, we address stochastic modeling, spectral analysis, estimation and prediction, classification, and adaptive filtering, with an application oriented approach and hands-on numerical exercises."
  },
  {
@@ -128,6 +138,7 @@
    "Le Boudec"
   ],
   "courseCredit": "6",
+  "coreCourse": true,
   "courseDesc": "C"
  },
  {
