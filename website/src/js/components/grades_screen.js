@@ -33,7 +33,7 @@ export function GradesScreen(props) {
           Show skills
         </Button>
       </ButtonGroup>
-      <RequirementTable transcript={props.transcript} />
+      {course ? <></> : <RequirementTable transcript={props.transcript} />}
       <Course course={course} transitionTimeScale={props.transitionTimeScale} />
       <Grades
         transcript={props.transcript}
