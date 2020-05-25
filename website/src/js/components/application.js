@@ -1,7 +1,6 @@
 "use strict";
 
 import React, { useState, useEffect } from "react";
-import { Button, ButtonGroup, Grid, Container } from "@material-ui/core";
 import { DropZone } from "./dropzone";
 import { GradesScreen } from "./grades_screen";
 import { SkillsScreen } from "./skills_screen";

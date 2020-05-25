@@ -70,6 +70,18 @@ svg {
   fill: red;
 }
 
+#circular_plot .class_core_suggestion path {
+  fill: lightgreen;
+}
+
+#circular_plot .class_optional_suggestion path {
+  fill: lightblue;
+}
+
+#circular_plot .class_shs_suggestion path {
+  fill: lightcoral;
+}
+
 .petals {
   font-size: 6px;
 }

@@ -74,8 +74,25 @@ export function CircularPlot(props) {
     props.setCourse(course);
   };
 
+  // const suggestions = [
+  //   {
+  //     name: "Hueta",
+  //     block: "class_core_suggestion",
+  //     credits: 5,
+  //     creditsBefore: totalCredits,
+  //     grade: 6
+  //   },
+  //   {
+  //     name: "Govno",
+  //     block: "class_optional_suggestion",
+  //     credits: 5,
+  //     creditsBefore: totalCredits + 5,
+  //     grade: 6
+  //   }
+  // ];
+
   return (
-    <div style={{ textAlign: "center"}}>
+    <div style={{ textAlign: "center" }}>
       {tooltipData && <Tooltip pos={tooltipPos} data={tooltipData} />}
       <svg id="plot" viewBox="-10 -10 220 220">
         <animated.g id="circular_plot" transform={plot.transform}>
@@ -86,6 +103,24 @@ export function CircularPlot(props) {
             maxNumberCredits={props.maxNumberCredits}
           />
           {props.data.map((d) => {
+            return (
+              <AnimatedPetal
+                key={d.name}
+                data={d}
+                arcGenerator={arcGenerator}
+                petalsLength={props.petalsLength}
+                circPlotRadius={props.circPlotRadius}
+                maxNumberCredits={props.maxNumberCredits}
+                transitionTimeScale={props.transitionTimeScale}
+                startAngle={animatedProps.startAngle}
+                onPetalClick={onPetalClick}
+                setTooltipPos={setTooltipPos}
+                setTooltipData={setTooltipData}
+              />
+            );
+          })}
+          />
+          {props.suggestions.map((d) => {
             return (
               <AnimatedPetal
                 key={d.name}

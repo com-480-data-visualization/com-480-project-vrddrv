@@ -15,6 +15,7 @@ export function Grades(props) {
       maxNumberCredits={120}
       setCourse={props.setCourse}
       course={props.course}
+      suggestions={props.suggestions}
     />
   );
 }
