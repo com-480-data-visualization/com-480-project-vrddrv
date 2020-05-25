@@ -1,16 +1,22 @@
-export class DefaultDict {
-  constructor(defaultInit) {
-    return new Proxy(
-      {},
-      {
-        get: (target, name) =>
-          name in target
-            ? target[name]
-            : (target[name] =
-                typeof defaultInit === "function"
-                  ? new defaultInit().valueOf()
-                  : defaultInit),
+export function shortenCourseName(name) {
+  return name
+    .split(" ")
+    .map(function (d) {
+      switch (d.toLowerCase()) {
+        case "and":
+          return "&";
+        case "a":
+          return "";
+        case "of":
+          return "";
+        case "for":
+          return "";
+        case "in":
+          return "";
+        default:
+          return d[0];
       }
-    );
-  }
+    })
+    .join("")
+    .toUpperCase();
 }

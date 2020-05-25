@@ -36,6 +36,7 @@ body {
 svg {
   text-anchor: middle;
   dominant-baseline: central;
+  overflow: hidden;
 }
 
 #drop_zone rect {

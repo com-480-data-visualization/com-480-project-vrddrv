@@ -22,13 +22,17 @@ function showSkillsForPrograms(
   coursePrograms,
   programsToShow = 7
 ) {
-  let programs = new DefaultDict(0);
+  let programs = new Object();
 
   data.forEach((course) => {
     const courseName = course.name.toLowerCase();
     if (courseName in coursePrograms) {
       coursePrograms[courseName].forEach((program) => {
-        programs[program] += course.credits;
+        if (!(program in programs)) {
+          programs[program] = [0, []];
+        }
+        programs[program][0] += course.credits;
+        programs[program][1].push([courseName, course.credits]);
       });
     } else {
       console.log(courseName);
@@ -36,13 +40,12 @@ function showSkillsForPrograms(
   });
 
   programs = Object.entries(programs);
-  programs.sort((a, b) => (a[1] < b[1] ? 1 : -1));
+  programs.sort((a, b) => (a[1][0] < b[1][0] ? 1 : -1));
   programs = programs.slice(0, programsToShow);
 
-  var margin = { top: 50, right: 80, bottom: 50, left: 80 },
+  var margin = { top: 50, right: 80, bottom: 50, left: 80 };
     //width = Math.min(700, window.innerWidth / 4) - margin.left - margin.right,
-    width = window.innerWidth - margin.left - margin.right;
-    //height = Math.min(width, window.innerHeight - margin.top - margin.bottom);
+  //height = Math.min(width, window.innerHeight - margin.top - margin.bottom);
 
   var radarData = [
     {
@@ -66,7 +69,8 @@ function showSkillsForPrograms(
   programs.forEach((program) => {
     radarData[0].axes.push({
       axis: prettifyProgramName(program[0]),
-      value: program[1],
+      value: program[1][0],
+      info: program[1][1].sort((a, b) => (a[1] > b[1] ? 1 : -1)),
     });
   });
 

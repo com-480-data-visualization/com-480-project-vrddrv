@@ -41,7 +41,7 @@ export function DropZone(props) {
         </Grid>
         <div className="footer-container">
           <p className="title">
-            Developed by students for students as part of the project for Data Visualization in EPFL 2020.
+            Developed by the students for the students as part of the project for Data Visualization in EPFL 2020.
           </p>
           <div className="logo-content">
             <div className="logo" />

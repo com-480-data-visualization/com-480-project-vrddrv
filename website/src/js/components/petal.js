@@ -2,6 +2,7 @@
 
 import React from "react";
 import { useSpring, animated } from "react-spring";
+import { shortenCourseName } from "../helpers";
 
 export function Petal(props) {
   const startAnimatedProps = useSpring({
@@ -91,26 +92,3 @@ function InnerPetal(props) {
 }
 
 const AnimatedInnerPetal = animated(InnerPetal);
-
-function shortenCourseName(name) {
-  return name
-    .split(" ")
-    .map(function (d) {
-      switch (d.toLowerCase()) {
-        case "and":
-          return "&";
-        case "a":
-          return "";
-        case "of":
-          return "";
-        case "for":
-          return "";
-        case "in":
-          return "";
-        default:
-          return d[0];
-      }
-    })
-    .join("")
-    .toUpperCase();
-}

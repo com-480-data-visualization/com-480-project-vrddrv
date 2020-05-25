@@ -1,10 +1,7 @@
-/////////////////////////////////////////////////////////
-/////////////// The Radar Chart Function ////////////////
-/// mthh - 2017 /////////////////////////////////////////
-// Inspired by the code of alangrafu and Nadieh Bremer //
-// (VisualCinnamon.com) and modified for d3 v4 //////////
-/////////////////////////////////////////////////////////
-import * as d3 from 'd3';
+"use strict";
+import * as d3 from "d3";
+import { shortenCourseName } from "./helpers";
+
 
 const max = Math.max;
 const sin = Math.sin;
@@ -12,7 +9,6 @@ const cos = Math.cos;
 const HALF_PI = Math.PI / 2;
 
 export function RadarChart(parent_selector, data, options) {
-  //Wraps SVG text - Taken from http://bl.ocks.org/mbostock/7555321
   const wrap = (text, width) => {
     text.each(function () {
       var text = d3.select(this),
@@ -77,8 +73,6 @@ export function RadarChart(parent_selector, data, options) {
     } //for i
   } //if
 
-  //If the supplied maxValue is smaller than the actual one, replace by the max in the data
-  // var maxValue = max(cfg.maxValue, d3.max(data, function(i){return d3.max(i.map(function(o){return o.value;}))}));
   let maxValue = 0;
   for (let j = 0; j < data.length; j++) {
     for (let i = 0; i < data[j].axes.length; i++) {
@@ -126,11 +120,6 @@ export function RadarChart(parent_selector, data, options) {
         ")"
     );
 
-  /////////////////////////////////////////////////////////
-  ////////// Glow filter for some extra pizzazz ///////////
-  /////////////////////////////////////////////////////////
-
-  //Filter for the outside glow
   let filter = g.append("defs").append("filter").attr("id", "glow"),
     feGaussianBlur = filter
       .append("feGaussianBlur")
@@ -308,7 +297,14 @@ export function RadarChart(parent_selector, data, options) {
     .append("g")
     .attr("class", "radarCircleWrapper");
 
-  //Append a set of invisible circles on top for the mouseover pop-up
+  //Append a set of invisSible circles on top for the mouseover pop-up
+  function setTooltipText(tooltip, d, x, cfg) {
+    tooltip.append("tspan").text(`Credits: ${d.value}`);
+    d.info.forEach((c) => {
+      tooltip.append("tspan").text(`${shortenCourseName(c[0])}: ${c[1]}`).attr("x", x).attr("dy", 12);
+    });
+  }
+
   blobCircleWrapper
     .selectAll(".radarInvisibleCircle")
     .data((d) => d.axes)
@@ -323,10 +319,10 @@ export function RadarChart(parent_selector, data, options) {
     .on("mouseover", function (d, i) {
       tooltip
         .attr("x", this.cx.baseVal.value - 10)
-        .attr("y", this.cy.baseVal.value - 10)
+        .attr("y", this.cy.baseVal.value + 15)
         .transition()
-        .style("display", "block")
-        .text(Format(d.value) + cfg.unit);
+        .style("display", "block");
+      setTooltipText(tooltip, d, this.cx.baseVal.value - 10, cfg);
     })
     .on("mouseout", function () {
       tooltip.transition().style("display", "none").text("");
@@ -392,4 +388,4 @@ export function RadarChart(parent_selector, data, options) {
       .text((d) => d);
   }
   return svg;
-};
+}
