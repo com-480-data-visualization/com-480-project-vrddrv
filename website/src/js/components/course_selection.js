@@ -15,22 +15,9 @@ const useStyles = makeStyles((theme) => ({
     width: "25%",
     position: "absolute",
     background: "white",
-    margin: "100",
+    padding: "5px",
+    borderRadius: "5px"
   },
-  // textField: {
-  //   "& .MuiOutlinedInput-root .MuiOutlinedInput-notchedOutline": {
-  //     borderColor: "green",
-  //   },
-  //   "&:hover .MuiOutlinedInput-root .MuiOutlinedInput-notchedOutline": {
-  //     borderColor: "red",
-  //   },
-  //   "& .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline": {
-  //     borderColor: "purple",
-  //   },
-  // },
-  // text: {
-  //   color: "white"
-  // }
 }));
 
 export function CourseSelection({ addCourse }) {

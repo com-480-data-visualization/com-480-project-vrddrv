@@ -42,10 +42,11 @@ export function GradesScreen(props) {
         <Button
           onClick={() => {
             props.setActiveScreen("transcript");
+            setSuggestions([]);
             setCourse(null);
           }}
         >
-          Show credits
+          Reset
         </Button>
         <Button onClick={() => props.setActiveScreen("skills")}>
           Show skills
