@@ -5,6 +5,7 @@ import { Grid, Typography, LinearProgress } from "@material-ui/core";
 import { Card, CardContent, Tooltip } from "@material-ui/core";
 import { green } from "@material-ui/core/colors";
 import { lighten, makeStyles, withStyles } from "@material-ui/core/styles";
+import { useSpring, a } from "react-spring";
 import { max } from "d3";
 import { getProgramName } from "../helpers";
 
@@ -27,6 +28,7 @@ const BorderLinearProgressCompleted = withStyles({
     backgroundColor: green[500],
   },
 })(LinearProgress);
+
 
 class Requirement {
   constructor(name, compute_val, min_val, max_val, tip) {
@@ -51,41 +53,41 @@ class Requirement {
     this.planned_progress = normalise(this.planned_value);
 
     return (
-      <Grid container spacing={1} justify="center" alignItems="center">
-        <Grid item xs={4}>
-          <Tooltip
-            title={
-              `Progress : ${this.value} / ${this.max_val}` +
-              (this.planned_progress > 0
-                ? `\nPlanned progress : ${this.value + this.planned_value} / ${
-                    this.max_val
-                  }`
-                : "")
-            }
-            placement="bottom"
-          >
-            {this.completed ? (
-              <BorderLinearProgressCompleted
-                variant="determinate"
-                value={100}
-              />
-            ) : (
-              <BorderLinearProgress
-                variant="buffer"
-                value={this.progress}
-                valueBuffer={this.planned_progress + this.progress}
-              />
-            )}
-          </Tooltip>
+        <Grid container spacing={1} justify="center" alignItems="center">
+          <Grid item xs={4}>
+            <Tooltip
+              title={
+                `Progress : ${this.value} / ${this.max_val}` +
+                (this.planned_progress > 0
+                  ? `\nPlanned progress : ${this.value + this.planned_value} / ${
+                      this.max_val
+                    }`
+                  : "")
+              }
+              placement="bottom"
+            >
+              {this.completed ? (
+                <BorderLinearProgressCompleted
+                  variant="determinate"
+                  value={100}
+                />
+              ) : (
+                <BorderLinearProgress
+                  variant="buffer"
+                  value={this.progress}
+                  valueBuffer={this.planned_progress + this.progress}
+                />
+              )}
+            </Tooltip>
+          </Grid>
+          <Grid item xs={8}>
+            <Tooltip title={this.tip} placement="bottom">
+              <Typography variant="body2" gutterBottom>
+                {this.name}
+              </Typography>
+            </Tooltip>
+          </Grid>
         </Grid>
-        <Grid item xs={8}>
-          <Tooltip title={this.tip} placement="bottom">
-            <Typography variant="body2" gutterBottom>
-              {this.name}
-            </Typography>
-          </Tooltip>
-        </Grid>
-      </Grid>
     );
   }
 }
@@ -196,30 +198,52 @@ function getProgramRequirementsList(program) {
   ];
 }
 
+
+const useStyles = makeStyles((theme) => ({
+  root: {
+    top: "40px",
+    left: "20px",
+    width: "100%",
+    position: "absolute",
+    // backgroundColor: "#e8eaf6",
+  }
+}));
+
 export function RequirementTable(props) {
+  const classes = useStyles();
+  const spring = useSpring({
+    transform: props.course ? "translateX(-110%)" : "translateX(0%)",
+    config: {
+      duration: props.transitionTimeScale,
+    },
+  });
+
   const RequirementList = getProgramRequirementsList(props.transcript.program);
   const renderedRequrements = RequirementList.map((req) => (
     <li key={req.name}>
       {req.render(props.transcript.classes, props.suggestions)}
     </li>
   ));
+
   return (
-    <Card
-      style={{
-        top: "40px",
-        left: "20px",
-        width: "25%",
-        position: "absolute",
-        maxWidth: "300px",
-      }}
-      id="requirementsTable"
-    >
-      <CardContent>
-        <Typography gutterBottom variant="h6">
-          {"Program Requirements"}
-        </Typography>
-        <ul>{renderedRequrements}</ul>
-      </CardContent>
-    </Card>
+    <a.div className={classes.root} style={spring}>
+      <Card
+        style={{
+          top: "40px",
+          left: "20px",
+          width: "25%",
+          position: "absolute",
+          maxWidth: "300px",
+        }}
+        id="requirementsTable"
+      >
+        <CardContent>
+          <Typography gutterBottom variant="h6">
+            {"Program Requirements"}
+          </Typography>
+          <ul>{renderedRequrements}</ul>
+        </CardContent>
+      </Card>
+    </a.div>
   );
 }

@@ -147,9 +147,7 @@ export function GradesScreen(props) {
       }
       if (!takenCourses.has(courseName)) {
         COURSE_PROGRAMS[courseName].forEach((programInfo) => {
-          if (
-            programInfo[0] === getProgramName(program.name, "_")
-          ) {
+          if (programInfo[0] === getProgramName(program.name, "_")) {
             prevCredits.push(curCredits);
             suggestNames.push(courseName);
             takenCourses.add(courseName);
@@ -202,14 +200,12 @@ export function GradesScreen(props) {
           Show skills
         </Button>
       </ButtonGroup>
-      {course ? (
-        <></>
-      ) : (
-        <RequirementTable
-          transcript={props.transcript}
-          suggestions={suggestions}
-        />
-      )}
+      <RequirementTable
+        transcript={props.transcript}
+        suggestions={suggestions}
+        course={course}
+        transitionTimeScale={props.transitionTimeScale}
+      />
       <Course course={course} transitionTimeScale={props.transitionTimeScale} />
       <Grades
         transcript={props.transcript}
