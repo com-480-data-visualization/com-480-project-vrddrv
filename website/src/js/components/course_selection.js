@@ -10,12 +10,12 @@ const courses = Object.entries(COURSE_DESCRIPTIONS);
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    top: "40px",
+    top: "20px",
     right: "20px",
     width: "25%",
     position: "absolute",
     background: "white",
-    padding: "5px",
+    padding: "7px",
     borderRadius: "5px"
   },
 }));
