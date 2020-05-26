@@ -24,7 +24,7 @@ export function SemesterDelimiter({
         <g>
           <defs>
             <path
-              id="semesterPath"
+              id={`semesterPath${semester}`}
               d={describeArc(
                 0,
                 0,
@@ -35,7 +35,7 @@ export function SemesterDelimiter({
             />
           </defs>
           <text textAnchor="middle">
-              <textPath xlinkHref="#semesterPath" startOffset="50%">{semester} semester</textPath>
+              <textPath xlinkHref={`#semesterPath${semester}`} startOffset="50%">{semester} semester</textPath>
           </text>
         </g>
       )}

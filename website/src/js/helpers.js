@@ -20,3 +20,14 @@ export function shortenCourseName(name) {
     .join("")
     .toUpperCase();
 }
+
+export function getProgramName(program, sep = " ") {
+  switch (program) {
+    case "Master SC_DS":
+      return ["data", "science"].join(sep);
+    case "Master SC_CS":
+      return ["computer", "science"].join(sep);
+    default:
+      return ["data", "science"].join(sep);
+  }
+}

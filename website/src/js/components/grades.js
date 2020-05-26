@@ -4,6 +4,7 @@ import React, { useRef, useEffect } from "react";
 import { CircularPlot } from "./circular_plot";
 
 export function Grades(props) {
+  console.log(props.transcript);
   return (
     <CircularPlot
       data={props.transcript.classes}

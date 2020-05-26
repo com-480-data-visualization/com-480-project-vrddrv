@@ -36,7 +36,7 @@ export function CircularPlot(props) {
   function parseDate(d) {
     return new Date(...d.split(".").reverse());
   }
-  data.sort((a, b) => (parseDate(a.sdate) < parseDate(b.sdate) ? -1 : 1));
+  data = data.sort((a, b) => (parseDate(a.sdate) < parseDate(b.sdate) ? -1 : 1));
   let semesters = [];
   let currentSemester = 1;
   let currentCredits = 0;
@@ -48,7 +48,6 @@ export function CircularPlot(props) {
       currentDate = d.sdate;
       currentSemester += 1;
       prevCredits = currentCredits;
-      currentCredits = 0;
     }
     currentCredits += d.credits;
   });
