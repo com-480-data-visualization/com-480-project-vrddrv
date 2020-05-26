@@ -97,7 +97,27 @@ export function gpaPlot(svgTag, data) {
     .attr("cy", function (d) {
       return yScale(d.y);
     })
-    .attr("r", 3);
+    .attr("r", 4)
+    .on("mouseenter", function (actual, i) {
+      d3.select(this).transition().duration(300).attr("opacity", 0.6);
+      const y = yScale(actual.y);
+
+      const line = svg
+          .append("line")
+          .attr("id", "limit")
+          .attr("x1", 0)
+          .attr("y1", y)
+          .attr("x2", width)
+          .attr("y2", y);
+  
+  })
+  .on("mouseleave", function () {
+      d3.select(this)
+          .transition()
+          .duration(300)
+          .attr("opacity", 1);
+      svg.selectAll("#limit").remove();
+  });
 
   // svg
   //   .append("text")
