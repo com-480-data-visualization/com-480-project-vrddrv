@@ -81,7 +81,7 @@ export function Course({ course, transitionTimeScale }) {
         <Grid item xs={6}>
           <Paper className={classes.paper}>
             <Typography variant="body1" gutterBottom>
-                Grades Distribution
+              Grades Distribution
             </Typography>
             <svg
               id="gradePlot"
@@ -95,6 +95,9 @@ export function Course({ course, transitionTimeScale }) {
 
         <Grid item xs={6}>
           <Paper className={classes.paper}>
+            <Typography variant="body1" gutterBottom>
+              Average Grade in Years
+            </Typography>
             <svg
               id="gpaPlot"
               ref={gpa_plot}

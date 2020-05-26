@@ -142,14 +142,14 @@ export function CircularPlot(props) {
             startAngle={animatedProps.startAngle}
             angle={0}
             prevAngle={0}
-            length={(props.circPlotRadius + props.petalsLength) * 1.2}
+            length={(props.circPlotRadius + props.petalsLength) * 1.25}
           />
           {semesters.map(s => <AnimatedSemesterDelimiter
             key={s[0]}
             startAngle={animatedProps.startAngle}
             angle={s[1] / props.maxNumberCredits * 2 * Math.PI}
             prevAngle={s[2] / props.maxNumberCredits * 2 * Math.PI}
-            length={(props.circPlotRadius + props.petalsLength) * 1.2}
+            length={(props.circPlotRadius + props.petalsLength) * 1.25}
             semester={s[0]}
           />)}
           <AnimatedCenterCircle

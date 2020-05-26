@@ -28,7 +28,7 @@ export function gradeHistogram(svgTag,data) {
         .scaleBand()
         .range([0, width])
         .domain(sample.map((s) => s.grade))
-        .padding(0.4);
+        .padding(0.2);
 
     const yScale = d3.scaleLinear().range([height, 0]).domain([0, 100]);
 
@@ -112,32 +112,24 @@ export function gradeHistogram(svgTag,data) {
     //   .attr("text-anchor", "middle")
     //   .text((a) => `${a.value}%`);
 
-    svg
-        .append("text")
-        .style("font-size", "5px")
-        .attr("class", "label")
-        .attr("x", -(height / 2) - margin)
-        .attr("y", margin / 2.4 - 6)
-        .attr("transform", "rotate(-90)")
-        .attr("text-anchor", "middle")
-        .text("Number of students");
+    // svg
+    //     .append("text")
+    //     .style("font-size", "5px")
+    //     .attr("class", "label")
+    //     .attr("x", -(height / 2) - margin)
+    //     .attr("y", margin / 2.4 - 6)
+    //     .attr("transform", "rotate(-90)")
+    //     .attr("text-anchor", "middle")
+    //     .text("Number of students");
 
-    svg
-        .append("text")
-        .style("font-size", "5px")
-        .attr("class", "label")
-        .attr("x", width / 2 + margin)
-        .attr("y", height + margin * 1.9)
-        .attr("text-anchor", "middle")
-        .text("Grades");
-
-    svg
-        .append("text")
-        .attr("class", "title")
-        .attr("x", width / 2 + margin)
-        .attr("y", 10)
-        .attr("text-anchor", "middle")
-        .text("Grade Distribution");
+    // svg
+    //     .append("text")
+    //     .style("font-size", "5px")
+    //     .attr("class", "label")
+    //     .attr("x", width / 2 + margin)
+    //     .attr("y", height + margin * 1.9)
+    //     .attr("text-anchor", "middle")
+    //     .text("Grades");
 
     // d3.select("iframe#course")
     //   .attr("left", "-1000px")
