@@ -173,7 +173,7 @@ async function saveAllMasterCourses(url) {
     }
 }
 
-saveAllMasterCourses(MASTER_CYCLE_URL);
+// saveAllMasterCourses(MASTER_CYCLE_URL);
 
 // module.exports = {
 //     scrapeCourseDescription

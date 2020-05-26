@@ -43,22 +43,34 @@ export function Course({ course, transitionTimeScale }) {
     <a.div className={classes.root} style={spring}>
       <Grid container spacing={1}>
         <Grid item xs={4}>
-          <TextCard title="Course name" text={course && course.courseName} />
+          <TextCard title="Course name"
+                    text={course && course.courseName}
+                    courseCode={course && course.courseCode}
+                    isURL = {true}
+          />
         </Grid>
         <Grid item xs={4}>
           <TextCard
             title="Professor names"
             text={course && course.profName.join("\n")}
+            courseCode={course && course.courseCode}
+            isURL = {false}
           />
         </Grid>
         <Grid item xs={4}>
-          <TextCard title="Section" text={course && course.courseSection} />
+          <TextCard title="Section"
+                    text={course && course.courseSection}
+                    courseCode={course && course.courseCode}
+                    isURL = {false}
+          />
         </Grid>
 
         <Grid item xs={12}>
           <TextCard
             title="Course description"
             text={course && course.courseDesc}
+            courseCode={course && course.courseCode}
+            isURL = {false}
           />
         </Grid>
 
