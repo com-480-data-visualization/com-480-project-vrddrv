@@ -145,7 +145,7 @@ function getProgramRequirementsList(program) {
     (classes) => 0,
     0,
     1,
-    "To get a diploma you will need to complete an inductriall internship. \
+    "To get a diploma you will need to complete an industrial internship. \
      It may be done either duting 10 weeks in summer internship, \
      during 6 month instead one of the semesters or jointly with your Master Thesis."
   );

@@ -20,10 +20,13 @@ export function GradesScreen(props) {
     0
   );
   const maxNumberCredits = Math.max(
-    totalCredits + suggestions.reduce((acc, cur) => acc + cur.credits, 0), 120
+    totalCredits + suggestions.reduce((acc, cur) => acc + cur.credits, 0),
+    120
   );
   const addCourse = (course) => {
-    let block = course[1].courseCode.startsWith("HUM-") ? "class_shs_suggestion" : "class_not_in_plan_suggestion";
+    let block = course[1].courseCode.startsWith("HUM-")
+      ? "class_shs_suggestion"
+      : "class_not_in_plan_suggestion";
     COURSE_PROGRAMS[course[0]].forEach(([programName, type]) => {
       if (programName === program) {
         if (type === "core") {
@@ -92,7 +95,11 @@ export function GradesScreen(props) {
         suggestions={suggestions}
         maxNumberCredits={maxNumberCredits}
       />
-      <CourseSelection addCourse={addCourse} />
+      <CourseSelection
+        addCourse={addCourse}
+        program={program}
+        completedCourses={props.transcript.classes}
+      />
     </>
   );
 }
