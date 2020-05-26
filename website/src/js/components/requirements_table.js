@@ -6,6 +6,7 @@ import { Card, CardContent, Tooltip } from "@material-ui/core";
 import { green } from "@material-ui/core/colors";
 import { lighten, makeStyles, withStyles } from "@material-ui/core/styles";
 import { max } from "d3";
+import { getProgramName } from "../helpers";
 
 const BorderLinearProgress = withStyles({
   root: {
@@ -116,7 +117,7 @@ function getProgramRequirementsList(program) {
       classes.reduce((t, v) => {
         if (
           !v.block.startsWith("class_shs") ||
-          v.name == "Projet de semestre en data science"
+          v.name.toLowerCase() === `projet de semestre en ${getProgramName(program.name, " ")}`
         )
           return t;
         return t + v.credits;
@@ -130,7 +131,7 @@ function getProgramRequirementsList(program) {
     "Semester Project",
     (classes) =>
       classes.reduce((t, v) => {
-        if (v.name != "Projet de semestre en data science") return t;
+        if (v.name.toLowerCase() !== `projet de semestre en ${getProgramName(program.name, " ")}`) return t;
         return t + v.credits;
       }, 0),
     0,
@@ -151,7 +152,11 @@ function getProgramRequirementsList(program) {
 
   const masterThesis = new Requirement(
     "Master Thesis",
-    (classes) => 0,
+    (classes) =>
+      classes.reduce((t, v) => {
+        if (v.name.toLowerCase() != `master project in ${getProgramName(program.name, " ")}`) return t;
+        return t + v.credits;
+      }, 0),
     0,
     30,
     "In the last semester of your program you will need to do a Master Thesis.\
@@ -166,9 +171,18 @@ function getProgramRequirementsList(program) {
         coreCredits,
         SHS,
         semesterProject,
-        internship,
+        //internship,
         masterThesis,
       ];
+      case "Master SC_CS":
+        return [
+          totalCredits,
+          coreCredits,
+          SHS,
+          semesterProject,
+          //internship,
+          masterThesis,
+        ];
   }
 
   // Default return;
@@ -177,20 +191,18 @@ function getProgramRequirementsList(program) {
     coreCredits,
     SHS,
     semesterProject,
-    internship,
+    //internship,
     masterThesis,
   ];
 }
 
 export function RequirementTable(props) {
   const RequirementList = getProgramRequirementsList(props.transcript.program);
-  console.log(RequirementList);
   const renderedRequrements = RequirementList.map((req) => (
     <li key={req.name}>
       {req.render(props.transcript.classes, props.suggestions)}
     </li>
   ));
-  console.log(props.transcript);
   return (
     <Card
       style={{

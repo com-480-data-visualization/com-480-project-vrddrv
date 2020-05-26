@@ -5,14 +5,14 @@ import { Grid, Button, ButtonGroup } from "@material-ui/core";
 import { Grades } from "./grades";
 import { Course } from "./course";
 import { CourseSelection } from "./course_selection";
+import { RequirementTable } from "./requirements_table";
+import { getProgramName } from "../helpers";
 import "../../styles/grade_screen.scss";
 
-import { RequirementTable } from "./requirements_table";
-
 const COURSE_PROGRAMS = require("../../processed_data/course_programs.json");
-const program = "data_science";
 
 export function GradesScreen(props) {
+  const program = getProgramName(props.transcript.program.name, "_");
   const [course, setCourse] = useState(null);
   const [suggestions, setSuggestions] = useState([]);
   let totalCredits = props.transcript.classes.reduce(
@@ -23,7 +23,7 @@ export function GradesScreen(props) {
     totalCredits + suggestions.reduce((acc, cur) => acc + cur.credits, 0), 120
   );
   const addCourse = (course) => {
-    let block = "class_not_in_plan_suggestion";
+    let block = course[1].courseCode.startsWith("HUM-") ? "class_shs_suggestion" : "class_not_in_plan_suggestion";
     COURSE_PROGRAMS[course[0]].forEach(([programName, type]) => {
       if (programName === program) {
         if (type === "core") {

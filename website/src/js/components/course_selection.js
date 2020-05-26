@@ -45,5 +45,3 @@ export function CourseSelection({ addCourse }) {
     />
   );
 }
-
-const mockOptions = [{ name: "Kek" }, { name: "Lol" }, { name: "KekLol" }];
