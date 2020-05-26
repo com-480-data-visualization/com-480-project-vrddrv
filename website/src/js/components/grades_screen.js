@@ -1,7 +1,7 @@
 "use strict";
 
-import React, { useState } from "react";
-import { Grid, Button, ButtonGroup } from "@material-ui/core";
+import React, { useRef, useEffect, useState } from "react";
+import { ClickAwayListener, Button, ButtonGroup } from "@material-ui/core";
 import { Grades } from "./grades";
 import { Course } from "./course";
 import { CourseSelection } from "./course_selection";
@@ -11,6 +11,7 @@ import "../../styles/grade_screen.scss";
 
 const COURSE_PROGRAMS = require("../../processed_data/course_programs.json");
 const COURSE_DESCRIPTIONS = require("../../processed_data/course_descriptions.json");
+
 
 export function GradesScreen(props) {
   const program = getProgramName(props.transcript.program.name, "_");
@@ -171,8 +172,9 @@ export function GradesScreen(props) {
     );
     setSuggestions(suggestions.concat(newSuggestions));
   };
+
   return (
-    <>
+    <div>
       <ButtonGroup
         variant="contained"
         color="primary"
@@ -206,24 +208,29 @@ export function GradesScreen(props) {
         course={course}
         transitionTimeScale={props.transitionTimeScale}
       />
-      <Course course={course} transitionTimeScale={props.transitionTimeScale} />
-      <Grades
-        transcript={props.transcript}
-        canvasWidth={props.canvasWidth}
-        canvasHeight={props.canvasHeight}
-        transitionTimeScale={props.transitionTimeScale}
-        circPlotRadius={props.circPlotRadius}
-        petalsLength={props.petalsLength}
+      <Course
         course={course}
-        setCourse={setCourse}
-        suggestions={suggestions}
-        maxNumberCredits={maxNumberCredits}
+        transitionTimeScale={props.transitionTimeScale}
       />
+      <div onClick={() => setCourse(null)}>
+        <Grades
+          transcript={props.transcript}
+          canvasWidth={props.canvasWidth}
+          canvasHeight={props.canvasHeight}
+          transitionTimeScale={props.transitionTimeScale}
+          circPlotRadius={props.circPlotRadius}
+          petalsLength={props.petalsLength}
+          course={course}
+          setCourse={setCourse}
+          suggestions={suggestions}
+          maxNumberCredits={maxNumberCredits}
+        />
+      </div>
       <CourseSelection
         addCourse={addCourse}
         program={program}
         completedCourses={props.transcript.classes}
       />
-    </>
+    </div>
   );
 }

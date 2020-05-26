@@ -45,7 +45,7 @@ export function Petal(props) {
           (props.startAngle * 180) / Math.PI +
           (-360 * props.data.creditsBefore) / props.maxNumberCredits
         })`}
-        onClick={() => {
+        onClick={(event) => {
           props.onPetalClick(props.data);
         }}
         onMouseOver={() => {
