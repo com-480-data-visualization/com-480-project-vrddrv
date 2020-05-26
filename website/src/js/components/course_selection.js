@@ -69,7 +69,7 @@ export function CourseSelection({ addCourse, program, completedCourses }) {
       }}
       className={classes.root}
       options={courses}
-      getOptionLabel={(d) => d[0]}
+      getOptionLabel={(d) => d[1].courseName}
       groupBy={(option) => option[1].type}
       renderInput={(params) => (
         <TextField
