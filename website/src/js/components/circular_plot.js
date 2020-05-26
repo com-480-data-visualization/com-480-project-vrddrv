@@ -141,6 +141,7 @@ export function CircularPlot(props) {
                 onPetalClick={onPetalClick}
                 setTooltipPos={setTooltipPos}
                 setTooltipData={setTooltipData}
+                course={props.course}
               />
             );
           })}
