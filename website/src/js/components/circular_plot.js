@@ -37,20 +37,22 @@ export function CircularPlot(props) {
     return new Date(...d.split(".").reverse());
   }
   data.sort((a, b) => (parseDate(a.sdate) < parseDate(b.sdate) ? -1 : 1));
-  let semesters = [[null, 0]];
+  let semesters = [];
   let currentSemester = 1;
   let currentCredits = 0;
+  let prevCredits = 0;
   let currentDate = data[0].sdate;
   data.forEach((d) => {
     if (d.sdate !== currentDate) {
-      semesters.push([currentSemester, currentCredits]);
+      semesters.push([currentSemester, currentCredits, prevCredits]);
       currentDate = d.sdate;
       currentSemester += 1;
+      prevCredits = currentCredits;
       currentCredits = 0;
     }
     currentCredits += d.credits;
   });
-  semesters.push([currentSemester, currentCredits]);
+  semesters.push([currentSemester, currentCredits, prevCredits]);
 
   let arcGenerator = d3
     .arc()
@@ -137,12 +139,14 @@ export function CircularPlot(props) {
           <AnimatedSemesterDelimiter
             startAngle={animatedProps.startAngle}
             angle={0}
+            prevAngle={0}
             length={(props.circPlotRadius + props.petalsLength) * 1.2}
           />
           {semesters.map(s => <AnimatedSemesterDelimiter
             key={s[0]}
             startAngle={animatedProps.startAngle}
             angle={s[1] / props.maxNumberCredits * 2 * Math.PI}
+            prevAngle={s[2] / props.maxNumberCredits * 2 * Math.PI}
             length={(props.circPlotRadius + props.petalsLength) * 1.2}
             semester={s[0]}
           />)}

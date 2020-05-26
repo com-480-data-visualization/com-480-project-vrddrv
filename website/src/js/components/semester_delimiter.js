@@ -30,12 +30,12 @@ export function SemesterDelimiter({
                 0,
                 length,
                 finalAngle,
-                0
+                startAngle - prevAngle
               )}
             />
           </defs>
           <text textAnchor="middle">
-              <textPath xlinkHref="#semesterPath">kdsjnlksjnskj sddsfv l {semester} semester</textPath>
+              <textPath xlinkHref="#semesterPath" startOffset="50%">{semester} semester</textPath>
           </text>
         </g>
       )}
