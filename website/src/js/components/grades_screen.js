@@ -6,10 +6,11 @@ import { Grades } from "./grades";
 import { Course } from "./course";
 import { CourseSelection } from "./course_selection";
 import { RequirementTable } from "./requirements_table";
-import { getProgramName } from "../helpers";
+import { zip, getProgramName } from "../helpers";
 import "../../styles/grade_screen.scss";
 
 const COURSE_PROGRAMS = require("../../processed_data/course_programs.json");
+const COURSE_DESCRIPTIONS = require("../../processed_data/course_descriptions.json");
 
 export function GradesScreen(props) {
   const program = getProgramName(props.transcript.program.name, "_");
@@ -23,7 +24,13 @@ export function GradesScreen(props) {
     totalCredits + suggestions.reduce((acc, cur) => acc + cur.credits, 0),
     120
   );
-  const addCourse = (course) => {
+  const getCourseInfo = (courseName, creditsBefore) => {
+    let course;
+    if (typeof courseName === "string") {
+      course = [courseName, COURSE_DESCRIPTIONS[courseName]];
+    } else {
+      course = courseName;
+    }
     let block = course[1].courseCode.startsWith("HUM-")
       ? "class_shs_suggestion"
       : "class_not_in_plan_suggestion";
@@ -36,19 +43,135 @@ export function GradesScreen(props) {
         }
       }
     });
+    return {
+      name: course[1].courseName,
+      block: block,
+      credits: parseInt(course[1].courseCredit),
+      creditsBefore: creditsBefore,
+      grade: 6,
+    };
+  };
+
+  const addCourse = (course) => {
     setSuggestions(
       suggestions.concat([
-        {
-          name: course[1].courseName,
-          block: block,
-          credits: parseInt(course[1].courseCredit),
-          creditsBefore:
-            totalCredits +
-            suggestions.reduce((acc, cur) => acc + cur.credits, 0),
-          grade: 6,
-        },
+        getCourseInfo(
+          course,
+          totalCredits + suggestions.reduce((acc, cur) => acc + cur.credits, 0)
+        ),
       ])
     );
+  };
+
+  const suggestCourses = (completed, suggestions) => {
+    const allCourses = completed.concat(suggestions);
+    let takenCourses = new Set(allCourses.map((c) => c.name.toLowerCase()));
+    let coreCredits = allCourses.reduce((t, v) => {
+      return v.block.startsWith("class_core") ? t + v.credits : t;
+    }, 0);
+    let shsName = null;
+    const shsCredits = allCourses.reduce((t, v) => {
+      if (
+        !v.block.startsWith("class_shs") ||
+        v.name.toLowerCase() ===
+          `projet de semestre en ${getProgramName(program.name, " ")}`
+      )
+        return t;
+      shsName = v.name.toLowerCase().slice(0, -1);
+      return t + v.credits;
+    }, 0);
+    const projectCredits = allCourses.reduce((t, v) => {
+      if (
+        v.name.toLowerCase() !==
+        `projet de semestre en ${getProgramName(program.name, " ")}`
+      )
+        return t;
+      return t + v.credits;
+    }, 0);
+    const thesisCredits = allCourses.reduce((t, v) => {
+      if (
+        v.name.toLowerCase() !=
+        `master project in ${getProgramName(program.name, " ")}`
+      )
+        return t;
+      return t + v.credits;
+    }, 0);
+    let suggestNames = [];
+    let curCredits =
+      totalCredits + suggestions.reduce((acc, cur) => acc + cur.credits, 0);
+    let prevCredits = [];
+    if (shsCredits === 0) {
+      suggestNames.push("philosophy of life sciences i");
+      prevCredits.push(curCredits);
+      curCredits += 3;
+      suggestNames.push("philosophy of life sciences ii");
+      prevCredits.push(curCredits);
+      curCredits += 3;
+    } else if (shsCredits === 3) {
+      suggestNames.push(shsName + "ii");
+      prevCredits.push(curCredits);
+      curCredits += 3;
+    }
+    if (projectCredits < 12) {
+      suggestNames.push(
+        `projet de semestre en ${getProgramName(program.name, " ")}`
+      );
+      prevCredits.push(curCredits);
+      curCredits += 12;
+    }
+    for (const courseName in COURSE_DESCRIPTIONS) {
+      if (coreCredits >= 30) {
+        break;
+      }
+      if (!takenCourses.has(courseName)) {
+        COURSE_PROGRAMS[courseName].forEach((programInfo) => {
+          if (
+            programInfo[0] === getProgramName(program.name, "_") &&
+            programInfo[1] === "core"
+          ) {
+            prevCredits.push(curCredits);
+            suggestNames.push(courseName);
+            takenCourses.add(courseName);
+            const credits = parseInt(
+              COURSE_DESCRIPTIONS[courseName].courseCredit
+            );
+            curCredits += credits;
+            coreCredits += credits;
+          }
+        });
+      }
+    }
+    for (const courseName in COURSE_DESCRIPTIONS) {
+      if (curCredits >= 90) {
+        break;
+      }
+      if (!takenCourses.has(courseName)) {
+        COURSE_PROGRAMS[courseName].forEach((programInfo) => {
+          if (
+            programInfo[0] === getProgramName(program.name, "_")
+          ) {
+            prevCredits.push(curCredits);
+            suggestNames.push(courseName);
+            takenCourses.add(courseName);
+            const credits = parseInt(
+              COURSE_DESCRIPTIONS[courseName].courseCredit
+            );
+            curCredits += credits;
+          }
+        });
+      }
+    }
+    if (thesisCredits < 30) {
+      suggestNames.push(
+        `master project in ${getProgramName(program.name, " ")}`
+      );
+      prevCredits.push(curCredits);
+      curCredits += 30;
+    }
+    const newSuggestions = zip([suggestNames, prevCredits]).map((x) =>
+      getCourseInfo(x[0], x[1])
+    );
+    setSuggestions(suggestions.concat(newSuggestions));
   };
   return (
     <>
@@ -69,6 +192,11 @@ export function GradesScreen(props) {
           }}
         >
           Reset
+        </Button>
+        <Button
+          onClick={() => suggestCourses(props.transcript.classes, suggestions)}
+        >
+          Suggest courses
         </Button>
         <Button onClick={() => props.setActiveScreen("skills")}>
           Show skills

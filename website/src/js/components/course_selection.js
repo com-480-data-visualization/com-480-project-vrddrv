@@ -42,7 +42,7 @@ export function CourseSelection({ addCourse, program, completedCourses }) {
     });
   }
   completedCourses.forEach((course) => {
-    delete course.name.toLowerCase();
+    delete COURSE_DESCRIPTIONS[course.name.toLowerCase()];
   });
 
   let courses = Object.entries(COURSE_DESCRIPTIONS);
