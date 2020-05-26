@@ -37,17 +37,17 @@ class Requirement {
   }
 
   render(classes, suggestions) {
-    const normilise = (val) =>
+    const normalise = (val) =>
       (100 * (val - this.min_val)) / (this.max_val - this.min_val);
 
     this.classes = classes;
 
     this.value = this.compute_val(classes);
-    this.progress = normilise(this.value);
+    this.progress = normalise(this.value);
     this.completed = this.progress >= 100;
 
     this.planned_value = this.compute_val(suggestions);
-    this.planned_progress = normilise(this.planned_value);
+    this.planned_progress = normalise(this.planned_value);
 
     return (
       <Grid container spacing={1} justify="center" alignItems="center">
@@ -102,7 +102,7 @@ function getProgramRequirementsList(program) {
     "Core Credits",
     (classes) =>
       classes.reduce((t, v) => {
-        return v.block == "class_core" ? t + v.credits : t;
+        return v.block.startsWith("class_core") ? t + v.credits : t;
       }, 0),
     0,
     30,
@@ -115,7 +115,7 @@ function getProgramRequirementsList(program) {
     (classes) =>
       classes.reduce((t, v) => {
         if (
-          v.block != "class_shs" ||
+          !v.block.startsWith("class_shs") ||
           v.name == "Projet de semestre en data science"
         )
           return t;

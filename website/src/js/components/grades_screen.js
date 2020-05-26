@@ -22,7 +22,6 @@ export function GradesScreen(props) {
   const maxNumberCredits = Math.max(
     totalCredits + suggestions.reduce((acc, cur) => acc + cur.credits, 0), 120
   );
-  console.log(maxNumberCredits);
   const addCourse = (course) => {
     let block = "class_not_in_plan_suggestion";
     COURSE_PROGRAMS[course[0]].forEach(([programName, type]) => {
