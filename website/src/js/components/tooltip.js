@@ -13,8 +13,8 @@ export function Tooltip(props) {
       <p>Grade: {props.data.grade}</p>
       <p>Credits: {props.data.credits}</p>
       <p />
-      <p>Language: {props.data.lang}</p>
-      <p>Exam data: {props.data.sdate}</p>
+      {props.data.lang ? <p>Language: {props.data.lang}</p> : <p></p>}
+      {props.data.lang ? <p>Exam date: {props.data.sdate}</p> : <p></p>}
     </div>
   );
 }

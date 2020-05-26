@@ -2,7 +2,7 @@
 
 import React from "react";
 import { Grid, Typography, LinearProgress } from "@material-ui/core";
-import { Card, CardContent, Tooltip} from "@material-ui/core";
+import { Card, CardContent, Tooltip } from "@material-ui/core";
 import { green } from "@material-ui/core/colors";
 import { lighten, makeStyles, withStyles } from "@material-ui/core/styles";
 import { max } from "d3";
@@ -11,6 +11,10 @@ const BorderLinearProgress = withStyles({
   root: {
     height: 12,
     borderRadius: 20,
+    backgroundColor: "#e8eaf6"
+  },
+  dashed: {
+    visibility: "hidden",
   },
 })(LinearProgress);
 const BorderLinearProgressCompleted = withStyles({
@@ -32,7 +36,7 @@ class Requirement {
     this.tip = tip;
   }
 
-  render(classes) {
+  render(classes, suggestions) {
     const normilise = (val) =>
       (100 * (val - this.min_val)) / (this.max_val - this.min_val);
 
@@ -42,25 +46,45 @@ class Requirement {
     this.progress = normilise(this.value);
     this.completed = this.progress >= 100;
 
+    this.planned_value = this.compute_val(suggestions);
+    this.planned_progress = normilise(this.planned_value);
+
     return (
-        <Grid container spacing={1} justify="center" alignItems="center">
-          <Grid item xs={4}>
-            <Tooltip title={`Progress : ${this.value } / ${this.max_val}`} placement="bottom">
-              {this.completed ? (
-                <BorderLinearProgressCompleted variant="determinate" value={100} />
-              ) : (
-                <BorderLinearProgress variant="determinate" value={this.progress} />
-              )}
-            </Tooltip>
-          </Grid>
-            <Grid item xs={8}>
-              <Tooltip title={this.tip} placement="bottom">
-                <Typography variant="body2" gutterBottom>
-                  {this.name}
-                </Typography>
-              </Tooltip>
-          </Grid>
+      <Grid container spacing={1} justify="center" alignItems="center">
+        <Grid item xs={4}>
+          <Tooltip
+            title={
+              `Progress : ${this.value} / ${this.max_val}` +
+              (this.planned_progress > 0
+                ? `\nPlanned progress : ${this.value + this.planned_value} / ${
+                    this.max_val
+                  }`
+                : "")
+            }
+            placement="bottom"
+          >
+            {this.completed ? (
+              <BorderLinearProgressCompleted
+                variant="determinate"
+                value={100}
+              />
+            ) : (
+              <BorderLinearProgress
+                variant="buffer"
+                value={this.progress}
+                valueBuffer={this.planned_progress + this.progress}
+              />
+            )}
+          </Tooltip>
         </Grid>
+        <Grid item xs={8}>
+          <Tooltip title={this.tip} placement="bottom">
+            <Typography variant="body2" gutterBottom>
+              {this.name}
+            </Typography>
+          </Tooltip>
+        </Grid>
+      </Grid>
     );
   }
 }
@@ -78,7 +102,7 @@ function getProgramRequirementsList(program) {
     "Core Credits",
     (classes) =>
       classes.reduce((t, v) => {
-        return (v.block == "class_core" ) ? t + v.credits : t;
+        return v.block == "class_core" ? t + v.credits : t;
       }, 0),
     0,
     30,
@@ -137,23 +161,45 @@ function getProgramRequirementsList(program) {
 
   switch (program.name) {
     case "Master SC_DS":
-      return [totalCredits, coreCredits, SHS, semesterProject, internship, masterThesis];
+      return [
+        totalCredits,
+        coreCredits,
+        SHS,
+        semesterProject,
+        internship,
+        masterThesis,
+      ];
   }
 
   // Default return;
-  return [totalCredits, coreCredits, SHS, semesterProject, internship, masterThesis];
+  return [
+    totalCredits,
+    coreCredits,
+    SHS,
+    semesterProject,
+    internship,
+    masterThesis,
+  ];
 }
 
 export function RequirementTable(props) {
   const RequirementList = getProgramRequirementsList(props.transcript.program);
   console.log(RequirementList);
   const renderedRequrements = RequirementList.map((req) => (
-    <li key={req.name}>{req.render(props.transcript.classes)}</li>
+    <li key={req.name}>
+      {req.render(props.transcript.classes, props.suggestions)}
+    </li>
   ));
   console.log(props.transcript);
   return (
     <Card
-      style={{ top: "40px", left: "20px", width: "25%", position: "absolute", maxWidth: "300px"}}
+      style={{
+        top: "40px",
+        left: "20px",
+        width: "25%",
+        position: "absolute",
+        maxWidth: "300px",
+      }}
       id="requirementsTable"
     >
       <CardContent>

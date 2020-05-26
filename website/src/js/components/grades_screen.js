@@ -15,10 +15,13 @@ const program = "data_science";
 export function GradesScreen(props) {
   const [course, setCourse] = useState(null);
   const [suggestions, setSuggestions] = useState([]);
-  let totalCredits = props.transcript.classes.reduce((v, t) => v + t.credits, 0);
+  let totalCredits = props.transcript.classes.reduce(
+    (v, t) => v + t.credits,
+    0
+  );
   const addCourse = (course) => {
     let block = "class_not_in_plan_suggestion";
-    COURSE_PROGRAMS[course[0]].forEach( ([programName, type]) => {
+    COURSE_PROGRAMS[course[0]].forEach(([programName, type]) => {
       if (programName === program) {
         if (type === "core") {
           block = "class_core_suggestion";
@@ -65,7 +68,14 @@ export function GradesScreen(props) {
           Show skills
         </Button>
       </ButtonGroup>
-      {course ? <></> : <RequirementTable transcript={props.transcript} />}
+      {course ? (
+        <></>
+      ) : (
+        <RequirementTable
+          transcript={props.transcript}
+          suggestions={suggestions}
+        />
+      )}
       <Course course={course} transitionTimeScale={props.transitionTimeScale} />
       <Grades
         transcript={props.transcript}
