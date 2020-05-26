@@ -6,7 +6,7 @@ import Autocomplete from "@material-ui/lab/Autocomplete";
 import { makeStyles } from "@material-ui/core/styles";
 import { getProgramName } from "../helpers";
 
-var COURSE_DESCRIPTIONS = require("../../processed_data/course_descriptions.json");
+const COURSE_DESCRIPTIONS = require("../../processed_data/course_descriptions.json");
 const COURSE_PROGRAMS = require("../../processed_data/course_programs.json");
 
 const useStyles = makeStyles((theme) => ({
@@ -22,30 +22,31 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 export function CourseSelection({ addCourse, program, completedCourses }) {
-  for (let course in COURSE_DESCRIPTIONS) {
+  let courseDescriptions = clone(COURSE_DESCRIPTIONS);
+  for (let course in courseDescriptions) {
     if (
-      COURSE_DESCRIPTIONS[course].courseCode.startsWith("HUM-") ||
+      courseDescriptions[course].courseCode.startsWith("HUM-") ||
       course === `projet de semestre en ${getProgramName(program.name, " ")}`
     ) {
-      COURSE_DESCRIPTIONS[course].type = "SHS";
+      courseDescriptions[course].type = "SHS";
     } else {
-      COURSE_DESCRIPTIONS[course].type = "Not in program";
+      courseDescriptions[course].type = "Not in program";
     }
     COURSE_PROGRAMS[course].forEach((element) => {
       if (element[0] == program) {
         if (element[1] == "core") {
-          COURSE_DESCRIPTIONS[course].type = "Core";
+          courseDescriptions[course].type = "Core";
         } else {
-          COURSE_DESCRIPTIONS[course].type = "Optional";
+          courseDescriptions[course].type = "Optional";
         }
       }
     });
   }
   completedCourses.forEach((course) => {
-    delete COURSE_DESCRIPTIONS[course.name.toLowerCase()];
+    delete courseDescriptions[course.name.toLowerCase()];
   });
 
-  let courses = Object.entries(COURSE_DESCRIPTIONS);
+  let courses = Object.entries(courseDescriptions);
 
   function getCourseLevel(type) {
     switch (type) {
@@ -84,4 +85,13 @@ export function CourseSelection({ addCourse, program, completedCourses }) {
       )}
     />
   );
+}
+
+function clone(obj) {
+  if (null == obj || "object" != typeof obj) return obj;
+  var copy = obj.constructor();
+  for (var attr in obj) {
+      if (obj.hasOwnProperty(attr)) copy[attr] = obj[attr];
+  }
+  return copy;
 }
