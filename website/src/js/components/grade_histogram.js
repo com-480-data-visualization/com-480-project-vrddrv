@@ -17,8 +17,8 @@ export function gradeHistogram(svgTag,data) {
     svg.selectAll("*").remove();
 
     const margin = 20;
-    const width = 240 - 2 * margin;
-    const height = 150 - 2 * margin;
+    const width = 200 - 2 * margin;
+    const height = 140 - 2 * margin;
 
     const chart = svg
         .append("g")

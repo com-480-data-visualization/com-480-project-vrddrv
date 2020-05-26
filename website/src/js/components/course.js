@@ -1,10 +1,10 @@
 import React, { useRef, useEffect } from "react";
-import { Grid } from "@material-ui/core";
+import { Grid, Paper, Typography } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 import { TextCard } from "./text_card";
 import { useSpring, a } from "react-spring";
-import {gradeHistogram} from "./grade_histogram";
-import {gpaPlot} from "./gpa_curve";
+import { gradeHistogram } from "./grade_histogram";
+import { gpaPlot } from "./gpa_curve";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -12,6 +12,11 @@ const useStyles = makeStyles((theme) => ({
     left: "20px",
     width: "50%",
     position: "absolute",
+    // backgroundColor: "#e8eaf6",
+  },
+  paper: {
+    padding: theme.spacing(2),
+    textAlign: "center",
   },
 }));
 
@@ -24,13 +29,12 @@ export function Course({ course, transitionTimeScale }) {
     },
   });
 
-  const plot = useRef();
+  const grades_plot = useRef();
   useEffect(() => {
-    if (plot.current && course) {
-      gradeHistogram(plot.current, course.grades_histogram);
+    if (grades_plot.current && course) {
+      gradeHistogram(grades_plot.current, course.grades_histogram);
     }
-  }, [plot, course]);
-
+  }, [grades_plot, course]);
 
   const gpa_plot = useRef();
   useEffect(() => {
@@ -41,7 +45,7 @@ export function Course({ course, transitionTimeScale }) {
 
   return (
     <a.div className={classes.root} style={spring}>
-      <Grid container spacing={1}>
+      <Grid className={classes.paper} container spacing={1}>
         <Grid item xs={4}>
           <TextCard title="Course name"
                     text={course && course.courseName}
@@ -75,13 +79,31 @@ export function Course({ course, transitionTimeScale }) {
         </Grid>
 
         <Grid item xs={6}>
-            <svg id='gradePlot' ref={plot} />
+          <Paper className={classes.paper}>
+            <Typography variant="body1" gutterBottom>
+                Grades Distribution
+            </Typography>
+            <svg
+              id="gradePlot"
+              ref={grades_plot}
+              viewBox="0 0 200 140"
+              width="100%"
+              length="auto"
+            />
+          </Paper>
         </Grid>
 
         <Grid item xs={6}>
-          <svg id='gpaPlot' ref={gpa_plot} />
+          <Paper className={classes.paper}>
+            <svg
+              id="gpaPlot"
+              ref={gpa_plot}
+              viewBox="0 0 200 140"
+              width="100%"
+              length="auto"
+            />
+          </Paper>
         </Grid>
-
       </Grid>
     </a.div>
   );
