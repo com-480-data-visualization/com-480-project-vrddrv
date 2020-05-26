@@ -103,6 +103,10 @@ export function CircularPlot(props) {
     }
   };
 
+  if (!props.course) {
+    setAnimatedProps({startAngle: 0});
+  }
+
   return (
     <div style={{ textAlign: "center" }}>
       {tooltipData && <Tooltip pos={tooltipPos} data={tooltipData} />}
@@ -118,7 +122,7 @@ export function CircularPlot(props) {
                 circPlotRadius={props.circPlotRadius}
                 maxNumberCredits={props.maxNumberCredits}
                 transitionTimeScale={props.transitionTimeScale}
-                startAngle={props.course ? animatedProps.startAngle : 0}
+                startAngle={animatedProps.startAngle}
                 onPetalClick={onPetalClick}
                 setTooltipPos={setTooltipPos}
                 setTooltipData={setTooltipData}
@@ -137,7 +141,7 @@ export function CircularPlot(props) {
                 circPlotRadius={props.circPlotRadius}
                 maxNumberCredits={props.maxNumberCredits}
                 transitionTimeScale={props.transitionTimeScale}
-                startAngle={props.course ? animatedProps.startAngle : 0}
+                startAngle={animatedProps.startAngle}
                 onPetalClick={onPetalClick}
                 setTooltipPos={setTooltipPos}
                 setTooltipData={setTooltipData}
@@ -146,14 +150,14 @@ export function CircularPlot(props) {
             );
           })}
           <AnimatedSemesterDelimiter
-            startAngle={props.course ? animatedProps.startAngle : 0}
+            startAngle={animatedProps.startAngle}
             angle={0}
             prevAngle={0}
             length={(props.circPlotRadius + props.petalsLength) * 1.25}
           />
           {semesters.map(s => <AnimatedSemesterDelimiter
             key={s[0]}
-            startAngle={props.course ? animatedProps.startAngle : 0}
+            startAngle={animatedProps.startAngle}
             angle={s[1] / props.maxNumberCredits * 2 * Math.PI}
             prevAngle={s[2] / props.maxNumberCredits * 2 * Math.PI}
             length={(props.circPlotRadius + props.petalsLength) * 1.25}
