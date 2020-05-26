@@ -19,6 +19,10 @@ export function GradesScreen(props) {
     (v, t) => v + t.credits,
     0
   );
+  const maxNumberCredits = Math.max(
+    totalCredits + suggestions.reduce((acc, cur) => acc + cur.credits, 0), 120
+  );
+  console.log(maxNumberCredits);
   const addCourse = (course) => {
     let block = "class_not_in_plan_suggestion";
     COURSE_PROGRAMS[course[0]].forEach(([programName, type]) => {
@@ -87,6 +91,7 @@ export function GradesScreen(props) {
         course={course}
         setCourse={setCourse}
         suggestions={suggestions}
+        maxNumberCredits={maxNumberCredits}
       />
       <CourseSelection addCourse={addCourse} />
     </>

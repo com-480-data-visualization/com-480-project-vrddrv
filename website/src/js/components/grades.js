@@ -12,7 +12,7 @@ export function Grades(props) {
       canvasWidth={props.canvasWidth}
       canvasHeight={props.canvasHeight}
       transitionTimeScale={props.transitionTimeScale}
-      maxNumberCredits={120}
+      maxNumberCredits={props.maxNumberCredits}
       setCourse={props.setCourse}
       course={props.course}
       suggestions={props.suggestions}
