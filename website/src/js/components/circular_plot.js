@@ -22,7 +22,7 @@ export function CircularPlot(props) {
   const [tooltipData, setTooltipData] = useState(null);
   const plot = useSpring({
     transform: props.course
-      ? `matrix(0.45, 0, 0, 0.45, ${centerX + 50}, ${centerY - 50})`
+      ? `matrix(0.45, 0, 0, 0.45, ${centerX + 50}, ${centerY - 40})`
       : `matrix(0.45, 0, 0, 0.45, ${centerX}, ${centerY - 50})`,
     from: {
       transform: `matrix(0, 0, 0, 0, ${centerX}, ${centerY - 50})`,
@@ -75,7 +75,7 @@ export function CircularPlot(props) {
     startAngle: 0,
     gpa: gpa,
     scale: 1,
-    config: { duration: props.transitionTimeScale },
+    config: { duration: props.transitionTimeScale},
     from: {
       startAngle: 0,
       gpa: 0,
@@ -90,12 +90,17 @@ export function CircularPlot(props) {
         ((d.creditsBefore + d.credits / 2) / props.maxNumberCredits) *
           2 *
           Math.PI -
-        Math.PI / 2,
+        Math.PI / 4,
     });
     console.log(d.name.toLowerCase());
     const course = COURSE_DESCRIPTIONS[d.name.toLowerCase()];
-    console.log(course);
-    props.setCourse(course);
+
+    if (course == props.course) {
+      props.setCourse(null);
+    } else {
+      console.log(course);
+      props.setCourse(course);
+    }
   };
 
   return (
@@ -113,10 +118,11 @@ export function CircularPlot(props) {
                 circPlotRadius={props.circPlotRadius}
                 maxNumberCredits={props.maxNumberCredits}
                 transitionTimeScale={props.transitionTimeScale}
-                startAngle={animatedProps.startAngle}
+                startAngle={props.course ? animatedProps.startAngle : 0}
                 onPetalClick={onPetalClick}
                 setTooltipPos={setTooltipPos}
                 setTooltipData={setTooltipData}
+                course={props.course}
               />
             );
           })}
@@ -131,7 +137,7 @@ export function CircularPlot(props) {
                 circPlotRadius={props.circPlotRadius}
                 maxNumberCredits={props.maxNumberCredits}
                 transitionTimeScale={props.transitionTimeScale}
-                startAngle={animatedProps.startAngle}
+                startAngle={props.course ? animatedProps.startAngle : 0}
                 onPetalClick={onPetalClick}
                 setTooltipPos={setTooltipPos}
                 setTooltipData={setTooltipData}
@@ -139,14 +145,14 @@ export function CircularPlot(props) {
             );
           })}
           <AnimatedSemesterDelimiter
-            startAngle={animatedProps.startAngle}
+            startAngle={props.course ? animatedProps.startAngle : 0}
             angle={0}
             prevAngle={0}
             length={(props.circPlotRadius + props.petalsLength) * 1.25}
           />
           {semesters.map(s => <AnimatedSemesterDelimiter
             key={s[0]}
-            startAngle={animatedProps.startAngle}
+            startAngle={props.course ? animatedProps.startAngle : 0}
             angle={s[1] / props.maxNumberCredits * 2 * Math.PI}
             prevAngle={s[2] / props.maxNumberCredits * 2 * Math.PI}
             length={(props.circPlotRadius + props.petalsLength) * 1.25}

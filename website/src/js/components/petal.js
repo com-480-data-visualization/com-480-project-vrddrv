@@ -10,7 +10,11 @@ export function Petal(props) {
     from: {
       creditsBefore: 0,
     },
-    config: {duration: props.data.block.endsWith("suggestion") ? 0 : props.transitionTimeScale },
+    config: {
+      duration: props.data.block.endsWith("suggestion")
+        ? 0
+        : props.transitionTimeScale,
+    },
   });
   const [animatedProps, setAnimatedProps, _] = useSpring(() => ({
     scale: 1.0,
@@ -27,10 +31,14 @@ export function Petal(props) {
         circPlotRadius={props.circPlotRadius}
         petalsLength={props.petalsLength}
         opacity={animatedProps.opacity}
-        scale={animatedProps.scale}
         arcGenerator={props.arcGenerator}
         onPetalClick={props.onPetalClick}
         creditsBefore={startAnimatedProps.creditsBefore}
+        scale={
+          props.course && props.course.courseName === props.data.name
+            ? 1.2
+            : animatedProps.scale
+        }
       />
       <g
         transform={`rotate(${
