@@ -87,7 +87,6 @@ export function CircularPlot(props) {
   }));
 
   const onPetalClick = (d) => {
-    console.log(d);
     setAnimatedProps({
       startAngle:
         ((d.creditsBefore + d.credits / 2) / props.maxNumberCredits) *
