@@ -96,7 +96,7 @@ function showSkillsForPrograms(
     format: ".0f",
     transitionTimeScale: transitionTimeScale,
 
-    labelFactor: 1.25, //How much farther than the radius of the outer circle should the labels be placed
+    labelFactor: 1.6, //How much farther than the radius of the outer circle should the labels be placed
     wrapWidth: 60, //The number of pixels after which a label needs to be given a new line
     opacityArea: 0.35, //The opacity of the area of the blob
     dotRadius: 4, //The size of the colored circles of each blog

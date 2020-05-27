@@ -131,9 +131,8 @@ export function RadarChart(parent_selector, data, options) {
   const centerX = cfg.w / 2 + cfg.margin.left;
   const centerY = cfg.h / 2 + cfg.margin.top;
   //Append a g element
-  let g = svg
-    .append("g")
-  
+  let g = svg.append("g");
+
   g.attr("transform", `matrix(0,0,0,0,${centerX},${centerY})`)
     .transition()
     .duration(0.8 * options.transitionTimeScale)
@@ -198,50 +197,42 @@ export function RadarChart(parent_selector, data, options) {
     .append("line")
     .attr("x1", 0)
     .attr("y1", 0)
-    .attr(
-      "x2",
-      (d, i) => rScale(maxValue * 1.1) * cos(angleSlice * i - HALF_PI)
-    )
-    .attr(
-      "y2",
-      (d, i) => rScale(maxValue * 1.1) * sin(angleSlice * i - HALF_PI)
-    )
+    .attr("x2", 0)
+    .attr("y2", -rScale(maxValue * 1.1))
     .attr("class", "line")
     .style("stroke", "white")
     .style("stroke-width", "2px");
 
   //Append the labels at each axis
-  axis
+  var textGroup = axis
+    .append("g")
+    .attr("transform", `matrix(1,0,0,1,${0},${-rScale(maxValue * cfg.labelFactor)})`);
+
+  textGroup
     .append("text")
     .attr("class", "legend")
     .attr("text-anchor", "middle")
     .attr("dy", "0.35em")
-    .attr(
-      "x",
-      (d, i) =>
-        rScale(maxValue * cfg.labelFactor) * cos(angleSlice * i - HALF_PI)
-    )
-    .attr(
-      "y",
-      (d, i) =>
-        rScale(maxValue * cfg.labelFactor) * sin(angleSlice * i - HALF_PI)
-    )
+    .attr("x", 0)
+    .attr("y", 0)
     .text((d) => d)
-    .call(wrap, cfg.wrapWidth);
+    .call(wrap, cfg.wrapWidth)
+    .attr("transform", `rotate(${0})`)
+    .transition()
+    .duration(options.transitionTimeScale)
+    .attr(
+      "transform",
+      (d, i) => `rotate(${-((angleSlice * i) * 180) / Math.PI})`
+    );
 
-  // // Open Animations
-  // petalsEnter
-  //   .attr("transform", `rotate(0)`)
-  //   .transition()
-  //   .duration(_this.transitionTimeScale)
-  //   .attr(
-  //     "transform",
-  //     (d) =>
-  //       `rotate(${
-  //         (_this.startAngle * 180) / Math.PI +
-  //         (-360 * d.creditsBefore) / _this.maxNumberCredits
-  //       })`
-  //   );
+  axis
+    .attr("transform", `rotate(${0})`)
+    .transition()
+    .duration(options.transitionTimeScale)
+    .attr(
+      "transform",
+      (d, i) => `rotate(${((angleSlice * i) * 180) / Math.PI})`
+    );
 
   /////////////////////////////////////////////////////////
   ///////////// Draw the radar chart blobs ////////////////
