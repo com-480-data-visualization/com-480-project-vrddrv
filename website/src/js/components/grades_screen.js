@@ -198,7 +198,8 @@ export function GradesScreen(props) {
         >
           Suggest courses
         </Button>
-        <Button onClick={() => props.setActiveScreen("skills")}>
+        <Button
+            onClick={() => props.setActiveScreen("skills")}>
           Show skills
         </Button>
       </ButtonGroup>
