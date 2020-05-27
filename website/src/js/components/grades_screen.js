@@ -6,12 +6,11 @@ import { Grades } from "./grades";
 import { Course } from "./course";
 import { CourseSelection } from "./course_selection";
 import { RequirementTable } from "./requirements_table";
-import { zip, getProgramName } from "../helpers";
+import { zip, getProgramName, getSemesterProject } from "../helpers";
 import "../../styles/grade_screen.scss";
 
 const COURSE_PROGRAMS = require("../../processed_data/course_programs.json");
 const COURSE_DESCRIPTIONS = require("../../processed_data/course_descriptions.json");
-
 
 export function GradesScreen(props) {
   const program = getProgramName(props.transcript.program.name, "_");
@@ -32,9 +31,10 @@ export function GradesScreen(props) {
     } else {
       course = courseName;
     }
-    let block = course[1].courseCode.startsWith("HUM-")
-      ? "class_shs_suggestion"
-      : "class_not_in_plan_suggestion";
+    let block = "class_not_in_plan_suggestion";
+    if (course[1].courseCode.startsWith("HUM-")) {
+      block = "class_shs_suggestion";
+    }
     COURSE_PROGRAMS[course[0]].forEach(([programName, type]) => {
       if (programName === program) {
         if (type === "core") {
@@ -44,6 +44,9 @@ export function GradesScreen(props) {
         }
       }
     });
+    if (course[0].toLowerCase().startsWith("master project")) {
+      block = "class_thesis_suggestion";
+    }
     return {
       name: course[1].courseName,
       block: block,
@@ -65,6 +68,8 @@ export function GradesScreen(props) {
   };
 
   const suggestCourses = (completed, suggestions) => {
+    const programName = getProgramName(props.transcript.program.name, " ");
+    const semesterProject = getSemesterProject(props.transcript.program.name);
     const allCourses = completed.concat(suggestions);
     let takenCourses = new Set(allCourses.map((c) => c.name.toLowerCase()));
     let coreCredits = allCourses.reduce((t, v) => {
@@ -74,27 +79,18 @@ export function GradesScreen(props) {
     const shsCredits = allCourses.reduce((t, v) => {
       if (
         !v.block.startsWith("class_shs") ||
-        v.name.toLowerCase() ===
-          `projet de semestre en ${getProgramName(program.name, " ")}`
+        v.name.toLowerCase() === semesterProject
       )
         return t;
       shsName = v.name.toLowerCase().slice(0, -1);
       return t + v.credits;
     }, 0);
     const projectCredits = allCourses.reduce((t, v) => {
-      if (
-        v.name.toLowerCase() !==
-        `projet de semestre en ${getProgramName(program.name, " ")}`
-      )
-        return t;
+      if (v.name.toLowerCase() !== semesterProject) return t;
       return t + v.credits;
     }, 0);
     const thesisCredits = allCourses.reduce((t, v) => {
-      if (
-        v.name.toLowerCase() !=
-        `master project in ${getProgramName(program.name, " ")}`
-      )
-        return t;
+      if (v.name.toLowerCase() != `master project in ${programName}`) return t;
       return t + v.credits;
     }, 0);
     let suggestNames = [];
@@ -114,9 +110,7 @@ export function GradesScreen(props) {
       curCredits += 3;
     }
     if (projectCredits < 12) {
-      suggestNames.push(
-        `projet de semestre en ${getProgramName(program.name, " ")}`
-      );
+      suggestNames.push(semesterProject);
       prevCredits.push(curCredits);
       curCredits += 12;
     }
@@ -127,7 +121,7 @@ export function GradesScreen(props) {
       if (!takenCourses.has(courseName)) {
         COURSE_PROGRAMS[courseName].forEach((programInfo) => {
           if (
-            programInfo[0] === getProgramName(program.name, "_") &&
+            programInfo[0] === programName.replace(" ", "_") &&
             programInfo[1] === "core"
           ) {
             prevCredits.push(curCredits);
@@ -148,7 +142,7 @@ export function GradesScreen(props) {
       }
       if (!takenCourses.has(courseName)) {
         COURSE_PROGRAMS[courseName].forEach((programInfo) => {
-          if (programInfo[0] === getProgramName(program.name, "_")) {
+          if (programInfo[0] === programName.replace(" ", "_")) {
             prevCredits.push(curCredits);
             suggestNames.push(courseName);
             takenCourses.add(courseName);
@@ -161,9 +155,7 @@ export function GradesScreen(props) {
       }
     }
     if (thesisCredits < 30) {
-      suggestNames.push(
-        `master project in ${getProgramName(program.name, " ")}`
-      );
+      suggestNames.push(`master project in ${programName}`);
       prevCredits.push(curCredits);
       curCredits += 30;
     }
@@ -189,8 +181,7 @@ export function GradesScreen(props) {
         >
           Suggest courses
         </Button>
-        <Button
-            onClick={() => props.setActiveScreen("skills")}>
+        <Button onClick={() => props.setActiveScreen("skills")}>
           Show skills
         </Button>
       </ButtonGroup>

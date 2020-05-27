@@ -50,6 +50,9 @@ export function CircularPlot(props) {
       prevCredits = currentCredits;
     }
     currentCredits += d.credits;
+    if (d.name.toLowerCase().startsWith("master project")) {
+      d.block = "class_thesis";
+    }
   });
   semesters.push([currentSemester, currentCredits, prevCredits]);
 
@@ -84,7 +87,6 @@ export function CircularPlot(props) {
   }));
 
   const onPetalClick = (d) => {
-    console.log(d);
     setAnimatedProps({
       startAngle:
         ((d.creditsBefore + d.credits / 2) / props.maxNumberCredits) *
