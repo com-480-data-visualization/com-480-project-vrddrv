@@ -50,6 +50,9 @@ export function CircularPlot(props) {
       prevCredits = currentCredits;
     }
     currentCredits += d.credits;
+    if (d.name.toLowerCase().startsWith("master project")) {
+      d.block = "class_thesis";
+    }
   });
   semesters.push([currentSemester, currentCredits, prevCredits]);
 

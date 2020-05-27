@@ -76,6 +76,10 @@ svg {
     fill: #9A0036;
   }
 
+  .class_thesis path {
+    fill: red
+  }
+
   .class_core_suggestion path {
     fill: #D32F2F;
     opacity: 45%;
@@ -93,6 +97,11 @@ svg {
 
   .class_not_in_plan_suggestion path {
     fill:#ef9a9a;
+    opacity: 45%;
+  }
+
+  .class_thesis_suggestion path {
+    fill: red;
     opacity: 45%;
   }
 

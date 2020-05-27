@@ -31,9 +31,10 @@ export function GradesScreen(props) {
     } else {
       course = courseName;
     }
-    let block = course[1].courseCode.startsWith("HUM-")
-      ? "class_shs_suggestion"
-      : "class_not_in_plan_suggestion";
+    let block = "class_not_in_plan_suggestion";
+    if (course[1].courseCode.startsWith("HUM-")) {
+      block = "class_shs_suggestion";
+    }
     COURSE_PROGRAMS[course[0]].forEach(([programName, type]) => {
       if (programName === program) {
         if (type === "core") {
@@ -43,6 +44,9 @@ export function GradesScreen(props) {
         }
       }
     });
+    if (course[0].toLowerCase().startsWith("master project")) {
+      block = "class_thesis_suggestion";
+    }
     return {
       name: course[1].courseName,
       block: block,
@@ -82,8 +86,7 @@ export function GradesScreen(props) {
       return t + v.credits;
     }, 0);
     const projectCredits = allCourses.reduce((t, v) => {
-      if (v.name.toLowerCase() !== semesterProject)
-        return t;
+      if (v.name.toLowerCase() !== semesterProject) return t;
       return t + v.credits;
     }, 0);
     const thesisCredits = allCourses.reduce((t, v) => {
