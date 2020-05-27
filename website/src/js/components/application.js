@@ -66,6 +66,7 @@ export function Application(props) {
         <SkillsScreen
           setActiveScreen={setActiveScreen}
           transcript={transcript}
+          transitionTimeScale={props.transitionTimeScale}
         />
       );
       break;

@@ -45,7 +45,7 @@ export function RadarChart(parent_selector, data, options) {
       }
 
       const pushFactor = 1 + 0.1 * lineNumber;
-      
+
       text
         .selectAll("tspan")
         .attr(
@@ -59,8 +59,8 @@ export function RadarChart(parent_selector, data, options) {
   }; //wrap
 
   const cfg = {
-    w: 200, //Width of the circle
-    h: 200, //Height of the circle
+    w: 150, //Width of the circle
+    h: 150, //Height of the circle
     margin: { top: 100, right: 100, bottom: 100, left: 100 }, //The margins of the SVG
     levels: 3, //How many levels or inner circles should there be drawn
     maxValue: 0, //What is the value that the biggest circle will represent
@@ -128,17 +128,16 @@ export function RadarChart(parent_selector, data, options) {
     .attr("length", "auto")
     .attr("class", "radar");
 
+  const centerX = cfg.w / 2 + cfg.margin.left;
+  const centerY = cfg.h / 2 + cfg.margin.top;
   //Append a g element
   let g = svg
     .append("g")
-    .attr(
-      "transform",
-      "translate(" +
-        (cfg.w / 2 + cfg.margin.left) +
-        "," +
-        (cfg.h / 2 + cfg.margin.top) +
-        ")"
-    );
+  
+  g.attr("transform", `matrix(0,0,0,0,${centerX},${centerY})`)
+    .transition()
+    .duration(0.8 * options.transitionTimeScale)
+    .attr("transform", `matrix(1,0,0,1,${centerX},${centerY})`);
 
   let filter = g.append("defs").append("filter").attr("id", "glow"),
     feGaussianBlur = filter
@@ -170,18 +169,18 @@ export function RadarChart(parent_selector, data, options) {
     .style("filter", "url(#glow)");
 
   //Text indicating at what % each level is
-  axisGrid
-    .selectAll(".axisLabel")
-    .data(d3.range(1, cfg.levels + 1).reverse())
-    .enter()
-    .append("text")
-    .attr("class", "axisLabel")
-    .attr("x", 4)
-    .attr("y", (d) => (-d * radius) / cfg.levels)
-    .attr("dy", "0.4em")
-    .style("font-size", "10px")
-    .attr("fill", "#737373")
-    .text((d) => Format((maxValue * d) / cfg.levels) + cfg.unit);
+  // axisGrid
+  //   .selectAll(".axisLabel")
+  //   .data(d3.range(1, cfg.levels + 1).reverse())
+  //   .enter()
+  //   .append("text")
+  //   .attr("class", "axisLabel")
+  //   .attr("x", 4)
+  //   .attr("y", (d) => (-d * radius) / cfg.levels)
+  //   .attr("dy", "0.4em")
+  //   .style("font-size", "10px")
+  //   .attr("fill", "#737373")
+  //   .text((d) => Format((maxValue * d) / cfg.levels) + cfg.unit);
 
   /////////////////////////////////////////////////////////
   //////////////////// Draw the axes //////////////////////
@@ -229,6 +228,20 @@ export function RadarChart(parent_selector, data, options) {
     )
     .text((d) => d)
     .call(wrap, cfg.wrapWidth);
+
+  // // Open Animations
+  // petalsEnter
+  //   .attr("transform", `rotate(0)`)
+  //   .transition()
+  //   .duration(_this.transitionTimeScale)
+  //   .attr(
+  //     "transform",
+  //     (d) =>
+  //       `rotate(${
+  //         (_this.startAngle * 180) / Math.PI +
+  //         (-360 * d.creditsBefore) / _this.maxNumberCredits
+  //       })`
+  //   );
 
   /////////////////////////////////////////////////////////
   ///////////// Draw the radar chart blobs ////////////////

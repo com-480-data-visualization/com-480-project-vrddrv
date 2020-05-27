@@ -233,6 +233,7 @@ export function GradesScreen(props) {
         addCourse={addCourse}
         program={program}
         completedCourses={props.transcript.classes}
+        transitionTimeScale={props.transitionTimeScale}
       />
     </div>
   );

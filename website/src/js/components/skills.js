@@ -9,7 +9,7 @@ export function Skills(props) {
   const node = useRef();
   useEffect(() => {
     if (node.current) {
-      showSkillsForPrograms(node.current, props.data, coursePrograms);
+      showSkillsForPrograms(node.current, props.data, coursePrograms, props.transitionTimeScale);
     }
   }, [node]);
 
@@ -20,6 +20,7 @@ function showSkillsForPrograms(
   parent_selector,
   data,
   coursePrograms,
+  transitionTimeScale,
   programsToShow = 7
 ) {
   let programs = new Object();
@@ -93,6 +94,7 @@ function showSkillsForPrograms(
     levels: 1,
     color: d3.scaleOrdinal().range(["#26AF32", "#762712"]),
     format: ".0f",
+    transitionTimeScale: transitionTimeScale,
 
     labelFactor: 1.25, //How much farther than the radius of the outer circle should the labels be placed
     wrapWidth: 60, //The number of pixels after which a label needs to be given a new line

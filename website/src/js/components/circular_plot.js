@@ -112,7 +112,8 @@ export function CircularPlot(props) {
   return (
     <div style={{ textAlign: "center" }}>
       {tooltipData && <Tooltip pos={tooltipPos} data={tooltipData} />}
-      <svg id="plot" viewBox="-10 -10 220 220" preserveAspectRatio="none">
+      <svg id="plot" viewBox="-10 -10 220 220" preserveAspectRatio="none"
+           width="100%" height="100%" length="auto" >
         <animated.g id="circular_plot" transform={plot.transform} onClick={(e) => e.stopPropagation()}>
           {data.map((d) => {
             return (

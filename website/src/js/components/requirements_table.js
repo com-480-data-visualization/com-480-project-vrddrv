@@ -213,6 +213,9 @@ export function RequirementTable(props) {
   const classes = useStyles();
   const spring = useSpring({
     transform: props.course ? "translateX(-110%)" : "translateX(0%)",
+    from: {
+      transform: "translateX(-110%)",
+    },
     config: {
       duration: props.transitionTimeScale,
     },

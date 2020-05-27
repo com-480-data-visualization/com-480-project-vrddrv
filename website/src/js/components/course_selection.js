@@ -5,6 +5,7 @@ import { TextField } from "@material-ui/core";
 import Autocomplete from "@material-ui/lab/Autocomplete";
 import { makeStyles } from "@material-ui/core/styles";
 import { getProgramName } from "../helpers";
+import { useSpring, a } from "react-spring";
 
 const COURSE_DESCRIPTIONS = require("../../processed_data/course_descriptions.json");
 const COURSE_PROGRAMS = require("../../processed_data/course_programs.json");
@@ -21,7 +22,19 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-export function CourseSelection({ addCourse, program, completedCourses }) {
+
+export function CourseSelection({ addCourse, program, completedCourses, transitionTimeScale}) {
+
+  const spring = useSpring({
+    transform:  "translateX(0%)",
+    from: {
+      transform: "translateX(110%)",
+    },
+    config: {
+      duration: transitionTimeScale,
+    },
+  });
+
   let courseDescriptions = clone(COURSE_DESCRIPTIONS);
   for (let course in courseDescriptions) {
     if (
@@ -63,27 +76,28 @@ export function CourseSelection({ addCourse, program, completedCourses }) {
   courses = courses.sort((a, b) => getCourseLevel(a[1].type) > getCourseLevel(b[1].type) ? -1 : 1);
   const classes = useStyles();
   return (
-    <Autocomplete
-      id="course_selection"
-      onChange={(event, course) => {
-        addCourse(course);
-      }}
-      className={classes.root}
-      options={courses}
-      getOptionLabel={(d) => d[1].courseName}
-      groupBy={(option) => option[1].type}
-      renderInput={(params) => (
-        <TextField
-          {...params}
-          // className={classes.textField}
-          // InputProps={{
-          //   className: classes.text
-          // }}
-          label="Add course to your plan"
-          variant="outlined"
-        />
-      )}
-    />
+    <a.div className={classes.root} style={spring}>
+      <Autocomplete
+        id="course_selection"
+        onChange={(event, course) => {
+          addCourse(course);
+        }}
+        options={courses}
+        getOptionLabel={(d) => d[1].courseName}
+        groupBy={(option) => option[1].type}
+        renderInput={(params) => (
+          <TextField
+            {...params}
+            // className={classes.textField}
+            // InputProps={{
+            //   className: classes.text
+            // }}
+            label="Add course to your plan"
+            variant="outlined"
+          />
+        )}
+      />
+    </a.div>
   );
 }
 

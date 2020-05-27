@@ -24,7 +24,10 @@ export function SkillsScreen(props) {
           Back to the main screen
         </Button>
       </ButtonGroup>
-      <Skills data={props.transcript.classes} />
+      <Skills
+        data={props.transcript.classes}
+        transitionTimeScale={props.transitionTimeScale}
+      />
     </>
   );
 }
