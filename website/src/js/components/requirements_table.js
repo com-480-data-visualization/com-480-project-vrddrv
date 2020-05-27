@@ -7,7 +7,7 @@ import { green } from "@material-ui/core/colors";
 import { lighten, makeStyles, withStyles } from "@material-ui/core/styles";
 import { useSpring, a } from "react-spring";
 import { max } from "d3";
-import { getProgramName } from "../helpers";
+import { getProgramName, getSemesterProject } from "../helpers";
 
 const BorderLinearProgress = withStyles({
   root: {
@@ -119,7 +119,7 @@ function getProgramRequirementsList(program) {
       classes.reduce((t, v) => {
         if (
           !v.block.startsWith("class_shs") ||
-          v.name.toLowerCase() === `projet de semestre en ${getProgramName(program.name, " ")}`
+          v.name.toLowerCase() === getSemesterProject(program.name)
         )
           return t;
         return t + v.credits;
@@ -133,7 +133,7 @@ function getProgramRequirementsList(program) {
     "Semester Project",
     (classes) =>
       classes.reduce((t, v) => {
-        if (v.name.toLowerCase() !== `projet de semestre en ${getProgramName(program.name, " ")}`) return t;
+        if (v.name.toLowerCase() !== getSemesterProject(program.name)) return t;
         return t + v.credits;
       }, 0),
     0,
@@ -217,7 +217,6 @@ export function RequirementTable(props) {
       duration: props.transitionTimeScale,
     },
   });
-
   const RequirementList = getProgramRequirementsList(props.transcript.program);
   const renderedRequrements = RequirementList.map((req) => (
     <li key={req.name}>
