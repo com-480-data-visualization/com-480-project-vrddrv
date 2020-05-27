@@ -25,7 +25,7 @@ body {
   align-content: center;
 
   /* background behind the plot */
-  background: rgb(125, 125, 125);
+  background: rgb(40, 40, 40);
 
   /* default text */
   font-family: sans-serif;
@@ -47,6 +47,7 @@ svg {
 #circular_plot {
   circle {
     fill: #FFC400;
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.5);
   }
 
   text {
@@ -64,6 +65,7 @@ svg {
 
   .class_core path {
     fill: #D32F2F;
+    border-radius: 10px;
   }
 
   .class_optional path {
