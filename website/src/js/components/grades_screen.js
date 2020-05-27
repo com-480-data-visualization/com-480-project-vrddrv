@@ -185,15 +185,6 @@ export function GradesScreen(props) {
         }}
       >
         <Button
-          onClick={() => {
-            props.setActiveScreen("transcript");
-            setSuggestions([]);
-            setCourse(null);
-          }}
-        >
-          Reset
-        </Button>
-        <Button
           onClick={() => suggestCourses(props.transcript.classes, suggestions)}
         >
           Suggest courses
@@ -213,7 +204,8 @@ export function GradesScreen(props) {
         course={course}
         transitionTimeScale={props.transitionTimeScale}
       />
-      <div onClick={() => setCourse(null)}>
+
+      <div onClick={() => setCourse(null)} >
         <Grades
           transcript={props.transcript}
           canvasWidth={props.canvasWidth}
@@ -227,6 +219,25 @@ export function GradesScreen(props) {
           maxNumberCredits={maxNumberCredits}
         />
       </div>
+      
+      {((suggestions.length > 0) && (!course) )? <Button 
+          variant="contained"
+          color="primary"
+          style={{
+            position: "absolute",
+            left: "50%",
+            top: "90%",
+            transform: "translate(-50%, 0)"
+          }}
+          onClick={() => {
+            props.setActiveScreen("transcript");
+            setSuggestions([]);
+            setCourse(null);
+          }}
+        >
+          Reset
+        </Button> : <></>}
+      
       <CourseSelection
         addCourse={addCourse}
         program={program}
