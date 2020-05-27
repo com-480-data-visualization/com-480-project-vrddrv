@@ -58,7 +58,6 @@ function showSkillsForPrograms(
   });
   corePrograms = Object.entries(coreProgramsTmp);
 
-  var margin = { top: 50, right: 80, bottom: 50, left: 80 };
   //width = Math.min(700, window.innerWidth / 4) - margin.left - margin.right,
   //height = Math.min(width, window.innerHeight - margin.top - margin.bottom);
 
@@ -91,13 +90,20 @@ function showSkillsForPrograms(
   });
 
   var radarChartOptions = {
-    w: 300,
-    h: 400,
-    margin: margin,
-    levels: 5,
-    roundStrokes: true,
+    levels: 1,
     color: d3.scaleOrdinal().range(["#26AF32", "#762712"]),
     format: ".0f",
+
+    labelFactor: 1.25, //How much farther than the radius of the outer circle should the labels be placed
+    wrapWidth: 60, //The number of pixels after which a label needs to be given a new line
+    opacityArea: 0.35, //The opacity of the area of the blob
+    dotRadius: 4, //The size of the colored circles of each blog
+    opacityCircles: 0.1, //The opacity of the circles of each blob
+    strokeWidth: 2, //The width of the stroke around each blob
+    roundStrokes: false, //If true the area and stroke will follow a round path (cardinal-closed)
+
+    unit: "",
+    legend: true,
   };
 
   RadarChart(parent_selector, radarData, radarChartOptions);

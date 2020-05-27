@@ -21,10 +21,7 @@ export function SkillsScreen(props) {
             props.setActiveScreen("transcript");
           }}
         >
-          Show credits
-        </Button>
-        <Button onClick={() => props.setActiveScreen("skills")}>
-          Show skills
+          Back to the main screen
         </Button>
       </ButtonGroup>
       <Skills data={props.transcript.classes} />

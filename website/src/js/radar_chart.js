@@ -2,7 +2,6 @@
 import * as d3 from "d3";
 import { shortenCourseName } from "./helpers";
 
-
 const max = Math.max;
 const sin = Math.sin;
 const cos = Math.cos;
@@ -17,6 +16,7 @@ export function RadarChart(parent_selector, data, options) {
         line = [],
         lineNumber = 0,
         lineHeight = 1.4, // ems
+        dy_list = [],
         y = text.attr("y"),
         x = text.attr("x"),
         dy = parseFloat(text.attr("dy")),
@@ -34,6 +34,7 @@ export function RadarChart(parent_selector, data, options) {
           line.pop();
           tspan.text(line.join(" "));
           line = [word];
+
           tspan = text
             .append("tspan")
             .attr("x", x)
@@ -42,13 +43,25 @@ export function RadarChart(parent_selector, data, options) {
             .text(word);
         }
       }
+
+      const pushFactor = 1 + 0.1 * lineNumber;
+      
+      text
+        .selectAll("tspan")
+        .attr(
+          "dy",
+          (_, idx) =>
+            idx * lineHeight - (lineNumber * lineHeight) / 2 + dy + "em"
+        )
+        .attr("x", pushFactor * x)
+        .attr("y", pushFactor * y);
     });
   }; //wrap
 
   const cfg = {
-    w: 600, //Width of the circle
-    h: 600, //Height of the circle
-    margin: { top: 20, right: 20, bottom: 20, left: 20 }, //The margins of the SVG
+    w: 200, //Width of the circle
+    h: 200, //Height of the circle
+    margin: { top: 100, right: 100, bottom: 100, left: 100 }, //The margins of the SVG
     levels: 3, //How many levels or inner circles should there be drawn
     maxValue: 0, //What is the value that the biggest circle will represent
     labelFactor: 1.25, //How much farther than the radius of the outer circle should the labels be placed
@@ -104,8 +117,15 @@ export function RadarChart(parent_selector, data, options) {
   //Initiate the radar chart SVG
   let svg = parent
     .append("svg")
-    .attr("width", cfg.w + cfg.margin.left + cfg.margin.right)
-    .attr("height", cfg.h + cfg.margin.top + cfg.margin.bottom)
+    .attr(
+      "viewBox",
+      `0 0 \
+       ${cfg.w + cfg.margin.right + cfg.margin.left} \
+       ${cfg.h + cfg.margin.bottom + cfg.margin.top}`
+    )
+    .attr("width", "100%")
+    .attr("height", "100%")
+    .attr("length", "auto")
     .attr("class", "radar");
 
   //Append a g element
@@ -195,7 +215,6 @@ export function RadarChart(parent_selector, data, options) {
   axis
     .append("text")
     .attr("class", "legend")
-    .style("font-size", "11px")
     .attr("text-anchor", "middle")
     .attr("dy", "0.35em")
     .attr(
@@ -301,7 +320,11 @@ export function RadarChart(parent_selector, data, options) {
   function setTooltipText(tooltip, d, x, cfg) {
     tooltip.append("tspan").text(`Credits: ${d.value}`);
     d.info.forEach((c) => {
-      tooltip.append("tspan").text(`${shortenCourseName(c[0])}: ${c[1]}`).attr("x", x).attr("dy", 12);
+      tooltip
+        .append("tspan")
+        .text(`${shortenCourseName(c[0])}: ${c[1]}`)
+        .attr("x", x)
+        .attr("dy", 12);
     });
   }
 
