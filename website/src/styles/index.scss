@@ -63,31 +63,36 @@ svg {
   font-style: normal;
 
   .class_core path {
-    fill: #c90035;
+    fill: #D32F2F;
+    border-radius: 10px;
   }
 
   .class_optional path {
-    fill: #96043e;
+    fill: #F57C00;
   }
 
   .class_shs path {
-    fill: #5b1546;
+    fill: #9A0036;
   }
 
   .class_core_suggestion path {
-    fill: green;
+    fill: #D32F2F;
+    opacity: 45%;
   }
 
   .class_optional_suggestion path {
-    fill: blue;
+    fill: #F57C00;
+    opacity: 45%;
   }
 
   .class_shs_suggestion path {
-    fill: coral;
+    fill: #9A0036;
+    opacity: 45%;
   }
 
   .class_not_in_plan_suggestion path {
-    fill: #AAAAAA;
+    fill:#ef9a9a;
+    opacity: 45%;
   }
 
   .petals {
