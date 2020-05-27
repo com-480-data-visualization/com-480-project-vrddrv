@@ -12,7 +12,7 @@ const COURSE_PROGRAMS = require("../../processed_data/course_programs.json");
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    top: "20px",
+    top: "80px",
     right: "20px",
     width: "25%",
     position: "absolute",

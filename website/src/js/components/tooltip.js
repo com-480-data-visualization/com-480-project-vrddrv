@@ -2,7 +2,7 @@
 
 import React from "react";
 
-export function Tooltip(props) {
+export function CircPlotTooltip(props) {
   return (
     <div
       id="petalTooltip"

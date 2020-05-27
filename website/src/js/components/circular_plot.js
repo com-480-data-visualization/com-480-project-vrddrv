@@ -5,7 +5,7 @@ import { useSpring, animated } from "react-spring";
 import * as d3 from "d3";
 import { CenterCircle } from "./center_circle";
 import { Petal } from "./petal";
-import { Tooltip } from "./tooltip";
+import { CircPlotTooltip } from "./tooltip";
 import { AnimatedSemesterDelimiter } from "./semester_delimiter";
 
 // TODO: move it from here
@@ -111,7 +111,7 @@ export function CircularPlot(props) {
 
   return (
     <div style={{ textAlign: "center" }}>
-      {tooltipData && <Tooltip pos={tooltipPos} data={tooltipData} />}
+      {tooltipData && <CircPlotTooltip pos={tooltipPos} data={tooltipData} />}
       <svg id="plot" viewBox="-10 -10 220 220" preserveAspectRatio="none"
            width="100%" height="100%" length="auto" >
         <animated.g id="circular_plot" transform={plot.transform} onClick={(e) => e.stopPropagation()}>

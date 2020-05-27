@@ -206,7 +206,10 @@ export function RadarChart(parent_selector, data, options) {
   //Append the labels at each axis
   var textGroup = axis
     .append("g")
-    .attr("transform", `matrix(1,0,0,1,${0},${-rScale(maxValue * cfg.labelFactor)})`);
+    .attr(
+      "transform",
+      `matrix(1,0,0,1,${0},${-rScale(maxValue * cfg.labelFactor)})`
+    );
 
   textGroup
     .append("text")
@@ -222,21 +225,40 @@ export function RadarChart(parent_selector, data, options) {
     .duration(options.transitionTimeScale)
     .attr(
       "transform",
-      (d, i) => `rotate(${-((angleSlice * i) * 180) / Math.PI})`
+      (d, i) => `rotate(${-(angleSlice * i * 180) / Math.PI})`
     );
 
   axis
     .attr("transform", `rotate(${0})`)
     .transition()
     .duration(options.transitionTimeScale)
-    .attr(
-      "transform",
-      (d, i) => `rotate(${((angleSlice * i) * 180) / Math.PI})`
-    );
+    .attr("transform", (d, i) => `rotate(${(angleSlice * i * 180) / Math.PI})`);
 
   /////////////////////////////////////////////////////////
   ///////////// Draw the radar chart blobs ////////////////
   /////////////////////////////////////////////////////////
+
+  /// Set up tooltips
+  const tooltip = d3
+    .select("body")
+    .append("div")
+    .attr("class", "tooltip radarTooltip")
+    .style("position", "absolute")
+    .style("visibility", "hidden");
+
+  function setTooltipTextCircle(tooltip, d, x, cfg) {
+    tooltip.selectAll("p").remove();
+    tooltip.selectAll("h3").remove();
+    tooltip.append("h3").text(`Total credits for this category: ${d.value}`);
+    // tooltip
+    //   .append("h3")
+    //   .text(`Total credits for this category: ${d.value}`);
+    // d.info.forEach((c) => {
+    //   tooltip
+    //     .append("p")
+    //     .text(`${shortenCourseName(c[0])}: ${c[1]}`);
+    // });
+  }
 
   //The radial line function
   const radarLine = d3
@@ -273,6 +295,11 @@ export function RadarChart(parent_selector, data, options) {
         .style("fill-opacity", 0.1);
       //Bring back the hovered over blob
       d3.select(this).transition().duration(200).style("fill-opacity", 0.7);
+
+      tooltip.selectAll("p").remove();
+      tooltip.selectAll("h3").remove();
+      tooltip.append("h3").text(d.name);
+      tooltip.style("visibility", "visible");
     })
     .on("mouseout", () => {
       //Bring back all blobs
@@ -281,6 +308,13 @@ export function RadarChart(parent_selector, data, options) {
         .transition()
         .duration(200)
         .style("fill-opacity", cfg.opacityArea);
+
+      tooltip.style("visibility", "hidden");
+    })
+    .on("mousemove", function () {
+      tooltip
+        .style("top", event.pageY + 15 + "px")
+        .style("left", event.pageX + 15 + "px");
     });
 
   //Create the outlines
@@ -309,7 +343,7 @@ export function RadarChart(parent_selector, data, options) {
     .style("fill-opacity", 0.8);
 
   /////////////////////////////////////////////////////////
-  //////// Append invisible circles for tooltip ///////////
+  //////// Append inble circles for tooltip ///////////
   /////////////////////////////////////////////////////////
 
   //Wrapper for the invisible circles on top
@@ -321,16 +355,6 @@ export function RadarChart(parent_selector, data, options) {
     .attr("class", "radarCircleWrapper");
 
   //Append a set of invisSible circles on top for the mouseover pop-up
-  function setTooltipText(tooltip, d, x, cfg) {
-    tooltip.append("tspan").text(`Credits: ${d.value}`);
-    d.info.forEach((c) => {
-      tooltip
-        .append("tspan")
-        .text(`${shortenCourseName(c[0])}: ${c[1]}`)
-        .attr("x", x)
-        .attr("dy", 12);
-    });
-  }
 
   blobCircleWrapper
     .selectAll(".radarInvisibleCircle")
@@ -344,26 +368,17 @@ export function RadarChart(parent_selector, data, options) {
     .style("fill", "none")
     .style("pointer-events", "all")
     .on("mouseover", function (d, i) {
-      tooltip
-        .attr("x", this.cx.baseVal.value - 10)
-        .attr("y", this.cy.baseVal.value + 15)
-        .transition()
-        .style("display", "block");
-      setTooltipText(tooltip, d, this.cx.baseVal.value - 10, cfg);
+      tooltip.style("visibility", "visible");
+      setTooltipTextCircle(tooltip, d, this.cx.baseVal.value - 10, cfg);
     })
     .on("mouseout", function () {
-      tooltip.transition().style("display", "none").text("");
+      tooltip.style("visibility", "hidden");
+    })
+    .on("mousemove", function () {
+      tooltip
+        .style("top", event.pageY + 15 + "px")
+        .style("left", event.pageX + 15 + "px");
     });
-
-  const tooltip = g
-    .append("text")
-    .attr("class", "tooltip")
-    .attr("x", 0)
-    .attr("y", 0)
-    .style("font-size", "12px")
-    .style("display", "none")
-    .attr("text-anchor", "middle")
-    .attr("dy", "0.35em");
 
   if (cfg.legend !== false && typeof cfg.legend === "object") {
     let legendZone = svg.append("g");
