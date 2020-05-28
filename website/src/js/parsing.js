@@ -107,11 +107,8 @@ function getClassesInfoFromTextContent(itemsArray) {
       ) {
         name = name.substring(nameCenterIdx);
       }
-      if (
-        name == "pratiques artistiques i artistic practices ii"
-      )
-      {
-        name = "artistic practices ii"
+      if (name == "pratiques artistiques i artistic practices ii") {
+        name = "artistic practices ii";
       }
 
       var subject = {
