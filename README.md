@@ -98,7 +98,8 @@ It will create the `build` directory in the `website` folder. You can open `webs
 1. On the first page you will see the window where you can drag and drop your transcript and the button “Use Mock transcript”. It will work properly only with the Computer Science and Data Science Master transripts. To see all the charts in a way it was intended you may use the “Use Mock transcript” button.
 2. After uploading the transcript the screen with grades visualization in a form of the flower plot will appear. Length of petal represents the obtained grade, width represents the number of credits and color represents the type of class (core, optional etc). Your progress in different program requirements is also visualized on the right side.
 3. You can click on the petal to see the class info.
-4. You can select the course in the "Add course to your plan" widget and click on it to add it to the flower plot (semester planning feature). You can also clicj on the suggest courses button to automatically select courses to fulfill all requirements.
-5. You can click on the “Show skills” button to show skills visualization. Skills are computed for each transcript based on the actual EPFL programs.
-6. You can click on the question sign in the right bottom corner to see some tips.
+5. You can click on the selected petal again or somethere outside of plots to hide the class info.
+6. You can select the course in the "Add course to your plan" widget and click on it to add it to the flower plot (semester planning feature). You can also clicj on the suggest courses button to automatically select courses to fulfill all requirements.
+7. You can click on the “Show skills” button to show skills visualization. Skills are computed for each transcript based on the actual EPFL programs.
+8. You can click on the question sign in the right bottom corner to see some tips.
 
