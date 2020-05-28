@@ -189,7 +189,8 @@ export function GradesScreen(props) {
         <Button
             style={{
               borderRadius: 20,
-              borderColor: 'transparent'
+              borderColor: 'transparent',
+              marginRight: 2
             }}
           onClick={() => suggestCourses(props.transcript.classes, suggestions)}
         >
@@ -198,7 +199,8 @@ export function GradesScreen(props) {
         <Button
             style={{
               borderRadius: 20,
-              borderColor: 'transparent'
+              borderColor: 'transparent',
+              marginLeft: 2
             }}
             onClick={() => props.setActiveScreen("skills")}>
           Show skills
