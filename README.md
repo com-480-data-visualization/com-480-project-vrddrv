@@ -100,4 +100,5 @@ It will create the `build` directory in the `website` folder. You can open `webs
 3. You can click on the petal to see the class info.
 4. You can select the course in the "Add course to your plan" widget and click on it to add it to the flower plot (semester planning feature). You can also clicj on the suggest courses button to automatically select courses to fulfill all requirements.
 5. You can click on the “Show skills” button to show skills visualization. Skills are computed for each transcript based on the actual EPFL programs.
+6. You can click on the question sign in the right bottom corner to see some tips.
 
