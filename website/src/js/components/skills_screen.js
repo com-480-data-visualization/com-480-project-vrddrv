@@ -21,6 +21,9 @@ export function SkillsScreen(props) {
           onClick={() => {
             props.setActiveScreen("transcript");
           }}
+          style={{
+              borderRadius: 20
+          }}
         >
           Back to the main screen
         </Button>

@@ -176,15 +176,25 @@ export function GradesScreen(props) {
         style={{
           position: "absolute",
           left: "50%",
-          transform: "translate(-50%, 0)",
+          boxShadow: 'none',
+          transform: "translate(-50%, 0)"
         }}
       >
         <Button
+            style={{
+              borderRadius: 20,
+              borderColor: 'transparent'
+            }}
           onClick={() => suggestCourses(props.transcript.classes, suggestions)}
         >
           Suggest courses
         </Button>
-        <Button onClick={() => props.setActiveScreen("skills")}>
+        <Button
+            style={{
+              borderRadius: 20,
+              borderColor: 'transparent'
+            }}
+            onClick={() => props.setActiveScreen("skills")}>
           Show skills
         </Button>
       </ButtonGroup>
@@ -232,12 +242,13 @@ export function GradesScreen(props) {
       {suggestions.length > 0 && !course ? (
         <Button
           variant="contained"
-          color="primary"
+          color='primary'
           style={{
             position: "absolute",
             left: "50%",
             top: "90%",
             transform: "translate(-50%, 0)",
+            borderRadius: 20
           }}
           onClick={() => {
             props.setActiveScreen("transcript");
