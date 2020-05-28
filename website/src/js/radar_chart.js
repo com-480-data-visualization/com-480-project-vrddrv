@@ -59,8 +59,8 @@ export function RadarChart(parent_selector, data, options) {
   }; //wrap
 
   const cfg = {
-    w: 150, //Width of the circle
-    h: 150, //Height of the circle
+    w: 130, //Width of the circle
+    h: 130, //Height of the circle
     margin: { top: 100, right: 100, bottom: 100, left: 100 }, //The margins of the SVG
     levels: 3, //How many levels or inner circles should there be drawn
     maxValue: 0, //What is the value that the biggest circle will represent

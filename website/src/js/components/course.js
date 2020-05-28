@@ -8,7 +8,7 @@ import { gpaPlot } from "./gpa_curve";
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    top: "40px",
+    top: "80px",
     left: "20px",
     width: "50%",
     position: "absolute",

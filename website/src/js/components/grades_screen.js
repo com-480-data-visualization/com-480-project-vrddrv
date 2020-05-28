@@ -6,6 +6,7 @@ import { Grades } from "./grades";
 import { Course } from "./course";
 import { CourseSelection } from "./course_selection";
 import { RequirementTable } from "./requirements_table";
+import { HintMainScreen, HintCourseScreen, HelpButton } from "./hints";
 import { zip, getProgramName, getSemesterProject } from "../helpers";
 import "../../styles/grade_screen.scss";
 
@@ -185,14 +186,33 @@ export function GradesScreen(props) {
           Show skills
         </Button>
       </ButtonGroup>
-    
+
       <Course
         transcript={props.transcript}
         course={course}
         transitionTimeScale={props.transitionTimeScale}
       />
 
-      <div onClick={() => setCourse(null)} >
+      <HintMainScreen
+        transitionTimeScale={props.transitionTimeScale}
+        course={course}
+        showHints={props.showHints}
+        changeShowHints={props.changeShowHints}
+      />
+
+      <HintCourseScreen
+        transitionTimeScale={props.transitionTimeScale}
+        course={course}
+        showHints={props.showHints}
+        changeShowHints={props.changeShowHints}
+      />
+
+      <HelpButton
+        showHints={props.showHints}
+        changeShowHints={props.changeShowHints}
+      />
+
+      <div onClick={() => setCourse(null)}>
         <Grades
           transcript={props.transcript}
           canvasWidth={props.canvasWidth}
@@ -206,15 +226,16 @@ export function GradesScreen(props) {
           maxNumberCredits={maxNumberCredits}
         />
       </div>
-      
-      {((suggestions.length > 0) && (!course) )? <Button 
+
+      {suggestions.length > 0 && !course ? (
+        <Button
           variant="contained"
           color="primary"
           style={{
             position: "absolute",
             left: "50%",
             top: "90%",
-            transform: "translate(-50%, 0)"
+            transform: "translate(-50%, 0)",
           }}
           onClick={() => {
             props.setActiveScreen("transcript");
@@ -223,8 +244,11 @@ export function GradesScreen(props) {
           }}
         >
           Reset
-        </Button> : <></>}
-      
+        </Button>
+      ) : (
+        <></>
+      )}
+
       <CourseSelection
         addCourse={addCourse}
         program={program}

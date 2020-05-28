@@ -3,6 +3,7 @@
 import React from "react";
 import { Grid, Button, ButtonGroup } from "@material-ui/core";
 import { Skills } from "./skills";
+import { HintSkillsScreen, HelpButton } from "./hints";
 
 export function SkillsScreen(props) {
   return (
@@ -27,6 +28,16 @@ export function SkillsScreen(props) {
       <Skills
         data={props.transcript.classes}
         transitionTimeScale={props.transitionTimeScale}
+      />
+      <HintSkillsScreen
+        transitionTimeScale={props.transitionTimeScale}
+        showHints={props.showHints}
+        changeShowHints={props.changeShowHints}
+      />
+
+      <HelpButton
+        showHints={props.showHints}
+        changeShowHints={props.changeShowHints}
       />
     </>
   );

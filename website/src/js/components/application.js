@@ -15,6 +15,7 @@ export function Application(props) {
   // useState is a Hook which returns a pair: the current state value and a function that lets you update it.
   const [activeScreen, setActiveScreen] = useState("dropzone");
   const [transcript, setTranscript] = useState(mockTranscript());
+  const [showHints, changeShowHints] = useState(true);
 
   function readTranscript(file) {
     if (file) {
@@ -58,6 +59,8 @@ export function Application(props) {
           transitionTimeScale={props.transitionTimeScale}
           circPlotRadius={props.circPlotRadius}
           petalsLength={props.petalsLength}
+          showHints={showHints} 
+          changeShowHints={changeShowHints}
         />
       );
       break;
@@ -67,6 +70,8 @@ export function Application(props) {
           setActiveScreen={setActiveScreen}
           transcript={transcript}
           transitionTimeScale={props.transitionTimeScale}
+          showHints={showHints} 
+          changeShowHints={changeShowHints}
         />
       );
       break;

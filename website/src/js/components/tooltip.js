@@ -12,6 +12,7 @@ export function CircPlotTooltip(props) {
       <p />
       <p>Grade: {props.data.grade}</p>
       <p>Credits: {props.data.credits}</p>
+      <p>Block: {props.data.block.split('_')[1]}</p>
       <p />
       {props.data.lang ? <p>Language: {props.data.lang}</p> : <p></p>}
       {props.data.lang ? <p>Exam date: {props.data.sdate}</p> : <p></p>}
