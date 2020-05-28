@@ -209,7 +209,7 @@ export function GradesScreen(props) {
           Show skills
         </Button>
 
-        <Button
+        {/* <Button
           onClick={() => {
             props.setActiveScreen("dropzone");
           }}
@@ -221,7 +221,7 @@ export function GradesScreen(props) {
           }}
         >
           Upload new transcript
-        </Button>
+        </Button> */}
       </ButtonGroup>
 
       <Course
