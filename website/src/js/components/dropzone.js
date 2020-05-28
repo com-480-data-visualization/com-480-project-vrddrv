@@ -46,11 +46,11 @@ export function DropZone(props) {
             <div className="logo-content">
               <div className="logo" />
             </div>
-            <p className="disclaimer">
+            {/* <p className="disclaimer">
               Disclaimer: current version was tested only on Chrome browser. 
               Proper work for other browsers is not quaranteed.
               All the features of the website are available for EPFL Data Science or Computer Science Mster students.
-            </p>
+            </p> */}
           </div>
         </Grid>
       </div>
