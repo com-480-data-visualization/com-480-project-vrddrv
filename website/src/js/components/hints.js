@@ -54,21 +54,21 @@ export function HintMainScreen(props) {
           Welcome to Ilumni!
         </Typography>
         <Typography variant="body2" gutterBottom>
-          On this page you can see general information about your studies. The
+          On this page you can see some general information about your studies. The
           flower in the center represents you progress on the way to the
-          diploma, it will be fullfilled when you obtain all credits for your
+          diploma. It will become full once you obtain all credits for your
           program. The visualizations are interactive, try them!
         </Typography>
         <Typography variant="body2" gutterBottom>
           To the right from the flower you can see your progress in the
-          requirements of you programm. You will sucesfully finish your Masters
+          requirements of your program. You will successfully finish your Masters
           when those are met!
         </Typography>
         <Typography variant="body2" gutterBottom>
-          To plan your next semester you can manually add classes from the list
-          right above and see how each class affects your progress! We also
-          prepared a simple recomendation system to help you with a search for
-          right classes. Try it by hitting the "Sugest courses" button!
+          To plan your next semester you can manually add classes from the search
+          bar and see how that affect your progress! We also
+          prepared a simple recommendation system to help you with a search for
+          right classes. Try it by hitting the "Suggest courses" button!
         </Typography>
         <Typography variant="body2" gutterBottom>
           If you are about to finish your studies and already have everything
@@ -123,17 +123,17 @@ export function HintCourseScreen(props) {
           <Close />
         </IconButton>
         <Typography variant="h5" gutterBottom>
-          Course Description
+          Course Details
         </Typography>
         <Typography variant="body2" gutterBottom>
-          On this page you can find some information about the class you have
+          On this page you can find some information about the course you have
           clicked.
         </Typography>
         <Typography variant="body2" gutterBottom>
-          Probably the most important here are two plots which can give you a
-          notion of how difficult class is. The first one shows a histogram of
-          grades which were reported to us by other studetns. If you completed
-          this class - the bar with your grade will be colored in violet.
+          Probably the most important here are the two plots which give you a
+          notion of how difficult the course is. The first one shows a histogram of
+          grades which were reported to us by other students. If you completed
+          the course, the bar with your grade will be colored in violet.
         </Typography>
       </Paper>
     </a.div>
@@ -182,12 +182,12 @@ export function HintSkillsScreen(props) {
           <Close />
         </IconButton>
         <Typography variant="h5" gutterBottom>
-          Skills Diagram
+          Skills Chart
         </Typography>
         <Typography variant="body2" gutterBottom>
           During your Masters you have taken a lot of different classes.
-          Majority of them are shared with other programs. Could that happen
-          that studding on one program you also got enough knowledge to get a
+          Majority of them are shared with other programs. Could it happen
+          that studying on one program you also got enough knowledge to get a
           diploma in another major? Check it out on this visualization of your
           skills!
         </Typography>
