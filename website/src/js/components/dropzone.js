@@ -20,7 +20,13 @@ export function DropZone(props) {
               By students for students!
             </h3>
             <p className="description">
-              <b className="bold">Ilumni</b>  is a set of tools to help you manage your studies. Plan your course lists, analyse your perfomance and many more. Start by uploading your transcript!
+              <b className="bold">Ilumni</b>  is a set of tools to help you manage your studies.
+               Plan your course lists, analyse your perfomance and many more. 
+               Start by uploading your transcript!
+            </p>
+            <p className="description">
+              Disclaimer: current version was tested <b className="bold">only on Chrome</b> browser.
+              The full list of features is available for EPFL Data Science or Computer Science Mster students only.
             </p>
           </div>
           <Grid item xs>
@@ -46,11 +52,6 @@ export function DropZone(props) {
             <div className="logo-content">
               <div className="logo" />
             </div>
-            {/* <p className="disclaimer">
-              Disclaimer: current version was tested only on Chrome browser. 
-              Proper work for other browsers is not quaranteed.
-              All the features of the website are available for EPFL Data Science or Computer Science Mster students.
-            </p> */}
           </div>
         </Grid>
       </div>
