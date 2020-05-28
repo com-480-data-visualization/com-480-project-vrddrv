@@ -39,7 +39,6 @@
     }
 
     [class*='DropzoneArea-dropZone-'],
-    [class*='jss'],
     .jss105{
       position: relative;
       margin-top: 30px;
@@ -55,7 +54,6 @@
       border-radius: 20px;
 
       [class*='DropzoneArea-dropzoneParagraph-'],
-      [class*='jss'],
       .jss110 {
         color: #fff;
         font-size: 20px;
@@ -85,7 +83,10 @@
       .disclaimer {
         font-family: "Roboto", "Helvetica", "Arial", sans-serif;
         width: 700px;
-        color: #32ff2b;
+        color: #e9ce33;
+        margin-top: 60px; 
+        text-align: center;
+        font-size: 14px;
       }
 
       .title {
