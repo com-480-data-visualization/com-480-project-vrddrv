@@ -14,6 +14,8 @@ export function SkillsScreen(props) {
         style={{
           position: "absolute",
           left: "50%",
+          boxShadow: "none",
+          top: "10px",
           transform: "translate(-50%, 0)",
         }}
       >
@@ -22,7 +24,9 @@ export function SkillsScreen(props) {
             props.setActiveScreen("transcript");
           }}
           style={{
-              borderRadius: 20
+              borderRadius: 20,
+              margin: 10,
+              minWidth: 200,
           }}
         >
           Back to the main screen

@@ -1,7 +1,7 @@
 #dropzone {
   width: 100%;
   min-height: 100vh;
-  background-image: url('../assets/images/background.png');
+  background-image: url("../assets/images/background.png");
   background-repeat: no-repeat;
   background-size: cover;
   mix-blend-mode: hard-light;
@@ -18,43 +18,50 @@
       width: 60%;
 
       .title {
-        font-family: Roboto, sans-serif;
+        font-family: "Roboto", "Helvetica", "Arial", sans-serif;
         font-style: normal;
         font-weight: 900;
         font-size: 45px;
         line-height: 70px;
         margin-bottom: 0;
-        color: #FFFFFF;
+        color: #ffffff;
       }
 
       .description {
-        font-family: Roboto, sans-serif;
+        font-family: "Roboto", "Helvetica", "Arial", sans-serif;
         font-style: normal;
         font-size: 18px;
         line-height: 28px;
         align-items: center;
         text-align: center;
-        color: #FFFFFF;
+        color: #ffffff;
       }
     }
 
-    .DropzoneArea-dropZone-105, .jss105 {
+    [class*='DropzoneArea-dropZone-'],
+    .jss105{
       position: relative;
       margin-top: 30px;
       width: 400px;
       height: 266px;
-      background: linear-gradient(39.64deg, rgba(129, 48, 138, 0.8) 2.96%, rgba(49, 31, 32, 0.8) 90.55%);
+      background: linear-gradient(
+        39.64deg,
+        rgba(129, 48, 138, 0.8) 2.96%,
+        rgba(49, 31, 32, 0.8) 90.55%
+      );
       border: 4px dashed #8c8686;
       box-shadow: 0 4px 20px rgba(26, 7, 46, 0.25);
       border-radius: 20px;
 
-      .DropzoneArea-dropzoneParagraph-110, .jss110 {
-        color: #FFF;
+      [class*='DropzoneArea-dropzoneParagraph-'],
+      .jss110 {
+        color: #fff;
         font-size: 20px;
-        opacity: .5;
+        opacity: 0.5;
       }
 
-      .DropzoneArea-dropzoneTextStyle-108, .jss108 {
+      [class*='DropzoneArea-dropzoneTextStyle-'],
+      .jss108 {
         width: 100%;
         height: 100%;
         display: flex;
@@ -69,9 +76,21 @@
       }
     }
 
+    
+
     .footer-container {
+
+      .disclaimer {
+        font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+        width: 700px;
+        color: #e9ce33;
+        margin-top: 60px; 
+        text-align: center;
+        font-size: 14px;
+      }
+
       .title {
-        font-family: Roboto, sans-serif;
+        font-family: "Roboto", "Helvetica", "Arial", sans-serif;
         font-style: normal;
         font-weight: normal;
         font-size: 14px;
@@ -94,7 +113,7 @@
         .logo {
           width: 51px;
           height: 15px;
-          background-image: url('../assets/images/epfl-logo.png');
+          background-image: url("../assets/images/epfl-logo.png");
           background-repeat: no-repeat;
           background-size: cover;
         }

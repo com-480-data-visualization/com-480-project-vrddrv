@@ -15,6 +15,9 @@ const BorderLinearProgress = withStyles({
     borderRadius: 20,
     backgroundColor: "#e8eaf6"
   },
+  bar: {
+    borderRadius: 20,
+  },
   dashed: {
     visibility: "hidden",
   },
@@ -26,6 +29,7 @@ const BorderLinearProgressCompleted = withStyles({
   },
   bar: {
     backgroundColor: green[500],
+    borderRadius: 20
   },
 })(LinearProgress);
 
