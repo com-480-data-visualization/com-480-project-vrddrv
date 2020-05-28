@@ -77,7 +77,7 @@ You can see our report for Milestone 2 in the [Milestone2.pdf](Milestone2.pdf) f
 
 ## Milestone 3 (Thursday 28th May, 5pm)
 
-Our final website in hosted on [ilumni.netlify.com](https://ilumni.netlify.com). We guarantee the full functionality **only in the Chrome browser**. You can see the screencast that shows how to use our website on the [Youtube](https://youtu.be/OUSab-NZHH8).
+Our final website in hosted on [ilumni.netlify.com](https://ilumni.netlify.com). We guarantee the full functionality **only in the Google Chrome browser**. You can see the screencast that shows how to use our website [here](https://youtu.be/OUSab-NZHH8).
 
 **Technical setup**
 If you want to run our site locally, you need to install ***npm***, and then run the following sequence of commands:
@@ -92,14 +92,13 @@ Then the development version of our site will appear. If you want to create a pr
 cd website
 npm run build
 ```
-It will create the `build` directory in the `website` folder. You can open `website/build/index.html` to open our website.
+It will create the `build` directory in the `website` folder. You can open `website/build/index.html` to see our website.
 
 **Intended usage**
-1. On the first page you will see the window where you can drag and drop your transcript and the button “Use Mock transcript”. It will work properly only with the Computer Science and Data Science Master transripts. To see all the charts in a way it was intended you may use the “Use Mock transcript” button.
-2. After uploading the transcript the screen with grades visualization in a form of the flower plot will appear. Length of petal represents the obtained grade, width represents the number of credits and color represents the type of class (core, optional etc). Your progress in different program requirements is also visualized on the right side.
-3. You can click on the petal to see the class info.
-5. You can click on the selected petal again or somethere outside of plots to hide the class info.
-6. You can select the course in the "Add course to your plan" widget and click on it to add it to the flower plot (semester planning feature). You can also clicj on the suggest courses button to automatically select courses to fulfill all requirements.
-7. You can click on the “Show skills” button to show skills visualization. Skills are computed for each transcript based on the actual EPFL programs.
-8. You can click on the question sign in the right bottom corner to see some tips.
-
+1. On the first page you will see a dropzone where you can drag and drop (or just upload) your transcript. There is also a button called "Use mock transcript" in case you want to see the visualizations but do not have a transcript. Note that for now, our website works properly only with the Computer Science and Data Science Master student transripts. 
+2. Once the transcript is uploaded, the user is presented with a flower-like plot whose petals resepresent the completed courses and the circle at the center of the plot displays the corresponding cumulative gpa and the number of completed credits. Petal height is proportional to the obtained grade out of 6, petal width is proportional to the number of credits of the course, and color indicated the type of of the course, i.e. core, optional etc. On the right side of the screen, the user can track his/her progress for different requirements posed by the master program.
+3. You can click on the petal to see some details and statistics about the corresponding course. 
+4. You can click on the selected petal again or somethere outside of the plots to hide the course info.
+5. You can select a course in the "Add course to your plan" widget and click on it to add it to the flower plot (semester planning feature). You can also click on the button "Suggest courses" to automatically fulfill all program requirements.
+6. You can click on the “Show skills” button to show skills visualization. Skills are computed for each transcript based on the actual EPFL programs.
+7. You can click on the question signs on the right bottom corner to see some tips.
