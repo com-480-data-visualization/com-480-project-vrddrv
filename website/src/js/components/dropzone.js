@@ -36,7 +36,7 @@ export function DropZone(props) {
             className="use-transcript-button"
             onClick={() => props.showMockTranscript()}
           >
-            Use Mock transcript
+            Use mock transcript
           </Button>
         </Grid>
         <p className="disclaimer">
