@@ -3,7 +3,7 @@ import * as d3 from "d3";
 
 import '../../styles/grade_histogram.scss';
 
-export function gradeHistogram(svgTag,data) {
+export function gradeHistogram(svgTag, data, user_grade) {
 
     let sample = [];
     let minGrade = 4;
@@ -51,7 +51,7 @@ export function gradeHistogram(svgTag,data) {
 
     barGroups
         .append("rect")
-        .attr("class", "bar")
+        .attr("class", (g) => g.grade == user_grade ? "bar obtained" : "bar")
         .attr("x", (g) => xScale(g.grade))
         .attr("y", (g) => yScale(g.value))
         .attr("height", (g) => height - yScale(g.value))

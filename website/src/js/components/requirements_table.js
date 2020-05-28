@@ -201,20 +201,20 @@ function getProgramRequirementsList(program) {
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    top: "40px",
-    left: "20px",
+    top: "200px",
+    right: "20px",
     width: "100%",
     position: "absolute",
-    // backgroundColor: "#e8eaf6",
+    background: "grey"
   }
 }));
 
 export function RequirementTable(props) {
   const classes = useStyles();
   const spring = useSpring({
-    transform: props.course ? "translateX(-110%)" : "translateX(0%)",
+    transform: props.course ? "translateX(110%)" : "translateX(0%)",
     from: {
-      transform: "translateX(-110%)",
+      transform: "translateX(110%)",
     },
     config: {
       duration: props.transitionTimeScale,
@@ -231,11 +231,11 @@ export function RequirementTable(props) {
     <a.div className={classes.root} style={spring}>
       <Card
         style={{
-          top: "40px",
-          left: "20px",
-          width: "25%",
+          top: "0px",
+          right: "0px",
+          width: "100%",
           position: "absolute",
-          maxWidth: "300px",
+          maxWidth: "360px",
         }}
         id="requirementsTable"
       >

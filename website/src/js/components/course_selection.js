@@ -23,10 +23,10 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 
-export function CourseSelection({ addCourse, program, completedCourses, transitionTimeScale}) {
+export function CourseSelection({ addCourse, program, completedCourses, transitionTimeScale, course}) {
 
   const spring = useSpring({
-    transform:  "translateX(0%)",
+    transform: course ? "translateX(110%)" : "translateX(0%)",
     from: {
       transform: "translateX(110%)",
     },

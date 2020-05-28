@@ -20,7 +20,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-export function Course({ course, transitionTimeScale }) {
+export function Course({ transcript, course, transitionTimeScale }) {
   const classes = useStyles();
   const spring = useSpring({
     transform: course ? "translateX(0%)" : "translateX(-110%)",
@@ -32,7 +32,11 @@ export function Course({ course, transitionTimeScale }) {
   const grades_plot = useRef();
   useEffect(() => {
     if (grades_plot.current && course) {
-      gradeHistogram(grades_plot.current, course.grades_histogram);
+      let user_grade;
+      for (let user_course of transcript.classes ) {
+        user_grade = user_course.name === course.courseName ? user_course.grade : user_grade;
+      }
+      gradeHistogram(grades_plot.current, course.grades_histogram, user_grade);
     }
   }, [grades_plot, course]);
 

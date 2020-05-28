@@ -185,13 +185,9 @@ export function GradesScreen(props) {
           Show skills
         </Button>
       </ButtonGroup>
-      <RequirementTable
-        transcript={props.transcript}
-        suggestions={suggestions}
-        course={course}
-        transitionTimeScale={props.transitionTimeScale}
-      />
+    
       <Course
+        transcript={props.transcript}
         course={course}
         transitionTimeScale={props.transitionTimeScale}
       />
@@ -233,6 +229,14 @@ export function GradesScreen(props) {
         addCourse={addCourse}
         program={program}
         completedCourses={props.transcript.classes}
+        transitionTimeScale={props.transitionTimeScale}
+        course={course}
+      />
+
+      <RequirementTable
+        transcript={props.transcript}
+        suggestions={suggestions}
+        course={course}
         transitionTimeScale={props.transitionTimeScale}
       />
     </div>
