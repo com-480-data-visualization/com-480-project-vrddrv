@@ -38,10 +38,8 @@
       }
     }
 
-    .DropzoneArea-dropZone-105,
-    .jss105,
-    .DropzoneArea-dropZone-406,
-    .MuiDropzoneArea-root {
+    [class*='DropzoneArea-dropZone-'],
+    .jss105{
       position: relative;
       margin-top: 30px;
       width: 400px;
@@ -55,8 +53,7 @@
       box-shadow: 0 4px 20px rgba(26, 7, 46, 0.25);
       border-radius: 20px;
 
-      .DropzoneArea-dropzoneParagraph-110,
-      .DropzoneArea-dropzoneParagraph-411,
+      [class*='DropzoneArea-dropzoneParagraph-'],
       .MuiDropzoneArea-textContainer,
       .jss110 {
         color: #fff;
@@ -64,7 +61,7 @@
         opacity: 0.5;
       }
 
-      .DropzoneArea-dropzoneTextStyle-108,
+      [class*='DropzoneArea-dropzoneTextStyle-'],
       .jss108 {
         width: 100%;
         height: 100%;
