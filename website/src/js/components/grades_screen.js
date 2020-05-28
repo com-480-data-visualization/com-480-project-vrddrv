@@ -120,6 +120,9 @@ export function GradesScreen(props) {
       if (coreCredits >= 30) {
         break;
       }
+      if (courseName.toLowerCase().startsWith("master project")) {
+        continue;
+      }
       if (!takenCourses.has(courseName)) {
         COURSE_PROGRAMS[courseName].forEach((programInfo) => {
           if (
@@ -142,6 +145,9 @@ export function GradesScreen(props) {
     for (const courseName of courseNames) {
       if (curCredits >= 90) {
         break;
+      }
+      if (courseName.toLowerCase().startsWith("master project")) {
+        continue;
       }
       if (!takenCourses.has(courseName)) {
         COURSE_PROGRAMS[courseName].forEach((programInfo) => {
