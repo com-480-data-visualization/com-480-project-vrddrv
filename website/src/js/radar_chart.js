@@ -279,14 +279,11 @@ export function RadarChart(parent_selector, data, options) {
     tooltip.selectAll("p").remove();
     tooltip.selectAll("h3").remove();
     tooltip.append("h3").text(`Total credits for this category: ${d.value}`);
-    // tooltip
-    //   .append("h3")
-    //   .text(`Total credits for this category: ${d.value}`);
-    // d.info.forEach((c) => {
-    //   tooltip
-    //     .append("p")
-    //     .text(`${shortenCourseName(c[0])}: ${c[1]}`);
-    // });
+    d.info.forEach((c) => {
+      tooltip
+        .append("p")
+        .text(`${shortenCourseName(c[0])}: ${c[1]}`);
+    });
   }
 
   //The radial line function

@@ -7,7 +7,7 @@ import { Course } from "./course";
 import { CourseSelection } from "./course_selection";
 import { RequirementTable } from "./requirements_table";
 import { HintMainScreen, HintCourseScreen, HelpButton } from "./hints";
-import { zip, getProgramName, getSemesterProject } from "../helpers";
+import { zip, getProgramName, getSemesterProject, knuthShuffle } from "../helpers";
 import "../../styles/grade_screen.scss";
 
 const COURSE_PROGRAMS = require("../../processed_data/course_programs.json");
@@ -115,7 +115,8 @@ export function GradesScreen(props) {
       prevCredits.push(curCredits);
       curCredits += 12;
     }
-    for (const courseName in COURSE_DESCRIPTIONS) {
+    const courseNames = knuthShuffle(Object.keys(COURSE_DESCRIPTIONS));
+    for (const courseName of courseNames) {
       if (coreCredits >= 30) {
         break;
       }
@@ -137,7 +138,8 @@ export function GradesScreen(props) {
         });
       }
     }
-    for (const courseName in COURSE_DESCRIPTIONS) {
+    
+    for (const courseName of courseNames) {
       if (curCredits >= 90) {
         break;
       }
