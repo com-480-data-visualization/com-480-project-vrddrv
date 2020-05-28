@@ -40,7 +40,7 @@ export function DropZone(props) {
           </Button>
         </Grid>
         <p className="disclaimer">
-          Disclaimer: current version was tested only in Chrome browser. The
+          Disclaimer: Current version was tested only in Google Chrome. The
           full list of features is available for EPFL Data Science or Computer
           Science Master students only.
         </p>
