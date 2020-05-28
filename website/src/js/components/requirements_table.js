@@ -49,7 +49,7 @@ class Requirement {
     this.progress = normalise(this.value);
     this.completed = this.progress >= 100;
 
-    this.planned_value = this.compute_val(suggestions);
+    this.planned_value = Math.min(this.compute_val(suggestions), this.max_val);
     this.planned_progress = normalise(this.planned_value);
 
     return (
