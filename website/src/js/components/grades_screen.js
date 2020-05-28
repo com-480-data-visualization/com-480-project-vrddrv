@@ -181,6 +181,7 @@ export function GradesScreen(props) {
         color="primary"
         style={{
           position: "absolute",
+          top: "10px",
           left: "50%",
           boxShadow: 'none',
           transform: "translate(-50%, 0)"
@@ -190,7 +191,8 @@ export function GradesScreen(props) {
             style={{
               borderRadius: 20,
               borderColor: 'transparent',
-              marginRight: 2
+              margin: 10,
+              minWidth: 200, 
             }}
           onClick={() => suggestCourses(props.transcript.classes, suggestions)}
         >
@@ -200,10 +202,25 @@ export function GradesScreen(props) {
             style={{
               borderRadius: 20,
               borderColor: 'transparent',
-              marginLeft: 2
+              margin: 10,
+              minWidth: 200,
             }}
             onClick={() => props.setActiveScreen("skills")}>
           Show skills
+        </Button>
+
+        <Button
+          onClick={() => {
+            props.setActiveScreen("dropzone");
+          }}
+          style={{
+              borderRadius: 20,
+              borderColor: 'transparent',
+              margin: 10,
+              minWidth: 200,
+          }}
+        >
+          Upload new transcript
         </Button>
       </ButtonGroup>
 
