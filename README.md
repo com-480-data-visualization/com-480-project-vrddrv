@@ -77,5 +77,27 @@ You can see our report for Milestone 2 in the [Milestone2.pdf](Milestone2.pdf) f
 
 ## Milestone 3 (Thursday 28th May, 5pm)
 
-**80% of the final grade**
+Our final website in hosted on [ilumni.netlify.com](https://ilumni.netlify.com). We guarantee the full functionality only in the Chrome browser.
+
+**Technical setup**
+If you want to run our site locally, you need to install ***npm***, and then run the following sequence of commands:
+```
+cd website
+npm install
+npm start
+```
+
+Then the development version of our site will appear. If you want to create a production build, you should run the following sequence of commands:
+```
+cd website
+npm run build
+```
+It will create the `build` directory in the `website` folder. You can open `website/build/index.html` to open our website.
+
+**Intended usage**
+1. On the first page you will see the window where you can drag and drop your transcript and the button “Use Mock transcript”. It will work properly only with the Computer Science and Data Science Master transripts. To see all the charts in a way it was intended you may use the “Use Mock transcript” button.
+2. After uploading the transcript the screen with grades visualization in a form of the flower plot will appear. Length of petal represents the obtained grade, width represents the number of credits and color represents the type of class (core, optional etc). Your progress in different program requirements is also visualized on the right side.
+3. You can click on the petal to see the class info.
+4. You can select the course in the "Add course to your plan" widget and click on it to add it to the flower plot (semester planning feature). You can also clicj on the suggest courses button to automatically select courses to fulfill all requirements.
+5. You can click on the “Show skills” button to show skills visualization. Skills are computed for each transcript based on the actual EPFL programs.
 
