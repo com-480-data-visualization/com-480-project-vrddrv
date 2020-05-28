@@ -70,6 +70,8 @@ export function Petal(props) {
   );
 }
 
+const patterns_interval = 8;
+
 function InnerPetal(props) {
   return (
     <g
@@ -80,6 +82,71 @@ function InnerPetal(props) {
       })`}
       opacity={props.opacity}
     >
+      <pattern
+        id="diagonalHatchCore"
+        className="diagonalHatch"
+        width={patterns_interval}
+        height={patterns_interval}
+        patternTransform="rotate(45 0 0)"
+        patternUnits="userSpaceOnUse"
+      >
+        <rect width={patterns_interval} height={patterns_interval} />
+        {/* <path d="M0 0h4v4H0V0zm4 4h4v4H4V4z"/> */}
+        <line x1="0" y1="0" x2="0" y2={patterns_interval} />
+      </pattern>
+
+      <pattern
+        id="diagonalHatchOptional"
+        className="diagonalHatch"
+        width={patterns_interval}
+        height={patterns_interval}
+        patternTransform="rotate(45 0 0)"
+        patternUnits="userSpaceOnUse"
+      >
+        <rect width={patterns_interval} height={patterns_interval} />
+        {/* <path d="M0 0h4v4H0V0zm4 4h4v4H4V4z"/> */}
+        <line x1="0" y1="0" x2="0" y2={patterns_interval} />
+      </pattern>
+
+      <pattern
+        id="diagonalHatchSHS"
+        className="diagonalHatch"
+        width={patterns_interval}
+        height={patterns_interval}
+        patternTransform="rotate(45 0 0)"
+        patternUnits="userSpaceOnUse"
+      >
+        <rect width={patterns_interval} height={patterns_interval} />
+        {/* <path d="M0 0h4v4H0V0zm4 4h4v4H4V4z"/> */}
+        <line x1="0" y1="0" x2="0" y2={patterns_interval} />
+      </pattern>
+
+      <pattern
+        id="diagonalHatchThesis"
+        className="diagonalHatch"
+        width={patterns_interval}
+        height={patterns_interval}
+        patternTransform="rotate(45 0 0)"
+        patternUnits="userSpaceOnUse"
+      >
+        <rect width={patterns_interval} height={patterns_interval} />
+        {/* <path d="M0 0h4v4H0V0zm4 4h4v4H4V4z"/> */}
+        <line x1="0" y1="0" x2="0" y2={patterns_interval} />
+      </pattern>
+
+      <pattern
+        id="diagonalHatchNotInProgram"
+        className="diagonalHatch"
+        width={patterns_interval}
+        height={patterns_interval}
+        patternTransform="rotate(45 0 0)"
+        patternUnits="userSpaceOnUse"
+      >
+        <rect width={patterns_interval} height={patterns_interval} />
+        {/* <path d="M0 0h4v4H0V0zm4 4h4v4H4V4z"/> */}
+        <line x1="0" y1="0" x2="0" y2={patterns_interval} />
+      </pattern>
+
       <path d={props.arcGenerator(props.data)} />
       <text
         x={

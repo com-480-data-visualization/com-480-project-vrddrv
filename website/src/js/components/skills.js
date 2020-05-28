@@ -92,7 +92,6 @@ function showSkillsForPrograms(
 
   var radarChartOptions = {
     levels: 1,
-    color: d3.scaleOrdinal().range(["#26AF32", "#762712"]),
     format: ".0f",
     transitionTimeScale: transitionTimeScale,
 

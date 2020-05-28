@@ -38,15 +38,14 @@ svg {
   overflow: hidden;
 
   g {
-    -webkit-filter: drop-shadow(12px 12px 7px rgba(0,0,0,0.5));      
-    filter: drop-shadow(12px 12px 7px rgba(0,0,0,0.5));  
-
+    -webkit-filter: drop-shadow(12px 12px 7px rgba(0, 0, 0, 0.5));
+    filter: drop-shadow(12px 12px 7px rgba(0, 0, 0, 0.5));
   }
 }
 
 #circular_plot {
   circle {
-    fill: #FFC400;
+    fill: #ffc400;
     box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.5);
   }
 
@@ -56,53 +55,79 @@ svg {
 
   #circular_plot_core {
     text {
-      fill: #333333
+      fill: #333333;
     }
   }
 
   font-family: Roboto;
   font-style: normal;
 
+  .diagonalHatch line {
+    stroke: grey; 
+    stroke-width: 0.5;
+    opacity: 100%;
+  }
+
   .class_core path {
-    fill: #D32F2F;
+    fill: #d32f2f;
     border-radius: 10px;
   }
 
   .class_optional path {
-    fill: #F57C00;
+    fill: #f57c00;
   }
 
   .class_shs path {
-    fill: #9A0036;
+    fill: #9a0036;
   }
 
   .class_thesis path {
     fill: #b5076b;
   }
 
-  .class_core_suggestion path {
-    fill: #D32F2F;
-    opacity: 45%;
+  #diagonalHatchCore rect{
+    fill: #d32f2f;
+  }
+  .class_core_suggestion > path {
+    fill: url("#diagonalHatchCore");
+    stroke: grey; 
+    stroke-width: 0.5;
   }
 
-  .class_optional_suggestion path {
-    fill: #F57C00;
-    opacity: 45%;
+  #diagonalHatchOptional rect{
+    fill: #f57c00;
+  }
+  .class_optional_suggestion > path {
+    fill: url("#diagonalHatchOptional");
+    stroke: grey; 
+    stroke-width: 0.5;
   }
 
-  .class_shs_suggestion path {
-    fill: #9A0036;
-    opacity: 45%;
+  #diagonalHatchSHS rect{
+    fill: #9a0036;
+  }
+  .class_shs_suggestion > path {
+    fill: url("#diagonalHatchSHS");
+    stroke: grey; 
+    stroke-width: 0.5;
   }
 
-  .class_not_in_plan_suggestion path {
-    fill:#ef9a9a;
-    opacity: 45%;
+  #diagonalHatchNotInProgram rect{
+    fill: #ef9a9a;
+  }
+  .class_not_in_plan_suggestion > path {
+    fill: url("#diagonalHatchNotInProgram");
+    stroke: grey; 
+    stroke-width: 0.5;
   }
 
-  .class_thesis_suggestion path {
+  #diagonalHatchThesis rect{
     fill: #b5076b;
-    opacity: 45%;
+  }
+  .class_thesis_suggestion > path {
+    fill: url("#diagonalHatchThesis");
+    stroke: grey; 
+    stroke-width: 0.5;
   }
 
   .petals {
@@ -113,7 +138,6 @@ svg {
     font-size: 20px;
   }
 }
-
 
 #header text {
   font-size: 14px;
@@ -235,9 +259,16 @@ ul {
   width: 100%;
 
   font-size: 8px;
+
+  .radarArea.All {
+    fill: green;
+  }
+  .radarArea.Core {
+    fill: #d32f2f;
+  }
 }
 
-.radarTooltip{
+.radarTooltip {
   visibility: hidden;
   width: 120px;
   background-color: black;

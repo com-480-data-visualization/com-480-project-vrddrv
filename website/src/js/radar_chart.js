@@ -185,6 +185,7 @@ export function RadarChart(parent_selector, data, options) {
   //////////////////// Draw the axes //////////////////////
   /////////////////////////////////////////////////////////
 
+
   //Create the straight lines radiating outward from the center
   var axis = axisGrid
     .selectAll(".axis")
@@ -192,6 +193,17 @@ export function RadarChart(parent_selector, data, options) {
     .enter()
     .append("g")
     .attr("class", "axis");
+
+  // create transparent cones for better interactivity
+  let arcGenerator = d3
+    .arc()
+    .innerRadius(0)
+    .outerRadius(rScale(maxValue * 2))
+    .startAngle(- (2 * Math.PI) / allAxis.length / 2)
+    .endAngle((2 * Math.PI) / allAxis.length / 2);
+
+  axis.append("path").attr("d", arcGenerator()).style("opacity", '0.15');
+
   //Append the lines
   axis
     .append("line")
@@ -233,6 +245,23 @@ export function RadarChart(parent_selector, data, options) {
     .transition()
     .duration(options.transitionTimeScale)
     .attr("transform", (d, i) => `rotate(${(angleSlice * i * 180) / Math.PI})`);
+
+  axis
+    .on("mouseover", function (d, i) {
+      d3.select(this)
+        .transition()
+        .duration(50)
+        .attr(
+          "transform",
+          `rotate(${(angleSlice * i * 180) / Math.PI}) scale(1.1)`
+        );
+    })
+    .on("mouseout", function (d, i) {
+      d3.select(this)
+        .transition()
+        .duration(50)
+        .attr("transform", `rotate(${(angleSlice * i * 180) / Math.PI})`);
+    });
 
   /////////////////////////////////////////////////////////
   ///////////// Draw the radar chart blobs ////////////////
@@ -282,9 +311,8 @@ export function RadarChart(parent_selector, data, options) {
   //Append the backgrounds
   blobWrapper
     .append("path")
-    .attr("class", "radarArea")
+    .attr("class", (d) => "radarArea " + d.name)
     .attr("d", (d) => radarLine(d.axes))
-    .style("fill", (d, i) => cfg.color(i))
     .style("fill-opacity", cfg.opacityArea)
     .on("mouseover", function (d, i) {
       //Dim all blobs
@@ -356,17 +384,21 @@ export function RadarChart(parent_selector, data, options) {
 
   //Append a set of invisSible circles on top for the mouseover pop-up
 
-  blobCircleWrapper
+  let circles = blobCircleWrapper
     .selectAll(".radarInvisibleCircle")
     .data((d) => d.axes)
     .enter()
-    .append("circle")
+    .append("circle");
+  
+  circles
     .attr("class", "radarInvisibleCircle")
     .attr("r", cfg.dotRadius * 1.5)
     .attr("cx", (d, i) => rScale(d.value) * cos(angleSlice * i - HALF_PI))
     .attr("cy", (d, i) => rScale(d.value) * sin(angleSlice * i - HALF_PI))
     .style("fill", "none")
-    .style("pointer-events", "all")
+    .style("pointer-events", "all");
+  
+  circles
     .on("mouseover", function (d, i) {
       tooltip.style("visibility", "visible");
       setTooltipTextCircle(tooltip, d, this.cx.baseVal.value - 10, cfg);
