@@ -77,7 +77,9 @@ You can see our report for Milestone 2 in the [Milestone2.pdf](Milestone2.pdf) f
 
 ## Milestone 3 (Thursday 28th May, 5pm)
 
-Our final website in hosted on [ilumni.netlify.com](https://ilumni.netlify.com). We guarantee the full functionality **only in the Google Chrome browser**. You can see the screencast that shows how to use our website [here](https://youtu.be/OUSab-NZHH8).
+Our final website in hosted on [ilumni.netlify.com](https://ilumni.netlify.com). We guarantee the full functionality **only in the Google Chrome browser**. You can access our process book [here](process_book.pdf) and see the screencast that shows how to use our website [here](https://youtu.be/OUSab-NZHH8).
+
+
 
 **Technical setup**
 If you want to run our site locally, you need to install ***npm***, and then run the following sequence of commands:
