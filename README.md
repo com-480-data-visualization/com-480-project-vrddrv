@@ -73,7 +73,7 @@ Main Screen          |  Class Selection Screen
 
 
 ## Milestone 2 (Friday 1st May, 5pm)
-You can see our report for Milestone 2 in the [Milestone2.pdf](Milestone2.pdf) file.
+You can see our report for Milestone 2 in the [Milestone2.pdf](Milestone2.pdf) file. Report that describes our progress ia available in this reporsitory: [Report.pdf](Report.pdf).
 
 ## Milestone 3 (Thursday 28th May, 5pm)
 
