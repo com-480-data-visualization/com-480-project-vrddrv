@@ -22,8 +22,8 @@ export function CircularPlot(props) {
   const [tooltipData, setTooltipData] = useState(null);
   const plot = useSpring({
     transform: props.course
-      ? `matrix(0.45, 0, 0, 0.45, ${centerX + 50}, ${centerY - 40})`
-      : `matrix(0.45, 0, 0, 0.45, ${centerX}, ${centerY - 50})`,
+      ? `matrix(0.4, 0, 0, 0.4, ${centerX + 50}, ${centerY - 50})`
+      : `matrix(0.4, 0, 0, 0.4, ${centerX}, ${centerY - 50})`,
     from: {
       transform: `matrix(0, 0, 0, 0, ${centerX}, ${centerY - 50})`,
     },
