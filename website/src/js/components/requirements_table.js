@@ -45,7 +45,7 @@ class Requirement {
 
     this.classes = classes;
 
-    this.value = this.compute_val(classes);
+    this.value = Math.min(this.compute_val(classes), this.max_val);
     this.progress = normalise(this.value);
     this.completed = this.progress >= 100;
 
