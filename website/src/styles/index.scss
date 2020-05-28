@@ -29,10 +29,12 @@ body {
   /* default text */
   font-family: sans-serif;
   font-size: 6px;
+
 }
 
 svg {
   text-anchor: middle;
+  overflow: hidden;
   text {
     dominant-baseline: central;
   }
@@ -158,6 +160,7 @@ svg {
 }
 
 body {
+  overflow-x: hidden;
   overflow-y: hidden;
 }
 
