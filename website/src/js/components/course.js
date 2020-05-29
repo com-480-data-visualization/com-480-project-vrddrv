@@ -91,7 +91,7 @@ export function Course({ transcript, course, transitionTimeScale }) {
         <Grid item xs={6}>
           <Paper className={classes.paper}>
             <Typography variant="body1" gutterBottom>
-              Grades Distribution
+              Grade Distribution
             </Typography>
             <svg
               id="gradePlot"
