@@ -230,6 +230,7 @@ export function GradesScreen(props) {
           Upload new transcript
         </Button> */}
       </ButtonGroup>
+      <Legend course={course} transitionTimeScale={props.transitionTimeScale} />
 
       <Course
         transcript={props.transcript}
@@ -308,8 +309,6 @@ export function GradesScreen(props) {
         course={course}
         transitionTimeScale={props.transitionTimeScale}
       />
-
-      <Legend course={course} transitionTimeScale={props.transitionTimeScale} />
     </div>
   );
 }

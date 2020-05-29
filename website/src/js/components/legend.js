@@ -5,11 +5,10 @@ import { useSpring, a } from "react-spring";
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    bottom: "30px",
+    bottom: "20px",
     left: "35px",
     position: "absolute",
     color: "white",
-    height: "15%",
   },
   paper: {
     padding: theme.spacing(2),
