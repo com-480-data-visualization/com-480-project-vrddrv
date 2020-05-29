@@ -129,18 +129,18 @@ export function GradesScreen(props) {
       if (courseName.toLowerCase().startsWith("master project")) {
         continue;
       }
+      const credits = parseInt(
+        COURSE_DESCRIPTIONS[courseName].courseCredit
+      );
       if (!takenCourses.has(courseName)) {
         COURSE_PROGRAMS[courseName].forEach((programInfo) => {
           if (
             programInfo[0] === programName.replace(" ", "_") &&
-            programInfo[1] === "core"
+            programInfo[1] === "core" && credits > 2
           ) {
             prevCredits.push(curCredits);
             suggestNames.push(courseName);
             takenCourses.add(courseName);
-            const credits = parseInt(
-              COURSE_DESCRIPTIONS[courseName].courseCredit
-            );
             curCredits += credits;
             coreCredits += credits;
           }
@@ -155,15 +155,15 @@ export function GradesScreen(props) {
       if (courseName.toLowerCase().startsWith("master project")) {
         continue;
       }
+      const credits = parseInt(
+        COURSE_DESCRIPTIONS[courseName].courseCredit
+      );
       if (!takenCourses.has(courseName)) {
         COURSE_PROGRAMS[courseName].forEach((programInfo) => {
-          if (programInfo[0] === programName.replace(" ", "_")) {
+          if (programInfo[0] === programName.replace(" ", "_") && credits > 2) {
             prevCredits.push(curCredits);
             suggestNames.push(courseName);
             takenCourses.add(courseName);
-            const credits = parseInt(
-              COURSE_DESCRIPTIONS[courseName].courseCredit
-            );
             curCredits += credits;
           }
         });
