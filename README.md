@@ -77,7 +77,7 @@ You can see our report for Milestone 2 in the [Milestone2.pdf](Milestone2.pdf) f
 
 ## Milestone 3 (Thursday 28th May, 5pm)
 
-Our final website in hosted on [ilumni.netlify.com](https://ilumni.netlify.com). We guarantee the full functionality **only in the Google Chrome browser**. You can access our process book [here](process_book.pdf) and see the screencast that shows how to use our website [here](https://www.youtube.com/watch?v=z5RtjcE2V7k&feature=youtu.be).
+Our final website is hosted on [ilumni.netlify.com](https://ilumni.netlify.com). We guarantee the full functionality **only in the Google Chrome browser**. You can access our process book [here](process_book.pdf) and see the screencast that shows how to use our website [here](https://www.youtube.com/watch?v=z5RtjcE2V7k&feature=youtu.be).
 
 
 
@@ -97,8 +97,8 @@ npm run build
 It will create the `build` directory in the `website` folder. You can open `website/build/index.html` to see our website.
 
 **Intended usage**
-1. On the first page you will see a dropzone where you can drag and drop (or just upload) your transcript. There is also a button called "Use mock transcript" in case you want to see the visualizations but do not have a transcript. Note that for now, our website works properly only with the Computer Science and Data Science Master student transripts. 
-2. Once the transcript is uploaded, the user is presented with a flower-like plot whose petals resepresent the completed courses and the circle at the center of the plot displays the corresponding cumulative gpa and the number of completed credits. Petal height is proportional to the obtained grade out of 6, petal width is proportional to the number of credits of the course, and color indicated the type of of the course, i.e. core, optional etc. On the right side of the screen, the user can track his/her progress for different requirements posed by the master program.
+1. On the first page you will see a dropzone where you can drag and drop (or just upload) your transcript. There is also a button called "Use mock transcript" in case you want to see the visualizations but do not have a transcript. Note that for now, our website works properly only with the Computer Science and Data Science Master students transripts. 
+2. Once the transcript is uploaded, the user is presented with a flower-like plot whose petals resepresent the completed courses and the circle at the center of the plot displays the corresponding cumulative gpa and the number of completed credits. Petal height is proportional to the obtained grade out of 6, petal width is proportional to the number of credits of the course, and color indicates the type of of the course, i.e. core, optional etc. On the right side of the screen, the user can track his/her progress for different requirements posed by the master program.
 3. You can click on the petal to see some details and statistics about the corresponding course. 
 4. You can click on the selected petal again or somethere outside of the plots to hide the course info.
 5. You can select a course in the "Add course to your plan" widget and click on it to add it to the flower plot (semester planning feature). You can also click on the button "Suggest courses" to automatically fulfill all program requirements.
