@@ -10,7 +10,7 @@ export function CircPlotTooltip(props) {
     >
       <h3>{props.data.name}</h3>
       <p />
-      <p>Grade: {props.data.grade}</p>
+      {!props.data.block.endsWith("suggestion") && <p>Grade: {props.data.grade}</p>}
       <p>Credits: {props.data.credits}</p>
       <p>Block: {props.data.block.split('_')[1]}</p>
       <p />
