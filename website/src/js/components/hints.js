@@ -18,6 +18,7 @@ const useStyles = makeStyles((theme) => ({
   paper: {
     padding: theme.spacing(2),
     textAlign: "center",
+    maxHeight: "500px",
     overflow: "auto",
   },
   IconButton: {
