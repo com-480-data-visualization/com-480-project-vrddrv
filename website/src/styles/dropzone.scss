@@ -82,13 +82,13 @@
     }
 
     .disclaimer {
+      position: relative;
       width: 70%;
       font-family: "Roboto", "Helvetica", "Arial", sans-serif;
       font-style: normal;
       font-weight: normal;
       font-size: 14px;
       line-height: 16px;
-      display: flex;
       align-items: center;
       text-align: center;
       color: rgb(250, 216, 104);
