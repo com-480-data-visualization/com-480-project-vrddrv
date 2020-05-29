@@ -4,7 +4,7 @@ import { makeStyles } from "@material-ui/core/styles";
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    bottom: "20px",
+    bottom: "30px",
     left: "35px",
     position: "absolute",
     color: "white",
