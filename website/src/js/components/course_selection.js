@@ -41,7 +41,7 @@ export function CourseSelection({ addCourse, program, completedCourses, transiti
       courseDescriptions[course].courseCode.startsWith("HUM-") ||
       course === `projet de semestre en ${getProgramName(program.name, " ")}`
     ) {
-      courseDescriptions[course].type = "SHS";
+      courseDescriptions[course].type = "Projects & SHS";
     } else {
       courseDescriptions[course].type = "Not in program";
     }
@@ -67,7 +67,7 @@ export function CourseSelection({ addCourse, program, completedCourses, transiti
         return 3;
       case "Optional":
         return 2;
-      case "SHS":
+      case "Projects & SHS":
         return 1;
       default:
         return 0;

@@ -12,10 +12,19 @@ export function CircPlotTooltip(props) {
       <p />
       {!props.data.block.endsWith("suggestion") && <p>Grade: {props.data.grade}</p>}
       <p>Credits: {props.data.credits}</p>
-      <p>Block: {props.data.block.split('_')[1]}</p>
+      <p>Block: {getBlock(props.data)}</p>
       <p />
       {props.data.lang ? <p>Language: {props.data.lang}</p> : <p></p>}
       {props.data.lang ? <p>Exam date: {props.data.sdate}</p> : <p></p>}
     </div>
   );
+}
+
+function getBlock(data) {
+  switch (data.block.split('_')[1]) {
+    case "core": return "Core";
+    case "optional": return "Optional";
+    case "shs": return "Projects & SHS";
+    default: return "Not in program";
+  }
 }

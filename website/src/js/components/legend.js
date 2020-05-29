@@ -68,7 +68,7 @@ export function Legend({ course, transitionTimeScale }) {
           }}
           gutterBottom
         >
-          &ensp; SHS &ensp;
+          &ensp; Projects & SHS &ensp;
         </Typography>
         <Typography
           variant="body2"
