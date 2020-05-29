@@ -1,6 +1,7 @@
 import React from "react";
-import { Grid, Paper, Typography, IconButton } from "@material-ui/core";
+import { Paper, Typography } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
+import { useSpring, a } from "react-spring";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -8,7 +9,7 @@ const useStyles = makeStyles((theme) => ({
     left: "35px",
     position: "absolute",
     color: "white",
-    height: "15%"
+    height: "15%",
   },
   paper: {
     padding: theme.spacing(2),
@@ -22,28 +23,77 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-export function Legend() {
+export function Legend({ course, transitionTimeScale }) {
   const classes = useStyles();
+  const spring = useSpring({
+    transform: course ? "translateX(-130%)" : "translateX(0%)",
+    from: {
+      transform: "translateX(-130%)",
+    },
+    config: {
+      duration: transitionTimeScale,
+    },
+  });
 
   return (
-    <div className={classes.root}>
+    <a.div className={classes.root} style={spring}>
       <Paper className={classes.paper}>
-        <Typography variant="body2" style={{backgroundColor: "#d32f2f", color: "white", borderRadius: "15px"}} gutterBottom>
-        &ensp; Core &ensp;
+        <Typography
+          variant="body2"
+          style={{
+            backgroundColor: "#d32f2f",
+            color: "white",
+            borderRadius: "15px",
+          }}
+          gutterBottom
+        >
+          &ensp; Core &ensp;
         </Typography>
-        <Typography variant="body2" style={{backgroundColor: "#f57c00", color: "white", borderRadius: "15px"}} gutterBottom>
-        &ensp; Optional &ensp;
+        <Typography
+          variant="body2"
+          style={{
+            backgroundColor: "#f57c00",
+            color: "white",
+            borderRadius: "15px",
+          }}
+          gutterBottom
+        >
+          &ensp; Optional &ensp;
         </Typography>
-        <Typography variant="body2" style={{backgroundColor: "#9a0036", color: "white", borderRadius: "15px"}} gutterBottom>
-        &ensp; SHS &ensp;
+        <Typography
+          variant="body2"
+          style={{
+            backgroundColor: "#9a0036",
+            color: "white",
+            borderRadius: "15px",
+          }}
+          gutterBottom
+        >
+          &ensp; SHS &ensp;
         </Typography>
-        <Typography variant="body2" style={{backgroundColor: "#b5076b", color: "white", borderRadius: "15px"}} gutterBottom>
-        &ensp; Thesis &ensp;
+        <Typography
+          variant="body2"
+          style={{
+            backgroundColor: "#b5076b",
+            color: "white",
+            borderRadius: "15px",
+          }}
+          gutterBottom
+        >
+          &ensp; Thesis &ensp;
         </Typography>
-        <Typography variant="body2" style={{backgroundColor: "#ef9a9a", color: "white", borderRadius: "15px"}} gutterBottom>
-        &ensp; Not in program &ensp;
+        <Typography
+          variant="body2"
+          style={{
+            backgroundColor: "#ef9a9a",
+            color: "white",
+            borderRadius: "15px",
+          }}
+          gutterBottom
+        >
+          &ensp; Not in program &ensp;
         </Typography>
       </Paper>
-    </div>
+    </a.div>
   );
 }

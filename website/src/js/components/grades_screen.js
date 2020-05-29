@@ -309,7 +309,7 @@ export function GradesScreen(props) {
         transitionTimeScale={props.transitionTimeScale}
       />
 
-      <Legend />
+      <Legend course={course} transitionTimeScale={props.transitionTimeScale} />
     </div>
   );
 }
