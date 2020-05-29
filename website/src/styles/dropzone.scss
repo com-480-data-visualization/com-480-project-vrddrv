@@ -7,7 +7,9 @@
   background-size: cover;
   mix-blend-mode: hard-light;
   will-change: auto;
-  overflow: auto;
+  overflow-y: auto;
+  max-width: 100%;
+  overflow-x: hidden;
        
 
   .MuiGrid-spacing-xs-3 {
