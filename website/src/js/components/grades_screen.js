@@ -6,8 +6,14 @@ import { Grades } from "./grades";
 import { Course } from "./course";
 import { CourseSelection } from "./course_selection";
 import { RequirementTable } from "./requirements_table";
+import { Legend } from "./legend";
 import { HintMainScreen, HintCourseScreen, HelpButton } from "./hints";
-import { zip, getProgramName, getSemesterProject, knuthShuffle } from "../helpers";
+import {
+  zip,
+  getProgramName,
+  getSemesterProject,
+  knuthShuffle,
+} from "../helpers";
 import "../../styles/grade_screen.scss";
 
 const COURSE_PROGRAMS = require("../../processed_data/course_programs.json");
@@ -141,7 +147,7 @@ export function GradesScreen(props) {
         });
       }
     }
-    
+
     for (const courseName of courseNames) {
       if (curCredits >= 90) {
         break;
@@ -175,7 +181,7 @@ export function GradesScreen(props) {
   };
 
   return (
-    <div>
+    <div style={{ overflow: "hidden" }}>
       <ButtonGroup
         variant="contained"
         color="primary"
@@ -183,29 +189,30 @@ export function GradesScreen(props) {
           position: "absolute",
           top: "10px",
           left: "50%",
-          boxShadow: 'none',
-          transform: "translate(-50%, 0)"
+          boxShadow: "none",
+          transform: "translate(-50%, 0)",
         }}
       >
         <Button
-            style={{
-              borderRadius: 20,
-              borderColor: 'transparent',
-              margin: 10,
-              minWidth: 200, 
-            }}
+          style={{
+            borderRadius: 20,
+            borderColor: "transparent",
+            margin: 10,
+            minWidth: 200,
+          }}
           onClick={() => suggestCourses(props.transcript.classes, suggestions)}
         >
           Suggest courses
         </Button>
         <Button
-            style={{
-              borderRadius: 20,
-              borderColor: 'transparent',
-              margin: 10,
-              minWidth: 200,
-            }}
-            onClick={() => props.setActiveScreen("skills")}>
+          style={{
+            borderRadius: 20,
+            borderColor: "transparent",
+            margin: 10,
+            minWidth: 200,
+          }}
+          onClick={() => props.setActiveScreen("skills")}
+        >
           Show skills
         </Button>
 
@@ -267,13 +274,13 @@ export function GradesScreen(props) {
       {suggestions.length > 0 && !course ? (
         <Button
           variant="contained"
-          color='primary'
+          color="primary"
           style={{
             position: "absolute",
             left: "50%",
             top: "90%",
             transform: "translate(-50%, 0)",
-            borderRadius: 20
+            borderRadius: 20,
           }}
           onClick={() => {
             props.setActiveScreen("transcript");
@@ -301,6 +308,8 @@ export function GradesScreen(props) {
         course={course}
         transitionTimeScale={props.transitionTimeScale}
       />
+
+      <Legend />
     </div>
   );
 }
