@@ -5,8 +5,8 @@ import { useSpring, a } from "react-spring";
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    bottom: "20px",
-    left: "35px",
+    bottom: "80px",
+    right: "20px",
     position: "absolute",
     color: "white",
   },
@@ -25,9 +25,9 @@ const useStyles = makeStyles((theme) => ({
 export function Legend({ course, transitionTimeScale }) {
   const classes = useStyles();
   const spring = useSpring({
-    transform: course ? "translateX(-130%)" : "translateX(0%)",
+    transform: course ? "translateX(130%)" : "translateX(0%)",
     from: {
-      transform: "translateX(-130%)",
+      transform: "translateX(130%)",
     },
     config: {
       duration: transitionTimeScale,
