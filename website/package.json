@@ -54,7 +54,7 @@
     "core-js": "^3.6.5",
     "d3": "^5.15.1",
     "material-ui-dropzone": "3.0.0",
-    "node-sass": "^4.14.1",
+    "node-sass": "^7.0.0",
     "puppeteer": "^3.0.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
